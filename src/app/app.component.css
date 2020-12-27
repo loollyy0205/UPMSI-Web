@@ -1,0 +1,353 @@
+@font-face{
+  font-family: 'BebasNeueBold';
+  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Homepage_Mockup-ForDev_Files\UPMSI_Homepage_Mockup-ForDev_Files\Fonts\BebasNeue Bold.otf");
+}
+
+@font-face{
+  font-family: 'Helvetica';
+  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Homepage_Mockup-ForDev_Files\UPMSI_Homepage_Mockup-ForDev_Files\Fonts\Helvetica Neu Bold.ttf");
+}
+
+@font-face{
+  font-family: 'inter-medium';
+  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Homepage_Mockup-ForDev_Files\UPMSI_Homepage_Mockup-ForDev_Files\Fonts\Inter-Medium.ttf");
+}
+
+@font-face{
+  font-family: 'inter-semibold';
+  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Homepage_Mockup-ForDev_Files\UPMSI_Homepage_Mockup-ForDev_Files\Fonts\Inter-SemiBold.ttf");
+}
+
+@font-face{
+  font-family: 'inter-bold';
+  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Homepage_Mockup-ForDev_Files\UPMSI_Homepage_Mockup-ForDev_Files\Fonts\Inter-Bold.ttf");
+}
+
+.bebas{
+  font-family: 'BebasNeueBold';
+}
+
+.helvetica{
+  font-family: 'Helvetica';
+}
+
+.inter-medium{
+  font-family: 'inter-medium';
+}
+
+.inter-semibold{
+  font-family: 'inter-semibold';
+}
+
+.inter-bold{
+  font-family: 'inter-bold';
+}
+
+.container{
+  /* height: 100vh; */
+  background-color: white;
+}
+
+
+/* Logo and nav CSS Section */
+.container .top-container{
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  width: 100%;
+  z-index: 999;
+  position: relative;
+}
+
+.top-container .top-content{
+  padding-top: 50px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.top-container .search-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Nav CSS Section */
+.top-container .nav-container{
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+
+/* First content CSS Section */
+.container .img-bg{
+  background-color: wheat;
+  background-image: url(../assets/photos/turtle.jpg);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.img-bg .img-container{
+  width: 55%;
+  height: 100%;
+  margin-left: 120px;
+
+}
+
+.img-bg .img-container .capital-words{
+  font-size: 110px;
+  line-height: .8;
+}
+
+.img-bg .img-container .second-p{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.img-bg .img-container .img-content{
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+
+
+/* Learn more Button */
+#learn-more{
+  width: 250px;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #00a562;
+  color: white;
+}
+
+#learn-more:hover{
+  background-color: rgb(0, 165, 98, .8)
+}
+
+
+/* News CSS Section */
+.news-container{
+  height: 600px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-container .news-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px;
+}
+
+.news-content #news1{
+  font-size: 20px;
+  width: 380px;
+}
+
+
+/* Education CSS Section */
+.educ-container{
+  height: 600px;
+  background-image: url(../assets/photos/educ.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.educ-container .educ-content{
+  padding-left: 120px;
+  width: 45%;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+
+/* Extension CSS Section */
+.extension-container{
+  height: 600px;
+  display: flex;
+  flex-flow: row;
+}
+
+.extension-container .extension-left{
+  height: 100%;
+  width: 45%;
+  background-image: url(../assets/photos/extension.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.extension-container .extension-right{
+  height: 100%;
+  width: 55%;
+  background-color: #20578E;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.extension-right .extension-content{
+  padding-left: 100px;
+  width: 68%;
+  line-height: 1.5;
+}
+
+
+/* Resources CSS Section */
+.resources-container{
+  height: 600px;
+  display: flex;
+  flex-flow: row;
+}
+
+.resources-container .resources-left{
+  height: 100%;
+  width: 55%;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
+}
+
+.resources-container .resources-right{
+  height: 100%;
+  width: 45%;
+  background-image: url(../assets/photos/resources.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.resources-left .resources-content{
+  padding-left: 100px;
+  width: 68%;
+  line-height: 1.5;
+}
+
+
+/* Research CSS Section */
+.research-container{
+  height: 600px;
+  background-image: url(../assets/photos/research.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.research-container .research-content{
+  padding-top: 100px;
+  padding-left: 120px;
+  width: 45%;
+  line-height: 1.5;
+}
+
+
+/* UPMSI Office CSS Section */
+.msiOffice-container{
+  height: 600px;
+  display: flex;
+  flex-flow: row;
+}
+
+.msiOffice-container .msiOffice-left{
+  height: 100%;
+  width: 45%;
+  background-image: url(../assets/photos/msiOffice.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.msiOffice-container .msiOffice-right{
+  height: 100%;
+  width: 55%;
+  background-color: #00a562;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.msiOffice-right .msiOffice-content{
+  padding-left: 100px;
+  width: 68%;
+  line-height: 1.5;
+}
+
+
+/* Contact CSS Section */
+.contact-container{
+  height: 400px;
+  background-color: #20578E;
+  display: flex;
+  flex-flow: row;
+  padding-left: 100px;
+  color: white;
+  padding-top: 60px;
+}
+
+.contact-container .first-content{
+  width: 25%;
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+}
+
+.first-content p{
+  cursor: pointer;
+}
+
+.first-content p:hover{
+  color: rgb(255,255,255,.8);
+}
+.contact-container .second-content{
+  width: 25%;
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+}
+
+.second-content p{
+  cursor: pointer;
+}
+
+.second-content p:hover{
+  color: rgb(255,255,255,.8);
+}
+.contact-container .third-content{
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+  line-height: 1.5;
+}
+
+/* Footer CSS Section */
+footer{
+  height: 80px;
+  background-color: #E1E1E1;
+  color: #666666;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
