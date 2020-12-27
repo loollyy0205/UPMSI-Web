@@ -1,26 +1,30 @@
+/* @font-face {
+   font-family: 'Bebas';
+   src: url('../assets/Fonts/BebasNeue\ Bold.otf') format('opentype');
+ } */
 @font-face{
   font-family: 'BebasNeueBold';
-  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Web\UPMSI\src\assets\photos\Fonts\BebasNeue Bold.otf");
+  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Web\UPMSI\src\assets\Fonts\BebasNeue Bold.otf");
 }
 
 @font-face{
   font-family: 'Helvetica';
-  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Web\UPMSI\src\assets\photos\Fonts\Helvetica Neu Bold.ttf");
+  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Web\UPMSI\src\assets\Fonts\Helvetica Neu Bold.ttf");
 }
 
 @font-face{
   font-family: 'inter-medium';
-  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Web\UPMSI\src\assets\photos\Fonts\Inter-Medium.ttf");
+  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Web\UPMSI\src\assets\Fonts\Inter-Medium.ttf");
 }
 
 @font-face{
   font-family: 'inter-semibold';
-  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Web\UPMSI\src\assets\photos\Fonts\Inter-SemiBold.ttf");
+  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Web\UPMSI\src\assets\Fonts\Inter-SemiBold.ttf");
 }
 
 @font-face{
   font-family: 'inter-bold';
-  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Web\UPMSI\src\assets\photos\Fonts\Inter-Bold.ttf");
+  src: url("C:\Users\franc\OneDrive\Documents\Saavedra\MSI Website\UPMSI_Web\UPMSI\src\assets\Fonts\Inter-Bold.ttf");
 }
 
 .bebas{
