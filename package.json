@@ -2,7 +2,7 @@
   "name": "upmsi",
   "version": "0.0.0",
   "scripts": {
-    "heroku-postbuild": "ng build--prod",
+    "heroku-postbuild": "ng build --prod",
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build",
@@ -16,6 +16,8 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "^11.0.5",
+    "@angular/compiler-cli": "^11.0.5",
     "@angular/animations": "~11.0.5",
     "@angular/cdk": "^11.0.3",
     "@angular/common": "~11.0.5",
