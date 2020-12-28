@@ -85,6 +85,11 @@
   justify-content: space-between;
 }
 
+.nav-container button:hover{
+  background-color: #00a562;
+  color: white;
+}
+
 
 /* First content CSS Section */
 .container .img-bg{
