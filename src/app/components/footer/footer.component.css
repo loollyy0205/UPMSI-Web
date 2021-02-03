@@ -1,0 +1,64 @@
+
+
+
+/* Contact CSS Section */
+.contact-container{
+  margin-left: 120px;
+  margin-right: 120px;
+  height: 400px;
+  background-color: #20578E;
+  display: flex;
+  flex-flow: row;
+  padding-left: 100px;
+  color: white;
+  padding-top: 60px;
+}
+
+.contact-container .first-content{
+  width: 25%;
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+}
+
+.first-content p{
+  cursor: pointer;
+}
+
+.first-content p:hover{
+  color: rgb(255,255,255,.8);
+}
+.contact-container .second-content{
+  width: 25%;
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+}
+
+.second-content p{
+  cursor: pointer;
+}
+
+.second-content p:hover{
+  color: rgb(255,255,255,.8);
+}
+.contact-container .third-content{
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+  line-height: 1.5;
+}
+
+/* Footer CSS Section */
+footer{
+  margin-left: 120px;
+  margin-right: 120px;
+  height: 80px;
+  background-color: #18416b;
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

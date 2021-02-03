@@ -1,0 +1,86 @@
+.container{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.container .title{
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #4c515a;
+}
+
+.container .content{
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.content .left-content{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.left-content .content1{
+  width: 50%;
+}
+
+.content1 .address{
+  border-bottom: 1px solid #94979c;
+  border-top: 1px solid #94979c;
+  color: #6abf8c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content1 .content-address{
+  padding-top: 10px;
+  line-height: 1.5;
+}
+
+.content2 .email{
+  border-bottom: 1px solid #94979c;
+  border-top: 1px solid #94979c;
+  color: #6abf8c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content2 .content-email{
+  padding-top: 10px;
+}
+
+.left-content .content2{
+  width: 50%;
+}
+
+.content .right-content{
+  width: 50%;
+}
+
+.right-content .phone{
+  border-bottom: 1px solid #94979c;
+  border-top: 1px solid #94979c;
+  color: #6abf8c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.right-content .content-phone1{
+  width: 50%;
+  padding-top: 10px;
+  line-height: 1.5;
+}
+.right-content .content-phone2{
+  width: 50%;
+  padding-top: 10px;
+  line-height: 1.5;
+}
+
+.phone-content{
+  display: flex;
+  flex-direction: row;
+}

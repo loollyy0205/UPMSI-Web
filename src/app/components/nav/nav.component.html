@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="top-container animate__animated animate__fadeIn">
+    <div class="top-content">
+      <div class="search-container">
+        <img src="../assets/photos/UPMSI.png" alt="UPMSI LOGO" height="100px">
+
+        <mat-form-field>
+          <mat-label>Search</mat-label>
+          <input matInput type="text">
+          <button mat-button matSuffix mat-icon-button>
+            <mat-icon>search</mat-icon>
+          </button>
+        </mat-form-field>
+      </div>
+      <div class="nav-container">
+        <button mat-button [routerLink]="['/About']" [class.highlight]="about">ABOUT</button>
+        <button mat-button [routerLink]="['/Education']" [class.highlight]="education">EDUCATION</button>
+        <button mat-button>RESEARCH</button>
+        <button mat-button [routerLink]="['/Extension']" [class.highlight]="extension">EXTENSION</button>
+        <button mat-button>RESOURCES</button>
+        <button mat-button>NEWS</button>
+        <button mat-button [routerLink]="['/Contact']" [class.highlight]="contact">CONTACT</button>
+      </div>
+      <hr style="margin-top: 15px; margin-bottom: 30px;">
+    </div>
+  </div>

@@ -1,0 +1,52 @@
+.container{
+  /* height: 100vh; */
+  background-color: white;
+}
+
+
+/* Logo and nav CSS Section */
+.container .top-container{
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  width: 100%;
+  z-index: 999;
+  position: relative;
+}
+
+.top-container .top-content{
+  padding-top: 50px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.top-container .search-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Nav CSS Section */
+.top-container .nav-container{
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.nav-container button{
+  color: #4c515a;
+}
+
+.nav-container button:hover{
+  background-color: #00a562;
+  color: white;
+}
+
+.highlight{
+  /* background-color: #00a562; */
+  border-bottom: 3px solid #00a562;
+  border-top: 3px solid #00a562;
+}

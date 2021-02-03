@@ -45,3 +45,49 @@ table {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+@font-face{
+  font-family: 'BebasNeueBold';
+  src: url("./assets/Fonts/BebasNeue Bold.otf");
+}
+
+@font-face{
+  font-family: 'Helvetica';
+  src: url("./assets/Fonts/Helvetica Neu Bold.ttf");
+}
+
+@font-face{
+  font-family: 'inter-medium';
+  src: url("./assets/Fonts/Inter-Medium.ttf");
+}
+
+@font-face{
+  font-family: 'inter-semibold';
+  src: url("./assets/Fonts/Inter-SemiBold.ttf");
+}
+
+@font-face{
+  font-family: 'inter-bold';
+  src: url("./assets/Fonts/Inter-Bold.ttf");
+}
+
+.bebas{
+  font-family: 'BebasNeueBold';
+}
+
+.helvetica{
+  font-family: 'Helvetica';
+}
+
+.inter-medium{
+  font-family: 'inter-medium';
+}
+
+.inter-semibold{
+  font-family: 'inter-semibold';
+}
+
+.inter-bold{
+  font-family: 'inter-bold';
+}
