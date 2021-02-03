@@ -11,6 +11,7 @@ export class NavComponent implements OnInit {
   education:boolean = false;
   extension:boolean = false;
   contact:boolean = false;
+  news:boolean = false;
   constructor(private router:Router) { }
 
   ngOnInit(): void {
@@ -22,6 +23,8 @@ export class NavComponent implements OnInit {
       this.extension = true;
     }else if(this.router.url === '/Contact'){
       this.contact = true;
+    }else if(this.router.url === '/News'){
+      this.news = true;
     }
   }
 

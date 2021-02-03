@@ -1,3 +1,4 @@
+import { NewsComponent } from './components/news/news.component';
 import { ExtensionComponent } from './components/extension/extension.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
@@ -11,6 +12,7 @@ const routes: Routes = [
   {path: 'Education', component: EducationComponent},
   {path: 'Extension', component: ExtensionComponent},
   {path: 'Contact', component: ContactComponent},
+  {path: 'News', component: NewsComponent},
 ];
 
 @NgModule({
