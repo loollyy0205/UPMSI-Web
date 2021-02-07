@@ -2,7 +2,7 @@
   <app-nav></app-nav>
 
   <div class="img-bg animate__animated animate__fadeIn animate__delay-1s">
-    <!-- <div class="img-container">
+    <div class="img-container">
       <div class="img-content">
         <p class="capital-words bebas">WE ARE THE UP MARINE SCIENCE INSTITUTE</p>
         <br><br>
@@ -15,7 +15,25 @@
         <br><br>
         <button id="learn-more">LEARN MORE</button>
       </div>
-    </div> -->
+    </div>
+    <carousel
+    [images]="images"
+    [autoplay]="true"
+    [loop]="true"
+    [pauseOnHover]="false"
+    [freeScroll]="false"
+    [autoplayInterval]="'3000'"
+    [transitionTimingFunction]="'ease-in-out'"
+    [transitionDuration]="'100'"
+    [height]="'100%'"
+    [cellWidth]="'100%'"
+    [arrows]="false"
+    [objectFit]="'cover'"
+    [overflowCellsLimit]="1"
+    [dots]="true"
+    >
+    </carousel>
+
   </div>
 </div>
 

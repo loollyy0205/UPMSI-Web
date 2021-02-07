@@ -1,5 +1,5 @@
 import { MaterialModule } from './material/material.module';
-
+import {IvyCarouselModule} from 'angular-responsive-carousel';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -33,7 +33,8 @@ import { HomeComponent } from './components/home/home.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

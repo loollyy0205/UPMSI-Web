@@ -18,7 +18,12 @@
   width: 55%;
   height: 100%;
   margin-left: 120px;
+  position: absolute;
+  z-index: 1;
+}
 
+carousel{
+  z-index: -1;
 }
 
 .img-bg .img-container .capital-words{
@@ -29,6 +34,7 @@
 .img-bg .img-container .second-p{
   font-size: 16px;
   line-height: 1.5;
+  text-shadow: 2px 2px 3px black;
 }
 
 .img-bg .img-container .img-content{
