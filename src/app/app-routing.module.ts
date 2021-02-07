@@ -1,3 +1,4 @@
+import { HomeComponent } from './components/home/home.component';
 import { NewsComponent } from './components/news/news.component';
 import { ExtensionComponent } from './components/extension/extension.component';
 import { AboutComponent } from './components/about/about.component';
@@ -7,7 +8,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/About', pathMatch: 'full'},
+  {path: '', redirectTo: '/Home', pathMatch: 'full'},
+  {path: 'Home', component: HomeComponent},
   {path: 'About', component: AboutComponent},
   {path: 'Education', component: EducationComponent},
   {path: 'Extension', component: ExtensionComponent},

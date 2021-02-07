@@ -14,6 +14,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { MscComponent } from './components/msc/msc.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { FooterComponent } from './components/footer/footer.component';
     MscComponent,
     NavComponent,
     FooterComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

@@ -33,7 +33,7 @@
   width: 100%;
   display: flex;
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav-container button{
@@ -47,6 +47,6 @@
 
 .highlight{
   /* background-color: #00a562; */
-  border-bottom: 3px solid #00a562;
-  border-top: 3px solid #00a562;
+  border-bottom: 2px solid #00a562;
+  border-top: 2px solid #00a562;
 }

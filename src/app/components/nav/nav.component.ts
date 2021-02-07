@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  home:boolean = false;
   about:boolean = false;
   education:boolean = false;
   extension:boolean = false;
@@ -25,6 +26,8 @@ export class NavComponent implements OnInit {
       this.contact = true;
     }else if(this.router.url === '/News'){
       this.news = true;
+    }else if(this.router.url === '/Home'){
+      this.home = true;
     }
   }
 

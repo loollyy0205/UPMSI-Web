@@ -13,12 +13,14 @@
         </mat-form-field>
       </div>
       <div class="nav-container">
+        <button mat-button [routerLink]="['/Home']" [class.highlight]="home">Home</button>
+        <button mat-button [routerLink]="['/News']" [class.highlight]="news">NEWS</button>
         <button mat-button [routerLink]="['/About']" [class.highlight]="about">ABOUT</button>
-        <button mat-button [routerLink]="['/Education']" [class.highlight]="education">EDUCATION</button>
+        <button mat-button [routerLink]="['/Education']" [class.highlight]="education">ACADEMICS</button>
         <button mat-button>RESEARCH</button>
+        <button mat-button>FACILITIES</button>
         <button mat-button [routerLink]="['/Extension']" [class.highlight]="extension">EXTENSION</button>
         <button mat-button>RESOURCES</button>
-        <button mat-button [routerLink]="['/News']" [class.highlight]="news">NEWS</button>
         <button mat-button [routerLink]="['/Contact']" [class.highlight]="contact">CONTACT</button>
       </div>
       <hr style="margin-top: 15px; margin-bottom: 30px;">
