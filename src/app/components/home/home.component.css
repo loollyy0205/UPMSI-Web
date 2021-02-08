@@ -82,6 +82,16 @@ carousel{
   gap: 20px;
 }
 
+.see-more{
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.see-more:hover{
+  color: rgb(0, 0, 0, .8);
+}
+
 .news-content #news1{
   font-size: 20px;
   width: 380px;

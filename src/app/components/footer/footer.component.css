@@ -1,10 +1,5 @@
-
-
-
 /* Contact CSS Section */
 .contact-container{
-  margin-left: 120px;
-  margin-right: 120px;
   height: 400px;
   background-color: #20578E;
   display: flex;
@@ -45,15 +40,28 @@
 .contact-container .third-content{
   width: 50%;
   display: flex;
-  flex-flow: column;
+  flex-direction: row;
+}
+
+.third-content .left-third{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
   gap: 30px;
   line-height: 1.5;
 }
 
+.third-content .right-third{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
 /* Footer CSS Section */
 footer{
-  margin-left: 120px;
-  margin-right: 120px;
   height: 80px;
   background-color: #18416b;
   color: #ffffff;

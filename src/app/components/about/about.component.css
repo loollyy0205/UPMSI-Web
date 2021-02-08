@@ -3,41 +3,51 @@
   margin-right: 120px;
 }
 
-.container .title{
-  font-size: 60px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  color: #4c515a;
-}
-
 .container .content{
-  height: 400px;
-  padding-top: 20px;
+  height: 550px;
   display: flex;
   flex-direction: row;
 }
 
 .content .left-content{
-  background-image: url(../../../assets/photos/msiOffice.jpg);
+  background-image: url(../../../assets/photos/about1.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  width: 45%;
+  width: 25%;
 }
 
 .content .right-content{
   height: 100%;
-  width: 60%;
-  background-color: #6abf8c;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-content .title{
+  font-size: 60px;
+  color: #264d8e;
+  height: 15%;
+  padding: 0 40px;
+}
+.right-content .lower-content{
+  height: 75%;
+
 }
 
 .right-content p{
-  color: white;
-  padding: 0 100px;
-  font-size: 15px;
+  padding-left: 40px;
   line-height: 1.5;
-  height: 100%;
+}
+
+.right-content .aboutWork{
+  height: 19%;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: underline;
+  color: #384e8a;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-end;
 }

@@ -13,15 +13,15 @@
         </mat-form-field>
       </div>
       <div class="nav-container">
-        <button mat-button [routerLink]="['/Home']" [class.highlight]="home">HOME</button>
-        <button mat-button [routerLink]="['/News']" [class.highlight]="news">NEWS</button>
-        <button mat-button [routerLink]="['/About']" [class.highlight]="about">ABOUT</button>
-        <button mat-button [routerLink]="['/Education']" [class.highlight]="education">ACADEMICS</button>
+        <button mat-button [routerLink]="['/Home']" [style.color]="home ? '#00a562' : ''">HOME</button>
+        <button mat-button [routerLink]="['/About']" [style.color]="about ? '#00a562' : ''">ABOUT</button>
+        <button mat-button [routerLink]="['/News']" [style.color]="news ? '#00a562' : ''">NEWS</button>
+        <button mat-button [routerLink]="['/Education']" [style.color]="education ? '#00a562' : ''">ACADEMICS</button>
         <button mat-button>RESEARCH</button>
         <button mat-button>FACILITIES</button>
-        <button mat-button [routerLink]="['/Extension']" [class.highlight]="extension">EXTENSION</button>
+        <button mat-button [routerLink]="['/Extension']" [style.color]="extension ? '#00a562' : ''">EXTENSION</button>
         <button mat-button>RESOURCES</button>
-        <button mat-button [routerLink]="['/Contact']" [class.highlight]="contact">CONTACT</button>
+        <button mat-button [routerLink]="['/Contact']" [style.color]="contact ? '#00a562' : ''">CONTACT</button>
       </div>
       <hr style="margin-top: 15px; margin-bottom: 30px;">
     </div>
