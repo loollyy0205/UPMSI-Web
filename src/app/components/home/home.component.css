@@ -1,20 +1,123 @@
 .container{
-  /* height: 100vh; */
   background-color: white;
+  overflow: hidden;
 }
 
-/* First content CSS Section */
-.container .img-bg{
-  /* background-image: url(../../../assets/photos/turtle.jpg); */
-  width: 100%;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container .slider{
   height: 700px;
+  width: 100%;
+}
+
+.container .slider .sliderchild{
+  height: 700px;
+  width: 500%;
+  animation: slider infinite 30s 3s;
+}
+
+.imagecon{
+  height: 700px;
+  width: 20%;
+  float: left;
+}
+
+.imagecon:nth-child(1){
+  background-image: url('../../../assets/photos/turtle.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+}
+
+.imagecon:nth-child(2){
+  background-image: url('../../../assets/photos/news1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagecon:nth-child(3){
+  background-image: url('../../../assets/photos/extension.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagecon:nth-child(4){
+  background-image: url('../../../assets/photos/news2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imagecon:nth-child(5){
+  background-image: url('../../../assets/photos/turtle.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes slider{
+  12.5%{
+    margin-left: -100%;
+  }
+  25%{
+    margin-left: -100%;
+  }
+  37.5%{
+    margin-left: -200%;
+  }
+  50%{
+    margin-left: -200%;
+  }
+  62.5%{
+    margin-left: -300%;
+  }
+  75%{
+    margin-left: -300%;
+  }
+  87.5%{
+    margin-left: -400%;
+  }
+  100%{
+    margin-left: -400%;
+  }
+}
+
+.slider .img-container{
+  width: 55%;
+  height: 100%;
+  margin-left: 120px;
+  position: absolute;
   z-index: 1;
 }
 
-.img-bg .img-container{
+.mt{
+  margin-top: 10px;
+}
+
+.slider .img-container .capital-words{
+  font-size: 110px;
+  line-height: .8;
+}
+
+.slider .img-container .second-p{
+  font-size: 16px;
+  line-height: 1.5;
+  text-shadow: 2px 2px 3px black;
+}
+
+.slider .img-container .img-content{
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+
+
+
+/* First content CSS Section */
+
+/* .img-bg .img-container{
   width: 55%;
   height: 100%;
   margin-left: 120px;
@@ -44,7 +147,7 @@ carousel{
   flex-direction: column;
   align-self: center;
   justify-content: center;
-}
+} */
 
 
 /* Learn more Button */
