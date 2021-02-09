@@ -30,4 +30,5 @@ export class NavComponent implements OnInit {
       this.home = true;
     }
   }
+
 }
