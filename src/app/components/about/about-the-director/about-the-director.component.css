@@ -1,0 +1,73 @@
+.container{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.director{
+  margin-top: 50px;
+  height: 450px;
+  display: block;
+}
+
+.director .title{
+  color: #384e8a;
+  font-size: 35px;
+  height: 10%;
+}
+
+.image-container{
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-content{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.image-content span:nth-child(1){
+  color: #384e8a;
+  font-size: 35px;
+}
+
+.image-content span:nth-child(n+2){
+  color: #5da563;
+  font-size: 28px;
+}
+
+.director-content{
+  height: 100%;
+}
+
+.director-info .education{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.director-info .research-interest{
+  width: 100%;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.director-info .selected-publications{
+  width: 100%;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.students{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}

@@ -15,6 +15,8 @@ import { MscComponent } from './components/msc/msc.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { AboutTheDirectorComponent } from './components/about/about-the-director/about-the-director.component';
+import { AnnouncementComponent } from './components/news/announcement/announcement.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { HomeComponent } from './components/home/home.component';
     NavComponent,
     FooterComponent,
     HomeComponent,
+    AboutTheDirectorComponent,
+    AnnouncementComponent,
   ],
   imports: [
     BrowserModule,

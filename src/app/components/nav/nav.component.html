@@ -23,7 +23,7 @@
           </div>
           <div class="dropdown-menu">
             <span>About MSI</span>
-            <span>About the Director</span>
+            <span [routerLink]="['/About/About-the-director']">About the Director</span>
             <div class="sub-menu">
               <span>Faculty</span>
               <p id="sub-down">
@@ -42,7 +42,7 @@
             <button mat-button [routerLink]="['/News']" [style.backgroundColor]="news ? 'white' : ''" [style.color]="news ? '#00a562' : ''">NEWS</button>
           </div>
           <div class="dropdown-menu">
-            <span>Announcement</span>
+            <span [routerLink]="['/News/Announcement']">Announcement</span>
             <span>Vacancies/Opportunities</span>
             <span style="line-height: 1.3;">Research Projects/Highlights</span>
           </div>

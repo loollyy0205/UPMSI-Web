@@ -3,7 +3,7 @@
 
 .content{
   margin-top: 100px;
-  height: 350px;
+  height: 450px;
   display: flex;
   flex-direction: row;
   background-color: #384e8a;
@@ -47,19 +47,19 @@
 }
 .content2{
   margin: 100px 0;
-  height: 400px;
+  height: 500px;
   display: flex;
   flex-direction: row;
 }
 
 .content2 .left-content2{
-  width: 30%;
+  width: 50%;
   background-color: #5da563;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 100px;
+  align-items: center;
 }
 
 .left-content2 p{
@@ -69,8 +69,38 @@
 }
 
 .content2 .right-content2{
-  width: 70%;
+  width: 50%;
   background-image: url(../../../assets/photos/about3.JPG);
   background-repeat: repeat;
   background-size: cover;
+}
+
+.content3{
+  margin: 100px 0;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+
+.content3 .left-content3{
+  width: 50%;
+  background-image: url(../../../assets/photos/ad-office.JPG);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.content3 .right-content3{
+  width: 50%;
+  background-color: #5da563;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-content3 p{
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+  padding-left: 60px;
 }

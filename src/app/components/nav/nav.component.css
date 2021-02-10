@@ -71,6 +71,7 @@
   color: white;
   text-decoration: none;
   border: none;
+  outline: none;
   background-color: #00a562;
   padding: 18px 16px;
 }
@@ -78,6 +79,7 @@
 .dropdown-menu span:hover{
   background-color:rgb(3, 189, 115);
   color: white;
+
 }
 
 .home:hover .dropdown-menu{
