@@ -61,7 +61,7 @@
 
         <div class="home">
           <div class="menu-button">
-           <button mat-button>RESEARCH</button>
+           <button mat-button [routerLink]="['/Research']" [style.backgroundColor]="research ? 'white' : ''" [style.color]="research ? '#00a562' : ''">RESEARCH</button>
           </div>
           <div class="dropdown-menu">
             <span>Areas of Reseach</span>

@@ -10,6 +10,7 @@ export class NavComponent implements OnInit {
   home:boolean = false;
   about:boolean = false;
   education:boolean = false;
+  research:boolean = false;
   extension:boolean = false;
   contact:boolean = false;
   news:boolean = false;
@@ -20,6 +21,8 @@ export class NavComponent implements OnInit {
       this.about = true;
     }else if(this.router.url === '/Education'){
       this.education = true;
+    }else if(this.router.url === '/Research'){
+      this.research = true;
     }else if(this.router.url === '/Extension'){
       this.extension = true;
     }else if(this.router.url === '/Contact'){

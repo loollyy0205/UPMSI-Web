@@ -17,6 +17,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutTheDirectorComponent } from './components/about/about-the-director/about-the-director.component';
 import { AnnouncementComponent } from './components/news/announcement/announcement.component';
+import { ResearchComponent } from './components/research/research.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { AnnouncementComponent } from './components/news/announcement/announceme
     HomeComponent,
     AboutTheDirectorComponent,
     AnnouncementComponent,
+    ResearchComponent,
   ],
   imports: [
     BrowserModule,
