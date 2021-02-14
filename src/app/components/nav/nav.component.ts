@@ -7,11 +7,19 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-  hover:boolean = false;
+  hoverAbout:boolean = false;
+  hoverNews:boolean = false;
+  hoverAcademics:boolean = false;
+  hoverResearch:boolean = false;
+  hoverFacilities:boolean = false;
+  hoverExtension:boolean = false;
+  hoverResources:boolean = false;
+
   home:boolean = false;
   about:boolean = false;
   education:boolean = false;
   research:boolean = false;
+  facilities:boolean = false;
   extension:boolean = false;
   resources:boolean = false;
   contact:boolean = false;

@@ -19,9 +19,9 @@
 
         <div class="home">
           <div class="menu-button">
-            <button mat-button [routerLink]="['/About']" [style.backgroundColor]="about ? 'white' : ''" [style.color]="about ? '#00a562' : ''">ABOUT</button>
+            <button mat-button [routerLink]="['/About']" [style.backgroundColor]="about ? 'white' : '' || hoverAbout ? '#00a562' : ''" [style.color]="about ? '#00a562' : ''|| hoverAbout ? 'white' : ''">ABOUT</button>
           </div>
-          <div class="dropdown-menu">
+          <div (mouseover)="hoverAbout=true" (mouseleave)="hoverAbout=false" class="dropdown-menu">
             <span>About MSI</span>
             <span [routerLink]="['/About/About-the-director']">About the Director</span>
             <div class="sub-menu">
@@ -39,9 +39,9 @@
 
         <div class="home">
           <div class="menu-button">
-            <button mat-button [routerLink]="['/News']" [style.backgroundColor]="news ? 'white' : ''" [style.color]="news ? '#00a562' : ''">NEWS</button>
+            <button mat-button [routerLink]="['/News']" [style.backgroundColor]="news ? 'white' : '' || hoverNews ? '#00a562' : ''" [style.color]="news ? '#00a562' : ''|| hoverNews ? 'white' : ''">NEWS</button>
           </div>
-          <div class="dropdown-menu">
+          <div (mouseover)="hoverNews=true" (mouseleave)="hoverNews=false" class="dropdown-menu">
             <span>Announcement</span>
             <span>Vacancies/Opportunities</span>
             <span style="line-height: 1.3;">Research Projects/Highlights</span>
@@ -50,9 +50,9 @@
 
         <div class="home">
           <div class="menu-button">
-            <button mat-button [routerLink]="['/Education']" [style.backgroundColor]="education ? 'white' : ''" [style.color]="education ? '#00a562' : ''">ACADEMICS</button>
+            <button mat-button [routerLink]="['/Education']" [style.backgroundColor]="education ? 'white' : '' || hoverAcademics ? '#00a562' : ''" [style.color]="education ? '#00a562' : ''|| hoverAcademics ? 'white' : ''">ACADEMICS</button>
           </div>
-          <div class="dropdown-menu">
+          <div (mouseover)="hoverAcademics=true" (mouseleave)="hoverAcademics=false" class="dropdown-menu">
             <span style="line-height: 1.3;">M.5., Phd, Professional Masters Overview</span>
             <span>Course Offered</span>
             <span>Downloadable Forms</span>
@@ -61,9 +61,9 @@
 
         <div class="home">
           <div class="menu-button">
-           <button mat-button [routerLink]="['/Research']" [style.backgroundColor]="research ? 'white' : ''" [style.color]="research ? '#00a562' : ''">RESEARCH</button>
+           <button mat-button [routerLink]="['/Research']" [style.backgroundColor]="research ? 'white' : '' || hoverResearch ? '#00a562' : ''" [style.color]="research ? '#00a562' : ''|| hoverResearch ? 'white' : ''">RESEARCH</button>
           </div>
-          <div class="dropdown-menu">
+          <div (mouseover)="hoverResearch=true" (mouseleave)="hoverResearch=false" class="dropdown-menu">
             <span>Areas of Reseach</span>
             <span>Laboratories</span>
           </div>
@@ -71,9 +71,9 @@
 
         <div class="home">
           <div class="menu-button">
-            <button mat-button>FACILITIES</button>
+            <button mat-button [style.backgroundColor]="facilities ? 'white' : '' || hoverFacilities ? '#00a562' : ''" [style.color]="facilities ? '#00a562' : ''|| hoverFacilities ? 'white' : ''">FACILITIES</button>
           </div>
-          <div class="dropdown-menu">
+          <div (mouseover)="hoverFacilities=true" (mouseleave)="hoverFacilities=false" class="dropdown-menu">
             <span>Bolinao Marine Lab</span>
             <span>Puerto Galera Station</span>
             <span>Pag-Asa Marine Station</span>
@@ -91,9 +91,9 @@
 
         <div class="home">
           <div class="menu-button">
-            <button mat-button [routerLink]="['/Extension']" [style.backgroundColor]="extension ? 'white' : ''" [style.color]="extension ? '#00a562' : ''">EXTENSION</button>
+            <button mat-button [routerLink]="['/Extension']" [style.backgroundColor]="extension ? 'white' : '' || hoverExtension ? '#00a562' : ''" [style.color]="extension ? '#00a562' : ''|| hoverExtension ? 'white' : ''">EXTENSION</button>
           </div>
-          <div class="dropdown-menu">
+          <div (mouseover)="hoverExtension=true" (mouseleave)="hoverExtension=false" class="dropdown-menu">
             <span>Trainings</span>
             <span>Community Outreach</span>
             <span>Gallery</span>
@@ -102,9 +102,9 @@
 
         <div class="home">
           <div class="menu-button">
-            <button mat-button [routerLink]="['/Resources']" [style.backgroundColor]="resources ? 'white' : ''" [style.color]="resources ? '#00a562' : ''">RESOURCES</button>
+            <button mat-button [routerLink]="['/Resources']"  [style.backgroundColor]="resources ? 'white' : '' || hoverResources ? '#00a562' : ''" [style.color]="resources ? '#00a562' : ''|| hoverResources ? 'white' : ''">RESOURCES</button>
           </div>
-          <div class="dropdown-menu">
+          <div (mouseover)="hoverResources=true" (mouseleave)="hoverResources=false" class="dropdown-menu">
             <span>Publications</span>
             <span>Library</span>
             <span>Museums/Exhibits</span>
