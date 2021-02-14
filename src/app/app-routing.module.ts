@@ -1,3 +1,4 @@
+import { ResourcesComponent } from './components/resources/resources.component';
 import { ResearchComponent } from './components/research/research.component';
 import { AnnouncementComponent } from './components/news/announcement/announcement.component';
 import { AboutTheDirectorComponent } from './components/about/about-the-director/about-the-director.component';
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path: 'Education', component: EducationComponent},
   {path: 'Research', component: ResearchComponent},
   {path: 'Extension', component: ExtensionComponent},
+  {path: 'Resources', component: ResourcesComponent},
   {path: 'Contact', component: ContactComponent},
   {path: 'News', component: NewsComponent},
   {path: 'News/Announcement', component: AnnouncementComponent},

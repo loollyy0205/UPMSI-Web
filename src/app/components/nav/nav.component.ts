@@ -7,11 +7,13 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  hover:boolean = false;
   home:boolean = false;
   about:boolean = false;
   education:boolean = false;
   research:boolean = false;
   extension:boolean = false;
+  resources:boolean = false;
   contact:boolean = false;
   news:boolean = false;
   constructor(private router:Router) { }
@@ -31,6 +33,8 @@ export class NavComponent implements OnInit {
       this.news = true;
     }else if(this.router.url === '/Home'){
       this.home = true;
+    }else if(this.router.url === '/Resources'){
+      this.resources = true;
     }
   }
 
