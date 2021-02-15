@@ -71,7 +71,7 @@
 
         <div class="home">
           <div class="menu-button">
-            <button mat-button [style.backgroundColor]="facilities ? 'white' : '' || hoverFacilities ? '#00a562' : ''" [style.color]="facilities ? '#00a562' : ''|| hoverFacilities ? 'white' : ''">FACILITIES</button>
+            <button mat-button [routerLink]="['/Facilities']" [style.backgroundColor]="facilities ? 'white' : '' || hoverFacilities ? '#00a562' : ''" [style.color]="facilities ? '#00a562' : ''|| hoverFacilities ? 'white' : ''">FACILITIES</button>
           </div>
           <div (mouseover)="hoverFacilities=true" (mouseleave)="hoverFacilities=false" class="dropdown-menu">
             <span>Bolinao Marine Lab</span>

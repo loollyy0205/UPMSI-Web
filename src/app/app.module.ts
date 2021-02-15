@@ -19,6 +19,7 @@ import { AboutTheDirectorComponent } from './components/about/about-the-director
 import { AnnouncementComponent } from './components/news/announcement/announcement.component';
 import { ResearchComponent } from './components/research/research.component';
 import { ResourcesComponent } from './components/resources/resources.component';
+import { FacilitiesComponent } from './components/facilities/facilities.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ResourcesComponent } from './components/resources/resources.component';
     AnnouncementComponent,
     ResearchComponent,
     ResourcesComponent,
+    FacilitiesComponent,
   ],
   imports: [
     BrowserModule,

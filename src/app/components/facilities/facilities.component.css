@@ -1,0 +1,81 @@
+.content1{
+  height: 550px;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.content1-left{
+  width: 55%;
+  background-color: #394e8a;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content1-right{
+  width: 45%;
+  background-image: url(../../../assets/photos/faci1.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content2{
+  margin-top: 80px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.content2-left{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.content2-left .left{
+  width: 50%;
+  background-image: url(../../../assets/photos/faci2.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content2-left .right{
+  width: 50%;
+  background-color: #5ca361;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content2-right{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.content2-right .left{
+  width: 50%;
+  background-image: url(../../../assets/photos/faci3.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content2-right .right{
+  width: 50%;
+  background-color: #394e8a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content3{
+  height: 500px;
+  margin-top: 80px;
+  background-image: url(../../../assets/photos/faci4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
