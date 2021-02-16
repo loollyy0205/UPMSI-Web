@@ -1,3 +1,4 @@
+import { SubpageComponent } from './components/subpage/subpage.component';
 import { FacilitiesComponent } from './components/facilities/facilities.component';
 import { ResourcesComponent } from './components/resources/resources.component';
 import { ResearchComponent } from './components/research/research.component';
@@ -25,6 +26,7 @@ const routes: Routes = [
   {path: 'Contact', component: ContactComponent},
   {path: 'News', component: NewsComponent},
   {path: 'News/Announcement', component: AnnouncementComponent},
+  {path: 'subpage', component: SubpageComponent},
 ];
 
 @NgModule({

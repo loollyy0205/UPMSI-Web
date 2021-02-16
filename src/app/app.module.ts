@@ -20,6 +20,7 @@ import { AnnouncementComponent } from './components/news/announcement/announceme
 import { ResearchComponent } from './components/research/research.component';
 import { ResourcesComponent } from './components/resources/resources.component';
 import { FacilitiesComponent } from './components/facilities/facilities.component';
+import { SubpageComponent } from './components/subpage/subpage.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { FacilitiesComponent } from './components/facilities/facilities.componen
     ResearchComponent,
     ResourcesComponent,
     FacilitiesComponent,
+    SubpageComponent,
   ],
   imports: [
     BrowserModule,
