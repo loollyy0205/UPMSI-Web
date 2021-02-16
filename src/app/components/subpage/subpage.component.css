@@ -1,12 +1,6 @@
-.image-bar{
-  margin-top: 50px;
-  height: 350px;
-  background-image: url(../../../assets/photos/about3.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .content{
+  margin-left: 120px;
+  margin-right: 120px;
   margin-top: 50px;
   height: 350px;
   display: flex;
@@ -21,13 +15,11 @@
   font-size: 32px;
   color: #264d8e;
   height: 15%;
-  padding: 0 40px;
 }
 
 .content-left p{
   width: 80%;
   margin-top: 30px;
-  padding-left: 40px;
   line-height: 1.3;
 }
 
