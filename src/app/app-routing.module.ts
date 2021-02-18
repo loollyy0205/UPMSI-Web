@@ -1,3 +1,8 @@
+import { LaboratoriesComponent } from './components/research/laboratories/laboratories.component';
+import { FacultyComponent } from './components/about/faculty/faculty.component';
+import { AreasOfResearchComponent } from './components/research/areas-of-research/areas-of-research.component';
+import { CoursesComponent } from './components/education/courses/courses.component';
+import { BolinaoComponent } from './components/facilities/bolinao/bolinao.component';
 import { SubpageComponent } from './components/subpage/subpage.component';
 import { FacilitiesComponent } from './components/facilities/facilities.component';
 import { ResourcesComponent } from './components/resources/resources.component';
@@ -17,10 +22,15 @@ const routes: Routes = [
   {path: '', redirectTo: '/Home', pathMatch: 'full'},
   {path: 'Home', component: HomeComponent},
   {path: 'About', component: AboutComponent},
+  {path: 'About/faculty', component: FacultyComponent},
   {path: 'About/About-the-director', component: AboutTheDirectorComponent},
-  {path: 'Education', component: EducationComponent},
+  {path: 'Academics', component: EducationComponent},
+  {path: 'Academics/courses-offered', component: CoursesComponent},
   {path: 'Research', component: ResearchComponent},
+  {path: 'Research/areas-of-research', component: AreasOfResearchComponent},
+  {path: 'Research/laboratories', component: LaboratoriesComponent},
   {path: 'Facilities', component: FacilitiesComponent},
+  {path: 'Facilities/bolinao-marine-lab', component: BolinaoComponent},
   {path: 'Extension', component: ExtensionComponent},
   {path: 'Resources', component: ResourcesComponent},
   {path: 'Contact', component: ContactComponent},

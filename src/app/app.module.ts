@@ -21,6 +21,11 @@ import { ResearchComponent } from './components/research/research.component';
 import { ResourcesComponent } from './components/resources/resources.component';
 import { FacilitiesComponent } from './components/facilities/facilities.component';
 import { SubpageComponent } from './components/subpage/subpage.component';
+import { BolinaoComponent } from './components/facilities/bolinao/bolinao.component';
+import { CoursesComponent } from './components/education/courses/courses.component';
+import { AreasOfResearchComponent } from './components/research/areas-of-research/areas-of-research.component';
+import { FacultyComponent } from './components/about/faculty/faculty.component';
+import { LaboratoriesComponent } from './components/research/laboratories/laboratories.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +45,11 @@ import { SubpageComponent } from './components/subpage/subpage.component';
     ResourcesComponent,
     FacilitiesComponent,
     SubpageComponent,
+    BolinaoComponent,
+    CoursesComponent,
+    AreasOfResearchComponent,
+    FacultyComponent,
+    LaboratoriesComponent,
   ],
   imports: [
     BrowserModule,
