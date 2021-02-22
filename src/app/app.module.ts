@@ -1,5 +1,7 @@
 import { MaterialModule } from './material/material.module';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -26,6 +28,9 @@ import { CoursesComponent } from './components/education/courses/courses.compone
 import { AreasOfResearchComponent } from './components/research/areas-of-research/areas-of-research.component';
 import { FacultyComponent } from './components/about/faculty/faculty.component';
 import { LaboratoriesComponent } from './components/research/laboratories/laboratories.component';
+import { AdminComponent } from './components/admin/admin.component';
+import { AdminNavComponent } from './components/admin/admin-nav/admin-nav.component';
+import { AdminDashboardComponent } from './components/admin/admin-dashboard/admin-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -50,13 +55,19 @@ import { LaboratoriesComponent } from './components/research/laboratories/labora
     AreasOfResearchComponent,
     FacultyComponent,
     LaboratoriesComponent,
+    AdminComponent,
+    AdminNavComponent,
+    AdminDashboardComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    IvyCarouselModule
+    IvyCarouselModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

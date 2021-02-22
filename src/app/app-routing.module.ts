@@ -1,3 +1,6 @@
+import { AdminDashboardComponent } from './components/admin/admin-dashboard/admin-dashboard.component';
+import { AdminNavComponent } from './components/admin/admin-nav/admin-nav.component';
+import { AdminComponent } from './components/admin/admin.component';
 import { LaboratoriesComponent } from './components/research/laboratories/laboratories.component';
 import { FacultyComponent } from './components/about/faculty/faculty.component';
 import { AreasOfResearchComponent } from './components/research/areas-of-research/areas-of-research.component';
@@ -20,6 +23,9 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {path: '', redirectTo: '/Home', pathMatch: 'full'},
+  {path: 'admin', component: AdminComponent},
+  {path: 'admin/admin-nav', component: AdminNavComponent},
+  {path: 'admin/admin-dashboard', component: AdminDashboardComponent},
   {path: 'Home', component: HomeComponent},
   {path: 'About', component: AboutComponent},
   {path: 'About/faculty', component: FacultyComponent},

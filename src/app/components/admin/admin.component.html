@@ -1,0 +1,18 @@
+<div class="container">
+  <form #authForm="ngForm" (ngSubmit)="login(authForm)">
+    <div class="inter-medium content">
+      <mat-form-field appearance="standard">
+        <mat-label>username</mat-label>
+        <input ngModel name="email" email required matInput>
+      </mat-form-field>
+
+      <mat-form-field appearance="standard">
+        <mat-label>password</mat-label>
+        <input ngModel name="password" required type="password" matInput>
+      </mat-form-field>
+
+      <button mat-flat-button style="background-color: #5ca361; color: white; width: 70px; align-self: flex-end; margin-right: 28px;">Login</button>
+
+    </div>
+  </form>
+</div>
