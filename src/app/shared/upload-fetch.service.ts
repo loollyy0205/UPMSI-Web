@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -18,4 +19,26 @@ export class UploadFetchService {
       }
     );
   }
+
+  onSubmit(name:{name:string}){
+    this.http.post('https://upmsi-d03af-default-rtdb.firebaseio.com/home-headline.json', name)
+      .subscribe(responseData => console.log(responseData));
+  }
+
+  onFetchHomeHeadline(){
+    return this.http.get('https://upmsi-d03af-default-rtdb.firebaseio.com/home-headline.json')
+    .pipe(
+      map(responseData => {
+        const schedule = [];
+        for(const key in responseData){
+          schedule.push({...responseData[key], id:key});
+        }
+        return schedule;
+      })
+    );
+  }
+
+  // onUpdate(id:string){
+  //   this.http.patch('https://upmsi-d03af-default-rtdb.firebaseio.com/home-headline'+  +'.json')
+  // }
 }

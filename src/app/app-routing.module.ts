@@ -1,3 +1,5 @@
+import { AdminHomeComponent } from './components/admin/admin-home/admin-home.component';
+import { AuthGuard } from './shared/auth.guard';
 import { AdminDashboardComponent } from './components/admin/admin-dashboard/admin-dashboard.component';
 import { AdminNavComponent } from './components/admin/admin-nav/admin-nav.component';
 import { AdminComponent } from './components/admin/admin.component';
@@ -24,8 +26,8 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {path: '', redirectTo: '/Home', pathMatch: 'full'},
   {path: 'admin', component: AdminComponent},
-  {path: 'admin/admin-nav', component: AdminNavComponent},
   {path: 'admin/admin-dashboard', component: AdminDashboardComponent},
+  {path: 'admin/admin-home', component: AdminHomeComponent},
   {path: 'Home', component: HomeComponent},
   {path: 'About', component: AboutComponent},
   {path: 'About/faculty', component: FacultyComponent},

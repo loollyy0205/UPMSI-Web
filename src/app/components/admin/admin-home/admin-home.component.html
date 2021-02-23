@@ -1,0 +1,176 @@
+<app-admin-nav>
+  <div class="container">
+    <div class="content">
+      <mat-tab-group>
+        <mat-tab label="Image">
+        <div class="headline">
+            <div class="left">
+              <div style="display: flex; flex-direction: column; gap: 5px;">
+                <label for="first-image">First Image</label>
+                <input #imgfirstInput class="selectFile" type="file" name="first-image" [disabled]="!imgBool">
+              </div>
+
+              <div style="display: flex; flex-direction: column; gap: 5px;">
+                <label for="second-image">Second Image</label>
+                <input #imgsecondInput class="selectFile" type="file" name="second-image" [disabled]="!imgBool">
+              </div>
+
+              <div style="display: flex; flex-direction: column; gap: 5px;">
+                <label for="third-image">Third Image</label>
+                <input #imgthirdInput class="selectFile" type="file" name="third-image" [disabled]="!imgBool">
+              </div>
+
+              <div style="display: flex; flex-direction: column; gap: 5px;">
+                <label for="fourth-image">Fourth Image</label>
+                <input #imgfourthInput class="selectFile" type="file" name="fourth-image" [disabled]="!imgBool">
+              </div>
+            </div>
+
+            <div class="imgcon right">
+              <div class="right-content">
+                <p style="margin-top: 20px;">home-img.jpg</p>
+                <p>about-img.jpg</p>
+                <p style="margin-top: -10px;">academics-img.jpg</p>
+                <p style="margin-top: -10px;">facilities-img.jpg</p>
+              </div>
+              <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end; margin-right: 20px; margin-top: 10px;">
+                <button mat-stroked-button *ngIf="imgBool" (click)="imgCancel()">Cancel</button>
+                <button mat-flat-button style="background-color: #5ca361; color: white;" (click)="imgBool=true">Edit</button>
+                <button mat-flat-button style="background-color: #394e8a; color: white;">Save</button>
+              </div>
+            </div>
+          </div>
+        </mat-tab>
+
+        <mat-tab label="Headline">
+          <form #score="ngForm" (ngSubmit)="save(score.value)" class="headline">
+            <div class="left">
+              <mat-form-field appearance="outline">
+                <mat-label>First Headline</mat-label>
+                <input #titleInput1 matInput [disabled]="true" name="headline1" ngModel [disabled]="!titleBool">
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Second Headline</mat-label>
+                <input #titleInput2 matInput [disabled]="true" name="headline2" ngModel [disabled]="!titleBool">
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Third Headline</mat-label>
+                <input #titleInput3 matInput [disabled]="true" name="headline3" ngModel [disabled]="!titleBool">
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Fourth Headline</mat-label>
+                <input #titleInput4 matInput [disabled]="true" name="headline4" ngModel [disabled]="!titleBool">
+              </mat-form-field>
+            </div>
+
+            <div class="right">
+              <div class="right-content">
+                <p>{{headlineArr["headline1"]}}</p>
+                <p>{{headlineArr["headline2"]}}</p>
+                <p>{{headlineArr["headline3"]}}</p>
+                <p>{{headlineArr["headline4"]}}</p>
+              </div>
+              <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end; margin-right: 20px; margin-top: 20px;">
+                <button mat-stroked-button *ngIf="titleBool" (click)="titleCancel()">Cancel</button>
+                <button mat-flat-button type="button" style="background-color: #5ca361; color: white;" (click)="titleBool=true">Edit</button>
+                <button mat-flat-button type="submit" style="background-color: #394e8a; color: white;">Save</button>
+              </div>
+            </div>
+          </form>
+        </mat-tab>
+
+        <mat-tab label="Content">
+          <div class="cont headline">
+            <div class="left">
+              <mat-form-field appearance="outline">
+                <mat-label>First Content</mat-label>
+                <textarea #contentInput1 matInput [disabled]="!contentBool"></textarea>
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Second Content</mat-label>
+                <textarea #contentInput2 matInput [disabled]="!contentBool"></textarea>
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Third Content</mat-label>
+                <textarea #contentInput3 matInput [disabled]="!contentBool"></textarea>
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Fourth Content</mat-label>
+                <textarea #contentInput4 matInput [disabled]="!contentBool"></textarea>
+              </mat-form-field>
+            </div>
+
+            <div class="right">
+              <div class="right-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum neque similique
+                  laudantium aliquam officia nesciunt ut consequuntur repellendus perferendis omnis?</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum neque similique
+                  laudantium aliquam officia nesciunt ut consequuntur repellendus perferendis omnis?</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum neque similique
+                  laudantium aliquam officia nesciunt ut consequuntur repellendus perferendis omnis?</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum neque similique
+                  laudantium aliquam officia nesciunt ut consequuntur repellendus perferendis omnis?</p>
+
+              </div>
+              <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end; margin-right: 20px; margin-top: 20px;">
+                <button mat-stroked-button *ngIf="contentBool" (click)="contentCancel()">Cancel</button>
+                <button mat-flat-button style="background-color: #5ca361; color: white;" (click)="contentBool=true">Edit</button>
+                <button mat-flat-button style="background-color: #394e8a; color: white;">Save</button>
+              </div>
+            </div>
+          </div>
+        </mat-tab>
+
+        <mat-tab label="Links">
+          <div class="headline">
+            <div class="left">
+              <mat-form-field appearance="outline">
+                <mat-label>First Link</mat-label>
+                <input #linkInput1 matInput [disabled]="!linkBool">
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Second Link</mat-label>
+                <input #linkInput2 matInput [disabled]="!linkBool">
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Third Link</mat-label>
+                <input #linkInput3 matInput [disabled]="!linkBool">
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Fourth Link</mat-label>
+                <input #linkInput4 matInput [disabled]="!linkBool">
+              </mat-form-field>
+            </div>
+
+            <div class="right">
+              <div class="right-content">
+                <p>/upmsi/home</p>
+                <p>/upmsi/about</p>
+                <p>/upmsi/academics</p>
+                <p>/upmsi/facilities</p>
+              </div>
+              <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end; margin-right: 20px; margin-top: 20px;">
+                <button mat-stroked-button *ngIf="linkBool" (click)="linkCancel()">Cancel</button>
+                <button mat-flat-button style="background-color: #5ca361; color: white;" (click)="linkBool=true">Edit</button>
+                <button mat-flat-button style="background-color: #394e8a; color: white;">Save</button>
+              </div>
+            </div>
+          </div>
+        </mat-tab>
+
+      </mat-tab-group>
+    </div>
+  </div>
+</app-admin-nav>

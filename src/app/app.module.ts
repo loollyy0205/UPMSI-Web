@@ -1,3 +1,4 @@
+import { AuthGuard } from './shared/auth.guard';
 import { MaterialModule } from './material/material.module';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
@@ -31,6 +32,7 @@ import { LaboratoriesComponent } from './components/research/laboratories/labora
 import { AdminComponent } from './components/admin/admin.component';
 import { AdminNavComponent } from './components/admin/admin-nav/admin-nav.component';
 import { AdminDashboardComponent } from './components/admin/admin-dashboard/admin-dashboard.component';
+import { AdminHomeComponent } from './components/admin/admin-home/admin-home.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +60,7 @@ import { AdminDashboardComponent } from './components/admin/admin-dashboard/admi
     AdminComponent,
     AdminNavComponent,
     AdminDashboardComponent,
+    AdminHomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -69,7 +72,7 @@ import { AdminDashboardComponent } from './components/admin/admin-dashboard/admi
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
