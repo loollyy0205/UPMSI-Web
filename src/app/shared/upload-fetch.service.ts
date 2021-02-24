@@ -29,16 +29,53 @@ export class UploadFetchService {
     return this.http.get('https://upmsi-d03af-default-rtdb.firebaseio.com/home-headline.json')
     .pipe(
       map(responseData => {
-        const schedule = [];
+        const headline = [];
         for(const key in responseData){
-          schedule.push({...responseData[key], id:key});
+          headline.push({...responseData[key], id:key});
         }
-        return schedule;
+        return headline;
       })
     );
   }
 
-  // onUpdate(id:string){
-  //   this.http.patch('https://upmsi-d03af-default-rtdb.firebaseio.com/home-headline'+  +'.json')
-  // }
+  onFetchHomeContent(){
+    return this.http.get('https://upmsi-d03af-default-rtdb.firebaseio.com/home-content.json')
+    .pipe(
+      map(responseData => {
+        const content = [];
+        for(const key in responseData){
+          content.push({...responseData[key], id:key});
+        }
+        return content;
+      })
+    );
+  }
+
+  onFetchHomeLink(){
+    return this.http.get('https://upmsi-d03af-default-rtdb.firebaseio.com/home-link.json')
+    .pipe(
+      map(responseData => {
+        const link = [];
+        for(const key in responseData){
+          link.push({...responseData[key], id:key});
+        }
+        return link;
+      })
+    );
+  }
+
+  onUpdateHeadline(id:string, headContent:string){
+    this.http.patch('https://upmsi-d03af-default-rtdb.firebaseio.com/home-headline/'+ id +'.json',
+    {"headline": headContent}).subscribe(resdata => console.log(resdata));
+  }
+
+  onUpdateContent(id:string, content:string){
+    this.http.patch('https://upmsi-d03af-default-rtdb.firebaseio.com/home-content/'+ id +'.json',
+    {"content": content}).subscribe(resdata => console.log(resdata));
+  }
+
+  onUpdateLinks(id:string, link:string){
+    this.http.patch('https://upmsi-d03af-default-rtdb.firebaseio.com/home-link/'+ id +'.json',
+    {"link": link}).subscribe(resdata => console.log(resdata));
+  }
 }

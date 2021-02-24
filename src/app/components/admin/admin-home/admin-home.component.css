@@ -27,6 +27,13 @@ mat-tab-group{
   padding: 20px;
 }
 
+.cont .left{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
 .headline .right{
   width: 50%;
 }

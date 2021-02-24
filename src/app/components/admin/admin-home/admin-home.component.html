@@ -5,24 +5,56 @@
         <mat-tab label="Image">
         <div class="headline">
             <div class="left">
-              <div style="display: flex; flex-direction: column; gap: 5px;">
-                <label for="first-image">First Image</label>
-                <input #imgfirstInput class="selectFile" type="file" name="first-image" [disabled]="!imgBool">
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                <div style="display: flex; flex-direction: column; gap: 5px; width: 100%; margin-right: 25px;">
+                  <label for="first-image">First Image</label>
+                  <input class="selectFile" type="file" name="first-image" [disabled]="!imgBool1">
+                </div>
+
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="imgBool1" (click)="imgBool1=false">Cancel</button>
+                  <button mat-flat-button style="background-color: #5ca361; color: white;" (click)="imgBool1=true">Edit</button>
+                  <button mat-flat-button style="background-color: #394e8a; color: white;">Save</button>
+                </div>
               </div>
 
-              <div style="display: flex; flex-direction: column; gap: 5px;">
-                <label for="second-image">Second Image</label>
-                <input #imgsecondInput class="selectFile" type="file" name="second-image" [disabled]="!imgBool">
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                <div style="display: flex; flex-direction: column; gap: 5px; width: 100%; margin-right: 25px;">
+                  <label for="first-image">First Image</label>
+                  <input class="selectFile" type="file" name="first-image" [disabled]="!imgBool2">
+                </div>
+
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="imgBool2" (click)="imgBool2=false">Cancel</button>
+                  <button mat-flat-button style="background-color: #5ca361; color: white;" (click)="imgBool2=true">Edit</button>
+                  <button mat-flat-button style="background-color: #394e8a; color: white;">Save</button>
+                </div>
               </div>
 
-              <div style="display: flex; flex-direction: column; gap: 5px;">
-                <label for="third-image">Third Image</label>
-                <input #imgthirdInput class="selectFile" type="file" name="third-image" [disabled]="!imgBool">
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                <div style="display: flex; flex-direction: column; gap: 5px; width: 100%; margin-right: 25px;">
+                  <label for="first-image">First Image</label>
+                  <input class="selectFile" type="file" name="first-image" [disabled]="!imgBool3">
+                </div>
+
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="imgBool3" (click)="imgBool3=false">Cancel</button>
+                  <button mat-flat-button style="background-color: #5ca361; color: white;" (click)="imgBool3=true">Edit</button>
+                  <button mat-flat-button style="background-color: #394e8a; color: white;">Save</button>
+                </div>
               </div>
 
-              <div style="display: flex; flex-direction: column; gap: 5px;">
-                <label for="fourth-image">Fourth Image</label>
-                <input #imgfourthInput class="selectFile" type="file" name="fourth-image" [disabled]="!imgBool">
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                <div style="display: flex; flex-direction: column; gap: 5px; width: 100%; margin-right: 25px;">
+                  <label for="first-image">First Image</label>
+                  <input class="selectFile" type="file" name="first-image" [disabled]="!imgBool4">
+                </div>
+
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="imgBool4" (click)="imgBool4=false">Cancel</button>
+                  <button mat-flat-button style="background-color: #5ca361; color: white;" (click)="imgBool4=true">Edit</button>
+                  <button mat-flat-button style="background-color: #394e8a; color: white;">Save</button>
+                </div>
               </div>
             </div>
 
@@ -33,139 +65,196 @@
                 <p style="margin-top: -10px;">academics-img.jpg</p>
                 <p style="margin-top: -10px;">facilities-img.jpg</p>
               </div>
-              <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end; margin-right: 20px; margin-top: 10px;">
-                <button mat-stroked-button *ngIf="imgBool" (click)="imgCancel()">Cancel</button>
-                <button mat-flat-button style="background-color: #5ca361; color: white;" (click)="imgBool=true">Edit</button>
-                <button mat-flat-button style="background-color: #394e8a; color: white;">Save</button>
-              </div>
             </div>
+
           </div>
         </mat-tab>
 
         <mat-tab label="Headline">
-          <form #score="ngForm" (ngSubmit)="save(score.value)" class="headline">
+          <div class="cont headline">
             <div class="left">
-              <mat-form-field appearance="outline">
-                <mat-label>First Headline</mat-label>
-                <input #titleInput1 matInput [disabled]="true" name="headline1" ngModel [disabled]="!titleBool">
-              </mat-form-field>
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
+                <mat-form-field style="width: 100%; margin-right: 10px;" appearance="outline">
+                  <mat-label>First Headline</mat-label>
+                  <textarea matInput [disabled]="!titleBool1" #headInfo1>{{headline1}}</textarea>
+                </mat-form-field>
 
-              <mat-form-field appearance="outline">
-                <mat-label>Second Headline</mat-label>
-                <input #titleInput2 matInput [disabled]="true" name="headline2" ngModel [disabled]="!titleBool">
-              </mat-form-field>
 
-              <mat-form-field appearance="outline">
-                <mat-label>Third Headline</mat-label>
-                <input #titleInput3 matInput [disabled]="true" name="headline3" ngModel [disabled]="!titleBool">
-              </mat-form-field>
-
-              <mat-form-field appearance="outline">
-                <mat-label>Fourth Headline</mat-label>
-                <input #titleInput4 matInput [disabled]="true" name="headline4" ngModel [disabled]="!titleBool">
-              </mat-form-field>
-            </div>
-
-            <div class="right">
-              <div class="right-content">
-                <p>{{headlineArr["headline1"]}}</p>
-                <p>{{headlineArr["headline2"]}}</p>
-                <p>{{headlineArr["headline3"]}}</p>
-                <p>{{headlineArr["headline4"]}}</p>
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="titleBool1" (click)="titleBool1=false">Cancel</button>
+                  <button mat-flat-button type="button" style="background-color: #5ca361; color: white;" (click)="titleBool1=true">Edit</button>
+                  <button mat-flat-button type="submit" style="background-color: #394e8a; color: white;" (click)="headline1Info(headInfo1)">Save</button>
+                </div>
               </div>
-              <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end; margin-right: 20px; margin-top: 20px;">
-                <button mat-stroked-button *ngIf="titleBool" (click)="titleCancel()">Cancel</button>
-                <button mat-flat-button type="button" style="background-color: #5ca361; color: white;" (click)="titleBool=true">Edit</button>
-                <button mat-flat-button type="submit" style="background-color: #394e8a; color: white;">Save</button>
+
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
+                <mat-form-field style="width: 100%; margin-right: 10px;" appearance="outline">
+                  <mat-label>Second Headline</mat-label>
+                  <textarea matInput [disabled]="!titleBool2" #headInfo2>{{headline2}}</textarea>
+                </mat-form-field>
+
+
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="titleBool2" (click)="titleBool2=false">Cancel</button>
+                  <button mat-flat-button type="button" style="background-color: #5ca361; color: white;" (click)="titleBool2=true">Edit</button>
+                  <button mat-flat-button type="submit" style="background-color: #394e8a; color: white;" (click)="headline2Info(headInfo2)">Save</button>
+                </div>
               </div>
+
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
+                <mat-form-field style="width: 100%; margin-right: 10px;" appearance="outline">
+                  <mat-label>Third Headline</mat-label>
+                  <textarea matInput [disabled]="!titleBool3" #headInfo3>{{headline3}}</textarea>
+                </mat-form-field>
+
+
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="titleBool3" (click)="titleBool3=false">Cancel</button>
+                  <button mat-flat-button type="button" style="background-color: #5ca361; color: white;" (click)="titleBool3=true">Edit</button>
+                  <button mat-flat-button type="submit" style="background-color: #394e8a; color: white;" (click)="headline3Info(headInfo3)">Save</button>
+                </div>
+              </div>
+
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
+                <mat-form-field style="width: 100%; margin-right: 10px;" appearance="outline">
+                  <mat-label>Fourth Headline</mat-label>
+                  <textarea matInput [disabled]="!titleBool4" #headInfo4>{{headline4}}</textarea>
+                </mat-form-field>
+
+
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="titleBool4" (click)="titleBool4=false">Cancel</button>
+                  <button mat-flat-button type="button" style="background-color: #5ca361; color: white;" (click)="titleBool4=true">Edit</button>
+                  <button mat-flat-button type="submit" style="background-color: #394e8a; color: white;" (click)="headline4Info(headInfo4)">Save</button>
+                </div>
+              </div>
+
             </div>
-          </form>
+          </div>
         </mat-tab>
 
         <mat-tab label="Content">
           <div class="cont headline">
             <div class="left">
-              <mat-form-field appearance="outline">
-                <mat-label>First Content</mat-label>
-                <textarea #contentInput1 matInput [disabled]="!contentBool"></textarea>
-              </mat-form-field>
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
+                <mat-form-field style="width: 100%; margin-right: 10px;" appearance="outline">
+                  <mat-label>First Content</mat-label>
+                  <textarea matInput [disabled]="!contentBool1" #contentInfo1>{{content1}}</textarea>
+                </mat-form-field>
 
-              <mat-form-field appearance="outline">
-                <mat-label>Second Content</mat-label>
-                <textarea #contentInput2 matInput [disabled]="!contentBool"></textarea>
-              </mat-form-field>
 
-              <mat-form-field appearance="outline">
-                <mat-label>Third Content</mat-label>
-                <textarea #contentInput3 matInput [disabled]="!contentBool"></textarea>
-              </mat-form-field>
-
-              <mat-form-field appearance="outline">
-                <mat-label>Fourth Content</mat-label>
-                <textarea #contentInput4 matInput [disabled]="!contentBool"></textarea>
-              </mat-form-field>
-            </div>
-
-            <div class="right">
-              <div class="right-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum neque similique
-                  laudantium aliquam officia nesciunt ut consequuntur repellendus perferendis omnis?</p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum neque similique
-                  laudantium aliquam officia nesciunt ut consequuntur repellendus perferendis omnis?</p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum neque similique
-                  laudantium aliquam officia nesciunt ut consequuntur repellendus perferendis omnis?</p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum neque similique
-                  laudantium aliquam officia nesciunt ut consequuntur repellendus perferendis omnis?</p>
-
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="contentBool1" (click)="contentBool1=false">Cancel</button>
+                  <button mat-flat-button type="button" style="background-color: #5ca361; color: white;" (click)="contentBool1=true">Edit</button>
+                  <button mat-flat-button type="submit" style="background-color: #394e8a; color: white;" (click)="content1Info(contentInfo1)">Save</button>
+                </div>
               </div>
-              <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end; margin-right: 20px; margin-top: 20px;">
-                <button mat-stroked-button *ngIf="contentBool" (click)="contentCancel()">Cancel</button>
-                <button mat-flat-button style="background-color: #5ca361; color: white;" (click)="contentBool=true">Edit</button>
-                <button mat-flat-button style="background-color: #394e8a; color: white;">Save</button>
+
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
+                <mat-form-field style="width: 100%; margin-right: 10px;" appearance="outline">
+                  <mat-label>Second Content</mat-label>
+                  <textarea matInput [disabled]="!contentBool2" #contentInfo2>{{content2}}</textarea>
+                </mat-form-field>
+
+
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="contentBool2" (click)="contentBool2=false">Cancel</button>
+                  <button mat-flat-button type="button" style="background-color: #5ca361; color: white;" (click)="contentBool2=true">Edit</button>
+                  <button mat-flat-button type="submit" style="background-color: #394e8a; color: white;" (click)="content2Info(contentInfo2)">Save</button>
+                </div>
               </div>
+
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
+                <mat-form-field style="width: 100%; margin-right: 10px;" appearance="outline">
+                  <mat-label>Third Content</mat-label>
+                  <textarea matInput [disabled]="!contentBool3" #contentInfo3>{{content3}}</textarea>
+                </mat-form-field>
+
+
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="contentBool3" (click)="contentBool3=false">Cancel</button>
+                  <button mat-flat-button type="button" style="background-color: #5ca361; color: white;" (click)="contentBool3=true">Edit</button>
+                  <button mat-flat-button type="submit" style="background-color: #394e8a; color: white;" (click)="content3Info(contentInfo3)">Save</button>
+                </div>
+              </div>
+
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
+                <mat-form-field style="width: 100%; margin-right: 10px;" appearance="outline">
+                  <mat-label>Fourth Content</mat-label>
+                  <textarea matInput [disabled]="!contentBool4" #contentInfo4>{{content4}}</textarea>
+                </mat-form-field>
+
+
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="contentBool4" (click)="contentBool4=false">Cancel</button>
+                  <button mat-flat-button type="button" style="background-color: #5ca361; color: white;" (click)="contentBool4=true">Edit</button>
+                  <button mat-flat-button type="submit" style="background-color: #394e8a; color: white;" (click)="content4Info(contentInfo4)">Save</button>
+                </div>
+              </div>
+
             </div>
           </div>
         </mat-tab>
 
         <mat-tab label="Links">
-          <div class="headline">
+          <div class="cont headline">
             <div class="left">
-              <mat-form-field appearance="outline">
-                <mat-label>First Link</mat-label>
-                <input #linkInput1 matInput [disabled]="!linkBool">
-              </mat-form-field>
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
+                <mat-form-field style="width: 100%; margin-right: 10px;" appearance="outline">
+                  <mat-label>First Link</mat-label>
+                  <textarea matInput [disabled]="!linkBool1"#l1>{{link1}}</textarea>
+                </mat-form-field>
 
-              <mat-form-field appearance="outline">
-                <mat-label>Second Link</mat-label>
-                <input #linkInput2 matInput [disabled]="!linkBool">
-              </mat-form-field>
 
-              <mat-form-field appearance="outline">
-                <mat-label>Third Link</mat-label>
-                <input #linkInput3 matInput [disabled]="!linkBool">
-              </mat-form-field>
-
-              <mat-form-field appearance="outline">
-                <mat-label>Fourth Link</mat-label>
-                <input #linkInput4 matInput [disabled]="!linkBool">
-              </mat-form-field>
-            </div>
-
-            <div class="right">
-              <div class="right-content">
-                <p>/upmsi/home</p>
-                <p>/upmsi/about</p>
-                <p>/upmsi/academics</p>
-                <p>/upmsi/facilities</p>
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="linkBool1" (click)="linkBool1=false">Cancel</button>
+                  <button mat-flat-button type="button" style="background-color: #5ca361; color: white;" (click)="linkBool1=true">Edit</button>
+                  <button mat-flat-button type="submit" style="background-color: #394e8a; color: white;" (click)="link1Info(l1)">Save</button>
+                </div>
               </div>
-              <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end; margin-right: 20px; margin-top: 20px;">
-                <button mat-stroked-button *ngIf="linkBool" (click)="linkCancel()">Cancel</button>
-                <button mat-flat-button style="background-color: #5ca361; color: white;" (click)="linkBool=true">Edit</button>
-                <button mat-flat-button style="background-color: #394e8a; color: white;">Save</button>
+
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
+                <mat-form-field style="width: 100%; margin-right: 10px;" appearance="outline">
+                  <mat-label>Second Link</mat-label>
+                  <textarea matInput [disabled]="!linkBool2"#l2>{{link2}}</textarea>
+                </mat-form-field>
+
+
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="linkBool2" (click)="linkBool2=false">Cancel</button>
+                  <button mat-flat-button type="button" style="background-color: #5ca361; color: white;" (click)="linkBool2=true">Edit</button>
+                  <button mat-flat-button type="submit" style="background-color: #394e8a; color: white;" (click)="link2Info(l2)">Save</button>
+                </div>
               </div>
+
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
+                <mat-form-field style="width: 100%; margin-right: 10px;" appearance="outline">
+                  <mat-label>Third Link</mat-label>
+                  <textarea matInput [disabled]="!linkBool3"#l3>{{link3}}</textarea>
+                </mat-form-field>
+
+
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="linkBool3" (click)="linkBool3=false">Cancel</button>
+                  <button mat-flat-button type="button" style="background-color: #5ca361; color: white;" (click)="linkBool3=true">Edit</button>
+                  <button mat-flat-button type="submit" style="background-color: #394e8a; color: white;" (click)="link3Info(l3)">Save</button>
+                </div>
+              </div>
+
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
+                <mat-form-field style="width: 100%; margin-right: 10px;" appearance="outline">
+                  <mat-label>Fourth Link</mat-label>
+                  <textarea matInput [disabled]="!linkBool4"#l4>{{link4}}</textarea>
+                </mat-form-field>
+
+
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
+                  <button mat-stroked-button *ngIf="linkBool4" (click)="linkBool4=false">Cancel</button>
+                  <button mat-flat-button type="button" style="background-color: #5ca361; color: white;" (click)="linkBool4=true">Edit</button>
+                  <button mat-flat-button type="submit" style="background-color: #394e8a; color: white;" (click)="link4Info(l4)">Save</button>
+                </div>
+              </div>
+
             </div>
           </div>
         </mat-tab>
