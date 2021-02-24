@@ -43,73 +43,54 @@
 
     <div class="slider">
       <div class="sliderchild">
-        <div class="imagecon">
-          <div class="img-container">
+        <div class="imagecon" [style.backgroundImage]="'url('+bgImage1+')'">
+          <div class="img-container" style="color: white; height: 100%; width: 55%; margin-left: 120px; display: flex; flex-direction: column; align-self: center; justify-content: center;">
             <div class="img-content">
               <p class="capital-words bebas">{{headline1}}</p>
               <br><br>
-              <p class="second-p inter-medium">
-                The UP Marine Science Institute UPMSI is one of seven academic institutes of the University of
-                the Philippines’ College of Science. It is housed in its own building complex within the UP Diliman
-                Campus in Quezon City. It is tasked to pursue research, teaching, and extension work in marine
-                biology, marine chemistry, physical oceanography, marine geology, and related disciplines.
-              </p>
+              <p class="second-p inter-medium">{{content1}}</p>
               <br><br>
-              <button id="learn-more" [routerLink]="['/About']">LEARN MORE</button>
+              <button id="learn-more" [routerLink]="[link1]">LEARN MORE</button>
             </div>
           </div>
         </div>
-        <div class="imagecon">
+
+        <div class="imagecon" [style.backgroundImage]="'url('+bgImage2+')'">
           <div style="color: white; height: 100%; width: 55%; margin-left: 120px; display: flex; flex-direction: column; align-self: center; justify-content: center;">
-            <p style="font-size: 110px;" class="bebas">{{headline2}}</p>
+            <p class="capital-words bebas">{{headline2}}</p>
             <br><br>
-            <p style="line-height: 1.5; text-shadow: 2px 2px 3px black;" class="inter-medium">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, magnam optio adipisci
-              a similique hic possimus porro error soluta esse! Deleniti sunt ipsum unde veniam
-              corporis natus perspiciatis, fugiat atque?
-            </p>
+            <p style="line-height: 1.5; text-shadow: 2px 2px 3px black;" class="inter-medium">{{content2}}</p>
             <br><br>
-            <button id="learn-more">LEARN MORE</button>
+            <button id="learn-more" [routerLink]="[link2]">LEARN MORE</button>
           </div>
         </div>
-        <div class="imagecon">
+
+        <div class="imagecon" [style.backgroundImage]="'url('+bgImage3+')'">
           <div style="color: white; height: 100%; width: 55%; margin-left: 120px; display: flex; flex-direction: column; align-self: center; justify-content: center;">
-            <p style="font-size: 110px;" class="bebas">{{headline3}}</p>
+            <p class="capital-words bebas">{{headline3}}</p>
             <br><br>
-            <p style="line-height: 1.5; text-shadow: 2px 2px 3px black;" class="inter-medium">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, magnam optio adipisci
-              a similique hic possimus porro error soluta esse! Deleniti sunt ipsum unde veniam
-              corporis natus perspiciatis, fugiat atque?
-            </p>
+            <p style="line-height: 1.5; text-shadow: 2px 2px 3px black;" class="inter-medium">{{content3}}</p>
             <br><br>
-            <button id="learn-more">LEARN MORE</button>
+            <button id="learn-more" [routerLink]="[link3]">LEARN MORE</button>
           </div>
         </div>
-        <div class="imagecon">
+
+        <div class="imagecon" [style.backgroundImage]="'url('+bgImage4+')'">
           <div style="color: white; height: 100%; width: 55%; margin-left: 120px; display: flex; flex-direction: column; align-self: center; justify-content: center;">
-            <p style="font-size: 110px;" class="bebas">{{headline4}}</p>
+            <p class="capital-words bebas">{{headline4}}</p>
             <br><br>
-            <p style="line-height: 1.5; text-shadow: 2px 2px 3px black;" class="inter-medium">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, magnam optio adipisci
-              a similique hic possimus porro error soluta esse! Deleniti sunt ipsum unde veniam
-              corporis natus perspiciatis, fugiat atque?
-            </p>
+            <p style="line-height: 1.5; text-shadow: 2px 2px 3px black;" class="inter-medium">{{content4}}</p>
             <br><br>
-            <button id="learn-more" [routerLink]="['/Extension']">LEARN MORE</button>
+            <button id="learn-more" [routerLink]="[link4]">LEARN MORE</button>
           </div>
         </div>
-        <div class="imagecon">
+        <div class="imagecon" [style.backgroundImage]="'url('+bgImage1+')'">
           <div style="color: white; height: 100%; width: 55%; margin-left: 120px; display: flex; flex-direction: column; align-self: center; justify-content: center;">
-            <p style="font-size: 110px;line-height: .8;" class="bebas">WE ARE THE UP MARINE SCIENCE INSTITUTE</p>
+            <p style="font-size: 110px;line-height: .8;" class="bebas">{{headline1}}</p>
             <br><br>
-            <p style="line-height: 1.5; text-shadow: 2px 2px 3px black;" class="inter-medium">
-              The UP Marine Science Institute UPMSI is one of seven academic institutes of the University of
-              the Philippines’ College of Science. It is housed in its own building complex within the UP Diliman
-              Campus in Quezon City. It is tasked to pursue research, teaching, and extension work in marine
-              biology, marine chemistry, physical oceanography, marine geology, and related disciplines.
-            </p>
+            <p style="line-height: 1.5; text-shadow: 2px 2px 3px black;" class="inter-medium">{{content1}}</p>
             <br><br>
-            <button id="learn-more" [routerLink]="['/About']">LEARN MORE</button>
+            <button id="learn-more" [routerLink]="[link1]">LEARN MORE</button>
           </div>
         </div>
       </div>

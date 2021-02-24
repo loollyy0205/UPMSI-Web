@@ -8,62 +8,62 @@
               <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
                 <div style="display: flex; flex-direction: column; gap: 5px; width: 100%; margin-right: 25px;">
                   <label for="first-image">First Image</label>
-                  <input class="selectFile" type="file" name="first-image" [disabled]="!imgBool1">
+                  <input class="selectFile" #imgfirstInput type="file" name="first-image" [disabled]="!imgBool1" (change)="uploadImage1($event)">
                 </div>
 
                 <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
                   <button mat-stroked-button *ngIf="imgBool1" (click)="imgBool1=false">Cancel</button>
                   <button mat-flat-button style="background-color: #5ca361; color: white;" (click)="imgBool1=true">Edit</button>
-                  <button mat-flat-button style="background-color: #394e8a; color: white;">Save</button>
+                  <button mat-flat-button style="background-color: #394e8a; color: white;" (click)="saveImage1()">Save</button>
                 </div>
               </div>
 
               <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
                 <div style="display: flex; flex-direction: column; gap: 5px; width: 100%; margin-right: 25px;">
-                  <label for="first-image">First Image</label>
-                  <input class="selectFile" type="file" name="first-image" [disabled]="!imgBool2">
+                  <label for="first-image">Second Image</label>
+                  <input class="selectFile" #imgsecondInput type="file" name="first-image" [disabled]="!imgBool2"  (change)="uploadImage2($event)">
                 </div>
 
                 <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
                   <button mat-stroked-button *ngIf="imgBool2" (click)="imgBool2=false">Cancel</button>
                   <button mat-flat-button style="background-color: #5ca361; color: white;" (click)="imgBool2=true">Edit</button>
-                  <button mat-flat-button style="background-color: #394e8a; color: white;">Save</button>
+                  <button mat-flat-button style="background-color: #394e8a; color: white;" (click)="saveImage2()">Save</button>
                 </div>
               </div>
 
               <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
                 <div style="display: flex; flex-direction: column; gap: 5px; width: 100%; margin-right: 25px;">
-                  <label for="first-image">First Image</label>
-                  <input class="selectFile" type="file" name="first-image" [disabled]="!imgBool3">
+                  <label for="first-image">Third Image</label>
+                  <input class="selectFile" #imgthirdInput type="file" name="first-image" [disabled]="!imgBool3" (change)="uploadImage3($event)">
                 </div>
 
                 <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
                   <button mat-stroked-button *ngIf="imgBool3" (click)="imgBool3=false">Cancel</button>
                   <button mat-flat-button style="background-color: #5ca361; color: white;" (click)="imgBool3=true">Edit</button>
-                  <button mat-flat-button style="background-color: #394e8a; color: white;">Save</button>
+                  <button mat-flat-button style="background-color: #394e8a; color: white;" (click)="saveImage3()">Save</button>
                 </div>
               </div>
 
               <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
                 <div style="display: flex; flex-direction: column; gap: 5px; width: 100%; margin-right: 25px;">
-                  <label for="first-image">First Image</label>
-                  <input class="selectFile" type="file" name="first-image" [disabled]="!imgBool4">
+                  <label for="first-image">Fourth Image</label>
+                  <input class="selectFile" #imgfourthInput type="file" name="first-image" [disabled]="!imgBool4" (change)="uploadImage4($event)">
                 </div>
 
                 <div style="display: flex; flex-direction: row; gap: 5px; justify-content: flex-end;">
                   <button mat-stroked-button *ngIf="imgBool4" (click)="imgBool4=false">Cancel</button>
                   <button mat-flat-button style="background-color: #5ca361; color: white;" (click)="imgBool4=true">Edit</button>
-                  <button mat-flat-button style="background-color: #394e8a; color: white;">Save</button>
+                  <button mat-flat-button style="background-color: #394e8a; color: white;" (click)="saveImage4()">Save</button>
                 </div>
               </div>
             </div>
 
             <div class="imgcon right">
-              <div class="right-content">
-                <p style="margin-top: 20px;">home-img.jpg</p>
-                <p>about-img.jpg</p>
-                <p style="margin-top: -10px;">academics-img.jpg</p>
-                <p style="margin-top: -10px;">facilities-img.jpg</p>
+              <div class="right-content" style="font-size: 12px;">
+                <p style="margin-top: 20px;">{{imgUrl1}}</p>
+                <p>{{imgUrl2}}</p>
+                <p style="margin-top: -10px;">{{imgUrl3}}</p>
+                <p style="margin-top: -10px;">{{imgUrl4}}</p>
               </div>
             </div>
 

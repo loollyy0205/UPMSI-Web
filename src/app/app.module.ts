@@ -2,6 +2,8 @@ import { AuthGuard } from './shared/auth.guard';
 import { MaterialModule } from './material/material.module';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+import { AngularFireModule } from '@angular/fire';
 import { HttpClientModule } from '@angular/common/http';
 
 import { BrowserModule } from '@angular/platform-browser';
@@ -70,7 +72,18 @@ import { AdminHomeComponent } from './components/admin/admin-home/admin-home.com
     IvyCarouselModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireStorageModule,
+    AngularFireModule,
+    AngularFireModule.initializeApp({
+      apiKey: "AIzaSyC0vgMf-vXSrsIVRNUE7STpC2zcENy125s",
+      authDomain: "upmsi-d03af.firebaseapp.com",
+      databaseURL: "https://upmsi-d03af-default-rtdb.firebaseio.com",
+      projectId: "upmsi-d03af",
+      storageBucket: "upmsi-d03af.appspot.com",
+      messagingSenderId: "212307385559",
+      appId: "1:212307385559:web:fd78a434040853b6632492"
+    }),
   ],
   providers: [AuthGuard],
   bootstrap: [AppComponent]

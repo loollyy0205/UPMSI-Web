@@ -63,6 +63,10 @@ export class UploadFetchService {
       })
     );
   }
+  onUpdateImage(id:string, img:string){
+    this.http.patch('https://upmsi-d03af-default-rtdb.firebaseio.com/home-headline/'+ id +'.json',
+    {"bgImage": img}).subscribe(resdata => console.log(resdata));
+  }
 
   onUpdateHeadline(id:string, headContent:string){
     this.http.patch('https://upmsi-d03af-default-rtdb.firebaseio.com/home-headline/'+ id +'.json',
