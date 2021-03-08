@@ -1,3 +1,4 @@
+import { GalleryComponent } from './components/extension/gallery/gallery.component';
 import { AdminNewsComponent } from './components/admin/admin-news/admin-news.component';
 import { AdminHomeComponent } from './components/admin/admin-home/admin-home.component';
 import { AuthGuard } from './shared/auth.guard';
@@ -42,6 +43,7 @@ const routes: Routes = [
   {path: 'Facilities', component: FacilitiesComponent},
   {path: 'Facilities/bolinao-marine-lab', component: BolinaoComponent},
   {path: 'Extension', component: ExtensionComponent},
+  {path: 'Extension/gallery', component: GalleryComponent},
   {path: 'Resources', component: ResourcesComponent},
   {path: 'Contact', component: ContactComponent},
   {path: 'News', component: NewsComponent},

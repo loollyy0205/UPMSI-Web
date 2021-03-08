@@ -13,46 +13,60 @@
   font-size: 18px;
 }
 
-.lab-img{
+.lab-img1{
   margin-left: 120px;
   margin-right: 120px;
   margin-top: 50px;
   height: 500px;
-  display: flex;
-  flex-direction: row;
-  background-image: url('../../../../assets/photos/lab2.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
   transition: transform .5s ease;
 }
 
-.lab-img:hover{
+img:hover{
   transform: scale(1.1);
+}
+
+.lab-img{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  height: 100%;
+  width: 40%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.lab-image3{
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 50px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
 }
 
 .lab-img3{
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-top: 50px;
-  height: 500px;
   display: flex;
   flex-direction: row;
-  background-image: url('../../../../assets/photos/lab3.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: transform .5s ease;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  height: 100%;
+  width: 40%;
+  z-index: 1;
 }
 
-.lab-img3:hover{
-  transform: scale(1.1);
-}
-
-.left1{
-  width: 60%;
-}
 
 .right1{
-  width: 40%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,33 +92,35 @@
 }
 
 
-.lab-img2{
+.lab-image2{
   margin-left: 120px;
   margin-right: 120px;
   margin-top: 50px;
   height: 500px;
-  display: flex;
-  flex-direction: row;
-  background-image: url('../../../../assets/photos/lab1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: transform .5s ease;
+  position: relative;
+  overflow: hidden;
 }
 
-.lab-img2:hover{
-  transform: scale(1.1);
+.lab-img2{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  height: 100%;
+  width: 50%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  /* background-image: url('../../../../assets/photos/lab1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 .left2{
-  width: 45%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 70px;
-}
-
-.right2{
-  width: 55%;
 }
 
 .left2 .title{
