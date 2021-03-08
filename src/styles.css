@@ -73,6 +73,33 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
   src: url("./assets/Fonts/Inter-Bold.ttf");
 }
 
+@font-face{
+  font-family: 'atlas-light';
+  src: url("./assets/Fonts/AtlasGrotesk-Light.otf");
+}
+
+@font-face{
+  font-family: 'atlas-bold';
+  src: url("./assets/Fonts/AtlasGrotesk-Bold.otf");
+}
+
+@font-face{
+  font-family: 'atlas-blackReg';
+  src: url("./assets/Fonts/Atlas Grotesk Web Black Regular.ttf");
+}
+
+.atlas-light{
+  font-family: 'atlas-light';
+}
+
+.atlas-bold{
+  font-family: 'atlas-bold';
+}
+
+.atlas-blackReg{
+  font-family: 'atlas-blackReg';
+}
+
 .bebas{
   font-family: 'BebasNeueBold';
 }

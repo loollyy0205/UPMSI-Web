@@ -29,10 +29,12 @@ export class NavComponent implements OnInit {
   ngOnInit(): void {
     if(this.router.url === '/About'){
       this.about = true;
-    }else if(this.router.url === '/Education'){
+    }else if(this.router.url === '/Academics'){
       this.education = true;
     }else if(this.router.url === '/Research'){
       this.research = true;
+    }else if(this.router.url === '/Facilities'){
+      this.facilities = true;
     }else if(this.router.url === '/Extension'){
       this.extension = true;
     }else if(this.router.url === '/Contact'){

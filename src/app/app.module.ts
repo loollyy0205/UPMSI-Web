@@ -35,6 +35,7 @@ import { AdminComponent } from './components/admin/admin.component';
 import { AdminNavComponent } from './components/admin/admin-nav/admin-nav.component';
 import { AdminDashboardComponent } from './components/admin/admin-dashboard/admin-dashboard.component';
 import { AdminHomeComponent } from './components/admin/admin-home/admin-home.component';
+import { AdminNewsComponent } from './components/admin/admin-news/admin-news.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +64,7 @@ import { AdminHomeComponent } from './components/admin/admin-home/admin-home.com
     AdminNavComponent,
     AdminDashboardComponent,
     AdminHomeComponent,
+    AdminNewsComponent,
   ],
   imports: [
     BrowserModule,

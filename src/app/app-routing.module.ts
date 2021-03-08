@@ -1,3 +1,4 @@
+import { AdminNewsComponent } from './components/admin/admin-news/admin-news.component';
 import { AdminHomeComponent } from './components/admin/admin-home/admin-home.component';
 import { AuthGuard } from './shared/auth.guard';
 import { AdminDashboardComponent } from './components/admin/admin-dashboard/admin-dashboard.component';
@@ -28,6 +29,7 @@ const routes: Routes = [
   {path: 'admin', component: AdminComponent},
   {path: 'admin/admin-dashboard', component: AdminDashboardComponent},
   {path: 'admin/admin-home', component: AdminHomeComponent},
+  {path: 'admin/admin-news', component: AdminNewsComponent},
   {path: 'Home', component: HomeComponent},
   {path: 'About', component: AboutComponent},
   {path: 'About/faculty', component: FacultyComponent},

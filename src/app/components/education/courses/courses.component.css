@@ -1,36 +1,65 @@
-.content{
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-top: 50px;
+.container{
+  margin: 0 120px;
+}
+
+.content-header{
+  height: 450px;
+  background-image: url("../../../../assets/photos/coursesheader.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.left-content{
+  width: 50%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+  color: white;
+  gap: 20px;
 }
 
 .title{
-  font-size: 32px;
-  color: #264d8e;
-  height: 15%;
+  font-size: 20px;
 }
 
-.undergrad-offer-content{
-  display: grid;
-  grid-template-columns: 1fr 2fr 5fr;
-  grid-template-rows: 1fr;
-  gap: 20px;
+mat-expansion-panel{
+  border-color: white;
+}
+
+::ng-deep .specific-class > .mat-expansion-indicator:after {
+  color: white;
+}
+
+.specific-class{
+  border-radius: 50px;
+}
+
+.grad-offering{
+  margin-top: 50px;
+  padding: 0 130px;
+}
+
+.core-courses{
+  height: 100%;
   margin-left: 20px;
+  border-left: 3px solid #5ca361;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px;
 }
 
-.elective-content{
+.core-content{
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  grid-template-rows: 1fr;
-  gap: 20px;
+}
+
+.core-courses div{
   margin-left: 20px;
 }
 
-.seminar-content{
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr;
-  gap: 20px;
-  margin-left: 20px;
+.closed-main-head{
+  background-color: #394e8a;
+  border-radius: 50px;
 }

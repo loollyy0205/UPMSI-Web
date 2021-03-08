@@ -1,303 +1,801 @@
 <app-nav></app-nav>
-<div class="animate__animated animate__fadeIn animate__delay-1s">
-
-  <div class="content">
-    <span class="inter-bold title">
-      Courses
-    </span>
-
-    <div style="margin-top: 50px; text-decoration: underline;">
-      <em>Undergraduate Offering:</em>
+<div class="container animate__animated animate__fadeIn animate__delay-1s">
+  <div class="content-header">
+    <div class="left-content">
+      <p class="atlas-bold title">MSI COURSES OFFERED</p>
+      <p class="atlas-light" style="line-height: 1.3;">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit est laborum aliquam quo natus porro
+         culpa quod aut dolores fugit nostrum libero inventore accusamus quos assumenda nulla distinctio,
+         quasi cum ducimus esse amet id tempora eveniet. Repudiandae voluptates recusandae beatae id sequi
+         dit ratione aut! Sequi earum voluptatum ipsa sapiente quos nostrum aperiam libero vitae molestiae
+         repudiandae. Animi eos dolore nostrum delectus sunt. Facere iste maxime odit consequuntur reprehenderit
+         sint a numquam, perspiciatis possimus iusto quos ea similique consequatur nobis earum quidem sunt
+         incidunt reiciendis laborum provident architecto cumque aliquam cum deleniti? Quod minima dolorum cum
+          mollitia ea. Blanditiis id quas rem accusantium voluptates optio dicta quo? Saepe ad ipsam cupiditate
+           nihil nostrum vero repellat, tempora pariatur incidunt. Possimus doloremque labore maxime facere enim
+            aut atque provident id consequuntur qui.
+      </p>
     </div>
+  </div>
+    <mat-accordion>
+      <mat-expansion-panel class="mat-elevation-z0 grad-offering" style="margin-top: 50px;" (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false">
+        <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState ? '#5ca361' : '#394e8a'">
+        <mat-panel-title class="atlas-light" style="color: white;">GRADUATE OFFERING</mat-panel-title>
+        </mat-expansion-panel-header>
 
-    <div style="margin-top: 30px;" class="undergrad-offer-content">
-      <div style="display: grid; gap: 20px;">
-        <strong>MS 101</strong>
-        <strong>MS 102</strong>
-        <strong>MS 1</strong>
-      </div>
+        <mat-accordion>
+          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" (opened)="panelOpenState1 = true"
+              (closed)="panelOpenState1 = false">
+            <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title [class]="panelOpenState1 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState1 ? '#394e8a' : 'black'">COURSES OFFERED FOR FIRST SEMESTER</mat-panel-title>
+            </mat-expansion-panel-header>
 
-      <div style="display: grid; gap: 20px;">
-        <div>Oceans</div>
-        <div>The Marine Sciences</div>
-        <div>Oceans and Us</div>
-      </div>
+            <mat-accordion>
+              <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" (opened)="panelOpenState2 = true"
+                (closed)="panelOpenState2 = false">
+              <mat-expansion-panel-header class="specific-class">
+              <mat-panel-title [class]="panelOpenState2 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState2 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>CORE COURSES</mat-panel-title>
+              </mat-expansion-panel-header>
 
-      <div style="display: grid; gap: 20px;">
-        <div>LTDavid, FPSiringan, GSJacinto, ATYñiguez, MLMcGlone, CLVillanoy</div>
-        <div>MAJMeñez and PCCabaitan (1st sem), DFLOnda (2nd sem)</div>
-        <div style="line-height: 20px;">
-          <div>LTDavid, MJRPante, GSJacinto, ATYniguez (1st sem), FPSiringan, RRGotanco, CGConaco</div>
-          <div>(1st sem), LSReyes, CBJaraula, VBRodriguez (1st sem)</div>
-        </div>
-      </div>
-    </div>
+              <div class="core-courses">
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 201</p>
+                  <p>Ocean Physics and Chemistry</p>
+                  <p>CBJaraula/LTDavid</p>
+                </div>
 
-    <div style="margin-top: 30px; text-decoration: underline;">
-      <em>Graduate Offering:</em>
-    </div>
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 210</p>
+                  <p>Physical Oceanography</p>
+                  <p>CVillanoy/LTDavid/IRodriguez</p>
+                </div>
 
-    <div style="margin-top: 30px; text-decoration: underline;">
-      <em>Courses offered for first semester:</em>
-    </div>
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 220</p>
+                  <p>Chemical Oceanography</p>
+                  <p>MSDMcGlone/GSJacinto</p>
+                </div>
 
-    <div style="margin-top: 30px;margin-left: 20px; text-decoration: underline;">
-      <p>CORE COURSES</p>
-    </div>
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 220</p>
+                  <p>Biological Oceanography</p>
+                  <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+                </div>
 
-    <div style="margin-top: 30px;" class="undergrad-offer-content">
-      <div style="display: grid; gap: 20px;">
-        <strong>MS 201</strong>
-        <strong>MS 210</strong>
-        <strong>MS 220</strong>
-        <strong>MS 240</strong>
-        <strong>MS 270</strong>
-      </div>
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 270</p>
+                  <p>Biochemistry of Marine Organisms</p>
+                  <p>GPConcepcion/AOLluisma/CGConaco</p>
+                </div>
+              </div>
+              </mat-expansion-panel>
 
-      <div style="display: grid; gap: 20px;">
-        <div>Ocean Physics and Chemistry </div>
-        <div>Physical Oceanography</div>
-        <div>Chemical Oceanography</div>
-        <div>Biological Oceanography</div>
-        <div>Biochemistry of Marine Organisms</div>
-      </div>
+              <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState3 = true"
+                (closed)="panelOpenState3 = false">
+              <mat-expansion-panel-header class="specific-class">
+              <mat-panel-title [class]="panelOpenState3 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState3 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>ELECTIVES</mat-panel-title>
+              </mat-expansion-panel-header>
 
-      <div style="display: grid; gap: 20px;">
-        <div>CBJaraula/LTDavid</div>
-        <div>CVillanoy/LTDavid/IRodriguez</div>
-        <div>MLSMcGlone, GSJacinto</div>
-        <div>MHTYap/DFLOnda (Bio Oce) / MRoleda (Physio) / CGConaco; (Microbial) </div>
-        <div>GPConcepcion/AOLluisma/LSReyes/CGConaco</div>
-      </div>
-    </div>
+              <div class="core-courses">
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 201</p>
+                  <p>Ocean Physics and Chemistry</p>
+                  <p>CBJaraula/LTDavid</p>
+                </div>
 
-    <div style="margin-top: 30px;margin-left: 20px; text-decoration: underline;">
-      <p>ELECTIVES</p>
-    </div>
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 210</p>
+                  <p>Physical Oceanography</p>
+                  <p>CVillanoy/LTDavid/IRodriguez</p>
+                </div>
 
-    <div style="margin-top: 30px;" class="elective-content">
-      <div style="display: grid; gap: 20px;">
-        <strong>MS 214</strong>
-        <strong>MS 221</strong>
-        <strong>MS 226</strong>
-        <strong>MS 226.1</strong>
-        <strong>MS 253</strong>
-        <strong>MS 255</strong>
-        <strong>MS 256</strong>
-        <strong>MS 278</strong>
-        <strong>MS 283</strong>
-        <strong>MS 385</strong>
-        <strong>MS 397</strong>
-        <strong>MS 397</strong>
-        <strong>MS 397</strong>
-        <strong>MS 397</strong>
-        <strong>MS 397</strong>
-        <strong>MS 397</strong>
-        <strong>MS 397</strong>
-        <strong>MS 397</strong>
-        <strong>MS 397</strong>
-        <strong>MS 397</strong>
-        <strong>MS 398</strong>
-        <strong>MS 398</strong>
-        <strong>MS 397</strong>
-        <strong>MS 398</strong>
-        <strong>MS 398</strong>
-        <strong>MS 398</strong>
-        <strong>MS 398</strong>
-      </div>
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 220</p>
+                  <p>Chemical Oceanography</p>
+                  <p>MSDMcGlone/GSJacinto</p>
+                </div>
 
-      <div style="display: grid; gap: 20px;">
-        <div>Waves and Tides (on demand)</div>
-        <div>Marine Geochemistry</div>
-        <div>Marine Pollution Chemistry</div>
-        <div>Marine Pollution Chemistry laboratory</div>
-        <div>Marine Chemical Ecology</div>
-        <div>Coral Reef Ecosystems</div>
-        <div>Marine Algae</div>
-        <div>Marine Natural Products (every even year)</div>
-        <div>Marine Agronomy</div>
-        <div>Marine Toxinology (every odd year)</div>
-        <div>Special Topics: Behavioral Ecology</div>
-        <div>Special Topics: Emerging Marine non-Model Organisms</div>
-        <div>Special Topics: Gene Expression Control</div>
-        <div>Special Topics: Seaweed Ecology and Physiology</div>
-        <div>Special Topics: Ecological Assessment with Algae</div>
-        <div>Special Topics: Algal Habitats</div>
-        <div>Special Topics: Coral Reef Restoration</div>
-        <div>Special Topics: Molecular Ecology and Evolution</div>
-        <div>Special Topics: Biological Structures</div>
-        <div>Special Topics: Marine Organic Geochemistry (as needed)</div>
-        <div>Adv. Methods in Marine Science: Quantitative Methods in Microbial Ecology</div>
-        <div>Adv. Methods in Marine Science: Biostatistics</div>
-        <div>Adv. Methods in Marine Science: Ecological Modeling</div>
-        <div>Adv. Methods in Marine Science: Practical Scientific Computing and Bioinformatics (every even year)</div>
-        <div>Adv. Methods in Marine Science: Analysis of Molecular Sequences (every even year)</div>
-        <div>Adv. Methods in Mar Sci: Data Analysis Methods in Oceans</div>
-        <div>Adv. Methods in Marine Science: Ocean Remote Sensing & Image Analysis</div>
-      </div>
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 220</p>
+                  <p>Biological Oceanography</p>
+                  <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+                </div>
 
-      <div style="display: grid; gap: 20px;">
-        <div>CLVillanoy/LTDavid</div>
-        <div>GSJacinto/CBJaraula</div>
-        <div>GSJacinto/MLMcGlone</div>
-        <div>GSJacinto/MLMcGlone</div>
-        <div>NEMontaño</div>
-        <div>PMAliño, PCCabaitan</div>
-        <div>WESantiañez</div>
-        <div>GPConcepcion/LSReyes</div>
-        <div>WESantiañez</div>
-        <div>LSReyes/DFLOnda</div>
-        <div>MAJMeñez</div>
-        <div>CGConaco</div>
-        <div>CGConaco</div>
-        <div>MRoleda</div>
-        <div>MRoleda</div>
-        <div>MRoleda</div>
-        <div>VBRodriguez</div>
-        <div>RRGotanco</div>
-        <div>GPConcepcion et al</div>
-        <div>CBJaraula</div>
-        <div>DFLOnda</div>
-        <div>MJRPante</div>
-        <div>ATYñiguez</div>
-        <div>AOLluisma</div>
-        <div>AOLluisma</div>
-        <div>CLVillanoy</div>
-        <div>LTDavid</div>
-      </div>
-    </div>
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 270</p>
+                  <p>Biochemistry of Marine Organisms</p>
+                  <p>GPConcepcion/AOLluisma/CGConaco</p>
+                </div>
+              </div>
+              </mat-expansion-panel>
 
-    <div style="margin-top: 30px;margin-left: 20px; text-decoration: underline;">
-      <p>SEMINAR</p>
-    </div>
+               <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState4 = true"
+                (closed)="panelOpenState4 = false">
+              <mat-expansion-panel-header class="specific-class">
+              <mat-panel-title [class]="panelOpenState4 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState4 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>SEMINAR</mat-panel-title>
+              </mat-expansion-panel-header>
 
-    <div style="margin-top: 30px;" class="seminar-content">
-      <div style="display: grid; gap: 20px;">
-        <strong>MS 396</strong>
-        <strong>MS 396</strong>
-      </div>
+              <div class="core-courses">
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 201</p>
+                  <p>Ocean Physics and Chemistry</p>
+                  <p>CBJaraula/LTDavid</p>
+                </div>
 
-      <div style="display: grid; gap: 20px;">
-        <div>Seminar (Physical Sciences)</div>
-        <div>Seminar (Marine Biotechnology)</div>
-      </div>
-    </div>
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 210</p>
+                  <p>Physical Oceanography</p>
+                  <p>CVillanoy/LTDavid/IRodriguez</p>
+                </div>
 
-    <div style="margin-top: 50px;">
-      <p>Courses offered previously</p>
-    </div>
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 220</p>
+                  <p>Chemical Oceanography</p>
+                  <p>MSDMcGlone/GSJacinto</p>
+                </div>
 
-    <div style="margin-top: 30px;" class="elective-content">
-      <div style="display: grid; gap: 20px;">
-        <strong>MS 397</strong>
-        <strong>MS 397</strong>
-        <strong>MS 397</strong>
-        <strong>MS 397</strong>
-        <strong>MS 398</strong>
-        <strong>MS 398</strong>
-        <strong>MS 399</strong>
-      </div>
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 220</p>
+                  <p>Biological Oceanography</p>
+                  <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+                </div>
 
-      <div style="display: grid; gap: 20px;">
-        <div>Special Topics: Coastal Geomorphologry</div>
-        <div>Special Topics: Seaweed Utilization</div>
-        <div>Special Topics: Geometrics Morphometrics</div>
-        <div>Special Topics: The Sediment Record of Environmental Change</div>
-        <div>Advanced Methods in Marine Science: Analysis of Molecular Sequences</div>
-        <div>Adv Meth in Mar Sci: Bioinformatics for Phylogenetics</div>
-        <div>Research: Molecular Phylogenetics (every even year)</div>
-      </div>
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 270</p>
+                  <p>Biochemistry of Marine Organisms</p>
+                  <p>GPConcepcion/AOLluisma/CGConaco</p>
+                </div>
+              </div>
+              </mat-expansion-panel>
+            </mat-accordion>
+          </mat-expansion-panel>
 
-      <div style="display: grid; gap: 20px;">
-        <div>FPSiringan</div>
-        <div>NEMontaño</div>
-        <div>MJRPante</div>
-        <div>FPSiringan</div>
-        <div>AOLluisma</div>
-        <div>AOLluisma</div>
-        <div>AOLluisma</div>
-      </div>
-    </div>
+          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" (opened)="panelOpenState6 = true"
+            (closed)="panelOpenState6 = false ">
+          <mat-expansion-panel-header class="specific-class">
+          <mat-panel-title [class]="panelOpenState6 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState6 ? '#394e8a' : 'black'">COURSES OFFERED PREVIOUSLY</mat-panel-title>
+          </mat-expansion-panel-header>
 
-    <div style="margin-top: 50px;">
-      <p>Courses without regular faculty</p>
-    </div>
+          <mat-accordion>
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" (opened)="panelOpenState7 = true"
+              (closed)="panelOpenState7 = false">
+            <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title [class]="panelOpenState7 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState7 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>CORE COURSES</mat-panel-title>
+            </mat-expansion-panel-header>
 
-    <div style="margin-top: 30px;" class="seminar-content">
-      <div style="display: grid; gap: 20px;">
-        <strong>MS 248</strong>
-        <strong>MS 360</strong>
-      </div>
+            <div class="core-courses">
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 201</p>
+                <p>Ocean Physics and Chemistry</p>
+                <p>CBJaraula/LTDavid</p>
+              </div>
 
-      <div style="display: grid; gap: 20px;">
-        <div>Marine Zooplankton</div>
-        <div>Physiology of Marine Organisms</div>
-      </div>
-    </div>
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 210</p>
+                <p>Physical Oceanography</p>
+                <p>CVillanoy/LTDavid/IRodriguez</p>
+              </div>
 
-    <div class="inter-medium" style="margin-top: 50px; font-size: 18px;">
-      <strong>Professional Masters in Tropical Marine Ecosystem Management (PM-TMEM)</strong>
-    </div>
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Chemical Oceanography</p>
+                <p>MSDMcGlone/GSJacinto</p>
+              </div>
 
-    <div style="margin-top: 30px;">
-      <strong>1st Trimester (12 units)</strong>
-    </div>
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Biological Oceanography</p>
+                <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+              </div>
 
-    <div style="margin-top: 30px; line-height: 1.5;">
-      <strong><em>Module 1 – TMEM in the Coral Triangle</em></strong>
-      <p><strong>TMEM 201.</strong> Tropical Marine Ecosystems. Ecological foundations of tropical marine ecosystems</p>
-      <p><strong>TMEM 210.</strong> Intercultural Understanding in the Management of Tropical Marine
-      stems.  Introduction of intercultural competence as an essential skill of effective tropical
-       marine ecosystem managers.</p>
-    </div>
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 270</p>
+                <p>Biochemistry of Marine Organisms</p>
+                <p>GPConcepcion/AOLluisma/CGConaco</p>
+              </div>
+            </div>
+            </mat-expansion-panel>
 
-    <div style="margin-top: 30px; line-height: 1.5;">
-      <strong><em>Module 2 – Fundamentals of Tropical Marine Ecosystem Management</em></strong>
-      <p><strong>TMEM 202.</strong> Dynamics of Tropical Marine Socio-Ecological Systems.  Interactions of social, political, cultural, economic, and ecological issues in tropical marine ecosystems</p>
-      <p><strong>TMEM 203.</strong> Marine Environmental Planning and Management.  Principles and tools of marine environmental planning and management</p>
-    </div>
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState8 = true"
+              (closed)="panelOpenState8 = false">
+            <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title [class]="panelOpenState8 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState8 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>ELECTIVES</mat-panel-title>
+            </mat-expansion-panel-header>
 
-    <div style="margin-top: 30px;">
-      <strong>2nd Trimester (10 units)</strong>
-    </div>
+            <div class="core-courses">
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 201</p>
+                <p>Ocean Physics and Chemistry</p>
+                <p>CBJaraula/LTDavid</p>
+              </div>
 
-    <div style="margin-top: 30px; line-height: 1.5;">
-      <strong><em>Module 3 – Management and Governance of Tropical Marine Ecosystems</em></strong>
-      <p><strong>TMEM 220.</strong> Marine Protected Area Management and Governance. Integration of socio-ecological systems and designs; legal frameworks, governance and administration principles, and sustainable financing schemes</p>
-      <p><strong>TMEM 211.</strong> Communication in Tropical Marine Ecosystem Management.  Concepts, principles, processes, and necessary tools of communicating knowledge, issues, and policies for stakeholders involved in tropical marine ecosystem management</p>
-    </div>
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 210</p>
+                <p>Physical Oceanography</p>
+                <p>CVillanoy/LTDavid/IRodriguez</p>
+              </div>
 
-    <div style="margin-top: 30px; line-height: 1.5;">
-      <strong><em>Module 4 – Strategic Planning for Tropical Marine Ecosystem Management</em></strong>
-      <p><strong>TMEM 221.</strong> Strategic Planning for Marine Protected Areas.  Application of strategic planning principles and tools for Marine Protected Areas</p>
-      <p><strong>TMEM 296.</strong> Seminar</p>
-    </div>
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Chemical Oceanography</p>
+                <p>MSDMcGlone/GSJacinto</p>
+              </div>
 
-    <div style="margin-top: 30px;">
-      <strong>3rd Trimester (10 units)</strong>
-    </div>
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Biological Oceanography</p>
+                <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+              </div>
 
-    <div style="margin-top: 30px; line-height: 1.5;">
-      <strong><em>Module 5 –Marine Protected Area Management Plan Implementation</em></strong>
-      <p><strong>TMEM 222.</strong> Implementation of the Marine Protected Area Management Plan.</p>
-      <p>Management processes, systems and standards that support the day-to-day operations of single site Marine Protected Areas</p>
-    </div>
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 270</p>
+                <p>Biochemistry of Marine Organisms</p>
+                <p>GPConcepcion/AOLluisma/CGConaco</p>
+              </div>
+            </div>
+            </mat-expansion-panel>
 
-    <div style="margin-top: 30px; line-height: 1.5;">
-      <strong><em>Module 6 – Marine Protected Area Systems</em></strong>
-      <p><strong>TMEM 223.</strong> Marine Protected Area Networks and Large Marine Ecosystems. Networking and alliance building within and among local, provincial, and national entities for the governance of marine protected area networks and large marine ecosystems</p>
-    </div>
+             <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState9 = true"
+              (closed)="panelOpenState9 = false">
+            <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title [class]="panelOpenState9 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState9 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>SEMINAR</mat-panel-title>
+            </mat-expansion-panel-header>
 
-    <div style="margin-top: 30px;">
-      <strong>4th Trimester (3 units)</strong>
-    </div>
+            <div class="core-courses">
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 201</p>
+                <p>Ocean Physics and Chemistry</p>
+                <p>CBJaraula/LTDavid</p>
+              </div>
 
-    <div style="margin-top: 30px; line-height: 1.5;">
-      <strong><em>Module 7 – Tropical Marine Ecosystem Management Effectiveness and Good Governance</em></strong>
-      <p><strong>TMEM 297.</strong> Special Problem</p>
-    </div>
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 210</p>
+                <p>Physical Oceanography</p>
+                <p>CVillanoy/LTDavid/IRodriguez</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Chemical Oceanography</p>
+                <p>MSDMcGlone/GSJacinto</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Biological Oceanography</p>
+                <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 270</p>
+                <p>Biochemistry of Marine Organisms</p>
+                <p>GPConcepcion/AOLluisma/CGConaco</p>
+              </div>
+            </div>
+            </mat-expansion-panel>
+          </mat-accordion>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" (opened)="panelOpenState10 = true"
+            (closed)="panelOpenState10 = false ">
+          <mat-expansion-panel-header class="specific-class">
+          <mat-panel-title [class]="panelOpenState10 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState10 ? '#394e8a' : 'black'">COURSES WITHOUT REGULAR FACULTY</mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <mat-accordion>
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" (opened)="panelOpenState11 = true"
+              (closed)="panelOpenState11 = false">
+            <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title [class]="panelOpenState11 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState11 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>CORE COURSES</mat-panel-title>
+            </mat-expansion-panel-header>
+
+            <div class="core-courses">
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 201</p>
+                <p>Ocean Physics and Chemistry</p>
+                <p>CBJaraula/LTDavid</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 210</p>
+                <p>Physical Oceanography</p>
+                <p>CVillanoy/LTDavid/IRodriguez</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Chemical Oceanography</p>
+                <p>MSDMcGlone/GSJacinto</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Biological Oceanography</p>
+                <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 270</p>
+                <p>Biochemistry of Marine Organisms</p>
+                <p>GPConcepcion/AOLluisma/CGConaco</p>
+              </div>
+            </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState12 = true"
+              (closed)="panelOpenState12 = false">
+            <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title [class]="panelOpenState12 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState12 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>ELECTIVES</mat-panel-title>
+            </mat-expansion-panel-header>
+
+            <div class="core-courses">
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 201</p>
+                <p>Ocean Physics and Chemistry</p>
+                <p>CBJaraula/LTDavid</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 210</p>
+                <p>Physical Oceanography</p>
+                <p>CVillanoy/LTDavid/IRodriguez</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Chemical Oceanography</p>
+                <p>MSDMcGlone/GSJacinto</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Biological Oceanography</p>
+                <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 270</p>
+                <p>Biochemistry of Marine Organisms</p>
+                <p>GPConcepcion/AOLluisma/CGConaco</p>
+              </div>
+            </div>
+            </mat-expansion-panel>
+
+             <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState13 = true"
+              (closed)="panelOpenState13 = false">
+            <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title [class]="panelOpenState13 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState13 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>SEMINAR</mat-panel-title>
+            </mat-expansion-panel-header>
+
+            <div class="core-courses">
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 201</p>
+                <p>Ocean Physics and Chemistry</p>
+                <p>CBJaraula/LTDavid</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 210</p>
+                <p>Physical Oceanography</p>
+                <p>CVillanoy/LTDavid/IRodriguez</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Chemical Oceanography</p>
+                <p>MSDMcGlone/GSJacinto</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Biological Oceanography</p>
+                <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 270</p>
+                <p>Biochemistry of Marine Organisms</p>
+                <p>GPConcepcion/AOLluisma/CGConaco</p>
+              </div>
+            </div>
+            </mat-expansion-panel>
+          </mat-accordion>
+          </mat-expansion-panel>
+        </mat-accordion>
 
 
+      </mat-expansion-panel>
+
+      <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState14 = true"
+          (closed)="panelOpenState14 = false">
+        <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState14 ? '#5ca361' : '#394e8a'">
+        <mat-panel-title class="atlas-light" style="color: white;">PROFESSIONAL IN MASTERS IN TROPICAL MARINE ECOSYSTEM MANAGEMENT (PM-TMEM)</mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <mat-accordion>
+          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" (opened)="panelOpenState15 = true"
+              (closed)="panelOpenState15 = false">
+            <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title [class]="panelOpenState15 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState15 ? '#394e8a' : 'black'">COURSES OFFERED FOR FIRST SEMESTER</mat-panel-title>
+            </mat-expansion-panel-header>
+
+            <mat-accordion>
+              <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" (opened)="panelOpenState16 = true"
+                (closed)="panelOpenState16 = false">
+              <mat-expansion-panel-header class="specific-class">
+              <mat-panel-title [class]="panelOpenState16 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState16 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>CORE COURSES</mat-panel-title>
+              </mat-expansion-panel-header>
+
+              <div class="core-courses">
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 201</p>
+                  <p>Ocean Physics and Chemistry</p>
+                  <p>CBJaraula/LTDavid</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 210</p>
+                  <p>Physical Oceanography</p>
+                  <p>CVillanoy/LTDavid/IRodriguez</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 220</p>
+                  <p>Chemical Oceanography</p>
+                  <p>MSDMcGlone/GSJacinto</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 220</p>
+                  <p>Biological Oceanography</p>
+                  <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 270</p>
+                  <p>Biochemistry of Marine Organisms</p>
+                  <p>GPConcepcion/AOLluisma/CGConaco</p>
+                </div>
+              </div>
+              </mat-expansion-panel>
+
+              <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState17 = true"
+                (closed)="panelOpenState17 = false">
+              <mat-expansion-panel-header class="specific-class">
+              <mat-panel-title [class]="panelOpenState17 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState17 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>ELECTIVES</mat-panel-title>
+              </mat-expansion-panel-header>
+
+              <div class="core-courses">
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 201</p>
+                  <p>Ocean Physics and Chemistry</p>
+                  <p>CBJaraula/LTDavid</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 210</p>
+                  <p>Physical Oceanography</p>
+                  <p>CVillanoy/LTDavid/IRodriguez</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 220</p>
+                  <p>Chemical Oceanography</p>
+                  <p>MSDMcGlone/GSJacinto</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 220</p>
+                  <p>Biological Oceanography</p>
+                  <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 270</p>
+                  <p>Biochemistry of Marine Organisms</p>
+                  <p>GPConcepcion/AOLluisma/CGConaco</p>
+                </div>
+              </div>
+              </mat-expansion-panel>
+
+               <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState18 = true"
+                (closed)="panelOpenState18 = false">
+              <mat-expansion-panel-header class="specific-class">
+              <mat-panel-title [class]="panelOpenState18 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState18 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>SEMINAR</mat-panel-title>
+              </mat-expansion-panel-header>
+
+              <div class="core-courses">
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 201</p>
+                  <p>Ocean Physics and Chemistry</p>
+                  <p>CBJaraula/LTDavid</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 210</p>
+                  <p>Physical Oceanography</p>
+                  <p>CVillanoy/LTDavid/IRodriguez</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 220</p>
+                  <p>Chemical Oceanography</p>
+                  <p>MSDMcGlone/GSJacinto</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 220</p>
+                  <p>Biological Oceanography</p>
+                  <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 270</p>
+                  <p>Biochemistry of Marine Organisms</p>
+                  <p>GPConcepcion/AOLluisma/CGConaco</p>
+                </div>
+              </div>
+              </mat-expansion-panel>
+            </mat-accordion>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" (opened)="panelOpenState19 = true"
+            (closed)="panelOpenState19 = false ">
+          <mat-expansion-panel-header class="specific-class">
+          <mat-panel-title [class]="panelOpenState19 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState19 ? '#394e8a' : 'black'">COURSES OFFERED PREVIOUSLY</mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <mat-accordion>
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" (opened)="panelOpenState20 = true"
+              (closed)="panelOpenState20 = false">
+            <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title [class]="panelOpenState20 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState20 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>CORE COURSES</mat-panel-title>
+            </mat-expansion-panel-header>
+
+            <div class="core-courses">
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 201</p>
+                <p>Ocean Physics and Chemistry</p>
+                <p>CBJaraula/LTDavid</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 210</p>
+                <p>Physical Oceanography</p>
+                <p>CVillanoy/LTDavid/IRodriguez</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Chemical Oceanography</p>
+                <p>MSDMcGlone/GSJacinto</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Biological Oceanography</p>
+                <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 270</p>
+                <p>Biochemistry of Marine Organisms</p>
+                <p>GPConcepcion/AOLluisma/CGConaco</p>
+              </div>
+            </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState21 = true"
+              (closed)="panelOpenState21 = false">
+            <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title [class]="panelOpenState21 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState21 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>ELECTIVES</mat-panel-title>
+            </mat-expansion-panel-header>
+
+            <div class="core-courses">
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 201</p>
+                <p>Ocean Physics and Chemistry</p>
+                <p>CBJaraula/LTDavid</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 210</p>
+                <p>Physical Oceanography</p>
+                <p>CVillanoy/LTDavid/IRodriguez</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Chemical Oceanography</p>
+                <p>MSDMcGlone/GSJacinto</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Biological Oceanography</p>
+                <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 270</p>
+                <p>Biochemistry of Marine Organisms</p>
+                <p>GPConcepcion/AOLluisma/CGConaco</p>
+              </div>
+            </div>
+            </mat-expansion-panel>
+
+             <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState22 = true"
+              (closed)="panelOpenState22 = false">
+            <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title [class]="panelOpenState22 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState22 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>SEMINAR</mat-panel-title>
+            </mat-expansion-panel-header>
+
+            <div class="core-courses">
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 201</p>
+                <p>Ocean Physics and Chemistry</p>
+                <p>CBJaraula/LTDavid</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 210</p>
+                <p>Physical Oceanography</p>
+                <p>CVillanoy/LTDavid/IRodriguez</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Chemical Oceanography</p>
+                <p>MSDMcGlone/GSJacinto</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Biological Oceanography</p>
+                <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 270</p>
+                <p>Biochemistry of Marine Organisms</p>
+                <p>GPConcepcion/AOLluisma/CGConaco</p>
+              </div>
+            </div>
+            </mat-expansion-panel>
+          </mat-accordion>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" (opened)="panelOpenState23 = true"
+            (closed)="panelOpenState23 = false ">
+          <mat-expansion-panel-header class="specific-class">
+          <mat-panel-title [class]="panelOpenState23 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState23 ? '#394e8a' : 'black'">COURSES WITHOUT REGULAR FACULTY</mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <mat-accordion>
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" (opened)="panelOpenState24 = true"
+              (closed)="panelOpenState24 = false">
+            <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title [class]="panelOpenState24 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState24 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>CORE COURSES</mat-panel-title>
+            </mat-expansion-panel-header>
+
+            <div class="core-courses">
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 201</p>
+                <p>Ocean Physics and Chemistry</p>
+                <p>CBJaraula/LTDavid</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 210</p>
+                <p>Physical Oceanography</p>
+                <p>CVillanoy/LTDavid/IRodriguez</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Chemical Oceanography</p>
+                <p>MSDMcGlone/GSJacinto</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Biological Oceanography</p>
+                <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 270</p>
+                <p>Biochemistry of Marine Organisms</p>
+                <p>GPConcepcion/AOLluisma/CGConaco</p>
+              </div>
+            </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState25 = true"
+              (closed)="panelOpenState25 = false">
+            <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title [class]="panelOpenState25 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState25 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>ELECTIVES</mat-panel-title>
+            </mat-expansion-panel-header>
+
+            <div class="core-courses">
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 201</p>
+                <p>Ocean Physics and Chemistry</p>
+                <p>CBJaraula/LTDavid</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 210</p>
+                <p>Physical Oceanography</p>
+                <p>CVillanoy/LTDavid/IRodriguez</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Chemical Oceanography</p>
+                <p>MSDMcGlone/GSJacinto</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Biological Oceanography</p>
+                <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 270</p>
+                <p>Biochemistry of Marine Organisms</p>
+                <p>GPConcepcion/AOLluisma/CGConaco</p>
+              </div>
+            </div>
+            </mat-expansion-panel>
+
+             <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState26 = true"
+              (closed)="panelOpenState26 = false">
+            <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title [class]="panelOpenState26 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState26 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>SEMINAR</mat-panel-title>
+            </mat-expansion-panel-header>
+
+            <div class="core-courses">
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 201</p>
+                <p>Ocean Physics and Chemistry</p>
+                <p>CBJaraula/LTDavid</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 210</p>
+                <p>Physical Oceanography</p>
+                <p>CVillanoy/LTDavid/IRodriguez</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Chemical Oceanography</p>
+                <p>MSDMcGlone/GSJacinto</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 220</p>
+                <p>Biological Oceanography</p>
+                <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+              </div>
+
+              <div class="core-content">
+                <p style="font-weight: bold;">MS 270</p>
+                <p>Biochemistry of Marine Organisms</p>
+                <p>GPConcepcion/AOLluisma/CGConaco</p>
+              </div>
+            </div>
+            </mat-expansion-panel>
+          </mat-accordion>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+
+      </mat-expansion-panel>
+    </mat-accordion>
 </div>
 
 <div style="margin-top: 70px;">
