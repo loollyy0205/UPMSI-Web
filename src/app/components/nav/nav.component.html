@@ -33,7 +33,7 @@
               </p>
             </div>
 
-            <span [routerLink]="['/subpage']">Admin</span>
+            <span [routerLink]="['/About/admin']">Admin</span>
           </div>
         </div>
 
@@ -96,7 +96,7 @@
           <div (mouseover)="hoverExtension=true" (mouseleave)="hoverExtension=false" class="dropdown-menu">
             <span>Trainings</span>
             <span>Community Outreach</span>
-            <span>Gallery</span>
+            <span [routerLink]="['/Extension/gallery']">Gallery</span>
           </div>
         </div>
 

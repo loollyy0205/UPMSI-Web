@@ -1,0 +1,17 @@
+.container{
+  margin: 0 120px;
+}
+
+img{
+  cursor: pointer;
+}
+
+.title{
+  font-size: 25px;
+  color: #394e8a;
+}
+
+.title:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}

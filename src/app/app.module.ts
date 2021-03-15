@@ -2,6 +2,7 @@ import { AuthGuard } from './shared/auth.guard';
 import { MaterialModule } from './material/material.module';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { NgImageSliderModule } from 'ng-image-slider';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireModule } from '@angular/fire';
 import { HttpClientModule } from '@angular/common/http';
@@ -37,6 +38,8 @@ import { AdminDashboardComponent } from './components/admin/admin-dashboard/admi
 import { AdminHomeComponent } from './components/admin/admin-home/admin-home.component';
 import { AdminNewsComponent } from './components/admin/admin-news/admin-news.component';
 import { GalleryComponent } from './components/extension/gallery/gallery.component';
+import { ImageDialogComponent } from './components/extension/gallery/image-dialog/image-dialog.component';
+import { ImagesTabComponent } from './components/extension/gallery/images-tab/images-tab.component';
 
 @NgModule({
   declarations: [
@@ -67,6 +70,8 @@ import { GalleryComponent } from './components/extension/gallery/gallery.compone
     AdminHomeComponent,
     AdminNewsComponent,
     GalleryComponent,
+    ImageDialogComponent,
+    ImagesTabComponent,
   ],
   imports: [
     BrowserModule,
@@ -74,6 +79,7 @@ import { GalleryComponent } from './components/extension/gallery/gallery.compone
     BrowserAnimationsModule,
     MaterialModule,
     IvyCarouselModule,
+    NgImageSliderModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,

@@ -29,13 +29,29 @@ export class NavComponent implements OnInit {
   ngOnInit(): void {
     if(this.router.url === '/About'){
       this.about = true;
+    }else if(this.router.url === '/About/About-the-director'){
+      this.about = true;
+    }else if(this.router.url === '/About/faculty'){
+      this.about = true;
+    }else if(this.router.url === '/About/admin'){
+      this.about = true;
     }else if(this.router.url === '/Academics'){
+      this.education = true;
+    }else if(this.router.url === '/Academics/courses-offered'){
       this.education = true;
     }else if(this.router.url === '/Research'){
       this.research = true;
+    }else if(this.router.url === '/Research/areas-of-research'){
+      this.research = true;
+    }else if(this.router.url === '/Research/laboratories'){
+      this.research = true;
     }else if(this.router.url === '/Facilities'){
       this.facilities = true;
+    }else if(this.router.url === '/Facilities/bolinao-marine-lab'){
+      this.facilities = true;
     }else if(this.router.url === '/Extension'){
+      this.extension = true;
+    }else if(this.router.url === '/Extension/gallery'){
       this.extension = true;
     }else if(this.router.url === '/Contact'){
       this.contact = true;

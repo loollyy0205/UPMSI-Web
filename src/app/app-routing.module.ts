@@ -1,3 +1,4 @@
+import { ImagesTabComponent } from './components/extension/gallery/images-tab/images-tab.component';
 import { GalleryComponent } from './components/extension/gallery/gallery.component';
 import { AdminNewsComponent } from './components/admin/admin-news/admin-news.component';
 import { AdminHomeComponent } from './components/admin/admin-home/admin-home.component';
@@ -44,11 +45,12 @@ const routes: Routes = [
   {path: 'Facilities/bolinao-marine-lab', component: BolinaoComponent},
   {path: 'Extension', component: ExtensionComponent},
   {path: 'Extension/gallery', component: GalleryComponent},
+  {path: 'Extension/gallery/images', component: ImagesTabComponent},
   {path: 'Resources', component: ResourcesComponent},
   {path: 'Contact', component: ContactComponent},
   {path: 'News', component: NewsComponent},
   {path: 'News/Announcement', component: AnnouncementComponent},
-  {path: 'subpage', component: SubpageComponent},
+  {path: 'About/admin', component: SubpageComponent},
 ];
 
 @NgModule({

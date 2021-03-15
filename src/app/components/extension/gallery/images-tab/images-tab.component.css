@@ -1,0 +1,36 @@
+.container{
+  margin: 0 120px;
+}
+
+.title{
+  font-size: 25px;
+  color: #394e8a;
+}
+
+img{
+  height: 250px;
+  width: 350px;
+}
+
+img:hover{
+  cursor: pointer;
+}
+
+.img-container{
+  margin-top: 40px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.facilities-next{
+  color: #384e8a;
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  gap: 20px;
+}

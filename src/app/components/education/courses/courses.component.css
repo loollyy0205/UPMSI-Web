@@ -10,6 +10,10 @@
   background-repeat: no-repeat; */
 }
 
+mat-expansion-panel{
+  margin-bottom: -20px;
+}
+
 img{
   height: 100%;
   width: 100%;

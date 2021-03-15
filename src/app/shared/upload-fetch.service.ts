@@ -1,13 +1,22 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { BehaviorSubject, Subject } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UploadFetchService {
+  private dataGallery = new BehaviorSubject<any>(null);
+  message$ = this.dataGallery.asObservable();
+
+
   api:string = "AIzaSyC0vgMf-vXSrsIVRNUE7STpC2zcENy125s";
   constructor(private http:HttpClient) { }
+
+  sendData(title:{}){
+    this.dataGallery.next(title)
+  }
 
   login(email, password){
     return this.http.post(

@@ -10,6 +10,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatDialogModule} from '@angular/material/dialog';
 
 const MaterialComponents = [
   MatButtonModule,
@@ -22,7 +23,8 @@ const MaterialComponents = [
   MatDividerModule,
   MatListModule,
   MatTabsModule,
-  MatExpansionModule
+  MatExpansionModule,
+  MatDialogModule
 ]
 
 @NgModule({
