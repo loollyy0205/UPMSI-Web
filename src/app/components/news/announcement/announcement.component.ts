@@ -6,7 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./announcement.component.css']
 })
 export class AnnouncementComponent implements OnInit {
-
+  researchOpp=[
+    {image: "../../../../assets/photos/ancmntImage1.png", title: "Lorem ipsum dolor sit amet", content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur, libero totam ad quam architecto! Ut velit dolores ipsam aliquid, libero totam ad quam architecto! Ut velit dolores ipsam aliquid, libero totam ad quam architecto! Ut velit dolores ipsam aliquid'},
+    {image: "../../../../assets/photos/ancmntImg2.png", title: "Lorem ipsum dolor sit amet", content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur, libero totam ad quam architecto! Ut velit dolores ipsam aliquid'},
+    {image: "../../../../assets/photos/ancmntImg3.png", title: "Lorem ipsum dolor sit amet", content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur, libero totam ad quam architecto! Ut velit dolores ipsam aliquid'},
+    {image: "../../../../assets/photos/ancmntImg4.png", title: "Lorem ipsum dolor sit amet", content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur, libero totam ad quam architecto! Ut velit dolores ipsam aliquid, , libero totam ad quam architecto! Ut velit dolores ipsam aliquid, libero totam ad quam architecto! Ut velit dolores ipsam aliquid'},
+    {image: "../../../../assets/photos/ancmntImage1.png", title: "Lorem ipsum dolor sit amet", content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur, libero totam ad quam architecto! Ut velit dolores ipsam aliquid'},
+    {image: "../../../../assets/photos/ancmntImg2.png", title: "Lorem ipsum dolor sit amet", content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur, libero totam ad quam architecto! Ut velit dolores ipsam aliquid'},
+    {image: "../../../../assets/photos/ancmntImg3.png", title: "Lorem ipsum dolor sit amet", content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur, libero totam ad quam architecto! Ut velit dolores ipsam aliquid'},
+    {image: "../../../../assets/photos/ancmntImg4.png", title: "Lorem ipsum dolor sit amet", content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur, libero totam ad quam architecto! Ut velit dolores ipsam aliquid'},
+  ];
   constructor() { }
 
   ngOnInit(): void {

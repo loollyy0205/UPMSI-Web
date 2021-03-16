@@ -42,9 +42,9 @@
             <button mat-button [routerLink]="['/News']" [style.backgroundColor]="news ? 'white' : '' || hoverNews ? '#00a562' : ''" [style.color]="news ? '#00a562' : ''|| hoverNews ? 'white' : ''">NEWS</button>
           </div>
           <div (mouseover)="hoverNews=true" (mouseleave)="hoverNews=false" class="dropdown-menu">
-            <span>Announcement</span>
-            <span>Vacancies/Opportunities</span>
-            <span style="line-height: 1.3;">Research Projects/Highlights</span>
+            <span [routerLink]="['/News/Announcement']">Announcement</span>
+            <span [routerLink]="['/News/Vacancies-and-Opportunities']">Vacancies/Opportunities</span>
+            <span style="line-height: 1.3;" [routerLink]="['/News/Research-projects-and-highlights']">Research Projects/Highlights</span>
           </div>
         </div>
 
@@ -106,7 +106,7 @@
           </div>
           <div (mouseover)="hoverResources=true" (mouseleave)="hoverResources=false" class="dropdown-menu">
             <span>Publications</span>
-            <span>Library</span>
+            <span [routerLink]="['/Resources/library']">Library</span>
             <span>Museums/Exhibits</span>
             <span>Research Equipment</span>
             <span>Repository Herbarium</span>

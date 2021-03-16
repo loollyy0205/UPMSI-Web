@@ -1,0 +1,43 @@
+<app-nav></app-nav>
+<div class="container animate__animated animate__fadeIn animate__delay-1s">
+  <p class="atlas-bold" style="font-size: 30px; color: #394e8a;">A Letter for Dr. Ed Gomez on his first death anniversary</p>
+
+  <div style="display: grid; place-content: center; margin-top: 20px;">
+    <div class="box-content">
+      <div class="left">
+        <img src="../../../../assets/photos/announcement-content.jpg">
+      </div>
+
+      <div class="right">
+        <p class="atlas-light">Please join us in saying a prayer and remembering our dear founding Director/National Scientist/University Professor Emeritus Edgardo D. Gomez who passed away a year ago on Dec 1, 2019.</p>
+        <p class="atlas-bold">A letter for Dr. Ed Gomez on his first death anniversary</p>
+        <p class="atlas-light">Dear Dr. Gomez (Ed, Sir),</p>
+        <p class="atlas-light">One year has passed since you left us, and we miss you. Today, we pause from our seemingly harried life because of the COVID-19 pandemic and remember you with much gratitude for your extraordinary contributions and the rich legacy you leave us behind.</p>
+        <p class="atlas-light">Your vision built MSI from scratch into a world-renowned institution that we indeed are all proud to be a part of. That vision shaped marine science in the Philippines and saw the development of other institutions in different parts of the country.</p>
+        <p class="atlas-light">Being part of MSI is truly a privilege and an honor. It has opened many opportunities for us to pursue our professional and personal goals and serve the university and the country. We are indeed standing on the shoulders of Giants, with your being the tallest.</p>
+        <p class="atlas-light">You created a culture of excellence, hard work, integrity, and honesty, which you showed by example, and that we hope to continue and maintain. You have taught us never to grow tired of giving our best, and always to have the right attitude, for it is the key to success. <span class="atlas-bold" style="text-decoration: underline; color: #394e8a; cursor: pointer;" (click)="readMore = true" *ngIf="!readMore"> read more</span></p>
+
+      </div>
+
+    </div>
+  </div>
+  <div style="display: grid; place-content: center;" *ngIf="readMore">
+    <div class="bottom-content">
+      <p class="atlas-light">You have given MSI the best years of your life. We thank you for your passion, dedication, and motivation, which made a significant difference to MSI and the field of marine science. Please rest assured that your legacy will live in each one of us wherever the seas take us.</p>
+      <p class="altas-light">With all our love and respect,</p>
+      <p class="altas-light" style="margin-top: -2px; margin-bottom: 40px;">Your MSI Family</p>
+      <em class="atlas-light">A mass has been offered for EDG at the Parish of the Holy Sacrifice at UPD,  Dec 1, 2020 at 12 noon. Mass is live-streamed via Facebook.</em>
+    </div>
+  </div>
+
+
+  <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s" (click)="gotoAnnouncement()">
+    <mat-icon style="font-size: 30px;">arrow_forward</mat-icon>
+    <span style="margin-top: 8px; text-decoration: underline;">
+      <p class="atlas-light">MORE ANNOUNCEMENT</p>
+    </span>
+  </div>
+</div>
+<div style="margin-top: 100px;">
+  <app-footer></app-footer>
+</div>

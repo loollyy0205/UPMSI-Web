@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
   }
 
+  moreVacancies(){
+    this.router.navigate(['News/Vacancies-and-Opportunities']);
+  }
+
+  moreResearchOpp(){
+    this.router.navigate(['/News/Research-projects-and-highlights']);
+  }
+
+  moreNews(){
+    this.router.navigate(['/News/more']);
+  }
+
+  newsContent(){
+    this.router.navigate(['/News/content']);
+  }
+
+  gotoAnnouncement(){
+    this.router.navigate(['/News/Announcement/content']);
+  }
 }

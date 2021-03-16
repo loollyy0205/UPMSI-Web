@@ -40,6 +40,14 @@ import { AdminNewsComponent } from './components/admin/admin-news/admin-news.com
 import { GalleryComponent } from './components/extension/gallery/gallery.component';
 import { ImageDialogComponent } from './components/extension/gallery/image-dialog/image-dialog.component';
 import { ImagesTabComponent } from './components/extension/gallery/images-tab/images-tab.component';
+import { VacanciesOppComponent } from './components/news/vacancies-opp/vacancies-opp.component';
+import { MoreVacanciesComponent } from './components/news/vacancies-opp/more-vacancies/more-vacancies.component';
+import { ResearchProjectComponent } from './components/news/research-project/research-project.component';
+import { MoreNewsComponent } from './components/news/more-news/more-news.component';
+import { NewsContentComponent } from './components/news/news-content/news-content.component';
+import { AnnouncementContentComponent } from './components/news/announcement-content/announcement-content.component';
+import { LibraryComponent } from './components/resources/library/library.component';
+
 
 @NgModule({
   declarations: [
@@ -72,6 +80,13 @@ import { ImagesTabComponent } from './components/extension/gallery/images-tab/im
     GalleryComponent,
     ImageDialogComponent,
     ImagesTabComponent,
+    VacanciesOppComponent,
+    MoreVacanciesComponent,
+    ResearchProjectComponent,
+    MoreNewsComponent,
+    NewsContentComponent,
+    AnnouncementContentComponent,
+    LibraryComponent,
   ],
   imports: [
     BrowserModule,

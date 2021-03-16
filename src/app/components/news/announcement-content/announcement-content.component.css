@@ -1,0 +1,53 @@
+.container{
+  margin: 0 120px;
+}
+
+.box-content{
+  height: 620px;
+  width: 820px;
+  font-size: 14px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: row;
+  gap: 30px
+}
+
+p:nth-child(n+2){
+  margin-top: 10px;
+}
+
+.left{
+  width: 50%;
+}
+
+img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+em{
+  font-size: 14px;
+}
+
+.right{
+  width: 50%;
+}
+
+.bottom-content{
+  margin-top: 30px;
+  line-height: 1.5;
+  height: 100%;
+  width: 820px;
+}
+
+.more-vacancies{
+  color: #384e8a;
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  gap: 20px;
+}

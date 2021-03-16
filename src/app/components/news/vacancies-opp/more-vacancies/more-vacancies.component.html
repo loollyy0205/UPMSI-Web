@@ -1,0 +1,19 @@
+<app-nav></app-nav>
+<div class="container animate__animated animate__fadeIn animate__delay-1s">
+  <p class="atlas-bold" style="font-size: 30px; color: #394e8a;">VACANCIES AND OPPORTUNITIES</p>
+
+  <div class="image-content">
+    <div *ngFor="let item of vacancies">
+      <img [src]="item.image">
+      <div style="line-height: 1.4;">
+        <p class="atlas-bold" style="color: #394e8a; text-decoration: underline; margin-top: 15px;">{{item.title}}</p>
+        <p class="atlas-light" style="color: #394e8a;">{{item.date}}</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div style="margin-top: 100px;">
+  <app-footer></app-footer>
+</div>

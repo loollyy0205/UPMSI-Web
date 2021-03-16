@@ -19,12 +19,12 @@ img:hover{
 .img-container{
   margin-top: 40px;
   display: grid;
+  place-items: center;
   gap: 25px;
   grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
 }
 
-.facilities-next{
+.see-more{
   color: #384e8a;
   margin-top: 30px;
   margin-left: 120px;

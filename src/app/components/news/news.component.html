@@ -32,7 +32,7 @@
               </p>
 
               <div style="font-size: 16px; margin-right: 20px; text-decoration: underline; cursor: pointer; color: #384e8a; display: flex; flex-direction: row; justify-content: flex-end;">
-                <p>Read more</p>
+                <p (click)="newsContent()">Read more</p>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@
               </p>
 
               <div style="font-size: 16px; margin-right: 20px; text-decoration: underline; cursor: pointer; color: #384e8a; display: flex; flex-direction: row; justify-content: flex-end;">
-                <p>Read more</p>
+                <p (click)="newsContent()">Read more</p>
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@
               </p>
 
               <div style="font-size: 16px; margin-right: 20px; text-decoration: underline; cursor: pointer; color: #384e8a; display: flex; flex-direction: row; justify-content: flex-end;">
-                <p>Read more</p>
+                <p (click)="newsContent()">Read more</p>
               </div>
             </div>
           </div>
@@ -122,18 +122,18 @@
               </p>
 
               <div style="font-size: 16px; margin-right: 20px; text-decoration: underline; cursor: pointer; color: #384e8a; display: flex; flex-direction: row; justify-content: flex-end;">
-                <p>Read more</p>
+                <p (click)="newsContent()">Read more</p>
               </div>
             </div>
           </div>
         </div>
 
-
       </div>
     </div>
+    <div style="  margin-left: 120px; margin-right: 120px; text-decoration: underline; color: #384e8a; float: right; margin-top: 5px; cursor: pointer;" (click)="moreNews()">READ MORE ABOUT MSI NEWS</div>
 
 
-    <div class="inter-bold title">
+    <div class="inter-bold title" style="margin-top: 70px;">
       <p>Announcement</p>
     </div>
     <div class="content1">
@@ -156,7 +156,7 @@
                 Emeritus Edgardo D. Gomez who passed
                 away a year ago on Dec 1, 2019
               </span>
-              <span style="text-decoration: underline; color: #384e8a; margin-top: 20px; display: flex; flex-direction: row; justify-content: flex-end;">
+              <span (click)="gotoAnnouncement()" style="cursor: pointer; text-decoration: underline; color: #384e8a; margin-top: 20px; display: flex; flex-direction: row; justify-content: flex-end;">
                 CONTINUE READING
               </span>
             </div>
@@ -181,7 +181,7 @@
                 Antiporda accusing the University of the
                 Philippines...
               </span>
-              <span style="text-decoration: underline; color: #384e8a; margin-top: 20px; display: flex; flex-direction: row; justify-content: flex-end;">
+              <span (click)="gotoAnnouncement()" style="cursor: pointer; text-decoration: underline; color: #384e8a; margin-top: 20px; display: flex; flex-direction: row; justify-content: flex-end;">
                 CONTINUE READING
               </span>
             </div>
@@ -208,7 +208,7 @@
                 the Philippines. It has a long history of use
                 for shipping, navigation, and port services...
               </span>
-              <span style="text-decoration: underline; color: #384e8a; margin-top: 20px; display: flex; flex-direction: row; justify-content: flex-end;">
+              <span (click)="gotoAnnouncement()" style="cursor: pointer; text-decoration: underline; color: #384e8a; margin-top: 20px; display: flex; flex-direction: row; justify-content: flex-end;">
                 CONTINUE READING
               </span>
             </div>
@@ -233,7 +233,7 @@
                 students (15) within the College of Science
                 this year.
               </span>
-              <span style="text-decoration: underline; color: #384e8a; margin-top: 20px; display: flex; flex-direction: row; justify-content: flex-end;">
+              <span (click)="gotoAnnouncement()" style="cursor: pointer; text-decoration: underline; color: #384e8a; margin-top: 20px; display: flex; flex-direction: row; justify-content: flex-end;">
                 CONTINUE READING
               </span>
             </div>
@@ -276,7 +276,7 @@
           commensurate with qualifications and experience.
         </div>
 
-        <div style="text-decoration: underline; color: white; float: right; margin-top: 10px; font-weight: 100;">MORE ABOUT OPPORTUNITIES</div>
+        <div style="text-decoration: underline; color: white; float: right; margin-top: 10px; font-weight: 100; cursor: pointer;" (click)="moreVacancies()">MORE ABOUT OPPORTUNITIES</div>
 
       </div>
 
@@ -307,7 +307,7 @@
 
         <div style="text-decoration: underline; color: white; float: right; margin-top: 10px; font-weight: 100;">CONTINUE READING</div>
 
-        <div style="text-decoration: underline; color: white; display:flex; flex-direction: row; justify-content: flex-end; margin-top: 100px; font-weight: 100;">MORE ABOUT RESEARCH PROJECTS/HIGHLIGHTS</div>
+        <div style="text-decoration: underline; color: white; display:flex; flex-direction: row; justify-content: flex-end; margin-top: 100px; font-weight: 100; cursor: pointer;" (click)="moreResearchOpp()">MORE ABOUT RESEARCH PROJECTS/HIGHLIGHTS</div>
 
       </div>
 

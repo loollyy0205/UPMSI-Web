@@ -1,0 +1,16 @@
+.container{
+  margin: 0 120px;
+}
+
+img{
+  width: 350px;
+  height: 220px;
+}
+
+.image-content{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  gap: 20px;
+}

@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./faculty.component.css']
 })
 export class FacultyComponent implements OnInit {
-  constructor() { }
+  panelOpenState:boolean =false;
+  panelOpenState1:boolean =false;
+  panelOpenState2:boolean =false;
+
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
+  }
+
+  gotoNews(){
+    this.router.navigate(['/News']);
   }
 
 }

@@ -1,3 +1,10 @@
+import { LibraryComponent } from './components/resources/library/library.component';
+import { AnnouncementContentComponent } from './components/news/announcement-content/announcement-content.component';
+import { NewsContentComponent } from './components/news/news-content/news-content.component';
+import { MoreNewsComponent } from './components/news/more-news/more-news.component';
+import { ResearchProjectComponent } from './components/news/research-project/research-project.component';
+import { MoreVacanciesComponent } from './components/news/vacancies-opp/more-vacancies/more-vacancies.component';
+import { VacanciesOppComponent } from './components/news/vacancies-opp/vacancies-opp.component';
 import { ImagesTabComponent } from './components/extension/gallery/images-tab/images-tab.component';
 import { GalleryComponent } from './components/extension/gallery/gallery.component';
 import { AdminNewsComponent } from './components/admin/admin-news/admin-news.component';
@@ -47,9 +54,16 @@ const routes: Routes = [
   {path: 'Extension/gallery', component: GalleryComponent},
   {path: 'Extension/gallery/images', component: ImagesTabComponent},
   {path: 'Resources', component: ResourcesComponent},
+  {path: 'Resources/library', component: LibraryComponent},
   {path: 'Contact', component: ContactComponent},
   {path: 'News', component: NewsComponent},
+  {path: 'News/content', component: NewsContentComponent},
+  {path: 'News/more', component: MoreNewsComponent},
   {path: 'News/Announcement', component: AnnouncementComponent},
+  {path: 'News/Announcement/content', component: AnnouncementContentComponent},
+  {path: 'News/Research-projects-and-highlights', component: ResearchProjectComponent},
+  {path: 'News/Vacancies-and-Opportunities', component: VacanciesOppComponent},
+  {path: 'News/Vacancies-and-Opportunities/more', component: MoreVacanciesComponent},
   {path: 'About/admin', component: SubpageComponent},
 ];
 
