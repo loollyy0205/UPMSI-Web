@@ -1,31 +1,89 @@
-/* .container{
-  height: 300px;
-  width: 400px;
-  background-color: black;
+.container{
+  margin: 0 120px;
 }
 
-@media (max-width: 1920px){
-  .container{
-    background-color: red;
-  }
+.content-header{
+  height: 400px;
+  position: relative;
 }
 
-@media (max-width: 1822px){
-  .container{
-    background-color: violet;
-  }
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-@media (max-width: 1440px){
-  .container{
-    background-color: blue;
-  }
+.left-content{
+  position: absolute;
+  z-index: 1;
+  bottom: 8px;
+  left: 16px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+  color: white;
+  gap: 20px;
 }
 
-
-@media (max-width: 1366px){
-  .container{
-    background-color: green;
-  }
+.title{
+  font-size: 30px;
 }
- */
+
+.box-content{
+  height: 400px;
+  width: 820px;
+  font-size: 14px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: row;
+  gap: 30px
+}
+
+p:nth-child(n+2){
+  margin-top: 10px;
+}
+
+.left{
+  width: 40%;
+}
+
+em{
+  font-size: 14px;
+}
+
+.right{
+  width: 60%;
+}
+
+.bottom-content{
+  margin-top: 20px;
+  margin-bottom: -25px;
+  font-size: 14px;
+  line-height: 1.5;
+  height: 100%;
+  width: 820px;
+}
+
+.facilities{
+  width: 820px;
+  margin-top: 50px;
+  height: 100%;
+  font-size: 14px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.more-vacancies{
+  color: #384e8a;
+  margin-top: 50px;
+  width: 820px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  gap: 20px;
+}
+

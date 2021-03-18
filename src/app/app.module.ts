@@ -47,6 +47,7 @@ import { MoreNewsComponent } from './components/news/more-news/more-news.compone
 import { NewsContentComponent } from './components/news/news-content/news-content.component';
 import { AnnouncementContentComponent } from './components/news/announcement-content/announcement-content.component';
 import { LibraryComponent } from './components/resources/library/library.component';
+import { FacilitiesDialogComponent } from './components/facilities/facilities-dialog/facilities-dialog.component';
 
 
 @NgModule({
@@ -87,6 +88,7 @@ import { LibraryComponent } from './components/resources/library/library.compone
     NewsContentComponent,
     AnnouncementContentComponent,
     LibraryComponent,
+    FacilitiesDialogComponent,
   ],
   imports: [
     BrowserModule,
