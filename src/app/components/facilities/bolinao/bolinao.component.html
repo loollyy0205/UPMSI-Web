@@ -71,11 +71,33 @@
 
     </div>
 
-    <div style="display: grid; place-content: center;">
-      <!-- <div style="width: 820px; height: 350px; margin-top: 50px;">
-        <img src="../../../../assets/photos/contact-banner.jpg">
-      </div> -->
+    <div style="display: grid; place-content: center; margin-top: 20px;">
+      <div style="width: 820px;">
+        <div style="display: flex; flex-direction: row; margin-bottom: 10px; margin-top: 20px;">
+          <p class="atlas-bold title" (click)="allPhotos($event, photos1)" style="color: #394e8a;">FACILITIES</p> &nbsp;
+          <p class="atlas-light" style="font-size: 15px; align-self: flex-end; margin-bottom: 3px;">({{photos1.length}} photos)</p>
+        </div>
+        <carousel
+        [margin]="20"
+        [freeScroll]="false"
+        [transitionTimingFunction]="'ease-in-out'"
+        [transitionDuration]="'1000'"
+        [cellsToShow]="3"
+        [cellsToScroll]="1"
+        [cellWidth]="'100%'"
+        [arrowsOutside]="true"
+        [objectFit]="'cover'"
+        [overflowCellsLimit]="1"
+        [dots]="false"
+        >
+          <div class="carousel-cell" *ngFor="let item of photos1">
+            <img [src]="item.image" alt="sample" (click)="openDialog(item.image)">
+          </div>
+        </carousel>
+      </div>
+    </div>
 
+    <div style="display: grid; place-content: center;">
       <div class="content-header" style="width: 820px; height: 350px; margin-top: 50px;">
         <img src="../../../../assets/photos/contact-banner.jpg">
         <div class="left-content">
