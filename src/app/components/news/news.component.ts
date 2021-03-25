@@ -32,4 +32,8 @@ export class NewsComponent implements OnInit {
   gotoAnnouncement(){
     this.router.navigate(['/News/Announcement/content']);
   }
+
+  announcement(){
+    this.router.navigate(['/News/Announcement']);
+  }
 }

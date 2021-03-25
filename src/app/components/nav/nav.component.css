@@ -9,7 +9,7 @@
   position: relative;
   background-color: white;
   width: 100%;
-  z-index: 9;
+  z-index: 9999;
   position: relative;
 }
 
@@ -25,6 +25,9 @@
   align-items: center;
 }
 
+.search-container img{
+  height: 100px;
+}
 
 /* Nav CSS Section */
 .top-container .nav-container{
@@ -41,7 +44,7 @@
 }
 
 .nav-container button:hover{
-  background-color: #00a562;
+  background-color: #5da563;
   color: white;
 }
 
@@ -72,12 +75,12 @@
   text-decoration: none;
   border: none;
   outline: none;
-  background-color: #00a562;
+  background-color: #5da563;
   padding: 18px 16px;
 }
 
 .dropdown-menu span:hover{
-  background-color:rgb(3, 189, 115);
+  background-color:rgb(110, 174, 115);
   color: white;
 
 }
@@ -94,3 +97,326 @@
   background-color: transparent;
 }
 
+
+.header_change{
+  padding-left: 120px;
+  padding-right: 120px;
+  height: 83px;
+  background-color: white;
+  box-shadow: 0 0 5px 0 #ccc;
+}
+
+.off-hover button:hover{
+  background-color: #fff !important;
+  color: black !important;
+}
+
+
+@media (min-width: 1466px){
+  .top-container .top-content{
+    padding-top: 60px;
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+  .search-container img{
+    height: 112px;
+  }
+
+  .top-container .search-container{
+    font-size: 18px;
+  }
+
+  mat-form-field{
+    width: 230px;
+  }
+
+  .nav-container button{
+    font-size: 16px;
+  }
+
+  .top-container .nav-container{
+    padding-top: 35px;
+  }
+
+  .nav-container button{
+    padding: 2px 17px;
+  }
+
+  .dropdown-menu span{
+    font-size: 18px;
+    padding: 22px 20px;
+  }
+
+  .dropdown-menu #sub-down{
+    min-width: 225px;
+  }
+
+  .dropdown-menu{
+    min-width: 225px;
+  }
+}
+
+@media (min-width: 1666px){
+  .top-container .top-content{
+    padding-top: 70px;
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+  .search-container img{
+    height: 124px;
+  }
+
+  .top-container .search-container{
+    font-size: 20px;
+  }
+
+  mat-form-field{
+    width: 260px;
+  }
+
+  .nav-container button{
+    font-size: 18px;
+  }
+
+  .top-container .nav-container{
+    padding-top: 40px;
+  }
+
+  .nav-container button{
+    padding: 5px 19px;
+  }
+
+  .dropdown-menu span{
+    font-size: 20px;
+    padding: 24px 22px;
+  }
+
+  .dropdown-menu #sub-down{
+    min-width: 250px;
+  }
+
+  .dropdown-menu{
+    min-width: 250px;
+  }
+}
+
+@media (min-width: 1866px){
+  .top-container .top-content{
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .search-container img{
+    height: 136px;
+  }
+
+  .top-container .search-container{
+    font-size: 22px;
+  }
+
+  mat-form-field{
+    width: 290px;
+  }
+
+  .nav-container button{
+    font-size: 20px;
+  }
+
+  .top-container .nav-container{
+    padding-top: 45px;
+  }
+
+  .nav-container button{
+    padding: 8px 21px;
+  }
+
+  .dropdown-menu span{
+    font-size: 22px;
+    padding: 26px 24px;
+  }
+
+  .dropdown-menu #sub-down{
+    min-width: 275px;
+  }
+
+  .dropdown-menu{
+    min-width: 275px;
+  }
+}
+
+
+@media (min-width: 2066px){
+  .top-container .top-content{
+    padding-top: 90px;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  .search-container img{
+    height: 148px;
+  }
+
+  .top-container .search-container{
+    font-size: 24px;
+  }
+
+  mat-form-field{
+    width: 310px;
+  }
+
+  .nav-container button{
+    font-size: 22px;
+  }
+
+  .top-container .nav-container{
+    padding-top: 50px;
+  }
+
+  .nav-container button{
+    padding: 11px 23px;
+  }
+
+  .dropdown-menu span{
+    font-size: 24px;
+    padding: 28px 26px;
+  }
+
+  .dropdown-menu #sub-down{
+    min-width: 300px;
+  }
+
+  .dropdown-menu{
+    min-width: 300px;
+  }
+}
+
+@media (min-width: 2266px){
+  .top-container .top-content{
+    padding-top: 100px;
+    padding-left: 170px;
+    padding-right: 170px;
+  }
+  .search-container img{
+    height: 160px;
+  }
+
+  .top-container .search-container{
+    font-size: 26px;
+  }
+
+  mat-form-field{
+    width: 340px;
+  }
+
+  .nav-container button{
+    font-size: 24px;
+  }
+
+  .top-container .nav-container{
+    padding-top: 55px;
+  }
+
+  .nav-container button{
+    padding: 14px 25px;
+  }
+
+  .dropdown-menu span{
+    font-size: 26px;
+    padding: 30px 28px;
+  }
+
+  .dropdown-menu #sub-down{
+    min-width: 325px;
+  }
+
+  .dropdown-menu{
+    min-width: 325px;
+  }
+}
+
+@media (min-width: 2466px){
+  .top-container .top-content{
+    padding-top: 110px;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+  .search-container img{
+    height: 172px;
+  }
+
+  .top-container .search-container{
+    font-size: 28px;
+  }
+
+  mat-form-field{
+    width: 370px;
+  }
+
+  .nav-container button{
+    font-size: 26px;
+  }
+
+  .top-container .nav-container{
+    padding-top: 60px;
+  }
+
+  .nav-container button{
+    padding: 17px 27px;
+  }
+
+  .dropdown-menu span{
+    font-size: 28px;
+    padding: 32px 30px;
+  }
+
+  .dropdown-menu #sub-down{
+    min-width: 350px;
+  }
+
+  .dropdown-menu{
+    min-width: 350px;
+  }
+}
+
+@media (min-width: 2466px){
+  .top-container .top-content{
+    padding-top: 120px;
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+  .search-container img{
+    height: 184px;
+  }
+
+  .top-container .search-container{
+    font-size: 30px;
+  }
+
+  mat-form-field{
+    width: 400px;
+  }
+
+  .nav-container button{
+    font-size: 28px;
+  }
+
+  .top-container .nav-container{
+    padding-top: 65px;
+  }
+
+  .nav-container button{
+    padding: 20px 29px;
+  }
+
+  .dropdown-menu span{
+    font-size: 30px;
+    padding: 34px 32px;
+  }
+
+  .dropdown-menu #sub-down{
+    min-width: 375px;
+  }
+
+  .dropdown-menu{
+    min-width: 375px;
+  }
+}

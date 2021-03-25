@@ -36,15 +36,21 @@ img{
 }
 
 .title{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 mat-expansion-panel{
   border-color: white;
+  background-color: #fafafa;
 }
 
 ::ng-deep .specific-class > .mat-expansion-indicator:after {
   color: white;
+}
+
+mat-panel-title{
+  color: white;
+  padding: 15px 0;
 }
 
 .specific-class{

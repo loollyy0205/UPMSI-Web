@@ -87,3 +87,6 @@ em{
   gap: 20px;
 }
 
+.faci-content span:hover{
+  text-decoration: underline;
+}

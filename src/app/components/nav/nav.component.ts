@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -7,6 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  header_variable:boolean = false;
+
   hoverAbout:boolean = false;
   hoverNews:boolean = false;
   hoverAcademics:boolean = false;
@@ -17,6 +19,7 @@ export class NavComponent implements OnInit {
 
   home:boolean = false;
   about:boolean = false;
+  facultyHr:boolean = false;
   education:boolean = false;
   research:boolean = false;
   facilities:boolean = false;
@@ -26,6 +29,16 @@ export class NavComponent implements OnInit {
   news:boolean = false;
   constructor(private router:Router) { }
 
+  // @HostListener("document:scroll")
+  // scrollfunction(){
+  //   if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0){
+  //     this.header_variable = true;
+  //   }
+  //   else{
+  //     this.header_variable = false;
+  //   }
+  // }
+
   ngOnInit(): void {
     if(this.router.url === '/About'){
       this.about = true;
@@ -33,6 +46,7 @@ export class NavComponent implements OnInit {
       this.about = true;
     }else if(this.router.url === '/About/faculty'){
       this.about = true;
+      this.facultyHr = true;
     }else if(this.router.url === '/About/admin'){
       this.about = true;
     }else if(this.router.url === '/Academics'){
@@ -44,6 +58,8 @@ export class NavComponent implements OnInit {
     }else if(this.router.url === '/Research/areas-of-research'){
       this.research = true;
     }else if(this.router.url === '/Research/laboratories'){
+      this.research = true;
+    }else if(this.router.url === '/Research/laboratories/biological-oceanography-and-modeling-of-ecosystem-laboratory'){
       this.research = true;
     }else if(this.router.url === '/Facilities'){
       this.facilities = true;
@@ -71,5 +87,7 @@ export class NavComponent implements OnInit {
       this.resources = true;
     }
   }
+
+
 
 }

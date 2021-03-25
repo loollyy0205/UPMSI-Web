@@ -2,97 +2,75 @@
   <app-nav></app-nav>
 
   <div class="img-bg animate__animated animate__fadeIn animate__delay-1s">
-    <!-- <div class="img-container">
-      <div class="img-content">
-        <p class="capital-words bebas">WE ARE THE UP MARINE SCIENCE INSTITUTE</p>
-        <br><br>
-        <p class="second-p inter-medium">
-          The UP Marine Science Institute UPMSI is one of seven academic institutes of the University of
-          the Philippines’ College of Science. It is housed in its own building complex within the UP Diliman
-          Campus in Quezon City. It is tasked to pursue research, teaching, and extension work in marine
-          biology, marine chemistry, physical oceanography, marine geology, and related disciplines.
-        </p>
-        <br><br>
-        <button id="learn-more">LEARN MORE</button>
-      </div>
-    </div> -->
-
-    <!-- <carousel
-    [images]="images"
-    [autoplay]="true"
-    [margin]="0"
-    [loop]="true"
-    [pauseOnHover]="false"
-    [freeScroll]="false"
-    [autoplayInterval]="'7000'"
-    [transitionTimingFunction]="'ease-in-out'"
-    [transitionDuration]="'3000'"
-    [height]="'100%'"
-    [cellWidth]="'100%'"
-    [arrows]="false"
-    [objectFit]="'cover'"
-    [overflowCellsLimit]="1"
-    [dots]="true"
-    >
-    <p>sample text 1</p>
-    <p>sample text 2</p>
-    <p>sample text 3</p>
-    <p>sample text 4</p>
-    </carousel> -->
-
-
     <div class="slider">
       <div class="sliderchild">
-        <div class="imagecon" [style.backgroundImage]="'url('+bgImage1+')'">
-          <div class="img-container" style="color: white; height: 100%; width: 55%; margin-left: 120px; display: flex; flex-direction: column; align-self: center; justify-content: center;">
+        <div class="imagecon">
+          <img [src]="bgImage1">
+          <div class="left-content img-container">
             <div class="img-content">
-              <p class="capital-words bebas">{{headline1}}</p>
+              <p class="capital-words atlas-blackReg">{{headline1}}</p>
               <br><br>
-              <p class="second-p inter-medium">{{content1}}</p>
+              <p class="second-p atlas-light">{{content1}}</p>
               <br><br>
               <button id="learn-more" [routerLink]="[link1]">LEARN MORE</button>
             </div>
           </div>
         </div>
 
-        <div class="imagecon" [style.backgroundImage]="'url('+bgImage2+')'">
-          <div style="color: white; height: 100%; width: 55%; margin-left: 120px; display: flex; flex-direction: column; align-self: center; justify-content: center;">
-            <p class="capital-words bebas">{{headline2}}</p>
+        <!-- <div class="imagecon" [style.backgroundImage]="'url('+bgImage2+')'">
+          <div style="color: white; height: 100%; width: 700px; margin-left: 120px; display: flex; flex-direction: column; align-self: center; justify-content: center;">
+            <p class="capital-words atlas-bold">{{headline2}}</p>
             <br><br>
-            <p style="line-height: 1.5; text-shadow: 2px 2px 3px black;" class="inter-medium">{{content2}}</p>
+            <p style="line-height: 1.5; text-shadow: 2px 2px 3px black;" class="atlas-light">{{content2}}</p>
+            <br><br>
+            <button id="learn-more" [routerLink]="[link2]">LEARN MORE</button>
+          </div>
+        </div> -->
+
+        <div class="imagecon">
+          <img [src]="bgImage2">
+          <div class="left-content img-container">
+            <p class="capital-words atlas-blackReg">{{headline2}}</p>
+            <br><br>
+            <p class="second-p atlas-light">{{content2}}</p>
             <br><br>
             <button id="learn-more" [routerLink]="[link2]">LEARN MORE</button>
           </div>
         </div>
 
-        <div class="imagecon" [style.backgroundImage]="'url('+bgImage3+')'">
-          <div style="color: white; height: 100%; width: 55%; margin-left: 120px; display: flex; flex-direction: column; align-self: center; justify-content: center;">
-            <p class="capital-words bebas">{{headline3}}</p>
+        <div class="imagecon">
+          <img [src]="bgImage3">
+          <div class="left-content img-container">
+            <p class="capital-words atlas-blackReg">{{headline3}}</p>
             <br><br>
-            <p style="line-height: 1.5; text-shadow: 2px 2px 3px black;" class="inter-medium">{{content3}}</p>
+            <p class="second-p atlas-light">{{content3}}</p>
             <br><br>
             <button id="learn-more" [routerLink]="[link3]">LEARN MORE</button>
           </div>
         </div>
 
-        <div class="imagecon" [style.backgroundImage]="'url('+bgImage4+')'">
-          <div style="color: white; height: 100%; width: 55%; margin-left: 120px; display: flex; flex-direction: column; align-self: center; justify-content: center;">
-            <p class="capital-words bebas">{{headline4}}</p>
+        <div class="imagecon">
+          <img [src]="bgImage4">
+          <div class="left-content img-container">
+            <p class="capital-words atlas-blackReg">{{headline4}}</p>
             <br><br>
-            <p style="line-height: 1.5; text-shadow: 2px 2px 3px black;" class="inter-medium">{{content4}}</p>
+            <p class="atlas-light second-p">{{content4}}</p>
             <br><br>
             <button id="learn-more" [routerLink]="[link4]">LEARN MORE</button>
           </div>
         </div>
-        <div class="imagecon" [style.backgroundImage]="'url('+bgImage1+')'">
-          <div style="color: white; height: 100%; width: 55%; margin-left: 120px; display: flex; flex-direction: column; align-self: center; justify-content: center;">
-            <p style="font-size: 110px;line-height: .8;" class="bebas">{{headline1}}</p>
+
+        <div class="imagecon">
+          <img [src]="bgImage1">
+          <div class="left-content img-container">
+            <p class="capital-words atlas-blackReg">{{headline1}}</p>
             <br><br>
-            <p style="line-height: 1.5; text-shadow: 2px 2px 3px black;" class="inter-medium">{{content1}}</p>
+            <p class="second-p atlas-light">{{content1}}</p>
             <br><br>
             <button id="learn-more" [routerLink]="[link1]">LEARN MORE</button>
           </div>
         </div>
+
       </div>
     </div>
   </div>
@@ -102,59 +80,18 @@
 </div>
 
 <!--News Section-->
-<div class="news-container animate__animated animate__fadeIn animate__delay-1s">
-  <div class="news-align-center">
-    <div class="news-content">
-      <span id="news1">
-        <p class="bebas" style="color: #20578E; font-size: 72px;">News</p>
-        <img src="../assets/photos/news1.jpeg" alt="" height="250px">
-        <p class="inter-bold" style="color: #274d8b; padding-top: 5px;width: 75%;">
-          Mass Incarceration In
-          Sustainable Challenge
-        </p>
-        <p style="font-size: 14px; color: #666666; width: 85%; margin-top: 10px; line-height: 1.3;">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi voluptatem esse
-          sapiente repudiandae magnam deleniti amet. <span class="see-more">See more...</span>
-        </p>
-      </span>
 
-      <span id="news1">
-        <p class="bebas" style="color:transparent; font-size: 72px;">News</p>
-        <img src="../assets/photos/news2.jpeg" alt="" height="250px">
-        <p class="inter-bold" style="color: #274d8b; padding-top: 5px; width: 75%;">
-          The Collective Impact of Needle Green Space
-        </p>
-        <p style="font-size: 14px; color: #666666; width: 85%; margin-top: 10px; line-height: 1.3;">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi voluptatem esse
-          sapiente repudiandae magnam deleniti amet. <span class="see-more">See more...</span>
-        </p>
-      </span>
-
-      <span id="news1">
-        <p class="bebas" style="color:transparent; font-size: 72px;">News</p>
-        <img src="../assets/photos/news3.jpeg" alt="" height="250px">
-        <p class="inter-bold" style="color: #274d8b; padding-top: 5px;width: 75%;">
-          Deep Dive Environmental Rights
-        </p>
-        <p style="font-size: 14px; color: #666666; width: 85%; margin-top: 10px; line-height: 1.3;">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi voluptatem esse
-          sapiente repudiandae magnam deleniti amet. <span class="see-more">See more...</span>
-        </p>
-
-      </span>
-    </div>
-  </div>
-</div>
+<app-homepage-news></app-homepage-news>
 
 
 <!--Education Section-->
 <div class="educ-container animate__animated animate__fadeIn animate__delay-1s">
   <div class="educ-content">
-    <p class="bebas" style="color: white; font-size: 72px;">
+    <p class="atlas-blackReg educ-title">
       ACADEMICS AT THE MSI
     </p>
 
-    <p class="inter-medium" style="color: white;">
+    <p class="atlas-light educ-p">
       The Institute grants M.S. and Ph.D. degrees in Marine Science with
       specializations in Marine Biology, Marine Physical Science, or Marine
       Biotechnology . MSI also offers the Professional Masters in Tropical
@@ -169,13 +106,15 @@
 
 
 <!--Research Section-->
-<div class="research-container animate__animated animate__fadeIn animate__delay-1s">
-  <div class="research-content">
-    <p class="bebas" style="color: white; font-size: 72px;">
+<div class="educ-container animate__animated animate__fadeIn animate__delay-1s" style=" background-image: url(../../../assets/photos/research.jpg);
+background-repeat: no-repeat;
+background-size: cover;">
+  <div class="educ-content">
+    <p class="atlas-blackReg educ-title">
       RESEARCH
     </p>
 
-    <p class="inter-medium" style="color: white;">
+    <p class="atlas-light educ-p">
       Expose the truth problem-solvers leverage social return on investment revolutionary activate unprecedented challenge scalable bandwidth data synergy move the needle we must stand up big data.
       Agile; compelling segmentation; dynamic triple bottom line philanthropy human-centered. Storytelling thought provoking deep dive.
     </p>
@@ -183,72 +122,74 @@
 </div>
 
 
-<!--Extension Section-->
-<div class="extension-container animate__animated animate__fadeIn animate__delay-1s">
-  <div class="extension-left">
+<div class="banner-margin">
+  <!--Extension Section-->
+  <div class="extension-container animate__animated animate__fadeIn animate__delay-1s res-banner">
+    <div class="extension-left">
 
-  </div>
-
-  <div class="extension-right">
-    <div class="extension-content">
-      <p class="bebas" style="color: white; font-size: 72px;">
-        EXTENSION
-      </p>
-
-      <p class="inter-medium" style="color: white;">
-        The MSI also organizes and conducts workshops, conferences, and training courses for local and international participants, both in the country and abroad. Topics include
-        resource survey and monitoring techniques, coastal zone
-        management, habitat restoration, mariculture, and analytical techniques, and development of science-based decision support system.
-      </p>
-      <br> <br>
-      <button id="learn-more">LEARN MORE</button>
     </div>
-  </div>
-</div>
 
+    <div class="extension-right">
+      <div class="resources-content">
+        <p class="atlas-blackReg educ-title">
+          EXTENSION
+        </p>
 
-<!--Resources Section-->
-<div class="resources-container animate__animated animate__fadeIn animate__delay-1s">
-  <div class="resources-left">
-    <div class="resources-content">
-      <p class="bebas" style="color: #20578E; font-size: 72px;">
-        RESOURCES
-      </p>
-
-      <p class="inter-medium" style="color: #666666;">
-        Expose the truth problem-solvers leverage social return on
-        investment revolutionary activate unprecedented challenge
-        scalable bandwidth data synergy move the needle we must
-        stand up big data. Agile; compelling segmentation; dynamic
-        triple bottom line philanthropy human-centered. Storytelling thought provoking deep dive, and bandwidth.     </p>
-      <br> <br>
-      <button id="learn-more">LEARN MORE</button>
+        <p class="atlas-light res-banner-content" style="color: white;">
+          The MSI also organizes and conducts workshops, conferences, and training courses for local and international participants, both in the country and abroad. Topics include
+          resource survey and monitoring techniques, coastal zone
+          management, habitat restoration, mariculture, and analytical techniques, and development of science-based decision support system.
+        </p>
+        <br> <br>
+        <button id="learn-more">LEARN MORE</button>
+      </div>
     </div>
   </div>
 
-  <div class="resources-right">
 
+  <!--Resources Section-->
+  <div class="resources-container animate__animated animate__fadeIn animate__delay-1s res-banner">
+    <div class="resources-left">
+      <div class="resources-content">
+        <p class="atlas-blackReg educ-title" style="color: #384e8a;">
+          RESOURCES
+        </p>
+
+        <p class="atlas-light res-banner-content" style="color: #666666;">
+          Expose the truth problem-solvers leverage social return on
+          investment revolutionary activate unprecedented challenge
+          scalable bandwidth data synergy move the needle we must
+          stand up big data. Agile; compelling segmentation; dynamic
+          triple bottom line philanthropy human-centered. Storytelling thought provoking deep dive, and bandwidth.     </p>
+        <br> <br>
+        <button id="learn-more">LEARN MORE</button>
+      </div>
+    </div>
+
+    <div class="resources-right">
+
+    </div>
   </div>
-</div>
 
 
-<!--UPMSI Office Section-->
-<div class="msiOffice-container animate__animated animate__fadeIn animate__delay-1s">
-  <div class="msiOffice-left">
+  <!--UPMSI Office Section-->
+  <div class="resources-container animate__animated animate__fadeIn animate__delay-1s res-banner">
+    <div class="msiOffice-left">
 
-  </div>
+    </div>
 
-  <div class="msiOffice-right">
-    <div class="msiOffice-content">
-      <p class="bebas" style="color: white; font-size: 72px;">
-        UP MSI OFFICE
-      </p>
+    <div class="msiOffice-right">
+      <div class="resources-content">
+        <p class="atlas-blackReg educ-title">
+          UP MSI OFFICE
+        </p>
 
-      <p class="inter-medium" style="color: white;">
-        Expose the truth problem-solvers leverage social return on investment revolutionary activate unprecedented challenge scalable bandwidth data synergy move the needle we must stand up big data.
-        Agile; compelling segmentation; dynamic triple bottom line philanthropy human-centered. Storytelling thought provoking deep dive,
-        and bandwidth but social capital.
-     </p>
+        <p class="atlas-light res-banner-content" style="color: white;">
+          Expose the truth problem-solvers leverage social return on investment revolutionary activate unprecedented challenge scalable bandwidth data synergy move the needle we must stand up big data.
+          Agile; compelling segmentation; dynamic triple bottom line philanthropy human-centered. Storytelling thought provoking deep dive,
+          and bandwidth but social capital.
+       </p>
+      </div>
     </div>
   </div>
 </div>

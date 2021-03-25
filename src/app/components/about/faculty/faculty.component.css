@@ -3,8 +3,9 @@
 }
 
 .content-header{
-  height: 400px;
+  height: 270px;
   position: relative;
+  margin-top: 1px;
 }
 
 img{
@@ -13,24 +14,6 @@ img{
   object-fit: cover;
 }
 
-.left-content{
-  position: absolute;
-  z-index: 1;
-  bottom: 8px;
-  left: 16px;
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 50px;
-  color: white;
-  gap: 20px;
-}
-
-.title{
-  font-size: 20px;
-}
 
 mat-expansion-panel{
   margin-bottom: -20px;
@@ -40,23 +23,24 @@ mat-expansion-panel{
   position: absolute;
   z-index: 1;
   bottom: 8px;
-  left: 16px;
-  width: 40%;
+  left: 20px;
+  width: 42%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0 50px;
   color: white;
-  gap: 20px;
+  gap: 8px;
 }
 
 .title{
-  font-size: 20px;
+  font-size: 25px;
 }
 
 mat-expansion-panel{
   border-color: white;
+  background-color: #fafafa;
 }
 
 ::ng-deep .specific-class > .mat-expansion-indicator:after {
@@ -75,7 +59,7 @@ mat-expansion-panel{
 .core-courses{
   height: 100%;
   margin-left: 20px;
-  border-left: 3px solid #5ca361;
+  border-left: 3px solid #5da563;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 15px;
@@ -91,7 +75,7 @@ mat-expansion-panel{
 }
 
 .closed-main-head{
-  background-color: #394e8a;
+  background-color: #384e8a;
   border-radius: 50px;
 }
 

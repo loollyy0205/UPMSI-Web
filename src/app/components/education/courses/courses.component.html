@@ -3,7 +3,7 @@
   <div class="content-header">
     <img src="../../../../assets/photos/coursesheader.png">
     <div class="left-content">
-      <p class="atlas-bold title">MSI COURSES OFFERED</p>
+      <p class="atlas-blackReg title">MSI COURSES OFFERED</p>
       <p class="atlas-light" style="line-height: 1.4;">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit est laborum aliquam quo natus porro
          culpa quod aut dolores fugit nostrum libero inventore accusamus quos assumenda nulla distinctio,
@@ -24,14 +24,14 @@
 
         <mat-accordion>
           <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" (opened)="panelOpenState1 = true"
-              (closed)="panelOpenState1 = false">
+              (closed)="panelOpenState1 = false" hideToggle>
             <mat-expansion-panel-header class="specific-class">
             <mat-panel-title [class]="panelOpenState1 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState1 ? '#394e8a' : 'black'">COURSES OFFERED FOR FIRST SEMESTER</mat-panel-title>
             </mat-expansion-panel-header>
 
             <mat-accordion>
-              <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" (opened)="panelOpenState2 = true"
-                (closed)="panelOpenState2 = false">
+              <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" hideToggle (opened)="panelOpenState2 = true"
+                (closed)="panelOpenState2 = false" hideToggle>
               <mat-expansion-panel-header class="specific-class">
               <mat-panel-title [class]="panelOpenState2 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState2 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>CORE COURSES</mat-panel-title>
               </mat-expansion-panel-header>
@@ -70,7 +70,7 @@
               </mat-expansion-panel>
 
               <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState3 = true"
-                (closed)="panelOpenState3 = false">
+                (closed)="panelOpenState3 = false" hideToggle>
               <mat-expansion-panel-header class="specific-class">
               <mat-panel-title [class]="panelOpenState3 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState3 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>ELECTIVES</mat-panel-title>
               </mat-expansion-panel-header>
@@ -109,7 +109,7 @@
               </mat-expansion-panel>
 
                <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState4 = true"
-                (closed)="panelOpenState4 = false">
+                (closed)="panelOpenState4 = false" hideToggle>
               <mat-expansion-panel-header class="specific-class">
               <mat-panel-title [class]="panelOpenState4 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState4 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>SEMINAR</mat-panel-title>
               </mat-expansion-panel-header>
@@ -149,14 +149,14 @@
             </mat-accordion>
           </mat-expansion-panel>
 
-          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" (opened)="panelOpenState6 = true"
+          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" hideToggle (opened)="panelOpenState6 = true"
             (closed)="panelOpenState6 = false ">
           <mat-expansion-panel-header class="specific-class">
           <mat-panel-title [class]="panelOpenState6 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState6 ? '#394e8a' : 'black'">COURSES OFFERED PREVIOUSLY</mat-panel-title>
           </mat-expansion-panel-header>
 
           <mat-accordion>
-            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" (opened)="panelOpenState7 = true"
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" hideToggle (opened)="panelOpenState7 = true"
               (closed)="panelOpenState7 = false">
             <mat-expansion-panel-header class="specific-class">
             <mat-panel-title [class]="panelOpenState7 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState7 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>CORE COURSES</mat-panel-title>
@@ -195,7 +195,7 @@
             </div>
             </mat-expansion-panel>
 
-            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState8 = true"
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" hideToggle (opened)="panelOpenState8 = true"
               (closed)="panelOpenState8 = false">
             <mat-expansion-panel-header class="specific-class">
             <mat-panel-title [class]="panelOpenState8 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState8 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>ELECTIVES</mat-panel-title>
@@ -234,7 +234,7 @@
             </div>
             </mat-expansion-panel>
 
-             <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState9 = true"
+             <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" hideToggle (opened)="panelOpenState9 = true"
               (closed)="panelOpenState9 = false">
             <mat-expansion-panel-header class="specific-class">
             <mat-panel-title [class]="panelOpenState9 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState9 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>SEMINAR</mat-panel-title>
@@ -275,14 +275,14 @@
           </mat-accordion>
           </mat-expansion-panel>
 
-          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" (opened)="panelOpenState10 = true"
+          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" hideToggle (opened)="panelOpenState10 = true"
             (closed)="panelOpenState10 = false ">
           <mat-expansion-panel-header class="specific-class">
           <mat-panel-title [class]="panelOpenState10 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState10 ? '#394e8a' : 'black'">COURSES WITHOUT REGULAR FACULTY</mat-panel-title>
           </mat-expansion-panel-header>
 
           <mat-accordion>
-            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" (opened)="panelOpenState11 = true"
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" hideToggle (opened)="panelOpenState11 = true"
               (closed)="panelOpenState11 = false">
             <mat-expansion-panel-header class="specific-class">
             <mat-panel-title [class]="panelOpenState11 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState11 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>CORE COURSES</mat-panel-title>
@@ -321,7 +321,7 @@
             </div>
             </mat-expansion-panel>
 
-            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState12 = true"
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" hideToggle (opened)="panelOpenState12 = true"
               (closed)="panelOpenState12 = false">
             <mat-expansion-panel-header class="specific-class">
             <mat-panel-title [class]="panelOpenState12 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState12 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>ELECTIVES</mat-panel-title>
@@ -360,7 +360,7 @@
             </div>
             </mat-expansion-panel>
 
-             <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState13 = true"
+             <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" hideToggle (opened)="panelOpenState13 = true"
               (closed)="panelOpenState13 = false">
             <mat-expansion-panel-header class="specific-class">
             <mat-panel-title [class]="panelOpenState13 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState13 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>SEMINAR</mat-panel-title>
@@ -412,14 +412,14 @@
         </mat-expansion-panel-header>
 
         <mat-accordion>
-          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" (opened)="panelOpenState15 = true"
+          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" hideToggle (opened)="panelOpenState15 = true"
               (closed)="panelOpenState15 = false">
             <mat-expansion-panel-header class="specific-class">
             <mat-panel-title [class]="panelOpenState15 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState15 ? '#394e8a' : 'black'">COURSES OFFERED FOR FIRST SEMESTER</mat-panel-title>
             </mat-expansion-panel-header>
 
             <mat-accordion>
-              <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" (opened)="panelOpenState16 = true"
+              <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" hideToggle (opened)="panelOpenState16 = true"
                 (closed)="panelOpenState16 = false">
               <mat-expansion-panel-header class="specific-class">
               <mat-panel-title [class]="panelOpenState16 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState16 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>CORE COURSES</mat-panel-title>
@@ -458,7 +458,7 @@
               </div>
               </mat-expansion-panel>
 
-              <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState17 = true"
+              <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" hideToggle (opened)="panelOpenState17 = true"
                 (closed)="panelOpenState17 = false">
               <mat-expansion-panel-header class="specific-class">
               <mat-panel-title [class]="panelOpenState17 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState17 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>ELECTIVES</mat-panel-title>
@@ -497,7 +497,7 @@
               </div>
               </mat-expansion-panel>
 
-               <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState18 = true"
+               <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" hideToggle (opened)="panelOpenState18 = true"
                 (closed)="panelOpenState18 = false">
               <mat-expansion-panel-header class="specific-class">
               <mat-panel-title [class]="panelOpenState18 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState18 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>SEMINAR</mat-panel-title>
@@ -538,14 +538,14 @@
             </mat-accordion>
           </mat-expansion-panel>
 
-          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" (opened)="panelOpenState19 = true"
+          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" hideToggle (opened)="panelOpenState19 = true"
             (closed)="panelOpenState19 = false ">
           <mat-expansion-panel-header class="specific-class">
           <mat-panel-title [class]="panelOpenState19 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState19 ? '#394e8a' : 'black'">COURSES OFFERED PREVIOUSLY</mat-panel-title>
           </mat-expansion-panel-header>
 
           <mat-accordion>
-            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" (opened)="panelOpenState20 = true"
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -20px;" hideToggle (opened)="panelOpenState20 = true"
               (closed)="panelOpenState20 = false">
             <mat-expansion-panel-header class="specific-class">
             <mat-panel-title [class]="panelOpenState20 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState20 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>CORE COURSES</mat-panel-title>
@@ -584,7 +584,7 @@
             </div>
             </mat-expansion-panel>
 
-            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState21 = true"
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" hideToggle (opened)="panelOpenState21 = true"
               (closed)="panelOpenState21 = false">
             <mat-expansion-panel-header class="specific-class">
             <mat-panel-title [class]="panelOpenState21 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState21 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>ELECTIVES</mat-panel-title>
@@ -623,7 +623,7 @@
             </div>
             </mat-expansion-panel>
 
-             <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState22 = true"
+             <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" hideToggle (opened)="panelOpenState22 = true"
               (closed)="panelOpenState22 = false">
             <mat-expansion-panel-header class="specific-class">
             <mat-panel-title [class]="panelOpenState22 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState22 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>SEMINAR</mat-panel-title>
@@ -664,7 +664,7 @@
           </mat-accordion>
           </mat-expansion-panel>
 
-          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" (opened)="panelOpenState23 = true"
+          <mat-expansion-panel class="mat-elevation-z0" style="margin-top: 10px;" hideToggle (opened)="panelOpenState23 = true"
             (closed)="panelOpenState23 = false ">
           <mat-expansion-panel-header class="specific-class">
           <mat-panel-title [class]="panelOpenState23 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState23 ? '#394e8a' : 'black'">COURSES WITHOUT REGULAR FACULTY</mat-panel-title>
@@ -710,7 +710,7 @@
             </div>
             </mat-expansion-panel>
 
-            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState25 = true"
+            <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" hideToggle (opened)="panelOpenState25 = true"
               (closed)="panelOpenState25 = false">
             <mat-expansion-panel-header class="specific-class">
             <mat-panel-title [class]="panelOpenState25 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState25 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>ELECTIVES</mat-panel-title>
@@ -749,7 +749,7 @@
             </div>
             </mat-expansion-panel>
 
-             <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" (opened)="panelOpenState26 = true"
+             <mat-expansion-panel class="mat-elevation-z0" style="margin-top: -10px;" hideToggle (opened)="panelOpenState26 = true"
               (closed)="panelOpenState26 = false">
             <mat-expansion-panel-header class="specific-class">
             <mat-panel-title [class]="panelOpenState26 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState26 ? '#394e8a' : 'black'"><mat-icon style="font-size: 8px; margin-right: -12px; margin-top: 3px;">fiber_manual_record</mat-icon>SEMINAR</mat-panel-title>

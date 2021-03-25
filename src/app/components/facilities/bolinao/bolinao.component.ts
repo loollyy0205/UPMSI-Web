@@ -15,7 +15,13 @@ export class BolinaoComponent implements OnInit {
   {image: '../../../../assets/photos/news2.jpeg'},
   {image: '../../../../assets/photos/news3.jpeg'},
   {image: '../../../../assets/photos/news1.jpeg'},
-  ]
+  ];
+
+  faciContent = [{title: 'RESEARCH FACILITIES', content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet laborum ex non perferendis, necessitatibus quae, corporis ab dicta sint provident nihil. Qui necessitatibus, repudiandae molestiae similique itaque, pariatur dolore repellat dolorem, tenetur natus quas eveniet earum incidunt ratione adipisci voluptates excepturi vel accusamus modi sit hic in dignissimos fugiat? Facilis?'},
+    {title: 'FIELD BASED FACILITIES', content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat assumenda laudantium magni doloribus ad sequi voluptates harum fugiat illo quia, voluptatem, dolores distinctio perspiciatis aliquam! Voluptatem alias debitis pariatur natus obcaecati minima dolore.'},
+    {title: 'OTHER CAMPUS FACILITIES', content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius modi earum a totam expedita nihil magni commodi aliquam, illo laboriosam ad quam harum iure repudiandae?'}
+  ];
+
 
   constructor(public dialog: MatDialog, private upl:UploadFetchService, private router:Router) { }
 

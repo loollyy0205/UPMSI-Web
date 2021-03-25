@@ -1,7 +1,7 @@
 <app-nav></app-nav>
 <div class="animate__animated animate__fadeIn animate__delay-1s">
   <div class="container">
-    <p class="atlas-bold" style="font-size: 35px; color: #394e8a; margin-bottom: 20px;">GALLERY</p>
+    <p class="atlas-blackReg" style="font-size: 35px; color: #394e8a; margin-bottom: 20px;">GALLERY</p>
     <!-- <ng-image-slider [images]="imageObject"
     #nav
     [imageSize]="{width: 220, height: 150, space: 3}"></ng-image-slider> -->
@@ -11,12 +11,14 @@
         <img src="../../../../assets/photos/lab1.jpg" alt="sample" width="300" height="200" (click)="openDialog()">
       </div>
     </div> -->
-    <div style="padding: 0 100px;">
+    <div style="padding: 0 100px; margin-top: 50px;">
       <div style="display: flex; flex-direction: row; margin-bottom: 10px; margin-top: 20px;">
         <p class="atlas-bold title" (click)="allPhotos($event, photos1)">Untitled Album</p> &nbsp;
         <p class="atlas-light" style="font-size: 15px; align-self: flex-end; margin-bottom: 3px;">({{photos1.length}} photos)</p>
       </div>
+      <p class="atlas-light" style="margin-top: 10px; line-height: 1.3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit enim perspiciatis maiores eaque ad ipsam similique molestiae adipisci voluptatem, doloribus dicta odit expedita placeat dolore hic, nihil voluptatum. Perspiciatis maxime, unde dolor ab accusamus saepe natus debitis. Voluptas sapiente similique placeat quia nemo dolorem reiciendis voluptatem tenetur amet consequatur!</p>
       <carousel
+      [height]="165"
       [margin]="20"
       [freeScroll]="false"
       [transitionTimingFunction]="'ease-in-out'"
@@ -30,17 +32,19 @@
       [dots]="false"
       >
         <div class="carousel-cell" *ngFor="let item of photos1">
-          <img [src]="item.image" alt="sample" (click)="openDialog(item.image)">
+          <img [src]="item.image" matTooltip="Short info here" matTooltipPosition="below" (click)="openDialog(item.image)">
         </div>
       </carousel>
     </div>
 
-    <div style="padding: 0 100px;">
+    <div style="padding: 0 100px; margin-top: 50px;">
       <div style="display: flex; flex-direction: row; margin-bottom: 10px; margin-top: 20px;">
         <p class="atlas-bold title" (click)="allPhotos($event, photos2)">Second Untitled Album</p> &nbsp;
         <p class="atlas-light" style="font-size: 15px; align-self: flex-end; margin-bottom: 3px;">({{photos2.length}} photos)</p>
       </div>
+      <p class="atlas-light" style="margin-top: 10px; line-height: 1.3;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit enim perspiciatis maiores eaque ad ipsam similique molestiae adipisci voluptatem, doloribus dicta odit expedita placeat dolore hic, nihil voluptatum. Perspiciatis maxime, unde dolor ab accusamus saepe natus debitis. Voluptas sapiente similique placeat quia nemo dolorem reiciendis voluptatem tenetur amet consequatur!</p>
       <carousel
+      [height]="165"
       [margin]="20"
       [freeScroll]="false"
       [transitionTimingFunction]="'ease-in-out'"
@@ -54,11 +58,38 @@
       [dots]="false"
       >
         <div class="carousel-cell" *ngFor="let item of photos2">
-          <img [src]="item.image" alt="sample" (click)="openDialog(item.image)">
+          <img [src]="item.image" matTooltip="Short info here" matTooltipPosition="below" (click)="openDialog(item.image)">
+        </div>
+      </carousel>
+    </div>
+
+    <div style="padding: 0 100px; margin-top: 50px;">
+      <div style="display: flex; flex-direction: row; margin-bottom: 10px; margin-top: 20px;">
+        <p class="atlas-bold title" (click)="allPhotos($event, photos1)">Untitled Album</p> &nbsp;
+        <p class="atlas-light" style="font-size: 15px; align-self: flex-end; margin-bottom: 3px;">({{photos1.length}} photos)</p>
+      </div>
+      <p class="atlas-light" style="margin-top: 10px; line-height: 1.3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit enim perspiciatis maiores eaque ad ipsam similique molestiae adipisci voluptatem, doloribus dicta odit expedita placeat dolore hic, nihil voluptatum. Perspiciatis maxime, unde dolor ab accusamus saepe natus debitis. Voluptas sapiente similique placeat quia nemo dolorem reiciendis voluptatem tenetur amet consequatur!</p>
+      <carousel
+      [height]="165"
+      [margin]="20"
+      [freeScroll]="false"
+      [transitionTimingFunction]="'ease-in-out'"
+      [transitionDuration]="'1000'"
+      [cellsToShow]="3"
+      [cellsToScroll]="1"
+      [cellWidth]="'100%'"
+      [arrowsOutside]="true"
+      [objectFit]="'cover'"
+      [overflowCellsLimit]="1"
+      [dots]="false"
+      >
+        <div class="carousel-cell" *ngFor="let item of photos1">
+          <img [src]="item.image" matTooltip="Short info here" matTooltipPosition="below" (click)="openDialog(item.image)">
         </div>
       </carousel>
     </div>
   </div>
+
 
 </div>
 <div style="margin-top: 70px;">

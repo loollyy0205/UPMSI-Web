@@ -1,0 +1,125 @@
+.container{
+  margin: 0 120px;
+}
+
+.facilities-next{
+  color: #384e8a;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start ;
+  cursor: pointer;
+  gap: 20px;
+}
+
+.navi:hover{
+  text-decoration: underline;
+}
+
+.next{
+  color: #384e8a;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  gap: 20px;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.title{
+  line-height: 1.2;
+  margin-top: 40px;
+  color: #384e8a;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.gallery{
+  margin-top: 20px;
+  overflow: hidden;
+  height: 210px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.profile{
+  margin-top: 40px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile .left{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .left img{
+  height: 250px !important;
+  width: 250px !important;
+}
+
+.profile .right{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lab-highlight{
+  margin-top: 30px;
+  height: 420px;
+  display: flex;
+  flex-direction: row;
+}
+
+.lab-highlight .left{
+  width: 60%;
+}
+
+.lab-highlight .right{
+  width: 40%;
+  background-color: #384e8a;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.contact .left{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact .left img{
+  height: 100px;
+}
+
+.contact .right{
+  width: 80%;
+  margin-left: 50px;
+  line-height: 1.5;
+  color: #384e8a;
+}
+
+.contact .right img{
+  height: 50px;
+  width: 50px;
+}

@@ -10,11 +10,14 @@
 }
 
 .content .left-content{
-  background-image: url(../../../assets/photos/about1.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100%;
   width: 25%;
+}
+
+.content .left-content img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .content .right-content{
@@ -26,7 +29,7 @@
 
 .right-content .title{
   font-size: 35px;
-  color: #264d8e;
+  color: #384e8a;
   height: 15%;
   padding: 0 40px;
 }
@@ -43,7 +46,7 @@
 .right-content .aboutWork{
   height: 19%;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: underline;
   color: #384e8a;
   display: flex;

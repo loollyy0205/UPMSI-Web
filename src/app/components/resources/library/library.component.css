@@ -29,7 +29,7 @@ img{
 }
 
 .title{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 mat-expansion-panel{
@@ -53,17 +53,17 @@ mat-expansion-panel{
 
 .first-content{
   height: 350px;
-  margin: 50px 100px;
+  margin: 50px;
   display: flex;
   flex-direction: row;
 }
 
 .first-left{
-  width: 50%;
+  width: 60%;
 }
 
 .first-right{
-  width: 50%;
+  width: 40%;
   margin-left: 20px;
   padding: 20px;
   display: flex;
@@ -78,7 +78,7 @@ mat-expansion-panel{
 
 .second-content{
   height: 350px;
-  margin: 50px 100px;
+  margin: 50px;
   display: flex;
   flex-direction: row;
 }

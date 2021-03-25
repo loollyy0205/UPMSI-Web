@@ -91,6 +91,14 @@ img:hover{
   color: white;
 }
 
+.right-body:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.right-body{
+  outline: none;
+}
 
 .lab-image2{
   margin-left: 120px;

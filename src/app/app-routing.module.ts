@@ -1,3 +1,5 @@
+import { LabpageComponent } from './components/research/labpage/labpage.component';
+import { ProjectContentComponent } from './components/news/research-project/project-content/project-content.component';
 import { LibraryComponent } from './components/resources/library/library.component';
 import { AnnouncementContentComponent } from './components/news/announcement-content/announcement-content.component';
 import { NewsContentComponent } from './components/news/news-content/news-content.component';
@@ -48,6 +50,7 @@ const routes: Routes = [
   {path: 'Research', component: ResearchComponent},
   {path: 'Research/areas-of-research', component: AreasOfResearchComponent},
   {path: 'Research/laboratories', component: LaboratoriesComponent},
+  {path: 'Research/laboratories/:name', component: LabpageComponent},
   {path: 'Facilities', component: FacilitiesComponent},
   {path: 'Facilities/bolinao-marine-lab', component: BolinaoComponent},
   {path: 'Extension', component: ExtensionComponent},
@@ -62,6 +65,7 @@ const routes: Routes = [
   {path: 'News/Announcement', component: AnnouncementComponent},
   {path: 'News/Announcement/content', component: AnnouncementContentComponent},
   {path: 'News/Research-projects-and-highlights', component: ResearchProjectComponent},
+  {path: 'News/Research-projects-and-highlights/content', component: ProjectContentComponent},
   {path: 'News/Vacancies-and-Opportunities', component: VacanciesOppComponent},
   {path: 'News/Vacancies-and-Opportunities/more', component: MoreVacanciesComponent},
   {path: 'About/admin', component: SubpageComponent},

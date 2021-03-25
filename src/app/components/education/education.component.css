@@ -6,7 +6,7 @@
 }
 
 .container .content{
-  margin-left: 120px;
+  background-color: white;
   height: 400px;
   padding-top: 20px;
   display: flex;
@@ -15,9 +15,11 @@
 
 .content .left-content{
   height: 100%;
+  margin-left: 120px;
   width: 50%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .content .right-content{

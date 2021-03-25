@@ -6,6 +6,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireModule } from '@angular/fire';
 import { HttpClientModule } from '@angular/common/http';
+import { StickyNavModule } from 'ng2-sticky-nav';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -48,7 +49,9 @@ import { NewsContentComponent } from './components/news/news-content/news-conten
 import { AnnouncementContentComponent } from './components/news/announcement-content/announcement-content.component';
 import { LibraryComponent } from './components/resources/library/library.component';
 import { FacilitiesDialogComponent } from './components/facilities/facilities-dialog/facilities-dialog.component';
-
+import { HomepageNewsComponent } from './components/home/homepage-news/homepage-news.component';
+import { ProjectContentComponent } from './components/news/research-project/project-content/project-content.component';
+import { LabpageComponent } from './components/research/labpage/labpage.component';
 
 @NgModule({
   declarations: [
@@ -89,6 +92,9 @@ import { FacilitiesDialogComponent } from './components/facilities/facilities-di
     AnnouncementContentComponent,
     LibraryComponent,
     FacilitiesDialogComponent,
+    HomepageNewsComponent,
+    ProjectContentComponent,
+    LabpageComponent,
   ],
   imports: [
     BrowserModule,
@@ -102,6 +108,7 @@ import { FacilitiesDialogComponent } from './components/facilities/facilities-di
     HttpClientModule,
     AngularFireStorageModule,
     AngularFireModule,
+    StickyNavModule,
     AngularFireModule.initializeApp({
       apiKey: "AIzaSyC0vgMf-vXSrsIVRNUE7STpC2zcENy125s",
       authDomain: "upmsi-d03af.firebaseapp.com",

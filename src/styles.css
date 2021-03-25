@@ -45,12 +45,23 @@ table {
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #fafafa;}
 
 .cdk-overlay-container {
-  z-index: 500 !important;
+  z-index: 999999 !important;
 }
 
+mat-expansion-panel-header {
+  height: 100% !important;
+}
+
+.custom-nav-class{
+  z-index: 9999999999;
+}
+
+ngStickyNav{
+  z-index: 9999999999;
+}
 
 @font-face{
   font-family: 'BebasNeueBold';
@@ -90,6 +101,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
 @font-face{
   font-family: 'atlas-blackReg';
   src: url("./assets/Fonts/Atlas Grotesk Web Black Regular.ttf");
+  font-weight: 100;
 }
 
 .atlas-light{

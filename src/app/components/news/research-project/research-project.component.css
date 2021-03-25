@@ -16,6 +16,7 @@ img{
 }
 
 .img-content{
+  height: 160px;
   display: flex;
   flex-direction: row;
 }
