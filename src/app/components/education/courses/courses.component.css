@@ -1,9 +1,10 @@
 .container{
   margin: 0 120px;
+  margin-top: 20px;
 }
 
 .content-header{
-  height: 450px;
+  height: 270px;
   position: relative;
   /* background-image: url("../../../../assets/photos/coursesheader.png");
   background-size: cover;

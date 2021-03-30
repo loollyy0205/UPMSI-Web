@@ -27,6 +27,8 @@ export class NavComponent implements OnInit {
   resources:boolean = false;
   contact:boolean = false;
   news:boolean = false;
+
+  bml:boolean = false;
   constructor(private router:Router) { }
 
   // @HostListener("document:scroll")
@@ -65,6 +67,7 @@ export class NavComponent implements OnInit {
       this.facilities = true;
     }else if(this.router.url === '/Facilities/bolinao-marine-lab'){
       this.facilities = true;
+      this.bml = true;
     }else if(this.router.url === '/Extension'){
       this.extension = true;
     }else if(this.router.url === '/Extension/gallery'){

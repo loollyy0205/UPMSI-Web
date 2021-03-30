@@ -1,5 +1,6 @@
 .container{
   overflow: hidden;
+  margin-top: 20px;
 }
 
 *{
@@ -203,7 +204,7 @@
 
 /* Resources CSS Section */
 .resources-container{
-  margin-top: 120px;
+  margin-top: 50px;
   display: flex;
   flex-flow: row;
 }
@@ -253,7 +254,7 @@
 
 /* UPMSI Office CSS Section */
 .msiOffice-container{
-  margin-top: 120px;
+  margin-top: 50px;
   display: flex;
   flex-flow: row;
 }
@@ -335,6 +336,10 @@
 
 
 @media (min-width: 1466px){
+  .container{
+    margin-top: 25px;
+  }
+
   .container .slider{
     height: 770px;
   }
@@ -409,6 +414,10 @@
 }
 
 @media (min-width: 1666px){
+  .container{
+    margin-top: 30px;
+  }
+
   .container .slider{
     height: 850px;
   }
@@ -466,7 +475,7 @@
   }
 
   .resources-container{
-    margin-top: 140px;
+    margin-top: 60px;
   }
 
   .res-banner{
@@ -483,6 +492,10 @@
 }
 
 @media (min-width: 1866px){
+  .container{
+    margin-top: 35px;
+  }
+
   .container .slider{
     height: 1000px;
   }
@@ -540,7 +553,7 @@
   }
 
   .resources-container{
-    margin-top: 150px;
+    margin-top: 70px;
   }
 
   .res-banner{
@@ -557,6 +570,10 @@
 }
 
 @media (min-width: 2066px){
+  .container{
+    margin-top: 40px;
+  }
+
   .container .slider{
     height: 1100px;
   }
@@ -614,7 +631,7 @@
   }
 
   .resources-container{
-    margin-top: 160px;
+    margin-top: 80px;
   }
 
   .res-banner{
@@ -632,6 +649,9 @@
 
 
 @media (min-width: 2266px){
+  .container{
+    margin-top: 45px;
+  }
   .container .slider{
     height: 1150px;
   }
@@ -689,7 +709,7 @@
   }
 
   .resources-container{
-    margin-top: 170px;
+    margin-top: 90px;
   }
 
   .res-banner{
@@ -706,6 +726,10 @@
 }
 
 @media (min-width: 2466px){
+  .container{
+    margin-top: 50px;
+  }
+
   .container .slider{
     height: 1200px;
   }
@@ -763,7 +787,7 @@
   }
 
   .resources-container{
-    margin-top: 180px;
+    margin-top: 100px;
   }
 
   .res-banner{
@@ -780,6 +804,10 @@
 }
 
 @media (min-width: 2560px){
+  .container{
+    margin-top: 55px;
+  }
+
   .container .slider{
     height: 1350px;
   }
@@ -837,7 +865,7 @@
   }
 
   .resources-container{
-    margin-top: 190px;
+    margin-top: 110px;
   }
 
   .res-banner{

@@ -18,12 +18,12 @@
         <img *ngIf="header_variable" src="../../../assets/photos/logo.png" height="35" width="35">
 
         <div class="menu-button">
-          <button mat-button [routerLink]="['/Home']" [style.backgroundColor]="home ? 'white' : ''" [style.color]="home ? '#5da563' : ''">HOME</button>
+          <button mat-button [routerLink]="['/Home']" [style.backgroundColor]="home ? '#fafafa' : ''" [style.color]="home ? '#5da563' : ''">HOME</button>
         </div>
 
         <div class="home">
           <div class="menu-button">
-            <button mat-button [routerLink]="['/About']" [style.backgroundColor]="about ? 'white' : '' || hoverAbout ? '#5da563' : ''" [style.color]="about ? '#5da563' : ''|| hoverAbout ? 'white' : ''">ABOUT</button>
+            <button mat-button [routerLink]="['/About']" [style.backgroundColor]="about ? '#fafafa' : '' || hoverAbout ? '#5da563' : ''" [style.color]="about ? '#5da563' : ''|| hoverAbout ? '#fafafa' : ''">ABOUT</button>
           </div>
           <div (mouseover)="hoverAbout=true" (mouseleave)="hoverAbout=false" class="dropdown-menu">
             <span>About MSI</span>
@@ -43,7 +43,7 @@
 
         <div class="home">
           <div class="menu-button">
-            <button mat-button [routerLink]="['/News']" [style.backgroundColor]="news ? 'white' : '' || hoverNews ? '#5da563' : ''" [style.color]="news ? '#5da563' : ''|| hoverNews ? 'white' : ''">NEWS</button>
+            <button mat-button [routerLink]="['/News']" [style.backgroundColor]="news ? '#fafafa' : '' || hoverNews ? '#5da563' : ''" [style.color]="news ? '#5da563' : ''|| hoverNews ? '#fafafa' : ''">NEWS</button>
           </div>
           <div (mouseover)="hoverNews=true" (mouseleave)="hoverNews=false" class="dropdown-menu">
             <span [routerLink]="['/News/Announcement']">Announcement</span>
@@ -54,7 +54,7 @@
 
         <div class="home">
           <div class="menu-button">
-            <button mat-button [routerLink]="['/Academics']" [style.backgroundColor]="education ? 'white' : '' || hoverAcademics ? '#5da563' : ''" [style.color]="education ? '#5da563' : ''|| hoverAcademics ? 'white' : ''">ACADEMICS</button>
+            <button mat-button [routerLink]="['/Academics']" [style.backgroundColor]="education ? '#fafafa' : '' || hoverAcademics ? '#5da563' : ''" [style.color]="education ? '#5da563' : ''|| hoverAcademics ? '#fafafa' : ''">ACADEMICS</button>
           </div>
           <div (mouseover)="hoverAcademics=true" (mouseleave)="hoverAcademics=false" class="dropdown-menu">
             <span style="line-height: 1.3;">M.5., Phd, Professional Masters Overview</span>
@@ -65,7 +65,7 @@
 
         <div class="home">
           <div class="menu-button">
-           <button mat-button [routerLink]="['/Research']" [style.backgroundColor]="research ? 'white' : '' || hoverResearch ? '#5da563' : ''" [style.color]="research ? '#5da563' : ''|| hoverResearch ? 'white' : ''">RESEARCH</button>
+           <button mat-button [routerLink]="['/Research']" [style.backgroundColor]="research ? '#fafafa' : '' || hoverResearch ? '#5da563' : ''" [style.color]="research ? '#5da563' : ''|| hoverResearch ? '#fafafa' : ''">RESEARCH</button>
           </div>
           <div (mouseover)="hoverResearch=true" (mouseleave)="hoverResearch=false" class="dropdown-menu">
             <span [routerLink]="['/Research/areas-of-research']">Areas of Reseach</span>
@@ -75,7 +75,7 @@
 
         <div class="home">
           <div class="menu-button">
-            <button mat-button [routerLink]="['/Facilities']" [style.backgroundColor]="facilities ? 'white' : '' || hoverFacilities ? '#5da563' : ''" [style.color]="facilities ? '#5da563' : ''|| hoverFacilities ? 'white' : ''">FACILITIES</button>
+            <button mat-button [routerLink]="['/Facilities']" [style.backgroundColor]="facilities ? '#fafafa' : '' || hoverFacilities ? '#5da563' : ''" [style.color]="facilities ? '#5da563' : ''|| hoverFacilities ? '#fafafa' : ''">FACILITIES</button>
           </div>
           <div (mouseover)="hoverFacilities=true" (mouseleave)="hoverFacilities=false" class="dropdown-menu">
             <span [routerLink]="['/Facilities/bolinao-marine-lab']">Bolinao Marine Lab</span>
@@ -95,7 +95,7 @@
 
         <div class="home">
           <div class="menu-button">
-            <button mat-button [routerLink]="['/Extension']" [style.backgroundColor]="extension ? 'white' : '' || hoverExtension ? '#5da563' : ''" [style.color]="extension ? '#5da563' : ''|| hoverExtension ? 'white' : ''">EXTENSION</button>
+            <button mat-button [routerLink]="['/Extension']" [style.backgroundColor]="extension ? '#fafafa' : '' || hoverExtension ? '#5da563' : ''" [style.color]="extension ? '#5da563' : ''|| hoverExtension ? '#fafafa' : ''">EXTENSION</button>
           </div>
           <div (mouseover)="hoverExtension=true" (mouseleave)="hoverExtension=false" class="dropdown-menu">
             <span>Trainings</span>
@@ -106,7 +106,7 @@
 
         <div class="home">
           <div class="menu-button">
-            <button mat-button [routerLink]="['/Resources']"  [style.backgroundColor]="resources ? 'white' : '' || hoverResources ? '#5da563' : ''" [style.color]="resources ? '#5da563' : ''|| hoverResources ? 'white' : ''">RESOURCES</button>
+            <button mat-button [routerLink]="['/Resources']"  [style.backgroundColor]="resources ? '#fafafa' : '' || hoverResources ? '#5da563' : ''" [style.color]="resources ? '#5da563' : ''|| hoverResources ? '#fafafa' : ''">RESOURCES</button>
           </div>
           <div (mouseover)="hoverResources=true" (mouseleave)="hoverResources=false" class="dropdown-menu">
             <span>Publications</span>
@@ -118,7 +118,7 @@
         </div>
 
         <div class="home">
-          <button mat-button [routerLink]="['/Contact']" [style.backgroundColor]="contact ? 'white' : ''" [style.color]="contact ? '#5da563' : ''">CONTACT</button>
+          <button mat-button [routerLink]="['/Contact']" [style.backgroundColor]="contact ? '#fafafa' : ''" [style.color]="contact ? '#5da563' : ''">CONTACT</button>
         </div>
 
         <div class="off-hover" style="margin-top: -13px;" *ngIf="header_variable">
@@ -134,7 +134,8 @@
 
       </div>
       <!-- *ngIf="!header_variable" -->
-      <hr *ngIf="!facultyHr" style="margin-top: 15px; margin-bottom: 30px;">
+      <hr *ngIf="!(facultyHr === false || facilities === false)" style="margin-top: 15px; margin-bottom: 30px;">
+      <!-- <hr *ngIf="facultyHr == false && !bml" style="margin-top: 15px; margin-bottom: 30px;"> -->
     </div>
   </div>
 </div>

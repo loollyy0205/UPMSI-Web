@@ -1,4 +1,5 @@
 <app-nav></app-nav>
+<hr class=" animate__animated animate__fadeIn animate__delay-1s" style="margin: 15px 120px 30px 120px">
 <div class="animate__animated animate__fadeIn animate__delay-1s">
   <div class="container">
     <p class="atlas-blackReg" style="font-size: 35px; color: #394e8a; margin-bottom: 20px;">GALLERY</p>
@@ -32,7 +33,15 @@
       [dots]="false"
       >
         <div class="carousel-cell" *ngFor="let item of photos1">
-          <img [src]="item.image" matTooltip="Short info here" matTooltipPosition="below" (click)="openDialog(item.image)">
+        <div class="image atlas-light" (click)="openDialog(item.image)">
+          <img class="image__img" [src]="item.image">
+          <div class="image__overlay image__overlay--primary">
+              <div class="image__title atlas-bold">Title</div>
+              <p class="image__description">
+                  Short description here
+              </p>
+          </div>
+        </div>
         </div>
       </carousel>
     </div>
@@ -58,7 +67,15 @@
       [dots]="false"
       >
         <div class="carousel-cell" *ngFor="let item of photos2">
-          <img [src]="item.image" matTooltip="Short info here" matTooltipPosition="below" (click)="openDialog(item.image)">
+          <div class="image atlas-light" (click)="openDialog(item.image)">
+            <img class="image__img" [src]="item.image">
+            <div class="image__overlay image__overlay--primary">
+                <div class="image__title atlas-bold">Title</div>
+                <p class="image__description">
+                    Short description here
+                </p>
+            </div>
+          </div>
         </div>
       </carousel>
     </div>
@@ -84,7 +101,15 @@
       [dots]="false"
       >
         <div class="carousel-cell" *ngFor="let item of photos1">
-          <img [src]="item.image" matTooltip="Short info here" matTooltipPosition="below" (click)="openDialog(item.image)">
+          <div class="image atlas-light" (click)="openDialog(item.image)">
+            <img class="image__img" [src]="item.image">
+            <div class="image__overlay image__overlay--primary">
+                <div class="image__title atlas-bold">Title</div>
+                <p class="image__description">
+                    Short description here
+                </p>
+            </div>
+          </div>
         </div>
       </carousel>
     </div>

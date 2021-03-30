@@ -41,6 +41,7 @@ footer{
   width: 50%;
   display: flex;
   flex-direction: row;
+  margin-right: 10px;
 }
 
 .ad-top{
@@ -68,18 +69,19 @@ footer{
 }
 
 .second-box .first-column{
-  width: 50%;
+  width: 55%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 20px;
+  padding-left: 50px;
 }
 
 .second-box .second-column{
-  width: 50%;
+  width: 45%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 20px;
+  padding-left: 50px;
 }
 
 .image-content{
@@ -116,9 +118,7 @@ img{
     margin-top: 15px;
   }
 
-  .first-box .first-column{
-    display: flex;
-    flex-direction: column;
+  .first-box .first-column, .second-box .first-column, .second-box .second-column{
     gap: 25px;
   }
 
@@ -130,6 +130,11 @@ img{
     margin-right: 35px;
     gap: 12px
   }
+
+  .second-box .first-column, .second-box .second-column{
+    padding-left: 60px;
+  }
+
 }
 
 @media (min-width: 1666px){
@@ -147,6 +152,10 @@ img{
     margin-top: 20px;
   }
 
+  .first-box .first-column, .second-box .first-column, .second-box .second-column{
+    gap: 30px;
+  }
+
   footer{
     height: 74px;
     font-size: 21px;
@@ -159,6 +168,10 @@ img{
   .image-content{
     margin-right: 40px;
     gap: 14px
+  }
+
+  .second-box .first-column, .second-box .second-column{
+    padding-left: 70px;
   }
 }
 
@@ -177,6 +190,10 @@ img{
     margin-top: 25px;
   }
 
+  .first-box .first-column, .second-box .first-column, .second-box .second-column{
+    gap: 35px;
+  }
+
   footer{
     height: 78px;
     font-size: 23px;
@@ -190,6 +207,10 @@ img{
     margin-right: 45px;
     gap: 14px
   }
+
+  .second-box .first-column, .second-box .second-column{
+    padding-left: 80px;
+  }
 }
 
 @media (min-width: 2066px){
@@ -201,10 +222,19 @@ img{
 
   .first-box{
     margin-left: 55px;
+    width: 46%;
+  }
+
+  .second-box{
+    width: 54%;
   }
 
   .ad-top{
     margin-top: 30px;
+  }
+
+  .first-box .first-column, .second-box .first-column, .second-box .second-column{
+    gap: 40px;
   }
 
   footer{
@@ -220,6 +250,10 @@ img{
     margin-right: 50px;
     gap: 16px
   }
+
+  .second-box .first-column, .second-box .second-column{
+    padding-left: 90px;
+  }
 }
 
 @media (min-width: 2266px){
@@ -231,10 +265,19 @@ img{
 
   .first-box{
     margin-left: 60px;
+    width: 46%;
+  }
+
+  .second-box{
+    width: 54%;
   }
 
   .ad-top{
     margin-top: 35px;
+  }
+
+  .first-box .first-column, .second-box .first-column, .second-box .second-column{
+    gap: 45px;
   }
 
   footer{
@@ -250,6 +293,10 @@ img{
     margin-right: 55px;
     gap: 16px
   }
+
+  .second-box .first-column, .second-box .second-column{
+    padding-left: 100px;
+  }
 }
 
 @media (min-width: 2466px){
@@ -261,10 +308,19 @@ img{
 
   .first-box{
     margin-left: 65px;
+    width: 46%;
+  }
+
+  .second-box{
+    width: 54%;
   }
 
   .ad-top{
     margin-top: 40px;
+  }
+
+  .first-box .first-column, .second-box .first-column, .second-box .second-column{
+    gap: 50px;
   }
 
   footer{
@@ -280,6 +336,10 @@ img{
     margin-right: 60px;
     gap: 18px
   }
+
+  .second-box .first-column, .second-box .second-column{
+    padding-left: 110px;
+  }
 }
 
 @media (min-width: 2560px){
@@ -291,10 +351,19 @@ img{
 
   .first-box{
     margin-left: 70px;
+    width: 47%;
+  }
+
+  .second-box{
+    width: 53%;
   }
 
   .ad-top{
     margin-top: 45px;
+  }
+
+  .first-box .first-column, .second-box .first-column, .second-box .second-column{
+    gap: 55px;
   }
 
   footer{
@@ -309,5 +378,9 @@ img{
   .image-content{
     margin-right: 65px;
     gap: 20px
+  }
+
+  .second-box .first-column, .second-box .second-column{
+    padding-left: 120px;
   }
 }
