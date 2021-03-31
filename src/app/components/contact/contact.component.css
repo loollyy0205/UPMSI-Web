@@ -61,7 +61,7 @@
 }
 
 .office{
-  margin-top: 50px;
+  margin: 50px 120px 0 120px;
   height: 550px;
   display: flex;
   flex-direction: row;
@@ -104,7 +104,7 @@
 
 /*  */
 .lab{
-  margin-top: 50px;
+  margin: 50px 120px 0 120px;
   height: 550px;
   display: flex;
   flex-direction: row;

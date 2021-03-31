@@ -1,7 +1,6 @@
 .content3{
   height: 500px;
-  margin-top: 50px;
-  width: 100%;
+  margin: 50px 120px 0 120px;
   display: flex;
   flex-direction: row;
 }
@@ -25,8 +24,7 @@
 
 .content2{
   height: 500px;
-  margin-top: 50px;
-  width: 100%;
+  margin: 50px 120px 0 120px;
   display: flex;
   flex-direction: row;
 }

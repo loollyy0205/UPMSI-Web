@@ -38,15 +38,6 @@ img{
   text-transform: uppercase;
 }
 
-/* .gallery{
-  margin-top: 20px;
-  overflow: hidden;
-  height: 210px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
-} */
-
 .profile{
   margin-top: 40px;
   height: 300px;
@@ -124,6 +115,11 @@ img{
   width: 50px;
 }
 
+.bottom-right{
+  height: 100px !important;
+  width: 200px !important;
+}
+
 .image {
   position: relative;
   width: 100%;
@@ -169,11 +165,12 @@ img{
 }
 
 .image__title {
-  font-size: 1.5em;
+  padding-top: 70px;
+  font-size: 1em;
 }
 
 .image__description {
-  font-size: 1.25em;
+  font-size: .9em;
   margin-top: 0.25em;
 }
 

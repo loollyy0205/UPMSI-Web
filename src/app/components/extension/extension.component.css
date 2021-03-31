@@ -57,7 +57,7 @@
 }
 
 .content2-container{
-  margin-top: 70px;
+  margin: 80px 120px 0 120px;
   height: 550px;
   display: flex;
   flex-direction: row;
@@ -87,7 +87,7 @@
 
 
 .content3-container{
-  margin-top: 70px;
+  margin: 50px 120px 0 120px;
   height: 550px;
   display: flex;
   flex-direction: row;

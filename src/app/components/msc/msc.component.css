@@ -1,11 +1,13 @@
 
 .content{
-  margin-top: 100px;
+  margin: 0 120px;
+  margin-top: 50px;
   height: 450px;
   display: flex;
   flex-direction: row;
   background-color: #384e8a;
 }
+
 .content .left-content{
   width: 55%;
   display: flex;
@@ -44,7 +46,8 @@
   justify-content: flex-end;
 }
 .content2{
-  margin: 100px 0;
+  margin: 0 120px;
+  margin-top: 50px;
   height: 500px;
   display: flex;
   flex-direction: row;
@@ -74,7 +77,8 @@
 }
 
 .content3{
-  margin: 100px 0;
+  margin: 0 120px;
+  margin-top: 50px;
   height: 500px;
   display: flex;
   flex-direction: row;

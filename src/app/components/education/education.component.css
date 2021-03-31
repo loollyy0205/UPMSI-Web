@@ -8,9 +8,9 @@
 .container .content{
   background-color: white;
   height: 400px;
-  padding-top: 20px;
   display: flex;
   flex-direction: row;
+  margin: 50px 120px 0 120px;
 }
 
 .content .left-content{
@@ -38,11 +38,11 @@
 }
 
 .content2{
-  margin-top: 100px;
   height: 500px;
   background-color: #384e8a;
   display: flex;
   flex-direction: row;
+  margin: 50px 120px 0 120px;
 }
 
 .content2 .left{
@@ -67,11 +67,11 @@
 
 
 .content3{
-  margin-top: 100px;
   height: 500px;
   background-color: #384e8a;
   display: flex;
   flex-direction: row;
+  margin: 50px 120px 0 120px;
 }
 
 .content3 .left{
