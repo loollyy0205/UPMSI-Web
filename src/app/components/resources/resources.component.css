@@ -1,5 +1,5 @@
 .container .title{
-  font-size: 35px;
+  font-size: 40px;
   margin-top: 20px;
   margin-bottom: 50px;
   color: #394e8a;
@@ -26,7 +26,7 @@
 }
 
 .content2{
-  height: 550px;
+  height: 500px;
   margin: 50px 120px 0 120px;
   display: flex;
   flex-direction: row;
@@ -40,7 +40,7 @@
 }
 
 .content2-right{
-  width: 55%;
+  width: 50%;
   background-color: #394e8a;
   padding: 30px;
   display: flex;
@@ -49,22 +49,23 @@
 }
 
 .content3{
-  height: 600px;
+  height: 500px;
   margin: 50px 120px 0 120px;
   display: flex;
   flex-direction: row;
 }
 
 .content3-left{
-  width: 60%;
+  width: 55%;
   background-color: #5ca361;
   padding: 30px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .content3-right{
-  width: 40%;
+  width: 45%;
   justify-content: center;background-image: url(../../../assets/photos/r3.JPG);
   background-repeat: no-repeat;
   background-size: cover;

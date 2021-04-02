@@ -4,7 +4,7 @@
 }
 
 .container .title{
-  font-size: 35px;
+  font-size: 40px;
   margin-top: 20px;
   margin-bottom: 30px;
   color: #384e8a;
@@ -62,7 +62,7 @@
 
 .office{
   margin: 50px 120px 0 120px;
-  height: 550px;
+  height: 500px;
   display: flex;
   flex-direction: row;
 }
@@ -105,7 +105,7 @@
 /*  */
 .lab{
   margin: 50px 120px 0 120px;
-  height: 550px;
+  height: 500px;
   display: flex;
   flex-direction: row;
 }

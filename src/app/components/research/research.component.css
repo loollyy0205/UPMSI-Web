@@ -6,16 +6,16 @@
 }
 
 .content3-left{
-  width: 50%;
+  width: 43%;
   background-color: #384e8a;
-  padding: 30px;
+  padding: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .content3-right{
-  width: 50%;
+  width: 57%;
   background-image: url(../../../assets/photos/r1.JPG);
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,16 +30,16 @@
 }
 
 .content2-left{
-  width: 45%;
+  width: 53%;
   background-image: url(../../../assets/photos/r2.JPG);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .content2-right{
-  width: 55%;
+  width: 47%;
   background-color: #5da563;
-  padding: 30px;
+  padding: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;

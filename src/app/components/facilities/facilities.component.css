@@ -6,16 +6,16 @@
 }
 
 .content1-left{
-  width: 55%;
+  width: 50%;
   background-color: #394e8a;
-  padding: 30px;
+  padding: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .content1-right{
-  width: 45%;
+  width: 50%;
   background-image: url(../../../assets/photos/faci1.JPG);
   background-repeat: no-repeat;
   background-size: cover;

@@ -28,9 +28,8 @@
 }
 
 .right-content .title{
-  font-size: 35px;
+  font-size: 40px;
   color: #384e8a;
-  height: 15%;
   padding: 0 40px;
 }
 .right-content .lower-content{
@@ -38,13 +37,13 @@
 
 }
 
-.right-content p{
+.lower-content{
   padding-left: 40px;
+  margin-top: 20px;
   line-height: 1.5;
 }
 
 .right-content .aboutWork{
-  height: 19%;
   cursor: pointer;
   font-size: 16px;
   text-decoration: underline;
@@ -53,4 +52,250 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
+}
+
+.hr-line{
+  margin: 15px 120px 30px 120px;
+}
+
+.footer{
+  margin-top: 120px;
+}
+
+@media (min-width: 1466px){
+  .hr-line{
+    margin: 20px 130px 35px 130px;
+  }
+
+  .container{
+    margin-left: 130px;
+    margin-right: 130px;
+  }
+
+  .container .content{
+    height: 580px;
+  }
+
+  .right-content .title{
+    font-size: 45px;
+    padding: 0 50px;
+  }
+
+  .lower-content{
+    padding-left: 50px;
+    margin-top: 25px;
+    font-size: 18px;
+  }
+
+  .right-content .aboutWork{
+    font-size: 18px;
+  }
+
+  .footer{
+    margin-top: 130px;
+  }
+}
+
+@media (min-width: 1666px){
+  .hr-line{
+    margin: 25px 140px 40px 140px;
+  }
+
+  .container{
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+
+  .container .content{
+    height: 660px;
+  }
+
+  .right-content .title{
+    font-size: 50px;
+    padding: 0 60px;
+  }
+
+  .lower-content{
+    padding-left: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .right-content .aboutWork{
+    font-size: 20px;
+  }
+
+  .footer{
+    margin-top: 140px;
+  }
+}
+
+@media (min-width: 1866px){
+  .hr-line{
+    margin: 30px 150px 45px 150px;
+  }
+
+  .container{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .container .content{
+    height: 700px;
+  }
+
+  .right-content .title{
+    font-size: 55px;
+    padding: 0 70px;
+  }
+
+  .lower-content{
+    padding-left: 70px;
+    margin-top: 35px;
+    font-size: 22px;
+  }
+
+  .right-content .aboutWork{
+    font-size: 22px;
+  }
+
+  .footer{
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 2066px){
+  .hr-line{
+    margin: 35px 160px 50px 160px;
+  }
+
+  .container{
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+
+  .container .content{
+    height: 775px;
+  }
+
+  .right-content .title{
+    font-size: 60px;
+    padding: 0 80px;
+  }
+
+  .lower-content{
+    padding-left: 80px;
+    margin-top: 40px;
+    font-size: 24px;
+  }
+
+  .right-content .aboutWork{
+    font-size: 24px;
+  }
+
+  .footer{
+    margin-top: 160px;
+  }
+}
+
+@media (min-width: 2266px){
+  .hr-line{
+    margin: 40px 170px 55px 170px;
+  }
+
+  .container{
+    margin-left: 170px;
+    margin-right: 170px;
+  }
+
+  .container .content{
+    height: 850px;
+  }
+
+  .right-content .title{
+    font-size: 65px;
+    padding: 0 90px;
+  }
+
+  .lower-content{
+    padding-left: 90px;
+    margin-top: 45px;
+    font-size: 26px;
+  }
+
+  .right-content .aboutWork{
+    font-size: 26px;
+  }
+
+  .footer{
+    margin-top: 170px;
+  }
+}
+
+@media (min-width: 2466px){
+  .hr-line{
+    margin: 45px 180px 60px 180px;
+  }
+
+  .container{
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+
+  .container .content{
+    height: 925px;
+  }
+
+  .right-content .title{
+    font-size: 70px;
+    padding: 0 100px;
+  }
+
+  .lower-content{
+    padding-left: 100px;
+    margin-top: 50px;
+    font-size: 28px;
+  }
+
+  .right-content .aboutWork{
+    font-size: 28px;
+  }
+
+  .footer{
+    margin-top: 180px;
+  }
+}
+
+@media (min-width: 2560px){
+  .hr-line{
+    margin: 50px 190px 65px 190px;
+  }
+
+  .container{
+    margin-left: 190px;
+    margin-right: 190px;
+  }
+
+  .container .content{
+    height: 1000px;
+  }
+
+  .right-content .title{
+    font-size: 75px;
+    padding: 0 110px;
+  }
+
+  .lower-content{
+    padding-left: 110px;
+    margin-top: 55px;
+    font-size: 30px;
+  }
+
+  .right-content .aboutWork{
+    font-size: 30px;
+  }
+
+  .footer{
+    margin-top: 190px;
+  }
 }
