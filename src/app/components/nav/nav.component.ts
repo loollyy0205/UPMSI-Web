@@ -76,9 +76,15 @@ export class NavComponent implements OnInit {
       this.contact = true;
     }else if(this.router.url === '/News'){
       this.news = true;
+    }else if(this.router.url === '/News/content'){
+      this.news = true;
     }else if(this.router.url === '/News/Announcement'){
       this.news = true;
     }else if(this.router.url === '/News/Research-projects-and-highlights'){
+      this.news = true;
+    }else if(this.router.url === '/News/Research-projects-and-highlights/content'){
+      this.news = true;
+    }else if(this.router.url === '/News/Vacancies-and-Opportunities/more'){
       this.news = true;
     }else if(this.router.url === '/News/Vacancies-and-Opportunities'){
       this.news = true;

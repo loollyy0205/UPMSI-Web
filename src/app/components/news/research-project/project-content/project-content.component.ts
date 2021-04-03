@@ -17,7 +17,7 @@ export class ProjectContentComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  moreMsiNews(){
+  moreResearchProjects(){
     this.router.navigate(['News/Research-projects-and-highlights']);
   }
 

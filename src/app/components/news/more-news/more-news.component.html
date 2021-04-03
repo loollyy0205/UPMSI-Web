@@ -1,7 +1,7 @@
 <app-nav></app-nav>
-<hr class=" animate__animated animate__fadeIn animate__delay-1s" style="margin: 15px 120px 30px 120px">
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
 <div class="container animate__animated animate__fadeIn animate__delay-1s">
-  <p class="atlas-bold" style="font-size: 30px; color: #394e8a;">MSI IN THE NEWS</p>
+  <p class="atlas-bold title">MSI IN THE NEWS</p>
 
   <div class="img-container">
     <div class="img-content" *ngFor="let item of news">
@@ -10,11 +10,11 @@
       </div>
       <div class="right">
         <div>
-          <p class="atlas-bold" style="color: #394e8a;">{{item.title}}</p>
-          <p class="atlas-light" style="color: #394e8a; font-size: 14px;">{{item.subtitle}}</p>
-          <p class="atlas-light" style="margin-top: 10px; padding-right: 10px; font-size: 14px;">{{item.content}}</p>
+          <p class="atlas-bold header">{{item.title}}</p>
+          <p class="atlas-light subtitle">{{item.subtitle}}</p>
+          <p class="atlas-light item-content">{{item.content}}</p>
         </div>
-        <p class="atlas-light" (click)="newsContent()" style="cursor: pointer; text-decoration: underline; font-size: 14px; margin-top: 10px; color: #394e8a; display: flex; flex-direction: row; justify-content: flex-end;">CONTINUE READING</p>
+        <p class="atlas-light continue-reading" (click)="newsContent()">CONTINUE READING</p>
       </div>
     </div>
 
@@ -22,6 +22,6 @@
 
 </div>
 
-<div style="margin-top: 100px;">
+<div class="footer">
   <app-footer></app-footer>
 </div>

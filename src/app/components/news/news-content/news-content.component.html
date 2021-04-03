@@ -1,15 +1,15 @@
 <app-nav></app-nav>
-<hr class=" animate__animated animate__fadeIn animate__delay-1s" style="margin: 15px 120px 30px 120px">
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
 <div class="container animate__animated animate__fadeIn animate__delay-1s">
-  <p class="atlas-bold" style="font-size: 30px; color: #394e8a;">Partnership and Collaboration</p>
-  <p class="atlas-light" style="color: #394e8a; margin-top: 17px;">Updated Feb 17, 2020, 10:07 AM</p>
-  <p class="atlas-light" style="color: #394e8a; margin-top: 7px;">Yvette Geroleo</p>
-  <div style="display: grid; place-content: center; margin-top: 60px;">
+  <p class="atlas-bold title">Partnership and Collaboration</p>
+  <p class="atlas-light date">Updated Feb 17, 2020, 10:07 AM</p>
+  <p class="atlas-light date-name">Yvette Geroleo</p>
+  <div class="center-content">
     <div class="box-content">
       <img src="../../../../assets/photos/partnership.jpg">
-      <div style="height: 100%; background-color: #394e8a; color: white;padding: 20px;">
-      <p class="atlas-light" style=" line-height: 1.3;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde asperiores adipisci nostrum quod maxime nemo odit possimus nam, aut fugit. Assumenda dignissimos esse impedit necessitatibus cum mollitia maxime! Delectus tenetur tempora ducimus voluptate quia cum dolores incidunt adipisci, debitis sapiente iusto rerum quaerat corporis nostrum nobis atque rem suscipit!</p>
-      <p class="atlas-bold" style="font-size: 14px; margin-top: 30px;">PHOTO COURTESY OF MARTINA SALAZAR</p>
+      <div class="photo-box">
+      <p class="atlas-light photo-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde asperiores adipisci nostrum quod maxime nemo odit possimus nam, aut fugit. Assumenda dignissimos esse impedit necessitatibus cum mollitia maxime! Delectus tenetur tempora ducimus voluptate quia cum dolores incidunt adipisci, debitis sapiente iusto rerum quaerat corporis nostrum nobis atque rem suscipit!</p>
+      <p class="atlas-bold photo-courtesy">PHOTO COURTESY OF MARTINA SALAZAR</p>
       </div>
     </div>
 
@@ -17,14 +17,14 @@
 
   <div style="display: grid; place-content: center;">
     <div class="bottom-content">
-      <p class="atlas-bold" style="margin-top: 175px">QUEZON CITY, PHILIPPINES</p>
+      <p class="atlas-bold location">QUEZON CITY, PHILIPPINES</p>
       <img class="fb" src="../../../../assets/photos/fblink.png">
       <img class="twitter" src="../../../../assets/photos/twitter-link.png">
-      <p class="atlas-light" style="margin-top: 30px; line-height: 1.5;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus repudiandae ducimus, cum voluptatem id sunt, accusantium cupiditate atque corrupti quasi accusamus eius similique placeat deleniti nulla labore ipsa veniam hic sint aperiam veritatis ut. Sequi, recusandae sed enim quae saepe, assumenda animi autem illo nam et reiciendis ipsa quia.</p>
+      <p class="atlas-light location-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus repudiandae ducimus, cum voluptatem id sunt, accusantium cupiditate atque corrupti quasi accusamus eius similique placeat deleniti nulla labore ipsa veniam hic sint aperiam veritatis ut. Sequi, recusandae sed enim quae saepe, assumenda animi autem illo nam et reiciendis ipsa quia.</p>
     </div>
   </div>
 
-  <p class="atlas-bold" style="margin-top: 50px; font-size: 30px; color: #394e8a;">MSI IN THE NEWS</p>
+  <p class="atlas-bold news">MSI IN THE NEWS</p>
 
     <div class="img-container">
       <div class="img-content" *ngFor="let item of news">
@@ -33,8 +33,8 @@
         </div>
         <div class="right">
           <div>
-            <p class="atlas-bold">{{item.title}}</p>
-            <p class="atlas-light" style="color: #4c515a; margin-top: 10px; padding-right: 10px; font-size: 14px;">{{item.content}}</p>
+            <p class="atlas-bold news-title">{{item.title}}</p>
+            <p class="atlas-light news-content">{{item.content}}</p>
           </div>
         </div>
       </div>
@@ -43,11 +43,11 @@
 </div>
 
 <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s" (click)="moreMsiNews()">
-  <mat-icon style="font-size: 30px;">arrow_forward</mat-icon>
-  <span style="margin-top: 8px;">
+  <mat-icon class="arrow">arrow_forward</mat-icon>
+  <span class="arrow-text">
     <p class="atlas-light">MORE MSI NEWS</p>
   </span>
 </div>
-<div style="margin-top: 100px;">
+<div class="footer">
   <app-footer></app-footer>
 </div>
