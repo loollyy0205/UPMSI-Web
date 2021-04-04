@@ -87,13 +87,13 @@
   padding: 80px;
 }
 
-.right .office-title{
+/* .right .office-title{
   color: white;
   font-size: 40px;
   display: flex;
   flex-direction: column;
   line-height: 1.2;
-}
+} */
 
 .tel{
   display: flex;
@@ -126,7 +126,7 @@
   background-size: cover;
 }
 
-.left .office-title{
+.office-title{
   color: white;
   font-size: 35px;
   display: flex;
@@ -218,11 +218,7 @@
     padding: 90px;
   }
 
-  .right .office-title{
-    font-size: 45px;
-  }
-
-  .left .office-title{
+ .office-title{
     font-size: 40px;
   }
 
@@ -302,11 +298,7 @@
     padding: 100px;
   }
 
-  .right .office-title{
-    font-size: 50px;
-  }
-
-  .left .office-title{
+ .office-title{
     font-size: 45px;
   }
 
@@ -385,11 +377,7 @@
     padding: 110px;
   }
 
-  .right .office-title{
-    font-size: 55px;
-  }
-
-  .left .office-title{
+ .office-title{
     font-size: 50px;
   }
 
@@ -468,11 +456,7 @@
     padding: 120px;
   }
 
-  .right .office-title{
-    font-size: 60px;
-  }
-
-  .left .office-title{
+ .office-title{
     font-size: 55px;
   }
 
@@ -552,11 +536,7 @@
     padding: 130px;
   }
 
-  .right .office-title{
-    font-size: 65px;
-  }
-
-  .left .office-title{
+ .office-title{
     font-size: 60px;
   }
 
@@ -636,11 +616,7 @@
     padding: 140px;
   }
 
-  .right .office-title{
-    font-size: 70px;
-  }
-
-  .left .office-title{
+ .office-title{
     font-size: 65px;
   }
 
@@ -720,11 +696,8 @@
     padding: 150px;
   }
 
-  .right .office-title{
-    font-size: 75px;
-  }
 
-  .left .office-title{
+ .office-title{
     font-size: 70px;
   }
 

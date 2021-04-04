@@ -72,6 +72,8 @@ export class NavComponent implements OnInit {
       this.extension = true;
     }else if(this.router.url === '/Extension/gallery'){
       this.extension = true;
+    }else if(this.router.url === 'Extension/gallery/images'){
+      this.extension = true;
     }else if(this.router.url === '/Contact'){
       this.contact = true;
     }else if(this.router.url === '/News'){

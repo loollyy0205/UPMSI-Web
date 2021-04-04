@@ -1,8 +1,8 @@
 <app-nav></app-nav>
-<hr class=" animate__animated animate__fadeIn animate__delay-1s" style="margin: 15px 120px 30px 120px">
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
 <div class="animate__animated animate__fadeIn animate__delay-1s">
   <div class="container">
-    <p class="atlas-blackReg" style="font-size: 35px; color: #394e8a; margin-bottom: 20px;">GALLERY</p>
+    <p class="atlas-blackReg title-header">GALLERY</p>
     <!-- <ng-image-slider [images]="imageObject"
     #nav
     [imageSize]="{width: 220, height: 150, space: 3}"></ng-image-slider> -->
@@ -12,14 +12,14 @@
         <img src="../../../../assets/photos/lab1.jpg" alt="sample" width="300" height="200" (click)="openDialog()">
       </div>
     </div> -->
-    <div style="padding: 0 100px; margin-top: 50px;">
-      <div style="display: flex; flex-direction: row; margin-bottom: 10px; margin-top: 20px;">
+    <div class="content1">
+      <div class="content-marg">
         <p class="atlas-bold title" (click)="allPhotos($event, photos1)">Untitled Album</p> &nbsp;
-        <p class="atlas-light" style="font-size: 15px; align-self: flex-end; margin-bottom: 3px;">({{photos1.length}} photos)</p>
+        <p class="atlas-light photo-length">({{photos1.length}} photos)</p>
       </div>
-      <p class="atlas-light" style="margin-top: 10px; line-height: 1.3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit enim perspiciatis maiores eaque ad ipsam similique molestiae adipisci voluptatem, doloribus dicta odit expedita placeat dolore hic, nihil voluptatum. Perspiciatis maxime, unde dolor ab accusamus saepe natus debitis. Voluptas sapiente similique placeat quia nemo dolorem reiciendis voluptatem tenetur amet consequatur!</p>
+      <p class="atlas-light context">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit enim perspiciatis maiores eaque ad ipsam similique molestiae adipisci voluptatem, doloribus dicta odit expedita placeat dolore hic, nihil voluptatum. Perspiciatis maxime, unde dolor ab accusamus saepe natus debitis. Voluptas sapiente similique placeat quia nemo dolorem reiciendis voluptatem tenetur amet consequatur!</p>
       <carousel
-      [height]="165"
+      [height]="'100%'"
       [margin]="20"
       [freeScroll]="false"
       [transitionTimingFunction]="'ease-in-out'"
@@ -36,24 +36,24 @@
         <div class="image atlas-light" (click)="openDialog(item.image)">
           <img class="image__img" [src]="item.image">
           <div class="image__overlay image__overlay--primary">
-              <div class="image__title atlas-bold">Title</div>
-              <p class="image__description">
+              <div class="image__title atlas-bold">Sample title here</div>
+              <!-- <p class="image__description">
                   Short description here
-              </p>
+              </p> -->
           </div>
         </div>
         </div>
       </carousel>
     </div>
 
-    <div style="padding: 0 100px; margin-top: 50px;">
-      <div style="display: flex; flex-direction: row; margin-bottom: 10px; margin-top: 20px;">
+    <div class="content2">
+      <div class="content-marg">
         <p class="atlas-bold title" (click)="allPhotos($event, photos2)">Second Untitled Album</p> &nbsp;
-        <p class="atlas-light" style="font-size: 15px; align-self: flex-end; margin-bottom: 3px;">({{photos2.length}} photos)</p>
+        <p class="atlas-light photo-length">({{photos2.length}} photos)</p>
       </div>
-      <p class="atlas-light" style="margin-top: 10px; line-height: 1.3;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit enim perspiciatis maiores eaque ad ipsam similique molestiae adipisci voluptatem, doloribus dicta odit expedita placeat dolore hic, nihil voluptatum. Perspiciatis maxime, unde dolor ab accusamus saepe natus debitis. Voluptas sapiente similique placeat quia nemo dolorem reiciendis voluptatem tenetur amet consequatur!</p>
+      <p class="atlas-light context">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit enim perspiciatis maiores eaque ad ipsam similique molestiae adipisci voluptatem, doloribus dicta odit expedita placeat dolore hic, nihil voluptatum. Perspiciatis maxime, unde dolor ab accusamus saepe natus debitis. Voluptas sapiente similique placeat quia nemo dolorem reiciendis voluptatem tenetur amet consequatur!</p>
       <carousel
-      [height]="165"
+      [height]="'100%'"
       [margin]="20"
       [freeScroll]="false"
       [transitionTimingFunction]="'ease-in-out'"
@@ -70,24 +70,22 @@
           <div class="image atlas-light" (click)="openDialog(item.image)">
             <img class="image__img" [src]="item.image">
             <div class="image__overlay image__overlay--primary">
-                <div class="image__title atlas-bold">Title</div>
-                <p class="image__description">
-                    Short description here
-                </p>
+                <div class="image__title atlas-bold">Sample title here</div>
+
             </div>
           </div>
         </div>
       </carousel>
     </div>
 
-    <div style="padding: 0 100px; margin-top: 50px;">
-      <div style="display: flex; flex-direction: row; margin-bottom: 10px; margin-top: 20px;">
+    <div class="content2">
+      <div class="content-marg">
         <p class="atlas-bold title" (click)="allPhotos($event, photos1)">Untitled Album</p> &nbsp;
-        <p class="atlas-light" style="font-size: 15px; align-self: flex-end; margin-bottom: 3px;">({{photos1.length}} photos)</p>
+        <p class="atlas-light photo-length">({{photos1.length}} photos)</p>
       </div>
-      <p class="atlas-light" style="margin-top: 10px; line-height: 1.3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit enim perspiciatis maiores eaque ad ipsam similique molestiae adipisci voluptatem, doloribus dicta odit expedita placeat dolore hic, nihil voluptatum. Perspiciatis maxime, unde dolor ab accusamus saepe natus debitis. Voluptas sapiente similique placeat quia nemo dolorem reiciendis voluptatem tenetur amet consequatur!</p>
+      <p class="atlas-light context">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit enim perspiciatis maiores eaque ad ipsam similique molestiae adipisci voluptatem, doloribus dicta odit expedita placeat dolore hic, nihil voluptatum. Perspiciatis maxime, unde dolor ab accusamus saepe natus debitis. Voluptas sapiente similique placeat quia nemo dolorem reiciendis voluptatem tenetur amet consequatur!</p>
       <carousel
-      [height]="165"
+      [height]="'100%'"
       [margin]="20"
       [freeScroll]="false"
       [transitionTimingFunction]="'ease-in-out'"
@@ -104,10 +102,8 @@
           <div class="image atlas-light" (click)="openDialog(item.image)">
             <img class="image__img" [src]="item.image">
             <div class="image__overlay image__overlay--primary">
-                <div class="image__title atlas-bold">Title</div>
-                <p class="image__description">
-                    Short description here
-                </p>
+                <div class="image__title atlas-bold">Sample title here</div>
+
             </div>
           </div>
         </div>
@@ -117,6 +113,6 @@
 
 
 </div>
-<div style="margin-top: 70px;">
+<div class="footer">
   <app-footer></app-footer>
 </div>

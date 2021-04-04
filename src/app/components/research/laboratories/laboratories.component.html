@@ -1,9 +1,9 @@
 <app-nav></app-nav>
-<hr class=" animate__animated animate__fadeIn animate__delay-1s" style="margin: 15px 120px 30px 120px">
-<div class="animate__animated animate__fadeIn animate__delay-1s">
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
+<div class="container animate__animated animate__fadeIn animate__delay-1s">
   <div class="content">
     <div>
-      <p class="atlas-blackReg" style="font-size: 35px; color: #394e8a;">LABORATORIES</p>
+      <p class="atlas-blackReg title-header" style="color: #394e8a;">LABORATORIES</p>
       <p class="lab-desc atlas-light">The Marine Science Institute comprises of laboratories that specialize on their own perspective
         field of research. Research is the primary function of the institute. These programs nre geared towards
         generating information for understanding the marine and coastal environment, and planning for their conversation and sustainable use.
@@ -17,8 +17,8 @@
       <div class="left1"></div>
       <div class="right1">
         <p class="title atlas-bold">PHYSICAL OCEANOGRAPHY</p>
-        <span style="border-bottom: 5px solid #5da563; width: 60%; margin: 20px 0;"></span>
-        <div style="display: flex; gap: 10px; flex-direction: column;">
+        <span class="bottom-bor"></span>
+        <div class="context">
           <p class="atlas-light right-body" [routerLink]="['/Research/laboratories', 'biological-oceanography-and-modeling-of-ecosystem-laboratory']" >
             Biological Oceanography and Modeling of Ecosystem Laboratory
           </p>
@@ -50,8 +50,8 @@
     <div class="lab-img2">
       <div class="left2">
         <p class="title atlas-bold">MARINE BIOLOGY</p>
-        <span style="border-bottom: 5px solid #5da563; width: 50%; margin: 20px 0;"></span>
-        <div style="display: flex; gap: 10px; flex-direction: column;">
+        <span class="bottom-bor"></span>
+        <div class="context">
           <p class="atlas-light right-body">
             Harmful Algal Bloom Laboratory
           </p>
@@ -84,8 +84,8 @@
         <div class="left1"></div>
         <div class="right1">
           <p class="title atlas-bold">MARINE BIOTECHNOLOGY</p>
-          <span style="border-bottom: 5px solid #5da563; width: 60%; margin: 20px 0;"></span>
-          <div style="display: flex; gap: 10px; flex-direction: column;">
+          <span class="bottom-bor"></span>
+          <div class="context">
             <p class="atlas-light right-body">
               Marine Phycology Laboratory
             </p>
@@ -116,7 +116,7 @@
   </div>
 
     <div class="facilities-next">
-      <mat-icon style="font-size: 40px;">arrow_forward</mat-icon>
+      <mat-icon class="arrow">arrow_forward</mat-icon>
       <span style="line-height: 1.3;">
         <p class="atlas-bold">Next</p>
         <p class="atlas-light">FACILITIES</p>
@@ -124,6 +124,6 @@
     </div>
   </div>
 
-<div style="margin-top: 70px;">
+<div class="footer">
   <app-footer></app-footer>
 </div>

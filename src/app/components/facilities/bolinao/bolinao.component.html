@@ -13,7 +13,7 @@
   </div>
 
   <div>
-    <div style="display: grid; place-content: center; margin-top: 70px;">
+    <div class="center-box">
       <div class="box-content">
         <div class="left">
           <img src="../../../../assets/photos/BML-photos/2-history.jpg">
@@ -24,11 +24,11 @@
 
             <p class="atlas-blackReg title" style="color: #394e8a;">HISTORY</p>
             <div style="display: flex;">
-              <p class="atlas-light" style="color: #394e8a; margin-top: 5px; padding-right: 20px; border-right: 3px solid #5ca361;">1976-PRESENT</p>
-              <p class="atlas-light" style="color: #394e8a; margin-top: 5px; padding-left: 20px;">BOLINAO, PANGASINAN</p>
+              <p class="atlas-light date">1976-PRESENT</p>
+              <p class="atlas-light location">BOLINAO, PANGASINAN</p>
 
             </div>
-            <p class="atlas-light" style="font-size: 16px; margin-top: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsum illo ad minus labore perspiciatis, consequuntur distinctio eos nemo, aliquam rerum tempore doloribus unde? Eligendi at ullam ut aliquam. Sapiente, est atque? Ipsum aspernatur id vitae cum distinctio. Voluptatibus debitis placeat est ex labore quae repellat fuga earum, officiis consequuntur.</p>
+            <p class="atlas-light history-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, vel voluptate culpa error libero temporibus provident at modi delectus quis ea! Illum nulla, pariatur facere accusamus eius aspernatur obcaecati! Tempora obcaecati natus ea sunt vero vel ab quidem quasi voluptatibus, quibusdam rerum a iste! Debitis quae pariatur eaque, necessitatibus temporibus molestias! Voluptates vero facilis, corrupti quibusdam earum odio natus, corrupti quibusdam earum odio natus.</p>
 
           </div>
           <p class="atlas-bold read-more"(click)="readMore = true" *ngIf="!readMore">READ MORE</p>
@@ -37,13 +37,14 @@
 
       </div>
     </div>
+
     <div style="display: grid; place-content: center;" *ngIf="readMore">
       <div class="bottom-content">
         <p class="atlas-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam voluptas placeat quae voluptatum commodi nostrum repudiandae debitis ducimus suscipit beatae animi, dolorum doloremque magnam cumque fugit nisi sint quia omnis id tempore ratione ipsum rerum eligendi! Libero similique voluptatem laborum eligendi provident, quaerat voluptatibus quos est commodi amet sequi animi!</p>
       </div>
     </div>
 
-    <div style="display: grid; place-content: center; margin-top: 70px; ">
+    <div class="center-box">
       <!-- <div class="facilities">
         <div class="faci-content">
           <div style="height: 146px;">
@@ -73,15 +74,15 @@
           <p class="atlas-light" style="line-height: 1.3;">{{faciContent[2].content| slice:0:200}}<span style="cursor: pointer;">...</span></p>
         </div>
       </div> -->
-      <div style="width: 1000px;">
-        <div style="color: #394e8a; border-left: 4px solid #5ca361; padding-left: 20px;" class="atlas-blackReg title">INFRASTRACTURES AND FACILITIES</div>
+      <div class="onek-wid">
+        <div class="atlas-blackReg title border-green">INFRASTRACTURES AND FACILITIES</div>
 
         <carousel
         [margin]="-290"
         [freeScroll]="true"
         [transitionTimingFunction]="'ease-in-out'"
         [transitionDuration]="'1000'"
-        [height]="400"
+        [height]="'100%'"
         [cellsToShow]="2"
         [cellsToScroll]="2"
         [cellWidth]="'100%'"
@@ -100,7 +101,7 @@
 
             <div class="bottom">
               <p style="color: #394e8a;" class="atlas-bold">{{item.title}}</p>
-              <p class="atlas-light" style="line-height: 1.4; margin-top: 10px;">{{item.content| slice:0:180}}<span style="cursor: pointer;">...</span></p>
+              <p class="atlas-light bottom-context">{{item.content| slice:0:100}}<span style="cursor: pointer;">...</span></p>
             </div>
           </div>
         </div>
@@ -109,7 +110,7 @@
       </div>
     </div>
 
-    <div style="display: grid; place-content: center; margin-top: 70px;">
+    <div class="center-box">
       <!-- <div style="width: 1000px;">
         <div style="display: flex; flex-direction: row; margin-bottom: 10px; margin-top: 20px;">
           <p class="atlas-bold title" (click)="allPhotos($event, photos1)" style="color: #394e8a;">FACILITIES</p> &nbsp;
@@ -133,21 +134,21 @@
           </div>
         </carousel>
       </div> -->
-      <div class="content-header" style="width: 1000px;">
+      <div class="content-header2">
         <div class="bml-complex">
           <img src="../../../../assets/photos/BML-photos/6-bml-complex.jpg">
           <div class="right-content">
-            <div style="border-left: 5px solid #5ca361; padding-left: 20px; margin-top: 90px;">
+            <div class="bml-border">
               <p class="atlas-bold title">THE BML COMPLEX</p>
-              <p class="atlas-light" style="margin-top: 15px;">INFRASTRUCTURES AND FACILITIES</p>
+              <p class="atlas-light top-15">INFRASTRUCTURES AND FACILITIES</p>
             </div>
-          <p class="atlas-bold" style="margin-top: 80px; margin-left: 25px; text-decoration: underline;">LEARN MORE ABOUT THE 5-HECTARE COMPLEX</p>
+          <p class="atlas-bold learn-more">LEARN MORE ABOUT THE 5-HECTARE COMPLEX</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div style="display: grid; place-content: center; margin-top: 100px;">
+    <div class="center-box">
       <div class="box-content">
         <div class="left">
           <img src="../../../../assets/photos/BML-photos/7-highlights.jpg">
@@ -163,24 +164,24 @@
             </div>
 
             <p class="atlas-bold" style="color: #394e8a; margin-top: 50px;">Giant Clams live in fields at the Bolinao Marine Laboratory</p>
-            <p class="atlas-light" style="margin-top: 10px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, possimus officiis velit mollitia nam id dolore sequi assumenda eaque ipsum obcaecati excepturi consequatur reprehenderit voluptatibus aut ut illo hic dolor.</p>
+            <p class="atlas-light" style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi est aliquid tempore atque unde sapiente consequuntur soluta quis ratione natus. Praesentium consectetur laborum iste ullam porro, corporis numquam unde? Laborum nam nobis corporis saepe. Temporibus repellendus totam est consequuntur ad voluptatibus nam eius, perspiciatis at!</p>
         </div>
 
       </div>
     </div>
 
 
-    <div style="display: grid; place-content: center; margin-top: 30px;">
-      <div style="width: 1000px;">
-        <div style="display: flex; flex-direction: row; margin-bottom: 10px; margin-top: 20px;">
-          <p class="atlas-bold" style="color: #394e8a; border-left: 3px solid #5ca361; padding-left: 10px;">HIGHLIGHTS PREVIEW</p> &nbsp;
+    <div class="center-box2">
+      <div class="onek-wid2">
+        <div class="highlights-marg">
+          <p class="atlas-bold highlights-title">HIGHLIGHTS PREVIEW</p> &nbsp;
         </div>
         <carousel
         [margin]="margin"
         [freeScroll]="true"
         [transitionTimingFunction]="'ease-in-out'"
         [transitionDuration]="'1000'"
-        [height]="280"
+        [height]="'100%'"
         [cellsToShow]="2"
         [cellsToScroll]="2"
         [cellWidth]="'100%'"
@@ -196,9 +197,9 @@
             <div class="top">
               <img [src]="item.image" alt="">
             </div>
-            <div style="margin-top: 10px">
-              <p class="atlas-light" style="color: #394e8a; font-size: 14px;">{{item.lab}}</p>
-              <p class="atlas-bold" style="color: #394e8a; margin-top: 15px;">{{item.title}}</p>
+            <div class="top-10">
+              <p class="atlas-light font-14" style="color: #394e8a;">{{item.lab}}</p>
+              <p class="atlas-bold top-15" style="color: #394e8a; ">{{item.title}}</p>
             </div>
           </div>
         </div>
@@ -209,13 +210,13 @@
 
 
 
-    <div style="display: grid; place-content: center; margin-top: 70px;">
-      <div class="content-header-contact" style="width: 1000px;">
+    <div class="center-box">
+      <div class="content-header-contact">
         <div class="bml-complex">
           <img src="../../../../assets/photos/BML-photos/10-contacts.jpg">
           <div class="right-content1">
-            <p class="atlas-blackReg" style="font-size: 25px;">EXPLORE FURTHER</p>
-            <div style="border-left: 5px solid #5ca361; padding-left: 20px; margin-top: 20px; display: flex; flex-direction: column; gap: 15px;">
+            <p class="atlas-blackReg title">EXPLORE FURTHER</p>
+            <div class="contact-marg">
               <p class="atlas-bold">CONTACT US</p>
               <p class="atlas-light">(075) 649 5740</p>
               <p class="atlas-light">bml@msi.edu.ph</p>
@@ -242,12 +243,12 @@
         <span style="margin-top: 8px;">
           <p class="atlas-light">MORE FACILITIES</p>
         </span>
-        <mat-icon style="font-size: 30px;">arrow_forward</mat-icon>
+        <mat-icon class="arrow">arrow_forward</mat-icon>
       </div>
     </div>
   </div>
 </div>
 
-<div style="margin-top: 70px;">
+<div class="footer">
   <app-footer></app-footer>
 </div>

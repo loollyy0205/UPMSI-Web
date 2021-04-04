@@ -1,6 +1,7 @@
 .container{
   margin: 0 120px;
   margin-top: 20px;
+  font-size: 16px;
 }
 
 .content-header{
@@ -26,18 +27,18 @@ img{
   z-index: 1;
   bottom: 8px;
   left: 16px;
-  width: 40%;
+  width: 500px;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0 50px;
   color: white;
-  gap: 20px;
+  gap: 8px;
 }
 
 .title{
-  font-size: 30px;
+  font-size: 25px;
 }
 
 mat-expansion-panel{
@@ -52,6 +53,7 @@ mat-expansion-panel{
 mat-panel-title{
   color: white;
   padding: 15px 0;
+  font-size: 16px;
 }
 
 .specific-class{
@@ -59,7 +61,7 @@ mat-panel-title{
 }
 
 .grad-offering{
-  margin-top: 50px;
+  margin-top: 50px !important;
   padding: 0 130px;
 }
 
@@ -70,11 +72,14 @@ mat-panel-title{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .core-content{
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  line-height: 1.5;
 }
 
 .core-courses div{
@@ -84,4 +89,467 @@ mat-panel-title{
 .closed-main-head{
   background-color: #394e8a;
   border-radius: 50px;
+}
+
+.fiber-manual{
+  font-size: 8px;
+  margin-right: -12px;
+  margin-top: 3px;
+}
+
+.top-10{
+  margin-top: 10px !important;
+}
+
+.top-neg20{
+  margin-top: -20px !important;
+}
+
+.top-neg10{
+  margin-top: -10px;
+}
+
+.footer{
+  margin-top: 120px;
+}
+
+
+@media (min-width: 1466px){
+  .container{
+    margin: 0 130px;
+    margin-top: 25px;
+    font-size: 18px;
+  }
+
+  .content-header{
+    height: 310px;
+  }
+
+  .left-content{
+    width: 570px;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .title{
+    font-size: 28px;
+  }
+
+  mat-panel-title{
+    padding: 17px 5px;
+    font-size: 18px;
+  }
+
+  .grad-offering{
+    margin-top: 55px !important;
+    padding: 0 140px;
+  }
+
+  .core-courses{
+    margin-left: 25px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-left: 4px solid #5ca361;
+    gap: 20px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .core-courses div{
+    margin-left: 25px;
+  }
+
+  .fiber-manual{
+    font-size: 10px;
+    margin-right: -8px;
+  }
+
+  .top-10{
+    margin-top: 15px !important;
+  }
+
+  .footer{
+    margin-top: 130px;
+  }
+
+}
+
+
+@media (min-width: 1666px){
+  .container{
+    margin: 0 140px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .content-header{
+    height: 350px;
+  }
+
+  .left-content{
+    width: 640px;
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .title{
+    font-size: 31px;
+  }
+
+  mat-panel-title{
+    padding: 19px 10px;
+    font-size: 20px;
+  }
+
+  .grad-offering{
+    margin-top: 60px !important;
+    padding: 0 150px;
+  }
+
+  .core-courses{
+    margin-left: 30px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-left: 5px solid #5ca361;
+    gap: 25px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .core-courses div{
+    margin-left: 30px;
+  }
+
+  .fiber-manual{
+    font-size: 12px;
+    margin-right: -6px;
+  }
+
+  .top-10{
+    margin-top: 20px !important;
+  }
+
+  .footer{
+    margin-top: 140px;
+  }
+}
+
+@media (min-width: 1866px){
+  .container{
+    margin: 0 150px;
+    margin-top: 35px;
+    font-size: 22px;
+  }
+
+  .content-header{
+    height: 390px;
+  }
+
+  .left-content{
+    width: 710px;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .title{
+    font-size: 34px;
+  }
+
+  mat-panel-title{
+    padding: 21px 15px;
+    font-size: 22px;
+  }
+
+  .grad-offering{
+    margin-top: 65px !important;
+    padding: 0 160px;
+  }
+
+  .core-courses{
+    margin-left: 35px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-left: 6px solid #5ca361;
+    gap: 30px;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .core-courses div{
+    margin-left: 35px;
+  }
+
+  .fiber-manual{
+    font-size: 14px;
+    margin-top: 1px;
+    margin-right: -4px;
+  }
+
+  .top-10{
+    margin-top: 25px !important;
+  }
+
+  .footer{
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 2066px){
+  .container{
+    margin: 0 160px;
+    margin-top: 40px;
+    font-size: 24px;
+  }
+
+  .content-header{
+    height: 430px;
+  }
+
+  .left-content{
+    width: 780px;
+    padding: 0 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .title{
+    font-size: 37px;
+  }
+
+  mat-panel-title{
+    padding: 23px 20px;
+    font-size: 24px;
+  }
+
+  .grad-offering{
+    margin-top: 70px !important;
+    padding: 0 170px;
+  }
+
+  .core-courses{
+    margin-left: 40px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-left: 6px solid #5ca361;
+    gap: 35px;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .core-courses div{
+    margin-left: 40px;
+  }
+
+  .fiber-manual{
+    font-size: 15px;
+    margin-right: -2px;
+  }
+
+  .top-10{
+    margin-top: 30px !important;
+  }
+
+  .footer{
+    margin-top: 160px;
+  }
+}
+
+
+@media (min-width: 2266px){
+  .container{
+    margin: 0 170px;
+    margin-top: 45px;
+    font-size: 26px;
+  }
+
+  .content-header{
+    height: 470px;
+  }
+
+  .left-content{
+    width: 850px;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .title{
+    font-size: 40px;
+  }
+
+  mat-panel-title{
+    padding: 25px 25px;
+    font-size: 26px;
+  }
+
+  .grad-offering{
+    margin-top: 75px !important;
+    padding: 0 180px;
+  }
+
+  .core-courses{
+    margin-left: 45px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-left: 7px solid #5ca361;
+    gap: 40px;
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+
+  .core-courses div{
+    margin-left: 45px;
+  }
+
+  .fiber-manual{
+    font-size: 16px;
+    margin-right: 0;
+  }
+
+  .top-10{
+    margin-top: 35px !important;
+  }
+
+  .footer{
+    margin-top: 170px;
+  }
+}
+
+
+@media (min-width: 2466px){
+  .container{
+    margin: 0 180px;
+    margin-top: 50px;
+    font-size: 28px;
+  }
+
+  .content-header{
+    height: 500px;
+  }
+
+  .left-content{
+    width: 920px;
+    padding: 0 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .title{
+    font-size: 43px;
+  }
+
+  mat-panel-title{
+    padding: 27px 30px;
+    font-size: 28px;
+  }
+
+  .grad-offering{
+    margin-top: 80px !important;
+    padding: 0 190px;
+  }
+
+  .core-courses{
+    margin-left: 50px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-left: 7px solid #5ca361;
+    gap: 45px;
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+
+  .core-courses div{
+    margin-left: 50px;
+  }
+
+  .fiber-manual{
+    font-size: 17px;
+    margin-right: 2;
+  }
+
+  .top-10{
+    margin-top: 40px !important;
+  }
+
+  .footer{
+    margin-top: 180px;
+  }
+}
+
+
+@media (min-width: 2560px){
+  .container{
+    margin: 0 190px;
+    margin-top: 55px;
+    font-size: 30px;
+  }
+
+  .content-header{
+    height: 540px;
+  }
+
+  .left-content{
+    width: 990px;
+    padding: 0 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 22px;
+  }
+
+  .title{
+    font-size: 46px;
+  }
+
+  mat-panel-title{
+    padding: 29px 35px;
+    font-size: 30px;
+  }
+
+  .grad-offering{
+    margin-top: 85px !important;
+    padding: 0 200px;
+  }
+
+  .core-courses{
+    margin-left: 55px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-left: 8px solid #5ca361;
+    gap: 50px;
+    font-size: 28px;
+    margin-bottom: 45px;
+  }
+
+  .core-courses div{
+    margin-left: 55px;
+  }
+
+  .fiber-manual{
+    font-size: 18px;
+    margin-right: 4;
+  }
+
+  .top-10{
+    margin-top: 45px !important;
+  }
+
+  .footer{
+    margin-top: 190px;
+  }
 }

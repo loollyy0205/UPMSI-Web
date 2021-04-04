@@ -145,7 +145,10 @@ mat-expansion-panel{
   .left-content{
     width: 570px;
     padding: 0 60px;
-    gap: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
   }
 
   .banner-content{
@@ -214,7 +217,10 @@ mat-expansion-panel{
   .left-content{
     width: 640px;
     padding: 0 70px;
-    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
   }
 
   .banner-content{
@@ -283,7 +289,10 @@ mat-expansion-panel{
   .left-content{
     width: 710px;
     padding: 0 80px;
-    gap: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
   }
 
   .banner-content{
@@ -352,7 +361,10 @@ mat-expansion-panel{
   .left-content{
     width: 780px;
     padding: 0 90px;
-    gap: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
   }
 
   .banner-content{
@@ -421,7 +433,10 @@ mat-expansion-panel{
   .left-content{
     width: 850px;
     padding: 0 100px;
-    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
   }
 
   .banner-content{
@@ -490,7 +505,10 @@ mat-expansion-panel{
   .left-content{
     width: 920px;
     padding: 0 110px;
-    gap: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
   }
 
   .banner-content{
@@ -560,7 +578,10 @@ mat-expansion-panel{
   .left-content{
     width: 990px;
     padding: 0 120px;
-    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 22px;
   }
 
   .banner-content{

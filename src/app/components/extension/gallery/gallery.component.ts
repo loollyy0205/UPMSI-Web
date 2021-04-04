@@ -3,6 +3,7 @@ import { UploadFetchService } from 'src/app/shared/upload-fetch.service';
 import { ImageDialogComponent } from './image-dialog/image-dialog.component';
 import { Component, OnInit } from '@angular/core';
 import {MatDialog} from '@angular/material/dialog';
+import { HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-gallery',
@@ -57,15 +58,50 @@ export class GalleryComponent implements OnInit {
   {image: '../../../../assets/photos/sampleImage2.jpg'},
   {image: '../../../../assets/photos/sampleImage3.jpg'},]
 
+  height:string = '500px';
+  width:string = '1100px';
+
+  public innerWidth: any;
+  @HostListener('window:resize', ['$event'])
+onResize(event) {
+  this.innerWidth = window.innerWidth;
+  if (this.innerWidth <= 1445 && this.innerWidth >= 768) {
+    this.height= '500px';
+    this.width = '1100px';
+  } else if (this.innerWidth <= 1665 && this.innerWidth >= 1446) {
+    this.height= '580px';
+    this.width = '1200px';
+  }else if (this.innerWidth <= 1865 && this.innerWidth >= 1666) {
+    this.height= '660px';
+    this.width = '1400px';
+  }else if (this.innerWidth <= 2065 && this.innerWidth >= 1866) {
+    this.height= '740px';
+    this.width = '1600px';
+  }else if (this.innerWidth <= 2265 && this.innerWidth >= 2066) {
+    this.height= '820px';
+    this.width = '1800px';
+  }else if (this.innerWidth <= 2465 && this.innerWidth >= 2266) {
+    this.height= '900px';
+    this.width = '2000px';
+  }else if (this.innerWidth <= 2665 && this.innerWidth >= 2466) {
+    this.height= '980px';
+    this.width = '2200px';
+  }else if (this.innerWidth <= 2865 && this.innerWidth >= 2560) {
+    this.height= '1060px';
+    this.width = '2400px';
+  }
+}
+
   constructor(public dialog: MatDialog, private upl:UploadFetchService, private router:Router) { }
 
   ngOnInit(): void {
+    this.innerWidth = window.innerWidth;
   }
 
   openDialog(imgSrc){
     this.dialog.open(ImageDialogComponent, {
-      height: '500px',
-      width: '1100px',
+      height: this.height,
+      width: this.width,
       data: {
         imgSrc: imgSrc
       }
