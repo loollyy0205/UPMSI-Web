@@ -1,3 +1,11 @@
+.container{
+  font-size: 16px;
+}
+
+carousel{
+  height: 500px;
+}
+
 .container .title{
   font-size: 40px;
   margin-top: 20px;
@@ -8,14 +16,14 @@
 }
 
 .publi-container{
-  height: 100%;
+  height: 260px;
   margin-left: 120px;
   margin-right: 120px;
 
 }
 
 .publi-content{
-  height: 100%;
+  height: 260px;
   border-right: 1px solid black;
   width: 350px;
   padding-right: 30px;
@@ -33,16 +41,16 @@
 }
 
 .content2-left{
-  width: 45%;
+  width: 55%;
   background-image: url(../../../assets/photos/library.JPG);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .content2-right{
-  width: 50%;
+  width: 45%;
   background-color: #394e8a;
-  padding: 30px;
+  padding: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,18 +64,480 @@
 }
 
 .content3-left{
-  width: 55%;
+  width: 50%;
   background-color: #5ca361;
-  padding: 30px;
+  padding: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .content3-right{
-  width: 45%;
+  width: 50%;
   justify-content: center;background-image: url(../../../assets/photos/r3.JPG);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.read-more{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 18px;
+  text-decoration: underline;
+  color: #5ca361;
+}
+
+.hr-line{
+  margin: 15px 120px 30px 120px;
+}
+
+.title-content{
+  font-size: 35px;
+}
+
+.context{
+  color: white;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.know-more{
+  text-decoration: underline;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.content2-p{
+  margin-top: 20px;
+}
+
+.footer{
+  margin-top: 120px;
+}
+
+@media (min-width: 1466px){
+  .container{
+    font-size: 18px;
+  }
+
+  .container .title{
+    font-size: 45px;
+    margin-top: 25px;
+    margin-bottom: 55px;
+    margin-left: 130px;
+    margin-right: 130px;
+  }
+
+  .publi-container{
+    margin-left: 130px;
+    margin-right: 130px;
+    height: 300px;
+  }
+
+  .publi-content{
+    height: 300px;
+    width: 390px;
+    padding-right: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    font-size: 20px
+  }
+
+  .read-more{
+    margin-top: 55px;
+    font-size: 20px;
+  }
+
+  .hr-line{
+    margin: 20px 130px 35px 130px;
+  }
+
+  .content2, .content3{
+    height: 580px;
+    margin: 60px 130px 0 130px;
+  }
+
+  .content2-right, .content3-left{
+    padding: 90px;
+  }
+
+  .title-content{
+    font-size: 40px;
+  }
+
+  .context, .know-more,.content2-p{
+    margin-top: 25px;
+  }
+
+  .footer{
+    margin-top: 130px;
+  }
+}
+
+@media (min-width: 1666px){
+  .container{
+    font-size: 20px;
+  }
+
+  .container .title{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+
+  .publi-container{
+    height: 340px;
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+
+  .publi-content{
+    height: 340px;
+    width: 430px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 22px
+  }
+
+  .read-more{
+    margin-top: 60px;
+    font-size: 22px;
+  }
+
+  .hr-line{
+    margin: 25px 140px 40px 140px;
+  }
+
+  .content2, .content3{
+    height: 660px;
+    margin: 70px 140px 0 140px;
+  }
+
+  .content2-right, .content3-left{
+    padding: 100px;
+  }
+
+  .title-content{
+    font-size: 45px;
+  }
+
+  .context, .know-more,.content2-p{
+    margin-top: 30px;
+  }
+
+  .footer{
+    margin-top: 140px;
+  }
+
+}
+
+@media (min-width: 1866px){
+  .container{
+    font-size: 22px;
+  }
+
+  .container .title{
+    font-size: 55px;
+    margin-top: 35px;
+    margin-bottom: 65px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .publi-container{
+    height: 380px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .publi-content{
+    height: 380px;
+    width: 470px;
+    padding-right: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    font-size: 24px
+  }
+
+  .read-more{
+    margin-top: 65px;
+    font-size: 24px;
+  }
+
+  .hr-line{
+    margin: 30px 150px 45px 150px;
+  }
+
+  .content2, .content3{
+    height: 700px;
+    margin: 80px 150px 0 150px;
+  }
+
+  .content2-right, .content3-left{
+    padding: 110px;
+  }
+
+  .title-content{
+    font-size: 50px;
+  }
+
+  .context, .know-more,.content2-p{
+    margin-top: 35px;
+  }
+
+  .footer{
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 2066px){
+  .container{
+    font-size: 24px;
+  }
+
+  .container .title{
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+
+  .publi-container{
+    height: 420px;
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+
+  .publi-content{
+    height: 420px;
+    width: 510px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 26px
+  }
+
+  .read-more{
+    margin-top: 70px;
+    font-size: 26px;
+  }
+
+  .hr-line{
+    margin: 35px 160px 50px 160px;
+  }
+
+  .content2, .content3{
+    height: 775px;
+    margin: 90px 160px 0 160px;
+  }
+
+  .content2-right, .content3-left{
+    padding: 120px;
+  }
+
+  .title-content{
+    font-size: 55px;
+  }
+
+  .context, .know-more,.content2-p{
+    margin-top: 40px;
+  }
+
+  .footer{
+    margin-top: 160px;
+  }
+}
+
+@media (min-width: 2266px){
+  .container{
+    font-size: 26px;
+  }
+
+  .container .title{
+    font-size: 65px;
+    margin-top: 45px;
+    margin-bottom: 75px;
+    margin-left: 170px;
+    margin-right: 170px;
+  }
+
+  .publi-container{
+    height: 460px;
+    margin-left: 170px;
+    margin-right: 170px;
+  }
+
+  .publi-content{
+    height: 460px;
+    width: 550px;
+    padding-right: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    font-size: 28px
+  }
+
+  .read-more{
+    margin-top: 75px;
+    font-size: 28px;
+  }
+
+  .hr-line{
+    margin: 40px 170px 55px 170px;
+  }
+
+  .content2, .content3{
+    height: 850px;
+    margin: 100px 170px 0 170px;
+  }
+
+  .content2-right, .content3-left{
+    padding: 130px;
+  }
+
+  .title-content{
+    font-size: 60px;
+  }
+
+  .context, .know-more,.content2-p{
+    margin-top: 45px;
+  }
+
+  .footer{
+    margin-top: 170px;
+  }
+}
+
+@media (min-width: 2466px){
+  .container{
+    font-size: 28px;
+  }
+
+  .container .title{
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+
+  .publi-container{
+    height: 500px;
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+
+  .publi-content{
+    height: 500px;
+    width: 590px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    font-size: 30px;
+  }
+
+  .read-more{
+    margin-top: 80px;
+    font-size: 30px;
+  }
+
+  .hr-line{
+    margin: 45px 180px 60px 180px;
+  }
+
+  .content2, .content3{
+    height: 925px;
+    margin: 110px 180px 0 180px;
+  }
+
+  .content2-right, .content3-left{
+    padding: 140px;
+  }
+
+  .title-content{
+    font-size: 65px;
+  }
+
+  .context, .know-more,.content2-p{
+    margin-top: 50px;
+  }
+
+  .footer{
+    margin-top: 180px;
+  }
+}
+
+@media (min-width: 2560px){
+  .container{
+    font-size: 30px;
+  }
+
+  .container .title{
+    font-size: 75px;
+    margin-top: 55px;
+    margin-bottom: 85px;
+    margin-left: 190px;
+    margin-right: 190px;
+  }
+
+  .publi-container{
+    height: 540px;
+    margin-left: 190px;
+    margin-right: 190px;
+  }
+
+  .publi-content{
+    height: 540px;
+    width: 700px;
+    padding-right: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    font-size: 32px;
+  }
+
+  .read-more{
+    margin-top: 85px;
+    font-size: 32px;
+  }
+
+  .hr-line{
+    margin: 50px 190px 65px 190px;
+  }
+
+  .content2, .content3{
+    height: 1000px;
+    margin: 120px 190px 0 190px;
+  }
+
+  .content2-right, .content3-left{
+    padding: 150px;
+  }
+
+  .title-content{
+    font-size: 70px;
+  }
+
+  .context, .know-more,.content2-p{
+    margin-top: 55px;
+  }
+
+  .footer{
+    margin-top: 190px;
+  }
 }
 
