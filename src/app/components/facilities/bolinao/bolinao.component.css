@@ -4,29 +4,10 @@
   font-size: 16px;
 }
 
-.content-header{
-  height: 270px;
-  position: relative;
-}
-
 img{
   height: 100%;
   width: 100%;
   object-fit: cover;
-}
-
-.left-content{
-  position: absolute;
-  z-index: 1;
-  bottom: 8px;
-  left: 16px;
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 50px;
-  color: white;
 }
 
 .title{
@@ -58,36 +39,6 @@ img{
   height: 100% !important;
   width: 100% !important;
   object-fit: cover !important;
-}
-
-.infrastructure-content{
-  background-color: #fff;
-  margin-top: 40px;
-  height: 360px;
-  width: 330px;
-  display: flex;
-  flex-direction: column;
-}
-
-.infrastructure-content .top{
-  height: 50%;
-}
-
-.infrastructure-content img{
-  height: 100% !important;
-  width: 100% !important;
-  object-fit: cover !important;
-}
-
-.infrastructure-content .bottom{
-  height: 50%;
-  background-color: #fff;
-  padding: 25px;
-}
-
-
-.infrastructure-content span:hover{
-  text-decoration: underline;
 }
 
 .left{
@@ -144,64 +95,6 @@ img{
   text-decoration: underline;
 }
 
-.bml-complex{
-  height: 300px;
-  overflow: hidden;
-}
-
-.bml-complex img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  transition: transform .5s ease;
-}
-
-.bml-complex img:hover{
-  transform: scale(1.1);
-}
-
-
-.bml-complex .right-content{
-  position: absolute;
-  z-index: 1;
-  left: 20px;
-  bottom: 16px;
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: white;
-}
-
-.content-header-contact{
-  height: 220px;
-  position: relative;
-  width: 1000px;
-}
-
-.contact-marg{
-  border-left: 5px solid #5ca361;
-  padding-left: 20px;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.bml-complex .right-content1{
-  position: absolute;
-  z-index: 1;
-  left: 50px;
-  bottom: -31px;
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: white;
-}
-
 .footer{
   margin-top: 120px;
 }
@@ -236,42 +129,13 @@ img{
   margin-top: 15px;
 }
 
-.onek-wid{
-  height: 400px;
-  width: 1000px !important;
-}
-
-.border-green{
-  color: #394e8a;
-  border-left: 4px solid #5ca361;
-  padding-left: 20px;
-}
-
 .bottom-context{
   line-height: 1.4;
   margin-top: 10px;
 }
 
-.content-header2{
-  height: 270px;
-  position: relative;
-  width: 1000px !important;
-}
-
-.bml-border{
-  border-left: 5px solid #5ca361;
-  padding-left: 20px;
-  margin-top: 90px;
-}
-
 .top-15{
   margin-top: 15px;
-}
-
-.learn-more{
-  margin-top: 80px;
-  margin-left: 25px;
-  text-decoration: underline;
 }
 
 .onek-wid2{
@@ -304,19 +168,6 @@ img{
     margin: 0 130px;
     margin-top: 25px;
     font-size: 18px;
-  }
-
-  .content-header{
-    height: 310px;
-  }
-
-  .left-content{
-    width: 570px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    padding: 0 60px;
   }
 
   .title{
@@ -356,62 +207,13 @@ img{
     width: 1120px;
   }
 
-  .onek-wid{
-    height: 440px;
-    width: 1120px !important;
-  }
-
-  .border-green{
-    color: #394e8a;
-    border-left: 4px solid #5ca361;
-    padding-left: 20px;
-  }
-
   .bottom-context{
     line-height: 1.4;
     margin-top: 10px;
   }
 
-  .infrastructure-content{
-    margin-top: 45px;
-    height: 390px;
-    width: 370px;
-  }
-
-  .infrastructure-content .bottom{
-    padding: 30px;
-  }
-
-  .content-header2{
-    height: 310px;
-    width: 1120px !important;
-  }
-
-  .bml-border{
-    border-left: 6px solid #5ca361;
-    padding-left: 25px;
-    margin-top: 95px;
-  }
-
   .top-15{
     margin-top: 20px;
-  }
-
-  .learn-more{
-    margin-top: 85px;
-    margin-left: 30px;
-    text-decoration: underline;
-  }
-
-  .bml-complex{
-    height: 340px;
-  }
-
-  .bml-complex .right-content{
-    position: absolute;
-    z-index: 1;
-    left: 20px;
-    bottom: 16px;
   }
 
   .highlights-content{
@@ -441,28 +243,6 @@ img{
 
   .font-14{
     font-size: 16px;
-  }
-
-  .content-header-contact{
-    height: 250px;
-    position: relative;
-    width: 1120px;
-  }
-
-  .contact-marg{
-    border-left: 6px solid #5ca361;
-    padding-left: 25px;
-    margin-top: 25px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .bml-complex .right-content1{
-    position: absolute;
-    z-index: 1;
-    left: 50px;
-    bottom: -31px;
   }
 
   .more-vacancies{
@@ -496,19 +276,6 @@ img{
     margin: 0 140px;
     margin-top: 30px;
     font-size: 20px;
-  }
-
-  .content-header{
-    height: 350px;
-  }
-
-  .left-content{
-    width: 640px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 12px;
-    padding: 0 70px;
   }
 
   .title{
@@ -548,60 +315,14 @@ img{
     width: 1240px;
   }
 
-  .onek-wid{
-    height: 480px;
-    width: 1240px !important;
-  }
-
-  .border-green{
-    border-left: 4px solid #5ca361;
-    padding-left: 25px;
-  }
-
   .bottom-context{
     margin-top: 15px;
-  }
-
-  .infrastructure-content{
-    margin-top: 50px;
-    height: 420px;
-    width: 410px;
-  }
-
-  .infrastructure-content .bottom{
-    padding: 35px;
-  }
-
-  .content-header2{
-    height: 350px;
-    width: 1240px !important;
-  }
-
-  .bml-border{
-    border-left: 6px solid #5ca361;
-    padding-left: 30px;
-    margin-top: 100px;
   }
 
   .top-15{
     margin-top: 25px;
   }
 
-  .learn-more{
-    margin-top: 90px;
-    margin-left: 35px;
-  }
-
-  .bml-complex{
-    height: 380px;
-  }
-
-  .bml-complex .right-content{
-    position: absolute;
-    z-index: 1;
-    left: 20px;
-    bottom: 16px;
-  }
 
   .highlights-content{
     margin-top: 9px;
@@ -630,28 +351,6 @@ img{
 
   .font-14{
     font-size: 18px;
-  }
-
-  .content-header-contact{
-    height: 280px;
-    position: relative;
-    width: 1240px;
-  }
-
-  .contact-marg{
-    border-left: 6px solid #5ca361;
-    padding-left: 30px;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-  }
-
-  .bml-complex .right-content1{
-    position: absolute;
-    z-index: 1;
-    left: 50px;
-    bottom: -31px;
   }
 
   .more-vacancies{
@@ -684,19 +383,6 @@ img{
     margin: 0 150px;
     margin-top: 35px;
     font-size: 22px;
-  }
-
-  .content-header{
-    height: 390px;
-  }
-
-  .left-content{
-    width: 720px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 14px;
-    padding: 0 80px;
   }
 
   .title{
@@ -736,59 +422,12 @@ img{
     width: 1360px;
   }
 
-  .onek-wid{
-    height: 520px;
-    width: 1360px !important;
-  }
-
-  .border-green{
-    border-left: 5px solid #5ca361;
-    padding-left: 30px;
-  }
-
   .bottom-context{
     margin-top: 20px;
   }
 
-  .infrastructure-content{
-    margin-top: 55px;
-    height: 450px;
-    width: 450px;
-  }
-
-  .infrastructure-content .bottom{
-    padding: 40px;
-  }
-
-  .content-header2{
-    height: 390px;
-    width: 1360px !important;
-  }
-
-  .bml-border{
-    border-left: 7px solid #5ca361;
-    padding-left: 35px;
-    margin-top: 105px;
-  }
-
   .top-15{
     margin-top: 30px;
-  }
-
-  .learn-more{
-    margin-top: 95px;
-    margin-left: 40px;
-  }
-
-  .bml-complex{
-    height: 420px;
-  }
-
-  .bml-complex .right-content{
-    position: absolute;
-    z-index: 1;
-    left: 20px;
-    bottom: 16px;
   }
 
   .highlights-content{
@@ -818,28 +457,6 @@ img{
 
   .font-14{
     font-size: 20px;
-  }
-
-  .content-header-contact{
-    height: 310px;
-    position: relative;
-    width: 1360px;
-  }
-
-  .contact-marg{
-    border-left: 7px solid #5ca361;
-    padding-left: 35px;
-    margin-top: 35px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .bml-complex .right-content1{
-    position: absolute;
-    z-index: 1;
-    left: 50px;
-    bottom: -31px;
   }
 
   .more-vacancies{
@@ -873,19 +490,6 @@ img{
     margin: 0 160px;
     margin-top: 40px;
     font-size: 24px;
-  }
-
-  .content-header{
-    height: 430px;
-  }
-
-  .left-content{
-    width: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 16px;
-    padding: 0 90px;
   }
 
   .title{
@@ -925,59 +529,12 @@ img{
     width: 1480px;
   }
 
-  .onek-wid{
-    height: 560px;
-    width: 1480px !important;
-  }
-
-  .border-green{
-    border-left: 5px solid #5ca361;
-    padding-left: 35px;
-  }
-
   .bottom-context{
     margin-top: 25px;
   }
 
-  .infrastructure-content{
-    margin-top: 60px;
-    height: 480px;
-    width: 490px;
-  }
-
-  .infrastructure-content .bottom{
-    padding: 45px;
-  }
-
-  .content-header2{
-    height: 430px;
-    width: 1480px !important;
-  }
-
-  .bml-border{
-    border-left: 7px solid #5ca361;
-    padding-left: 40px;
-    margin-top: 110px;
-  }
-
   .top-15{
     margin-top: 35px;
-  }
-
-  .learn-more{
-    margin-top: 100px;
-    margin-left: 45px;
-  }
-
-  .bml-complex{
-    height: 460px;
-  }
-
-  .bml-complex .right-content{
-    position: absolute;
-    z-index: 1;
-    left: 20px;
-    bottom: 16px;
   }
 
   .highlights-content{
@@ -1007,28 +564,6 @@ img{
 
   .font-14{
     font-size: 22px;
-  }
-
-  .content-header-contact{
-    height: 340px;
-    position: relative;
-    width: 1480px;
-  }
-
-  .contact-marg{
-    border-left: 7px solid #5ca361;
-    padding-left: 40px;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-  }
-
-  .bml-complex .right-content1{
-    position: absolute;
-    z-index: 1;
-    left: 50px;
-    bottom: -31px;
   }
 
   .more-vacancies{
@@ -1062,19 +597,6 @@ img{
     margin: 0 170px;
     margin-top: 45px;
     font-size: 26px;
-  }
-
-  .content-header{
-    height: 470px;
-  }
-
-  .left-content{
-    width: 880px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 18px;
-    padding: 0 100px;
   }
 
   .title{
@@ -1114,59 +636,12 @@ img{
     width: 1600px;
   }
 
-  .onek-wid{
-    height: 600px;
-    width: 1600px !important;
-  }
-
-  .border-green{
-    border-left: 6px solid #5ca361;
-    padding-left: 40px;
-  }
-
   .bottom-context{
     margin-top: 30px;
   }
 
-  .infrastructure-content{
-    margin-top: 65px;
-    height: 510px;
-    width: 530px;
-  }
-
-  .infrastructure-content .bottom{
-    padding: 50px;
-  }
-
-  .content-header2{
-    height: 470px;
-    width: 1600px !important;
-  }
-
-  .bml-border{
-    border-left: 8px solid #5ca361;
-    padding-left: 45px;
-    margin-top: 115px;
-  }
-
   .top-15{
     margin-top: 40px;
-  }
-
-  .learn-more{
-    margin-top: 105px;
-    margin-left: 50px;
-  }
-
-  .bml-complex{
-    height: 500px;
-  }
-
-  .bml-complex .right-content{
-    position: absolute;
-    z-index: 1;
-    left: 20px;
-    bottom: 16px;
   }
 
   .highlights-content{
@@ -1196,28 +671,6 @@ img{
 
   .font-14{
     font-size: 24px;
-  }
-
-  .content-header-contact{
-    height: 370px;
-    position: relative;
-    width: 1600px;
-  }
-
-  .contact-marg{
-    border-left: 8px solid #5ca361;
-    padding-left: 45px;
-    margin-top: 45px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .bml-complex .right-content1{
-    position: absolute;
-    z-index: 1;
-    left: 50px;
-    bottom: -31px;
   }
 
   .more-vacancies{
@@ -1251,19 +704,6 @@ img{
     margin: 0 180px;
     margin-top: 50px;
     font-size: 28px;
-  }
-
-  .content-header{
-    height: 510px;
-  }
-
-  .left-content{
-    width: 960px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    padding: 0 110px;
   }
 
   .title{
@@ -1303,59 +743,12 @@ img{
     width: 1720px;
   }
 
-  .onek-wid{
-    height: 640px;
-    width: 1720px !important;
-  }
-
-  .border-green{
-    border-left: 7px solid #5ca361;
-    padding-left: 45px;
-  }
-
   .bottom-context{
     margin-top: 35px;
   }
 
-  .infrastructure-content{
-    margin-top: 70px;
-    height: 540px;
-    width: 570px;
-  }
-
-  .infrastructure-content .bottom{
-    padding: 55px;
-  }
-
-  .content-header2{
-    height: 510px;
-    width: 1720px !important;
-  }
-
-  .bml-border{
-    border-left: 9px solid #5ca361;
-    padding-left: 50px;
-    margin-top: 120px;
-  }
-
   .top-15{
     margin-top: 45px;
-  }
-
-  .learn-more{
-    margin-top: 110px;
-    margin-left: 55px;
-  }
-
-  .bml-complex{
-    height: 540px;
-  }
-
-  .bml-complex .right-content{
-    position: absolute;
-    z-index: 1;
-    left: 20px;
-    bottom: 16px;
   }
 
   .highlights-content{
@@ -1385,28 +778,6 @@ img{
 
   .font-14{
     font-size: 26px;
-  }
-
-  .content-header-contact{
-    height: 400px;
-    position: relative;
-    width: 1720px;
-  }
-
-  .contact-marg{
-    border-left: 9px solid #5ca361;
-    padding-left: 50px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 45px;
-  }
-
-  .bml-complex .right-content1{
-    position: absolute;
-    z-index: 1;
-    left: 50px;
-    bottom: -31px;
   }
 
   .more-vacancies{
@@ -1440,19 +811,6 @@ img{
     margin: 0 190px;
     margin-top: 55px;
     font-size: 30px;
-  }
-
-  .content-header{
-    height: 550px;
-  }
-
-  .left-content{
-    width: 1040px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 22px;
-    padding: 0 120px;
   }
 
   .title{
@@ -1492,59 +850,12 @@ img{
     width: 1840px;
   }
 
-  .onek-wid{
-    height: 680px;
-    width: 1840px !important;
-  }
-
-  .border-green{
-    border-left: 8px solid #5ca361;
-    padding-left: 50px;
-  }
-
   .bottom-context{
     margin-top: 40px;
   }
 
-  .infrastructure-content{
-    margin-top: 75px;
-    height: 570px;
-    width: 610px;
-  }
-
-  .infrastructure-content .bottom{
-    padding: 60px;
-  }
-
-  .content-header2{
-    height: 550px;
-    width: 1840px !important;
-  }
-
-  .bml-border{
-    border-left: 10px solid #5ca361;
-    padding-left: 55px;
-    margin-top: 125px;
-  }
-
   .top-15{
     margin-top: 50px;
-  }
-
-  .learn-more{
-    margin-top: 115px;
-    margin-left: 60px;
-  }
-
-  .bml-complex{
-    height: 580px;
-  }
-
-  .bml-complex .right-content{
-    position: absolute;
-    z-index: 1;
-    left: 20px;
-    bottom: 16px;
   }
 
   .highlights-content{
@@ -1574,28 +885,6 @@ img{
 
   .font-14{
     font-size: 28px;
-  }
-
-  .content-header-contact{
-    height: 430px;
-    position: relative;
-    width: 1840px;
-  }
-
-  .contact-marg{
-    border-left: 10px solid #5ca361;
-    padding-left: 55px;
-    margin-top: 55px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
-
-  .bml-complex .right-content1{
-    position: absolute;
-    z-index: 1;
-    left: 50px;
-    bottom: -31px;
   }
 
   .more-vacancies{

@@ -1,0 +1,287 @@
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.title{
+  font-size: 25px;
+}
+
+.bml-complex{
+  height: 300px;
+  overflow: hidden;
+}
+
+.bml-complex img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform .5s ease;
+}
+
+.bml-complex img:hover{
+  transform: scale(1.1);
+}
+
+.content-header-contact{
+  height: 220px;
+  position: relative;
+  width: 1000px;
+}
+
+.contact-marg{
+  border-left: 5px solid #5ca361;
+  padding-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bml-complex .right-content1{
+  position: absolute;
+  z-index: 1;
+  left: 50px;
+  bottom: -31px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+
+@media (min-width: 1466px){
+  .title{
+    font-size: 28px;
+  }
+  .bml-complex{
+    height: 340px;
+  }
+
+  .content-header-contact{
+    height: 250px;
+    position: relative;
+    width: 1120px;
+  }
+
+  .contact-marg{
+    border-left: 6px solid #5ca361;
+    padding-left: 25px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .bml-complex .right-content1{
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    bottom: -31px;
+  }
+}
+
+
+@media (min-width: 1666px){
+  .title{
+    font-size: 31px;
+  }
+
+  .bml-complex{
+    height: 380px;
+  }
+
+  .content-header-contact{
+    height: 280px;
+    position: relative;
+    width: 1240px;
+  }
+
+  .contact-marg{
+    border-left: 6px solid #5ca361;
+    padding-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .bml-complex .right-content1{
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    bottom: -31px;
+  }
+
+
+}
+
+@media (min-width: 1866px){
+  .title{
+    font-size: 34px;
+  }
+
+  .bml-complex{
+    height: 420px;
+  }
+
+  .content-header-contact{
+    height: 310px;
+    position: relative;
+    width: 1360px;
+  }
+
+  .contact-marg{
+    border-left: 7px solid #5ca361;
+    padding-left: 35px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .bml-complex .right-content1{
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    bottom: -31px;
+  }
+}
+
+
+@media (min-width: 2066px){
+  .title{
+    font-size: 37px;
+  }
+
+  .bml-complex{
+    height: 460px;
+  }
+
+  .content-header-contact{
+    height: 340px;
+    position: relative;
+    width: 1480px;
+  }
+
+  .contact-marg{
+    border-left: 7px solid #5ca361;
+    padding-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .bml-complex .right-content1{
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    bottom: -31px;
+  }
+
+}
+
+
+@media (min-width: 2266px){
+  .title{
+    font-size: 40px;
+  }
+
+  .bml-complex{
+    height: 500px;
+  }
+
+  .content-header-contact{
+    height: 370px;
+    position: relative;
+    width: 1600px;
+  }
+
+  .contact-marg{
+    border-left: 8px solid #5ca361;
+    padding-left: 45px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .bml-complex .right-content1{
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    bottom: -31px;
+  }
+
+}
+
+
+@media (min-width: 2466px){
+  .title{
+    font-size: 43px;
+  }
+
+  .bml-complex{
+    height: 540px;
+  }
+
+  .content-header-contact{
+    height: 400px;
+    position: relative;
+    width: 1720px;
+  }
+
+  .contact-marg{
+    border-left: 9px solid #5ca361;
+    padding-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .bml-complex .right-content1{
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    bottom: -31px;
+  }
+
+}
+
+
+@media (min-width: 2560px){
+  .title{
+    font-size: 47px;
+  }
+
+  .bml-complex{
+    height: 580px;
+  }
+
+  .content-header-contact{
+    height: 430px;
+    position: relative;
+    width: 1840px;
+  }
+
+  .contact-marg{
+    border-left: 10px solid #5ca361;
+    padding-left: 55px;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .bml-complex .right-content1{
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    bottom: -31px;
+  }
+}

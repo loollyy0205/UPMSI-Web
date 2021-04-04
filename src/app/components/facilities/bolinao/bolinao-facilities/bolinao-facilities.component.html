@@ -1,0 +1,34 @@
+<div class="onek-wid">
+  <div class="atlas-blackReg title border-green">INFRASTRACTURES AND FACILITIES</div>
+
+  <carousel
+  [margin]="-290"
+  [freeScroll]="true"
+  [transitionTimingFunction]="'ease-in-out'"
+  [transitionDuration]="'1000'"
+  [height]="'100%'"
+  [cellsToShow]="2"
+  [cellsToScroll]="2"
+  [cellWidth]="'100%'"
+  [arrowsOutside]="true"
+  [objectFit]="'cover'"
+  [overflowCellsLimit]="1"
+  [dots]="false"
+  >
+
+  <div class="carousel-cell" *ngFor="let item of faciContent">
+
+    <div class="infrastructure-content">
+      <div class="top">
+        <img [src]="item.image" alt="">
+      </div>
+
+      <div class="bottom">
+        <p style="color: #394e8a;" class="atlas-bold">{{item.title}}</p>
+        <p class="atlas-light bottom-context">{{item.content| slice:0:100}}<span style="cursor: pointer;">...</span></p>
+      </div>
+    </div>
+  </div>
+
+  </carousel>
+</div>

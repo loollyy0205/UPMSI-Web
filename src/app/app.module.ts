@@ -52,6 +52,10 @@ import { FacilitiesDialogComponent } from './components/facilities/facilities-di
 import { HomepageNewsComponent } from './components/home/homepage-news/homepage-news.component';
 import { ProjectContentComponent } from './components/news/research-project/project-content/project-content.component';
 import { LabpageComponent } from './components/research/labpage/labpage.component';
+import { BolinaoHeaderComponent } from './components/facilities/bolinao/bolinao-header/bolinao-header.component';
+import { BolinaoFacilitiesComponent } from './components/facilities/bolinao/bolinao-facilities/bolinao-facilities.component';
+import { BolinaoComplexComponent } from './components/facilities/bolinao/bolinao-complex/bolinao-complex.component';
+import { BolinaoContactComponent } from './components/facilities/bolinao/bolinao-contact/bolinao-contact.component';
 
 @NgModule({
   declarations: [
@@ -95,6 +99,10 @@ import { LabpageComponent } from './components/research/labpage/labpage.componen
     HomepageNewsComponent,
     ProjectContentComponent,
     LabpageComponent,
+    BolinaoHeaderComponent,
+    BolinaoFacilitiesComponent,
+    BolinaoComplexComponent,
+    BolinaoContactComponent,
   ],
   imports: [
     BrowserModule,

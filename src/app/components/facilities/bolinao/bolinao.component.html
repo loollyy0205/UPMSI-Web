@@ -1,16 +1,6 @@
 <app-nav></app-nav>
 <div class="container animate__animated animate__fadeIn animate__delay-1s">
-  <div class="content-header">
-    <img src="../../../../assets/photos/BML-photos/1-banner-photo-highlights-2.jpg">
-    <div class="left-content">
-      <div>
-        <p class="atlas-blackReg title">BOLINAO MARINE LABORATORY</p>
-      </div>
-      <p class="atlas-light" style="line-height: 1.4; margin-top: 10px;">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorem quos assumenda ipsam laborum facilis, eos fugit adipisci molestias quam odit praesentium accusamus impedit rerum nulla reprehenderit et sint deserunt.
-      </p>
-    </div>
-  </div>
+  <app-bolinao-header></app-bolinao-header>
 
   <div>
     <div class="center-box">
@@ -45,107 +35,11 @@
     </div>
 
     <div class="center-box">
-      <!-- <div class="facilities">
-        <div class="faci-content">
-          <div style="height: 146px;">
-            <img src="../../../../assets/photos/r2.JPG">
-          </div>
-          <p class="atlas-bold" style="margin-top: 20px; color: #394e8a; margin-bottom: -5px;">{{faciContent[0].title}}</p>
-
-          <p class="atlas-light" style="line-height: 1.3;">{{faciContent[0].content| slice:0:200}}<span style="cursor: pointer;">...</span></p>
-
-        </div>
-
-        <div class="faci-content">
-          <div style="height: 146px;">
-            <img src="../../../../assets/photos/r1.JPG">
-          </div>
-          <p class="atlas-bold" style="margin-top: 20px; color: #394e8a; margin-bottom: -5px;">{{faciContent[1].title}}</p>
-
-          <p class="atlas-light" style="line-height: 1.3;">{{faciContent[1].content| slice:0:200}}<span style="cursor: pointer;">...</span></p>
-        </div>
-
-        <div class="faci-content">
-          <div style="height: 146px;">
-            <img src="../../../../assets/photos/r2.JPG">
-          </div>
-          <p class="atlas-bold" style="margin-top: 20px; color: #394e8a; margin-bottom: -5px;">{{faciContent[2].title}}</p>
-
-          <p class="atlas-light" style="line-height: 1.3;">{{faciContent[2].content| slice:0:200}}<span style="cursor: pointer;">...</span></p>
-        </div>
-      </div> -->
-      <div class="onek-wid">
-        <div class="atlas-blackReg title border-green">INFRASTRACTURES AND FACILITIES</div>
-
-        <carousel
-        [margin]="-290"
-        [freeScroll]="true"
-        [transitionTimingFunction]="'ease-in-out'"
-        [transitionDuration]="'1000'"
-        [height]="'100%'"
-        [cellsToShow]="2"
-        [cellsToScroll]="2"
-        [cellWidth]="'100%'"
-        [arrowsOutside]="true"
-        [objectFit]="'cover'"
-        [overflowCellsLimit]="1"
-        [dots]="false"
-        >
-
-        <div class="carousel-cell" *ngFor="let item of faciContent">
-
-          <div class="infrastructure-content">
-            <div class="top">
-              <img [src]="item.image" alt="">
-            </div>
-
-            <div class="bottom">
-              <p style="color: #394e8a;" class="atlas-bold">{{item.title}}</p>
-              <p class="atlas-light bottom-context">{{item.content| slice:0:100}}<span style="cursor: pointer;">...</span></p>
-            </div>
-          </div>
-        </div>
-
-        </carousel>
-      </div>
+      <app-bolinao-facilities></app-bolinao-facilities>
     </div>
 
     <div class="center-box">
-      <!-- <div style="width: 1000px;">
-        <div style="display: flex; flex-direction: row; margin-bottom: 10px; margin-top: 20px;">
-          <p class="atlas-bold title" (click)="allPhotos($event, photos1)" style="color: #394e8a;">FACILITIES</p> &nbsp;
-          <p class="atlas-light" style="font-size: 15px; align-self: flex-end; margin-bottom: 3px;">({{photos1.length}} photos)</p>
-        </div>
-        <carousel
-        [margin]="20"
-        [freeScroll]="false"
-        [transitionTimingFunction]="'ease-in-out'"
-        [transitionDuration]="'1000'"
-        [cellsToShow]="3"
-        [cellsToScroll]="1"
-        [cellWidth]="'100%'"
-        [arrowsOutside]="true"
-        [objectFit]="'cover'"
-        [overflowCellsLimit]="1"
-        [dots]="false"
-        >
-          <div class="carousel-cell" *ngFor="let item of photos1">
-            <img [src]="item.image" alt="sample" (click)="openDialog(item.image)" matTooltip="Short info here" matTooltipPosition="below">
-          </div>
-        </carousel>
-      </div> -->
-      <div class="content-header2">
-        <div class="bml-complex">
-          <img src="../../../../assets/photos/BML-photos/6-bml-complex.jpg">
-          <div class="right-content">
-            <div class="bml-border">
-              <p class="atlas-bold title">THE BML COMPLEX</p>
-              <p class="atlas-light top-15">INFRASTRUCTURES AND FACILITIES</p>
-            </div>
-          <p class="atlas-bold learn-more">LEARN MORE ABOUT THE 5-HECTARE COMPLEX</p>
-          </div>
-        </div>
-      </div>
+      <app-bolinao-complex></app-bolinao-complex>
     </div>
 
     <div class="center-box">
@@ -211,32 +105,8 @@
 
 
     <div class="center-box">
-      <div class="content-header-contact">
-        <div class="bml-complex">
-          <img src="../../../../assets/photos/BML-photos/10-contacts.jpg">
-          <div class="right-content1">
-            <p class="atlas-blackReg title">EXPLORE FURTHER</p>
-            <div class="contact-marg">
-              <p class="atlas-bold">CONTACT US</p>
-              <p class="atlas-light">(075) 649 5740</p>
-              <p class="atlas-light">bml@msi.edu.ph</p>
-              <p class="atlas-light">fb/upbolinaomarinelab/</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <app-bolinao-contact></app-bolinao-contact>
     </div>
-    <!-- <div style="display: grid; place-content: center;">
-      <div class="content-header" style="width: 820px; height: 350px; margin-top: 50px;">
-        <img src="../../../../assets/photos/contact-banner.jpg">
-        <div class="left-content">
-          <p class="atlas-bold title">CONTACT DETAILS</p>
-          <p class="atlas-light">(075) 649 5740</p>
-          <p class="atlas-light">bml@msi.edu.ph</p>
-          <p class="atlas-light">fb/upbolinaomarinelab/</p>
-        </div>
-      </div>
-    </div> -->
 
     <div style="display: grid; place-content: center;">
       <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s" (click)="gotoFacilities()">
