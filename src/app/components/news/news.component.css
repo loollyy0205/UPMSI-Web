@@ -121,106 +121,6 @@ img{
   background-size: cover;
 }
 
-
- .news .first-content{
-  margin-top: 40px;
-  height: 150px;
-  display: flex;
-  flex-direction: row;
-  gap: 70px;
-}
-
-.first-content .left-fc1{
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-}
-
-.first-content .left-fc1 .news-left{
-  width: 50%;
-}
-
-
-.left-fc1 .news-right{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-}
-
-.first-content .right-fc1{
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-}
-
-.first-content .right-fc1 .news-left{
-  width: 50%;
-  background-image: url(../../../assets/photos/lab.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.right-fc1 .news-right{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.news .sec-content{
-  margin-top: 50px;
-  height: 150px;
-  display: flex;
-  flex-direction: row;
-  gap:70px;
-}
-
-.sec-content .left-fc1{
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  gap: 30px
-}
-
-.sec-content .left-fc1 .news-left{
-  width: 50%;
-  background-image: url(../../../assets/photos/r3.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.left-fc1 .news-right{
-  height: 100%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px
-}
-
-.sec-content .right-fc1{
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-}
-
-.sec-content .right-fc1 .news-left{
-  width: 50%;
-  background-image: url(../../../assets/photos/r2.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.right-fc1 .news-right{
-  height: 100%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .hr-line{
   margin: 15px 120px 30px 120px;
 }
@@ -229,39 +129,6 @@ img{
 .news-box{
   margin: 0 120px;
 }
-
-.date-headline{
-  display:flex;
-  flex-direction: column;
-  gap:5px;
-}
-
-.headline-text{
-  color: #5da563;
-}
-
-.date-text{
-  color: #94979c;
-  font-size: 10px;
-  line-height: 1.3;
-}
-
-.content-text{
-  color: #4c515a;
-  font-size: 14px;
-  line-height: 1.3;
-}
-
-.read-more{
-  font-size: 16px;
-  margin-right: 20px;
-  text-decoration: underline;
-  cursor: pointer;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
 .read-more2{
   font-size: 14px;
   cursor: pointer;
@@ -368,70 +235,12 @@ img{
     margin-right: 130px;
   }
 
-  .news .first-content{
-    margin-top: 45px;
-    height: 175px;
-    display: flex;
-    flex-direction: row;
-    gap: 75px;
-  }
-
-  .first-content .left-fc1, .first-content .right-fc1, .sec-content .left-fc1, .sec-content .right-fc1{
-    display: flex;
-    flex-direction: row;
-    gap: 35px
-  }
-
-
-  .right-fc1 .news-right{
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-  }
-
-  .news .sec-content{
-    margin-top: 55px;
-    height: 175px;
-    display: flex;
-    flex-direction: row;
-    gap: 75px;
-  }
-
-  .left-fc1 .news-right, .right-fc1 .news-right{
-    display: flex;
-    flex-direction: column;
-    gap: 25px
-  }
-
   .hr-line{
     margin: 20px 130px 35px 130px;
   }
 
   .news-box{
     margin: 0 130px;
-  }
-
-  .date-headline{
-    display:flex;
-    flex-direction: column;
-    gap:7px;
-  }
-
-  .headline-text{
-    font-size: 18px;
-  }
-
-  .date-text{
-    font-size: 12px;
-  }
-
-  .content-text{
-    font-size: 16px;
-  }
-
-  .read-more{
-    font-size: 18px;
-    margin-right: 25px;
   }
 
   .read-more2{
@@ -554,41 +363,6 @@ img{
     margin-right: 140px;
   }
 
-  .news .first-content{
-    margin-top: 50px;
-    height: 200px;
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
-  }
-
-  .first-content .left-fc1, .first-content .right-fc1, .sec-content .left-fc1, .sec-content .right-fc1{
-    display: flex;
-    flex-direction: row;
-    gap: 40px
-  }
-
-
-  .right-fc1 .news-right{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .news .sec-content{
-    margin-top: 60px;
-    height: 200px;
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
-  }
-
-  .left-fc1 .news-right, .right-fc1 .news-right{
-    display: flex;
-    flex-direction: column;
-    gap: 30px
-  }
-
   .hr-line{
     margin: 25px 140px 40px 140px;
   }
@@ -596,30 +370,6 @@ img{
   .news-box{
     margin: 0 140px;
   }
-
-  .date-headline{
-    display:flex;
-    flex-direction: column;
-    gap: 9px;
-  }
-
-  .headline-text{
-    font-size: 20px;
-  }
-
-  .date-text{
-    font-size: 14px;
-  }
-
-  .content-text{
-    font-size: 18px;
-  }
-
-  .read-more{
-    font-size: 20px;
-    margin-right: 30px;
-  }
-
   .read-more2{
     font-size: 18px;
     margin-top: 30px;
@@ -740,70 +490,12 @@ img{
     margin-right: 150px;
   }
 
-  .news .first-content{
-    margin-top: 55px;
-    height: 225px;
-    display: flex;
-    flex-direction: row;
-    gap: 85px;
-  }
-
-  .first-content .left-fc1, .first-content .right-fc1, .sec-content .left-fc1, .sec-content .right-fc1{
-    display: flex;
-    flex-direction: row;
-    gap: 45px
-  }
-
-
-  .right-fc1 .news-right{
-    display: flex;
-    flex-direction: column;
-    gap: 45px;
-  }
-
-  .news .sec-content{
-    margin-top: 65px;
-    height: 225px;
-    display: flex;
-    flex-direction: row;
-    gap: 85px;
-  }
-
-  .left-fc1 .news-right, .right-fc1 .news-right{
-    display: flex;
-    flex-direction: column;
-    gap: 35px
-  }
-
   .hr-line{
     margin: 30px 150px 50px 150px;
   }
 
   .news-box{
     margin: 0 150px;
-  }
-
-  .date-headline{
-    display:flex;
-    flex-direction: column;
-    gap: 11px;
-  }
-
-  .headline-text{
-    font-size: 22px;
-  }
-
-  .date-text{
-    font-size: 16px;
-  }
-
-  .content-text{
-    font-size: 20px;
-  }
-
-  .read-more{
-    font-size: 22px;
-    margin-right: 35px;
   }
 
   .read-more2{
@@ -926,70 +618,12 @@ img{
     margin-right: 160px;
   }
 
-  .news .first-content{
-    margin-top: 60px;
-    height: 250px;
-    display: flex;
-    flex-direction: row;
-    gap: 90px;
-  }
-
-  .first-content .left-fc1, .first-content .right-fc1, .sec-content .left-fc1, .sec-content .right-fc1{
-    display: flex;
-    flex-direction: row;
-    gap: 50px
-  }
-
-
-  .right-fc1 .news-right{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
-
-  .news .sec-content{
-    margin-top: 70px;
-    height: 250px;
-    display: flex;
-    flex-direction: row;
-    gap: 90px;
-  }
-
-  .left-fc1 .news-right, .right-fc1 .news-right{
-    display: flex;
-    flex-direction: column;
-    gap: 40px
-  }
-
   .hr-line{
     margin: 35px 160px 55px 160px;
   }
 
   .news-box{
     margin: 0 160px;
-  }
-
-  .date-headline{
-    display:flex;
-    flex-direction: column;
-    gap: 13px;
-  }
-
-  .headline-text{
-    font-size: 24px;
-  }
-
-  .date-text{
-    font-size: 18px;
-  }
-
-  .content-text{
-    font-size: 22px;
-  }
-
-  .read-more{
-    font-size: 24px;
-    margin-right: 40px;
   }
 
   .read-more2{
@@ -1112,41 +746,6 @@ img{
     margin-right: 170px;
   }
 
-  .news .first-content{
-    margin-top: 65px;
-    height: 275px;
-    display: flex;
-    flex-direction: row;
-    gap: 95px;
-  }
-
-  .first-content .left-fc1, .first-content .right-fc1, .sec-content .left-fc1, .sec-content .right-fc1{
-    display: flex;
-    flex-direction: row;
-    gap: 55px
-  }
-
-
-  .right-fc1 .news-right{
-    display: flex;
-    flex-direction: column;
-    gap: 55px;
-  }
-
-  .news .sec-content{
-    margin-top: 75px;
-    height: 275px;
-    display: flex;
-    flex-direction: row;
-    gap: 95px;
-  }
-
-  .left-fc1 .news-right, .right-fc1 .news-right{
-    display: flex;
-    flex-direction: column;
-    gap: 45px
-  }
-
   .hr-line{
     margin: 40px 170px 60px 170px;
   }
@@ -1154,30 +753,6 @@ img{
   .news-box{
     margin: 0 170px;
   }
-
-  .date-headline{
-    display:flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .headline-text{
-    font-size: 26px;
-  }
-
-  .date-text{
-    font-size: 20px;
-  }
-
-  .content-text{
-    font-size: 24px;
-  }
-
-  .read-more{
-    font-size: 26px;
-    margin-right: 45px;
-  }
-
   .read-more2{
     font-size: 24px;
     margin-top: 45px;
@@ -1298,70 +873,12 @@ img{
     margin-right: 180px;
   }
 
-  .news .first-content{
-    margin-top: 70px;
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-  }
-
-  .first-content .left-fc1, .first-content .right-fc1, .sec-content .left-fc1, .sec-content .right-fc1{
-    display: flex;
-    flex-direction: row;
-    gap: 60px
-  }
-
-
-  .right-fc1 .news-right{
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-  }
-
-  .news .sec-content{
-    margin-top: 80px;
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-  }
-
-  .left-fc1 .news-right, .right-fc1 .news-right{
-    display: flex;
-    flex-direction: column;
-    gap: 50px
-  }
-
   .hr-line{
     margin: 45px 180px 65px 180px;
   }
 
   .news-box{
     margin: 0 180px;
-  }
-
-  .date-headline{
-    display:flex;
-    flex-direction: column;
-    gap: 17px;
-  }
-
-  .headline-text{
-    font-size: 28px;
-  }
-
-  .date-text{
-    font-size: 22px;
-  }
-
-  .content-text{
-    font-size: 26px;
-  }
-
-  .read-more{
-    font-size: 28px;
-    margin-right: 50px;
   }
 
   .read-more2{
@@ -1488,70 +1005,12 @@ img{
     margin-right: 190px;
   }
 
-  .news .first-content{
-    margin-top: 75px;
-    height: 325px;
-    display: flex;
-    flex-direction: row;
-    gap: 105px;
-  }
-
-  .first-content .left-fc1, .first-content .right-fc1, .sec-content .left-fc1, .sec-content .right-fc1{
-    display: flex;
-    flex-direction: row;
-    gap: 65px
-  }
-
-
-  .right-fc1 .news-right{
-    display: flex;
-    flex-direction: column;
-    gap: 65px;
-  }
-
-  .news .sec-content{
-    margin-top: 85px;
-    height: 325px;
-    display: flex;
-    flex-direction: row;
-    gap: 105px;
-  }
-
-  .left-fc1 .news-right, .right-fc1 .news-right{
-    display: flex;
-    flex-direction: column;
-    gap: 55px
-  }
-
   .hr-line{
     margin: 50px 190px 70px 190px;
   }
 
   .news-box{
     margin: 0 190px;
-  }
-
-  .date-headline{
-    display:flex;
-    flex-direction: column;
-    gap: 19px;
-  }
-
-  .headline-text{
-    font-size: 30px;
-  }
-
-  .date-text{
-    font-size: 24px;
-  }
-
-  .content-text{
-    font-size: 28px;
-  }
-
-  .read-more{
-    font-size: 30px;
-    margin-right: 55px;
   }
 
   .read-more2{

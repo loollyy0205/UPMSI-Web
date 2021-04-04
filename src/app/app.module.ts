@@ -56,6 +56,7 @@ import { BolinaoHeaderComponent } from './components/facilities/bolinao/bolinao-
 import { BolinaoFacilitiesComponent } from './components/facilities/bolinao/bolinao-facilities/bolinao-facilities.component';
 import { BolinaoComplexComponent } from './components/facilities/bolinao/bolinao-complex/bolinao-complex.component';
 import { BolinaoContactComponent } from './components/facilities/bolinao/bolinao-contact/bolinao-contact.component';
+import { NewsBranchComponent } from './components/news/news-branch/news-branch.component';
 
 @NgModule({
   declarations: [
@@ -103,6 +104,7 @@ import { BolinaoContactComponent } from './components/facilities/bolinao/bolinao
     BolinaoFacilitiesComponent,
     BolinaoComplexComponent,
     BolinaoContactComponent,
+    NewsBranchComponent,
   ],
   imports: [
     BrowserModule,
