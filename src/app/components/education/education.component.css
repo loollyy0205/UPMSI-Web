@@ -8,7 +8,7 @@
   height: 500px;
   display: flex;
   flex-direction: row;
-  margin: 50px 0 0 120px;
+  margin: 50px 120px 0 120px;
 }
 
 .content .left-content{
@@ -131,7 +131,7 @@
 
   .container .content{
     height: 580px;
-    margin: 60px 0 0 130px;
+    margin: 60px 130px 0 130px;
   }
 
   .content .left-content{
@@ -201,7 +201,7 @@
 
   .container .content{
     height: 660px;
-    margin: 70px 0 0 140px;
+    margin: 70px 140px 0 140px;
   }
 
   .content .left-content{
@@ -266,7 +266,7 @@
 
   .container .content{
     height: 700px;
-    margin: 80px 0 0 150px;
+    margin: 80px 150px 0 150px;
   }
 
   .content .left-content{
@@ -331,7 +331,7 @@
 
   .container .content{
     height: 775px;
-    margin: 90px 0 0 160px;
+    margin: 90px 160px 0 160px;
   }
 
   .content .left-content{
@@ -396,7 +396,7 @@
 
   .container .content{
     height: 850px;
-    margin: 100px 0 0 170px;
+    margin: 100px 170px 0 170px;
   }
 
   .content .left-content{
@@ -462,7 +462,7 @@
 
   .container .content{
     height: 925px;
-    margin: 110px 0 0 180px;
+    margin: 110px 180px 0 180px;
   }
 
   .content .left-content{
@@ -528,7 +528,7 @@
 
   .container .content{
     height: 1000px;
-    margin: 120px 0 0 190px;
+    margin: 120px 190px 0 190px;
   }
 
   .content .left-content{

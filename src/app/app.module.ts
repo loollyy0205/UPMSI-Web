@@ -6,7 +6,6 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireModule } from '@angular/fire';
 import { HttpClientModule } from '@angular/common/http';
-import { StickyNavModule } from 'ng2-sticky-nav';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -120,7 +119,6 @@ import { AnnouncementBranchComponent } from './components/news/announcement-bran
     HttpClientModule,
     AngularFireStorageModule,
     AngularFireModule,
-    StickyNavModule,
     AngularFireModule.initializeApp({
       apiKey: "AIzaSyC0vgMf-vXSrsIVRNUE7STpC2zcENy125s",
       authDomain: "upmsi-d03af.firebaseapp.com",
