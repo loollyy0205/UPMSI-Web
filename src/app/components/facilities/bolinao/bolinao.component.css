@@ -20,7 +20,6 @@ img{
   line-height: 1.5;
   display: flex;
   flex-direction: row;
-  gap: 30px;
 }
 
 .highlights-content{
@@ -59,6 +58,7 @@ img{
 
 .right{
   width: 50%;
+  margin-left: 30px;
 }
 
 
@@ -78,11 +78,11 @@ img{
   display: flex;
   justify-content: flex-end;
   cursor: pointer;
-  gap: 10px;
 }
 
 .arrow{
   font-size: 30px;
+  margin-left: 10px;
 }
 
 
@@ -181,9 +181,10 @@ img{
   .box-content{
     height: 350px;
     width: 1120px;
-    display: flex;
-    flex-direction: row;
-    gap: 35px;
+  }
+
+  .right{
+    margin-left: 35px;
   }
 
   .date{
@@ -248,9 +249,6 @@ img{
   .more-vacancies{
     margin-top: 160px;
     width: 1120px;
-    display: flex;
-    justify-content: flex-end;
-    gap: 15px;
   }
 
   .arrow{
@@ -289,9 +287,10 @@ img{
   .box-content{
     height: 400px;
     width: 1240px;
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
+  }
+
+  .right{
+    margin-left: 40px;
   }
 
   .date{
@@ -356,9 +355,6 @@ img{
   .more-vacancies{
     margin-top: 170px;
     width: 1240px;
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
   }
 
   .arrow{
@@ -396,9 +392,10 @@ img{
   .box-content{
     height: 450px;
     width: 1360px;
-    display: flex;
-    flex-direction: row;
-    gap: 45px;
+  }
+
+  .right{
+    margin-left: 45px;
   }
 
   .date{
@@ -462,9 +459,6 @@ img{
   .more-vacancies{
     margin-top: 180px;
     width: 1360px;
-    display: flex;
-    justify-content: flex-end;
-    gap: 25px;
   }
 
   .arrow{
@@ -503,9 +497,10 @@ img{
   .box-content{
     height: 500px;
     width: 1480px;
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
+  }
+
+  .right{
+    margin-left: 50px;
   }
 
   .date{
@@ -569,9 +564,6 @@ img{
   .more-vacancies{
     margin-top: 190px;
     width: 1480px;
-    display: flex;
-    justify-content: flex-end;
-    gap: 30px;
   }
 
   .arrow{
@@ -610,9 +602,10 @@ img{
   .box-content{
     height: 550px;
     width: 1600px;
-    display: flex;
-    flex-direction: row;
-    gap: 55px;
+  }
+
+  .right{
+    margin-left: 55px;
   }
 
   .date{
@@ -676,9 +669,6 @@ img{
   .more-vacancies{
     margin-top: 200px;
     width: 1600px;
-    display: flex;
-    justify-content: flex-end;
-    gap: 35px;
   }
 
   .arrow{
@@ -717,9 +707,10 @@ img{
   .box-content{
     height: 600px;
     width: 1720px;
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
+  }
+
+  .right{
+    margin-left: 60px;
   }
 
   .date{
@@ -783,9 +774,6 @@ img{
   .more-vacancies{
     margin-top: 210px;
     width: 1720px;
-    display: flex;
-    justify-content: flex-end;
-    gap: 40px;
   }
 
   .arrow{
@@ -824,9 +812,10 @@ img{
   .box-content{
     height: 650px;
     width: 1840px;
-    display: flex;
-    flex-direction: row;
-    gap: 65px;
+  }
+
+  .right{
+    margin-left: 65px;
   }
 
   .date{
@@ -890,9 +879,6 @@ img{
   .more-vacancies{
     margin-top: 220px;
     width: 1840px;
-    display: flex;
-    justify-content: flex-end;
-    gap: 45px;
   }
 
   .arrow{
