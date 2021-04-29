@@ -120,7 +120,6 @@
 .slider .img-container .second-p{
   font-size: 18px;
   line-height: 1.5;
-  text-shadow: 2px 2px 3px black;
 }
 
 .slider .img-container .img-content{
@@ -182,12 +181,14 @@
 .extension-container{
   display: flex;
   flex-flow: row;
+  margin-top: -5%;
+  margin-bottom: -5%;
 }
 
 .extension-container .extension-left{
   height: 100%;
   width: 45%;
-  background-image: url(../../../assets/photos/extension.jpg);
+  background-image: url(../../../assets/photos/home/04-extension.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -199,37 +200,6 @@
   display: flex;
   flex-flow: column;
   justify-content: center;
-}
-
-
-/* Resources CSS Section */
-.resources-container{
-  margin-top: 50px;
-  display: flex;
-  flex-flow: row;
-}
-
-.resources-container .resources-left{
-  height: 100%;
-  width: 55%;
-  background-color: white;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-
-}
-
-.resources-container .resources-right{
-  height: 100%;
-  width: 45%;
-  background-image: url(../../../assets/photos/resources.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.resources-content{
-  padding: 80px;
-  line-height: 1.5;
 }
 
 
@@ -252,8 +222,41 @@
 }
 
 
+/* Resources CSS Section */
+.resources-container{
+  margin-top: 120px;
+  display: flex;
+  flex-flow: row;
+}
+
+.resources-container .resources-left{
+  height: 100%;
+  width: 55%;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
+}
+
+.resources-container .resources-right{
+  height: 100%;
+  width: 45%;
+  background-image: url(../../../assets/photos/home/4.2-resources.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.resources-content{
+  padding: 80px;
+  line-height: 1.5;
+}
+
+
+
+/*old codes*/
 /* UPMSI Office CSS Section */
-.msiOffice-container{
+/*.msiOffice-container{
   margin-top: 50px;
   display: flex;
   flex-flow: row;
@@ -267,13 +270,42 @@
   background-size: cover;
 }
 
-.msiOffice-right{
+.msiOf0fice-right{
   height: 100%;
   width: 55%;
   background-color: #5da563;
   display: flex;
   flex-flow: column;
   justify-content: center;
+} */
+
+
+.msiOffice-container{
+  display: flex;
+  flex-flow: row;
+  margin-top: 70px;
+}
+
+.msiOffice-container .msiOffice-left{
+  height: 100%;
+  width: 45%;
+  background-image: url(../../../assets/photos/home/4.3-office.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.msiOffice-container .msiOffice-right{
+  height: 100%;
+  width: 55%;
+  background-color: #5da563;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.msiOffice-content{
+  padding: 80px;
+  line-height: 1.5;
 }
 
 
@@ -475,7 +507,7 @@
   }
 
   .resources-container{
-    margin-top: 60px;
+    margin-top: 140px;
   }
 
   .res-banner{
@@ -553,7 +585,7 @@
   }
 
   .resources-container{
-    margin-top: 70px;
+    margin-top: 150px;
   }
 
   .res-banner{
@@ -631,7 +663,7 @@
   }
 
   .resources-container{
-    margin-top: 80px;
+    margin-top: 160px;
   }
 
   .res-banner{
@@ -709,7 +741,7 @@
   }
 
   .resources-container{
-    margin-top: 90px;
+    margin-top: 170px;
   }
 
   .res-banner{
@@ -787,7 +819,7 @@
   }
 
   .resources-container{
-    margin-top: 100px;
+    margin-top: 180px;
   }
 
   .res-banner{
@@ -865,7 +897,7 @@
   }
 
   .resources-container{
-    margin-top: 110px;
+    margin-top: 190px;
   }
 
   .res-banner{
