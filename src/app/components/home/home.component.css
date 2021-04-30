@@ -5,7 +5,6 @@
 }
 
 
-
 /* Learn more Button */
 #learn-more{
   width: 250px;
@@ -43,21 +42,21 @@
 
 .educ-container .educ-content{
   padding-left: 120px;
-  width: 600px;
+  width: 45%;
+  /* width: 600px; */
   line-height: 1.5;
 }
 
 
 .banner-margin{
-  margin: 120px;
+  margin: 0 9%;
 }
 
 /* Extension CSS Section */
 .extension-container{
   display: flex;
   flex-flow: row;
-  margin-top: -5%;
-  margin-bottom: -5%;
+  margin-top: 5%;
 }
 
 .extension-container .extension-left{
@@ -99,7 +98,7 @@
 
 /* Resources CSS Section */
 .resources-container{
-  margin-top: 120px;
+  margin-top: 5%;
   display: flex;
   flex-flow: row;
 }
@@ -111,7 +110,6 @@
   display: flex;
   flex-flow: column;
   justify-content: center;
-
 }
 
 .resources-container .resources-right{
@@ -127,38 +125,11 @@
   line-height: 1.5;
 }
 
-
-
-/*old codes*/
-/* UPMSI Office CSS Section */
-/*.msiOffice-container{
-  margin-top: 50px;
-  display: flex;
-  flex-flow: row;
-}
-
-.msiOffice-left{
-  height: 100%;
-  width: 45%;
-  background-image: url(../../../assets/photos/msiOffice.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.msiOf0fice-right{
-  height: 100%;
-  width: 55%;
-  background-color: #5da563;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-} */
-
-
 .msiOffice-container{
   display: flex;
   flex-flow: row;
-  margin-top: 70px;
+  margin-top: 5%;
+  margin-bottom: 9%;
 }
 
 .msiOffice-container .msiOffice-left{
@@ -183,7 +154,6 @@
   line-height: 1.5;
 }
 
-
 .res-banner{
   height: 500px;
 }
@@ -192,599 +162,116 @@
   font-size: 16px;
 }
 
+@media (min-width: 1600px) {
 
-/* Contact CSS Section */
-.contact-container{
-  height: 400px;
-  background-color: #384e8a;
-  display: flex;
-  flex-flow: row;
-  padding-left: 100px;
-  color: white;
-  padding-top: 60px;
-}
-
-.contact-container .first-content{
-  width: 25%;
-  display: flex;
-  flex-flow: column;
-  gap: 30px;
-}
-
-.first-content p{
-  cursor: pointer;
-}
-
-.first-content p:hover{
-  color: rgb(255,255,255,.8);
-}
-.contact-container .second-content{
-  width: 25%;
-  display: flex;
-  flex-flow: column;
-  gap: 30px;
-}
-
-.second-content p{
-  cursor: pointer;
-}
-
-.second-content p:hover{
-  color: rgb(255,255,255,.8);
-}
-.contact-container .third-content{
-  width: 50%;
-  display: flex;
-  flex-flow: column;
-  gap: 30px;
-  line-height: 1.5;
-}
-
-
-
-@media (min-width: 1466px){
-  .container{
-    margin-top: 25px;
+  /* Learn more Button */
+  #learn-more{
+    width: 293px;
+    font-size: 19px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 47px;
+    padding-right: 47px;
   }
 
-  .container .slider{
-    height: 770px;
+
+  /* Education CSS Section */
+  .educ-container{
+    height: 703px;
   }
 
-  .container .slider .sliderchild{
-    height: 770px;
+  .educ-title{
+    font-size: 47px;
   }
 
-  .imagecon{
-    height: 770px;
+
+  .educ-container .educ-content{
+    padding-left: 141px;
+    font-size: 19px;
   }
 
-  .capital-words{
+  /* Research CSS Section */
+  .research-container{
+    height: 703px;
+    font-size: 19px;
+  }
+
+  .research-container .research-content{
+    padding-top: 117px;
+    padding-left: 141px;
+  }
+
+  .resources-content{
+    padding: 93px;
+  }
+
+
+  .msiOffice-content{
+    padding: 93px;
+  }
+
+  .res-banner{
+    height: 586px;
+  }
+
+  .res-banner-content{
+    font-size: 19px;
+  }
+}
+
+
+@media (min-width: 1920px) {
+  /* Learn more Button */
+  #learn-more{
+    width: 352px;
+    font-size: 23px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+
+
+  /* Education CSS Section */
+  .educ-container{
+    height: 843px;
+  }
+
+  .educ-title{
     font-size: 56px;
   }
 
-  .slider .img-container .second-p{
-    font-size: 20px;
-  }
-
-  #learn-more{
-    width: 280px;
-    font-size: 18px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 45px;
-    padding-right: 45px;
-  }
-
-  .slider .img-container{
-    width: 750px;
-    margin-left: 130px;
-  }
-
-  /* education */
-  .educ-container{
-    height: 670px;
-  }
-
-  .educ-title{
-    font-size: 45px;
-  }
-
-  .educ-p{
-    font-size: 18px;
-  }
 
   .educ-container .educ-content{
-    padding-left: 130px;
-    width: 700px;
+    padding-left: 169px;
+    font-size: 23px;
   }
 
-  .banner-margin{
-    margin: 130px;
+  /* Research CSS Section */
+  .research-container{
+    height: 843px;
+    font-size: 23px;
   }
 
-  .resources-container{
-    margin-top: 130px;
-  }
-
-  .res-banner{
-    height: 580px;
-  }
-
-  .res-banner-content{
-    font-size: 18px;
+  .research-container .research-content{
+    padding-top: 140px;
+    padding-left: 169px;
   }
 
   .resources-content{
-    padding: 90px;
-  }
-}
-
-@media (min-width: 1666px){
-  .container{
-    margin-top: 30px;
+    padding: 112px;
   }
 
-  .container .slider{
-    height: 850px;
-  }
 
-  .container .slider .sliderchild{
-    height: 850px;
-  }
-
-  .imagecon{
-    height: 850px;
-  }
-
-  .capital-words{
-    font-size: 62px;
-  }
-
-  .slider .img-container .second-p{
-    font-size: 22px;
-  }
-
-  #learn-more{
-    width: 310px;
-    font-size: 20px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 55px;
-    padding-right: 55px;
-  }
-
-  .slider .img-container{
-    width: 800px;
-    margin-left: 140px;
-  }
-
-  /* education */
-  .educ-container{
-    height: 750px;
-  }
-
-  .educ-title{
-    font-size: 50px;
-  }
-
-  .educ-p{
-    font-size: 20px;
-  }
-
-  .educ-container .educ-content{
-    padding-left: 140px;
-    width: 800px;
-  }
-
-  .banner-margin{
-    margin: 140px;
-  }
-
-  .resources-container{
-    margin-top: 140px;
+  .msiOffice-content{
+    padding: 112px;
   }
 
   .res-banner{
-    height: 690px;
+    height: 703px;
   }
 
   .res-banner-content{
-    font-size: 20px;
+    font-size: 23px;
   }
-
-  .resources-content{
-    padding: 100px;
-  }
-}
-
-@media (min-width: 1866px){
-  .container{
-    margin-top: 35px;
-  }
-
-  .container .slider{
-    height: 1000px;
-  }
-
-  .container .slider .sliderchild{
-    height: 1000px;
-  }
-
-  .imagecon{
-    height: 1000px;
-  }
-
-  .capital-words{
-    font-size: 68px;
-  }
-
-  .slider .img-container .second-p{
-    font-size: 24px;
-  }
-
-  #learn-more{
-    width: 340px;
-    font-size: 22px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 65px;
-    padding-right: 65px;
-  }
-
-  .slider .img-container{
-    width: 850px;
-    margin-left: 150px;
-  }
-
-   /* education */
-   .educ-container{
-    height: 800px;
-  }
-
-  .educ-title{
-    font-size: 55px;
-  }
-
-  .educ-p{
-    font-size: 22px;
-  }
-
-  .educ-container .educ-content{
-    padding-left: 150px;
-    width: 850px;
-  }
-
-  .banner-margin{
-    margin: 150px;
-  }
-
-  .resources-container{
-    margin-top: 150px;
-  }
-
-  .res-banner{
-    height: 700px;
-  }
-
-  .res-banner-content{
-    font-size: 22px;
-  }
-
-  .resources-content{
-    padding: 110px;
-  }
-}
-
-@media (min-width: 2066px){
-  .container{
-    margin-top: 40px;
-  }
-
-  .container .slider{
-    height: 1100px;
-  }
-
-  .container .slider .sliderchild{
-    height: 1100px;
-  }
-
-  .imagecon{
-    height: 1100px;
-  }
-
-  .capital-words{
-    font-size: 76px;
-  }
-
-  .slider .img-container .second-p{
-    font-size: 26px;
-  }
-
-  #learn-more{
-    width: 370px;
-    font-size: 24px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 75px;
-    padding-right: 75px;
-  }
-
-  .slider .img-container{
-    width: 900px;
-    margin-left: 160px;
-  }
-
-  /* education */
-  .educ-container{
-    height: 900px;
-  }
-
-  .educ-title{
-    font-size: 60px;
-  }
-
-  .educ-p{
-    font-size: 24px;
-  }
-
-  .educ-container .educ-content{
-    padding-left: 160px;
-    width: 900px;
-  }
-
-  .banner-margin{
-    margin: 160px;
-  }
-
-  .resources-container{
-    margin-top: 160px;
-  }
-
-  .res-banner{
-    height: 775px;
-  }
-
-  .res-banner-content{
-    font-size: 24px;
-  }
-
-  .resources-content{
-    padding: 120px;
-  }
-}
-
-
-@media (min-width: 2266px){
-  .container{
-    margin-top: 45px;
-  }
-  .container .slider{
-    height: 1150px;
-  }
-
-  .container .slider .sliderchild{
-    height: 1150px;
-  }
-
-  .imagecon{
-    height: 1150px;
-  }
-
-  .capital-words{
-    font-size: 82px;
-  }
-
-  .slider .img-container .second-p{
-    font-size: 28px;
-  }
-
-  #learn-more{
-    width: 400px;
-    font-size: 26px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 85px;
-    padding-right: 85px;
-  }
-
-  .slider .img-container{
-    width: 950px;
-    margin-left: 170px;
-  }
-
-  /* education */
-  .educ-container{
-    height: 1000px;
-  }
-
-  .educ-title{
-    font-size: 65px;
-  }
-
-  .educ-p{
-    font-size: 26px;
-  }
-
-  .educ-container .educ-content{
-    padding-left: 170px;
-    width: 1000px;
-  }
-
-  .banner-margin{
-    margin: 170px;
-  }
-
-  .resources-container{
-    margin-top: 170px;
-  }
-
-  .res-banner{
-    height: 850px;
-  }
-
-  .res-banner-content{
-    font-size: 26px;
-  }
-
-  .resources-content{
-    padding: 130px;
-  }
-}
-
-@media (min-width: 2466px){
-  .container{
-    margin-top: 50px;
-  }
-
-  .container .slider{
-    height: 1200px;
-  }
-
-  .container .slider .sliderchild{
-    height: 1200px;
-  }
-
-  .imagecon{
-    height: 1200px;
-  }
-
-  .capital-words{
-    font-size: 82px;
-  }
-
-  .slider .img-container .second-p{
-    font-size: 28px;
-  }
-
-  #learn-more{
-    width: 430px;
-    font-size: 28px;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    padding-left: 95px;
-    padding-right: 95px;
-  }
-
-  .slider .img-container{
-    width: 1000px;
-    margin-left: 180px;
-  }
-
-  /* education */
-  .educ-container{
-    height: 1100px;
-  }
-
-  .educ-title{
-    font-size: 70px;
-  }
-
-  .educ-p{
-    font-size: 28px;
-  }
-
-  .educ-container .educ-content{
-    padding-left: 180px;
-    width: 1100px;
-  }
-
-  .banner-margin{
-    margin: 180px;
-  }
-
-  .resources-container{
-    margin-top: 180px;
-  }
-
-  .res-banner{
-    height: 925px;
-  }
-
-  .res-banner-content{
-    font-size: 28px;
-  }
-
-  .resources-content{
-    padding: 140px;
-  }
-}
-
-@media (min-width: 2560px){
-  .container{
-    margin-top: 55px;
-  }
-
-  .container .slider{
-    height: 1350px;
-  }
-
-  .container .slider .sliderchild{
-    height: 1350px;
-  }
-
-  .imagecon{
-    height: 1350px;
-  }
-
-  .capital-words{
-    font-size: 86px;
-  }
-
-  .slider .img-container .second-p{
-    font-size: 30px;
-  }
-
-  #learn-more{
-    width: 430px;
-    font-size: 30px;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    padding-left: 105px;
-    padding-right: 105px;
-  }
-
-  .slider .img-container{
-    width: 1200px;
-    margin-left: 190px;
-  }
-
-  /* education */
-  .educ-container{
-    height: 1200px;
-  }
-
-  .educ-title{
-    font-size: 75px;
-  }
-
-  .educ-p{
-    font-size: 30px;
-  }
-
-  .educ-container .educ-content{
-    padding-left: 190px;
-    width: 1100px;
-  }
-
-  .banner-margin{
-    margin: 190px;
-  }
-
-  .resources-container{
-    margin-top: 190px;
-  }
-
-  .res-banner{
-    height: 1000px;
-  }
-
-  .res-banner-content{
-    font-size: 30px;
-  }
-
-  .resources-content{
-    padding: 150px;
-  }
-
 }

@@ -73,11 +73,41 @@
 
   .news-container .news-content{
     margin-top: 30px;
-    gap: 20px;
   }
 
   .news-content #news1{
     font-size: 20px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .news-container{
+    margin: 59px 141px 94px 141px;
+  }
+
+  .news-container img{
+    height: 234px;
+  }
+
+  .title{
+    font-size: 47px;
+  }
+
+  .content-title{
+    padding-top: 12px;
+  }
+
+  .title-content{
+    font-size: 16px;
+    margin-top: 9px;
+  }
+
+  .news-container .news-content{
+    margin-top: 35px;
+  }
+
+  .news-content #news1{
+    font-size: 23px;
   }
 }
 

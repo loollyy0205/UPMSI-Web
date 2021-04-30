@@ -16,7 +16,7 @@
 .container .slider .sliderchild{
   height: 982px;
   width: 500%;
-  animation: slider infinite 30s 3s;
+  animation: slider infinite 30s 7s;
 }
 
 .imagecon{
@@ -97,7 +97,7 @@
 
 .slider .img-container{
   height: 100%;
-  margin-left: 99px;
+  margin-left: 168px;
   position: absolute;
   z-index: 1;
   color: white;
@@ -110,8 +110,22 @@
 
 .slider .img-container2{
   height: 100%;
-  margin-left: 99px;
+  margin-left: 168px;
   margin-top: 80px;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.slider .img-container3{
+  height: 100%;
+  margin-left: 168px;
+  margin-top: 90px;
   top: 0;
   position: absolute;
   z-index: 1;
@@ -125,12 +139,14 @@
 .capital-words{
   font-size: 64px;
   width: 1317px;
-  margin: 10px 0;
+  margin-bottom: 20px;
 }
 
-.top-title {
-  font-size: 38px;
+.sub-title {
+  font-size: 30px;
   width: 813px;
+  font-family: 'Atlas Grotesk LC Web Reg Italic';
+  margin-bottom: 25px;
 }
 
 .second-p{
@@ -149,19 +165,20 @@
 
 
 /* Learn more Button */
-/* #learn-more{
-  width: 250px;
-  font-size: 16px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 40px;
-  padding-right: 40px;
+#learn-more{
+  width: 351px;
+  font-size: 22px;
+  margin-top: 42px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 56px;
+  padding-right: 56px;
   cursor: pointer;
   border: none;
   outline: none;
   background-color: #5da563;
   color: white;
-} */
+}
 
 
 @media (min-width: 1366px) {
@@ -182,31 +199,109 @@
   }
 
   .slider .img-container{
-    margin-left: 70px;
+    margin-left: 120px;
     width: 498px;
   }
 
   .slider .img-container2{
-    margin-left: 99px;
+    margin-left: 120px;
     margin-top: 57px;
     width: 498px;
   }
 
+  .slider .img-container3{
+    margin-left: 120px;
+    margin-top: 64px;
+    width: 700px;
+  }
 
   .capital-words{
     font-size: 45px;
     width: 937px;
-    margin: 7px 0;
+    margin-bottom: 14px;
   }
 
-  .top-title {
+  .sub-title {
     font-size: 27px;
     width: 578px;
+    margin-bottom: 21px;
   }
 
   .second-p{
     font-size: 18px;
     width: 891px;
+  }
+
+  #learn-more{
+    width: 250px;
+    margin-top: 25px;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container{
+    margin-top: 16px;
+  }
+
+  .container .slider{
+    height: 820px;
+  }
+
+  .container .slider .sliderchild{
+    height: 820px;
+  }
+
+  .imagecon{
+    height: 820px;
+  }
+
+  .slider .img-container{
+    margin-left: 141px;
+    width: 583px;
+  }
+
+  .slider .img-container2{
+    margin-left: 141px;
+    margin-top: 67px;
+    width: 583px;
+  }
+
+  .slider .img-container3{
+    margin-left: 141px;
+    margin-top: 75px;
+    width: 820px;
+  }
+
+  .capital-words{
+    font-size: 53px;
+    width: 1098px;
+    margin-bottom: 16px;
+  }
+
+  .sub-title {
+    font-size: 32px;
+    width: 677px;
+    margin-bottom: 25px;
+  }
+
+  .second-p{
+    font-size: 21px;
+    width: 1044px;
+  }
+
+  #learn-more{
+    width: 293px;
+    margin-top: 29px;
+    font-size: 19px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 47px;
+    padding-right: 47px;
   }
 }
 
@@ -228,13 +323,19 @@
   }
 
   .slider .img-container{
-    margin-left: 99px;
+    margin-left: 168px;
     width: 700px;
   }
 
   .slider .img-container2{
-    margin-left: 99px;
-    margin-top: 80px;
+    margin-left: 168px;
+    margin-top: 130px;
+    width: 700px;
+  }
+
+  .slider .img-container3{
+    margin-left: 168px;
+    margin-top: 90px;
     width: 700px;
   }
 
@@ -242,16 +343,27 @@
   .capital-words{
     font-size: 64px;
     width: 1317px;
-    margin: 10px 0;
+    margin-bottom: 20px;
   }
 
-  .top-title {
-    font-size: 38px;
+  .sub-title {
+    font-size: 35px;
     width: 813px;
+    margin-bottom: 30px;
   }
 
   .second-p{
     font-size: 25px;
     width: 1253px;
+  }
+
+  #learn-more{
+    width: 351px;
+    font-size: 22px;
+    margin-top: 42px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 56px;
+    padding-right: 56px;
   }
 }
