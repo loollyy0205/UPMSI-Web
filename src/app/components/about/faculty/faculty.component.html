@@ -1,16 +1,13 @@
 <app-nav></app-nav>
 <div class="container animate__animated animate__fadeIn animate__delay-1s">
   <div class="content-header">
-    <img src="../../../../assets/photos/FacultyBanner.jpg">
+    <img src="../../../../assets/photos/about/faculty-banner.png">
     <div class="left-content">
-      <p class="atlas-blackReg title">MSI FACULTY</p>
-      <p class="atlas-light banner-content" style="line-height: 1.2;">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit est laborum aliquam quo natus porro
-         culpa quod aut dolores fugit nostrum libero inventore accusamus quos assumenda nulla distinctio,
-         quasi cum ducimus esse amet id tempora eveniet.
+      <p class="atlas-blackReg title">MSI LIBRARY</p>
+      <p class="atlas-light banner-content" style="line-height: 1.3;">
+        The UP Marine Science Institute (UPMSI) is one of seven academic institutes of the University of the Philippines’ College of Science. It is housed in its own building complex within the UP Diliman Campus in Quezon City. UPMSI was originally established as the Marine Sciences Center (MSC) with the approval of its charter by the Board of Regents on 28 March 1974.
       </p>
     </div>
-
   </div>
   <mat-accordion>
     <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState = true"
@@ -416,8 +413,12 @@
     </mat-expansion-panel>
   </mat-accordion>
 
-  <p class="atlas-bold where-next">WHERE NEXT?</p>
-  <p class="atlas-light next-nav" (click)="gotoNews()">News</p>
+  <div class="where-next " (click)="gotoNews()">
+    <span style="margin-top: 6px;">
+      <p class="atlas-light" style="text-decoration: underline;">WHERE NEXT?</p>
+    </span>
+    <mat-icon class="arrow">arrow_forward</mat-icon>
+  </div>
 </div>
 
 <div style="margin-top: 70px;">

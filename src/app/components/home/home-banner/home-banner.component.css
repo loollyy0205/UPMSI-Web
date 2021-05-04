@@ -16,7 +16,7 @@
 .container .slider .sliderchild{
   height: 982px;
   width: 500%;
-  animation: slider infinite 30s 3s;
+  animation: slider infinite 30s 7s;
 }
 
 .imagecon{

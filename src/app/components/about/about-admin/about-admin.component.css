@@ -1,0 +1,166 @@
+.footer{
+  margin-top: 90px;
+}
+
+.container{
+  margin: 0 9%;
+  margin-top: 20px;
+}
+
+.content-header{
+  height: 297px;
+  position: relative;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner-content{
+  font-size: 18px;
+  margin-top: 13px;
+  width: 684px;
+}
+
+.left-content{
+  position: absolute;
+  z-index: 1;
+  bottom: 8px;
+  width: 500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+  color: white;
+}
+
+.title{
+  font-size: 29px;
+}
+
+.what-we-do {
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  height: 289px;
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.what-we-do .left-image {
+  background-image: url(../../../../assets/photos/about/admin/02-body-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48%;
+}
+
+.what-we-do .right-content {
+  width: 49%;
+}
+
+.what-we-do .right-content-p {
+  font-size: 18px;
+  font-family: 'Atlas-light';
+  line-height: 1.4;
+}
+
+.right-content-p2 {
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  font-size: 18px;
+  font-family: 'Atlas-light';
+  line-height: 1.4;
+  margin-right: 20px;
+  margin-top: 28px;
+}
+
+@media (min-width: 1600px) {
+  .footer{
+    margin-top: 105px;
+  }
+
+  .container{
+    margin-top: 23px;
+  }
+
+  .content-header{
+    height: 348px;
+  }
+
+
+  .banner-content{
+    font-size: 21px;
+    margin-top: 15px;
+    width: 801px;
+  }
+
+  .left-content{
+    width: 586px;
+  }
+
+  .title{
+    font-size: 34px;
+  }
+
+  .what-we-do {
+    height: 338px;
+    margin-top: 88px;
+  }
+
+  .what-we-do .right-content-p {
+    font-size: 21px;
+  }
+
+  .right-content-p2 {
+    font-size: 21px;
+    margin-right: 23px;
+    margin-top: 33px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .footer{
+    margin-top: 126px;
+  }
+
+  .container{
+    margin-top: 28px;
+  }
+
+  .content-header{
+    height: 418px;
+  }
+
+
+  .banner-content{
+    font-size: 25px;
+    margin-top: 18px;
+    width: 961px;
+  }
+
+  .left-content{
+    width: 703px;
+  }
+
+  .title{
+    font-size: 41px;
+  }
+
+  .what-we-do {
+    height: 406px;
+    margin-top: 106px;
+  }
+
+  .what-we-do .right-content-p {
+    font-size: 25px;
+  }
+
+  .right-content-p2 {
+    font-size: 25px;
+    margin-right: 28px;
+    margin-top: 40px;
+  }
+}

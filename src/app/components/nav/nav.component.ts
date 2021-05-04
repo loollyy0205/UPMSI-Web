@@ -49,6 +49,9 @@ export class NavComponent implements OnInit {
     }else if(this.router.url === '/About/faculty'){
       this.about = true;
       this.facultyHr = true;
+    }else if(this.router.url === '/About/about-msi'){
+      this.about = true;
+      this.facultyHr = true;
     }else if(this.router.url === '/About/admin'){
       this.about = true;
     }else if(this.router.url === '/Academics'){

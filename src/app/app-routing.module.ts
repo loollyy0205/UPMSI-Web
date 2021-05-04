@@ -1,3 +1,5 @@
+import { AboutAdminComponent } from './components/about/about-admin/about-admin.component';
+import { AboutMsiComponent } from './components/about/about-msi/about-msi.component';
 import { LabpageComponent } from './components/research/labpage/labpage.component';
 import { ProjectContentComponent } from './components/news/research-project/project-content/project-content.component';
 import { LibraryComponent } from './components/resources/library/library.component';
@@ -20,7 +22,6 @@ import { FacultyComponent } from './components/about/faculty/faculty.component';
 import { AreasOfResearchComponent } from './components/research/areas-of-research/areas-of-research.component';
 import { CoursesComponent } from './components/education/courses/courses.component';
 import { BolinaoComponent } from './components/facilities/bolinao/bolinao.component';
-import { SubpageComponent } from './components/subpage/subpage.component';
 import { FacilitiesComponent } from './components/facilities/facilities.component';
 import { ResourcesComponent } from './components/resources/resources.component';
 import { ResearchComponent } from './components/research/research.component';
@@ -44,6 +45,8 @@ const routes: Routes = [
   {path: 'Home', component: HomeComponent},
   {path: 'About', component: AboutComponent},
   {path: 'About/faculty', component: FacultyComponent},
+  {path: 'About/about-msi', component: AboutMsiComponent},
+  {path: 'About/admin', component: AboutAdminComponent},
   {path: 'About/About-the-director', component: AboutTheDirectorComponent},
   {path: 'Academics', component: EducationComponent},
   {path: 'Academics/courses-offered', component: CoursesComponent},
@@ -68,7 +71,6 @@ const routes: Routes = [
   {path: 'News/Research-projects-and-highlights/content', component: ProjectContentComponent},
   {path: 'News/Vacancies-and-Opportunities', component: VacanciesOppComponent},
   {path: 'News/Vacancies-and-Opportunities/more', component: MoreVacanciesComponent},
-  {path: 'About/admin', component: SubpageComponent},
 ];
 
 @NgModule({

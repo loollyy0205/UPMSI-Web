@@ -26,7 +26,6 @@ import { AnnouncementComponent } from './components/news/announcement/announceme
 import { ResearchComponent } from './components/research/research.component';
 import { ResourcesComponent } from './components/resources/resources.component';
 import { FacilitiesComponent } from './components/facilities/facilities.component';
-import { SubpageComponent } from './components/subpage/subpage.component';
 import { BolinaoComponent } from './components/facilities/bolinao/bolinao.component';
 import { CoursesComponent } from './components/education/courses/courses.component';
 import { AreasOfResearchComponent } from './components/research/areas-of-research/areas-of-research.component';
@@ -58,6 +57,11 @@ import { BolinaoContactComponent } from './components/facilities/bolinao/bolinao
 import { NewsBranchComponent } from './components/news/news-branch/news-branch.component';
 import { AnnouncementBranchComponent } from './components/news/announcement-branch/announcement-branch.component';
 import { HomeBannerComponent } from './components/home/home-banner/home-banner.component';
+import { AboutMsiComponent } from './components/about/about-msi/about-msi.component';
+import { InstituteFocusComponent } from './components/about/about-msi/institute-focus/institute-focus.component';
+import { InstituteObjectivesComponent } from './components/about/about-msi/institute-objectives/institute-objectives.component';
+import { AboutAdminComponent } from './components/about/about-admin/about-admin.component';
+import { AdminMsiStaffComponent } from './components/about/about-admin/admin-msi-staff/admin-msi-staff.component';
 
 @NgModule({
   declarations: [
@@ -76,7 +80,6 @@ import { HomeBannerComponent } from './components/home/home-banner/home-banner.c
     ResearchComponent,
     ResourcesComponent,
     FacilitiesComponent,
-    SubpageComponent,
     BolinaoComponent,
     CoursesComponent,
     AreasOfResearchComponent,
@@ -108,6 +111,11 @@ import { HomeBannerComponent } from './components/home/home-banner/home-banner.c
     NewsBranchComponent,
     AnnouncementBranchComponent,
     HomeBannerComponent,
+    AboutMsiComponent,
+    InstituteFocusComponent,
+    InstituteObjectivesComponent,
+    AboutAdminComponent,
+    AdminMsiStaffComponent,
   ],
   imports: [
     BrowserModule,

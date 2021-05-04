@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="header">
+    <p class="atlas-blackReg title" style="color: #384e8a;">INSTITUTE FOCUS</p>
+
+    <p class="content-p">MSC served as the University’s coordinating base for marine research. In June of the same year, the first Advisory Executive Council of the Center was formed with the appointment of Dr. Edgardo D. Gomez as acting Director. The Center commenced its operations in February 1975 at the building of the U.P. Natural Sciences Research Institute. With its transformation into an institute on 23 April 1985, UPMSI began offering graduate programs.</p>
+  </div>
+
+  <div class="box-card">
+    <div class="box-card-content">
+      <div class="card" *ngFor="let item of instituteCont">
+        <div class="left">
+          <img [src]="item.img" />
+        </div>
+        <div class="right">
+          <p class="atlas-bold" style="color: #384e8a;">{{item.title}}</p>
+          <p class="card-content">{{item.content}}</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
