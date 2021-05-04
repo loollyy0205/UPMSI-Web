@@ -19,7 +19,7 @@ img{
 }
 
 .banner-content{
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 13px;
   width: 684px;
 }
@@ -44,7 +44,7 @@ img{
 .what-we-do {
   margin-left: 4.5%;
   margin-right: 4.5%;
-  height: 289px;
+  height: 285px;
   margin-top: 75px;
   display: flex;
   justify-content: space-between;
@@ -62,19 +62,51 @@ img{
 }
 
 .what-we-do .right-content-p {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Atlas-light';
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .right-content-p2 {
   margin-left: 4.5%;
   margin-right: 4.5%;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Atlas-light';
   line-height: 1.4;
   margin-right: 20px;
   margin-top: 28px;
+}
+
+
+@media (min-width: 1440px) {
+  .what-we-do {
+    height: 288px;
+    margin-top: 79px;
+  }
+
+  .what-we-do .right-content-p {
+    font-size: 17px;
+  }
+
+  .right-content-p2 {
+    font-size: 17px;
+    margin-right: 21px;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1540px) {
+  .what-we-do {
+    height: 320px;
+  }
+
+  .what-we-do .right-content-p {
+    font-size: 18px;
+  }
+
+  .right-content-p2 {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -92,7 +124,7 @@ img{
 
 
   .banner-content{
-    font-size: 21px;
+    font-size: 19px;
     margin-top: 15px;
     width: 801px;
   }
@@ -111,11 +143,11 @@ img{
   }
 
   .what-we-do .right-content-p {
-    font-size: 21px;
+    font-size: 19px;
   }
 
   .right-content-p2 {
-    font-size: 21px;
+    font-size: 19px;
     margin-right: 23px;
     margin-top: 33px;
   }
@@ -136,7 +168,7 @@ img{
 
 
   .banner-content{
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 18px;
     width: 961px;
   }
@@ -155,11 +187,11 @@ img{
   }
 
   .what-we-do .right-content-p {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .right-content-p2 {
-    font-size: 25px;
+    font-size: 22px;
     margin-right: 28px;
     margin-top: 40px;
   }

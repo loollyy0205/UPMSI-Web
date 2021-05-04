@@ -35,7 +35,7 @@
 }
 
 .content-p {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 19px;
   font-family: 'Atlas-light';
   line-height: 1.4;
@@ -45,12 +45,12 @@
   margin-top: 4%;
   margin-left: 8%;
   font-family: 'atlas-light';
-  font-size: 19px;
+  font-size: 16px;
 }
 
 ul {
   margin: 0 10%;
-  font-size: 19px;
+  font-size: 16px;
   font-family: 'atlas-light';
 }
 
@@ -85,16 +85,16 @@ li span {
   }
 
   .content-p {
-    font-size: 21px;
+    font-size: 18px;
     margin-top: 22px;
   }
 
   .content {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   ul {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   li {
@@ -122,16 +122,16 @@ li span {
   }
 
   .content-p {
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 26px;
   }
 
   .content {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   ul {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   li {

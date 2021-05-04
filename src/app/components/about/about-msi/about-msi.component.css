@@ -19,7 +19,7 @@ img{
 }
 
 .banner-content{
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 13px;
   width: 684px;
 }
@@ -59,10 +59,13 @@ img{
 
 .what-we-do .right-content {
   width: 48.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .what-we-do .right-content-p {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 19px;
   font-family: 'Atlas-light';
   line-height: 1.4;
@@ -95,11 +98,10 @@ img{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: -2%;
 }
 
 .the-founder .right-content-p {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 19px;
   font-family: 'Atlas-light';
   line-height: 1.4;
@@ -125,7 +127,7 @@ img{
 
 
   .banner-content{
-    font-size: 21px;
+    font-size: 18px;
     margin-top: 15px;
     width: 801px;
   }
@@ -145,7 +147,7 @@ img{
   }
 
   .what-we-do .right-content-p {
-    font-size: 21px;
+    font-size: 18px;
     margin-top: 22px;
   }
 
@@ -160,12 +162,12 @@ img{
   }
 
   .the-founder .right-content-p {
-    font-size: 21px;
+    font-size: 18px;
     margin-top: 22px;
   }
 
   .sub-title{
-    font-size: 21px;
+    font-size: 18px;
     margin-top: 22px;
   }
 
@@ -186,7 +188,7 @@ img{
 
 
   .banner-content{
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 18px;
     width: 961px;
   }
@@ -206,7 +208,7 @@ img{
   }
 
   .what-we-do .right-content-p {
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 26px;
   }
 
@@ -221,12 +223,12 @@ img{
   }
 
   .the-founder .right-content-p {
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 26px;
   }
 
   .sub-title{
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 26px;
   }
 

@@ -30,7 +30,7 @@ mat-expansion-panel{
 .panel-title{
   color: white;
   padding: 15px 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 mat-expansion-panel{
@@ -123,7 +123,7 @@ mat-expansion-panel{
 
   .panel-title{
     padding: 18px 0;
-    font-size: 21px;
+    font-size: 18px;
   }
 
   .specific-class{
@@ -187,7 +187,7 @@ mat-expansion-panel{
 
   .panel-title{
     padding: 22px 0;
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .specific-class{
