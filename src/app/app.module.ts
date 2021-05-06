@@ -7,7 +7,6 @@ import { AuthGuard } from './shared/auth.guard';
 import { MaterialModule } from './material/material.module';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
-import { NgImageSliderModule } from 'ng-image-slider';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireModule } from '@angular/fire';
 import { HttpClientModule } from '@angular/common/http';
@@ -129,7 +128,6 @@ import { DownloadableFormsComponent } from './components/education/downloadable-
     BrowserAnimationsModule,
     MaterialModule,
     IvyCarouselModule,
-    NgImageSliderModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
