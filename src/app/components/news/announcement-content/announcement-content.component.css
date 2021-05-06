@@ -1,5 +1,6 @@
 .container{
   margin: 0 120px;
+  margin-top: 40px;
 }
 
 .box-content{
@@ -52,12 +53,17 @@ em{
   gap: 20px;
 }
 
+.more-vacancies:hover{
+  text-decoration: underline !important;
+  }
+ 
+
 .hr-line{
   margin: 15px 120px 30px 120px;
 }
 
 .title{
-  font-size: 30px;
+  font-size: 40px;
   color: #394e8a;
 }
 
@@ -83,6 +89,7 @@ em{
 @media (min-width: 1466px){
   .container{
     margin: 0 130px;
+    margin-top: 50px;
   }
 
   .box-content{
@@ -120,7 +127,7 @@ em{
     gap: 25px;
     font-size: 18px;
   }
-
+ 
   .hr-line{
     margin: 20px 130px 35px 130px;
   }
@@ -153,6 +160,7 @@ em{
 @media (min-width: 1666px){
   .container{
     margin: 0 140px;
+    margin-top: 60px;
   }
 
   .box-content{
@@ -222,6 +230,7 @@ em{
 @media (min-width: 1866px){
   .container{
     margin: 0 150px;
+    margin-top: 70px;
   }
 
   .box-content{
@@ -291,6 +300,7 @@ em{
 @media (min-width: 2066px){
   .container{
     margin: 0 160px;
+    margin-top: 80px;
   }
 
   .box-content{
@@ -360,6 +370,7 @@ em{
 @media (min-width: 2266px){
   .container{
     margin: 0 170px;
+    margin-top: 90px;
   }
 
   .box-content{
@@ -429,6 +440,7 @@ em{
 @media (min-width: 2466px){
   .container{
     margin: 0 180px;
+    margin-top: 100px;
   }
 
   .box-content{
@@ -498,6 +510,7 @@ em{
 @media (min-width: 2560px){
   .container{
     margin: 0 190px;
+    margin-top: 100px;
   }
 
   .box-content{

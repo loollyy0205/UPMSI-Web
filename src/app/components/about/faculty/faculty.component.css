@@ -186,6 +186,7 @@ mat-expansion-panel{
 
   .regular-content{
     margin-top: 23px;
+    font-size: 16px;
   }
 
   .left div{
@@ -258,6 +259,7 @@ mat-expansion-panel{
 
   .regular-content{
     margin-top: 28px;
+    font-size: 19px;
   }
 
   .left div{

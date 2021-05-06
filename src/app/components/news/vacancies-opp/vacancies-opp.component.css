@@ -1,5 +1,6 @@
 .container{
   margin: 0 120px;
+  margin-top: 40px;
 }
 
 .box-content{
@@ -36,7 +37,7 @@
 }
 
 .title{
-  font-size: 30px; color: #394e8a;
+  font-size: 40px; color: #394e8a;
 }
 
 .center-box{

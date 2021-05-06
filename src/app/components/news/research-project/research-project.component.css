@@ -1,11 +1,13 @@
 .container{
   margin: 0 120px;
+  margin-top: 40px;
 }
 
 img{
   height: 100%;
   width: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .img-container{
@@ -32,6 +34,7 @@ img{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .title{
@@ -40,18 +43,22 @@ img{
 }
 
 .header{
-  color: #394e8a;
+  color: #5da563;
+  cursor: pointer;
+
 }
 
 .subtitle{
-  color: #394e8a;
-  font-size: 14px;
+  color: #94979c;
+  font-size: 10px;
+  margin-top: 5px;
 }
 
 .item-content{
   margin-top: 10px;
   padding-right: 10px;
-  font-size: 14px
+  font-size: 14px;
+  color: #4c515a;
 }
 
 .continue-reading{
@@ -91,6 +98,7 @@ img{
 
   .right{
     margin-left: 25px;
+    margin-top: 25px;
   }
 
   .title{
@@ -102,7 +110,7 @@ img{
   }
 
   .subtitle{
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .item-content{
@@ -144,6 +152,7 @@ img{
 
   .right{
     margin-left: 30px;
+    margin-top: 30px;
   }
 
   .title{
@@ -155,7 +164,7 @@ img{
   }
 
   .subtitle{
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .item-content{
@@ -197,6 +206,7 @@ img{
 
   .right{
     margin-left: 35px;
+    margin-top: 35px;
   }
 
   .title{
@@ -208,7 +218,7 @@ img{
   }
 
   .subtitle{
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .item-content{
@@ -250,6 +260,7 @@ img{
 
   .right{
     margin-left: 40px;
+    margin-top: 40px;
   }
 
   .title{
@@ -261,7 +272,7 @@ img{
   }
 
   .subtitle{
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .item-content{
@@ -303,6 +314,7 @@ img{
 
   .right{
     margin-left: 45px;
+    margin-top: 45px;
   }
 
   .title{
@@ -314,7 +326,7 @@ img{
   }
 
   .subtitle{
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .item-content{
@@ -356,6 +368,7 @@ img{
 
   .right{
     margin-left: 50px;
+    margin-top: 50px;
   }
 
   .title{
@@ -367,7 +380,7 @@ img{
   }
 
   .subtitle{
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .item-content{
@@ -409,6 +422,7 @@ img{
 
   .right{
     margin-left: 55px;
+    margin-top: 55px;
   }
 
   .title{
@@ -420,7 +434,7 @@ img{
   }
 
   .subtitle{
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .item-content{

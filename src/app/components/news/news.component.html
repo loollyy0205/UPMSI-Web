@@ -8,7 +8,7 @@
     <div class="news-box">
       <app-news-branch></app-news-branch>
     </div>
-    <div style="color: #384e8a;" class="more-about" (click)="moreNews()">READ MORE ABOUT MSI NEWS</div>
+    <div style="color: #5da563;" class="more-about" (click)="moreNews()">Read More About MSI News</div>
 
 
     <div class="atlas-bold title title-margin">
@@ -18,10 +18,19 @@
       <app-announcement-branch></app-announcement-branch>
     </div>
 
-    <div style="color: #5da563;" class="more-about" (click)="announcement()">READ MORE ABOUT ANNOUNCEMENT</div>
+    <div style="color: #5da563;" class="more-about" (click)="announcement()">Read More About Announcement</div>
+
+    <div class="atlas-bold title title-margin">
+      <p>MSI Coverage From the Press</p>
+    </div>
+    <div class="content1">
+      <app-press-branch></app-press-branch>
+    </div>
+
+    <div style="color: #5da563;" class="more-about" (click)="press()" >Read More Press Coverage</div>
 
 
-    <div class="content2">
+   <div class="content2">
       <div class="content2-left">
 
       </div>
@@ -29,32 +38,21 @@
       <div class="content2-right">
         <div>
           <div class="atlas-blackReg" style="display: flex; flex-direction: column; line-height: 1.2;">
-            <span style="color: white;" class="title-vac">VACANCIES and</span>
+            <span style="color: white;" class="title-vac">VACANCIES &</span>
             <span style="color: white;" class="title-vac">OPPORTUNITIES</span>
           </div>
 
-          <div class="vac-font">
-            <div class="atlas-bold vac-header">
-              <span>Job Opportunity: Marine Scientist</span>
-              <span>Dec. 20, 2020</span>
-            </div>
-            <div class="atlas-light vac-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, veritatis atque dolor dolore inventore... <span class="atlas-bold" style="cursor: pointer; text-decoration: underline;">Read more</span>
-            </div>
-
-            <div class="atlas-bold vac-header">
-              <span>Call for Abstracts: HAB Symposium Conference</span>
-              <span>Dec. 15, 2020</span>
-            </div>
-            <div class="atlas-light vac-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eum atque aliquam fuga at consequuntur!... <span class="atlas-bold" style="cursor: pointer; text-decoration: underline;">Read more</span>
-            </div>
+          <div class="atlas-light content3-content vac-font">
+            The Marine Science Institute, College of Science, University of the Philippines, continuously aims to provide job opportunities, mentorship and research achievements in the field of marine sciences. Watch out for openings here:
           </div>
+          <div class="position-a">
+        <button class="more-vac" (click)="moreVacancies()">LEARN MORE</button>
+      </div>
+        </div>
+        <br>
         </div>
 
 
-        <div class="more-vac" (click)="moreVacancies()">MORE ABOUT OPPORTUNITIES</div>
-      </div>
 
     </div>
 
@@ -62,38 +60,31 @@
       <div  style="background-color: #5da563;" class="content2-right">
         <div>
           <div class="atlas-blackReg" style="line-height: 1.2;">
-            <span style="color: white;" class="title-vac">RESEARCH PROJECTS and HIGHLIGHTS</span>
+            <span style="color: white;" class="title-vac">RESEARCH PROJECTS & HIGHLIGHTS</span>
           </div>
 
           <div class="vac-font">
-            <div class="content3-header">
+            <!-- <div class="content3-header">
               <span class="atlas-bold">Meet the giant clam fam</span>
             </div>
 
             <div class="content3-subheader">
               <span>June 22, 2018</span>
               <span>Stephanie Cabigao</span>
-            </div>
+            </div> -->
 
             <div class="atlas-light content3-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non doloribus reprehenderit earum quibusdam ipsa blanditiis, quis enim amet aliquam placeat...
+              Research is the primary role of the UP Marine Science Institute. Topics of interest include natural products, pollution, marine culture and productivity, genetics and genomics, and marine chemistry. Aside from contributing to the knowledge gaps in the science, UPMSI projects also aim to develop tools, facilities, and biobanks.
             </div>
-
-            <div class="content3-readmore">CONTINUE READING</div>
+            <!--<div class="content3-readmore">CONTINUE READING</div>-->
           </div>
         </div>
-
-        <div class="more-vac" (click)="moreResearchOpp()">MORE ABOUT RESEARCH PROJECTS/HIGHLIGHTS</div>
-
+        <br><br>
+        <button class="b-more-vac" (click)="moreResearchOpp()">LEARN MORE</button>
       </div>
-
       <div class="content3-right">
-
       </div>
-
     </div>
-  </div>
-</div>
 
 <div class="footer">
   <app-footer></app-footer>

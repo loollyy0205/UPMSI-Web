@@ -20,7 +20,7 @@
 }
 
 .content .right-content{
-  background-image: url(../../../assets/photos/acad1.JPG);
+  background-image: url(../../../assets/photos/academics/01-academics.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -35,7 +35,7 @@
 
 .content2{
   height: 500px;
-  background-image: url(../../../assets/photos/courses-offered.jpg);
+  background-image: url(../../../assets/photos/academics/01-courses-offered.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -50,16 +50,15 @@
 .content2 .right{
   height: 100%;
   width: 40%;
-  padding-top: 70px;
   padding-right: 110px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .content2 .title2{
   color: white;
   font-size: 40px;
-  margin-top: 20px;
 }
 
 
@@ -82,7 +81,7 @@
 .content3 .right{
   height: 100%;
   width: 57%;
-  background-image: url(../../../assets/photos/acad2.JPG);
+  background-image: url(../../../assets/photos/academics/03-downloadable-forms.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -103,13 +102,33 @@
   margin-top: 20px;
 }
 
-.list-courses{
-  text-decoration: underline;
-  color: white;
+.list-courses-a{
   margin-top: 15px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-right: 19px;
+}
+
+.list-courses-b{
+  margin-top: 10.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.learn-more{
+  width: 250px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #5da563;
+  color: white;
 }
 
 .form-content{
@@ -153,13 +172,11 @@
   }
 
   .content2 .right{
-    padding-top: 80px;
     padding-right: 120px;
   }
 
   .content2 .title2{
     font-size: 45px;
-    margin-top: 25px;
   }
 
   .context{
@@ -167,9 +184,18 @@
     margin-top: 25px;
   }
 
-  .list-courses{
+  .list-courses-a{
+  margin-top: 20px;
+  margin-right: 0px;
+  }
+
+  .learn-more{
+    width: 260px;
     font-size: 18px;
-    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
   }
 
   /* content 3 */
@@ -223,13 +249,11 @@
   }
 
   .content2 .right{
-    padding-top: 90px;
     padding-right: 130px;
   }
 
   .content2 .title2{
     font-size: 50px;
-    margin-top: 30px;
   }
 
   .context{
@@ -237,9 +261,18 @@
     margin-top: 30px;
   }
 
-  .list-courses{
+  .list-courses-a{
+  margin-top: 25px;
+  margin-right: 0px;
+  }
+
+  .learn-more{
+    width: 310px;
     font-size: 20px;
-    margin-top: 25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 55px;
+    padding-right: 55px;
   }
 
   /* content 3 */
@@ -288,13 +321,11 @@
   }
 
   .content2 .right{
-    padding-top: 100px;
     padding-right: 140px;
   }
 
   .content2 .title2{
     font-size: 55px;
-    margin-top: 35px;
   }
 
   .context{
@@ -302,9 +333,18 @@
     margin-top: 35px;
   }
 
-  .list-courses{
+  .list-courses-a{
+  margin-top: 30px;
+  margin-right: 0px;
+  }
+
+  .learn-more{
+    width: 340px;
     font-size: 22px;
-    margin-top: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 65px;
+    padding-right: 65px;
   }
 
   /* content 3 */
@@ -353,13 +393,11 @@
   }
 
   .content2 .right{
-    padding-top: 110px;
     padding-right: 150px;
   }
 
   .content2 .title2{
     font-size: 60px;
-    margin-top: 40px;
   }
 
   .context{
@@ -367,9 +405,19 @@
     margin-top: 40px;
   }
 
-  .list-courses{
+  .list-courses-a{
+  margin-top: 35px;
+  margin-right: 0px;
+  }
+
+
+  .learn-more{
+    width: 370px;
     font-size: 24px;
-    margin-top: 35px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 75px;
+    padding-right: 75px;
   }
 
   /* content 3 */
@@ -418,13 +466,11 @@
   }
 
   .content2 .right{
-    padding-top: 120px;
     padding-right: 160px;
   }
 
   .content2 .title2{
     font-size: 65px;
-    margin-top: 45px;
   }
 
   .context{
@@ -432,9 +478,18 @@
     margin-top: 45px;
   }
 
-  .list-courses{
+  .list-courses-a{
+  margin-top: 40px;
+  margin-right: 0px;
+  }
+
+  .learn-more{
+    width: 400px;
     font-size: 26px;
-    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 85px;
+    padding-right: 85px;
   }
 
   /* content 3 */
@@ -484,13 +539,11 @@
   }
 
   .content2 .right{
-    padding-top: 130px;
     padding-right: 170px;
   }
 
   .content2 .title2{
     font-size: 70px;
-    margin-top: 50px;
   }
 
   .context{
@@ -498,9 +551,18 @@
     margin-top: 50px;
   }
 
-  .list-courses{
+  .list-courses-a{
+  margin-top: 45px;
+  margin-right: 0px;
+  }
+
+  .learn-more{
+    width: 430px;
     font-size: 28px;
-    margin-top: 45px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 95px;
+    padding-right: 95px;
   }
 
   /* content 3 */
@@ -550,13 +612,11 @@
   }
 
   .content2 .right{
-    padding-top: 140px;
     padding-right: 180px;
   }
 
   .content2 .title2{
     font-size: 75px;
-    margin-top: 55px;
   }
 
   .context{
@@ -564,10 +624,19 @@
     margin-top: 55px;
   }
 
-  .list-courses{
-    font-size: 30px;
-    margin-top: 50px;
+  .list-courses-a{
+  margin-top: 50px;
+  margin-right: 0px;
   }
+
+  .learn-more{
+    width: 430px;
+    font-size: 30px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 105px;
+    padding-right: 105px;
+    }
 
   /* content 3 */
   .content3{

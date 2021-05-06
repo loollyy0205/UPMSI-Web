@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -17,9 +18,13 @@ export class MoreVacanciesComponent implements OnInit {
     {image: '../../../../../assets/photos/sampleImage2.jpg', title: 'Marine Scientist', date:'March 16, 2021'},
     {image: '../../../../../assets/photos/sampleImage3.jpg', title: 'Marine Scientist', date:'March 16, 2021'},
   ]
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
+  }
+
+  moreContent(){
+    this.router.navigate(['/News/Vacancies-and-Opportunities']);
   }
 
 }

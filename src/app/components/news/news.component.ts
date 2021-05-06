@@ -14,7 +14,7 @@ export class NewsComponent implements OnInit {
   }
 
   moreVacancies(){
-    this.router.navigate(['News/Vacancies-and-Opportunities']);
+    this.router.navigate(['News/Vacancies-and-Opportunities/more']);
   }
 
   moreResearchOpp(){
@@ -29,11 +29,16 @@ export class NewsComponent implements OnInit {
     this.router.navigate(['/News/content']);
   }
 
+
   gotoAnnouncement(){
     this.router.navigate(['/News/Announcement/content']);
   }
 
   announcement(){
     this.router.navigate(['/News/Announcement']);
+  }
+
+  press(){
+    this.router.navigate(['/News/Press']);
   }
 }

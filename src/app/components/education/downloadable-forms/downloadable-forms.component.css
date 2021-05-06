@@ -1,0 +1,282 @@
+.container{
+  margin: 0 9%;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content-header{
+  height: 297px;
+  position: relative;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner-content{
+  font-size: 18px;
+  margin-top: 13px;
+  width: 684px;
+}
+
+.left-content{
+  position: absolute;
+  z-index: 1;
+  bottom: 8px;
+  width: 500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+  top: 0;
+  color: white;
+}
+
+.title{
+  font-size: 29px;
+}
+
+mat-expansion-panel{
+  margin-bottom: -20px;
+}
+
+.panel-title{
+  color: white;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+mat-expansion-panel{
+  border-color: white;
+  background-color: #fafafa;
+}
+
+::ng-deep .specific-class > .mat-expansion-indicator:after {
+  color: white;
+}
+
+.specific-class{
+  border-radius: 50px;
+}
+
+.grad-offering{
+  margin-top: 50px !important;
+  margin: 0 10%;
+}
+
+.core-courses{
+  height: 100%;
+  margin-left: 20px;
+  border-left: 3px solid #5da563;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.core-content{
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.core-courses div{
+  margin-left: 20px;
+}
+
+.closed-main-head{
+  background-color: #384e8a;
+  border-radius: 50px;
+}
+
+.regular-content{
+  height: 100%;
+  display: flex;
+  font-size: 14px;
+  flex-direction: row;
+}
+
+.left{
+  width: 100%;
+}
+
+.left p{
+  margin-top: 20px
+}
+
+.right div{
+  margin-top: 10px
+}
+
+.banner-content{
+  font-size: 16px;
+}
+
+.where-next{
+  color: #384e8a;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.arrow {
+  margin-left: 8px;
+}
+
+@media (min-width: 1600px) {
+  .container{
+    margin-top: 23px;
+  }
+
+  .content-header{
+    height: 348px;
+  }
+
+  .banner-content{
+    font-size: 21px;
+    margin-top: 15px;
+    width: 801px;
+  }
+
+  .left-content{
+    width: 586px;
+    padding: 0 59px;
+  }
+
+  .title{
+    font-size: 34px;
+  }
+
+  mat-expansion-panel{
+    margin-bottom: -23px;
+  }
+
+  .panel-title{
+    padding: 18px 0;
+    font-size: 16px;
+  }
+
+  .specific-class{
+    border-radius: 59px;
+  }
+
+  .grad-offering{
+    margin-top: 59px !important;
+  }
+
+  .core-courses{
+    margin-left: 23px;
+    border-left: 4px solid #5da563;
+    gap: 18px;
+  }
+
+  .core-courses div{
+    margin-left: 23px;
+  }
+
+  .closed-main-head{
+    border-radius: 59px;
+  }
+
+  .regular-content{
+    font-size: 16px;
+  }
+
+  .left div{
+    margin-top: 12px
+  }
+
+  .right div{
+    margin-top: 12px
+  }
+
+  .banner-content{
+    font-size: 19px;
+  }
+
+  .where-next{
+    margin-top: 117px;
+    font-size: 19px;
+  }
+
+  .arrow {
+    margin-left: 9px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container{
+    margin-top: 28px;
+  }
+
+  .content-header{
+    height: 418px;
+  }
+
+  .banner-content{
+    font-size: 25px;
+    margin-top: 18px;
+    width: 961px;
+  }
+
+  .left-content{
+    width: 703px;
+    padding: 0 71px;
+  }
+
+  .title{
+    font-size: 41px;
+  }
+
+  mat-expansion-panel{
+    margin-bottom: -28px;
+  }
+
+  .panel-title{
+    padding: 21px 0;
+    font-size: 19px;
+  }
+
+  .specific-class{
+    border-radius: 71px;
+  }
+
+  .grad-offering{
+    margin-top: 71px !important;
+  }
+
+  .closed-main-head{
+    border-radius: 71px;
+  }
+
+  .regular-content{
+    margin-top: 28px;
+    font-size: 19px;
+  }
+
+  .left div{
+    margin-top: 14px
+  }
+
+  .right div{
+    margin-top: 14px
+  }
+
+  .banner-content{
+    font-size: 23px;
+  }
+
+  .where-next{
+    margin-top: 140px;
+    font-size: 23px;
+  }
+
+  .arrow {
+    margin-left: 11px;
+  }
+}

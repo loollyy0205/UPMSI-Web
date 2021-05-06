@@ -1,11 +1,14 @@
 .container{
   margin: 0 120px;
+  margin-top: 40px;
 }
 
 img{
   height: 200px;
   width: 200px;
   object-fit: cover;
+  cursor: pointer;
+
 }
 
 .img-container{
@@ -39,18 +42,21 @@ img{
 }
 
 .header{
-  color: #394e8a;
+  color: #5da563;
+  cursor: pointer;
 }
 
 .subtitle{
-  color: #394e8a;
-  font-size: 14px;
+  color: #94979c;
+  font-size: 10px;
+  margin-top: 5px;
 }
 
 .item-content{
-  margin-top: 10px;
+  color: #4c515a;
+  font-size: 14px;
   padding-right: 10px;
-  font-size: 14px
+  margin-top: 14px;
 }
 
 .continue-reading{
@@ -81,6 +87,8 @@ img{
 
   .container{
     margin: 0 130px;
+    margin-top: 50px;
+
   }
 
   .img-container{
@@ -100,18 +108,16 @@ img{
   }
 
   .subtitle{
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .item-content{
-    margin-top: 13px;
+    font-size: 16px;
     padding-right: 13px;
-    font-size: 16px
   }
 
   .continue-reading{
     font-size: 16px;
-    margin-top: 13px;
   }
 
   .hr-line{
@@ -133,6 +139,7 @@ img{
 
   .container{
     margin: 0 140px;
+    margin-top: 60px;
   }
 
   .img-container{
@@ -152,13 +159,12 @@ img{
   }
 
   .subtitle{
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .item-content{
-    margin-top: 16px;
+    font-size: 18px;
     padding-right: 16px;
-    font-size: 18px
   }
 
   .continue-reading{
@@ -185,6 +191,7 @@ img{
 
   .container{
     margin: 0 150px;
+    margin-top: 70px;
   }
 
   .img-container{
@@ -203,13 +210,13 @@ img{
   }
 
   .subtitle{
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .item-content{
-    margin-top: 19px;
+    font-size: 20px;
     padding-right: 19px;
-    font-size: 20px
+
   }
 
   .continue-reading{
@@ -236,6 +243,7 @@ img{
 
   .container{
     margin: 0 160px;
+    margin-top: 80px;
   }
 
   .img-container{
@@ -254,18 +262,16 @@ img{
   }
 
   .subtitle{
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .item-content{
-    margin-top: 22px;
+    font-size: 22px;
     padding-right: 22px;
-    font-size: 22px
   }
 
   .continue-reading{
     font-size: 22px;
-    margin-top: 22px;
   }
 
   .hr-line{
@@ -287,6 +293,7 @@ img{
 
   .container{
     margin: 0 170px;
+    margin-top: 90px;
   }
 
   .img-container{
@@ -305,18 +312,17 @@ img{
   }
 
   .subtitle{
-    font-size: 24px;
+    font-size: 18px;
+
   }
 
   .item-content{
-    margin-top: 25px;
+    font-size: 24px;
     padding-right: 25px;
-    font-size: 24px
   }
 
   .continue-reading{
     font-size: 24px;
-    margin-top: 25px;
   }
 
   .hr-line{
@@ -338,6 +344,7 @@ img{
 
   .container{
     margin: 0 180px;
+    margin-top: 100px;
   }
 
   .img-container{
@@ -356,13 +363,12 @@ img{
   }
 
   .subtitle{
-    font-size: 26px;
+    font-size: 20px;
   }
 
   .item-content{
-    margin-top: 28px;
+    font-size: 26px;
     padding-right: 28px;
-    font-size: 26px
   }
 
   .continue-reading{
@@ -389,6 +395,7 @@ img{
 
   .container{
     margin: 0 190px;
+    margin-top: 110px;
   }
 
   .img-container{
@@ -408,13 +415,12 @@ img{
   }
 
   .subtitle{
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .item-content{
-    margin-top: 31px;
+    font-size: 28px;
     padding-right: 31px;
-    font-size: 28px
   }
 
   .continue-reading{

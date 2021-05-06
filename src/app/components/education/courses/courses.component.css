@@ -5,7 +5,7 @@
 }
 
 .content-header{
-  height: 270px;
+  height: 297px;
   position: relative;
   /* background-image: url("../../../../assets/photos/coursesheader.png");
   background-size: cover;
@@ -13,7 +13,8 @@
 }
 
 mat-expansion-panel{
-  margin-bottom: -20px;
+  margin-bottom: -25px;
+
 }
 
 img{
@@ -27,23 +28,27 @@ img{
   z-index: 1;
   bottom: 8px;
   left: 16px;
-  width: 500px;
+  width: 60%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0 50px;
   color: white;
-  gap: 8px;
 }
 
 .title{
   font-size: 25px;
 }
 
+.banner-content {
+  margin-top: 8px;
+}
+
 mat-expansion-panel{
   border-color: white;
   background-color: #fafafa;
+  padding-bottom: 15px;
 }
 
 ::ng-deep .specific-class > .mat-expansion-indicator:after {
@@ -102,11 +107,11 @@ mat-panel-title{
 }
 
 .top-neg20{
-  margin-top: -20px !important;
+  margin-top: 10px !important;
 }
 
 .top-neg10{
-  margin-top: -10px;
+  margin-top: 10px;
 }
 
 .footer{
@@ -122,16 +127,18 @@ mat-panel-title{
   }
 
   .content-header{
-    height: 310px;
+    height: 318px;
+  }
+
+  .banner-content {
+    margin-top: 10px;
   }
 
   .left-content{
-    width: 570px;
     padding: 0 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
   }
 
   .title{
@@ -186,16 +193,18 @@ mat-panel-title{
   }
 
   .content-header{
-    height: 350px;
+    height: 361px;
+  }
+
+  .banner-content {
+    margin-top: 12px;
   }
 
   .left-content{
-    width: 640px;
     padding: 0 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 12px;
   }
 
   .title{
@@ -248,16 +257,18 @@ mat-panel-title{
   }
 
   .content-header{
-    height: 390px;
+    height: 404px;
+  }
+
+  .banner-content {
+    margin-top: 14px;
   }
 
   .left-content{
-    width: 710px;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 14px;
   }
 
   .title{
@@ -311,16 +322,18 @@ mat-panel-title{
   }
 
   .content-header{
-    height: 430px;
+    height: 447px;
+  }
+
+  .banner-content {
+    margin-top: 16px;
   }
 
   .left-content{
-    width: 780px;
     padding: 0 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 16px;
   }
 
   .title{
@@ -374,16 +387,18 @@ mat-panel-title{
   }
 
   .content-header{
-    height: 470px;
+    height: 490px;
+  }
+
+  .banner-content {
+    margin-top: 18px;
   }
 
   .left-content{
-    width: 850px;
     padding: 0 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 18px;
   }
 
   .title{
@@ -437,16 +452,18 @@ mat-panel-title{
   }
 
   .content-header{
-    height: 500px;
+    height: 533px;
+  }
+
+  .banner-content {
+    margin-top: 20px;
   }
 
   .left-content{
-    width: 920px;
     padding: 0 110px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
   }
 
   .title{
@@ -500,16 +517,18 @@ mat-panel-title{
   }
 
   .content-header{
-    height: 540px;
+    height: 553px;
+  }
+
+  .banner-content {
+    margin-top: 22px;
   }
 
   .left-content{
-    width: 990px;
     padding: 0 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 22px;
   }
 
   .title{

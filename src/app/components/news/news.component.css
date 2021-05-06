@@ -14,6 +14,7 @@ img{
   font-size: 40px;
   margin-left: 120px;
   margin-right: 120px;
+  margin-top: 40px;
 }
 
 .content1{
@@ -35,9 +36,9 @@ img{
 }
 
 .content2-left{
-  width: 50%;
+  width: 56%;
   height: 100%;
-  background-image: url(../../../assets/photos/a5.JPG);
+  background-image: url(../../../assets/photos/news/01-vacancies-and-opportunities.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -70,7 +71,7 @@ img{
 
 .content3-right{
   width: 55%;
-  background-image: url(../../../assets/photos/a6.JPG);
+  background-image: url(../../../assets/photos/news/02-research-projects-highlights.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -93,12 +94,17 @@ img{
 
 .more-about{
   margin-left: 120px;
-  margin-right: 120px;
-  text-decoration: underline;
+  margin-right: 128px;
+  /*text-decoration: underline;*/
   float: right;
   margin-top: 30px;
   cursor: pointer;
 }
+
+.more-about:hover{
+  text-decoration: underline;
+}
+
 
 /* announcement */
 .title-margin{
@@ -125,14 +131,49 @@ img{
   margin-top: 10px;
 }
 
+.position-a{
+  margin-top: 10.7%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 .more-vac{
-  text-decoration: underline;
+  /*text-decoration: underline;
   color: white;
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
+  cursor: pointer; */
+  width: 250px;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
   cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #5da563;
+  color: white;
+  /*margin-left: 165px !important;*/
 }
+
+.b-more-vac{
+  width: 250px;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #384e8a;
+  color: white;
+  margin-top: 3.7% !important;
+}
+
 
 /* content 3 */
 
@@ -152,7 +193,7 @@ img{
 .content3-content{
   color: white;
   line-height: 1.5;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .content3-readmore{
@@ -175,6 +216,7 @@ img{
     font-size: 45px;
     margin-left: 130px;
     margin-right: 130px;
+    margin-top: 50px;
   }
 
   .hr-line{
@@ -183,11 +225,12 @@ img{
 
   .news-box{
     margin: 0 130px;
+    margin-top: 40px ;
   }
 
   .more-about{
     margin-left: 130px;
-    margin-right: 130px;
+    margin-right: 146px;
     margin-top: 35px;
     font-size: 18px;
   }
@@ -231,9 +274,23 @@ img{
   }
 
   .more-vac{
-    margin-top: 25px;
+    width: 280px;
     font-size: 18px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: 190px !important;
   }
+
+.b-more-vac{
+    width: 280px;
+    font-size: 18px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
 
   .vac-font{
     font-size: 18px;
@@ -256,7 +313,7 @@ img{
   }
 
   .content3-content{
-    margin-top: 25px;
+    margin-top: 15px;
   }
 
   .content3-readmore{
@@ -332,9 +389,23 @@ img{
   }
 
   .more-vac{
-    margin-top: 30px;
+    width: 310px;
     font-size: 20px;
-  }
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: 215px !important;
+   }
+
+   .b-more-vac{
+    width: 310px;
+    font-size: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 55px;
+    padding-right: 55px;
+   }
 
   .vac-font{
     font-size: 20px;
@@ -357,7 +428,7 @@ img{
   }
 
   .content3-content{
-    margin-top: 30px;
+    margin-top: 17px;
   }
 
   .content3-readmore{
@@ -433,9 +504,23 @@ img{
   }
 
   .more-vac{
-    margin-top: 35px;
+    width: 340px;
     font-size: 22px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-left: 240px !important;
   }
+
+.b-more-vac{
+    width: 340px;
+    font-size: 22px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
 
   .vac-font{
     font-size: 22px;
@@ -458,7 +543,7 @@ img{
   }
 
   .content3-content{
-    margin-top: 35px;
+    margin-top: 19px;
   }
 
   .content3-readmore{
@@ -535,8 +620,22 @@ img{
   }
 
   .more-vac{
-    margin-top: 40px;
+   width: 370px;
     font-size: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-left: 265px !important;
+  }
+
+  .b-more-vac{
+    width: 370px;
+    font-size: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 75px;
+    padding-right: 75px;
   }
 
   .vac-font{
@@ -560,7 +659,7 @@ img{
   }
 
   .content3-content{
-    margin-top: 40px;
+    margin-top: 21px;
   }
 
   .content3-readmore{
@@ -636,8 +735,22 @@ img{
   }
 
   .more-vac{
-    margin-top: 45px;
+    width: 400px;
     font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-left: 290px !important;
+  }
+
+  .b-more-vac{
+    width: 400px;
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 85px;
+    padding-right: 85px;
   }
 
   .vac-font{
@@ -662,7 +775,7 @@ img{
   }
 
   .content3-content{
-    margin-top: 45px;
+    margin-top: 23px;
   }
 
   .content3-readmore{
@@ -740,8 +853,22 @@ img{
   }
 
   .more-vac{
-    margin-top: 50px;
+    width: 430px;
     font-size: 28px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 95px;
+    padding-right: 95px;
+    margin-left: 315px !important;
+  }
+
+  .b-more-vac{
+    width: 430px;
+    font-size: 28px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 95px;
+    padding-right: 95px;
   }
 
   .vac-font{
@@ -765,7 +892,7 @@ img{
   }
 
   .content3-content{
-    margin-top: 50px;
+    margin-top: 25px;
   }
 
   .content3-readmore{
@@ -841,8 +968,22 @@ img{
   }
 
   .more-vac{
-    margin-top: 55px;
+    width: 430px;
     font-size: 30px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 105px;
+    padding-right: 105px;
+    margin-left: 340px !important;
+  }
+
+  .b-more-vac{
+    width: 430px;
+    font-size: 30px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 105px;
+    padding-right: 105px;
   }
 
   .vac-font{
@@ -867,7 +1008,7 @@ img{
   }
 
   .content3-content{
-    margin-top: 55px;
+    margin-top: 27px;
   }
 
   .content3-readmore{

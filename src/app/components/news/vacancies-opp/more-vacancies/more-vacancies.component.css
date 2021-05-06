@@ -1,5 +1,7 @@
 .container{
   margin: 0 120px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 img{
@@ -20,13 +22,15 @@ img{
 }
 
 .title{
-  font-size: 30px; color: #394e8a;
+  font-size: 40px; color: #394e8a;
 }
 
 .header{
   color: #394e8a;
   text-decoration: underline;
   margin-top: 15px;
+  cursor: pointer;
+  
 }
 
 .date{

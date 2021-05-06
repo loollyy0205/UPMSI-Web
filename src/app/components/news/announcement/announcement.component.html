@@ -6,14 +6,15 @@
   <div class="img-container">
     <div class="img-content" *ngFor="let item of researchOpp">
       <div class="left">
-        <img [src]="item.image">
+        <img [src]="item.image" [routerLink]="['/News/Announcement/content']">
       </div>
       <div class="right">
         <div>
-          <p class="atlas-bold header">{{item.title}}</p>
+          <p class="atlas-bold header" [routerLink]="['/News/Announcement/content']">{{item.title}}</p>
+          <p class="atlas-light subtitle">{{item.subtitle}}</p>
           <p class="atlas-light item-content">{{item.content}}</p>
         </div>
-        <p class="atlas-light continue-reading" [routerLink]="['/News/Announcement/content']">CONTINUE READING</p>
+        <!--<p class="atlas-light continue-reading" >CONTINUE READING</p>-->
       </div>
     </div>
 

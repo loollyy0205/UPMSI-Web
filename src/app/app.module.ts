@@ -1,3 +1,8 @@
+import { AboutMsiComponent } from './components/about/about-msi/about-msi.component';
+import { InstituteObjectivesComponent } from './components/about/about-msi/institute-objectives/institute-objectives.component';
+import { InstituteFocusComponent } from './components/about/about-msi/institute-focus/institute-focus.component';
+import { AdminMsiStaffComponent } from './components/about/about-admin/admin-msi-staff/admin-msi-staff.component';
+import { AboutAdminComponent } from './components/about/about-admin/about-admin.component';
 import { AuthGuard } from './shared/auth.guard';
 import { MaterialModule } from './material/material.module';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
@@ -56,12 +61,10 @@ import { BolinaoComplexComponent } from './components/facilities/bolinao/bolinao
 import { BolinaoContactComponent } from './components/facilities/bolinao/bolinao-contact/bolinao-contact.component';
 import { NewsBranchComponent } from './components/news/news-branch/news-branch.component';
 import { AnnouncementBranchComponent } from './components/news/announcement-branch/announcement-branch.component';
+import { PressBranchComponent } from './components/news/press-branch/press-branch.component';
+import { PressComponent } from './components/news/press/press.component';
 import { HomeBannerComponent } from './components/home/home-banner/home-banner.component';
-import { AboutMsiComponent } from './components/about/about-msi/about-msi.component';
-import { InstituteFocusComponent } from './components/about/about-msi/institute-focus/institute-focus.component';
-import { InstituteObjectivesComponent } from './components/about/about-msi/institute-objectives/institute-objectives.component';
-import { AboutAdminComponent } from './components/about/about-admin/about-admin.component';
-import { AdminMsiStaffComponent } from './components/about/about-admin/admin-msi-staff/admin-msi-staff.component';
+import { DownloadableFormsComponent } from './components/education/downloadable-forms/downloadable-forms.component';
 
 @NgModule({
   declarations: [
@@ -110,12 +113,15 @@ import { AdminMsiStaffComponent } from './components/about/about-admin/admin-msi
     BolinaoContactComponent,
     NewsBranchComponent,
     AnnouncementBranchComponent,
+    PressBranchComponent,
+    PressComponent,
     HomeBannerComponent,
-    AboutMsiComponent,
-    InstituteFocusComponent,
-    InstituteObjectivesComponent,
     AboutAdminComponent,
     AdminMsiStaffComponent,
+    InstituteObjectivesComponent,
+    InstituteFocusComponent,
+    AboutMsiComponent,
+    DownloadableFormsComponent
   ],
   imports: [
     BrowserModule,

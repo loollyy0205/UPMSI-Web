@@ -1,5 +1,6 @@
 .container{
   margin: 0 120px;
+  margin-top: 40px;
 }
 
 .box-content{
@@ -159,6 +160,7 @@ img{
 @media (min-width: 1466px){
   .container{
     margin: 0 130px;
+    margin-top: 50px;
   }
 
   .box-content{
@@ -285,6 +287,7 @@ img{
 @media (min-width: 1666px){
   .container{
     margin: 0 140px;
+    margin-top: 60px;
   }
 
   .box-content{
@@ -412,6 +415,7 @@ img{
 @media (min-width: 1866px){
   .container{
     margin: 0 150px;
+    margin-top: 70px;
   }
 
   .box-content{
@@ -538,6 +542,7 @@ img{
 @media (min-width: 2066px){
   .container{
     margin: 0 160px;
+    margin-top: 80px;
   }
 
   .box-content{
@@ -664,6 +669,7 @@ img{
 @media (min-width: 2266px){
   .container{
     margin: 0 170px;
+    margin-top: 90px;
   }
 
   .box-content{
@@ -790,6 +796,7 @@ img{
 @media (min-width: 2466px){
   .container{
     margin: 0 180px;
+    margin-top: 100px;
   }
 
   .box-content{
@@ -916,6 +923,7 @@ img{
 @media (min-width: 2560px){
   .container{
     margin: 0 190px;
+    margin-top: 110px;
   }
 
   .box-content{

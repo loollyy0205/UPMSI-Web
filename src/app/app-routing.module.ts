@@ -1,5 +1,6 @@
-import { AboutAdminComponent } from './components/about/about-admin/about-admin.component';
+import { DownloadableFormsComponent } from './components/education/downloadable-forms/downloadable-forms.component';
 import { AboutMsiComponent } from './components/about/about-msi/about-msi.component';
+import { AboutAdminComponent } from './components/about/about-admin/about-admin.component';
 import { LabpageComponent } from './components/research/labpage/labpage.component';
 import { ProjectContentComponent } from './components/news/research-project/project-content/project-content.component';
 import { LibraryComponent } from './components/resources/library/library.component';
@@ -13,7 +14,6 @@ import { ImagesTabComponent } from './components/extension/gallery/images-tab/im
 import { GalleryComponent } from './components/extension/gallery/gallery.component';
 import { AdminNewsComponent } from './components/admin/admin-news/admin-news.component';
 import { AdminHomeComponent } from './components/admin/admin-home/admin-home.component';
-import { AuthGuard } from './shared/auth.guard';
 import { AdminDashboardComponent } from './components/admin/admin-dashboard/admin-dashboard.component';
 import { AdminNavComponent } from './components/admin/admin-nav/admin-nav.component';
 import { AdminComponent } from './components/admin/admin.component';
@@ -33,6 +33,7 @@ import { ExtensionComponent } from './components/extension/extension.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { EducationComponent } from './components/education/education.component';
+import { PressComponent } from './components/news/press/press.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -44,12 +45,13 @@ const routes: Routes = [
   {path: 'admin/admin-news', component: AdminNewsComponent},
   {path: 'Home', component: HomeComponent},
   {path: 'About', component: AboutComponent},
-  {path: 'About/faculty', component: FacultyComponent},
-  {path: 'About/about-msi', component: AboutMsiComponent},
   {path: 'About/admin', component: AboutAdminComponent},
+  {path: 'About/about-msi', component: AboutMsiComponent},
+  {path: 'About/faculty', component: FacultyComponent},
   {path: 'About/About-the-director', component: AboutTheDirectorComponent},
   {path: 'Academics', component: EducationComponent},
   {path: 'Academics/courses-offered', component: CoursesComponent},
+  {path: 'Academics/downloadable-forms', component: DownloadableFormsComponent},
   {path: 'Research', component: ResearchComponent},
   {path: 'Research/areas-of-research', component: AreasOfResearchComponent},
   {path: 'Research/laboratories', component: LaboratoriesComponent},
@@ -71,6 +73,7 @@ const routes: Routes = [
   {path: 'News/Research-projects-and-highlights/content', component: ProjectContentComponent},
   {path: 'News/Vacancies-and-Opportunities', component: VacanciesOppComponent},
   {path: 'News/Vacancies-and-Opportunities/more', component: MoreVacanciesComponent},
+  {path: 'News/Press', component: PressComponent},
 ];
 
 @NgModule({

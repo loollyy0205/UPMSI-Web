@@ -5,9 +5,9 @@
 
   <div class="image-content">
     <div *ngFor="let item of vacancies">
-      <img [src]="item.image">
+      <img [src]="item.image" (click)="moreContent()">
       <div style="line-height: 1.4;">
-        <p class="atlas-bold header">{{item.title}}</p>
+        <p class="atlas-bold header" (click)="moreContent()">{{item.title}}</p>
         <p class="atlas-light date">{{item.date}}</p>
       </div>
     </div>
