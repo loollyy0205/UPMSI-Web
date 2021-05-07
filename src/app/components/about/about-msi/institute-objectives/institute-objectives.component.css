@@ -44,8 +44,10 @@
 .content {
   margin-top: 4%;
   margin-left: 8%;
+  margin-right: 8%;
   font-family: 'atlas-light';
   font-size: 16px;
+  line-height: 1.4;
 }
 
 ul {
