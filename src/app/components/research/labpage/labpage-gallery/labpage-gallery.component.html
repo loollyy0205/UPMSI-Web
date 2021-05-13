@@ -1,0 +1,45 @@
+<p class="atlas-blackReg title">Gallery</p>
+
+<div style="height: 15vw;">
+  <carousel
+  [height]="'100%'"
+  [margin]="20"
+  [minSwipeDistance]="2"
+  [transitionDuration]="'1000'"
+  [cellsToShow]="3"
+  [cellsToScroll]="1"
+  [cellWidth]="'100%'"
+  [arrowsOutside]="true"
+  [objectFit]="'cover'"
+  [dots]="false"
+    >
+
+    <div class="carousel-cell" *ngFor="let item of myArr[0].gallery">
+      <div class="image atlas-light" >
+        <img class="image__img" [src]="item.image">
+        <div class="image__overlay image__overlay--primary">
+            <div class="image__title atlas-bold" style="line-height: 1.2;">{{ item.title }}</div>
+        </div>
+      </div>
+    </div>
+
+  </carousel>
+</div>
+
+
+<div class="profile">
+  <div class="left">
+    <img style="border-radius: 50%;" [src]="myArr[0].pi">
+  </div>
+
+  <div class="right">
+    <p class="atlas-blackReg title-profile">Principal Investigator</p>
+
+    <p class="atlas-bold profile-subtitle">{{myArr[0].piName}}</p>
+    <p class="atlas-bold profile-subtitle" *ngIf="mmblbool">{{myArr[0].degree}}</p>
+
+    <p class="atlas-light profile-content">
+      {{myArr[0].aboutPi}}
+    </p>
+  </div>
+</div>

@@ -1,161 +1,67 @@
 <app-nav></app-nav>
-<hr class=" animate__animated animate__fadeIn animate__delay-1s" style="margin: 15px 120px 30px 120px">
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
 <div class="container animate__animated animate__fadeIn animate__delay-1s">
 
   <div class="facilities-next" (click)="gotoResearch()">
-    <mat-icon style="font-size: 35px; margin-top: 3px;">arrow_back</mat-icon>
-    <span class="navi" style="line-height: 1.3;">
+    <mat-icon class="arrow">arrow_back</mat-icon>
+    <span class="navi" style="padding-left: 2%; line-height: 1.3;">
       <p class="atlas-bold">RESEARCH</p>
       <p class="atlas-light">Laboratories</p>
     </span>
   </div>
 
   <div class="content atlas-light">
-    <p style="color: #5da563; font-size: 14px; margin-top: 20px;">Viewing: Biological Oceanography and Modeling of Ecosystem (BiOME) laboratory</p>
+    <p>Viewing: {{myArr[0].viewing}}</p>
   </div>
 
-  <div style="width: 100%; height: 500px; margin-top: 40px; position: relative;">
-    <img src="../../../../assets/photos/biological-lab/BiOME_banner photo.jpg">
-    <img src="../../../../assets/photos/biological-lab/biome.png" class="bottom-right" style="position:absolute; bottom:0; right:0; ">
+  <div class="banner">
+    <img [src]="myArr[0].photoBanner">
+    <img [src]="myArr[0].bannerLogo" class="right-bottom-logo"/>
   </div>
 
-  <div class="title atlas-blackReg">
-    Biological Oceanography and Modeling of Ecosystem Laboratory
+  <div class="title atlas-blackReg" style="text-transform: uppercase;">
+    {{myArr[0].title}}
   </div>
 
-  <p class="atlas-light" style="color: #666666; margin-top: 10px; line-height: 1.4;">
-    The BiOME lab is generally interested in understanding how marine ecosystem patterns and processes emerge from the local interactions of individual organisms. Specifically, our research is centered around understanding the dynamics of the base of the food web of ocean ecosystems, especially the phytoplankton, how these are affected by anthropogenic and natural factors, and how these effects can cascade up to our fisheries.  Through an arsenal of field, laboratory and modelling approaches, we hope to obtain a better handle on issues such as changes in productivity and ecosystem conditions. One main approach is the use of computational models integrating empirical data across oceanographic scales and disciplines in order to tease out the mechanisms driving populations and ecosystems, as well as to help provide decision-support systems for natural resource conservation and management. Beyond research, the lab is actively involved in promoting better appreciation and understanding of the oceans and science at various levels: from high school kids to graduate students.
+  <p class="atlas-light banner-content">
+    {{myArr[0].content}}
   </p>
 
-  <span style="margin-top: 40px; display: flex; justify-content: flex-end; text-decoration: underline; color: #384e8a; cursor: pointer;">VISIT OUR FULL SITE</span>
+  <span class="visit">VISIT OUR FULL SITE</span>
 
-  <p class="atlas-blackReg" style="line-height: 1.2;
-  margin-top: 30px;
-  color: #384e8a;
-  font-size: 30px;
-  margin-bottom: 20px;">Gallery</p>
-
-    <carousel
-      [margin]="20"
-      [freeScroll]="true"
-      [transitionTimingFunction]="'ease-in-out'"
-      [transitionDuration]="'1000'"
-      [height]="200"
-      [cellsToShow]="3"
-      [cellsToScroll]="2"
-      [cellWidth]="'100%'"
-      [arrowsOutside]="true"
-      [objectFit]="'cover'"
-      [overflowCellsLimit]="1"
-      [dots]="false"
-      >
-
-      <div class="carousel-cell" *ngFor="let item of gallery">
-        <div class="image atlas-light" >
-          <img class="image__img" [src]="item.image">
-          <div class="image__overlay image__overlay--primary">
-              <div class="image__title atlas-bold">Title</div>
-              <p class="image__description">
-                  Short description here
-              </p>
-          </div>
-        </div>
-      </div>
-
-    </carousel>
-    <!-- <div class="image atlas-light">
-      <img src="../../../../assets/photos/biological-lab/biological2.JPG">
-      <div class="image__overlay image__overlay--primary">
-          <div class="image__title atlas-bold">Title</div>
-          <p class="image__description">
-              Short description here
-          </p>
-      </div>
-    </div> -->
-
-  <div class="profile">
-    <div class="left">
-      <img src="../../../../assets/photos/biological-lab/profile.png">
-    </div>
-
-    <div class="right">
-      <p class="atlas-blackReg" style="line-height: 1.2;
-      color: #384e8a;
-      font-size: 30px;">Principal Investigator</p>
-
-      <p class="atlas-bold" style="margin-top: 15px; color: #384e8a; font-size: 20px;">Aletta Concepcion T. Yñguez, Ph.D.</p>
-
-      <p class="atlas-light" style="color: #666666; margin-top: 15px; line-height: 1.4;">
-        Dr. Aletta Yñiguez is an Associate Professor at the Marine Science Institute, University of the Philippines in Diliman. She obtained her Ph.D. from the Rosenstiel School of Marine and Atmospheric Science (RSMAS), University of Miami in Florida with the support of Fulbright and Maytag scholarships. She is also the Chair of the UP Puerto Galera Biodiversity and Environmental Research and Outreach Center. She is interested in population and ecosystem dynamics, plankton ecology, harmful algal blooms, fisheries, human impacts on marine ecosystems, ecological modelling.
-      </p>
-    </div>
-  </div>
+  <!--  -->
+  <app-labpage-gallery></app-labpage-gallery>
 
   <div class="lab-highlight">
     <div class="left">
-      <img src="../../../../assets/photos/biological-lab/Lab highlight.jpg">
+      <img [src]="myArr[0].labHighBanner">
     </div>
 
     <div class="right">
-      <p class="atlas-blackReg" style="line-height: 1.2;
-      color: white;
-      font-size: 30px;">Lab Highlight</p>
+      <p class="atlas-blackReg lab-title">Lab Highlight</p>
 
-    <p class="atlas-bold" style="color: white; margin-top: 10px;">Estuarine, Coastal and Shelf Science</p>
+    <p class="atlas-bold lab-content">{{myArr[0].labHighlight}}</p>
 
-    <div style="margin-top: 5px; display: flex; flex-direction: row; justify-content: space-between;">
-      <p class="atlas-light" style="color: #ffffff; width: 200px; line-height: 1.3;">Cordero, et al.,</p>
-      <p class="atlas-light" style="color: #ffffff;">March 2021</p>
+    <div class="lab-cite">
+      <p class="atlas-light" style="color: #ffffff; line-height: 1.3;">{{myArr[0].labAuthor}}</p>
+      <p class="atlas-light" style="color: #ffffff;">{{myArr[0].labDate}}</p>
     </div>
 
-    <p class="atlas-light" style="color: #ffffff; margin-top: 20px; line-height: 1.3;">Characterizing the vertical phytoplankton distribution in the Philippine Sea off the northeastern coast of Luzon
-
-      </p>
-
+    <p class="atlas-light lab-context">{{myArr[0].labContent}}</p>
     </div>
   </div>
 
-  <p class="atlas-blackReg" style="line-height: 1.2;
-  margin-top: 30px;
-  color: #384e8a;
-  font-size: 30px;">Contact Us</p>
+  <app-labpage-contact></app-labpage-contact>
 
-  <div class="contact">
-    <div class="left">
-      <img src="../../../../assets/photos/biological-lab/biome.png">
-    </div>
-
-    <div class="right">
-      <p class="atlas-bold">Marine Science Institute, University of the Philippines Diliman</p>
-      <p class="atlas-bold">P. Velasquez St., University of the Philippines</p>
-      <p class="atlas-bold">Diliman, Quezon City, Philippines 1101</p>
-
-      <p class="atlas-bold" style="margin-top: 25px;">Tel. No: +63 2 922-3962</p>
-      <p class="atlas-bold">E-mail: atyniguez@msi.upd.edu.ph</p>
-      <p class="atlas-bold">Website: https://biomeph.com</p>
-    </div>
-  </div>
-
-  <div class="contact">
-    <div class="left">
-    </div>
-
-    <div class="right">
-      <img src="../../../../assets/photos/fb.png" style="margin-left: -20px; cursor: pointer;">
-      <img src="../../../../assets/photos/twitter.png" style="margin-left: -5px; cursor: pointer;">
-      <img src="../../../../assets/photos/insta.png" style="cursor: pointer;">
-    </div>
-  </div>
-
-  <div class="next">
-    <mat-icon style="font-size: 40px;">arrow_forward</mat-icon>
-    <span class="navi" style="line-height: 1.3;">
+  <!-- <div class="next">
+    <mat-icon class="arrow-forward">arrow_forward</mat-icon>
+    <span class="navi" style="padding-left: 2%; line-height: 1.3;">
       <p class="atlas-bold">Next</p>
       <p class="atlas-light">Marine Biochemistry Laboratory</p>
     </span>
-  </div>
+  </div> -->
 </div>
 
-<div style="margin-top: 70px;">
+<div style="margin-top: 9%;">
   <app-footer></app-footer>
 </div>

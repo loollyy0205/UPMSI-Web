@@ -64,6 +64,8 @@ import { PressBranchComponent } from './components/news/press-branch/press-branc
 import { PressComponent } from './components/news/press/press.component';
 import { HomeBannerComponent } from './components/home/home-banner/home-banner.component';
 import { DownloadableFormsComponent } from './components/education/downloadable-forms/downloadable-forms.component';
+import { LabpageGalleryComponent } from './components/research/labpage/labpage-gallery/labpage-gallery.component';
+import { LabpageContactComponent } from './components/research/labpage/labpage-contact/labpage-contact.component';
 
 @NgModule({
   declarations: [
@@ -120,7 +122,9 @@ import { DownloadableFormsComponent } from './components/education/downloadable-
     InstituteObjectivesComponent,
     InstituteFocusComponent,
     AboutMsiComponent,
-    DownloadableFormsComponent
+    DownloadableFormsComponent,
+    LabpageGalleryComponent,
+    LabpageContactComponent
   ],
   imports: [
     BrowserModule,

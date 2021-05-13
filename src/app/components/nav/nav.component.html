@@ -25,10 +25,15 @@
             <button mat-button [routerLink]="['/About']" [style.backgroundColor]="about ? '#fafafa' : '' || hoverAbout ? '#5da563' : ''" [style.color]="about ? '#5da563' : ''|| hoverAbout ? '#fafafa' : ''">ABOUT</button>
           </div>
           <div (mouseover)="hoverAbout=true" (mouseleave)="hoverAbout=false" class="dropdown-menu">
-            <span [routerLink]="['/About/about-msi']">About MSI</span>
+            <span>About MSI</span>
             <span [routerLink]="['/About/About-the-director']">About the Director</span>
             <div class="sub-menu">
               <span [routerLink]="['/About/faculty']">Faculty</span>
+              <!--<p id="sub-down">
+                <span>Residents</span>
+                <span>Professors Emeriti</span>
+                <span>Retired</span>
+              </p> -->
             </div>
 
             <span [routerLink]="['/About/admin']">Admin</span>
@@ -40,8 +45,10 @@
             <button mat-button [routerLink]="['/News']" [style.backgroundColor]="news ? '#fafafa' : '' || hoverNews ? '#5da563' : ''" [style.color]="news ? '#5da563' : ''|| hoverNews ? '#fafafa' : ''">NEWS</button>
           </div>
           <div (mouseover)="hoverNews=true" (mouseleave)="hoverNews=false" class="dropdown-menu">
+            <span [routerLink]="['/News/more']">MSI News</span>
             <span [routerLink]="['/News/Announcement']">Announcement</span>
-            <span [routerLink]="['/News/Vacancies-and-Opportunities']">Vacancies/Opportunities</span>
+            <span style="line-height: 1.3;" [routerLink]="['/News/press']">Press Coverage</span>
+            <span [routerLink]="['/News/Vacancies-and-Opportunities/more']">Vacancies/Opportunities</span>
             <span style="line-height: 1.3;" [routerLink]="['/News/Research-projects-and-highlights']">Research Projects/Highlights</span>
           </div>
         </div>
@@ -51,7 +58,7 @@
             <button mat-button [routerLink]="['/Academics']" [style.backgroundColor]="education ? '#fafafa' : '' || hoverAcademics ? '#5da563' : ''" [style.color]="education ? '#5da563' : ''|| hoverAcademics ? '#fafafa' : ''">ACADEMICS</button>
           </div>
           <div (mouseover)="hoverAcademics=true" (mouseleave)="hoverAcademics=false" class="dropdown-menu">
-            <span [routerLink]="['/Academics/courses-offered']">Courses Offered</span>
+            <span [routerLink]="['/Academics/courses-offered']">Course Offered</span>
             <span [routerLink]="['/Academics/downloadable-forms']">Downloadable Forms</span>
           </div>
         </div>
@@ -76,12 +83,12 @@
             <span>Pag-Asa Marine Station</span>
             <div class="sub-menu">
               <span>Floating Assets</span>
-              <p id="sub-down">
+              <!--<p id="sub-down">
                 <span>RV Panata</span>
                 <span>RV Kalayaan</span>
                 <span>RV Mandaragat</span>
                 <span>Speedboats and NARFleet</span>
-              </p>
+              </p>-->
             </div>
           </div>
         </div>

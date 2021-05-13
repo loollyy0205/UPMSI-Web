@@ -55,7 +55,7 @@ const routes: Routes = [
   {path: 'Research', component: ResearchComponent},
   {path: 'Research/areas-of-research', component: AreasOfResearchComponent},
   {path: 'Research/laboratories', component: LaboratoriesComponent},
-  // {path: 'Research/laboratories/:name', component: LabpageComponent},
+  {path: 'Research/laboratories/:name', component: LabpageComponent},
   {path: 'Facilities', component: FacilitiesComponent},
   {path: 'Facilities/bolinao-marine-lab', component: BolinaoComponent},
   {path: 'Extension', component: ExtensionComponent},

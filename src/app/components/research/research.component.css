@@ -8,7 +8,7 @@
 .content3-left{
   width: 43%;
   background-color: #384e8a;
-  padding: 80px;
+  padding: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +16,7 @@
 
 .content3-right{
   width: 57%;
-  background-image: url(../../../assets/photos/r1.JPG);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/research%2F01-areas-of-research.png?alt=media&token=74da1ac6-36de-4b93-aa9c-1a148b00622b);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -31,7 +31,7 @@
 
 .content2-left{
   width: 53%;
-  background-image: url(../../../assets/photos/r2.JPG);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/research%2F02-laboratories.png?alt=media&token=c5d5a7d7-1ece-446e-b5b9-0ef4435e2ead);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -39,7 +39,7 @@
 .content2-right{
   width: 47%;
   background-color: #5da563;
-  padding: 80px;
+  padding: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,13 +59,41 @@
   margin-top: 20px;
 }
 
-.learn-more{
-  text-decoration: underline;
-  color: white;
+.position{
+  margin-top: 32px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 20px;
+  justify-content: flex-start;
+}
+
+.learn-more-a{
+  width: 250px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #5da563;
+  color: white;
+  margin-top: 15px;
+}
+
+.learn-more-b{
+  width: 250px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #384e8a;
+  color: white;
+  margin-top: 15px;
 }
 
 .footer{
@@ -89,10 +117,6 @@
 
   .title{
     font-size: 45px;
-  }
-
-  .research-context, .learn-more{
-    margin-top: 25px;
   }
 
   .footer{
@@ -119,10 +143,6 @@
     font-size: 50px;
   }
 
-  .research-context, .learn-more{
-    margin-top: 30px;
-  }
-
   .footer{
     margin-top: 140px;
   }
@@ -145,10 +165,6 @@
 
   .title{
     font-size: 55px;
-  }
-
-  .research-context, .learn-more{
-    margin-top: 35px;
   }
 
   .footer{
@@ -175,10 +191,6 @@
     font-size: 60px;
   }
 
-  .research-context, .learn-more{
-    margin-top: 40px;
-  }
-
   .footer{
     margin-top: 160px;
   }
@@ -201,10 +213,6 @@
 
   .title{
     font-size: 65px;
-  }
-
-  .research-context, .learn-more{
-    margin-top: 45px;
   }
 
   .footer{
@@ -231,10 +239,6 @@
     font-size: 70px;
   }
 
-  .research-context, .learn-more{
-    margin-top: 50px;
-  }
-
   .footer{
     margin-top: 180px;
   }
@@ -257,10 +261,6 @@
 
   .title{
     font-size: 75px;
-  }
-
-  .research-context, .learn-more{
-    margin-top: 55px;
   }
 
   .footer{

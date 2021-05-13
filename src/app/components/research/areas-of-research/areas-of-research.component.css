@@ -1,16 +1,323 @@
+.container{
+  font-size: 16px;
+}
+
 .content{
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 9%;
+  margin-right: 9%;
   margin-top: 50px;
   height: 100%;
   display: flex;
   flex-direction: row;
+}
 
+.photo-by {
+  font-size: 11px;
+  color: #fff;
+  position: absolute;
+  bottom: 3%;
+  left: 1.5%;
+}
+
+.lab-desc{
+  margin-top: 20px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.lab-img1{
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 50px;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform .5s ease;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
+
+.lab-img{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  height: 100%;
+  width: 45%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
 }
 
 
-@media only screen and (max-width: 600px) {
-  .content {
-    background-color: lightblue;
+.right1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title{
+  font-size: 16px;
+  color: white;
+  width: 350px;
+  line-height: 1.3;
+}
+
+.sub-title {
+  font-size: 16px;
+  margin-top: 10px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+
+.right-body{
+  font-size: 16px;
+  line-height: 1.3;
+  color: white;
+  outline: none;
+}
+
+.lab-image2{
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 50px;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+}
+
+.lab-img2{
+  position: absolute;
+  top: 8px;
+  left: 4%;
+  height: 100%;
+  width: 50%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.left2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 70px;
+}
+
+.facilities-next{
+  color: #384e8a;
+  margin-top: 30px;
+  margin-left: 9%;
+  margin-right: 9%;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.arrow{
+  font-size: 40px;
+}
+
+.hr-line{
+  margin: 15px 9% 30px 9%;
+}
+
+.title-header{
+  font-size: 35px;
+}
+
+.bottom-bor{
+  border-bottom: 3px solid #5da563;
+  width: 221px;
+  margin: 10px 0;
+}
+
+.context{
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+}
+
+.context-left{
+  width: 40%;
+}
+
+.context-right{
+  margin-left: 5%;
+}
+
+.context p:nth-child(n+2) {
+  margin-top: 10px;
+}
+
+.footer{
+  margin-top: 9%;
+}
+
+@media (min-width: 1600px) {
+  .container{
+    font-size: 19px;
+  }
+
+  .content{
+    margin-top: 59px;
+  }
+
+  .photo-by {
+    font-size: 13px;
+  }
+
+  .lab-desc{
+    margin-top: 23px;
+    font-size: 19px;
+  }
+
+  .lab-img1{
+    margin-top: 59px;
+    height: 445px;
+  }
+
+  .title{
+    font-size: 19px;
+    width: 410px;
+  }
+
+  .sub-title {
+    font-size: 19px;
+    margin-top: 12px;
+    margin-bottom: 35px;
+  }
+
+  .right-body{
+    font-size: 19px;
+  }
+
+  .lab-image2{
+    margin-top: 59px;
+    height: 445px;
+  }
+
+
+  .left2{
+    margin-left: 82px;
+  }
+
+  .facilities-next{
+    margin-top: 35px;
+  }
+
+  .arrow{
+    font-size: 47px;
+  }
+
+  .hr-line{
+    margin: 18px 9% 35px 9%;
+  }
+
+  .title-header{
+    font-size: 41px;
+  }
+
+  .bottom-bor{
+    border-bottom: 4px solid #5da563;
+    width: 259px;
+    margin: 12px 0;
+  }
+
+  .context{
+    width: 820px;
+  }
+
+  .context p:nth-child(n+2) {
+    margin-top: 12px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .container{
+    font-size: 23px;
+  }
+
+  .content{
+    margin-top: 71px;
+  }
+
+  .photo-by {
+    font-size: 16px;
+  }
+
+  .lab-desc{
+    margin-top: 28px;
+    font-size: 23px;
+  }
+
+  .lab-img1{
+    margin-top: 71px;
+    height: 528px;
+  }
+
+  .title{
+    font-size: 23px;
+    width: 4920px;
+  }
+
+  .sub-title {
+    font-size: 23px;
+    margin-top: 14px;
+    margin-bottom: 42px;
+  }
+
+  .right-body{
+    font-size: 23px;
+  }
+
+  .lab-image2{
+    margin-top: 71px;
+    height: 528px;
+  }
+
+
+  .left2{
+    margin-left: 98px;
+  }
+
+  .facilities-next{
+    margin-top: 42px;
+  }
+
+  .arrow{
+    font-size: 56px;
+  }
+
+  .hr-line{
+    margin: 22px 9% 42px 9%;
+  }
+
+  .title-header{
+    font-size: 49px;
+  }
+
+  .bottom-bor{
+    border-bottom: 5px solid #5da563;
+    width: 311px;
+    margin: 14px 0;
+  }
+
+  .context{
+    width: 984px;
+  }
+
+  .context p:nth-child(n+2) {
+    margin-top: 14px;
   }
 }
