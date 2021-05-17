@@ -83,7 +83,10 @@ ngStickyNav{
 @font-face{
   font-family: 'Atlas Grotesk LC Web Reg Italic';
   src: url("./assets/Fonts/Atlas Grotesk LC Web Reg Italic.ttf");
-  font-weight: 100;
+}
+
+.blackItalic {
+  font-family: 'Atlas Grotesk LC Web Reg Italic';
 }
 
 .atlas-light{

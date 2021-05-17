@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="atlas-blackReg title border-green">OUR FOCUS</div>
+  <p class="atlas-light" style="line-height: 1.4; margin-top: 1.7%;">This facility will focus on two main themes: Biodiversity and Ecosystem Health; and Disaster Risk Reduction and Management. Each theme would have research, education, and outreach components.</p>
+  <div class="box-card">
+    <div class="box-card-content">
+      <div class="card" *ngFor="let item of ourFocus">
+        <div class="left">
+          <img [src]="item.img" />
+        </div>
+        <div class="right">
+          <p class="atlas-bold" style="color: #384e8a; text-transform: uppercase;">{{item.title}}</p>
+          <p class="card-content">{{item.content}}</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -25,7 +25,7 @@
             <button mat-button [routerLink]="['/About']" [style.backgroundColor]="about ? '#fafafa' : '' || hoverAbout ? '#5da563' : ''" [style.color]="about ? '#5da563' : ''|| hoverAbout ? '#fafafa' : ''">ABOUT</button>
           </div>
           <div (mouseover)="hoverAbout=true" (mouseleave)="hoverAbout=false" class="dropdown-menu">
-            <span>About MSI</span>
+            <span [routerLink]="['/About/about-msi']">About MSI</span>
             <span [routerLink]="['/About/About-the-director']">About the Director</span>
             <div class="sub-menu">
               <span [routerLink]="['/About/faculty']">Faculty</span>
@@ -79,10 +79,10 @@
           </div>
           <div (mouseover)="hoverFacilities=true" (mouseleave)="hoverFacilities=false" class="dropdown-menu">
             <span [routerLink]="['/Facilities/bolinao-marine-lab']">Bolinao Marine Lab</span>
-            <span>Puerto Galera Station</span>
-            <span>Pag-Asa Marine Station</span>
+            <span [routerLink]="['/Facilities/puerto-galera-station']">Puerto Galera Station</span>
+            <span [routerLink]="['/Facilities/pag-asa-marine-station']">Pag-Asa Marine Station</span>
             <div class="sub-menu">
-              <span>Floating Assets</span>
+              <span [routerLink]="['/Facilities/floating-assets']">Floating Assets</span>
               <!--<p id="sub-down">
                 <span>RV Panata</span>
                 <span>RV Kalayaan</span>

@@ -73,6 +73,17 @@ export class NavComponent implements OnInit {
     }else if(this.router.url === '/Facilities/bolinao-marine-lab'){
       this.facilities = true;
       this.bml = true;
+    }else if(this.router.url === '/Facilities/puerto-galera-station'){
+      this.facilities = true;
+      this.bml = true;
+    }else if(this.router.url === '/Facilities/pag-asa-marine-station'){
+      this.facilities = true;
+      this.bml = true;
+    }else if(this.router.url === '/Facilities/floating-assets'){
+      this.facilities = true;
+      this.bml = true;
+    }else if(this.router.url === '/Facilities/bolinao-marine-lab/bml-complex'){
+      this.facilities = true;
     }else if(this.router.url === '/Extension'){
       this.extension = true;
     }else if(this.router.url === '/Extension/gallery'){

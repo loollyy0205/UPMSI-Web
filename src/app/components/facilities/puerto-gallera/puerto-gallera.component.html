@@ -1,0 +1,62 @@
+<app-nav></app-nav>
+<div class="container animate__animated animate__fadeIn animate__delay-1s">
+  <app-puerto-header></app-puerto-header>
+
+  <div>
+    <div class="center-box">
+      <div class="box-content">
+        <div class="left">
+          <img src="https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/facilities%2Fpuerto%2F02-about-the-center.jpg?alt=media&token=4e0a8a4f-ec4f-4bd7-84de-4f048d2532fc">
+        </div>
+
+        <div class="right"  style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+
+            <p class="atlas-blackReg title" style="color: #394e8a;">THE FACILITY</p>
+            <div style="display: flex;">
+              <p class="atlas-light date">2021</p>
+              <p class="atlas-light location">PUERTO GALERA, ORIENTAL MINDORO</p>
+
+            </div>
+            <p class="atlas-light history-content">This center will provide a venue for the faculty, students and staff of the University of the Philippines system to conduct research, education and outreach activities. This will also extend to international researchers and students where there is much interest in this high biodiversity ecosystem. Through the educational and outreach activities that are planned to be hosted in this center, different sectors in the local community (youth, adults, tourists) and interested private sector are expected to gain better awareness, appreciation and understanding of the</p>
+
+          </div>
+          <p class="atlas-bold read-more"(click)="readMore = true" *ngIf="!readMore">READ MORE</p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div style="display: grid; place-content: center;" *ngIf="readMore">
+      <div class="bottom-content">
+        <p class="atlas-light">environment and resources. Local government executives and officials from national agencies are also expected to benefit from the center through the planned establishment of trainings with information and tools for a holistic (ridge to reef) approach to manage their own communities and resources, as well as dealing with hazards.</p>
+      </div>
+    </div>
+
+    <div class="center-box">
+      <app-puerto-focus></app-puerto-focus>
+    </div>
+
+    <div class="center-box">
+      <app-puerto-components></app-puerto-components>
+    </div>
+
+    <div class="center-box">
+      <app-puerto-location></app-puerto-location>
+    </div>
+
+    <div style="display: grid; place-content: center;">
+      <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s" (click)="gotoFacilities()">
+        <span style="margin-top: 8px;">
+          <p class="atlas-light">TO PAG-ASA MARINE STATION</p>
+        </span>
+        <mat-icon class="arrow">arrow_forward</mat-icon>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <app-footer></app-footer>
+</div>

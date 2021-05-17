@@ -16,8 +16,21 @@
   justify-content: center;
 }
 
+.contact .left2{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .contact .left img{
   height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.contact .left2 img{
+  height: 80px;
   width: 200px;
   object-fit: cover;
 }
@@ -68,6 +81,11 @@
     width: 234px;
   }
 
+  .contact .left2 img{
+    height: 94px;
+    width: 234px;
+  }
+
   .contact .right{
     margin-left: 59px;
   }
@@ -108,6 +126,11 @@
   .contact .left img{
     height: 278px;
     width: 278px;
+  }
+
+  .contact .left2 img{
+    height: 112px;
+    width: 234px;
   }
 
   .contact .right{

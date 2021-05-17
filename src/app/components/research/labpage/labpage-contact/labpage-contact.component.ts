@@ -25,9 +25,16 @@ export class LabpageContactComponent implements OnInit {
     email: 'Email: microocelab@msi.upd.edu.ph'
   }];
 
+  algae = [{
+    logo2: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2F0%20AlgaE%20lab%20logo%20hi-res.png?alt=media&token=f819746b-79ec-4481-b14b-8b4ab1efe42d',
+    tel: 'Tel. no.: (63 02) 8991 8500',
+    email: 'Email: algalecolab@msi.upd.edu.ph'
+  }];
+
   myArr = [];
 
   mielbool:boolean = true;
+  algaeBool:boolean = true;
 
   constructor(private router:Router) { }
 
@@ -39,6 +46,9 @@ export class LabpageContactComponent implements OnInit {
       this.mielbool = false;
     }else if(this.router.url === '/Research/laboratories/microbial-oceanography-lab'){
       this.myArr = this.mol;
+    }else if(this.router.url === '/Research/laboratories/algal-eco-physiology-lab'){
+      this.myArr = this.algae;
+      this.algaeBool = false;
     }
   }
 

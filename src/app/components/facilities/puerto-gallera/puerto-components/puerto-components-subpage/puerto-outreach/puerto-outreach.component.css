@@ -1,0 +1,120 @@
+* {
+  font-size: 16px;
+}
+
+.bottom {
+  padding-bottom: 6%;
+}
+
+.title {
+  font-size: 25px;
+  margin-top: 68px;
+}
+
+.sub-title {
+  margin-top: 18px;
+}
+
+.container{
+  margin: 0 9%;
+  margin-top: 20px;
+}
+
+.footer{
+  margin-top: 9%;
+}
+
+.facilities-next{
+  color: #384e8a;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.navi {
+  margin-top: 1%;
+}
+
+.navi:hover{
+  text-decoration: underline;
+}
+
+.arrow {
+  font-size: 35px;
+  margin-top: 3px;
+}
+
+.hr-line{
+  margin: 15px 9% 30px 9%;
+}
+
+.box-card {
+  margin-top: 29px;
+  height: 100%;
+}
+
+.box-card-content {
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  height: 100%;
+  background-color: #F5F5F5;
+  margin-bottom: 18px;
+  padding-left: 56px;
+}
+
+.card img {
+  float: left;
+  padding-right: 35px;
+  padding-bottom: 10px;
+  width: 380px;
+  height: 220px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.right {
+  padding: 20px 0;
+  margin-right: 40px;
+}
+
+.card-content {
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+.read-more {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-top: -1%;
+}
+
+.limitTextHeight {
+  height: 185px;
+  overflow: hidden;
+}
+
+.limitTextHeight2 {
+  height: 185px;
+  overflow: hidden;
+}
+
+.limitTextHeight3 {
+  height: 185px;
+  overflow: hidden;
+}
+
+.limitTextHeight4 {
+  height: 185px;
+  overflow: hidden;
+}
+
+.limitTextHeight5 {
+  height: 185px;
+  overflow: hidden;
+}

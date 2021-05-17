@@ -66,6 +66,20 @@ import { HomeBannerComponent } from './components/home/home-banner/home-banner.c
 import { DownloadableFormsComponent } from './components/education/downloadable-forms/downloadable-forms.component';
 import { LabpageGalleryComponent } from './components/research/labpage/labpage-gallery/labpage-gallery.component';
 import { LabpageContactComponent } from './components/research/labpage/labpage-contact/labpage-contact.component';
+import { ComplexSubpageComponent } from './components/facilities/bolinao/bolinao-complex/complex-subpage/complex-subpage.component';
+import { PuertoGalleraComponent } from './components/facilities/puerto-gallera/puerto-gallera.component';
+import { PuertoComponentsComponent } from './components/facilities/puerto-gallera/puerto-components/puerto-components.component';
+import { PuertoHeaderComponent } from './components/facilities/puerto-gallera/puerto-header/puerto-header.component';
+import { PuertoFocusComponent } from './components/facilities/puerto-gallera/puerto-focus/puerto-focus.component';
+import { PuertoLocationComponent } from './components/facilities/puerto-gallera/puerto-location/puerto-location.component';
+import { PagAsaComponent } from './components/facilities/pag-asa/pag-asa.component';
+import { PagAsaHeaderComponent } from './components/facilities/pag-asa/pag-asa-header/pag-asa-header.component';
+import { PagAsaLocationComponent } from './components/facilities/pag-asa/pag-asa-location/pag-asa-location.component';
+import { PagAsaObjectivesComponent } from './components/facilities/pag-asa/pag-asa-objectives/pag-asa-objectives.component';
+import { PagOutputComponent } from './components/facilities/pag-asa/pag-output/pag-output.component';
+import { FloatingAssetsComponent } from './components/facilities/floating-assets/floating-assets.component';
+import { PuertoComponentsSubpageComponent } from './components/facilities/puerto-gallera/puerto-components/puerto-components-subpage/puerto-components-subpage.component';
+import { PuertoOutreachComponent } from './components/facilities/puerto-gallera/puerto-components/puerto-components-subpage/puerto-outreach/puerto-outreach.component';
 
 @NgModule({
   declarations: [
@@ -124,7 +138,21 @@ import { LabpageContactComponent } from './components/research/labpage/labpage-c
     AboutMsiComponent,
     DownloadableFormsComponent,
     LabpageGalleryComponent,
-    LabpageContactComponent
+    LabpageContactComponent,
+    ComplexSubpageComponent,
+    PuertoGalleraComponent,
+    PuertoComponentsComponent,
+    PuertoHeaderComponent,
+    PuertoFocusComponent,
+    PuertoLocationComponent,
+    PagAsaComponent,
+    PagAsaHeaderComponent,
+    PagAsaLocationComponent,
+    PagAsaObjectivesComponent,
+    PagOutputComponent,
+    FloatingAssetsComponent,
+    PuertoComponentsSubpageComponent,
+    PuertoOutreachComponent
   ],
   imports: [
     BrowserModule,

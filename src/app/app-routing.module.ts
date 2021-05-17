@@ -1,3 +1,9 @@
+import { PuertoComponentsSubpageComponent } from './components/facilities/puerto-gallera/puerto-components/puerto-components-subpage/puerto-components-subpage.component';
+import { FloatingAssetsComponent } from './components/facilities/floating-assets/floating-assets.component';
+import { PagAsaComponent } from './components/facilities/pag-asa/pag-asa.component';
+import { PuertoGalleraComponent } from './components/facilities/puerto-gallera/puerto-gallera.component';
+import { PuertoComponentsComponent } from './components/facilities/puerto-gallera/puerto-components/puerto-components.component';
+import { ComplexSubpageComponent } from './components/facilities/bolinao/bolinao-complex/complex-subpage/complex-subpage.component';
 import { DownloadableFormsComponent } from './components/education/downloadable-forms/downloadable-forms.component';
 import { AboutMsiComponent } from './components/about/about-msi/about-msi.component';
 import { AboutAdminComponent } from './components/about/about-admin/about-admin.component';
@@ -15,7 +21,6 @@ import { GalleryComponent } from './components/extension/gallery/gallery.compone
 import { AdminNewsComponent } from './components/admin/admin-news/admin-news.component';
 import { AdminHomeComponent } from './components/admin/admin-home/admin-home.component';
 import { AdminDashboardComponent } from './components/admin/admin-dashboard/admin-dashboard.component';
-import { AdminNavComponent } from './components/admin/admin-nav/admin-nav.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { LaboratoriesComponent } from './components/research/laboratories/laboratories.component';
 import { FacultyComponent } from './components/about/faculty/faculty.component';
@@ -58,6 +63,11 @@ const routes: Routes = [
   {path: 'Research/laboratories/:name', component: LabpageComponent},
   {path: 'Facilities', component: FacilitiesComponent},
   {path: 'Facilities/bolinao-marine-lab', component: BolinaoComponent},
+  {path: 'Facilities/puerto-galera-station', component: PuertoGalleraComponent},
+  {path: 'Facilities/puerto-galera-station/components', component: PuertoComponentsSubpageComponent},
+  {path: 'Facilities/pag-asa-marine-station', component: PagAsaComponent},
+  {path: 'Facilities/floating-assets', component: FloatingAssetsComponent},
+  {path: 'Facilities/bolinao-marine-lab/bml-complex', component: ComplexSubpageComponent},
   {path: 'Extension', component: ExtensionComponent},
   {path: 'Extension/gallery', component: GalleryComponent},
   {path: 'Extension/gallery/images', component: ImagesTabComponent},

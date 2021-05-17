@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bolinao-facilities.component.css']
 })
 export class BolinaoFacilitiesComponent implements OnInit {
-  faciContent = [{title: 'RESEARCH FACILITIES', image: '../../../../assets/photos/BML-photos/3-facilities-1.jpg' ,content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet laborum ex non perferendis, necessitatibus quae, corporis ab dicta sint provident nihil. Qui necessitatibus, repudiandae molestiae similique itaque, pariatur dolore repellat dolorem, tenetur natus quas eveniet earum incidunt ratione adipisci voluptates excepturi vel accusamus modi sit hic in dignissimos fugiat? Facilis?'},
-  {title: 'FIELD BASED FACILITIES', image: '../../../../assets/photos/BML-photos/4-facilities-2.jpg', content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat assumenda laudantium magni doloribus ad sequi voluptates harum fugiat illo quia, voluptatem, dolores distinctio perspiciatis aliquam! Voluptatem alias debitis pariatur natus obcaecati minima dolore.'},
-  {title: 'OTHER CAMPUS FACILITIES', image: '../../../../assets/photos/BML-photos/5-facilities-3.jpg', content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius modi earum a totam expedita nihil magni commodi aliquam, illo laboriosam ad quam harum iure repudiandae?'}
-];
+  instituteCont = [
+    {img: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/facilities%2Fbml%2F4-research-facilities.jpg?alt=media&token=1fe88e12-7e13-4cbb-96d4-52583a93c4bb', title: 'RESEARCH FACILITIES', content: 'BML maintains outdoor culture facilities and experimental areas with flow-through seawater and continuous aeration, as well as facilities for microa-lgae culture. Laboratories are equipped with analytical instruments. Generators ensure 24/7 power supply. SCUBA and snorkeling gear and small watercraft are available for fieldwork.'},
+    {img: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/facilities%2Fbml%2F4.2-field-based-facilities.jpg?alt=media&token=8bd7e3d4-df51-4b22-8209-2b8fde4c88b2', title: 'FIELD-BASED FACILITIES', content: `The biodiversity of Bolinao and its surrounding waters makes BML an ideal location for marine science research. Field-based facilities include the giant clam ocean nursery and sea cucumber sea ranch. Continuous monitoring systems record environmental parameters at various sites.`},
+    {img: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/facilities%2Fbml%2F4.3-other-campus-facilities.JPG?alt=media&token=bb34236b-0874-4c75-bd8f-1d54419b5d57', title: 'OTHER CAMPUS FACILITIES', content: `The BML campus maintains an on-site library, museums for fish, clam, and coral collections, classrooms, conference facilities, and housing for students and researchers.`},
+  ]
   constructor() { }
 
   ngOnInit(): void {

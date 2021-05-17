@@ -1,0 +1,61 @@
+<app-nav></app-nav>
+<div class="container animate__animated animate__fadeIn animate__delay-1s">
+  <app-pag-asa-header></app-pag-asa-header>
+
+  <div>
+    <div class="center-box">
+      <div class="box-content">
+        <div class="left">
+          <img src="https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/pag-asa%2F02-rare-pag-asa.png?alt=media&token=3baf8d86-a627-4da5-8bb2-30dbcdcfa39f">
+        </div>
+
+        <div class="right"  style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+
+            <p class="atlas-blackReg title" style="color: #394e8a;">RARE PAG-ASA</p>
+            <div style="display: flex;">
+              <p class="atlas-light date">REPAIR AND REFURBISH PAG-ASA</p>
+
+            </div>
+            <p class="atlas-light history-content">The effects of human activities compounded by changes in the climate are exacerbating ecological problems in the world’s oceans. There is an urgent need to look at how these activities affect different marine ecosystems to gain a better understanding in aid of management of resources, especially for countries that are highly dependent on marine resources, such as the Philippines. Specifically, among the most extensive but least studied areas are found in the West Philippine Sea, which are maritime areas on the western side of the Philippine</p>
+
+          </div>
+          <p class="atlas-bold read-more"(click)="readMore = true" *ngIf="!readMore">READ MORE</p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div style="display: grid; place-content: center;" *ngIf="readMore">
+      <div class="bottom-content">
+        <p class="atlas-light"> archipelago situated in the South China Sea. It is one of the major marine biogeographic regions of the country, which from north to south, covers the waters off the coasts of 13 provinces. These waters are of great importance to the Philippines in terms of fisheries. Fish production from the West Philippine Sea constituted 21% of the country’s total for 2012, equivalent to over 5,000 tons of landed catch with a value of more than PhP 33 million, which also generated employment for 627,000 people.</p>
+      </div>
+    </div>
+
+    <div class="center-box">
+      <app-pag-asa-location></app-pag-asa-location>
+    </div>
+
+    <div class="center-box">
+      <app-pag-asa-objectives></app-pag-asa-objectives>
+    </div>
+
+    <div class="center-box">
+      <app-pag-output></app-pag-output>
+    </div>
+
+    <div style="display: grid; place-content: center;">
+      <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s" (click)="gotoFacilities()">
+        <span style="margin-top: 8px;">
+          <p class="atlas-light">TO FLOATING ASSETS</p>
+        </span>
+        <mat-icon class="arrow">arrow_forward</mat-icon>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <app-footer></app-footer>
+</div>

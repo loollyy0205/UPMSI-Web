@@ -149,6 +149,15 @@ img{
   bottom: 5%;
 }
 
+.right-bottom-logo2 {
+  position: absolute;
+  height: 60px;
+  width: 180px;
+  object-fit: cover;
+  right: 3%;
+  bottom: 5%;
+}
+
 @media (min-width: 1600px) {
 
   .right-bottom-logo {
@@ -237,6 +246,11 @@ img{
   .arrow-forward {
     font-size: 47px;
   }
+
+  .right-bottom-logo2 {
+    height: 70px;
+    width: 211px;
+  }
 }
 
 @media (min-width: 1900px) {
@@ -244,6 +258,11 @@ img{
   .right-bottom-logo {
     height: 139px;
     width: 139px;
+  }
+
+  .right-bottom-logo2 {
+    height: 83px;
+    width: 251px;
   }
 
   .content {

@@ -16,7 +16,8 @@
 
   <div class="banner">
     <img [src]="myArr[0].photoBanner">
-    <img [src]="myArr[0].bannerLogo" class="right-bottom-logo"/>
+    <img [src]="myArr[0].bannerLogo" *ngIf="!algaeBool" class="right-bottom-logo"/>
+    <img [src]="myArr[0].bannerLogo2" *ngIf="algaeBool" class="right-bottom-logo2"/>
   </div>
 
   <div class="title atlas-blackReg" style="text-transform: uppercase;">
@@ -48,6 +49,13 @@
     </div>
 
     <p class="atlas-light lab-context">{{myArr[0].labContent}}</p>
+
+    <p class="atlas-bold lab-content">{{myArr[0].labHighlight2}}</p>
+
+    <div class="lab-cite">
+      <p class="atlas-light" style="color: #ffffff; line-height: 1.3;">{{myArr[0].labAuthor2}}</p>
+      <p class="atlas-light" style="color: #ffffff;">{{myArr[0].labDate2}}</p>
+    </div>
     </div>
   </div>
 

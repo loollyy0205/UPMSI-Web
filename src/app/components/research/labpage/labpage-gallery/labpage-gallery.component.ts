@@ -57,6 +57,28 @@ export class LabpageGalleryComponent implements OnInit {
     aboutPi: 'Deo is known for being the first Filipino to descend into the Emden Deep in the Philippine Trench. Determined to find sustainable solutions to the climate change issues affecting the world’s oceans through ecology, his work centres on further understanding the diversity, ecology, distribution, and responses of microbial communities to these changing conditions.',
   }];
 
+  algae = [{
+    gallery: [
+      {image: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2FFieldwork_GOPR0125_2.jpg?alt=media&token=0d5e4848-7d2c-4280-8ac0-c23419fff699', title: 'Gallery-01'},
+      {image: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2FGenebank_IMG_7516.jpg?alt=media&token=da1af621-51f8-4605-be72-31431af5ee20', title: 'Gallery-02'},
+      {image: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2FOutdoor%20landbased%20nursery_GOPR9498.JPG?alt=media&token=a23d8685-cd6e-42b7-87eb-4d2568dd73f1', title: 'Gallery-03'},
+      {image: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2FOutdoor%20landbased%20nursery_IMG_6190_2.jpg?alt=media&token=6117cb1b-db4b-431b-a5e0-ebf00e01d561', title: 'Gallery-04'},
+      {image: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2FOutdoor%20landbased%20nursery_IMG_6205.JPG?alt=media&token=718628ad-2fa0-413a-924e-be8da235c49b', title: 'Gallery-05'},
+      {image: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2FOutdoor%20landbased%20nursery_IMG_7991.JPG?alt=media&token=6d2f0f3a-aab4-4f88-8fea-661856c339b0', title: 'Gallery-06'},
+      {image: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2FSeaweeds%20in%20natural%20habitat_RIMG0114.JPG?alt=media&token=5339c1cc-0632-4dd8-a68f-474324733c9a', title: 'Gallery-07'},
+      {image: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2FSpore%20culture_IMG_8969.JPG?alt=media&token=1ef0ae19-412b-43a7-b941-f26e8205bd5b', title: 'Gallery-08'},
+      {image: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2FSpore%20cultures_IMG_6358.jpg?alt=media&token=f980d2f3-f83c-480b-b785-b3c2e218869c', title: 'Gallery-09'},
+      {image: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2FSpore%20cultures_IMG_6459.JPG?alt=media&token=7338b76f-6856-4709-9476-0937f819177b', title: 'Gallery-10'},
+      {image: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2FSpore%20cultures_IMG_7183.JPG?alt=media&token=f4f982d0-83ba-45a0-ae2b-d22b84e69f29', title: 'Gallery-11'},
+      {image: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2FSpore%20cultures_IMG_7204.JPG?alt=media&token=2c48db33-f737-49d7-9ec8-16fe9e700749', title: 'Gallery-12'},
+    ],
+    pi: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2F3%20PI_MYRoleda.jpg?alt=media&token=196a547a-a1b6-4f9e-857c-26ef04235aa8',
+    piName: 'Michael Y. Roleda, Dr. rer. nat. ',
+    degree: 'Professor IV',
+    aboutPi: 'Dr. Michael Y. Roleda obtained his Doctorate degree in Natural Sciences (Biology) in Germany. He is currently the Deputy Director for Facilities and Resources in the institute. His research interests are algal stress physiology, applied phycology, ecophysiology, productivity, marine flora biodiversity, cultivation, photobiology, and photochemistry.',
+  }];
+
+
   mielbool: boolean = true;
   mmblbool: boolean = true;
 
@@ -75,6 +97,8 @@ export class LabpageGalleryComponent implements OnInit {
       this.myArr = this.miel;
     }else if(this.router.url === '/Research/laboratories/microbial-oceanography-lab'){
       this.myArr = this.mol;
+    }else if(this.router.url === '/Research/laboratories/algal-eco-physiology-lab'){
+      this.myArr = this.algae;
     }
 
   }

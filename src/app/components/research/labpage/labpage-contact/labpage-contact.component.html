@@ -1,8 +1,12 @@
 <p class="atlas-blackReg title">Contact Us</p>
 
 <div class="contact">
-  <div class="left">
+  <div class="left" *ngIf="algaeBool">
     <img [src]="myArr[0].logo">
+  </div>
+
+  <div class="left2" *ngIf="!algaeBool">
+    <img [src]="myArr[0].logo2">
   </div>
 
   <div class="right">

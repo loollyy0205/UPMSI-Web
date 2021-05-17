@@ -31,8 +31,7 @@ export class LabpageComponent implements OnInit {
     labHighlight: 'Identification of Priority Sites to Support Management of Commercially Important Sea Cucumber Species by Applying Infomap and Habitat Filters to Larval Dispersal Data',
     labAuthor: 'Deauna, et al.,',
     labDate: 'January 2021',
-    labContent: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto at neque perspiciatis fugit quisquam blanditiis officia similique placeat quod vitae.'
-    }
+  }
   ];
 
   mol = [
@@ -43,11 +42,27 @@ export class LabpageComponent implements OnInit {
     content: 'Understanding host-symbiont interactions, microbial biogeography, diversity, dynamics and trophic interactions, plastics-microbes interactions, and consequences of changing conditions using -omics approaches (genomics, transcriptomics and metagenomics), other molecular methods and advanced techniques in confocal laser scanning microscopy',
     labHighBanner: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/MOL%2F7.%20Lab%20highlight%20Photo%20(Dr.%20Deo%20Onda%20before%20the%20descend%20to%20the%20Emden%20Deep).jpg?alt=media&token=1737e868-aa09-4be5-9cde-6955b8ff27fc',
     labHighlight: 'Deo is known for being the first Filipino to descend into the Emden Deep in the Philippine Trench.',
-}
+  }
+  ];
+
+  algae = [
+    {viewing: 'Algal Ecophysiology Laboratory (AlgaE)',
+    photoBanner: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2F01-updated-roleda-banner.jpg?alt=media&token=c4233c37-a3fc-45f7-88b2-838b0597c30b',
+    bannerLogo2: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2F0%20AlgaE%20lab%20logo%20hi-res.png?alt=media&token=f819746b-79ec-4481-b14b-8b4ab1efe42d',
+    title: 'Algal Ecophysiology Laboratory (AlgaE)',
+    content: 'AlgaE Lab research activities focus on the study of the biology, biochemistry, and ecophysiology of tropical marine macroalgae. Research on the growth, physiology, and biochemical performance of economically and ecologically important microalgal species will help us better understand their biological responses to environmental stress and changing ocean chemistry. We also investigate the important role of light and photosynthesis in algal growth by looking at gene expression under different environmental conditions.',
+    labHighBanner: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2FEpiphytes_IMG_6395.jpeg?alt=media&token=db454850-96f1-46cb-b9e3-ec048ded1d54',
+    labHighlight: 'Discovery of novel haplotypes from wild populations of Kappaphycus (Gigartinales, Rhodophyta) in the Philippines',
+    labAuthor: 'Roleda, et al.,',
+    labDate: 'March 2021',
+    labHighlight2: 'Inorganic carbon utilization of tropical calcifying macroalgae and the impacts of intensive mariculture-derived coastal acidification on the physiological performance of the rhodolith Sporolithon sp.',
+    labAuthor2: 'Roleda, et al.,',
+    labDate2: 'November 2020',
+  }
   ];
 
   myArr = [];
-
+  algaeBool: boolean = false;
 
   constructor(private router:Router) { }
 
@@ -58,6 +73,9 @@ export class LabpageComponent implements OnInit {
       this.myArr = this.miel;
     }else if(this.router.url === '/Research/laboratories/microbial-oceanography-lab'){
       this.myArr = this.mol;
+    }else if(this.router.url === '/Research/laboratories/algal-eco-physiology-lab'){
+      this.myArr = this.algae;
+      this.algaeBool = true;
     }
   }
 

@@ -16,7 +16,7 @@
 
 .content1-right{
   width: 50%;
-  background-image: url(../../../assets/photos/faci1.JPG);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/facilities%2F01-BML.png?alt=media&token=2ea4289e-a6d6-4146-8e3d-9c47a3a7feab);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -37,7 +37,7 @@
 
 .content2-left .left{
   width: 50%;
-  background-image: url(../../../assets/photos/faci2.JPG);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/facilities%2F02-PG.png?alt=media&token=acd0ff83-549c-4baa-a956-68f5e2bf6b32);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -58,7 +58,7 @@
 
 .content2-right .left{
   width: 50%;
-  background-image: url(../../../assets/photos/faci3.JPG);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/facilities%2F03-PA.png?alt=media&token=610d00dd-24ab-4b61-b3da-2d00d0175df8);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -74,7 +74,7 @@
 .content3{
   height: 500px;
   margin-top: 50px;
-  background-image: url(../../../assets/photos/faci4.jpg);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/facilities%2F04-floating-assets.png?alt=media&token=f82c259a-544c-4061-bcc8-148e77f1fbfc);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -93,13 +93,25 @@
   margin-top: 20px;
 }
 
-.know-more{
-  text-decoration: underline;
-  color: white;
+.position{
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 20px;
+  justify-content: flex-start;
+}
+
+.learn-more{
+  width: 250px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #5da563;
+  color: white;
 }
 
 /* content 2 */
@@ -130,7 +142,7 @@
 
 .title-content3{
   color: #394e8a;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 40px;
 }
 
@@ -216,7 +228,7 @@
   }
 
   .title-content3{
-    margin-top: 30px;
+    margin-top: 60px;
     font-size: 45px;
   }
 
@@ -299,7 +311,7 @@
   }
 
   .title-content3{
-    margin-top: 35px;
+    margin-top: 65px;
     font-size: 50px;
   }
 
@@ -382,7 +394,7 @@
   }
 
   .title-content3{
-    margin-top: 40px;
+    margin-top: 70px;
     font-size: 55px;
   }
 
@@ -459,7 +471,7 @@
   }
 
   .title-content3{
-    margin-top: 45px;
+    margin-top: 75px;
     font-size: 60px;
   }
 
@@ -536,7 +548,7 @@
   }
 
   .title-content3{
-    margin-top: 50px;
+    margin-top: 80px;
     font-size: 65px;
   }
 
@@ -613,7 +625,7 @@
   }
 
   .title-content3{
-    margin-top: 55px;
+    margin-top: 85px;
     font-size: 70px;
   }
 
@@ -690,7 +702,7 @@
   }
 
   .title-content3{
-    margin-top: 60px;
+    margin-top: 90px;
     font-size: 75px;
   }
 
