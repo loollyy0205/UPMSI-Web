@@ -80,9 +80,6 @@
 /* Research CSS Section */
 .research-container{
   height: 600px;
-  background-image: url(../../../assets/photos/research.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-flow: column;
   justify-content: center;
