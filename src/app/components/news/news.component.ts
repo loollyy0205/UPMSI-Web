@@ -22,11 +22,11 @@ export class NewsComponent implements OnInit {
   }
 
   moreNews(){
-    this.router.navigate(['/News/more']);
+    this.router.navigate(['/News/news-headlines']);
   }
 
   newsContent(){
-    this.router.navigate(['/News/content']);
+    this.router.navigate(['/News/']);
   }
 
 
@@ -39,6 +39,6 @@ export class NewsComponent implements OnInit {
   }
 
   press(){
-    this.router.navigate(['/News/Press']);
+    this.router.navigate(['/News/press-coverage-healines']);
   }
 }

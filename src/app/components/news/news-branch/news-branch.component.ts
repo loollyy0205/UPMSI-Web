@@ -14,6 +14,6 @@ export class NewsBranchComponent implements OnInit {
   }
 
   newsContent(){
-    this.router.navigate(['/News/content']);
+    this.router.navigate(['/News/content', 'filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth']);
   }
 }

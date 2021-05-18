@@ -45,9 +45,9 @@
             <button mat-button [routerLink]="['/News']" [style.backgroundColor]="news ? '#fafafa' : '' || hoverNews ? '#5da563' : ''" [style.color]="news ? '#5da563' : ''|| hoverNews ? '#fafafa' : ''">NEWS</button>
           </div>
           <div (mouseover)="hoverNews=true" (mouseleave)="hoverNews=false" class="dropdown-menu">
-            <span [routerLink]="['/News/more']">MSI News</span>
+            <span [routerLink]="['/News/news-headlines']">MSI News</span>
             <span [routerLink]="['/News/Announcement']">Announcement</span>
-            <span style="line-height: 1.3;" [routerLink]="['/News/press']">Press Coverage</span>
+            <span style="line-height: 1.3;" [routerLink]="['/News/press-coverage-healines']">Press Coverage</span>
             <span [routerLink]="['/News/Vacancies-and-Opportunities/more']">Vacancies/Opportunities</span>
             <span style="line-height: 1.3;" [routerLink]="['/News/Research-projects-and-highlights']">Research Projects/Highlights</span>
           </div>

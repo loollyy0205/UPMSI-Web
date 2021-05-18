@@ -80,6 +80,7 @@ import { PagOutputComponent } from './components/facilities/pag-asa/pag-output/p
 import { FloatingAssetsComponent } from './components/facilities/floating-assets/floating-assets.component';
 import { PuertoComponentsSubpageComponent } from './components/facilities/puerto-gallera/puerto-components/puerto-components-subpage/puerto-components-subpage.component';
 import { PuertoOutreachComponent } from './components/facilities/puerto-gallera/puerto-components/puerto-components-subpage/puerto-outreach/puerto-outreach.component';
+import { PressContentComponent } from './components/news/press-content/press-content.component';
 
 @NgModule({
   declarations: [
@@ -152,7 +153,8 @@ import { PuertoOutreachComponent } from './components/facilities/puerto-gallera/
     PagOutputComponent,
     FloatingAssetsComponent,
     PuertoComponentsSubpageComponent,
-    PuertoOutreachComponent
+    PuertoOutreachComponent,
+    PressContentComponent
   ],
   imports: [
     BrowserModule,

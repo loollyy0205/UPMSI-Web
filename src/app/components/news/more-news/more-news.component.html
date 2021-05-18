@@ -4,14 +4,14 @@
   <p class="atlas-bold title">MSI IN THE NEWS</p>
 
   <div class="img-container">
-    <div class="img-content" *ngFor="let item of news">
+    <div class="img-content" *ngFor="let item of news; let i = index">
       <div class="left">
-        <img [src]="item.image" (click)="newsContent()">
+        <img [src]="item.image" (click)="newsContent(i)">
       </div>
       <div class="right">
         <div>
-          <p class="atlas-bold header" (click)="newsContent()">{{item.title}}</p>
-          <p class="atlas-light subtitle" (click)="newsContent()">{{item.subtitle}}</p>
+          <p class="atlas-bold header" (click)="newsContent(i)">{{item.title}}</p>
+          <p class="atlas-light subtitle">{{item.subtitle}}</p>
           <p class="atlas-light item-content">{{item.content}}</p>
         </div>
       </div>

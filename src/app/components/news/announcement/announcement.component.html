@@ -4,14 +4,14 @@
   <p class="atlas-bold title">ANNOUNCEMENT</p>
 
   <div class="img-container">
-    <div class="img-content" *ngFor="let item of researchOpp">
+    <div class="img-content" *ngFor="let item of researchOpp; let i = index">
       <div class="left">
-        <img [src]="item.image" [routerLink]="['/News/Announcement/content']">
+        <img [src]="item.image" [routerLink]="['/News/Announcement/content']" (click)="announcementContent(i)">
       </div>
       <div class="right">
         <div>
-          <p class="atlas-bold header" [routerLink]="['/News/Announcement/content']">{{item.title}}</p>
-          <p class="atlas-light subtitle">{{item.subtitle}}</p>
+          <p class="atlas-bold header" [routerLink]="['/News/Announcement/content']" (click)="announcementContent(i)">{{item.title}}</p>
+          <!-- <p class="atlas-light subtitle">{{item.subtitle}}</p> -->
           <p class="atlas-light item-content">{{item.content}}</p>
         </div>
         <!--<p class="atlas-light continue-reading" >CONTINUE READING</p>-->

@@ -38,7 +38,7 @@ img{
 .content2-left{
   width: 56%;
   height: 100%;
-  background-image: url(../../../assets/photos/news/01-vacancies-and-opportunities.png);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/News%2F01-vacancies-and-opportunities.png?alt=media&token=e463eb22-60e1-404f-be90-8c06ab393d26);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -71,7 +71,7 @@ img{
 
 .content3-right{
   width: 55%;
-  background-image: url(../../../assets/photos/news/02-research-projects-highlights.png);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/News%2F02-research-projects-highlights.png?alt=media&token=31574533-1128-46cd-9f68-436090dc1d7c);
   background-repeat: no-repeat;
   background-size: cover;
 }

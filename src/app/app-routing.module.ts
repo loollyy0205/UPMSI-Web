@@ -1,3 +1,4 @@
+import { PressContentComponent } from './components/news/press-content/press-content.component';
 import { PuertoComponentsSubpageComponent } from './components/facilities/puerto-gallera/puerto-components/puerto-components-subpage/puerto-components-subpage.component';
 import { FloatingAssetsComponent } from './components/facilities/floating-assets/floating-assets.component';
 import { PagAsaComponent } from './components/facilities/pag-asa/pag-asa.component';
@@ -75,15 +76,16 @@ const routes: Routes = [
   {path: 'Resources/library', component: LibraryComponent},
   {path: 'Contact', component: ContactComponent},
   {path: 'News', component: NewsComponent},
-  {path: 'News/content', component: NewsContentComponent},
-  {path: 'News/more', component: MoreNewsComponent},
+  {path: 'News/content/:name', component: NewsContentComponent},
+  {path: 'News/news-headlines', component: MoreNewsComponent},
   {path: 'News/Announcement', component: AnnouncementComponent},
-  {path: 'News/Announcement/content', component: AnnouncementContentComponent},
+  {path: 'News/Announcement/:name', component: AnnouncementContentComponent},
   {path: 'News/Research-projects-and-highlights', component: ResearchProjectComponent},
   {path: 'News/Research-projects-and-highlights/content', component: ProjectContentComponent},
   {path: 'News/Vacancies-and-Opportunities', component: VacanciesOppComponent},
   {path: 'News/Vacancies-and-Opportunities/more', component: MoreVacanciesComponent},
-  {path: 'News/Press', component: PressComponent},
+  {path: 'News/press-coverage-healines', component: PressComponent},
+  {path: 'News/press-coverage-healines/:name', component: PressContentComponent},
 ];
 
 @NgModule({
