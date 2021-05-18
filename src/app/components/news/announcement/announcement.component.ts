@@ -27,7 +27,7 @@ export class AnnouncementComponent implements OnInit {
         this.router.navigate(['/News/Announcement', 'UPMSI-official-statement-on-DENR-claims']);
         break;
       case 2:
-        this.router.navigate(['/News/Announcement', 'UPMSI-official-statement-on-the-addition-of-dolomite-sand-to-manila-bay']);
+        this.router.navigate(['/News/Announcement', 'UPMSI-official-statement-on-the-addition-of-Dolomite-Sand-to-Manila-Bay']);
         break;
       case 3:
         this.router.navigate(['/News/Announcement', 'the-UPMSI-is-home-to-two-new-professors-emeriti']);

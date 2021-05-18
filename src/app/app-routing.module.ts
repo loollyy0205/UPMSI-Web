@@ -84,8 +84,8 @@ const routes: Routes = [
   {path: 'News/Research-projects-and-highlights/content', component: ProjectContentComponent},
   {path: 'News/Vacancies-and-Opportunities', component: VacanciesOppComponent},
   {path: 'News/Vacancies-and-Opportunities/more', component: MoreVacanciesComponent},
-  {path: 'News/press-coverage-healines', component: PressComponent},
-  {path: 'News/press-coverage-healines/:name', component: PressContentComponent},
+  {path: 'News/press-coverage-headlines', component: PressComponent},
+  {path: 'News/press-coverage-headlines/:name', component: PressContentComponent},
 ];
 
 @NgModule({

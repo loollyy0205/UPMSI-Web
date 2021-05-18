@@ -14,7 +14,7 @@ export class PressBranchComponent implements OnInit {
   }
 
   pressContent(){
-    this.router.navigate(['/Press/content']);
+    this.router.navigate(['/News/press-coverage-headlines']);
   }
 
   newsContent(){
