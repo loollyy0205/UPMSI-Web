@@ -18,6 +18,18 @@ export class PressBranchComponent implements OnInit {
   }
 
   newsContent(){
-    // this.router.navigate(['/News/content']);
+    this.router.navigate(['/News/press-coverage-headlines/Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep']);
+  }
+
+  newsContent1(){
+    this.router.navigate(['/News/press-coverage-headlines/test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth']);
+  }
+
+  newsContent2(){
+    this.router.navigate(['/News/press-coverage-headlines/pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo']);
+  }
+
+  newsContent3(){
+    this.router.navigate(['/News/press-coverage-headlines/Dr.-Deo-Florence-Onda-to-make-history-as-1st-filipino-to-reach-3rd-deepest-spot-on-earth']);
   }
 }

@@ -1,3 +1,4 @@
+import { SafePipe } from './shared/SafePipe';
 import { AboutMsiComponent } from './components/about/about-msi/about-msi.component';
 import { InstituteObjectivesComponent } from './components/about/about-msi/institute-objectives/institute-objectives.component';
 import { InstituteFocusComponent } from './components/about/about-msi/institute-focus/institute-focus.component';
@@ -85,6 +86,7 @@ import { PressContentComponent } from './components/news/press-content/press-con
 @NgModule({
   declarations: [
     AppComponent,
+    SafePipe,
     AboutComponent,
     EducationComponent,
     ExtensionComponent,

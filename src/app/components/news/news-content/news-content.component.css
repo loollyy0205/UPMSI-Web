@@ -10,6 +10,10 @@
   flex-direction: column;
 }
 
+.box-content img {
+  height: 380px;
+}
+
 .bottom-content{
   margin-top: 40px;
   width: 700px;
@@ -166,6 +170,10 @@ img{
     width: 820px;
   }
 
+  .box-content img {
+    height: 445px;
+  }
+
   .bottom-content{
     margin-top: 47px;
     width: 820px;
@@ -276,6 +284,10 @@ img{
 
   .box-content{
     width: 974px;
+  }
+
+  .box-content img {
+    height: 528px;
   }
 
   .bottom-content{

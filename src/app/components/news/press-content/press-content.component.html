@@ -1,37 +1,38 @@
 <app-nav></app-nav>
 <hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
 <div class="container animate__animated animate__fadeIn animate__delay-1s">
-  <p class="atlas-bold title">Partnership and Collaboration</p>
-  <p class="atlas-light date">Updated Feb 17, 2020, 10:07 AM</p>
-  <p class="atlas-light date-name">Yvette Geroleo</p>
+  <p class="atlas-bold title">{{myArr[0].title}}</p>
+  <p class="atlas-light date">{{myArr[0].date}}</p>
+  <p class="atlas-light date-name">{{myArr[0].author}}</p>
   <div class="center-content">
     <div class="box-content">
-      <img src="../../../../assets/photos/partnership.jpg">
-      <div class="photo-box">
-      <p class="atlas-light photo-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde asperiores adipisci nostrum quod maxime nemo odit possimus nam, aut fugit. Assumenda dignissimos esse impedit necessitatibus cum mollitia maxime! Delectus tenetur tempora ducimus voluptate quia cum dolores incidunt adipisci, debitis sapiente iusto rerum quaerat corporis nostrum nobis atque rem suscipit!</p>
-      <p class="atlas-bold photo-courtesy">PHOTO COURTESY OF MARTINA SALAZAR</p>
-      </div>
+      <iframe [src]="myArr[0].thumbnail | safe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     </div>
 
   </div>
 
   <div style="display: grid; place-content: center;">
     <div class="bottom-content">
-      <p class="atlas-bold location">QUEZON CITY, PHILIPPINES</p>
-      <img class="fb" src="../../../../assets/photos/fblink.png">
-      <img class="twitter" src="../../../../assets/photos/twitter-link.png">
-      <p class="atlas-light location-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus repudiandae ducimus, cum voluptatem id sunt, accusantium cupiditate atque corrupti quasi accusamus eius similique placeat deleniti nulla labore ipsa veniam hic sint aperiam veritatis ut. Sequi, recusandae sed enim quae saepe, assumenda animi autem illo nam et reiciendis ipsa quia.</p>
+      <div class="photo-box">
+      <p class="atlas-light photo-content">{{myArr[0].photoContent}}</p>
+      <p class="atlas-light photo-content">{{myArr[0].photoContent2}}</p>
+      <p class="atlas-light photo-content">{{myArr[0].photoContent3}}</p>
+      <p class="atlas-light photo-content">{{myArr[0].photoContent4}}</p>
+      <p class="atlas-light photo-content">{{myArr[0].photoContent5}}</p>
+      <p class="atlas-bold photo-courtesy">{{myArr[0].courtesy}}</p>
+      </div>
     </div>
   </div>
 
-  <p class="atlas-bold news">MSI IN THE NEWS</p>
+  <p class="atlas-bold news">PRESS COVERAGE</p>
 
     <div class="img-container">
-      <div class="img-content" *ngFor="let item of news">
-        <div class="left">
+      <div class="img-content" *ngFor="let item of myArr[0].news">
+        <div class="left" (click)="nextNews(item.url)">
           <img [src]="item.image">
         </div>
-        <div class="right">
+        <div class="right" (click)="nextNews(item.url)">
           <div>
             <p class="atlas-bold news-title">{{item.title}}</p>
             <p class="atlas-light news-content">{{item.content}}</p>
@@ -44,9 +45,9 @@
 
 <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s" (click)="moreMsiNews()">
   <span class="arrow-text">
-    <p class="atlas-light">MORE MSI NEWS</p>
+    <p class="atlas-light">MORE PRESS COVERAGE</p>
   </span>
-  <mat-icon class="arrow">arrow_forward</mat-icon>
+  <mat-icon class="arrow" style="padding-left: .5%;">arrow_forward</mat-icon>
 </div>
 <div class="footer">
   <app-footer></app-footer>

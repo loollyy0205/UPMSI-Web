@@ -32,16 +32,49 @@ export class PressComponent implements OnInit {
   newsContent(i){
     switch(i) {
       case 0:
-        this.router.navigate(['/News/press-coverage-healines', 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-emden-deep']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep']);
         break;
       case 1:
-        this.router.navigate(['/News/press-coverage-healines', 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth']);
+        this.router.navigate(['/News/press-coverage-headlines', 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth']);
         break;
       case 2:
-        this.router.navigate(['/News/press-coverage-healines', `pinoy-scientist-gagawa-ng-kasaysayan-sa pagsisid-sa-'3rd deepest spot'-sa-mundo`]);
+        this.router.navigate(['/News/press-coverage-headlines', `pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo`]);
         break;
       case 3:
-        this.router.navigate(['/News/press-coverage-healines', 'Dr.-Deo-Florence-Onda-to-make-history-as-1st-filipino-to-reach-3rd-deepest-spot-on-eart.']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Dr.-Deo-Florence-Onda-to-make-history-as-1st-filipino-to-reach-3rd-deepest-spot-on-earth']);
+        break;
+      case 4:
+        this.router.navigate(['/News/press-coverage-headlines', 'UP-scientist-set-to-be-first-filipino-to-reach-3rd-deepest-point-on-earth']);
+        break;
+      case 5:
+        this.router.navigate(['/News/press-coverage-headlines', 'proceed-with-transparency']);
+        break;
+      case 6:
+        this.router.navigate(['/News/press-coverage-headlines', 'Rappler-Talk-Deo-Onda-on-the-value-of-West-PH-Sea-resources-to-filipinos']);
+        break;
+      case 7:
+        this.router.navigate(['/News/press-coverage-headlines', `SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ`]);
+        break;
+      case 8:
+        this.router.navigate(['/News/press-coverage-headlines', 'ON-THE-SPOT-All-filipino-scientific-expedition-sa-kalayaan-island-sa-West-Philippine-Sea']);
+        break;
+      case 9:
+        this.router.navigate(['/News/press-coverage-headlines', 'BT-Paglalakbay-ng-ilang-kawani-ng-gobyerno-at-estudyante-ng-UP-marine-science-institute']);
+        break;
+      case 10:
+        this.router.navigate(['/News/press-coverage-headlines', 'Manila-Bay-rehabilitasyon-o-reklamasyon']);
+        break;
+      case 11:
+        this.router.navigate(['/News/press-coverage-headlines', 'adopt-a-giant-clam-program-suportado-ng-UP-Marine-Science-Institute']);
+        break;
+      case 12:
+        this.router.navigate(['/News/press-coverage-headlines', `AHA!-The-giant-clams-of-Bolinao-Pangasinan`]);
+        break;
+      case 13:
+        this.router.navigate(['/News/press-coverage-headlines', 'how-to-take-care-of-giant-clams']);
+        break;
+      case 14:
+        this.router.navigate(['/News/press-coverage-headlines', 'the-giant-clam-nursery-in-Bolinao-Pangasinan']);
         break;
     }
   }

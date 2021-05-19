@@ -4,10 +4,10 @@
   <p class="atlas-bold title">VACANCIES AND OPPORTUNITIES</p>
 
   <div class="image-content">
-    <div *ngFor="let item of vacancies">
-      <img [src]="item.image" (click)="moreContent()">
+    <div *ngFor="let item of vacancies; let i = index;">
+      <img [src]="item.image" (click)="moreContent(i)" style="cursor: pointer;">
       <div style="line-height: 1.4;">
-        <p class="atlas-bold header" (click)="moreContent()">{{item.title}}</p>
+        <p class="atlas-bold header" (click)="moreContent(i)">{{item.title}}</p>
         <p class="atlas-light date">{{item.date}}</p>
       </div>
     </div>

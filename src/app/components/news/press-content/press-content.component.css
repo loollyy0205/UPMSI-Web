@@ -1,1048 +1,385 @@
 .container{
-    margin: 0 120px;
-    margin-top: 40px;
+  margin: 0 9%;
+  margin-top: 40px;
+}
+
+.box-content{
+  height: 100%;
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-content iframe {
+  height: 400px;
+}
+
+.bottom-content{
+  width: 55vw;
+}
+
+.fb{
+  height: 35px !important;
+  width: 35px !important;
+  cursor: pointer;
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -55px;
+}
+
+.twitter{
+  height: 35px !important;
+  width: 35px !important;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 27px;
+  margin-left: -55px;
+}
+
+img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.more-vacancies{
+  color: #384e8a;
+  margin-top: 30px;
+  margin-left: 9%;
+  margin-right: 9%;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.more-vacancies:hover{
+  text-decoration: underline;
+}
+
+.img-container{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 40px;
+}
+
+.img-content{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.left{
+  width: 100%;
+  height: 210px;
+}
+
+.right{
+  width: 100%;
+  margin-top: 20px;
+  line-height: 1.3;
+  display: flex;
+  flex-direction: column;
+}
+
+.hr-line{
+  margin: 15px 9% 30px 9%;
+}
+
+.title{
+  font-size: 40px;
+  color: #394e8a;
+}
+
+.date{
+  color: #394e8a;
+  margin-top: 17px;
+}
+
+.date-name{
+  color: #394e8a;
+  margin-top: 7px;
+}
+
+.center-content{
+  display: grid;
+  place-content: center;
+  margin-top: 60px;
+}
+
+.photo-box{
+  background-color: #394e8a;
+  color: white;padding: 20px;
+}
+
+.photo-content{
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+.photo-courtesy{
+  font-size: 14px;
+}
+
+.location-content{
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+.news{
+  margin-top: 60px;
+  font-size: 30px;
+  color: #394e8a;
+}
+
+.news-title{
+  font-size: 16px;
+}
+
+.news-content{
+  color: #4c515a;
+  margin-top: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+}
+
+.arrow{
+  font-size: 30px;
+}
+
+.arrow-text{
+  margin-top: 8px;
+}
+
+.footer{
+  margin-top: 9%;
+}
+
+@media (min-width: 1600px) {
+  * {
+    font-size: 19px;
   }
 
-  .box-content{
-    height: 370px;
-    width: 700px;
-    display: flex;
-    flex-direction: column;
+  .container{
+    margin-top: 47px;
   }
 
+  /* .box-content{
+    width: 820px;
+  } */
+
+  .box-content iframe {
+    height: 468px;
+  }
+/*
   .bottom-content{
-    margin-top: 50px;
-    width: 700px;
-  }
+    width: 820px;
+  } */
 
   .fb{
-    height: 35px !important;
-    width: 35px !important;
-    cursor: pointer;
-    position: absolute;
-    margin-top: -15px;
-    margin-left: -55px;
+    height: 41px !important;
+    width: 41px !important;
+    margin-top: -18px;
+    margin-left: -64px;
   }
 
   .twitter{
-    height: 35px !important;
-    width: 35px !important;
-    cursor: pointer;
-    position: absolute;
-    margin-top: 27px;
-    margin-left: -55px;
-  }
-
-  img{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+    height: 41px !important;
+    width: 41px !important;
+    margin-top: 32px;
+    margin-left: -64px;
   }
 
   .more-vacancies{
-    color: #384e8a;
-    margin-top: 30px;
-    margin-left: 120px;
-    margin-right: 120px;
-    display: flex;
-    justify-content: flex-end;
-    cursor: pointer;
-    gap: 8px;
-  }
-
-  .more-vacancies:hover{
-    text-decoration: underline;
+    margin-top: 35px;
   }
 
   .img-container{
-    margin-top: 50px;
+    margin-top: 58px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-  }
-
-  .img-content{
-    display: flex;
-    flex-direction: column;
+    grid-column-gap: 47px;
   }
 
   .left{
-    width: 100%;
+    height: 246px;
   }
 
   .right{
-    width: 100%;
-    margin-top: 20px;
-    line-height: 1.3;
-    display: flex;
-    flex-direction: column;
+    margin-top: 23px;
   }
 
   .hr-line{
-    margin: 15px 120px 30px 120px;
+    margin: 18px 9% 35px 9%;
   }
 
   .title{
-    font-size: 40px;
-    color: #394e8a;
+    font-size: 47px;
   }
 
   .date{
-    color: #394e8a;
-    margin-top: 17px;
+    margin-top: 20px;
   }
 
   .date-name{
-    color: #394e8a;
-    margin-top: 7px;
+    margin-top: 8px;
   }
 
   .center-content{
-    display: grid;
-    place-content: center;
-    margin-top: 60px;
+    margin-top: 70px;
   }
 
   .photo-box{
-    height: 100%;
-    background-color: #394e8a;
-    color: white;padding: 20px;
+    padding: 23px;
   }
 
   .photo-content{
     line-height: 1.3;
+    margin-bottom: 35px;
   }
 
   .photo-courtesy{
-    font-size: 14px;
-    margin-top: 30px;
-  }
-
-  .location{
-    margin-top: 175px
-  }
-
-  .location-content{
-    margin-top: 30px;
-    line-height: 1.5;
-  }
-
-  .news{
-    margin-top: 50px;
-    font-size: 30px;
-    color: #394e8a;
-  }
-
-  .news-title{
     font-size: 16px;
   }
 
+  .location-content{
+    margin-top: 35px;
+  }
+
+  .news{
+    margin-top: 83px;
+    font-size: 35px;
+  }
+
+  .news-title{
+    font-size: 19px;
+  }
+
   .news-content{
-    color: #4c515a;
-    margin-top: 10px;
-    padding-right: 10px;
-    font-size: 14px;
+    margin-top: 12px;
+    padding-right: 12px;
+    font-size: 16px;
   }
 
   .arrow{
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .arrow-text{
-    margin-top: 8px;
+    margin-top: 9px;
+  }
+}
+
+@media (min-width: 1900px) {
+  * {
+    font-size: 23px;
   }
 
-  .footer{
-    margin-top: 120px;
+  .container{
+    margin-top: 56px;
   }
 
-
-  @media (min-width: 1466px){
-    .container{
-      margin: 0 130px;
-      margin-top: 50px;
-    }
-
-    .box-content{
-      height: 440px;
-      width: 780px;
-    }
-
-    .bottom-content{
-      margin-top: 55px;
-      width: 780px;
-      font-size: 18px;
-    }
-
-    .fb{
-      height: 39px !important;
-      width: 39px !important;
-      position: absolute;
-      margin-top: -17px;
-      margin-left: -60px;
-    }
-
-    .twitter{
-      height: 39px !important;
-      width: 39px !important;
-      position: absolute;
-      margin-top: 29px;
-      margin-left: -60px;
-    }
-
-    .img-container{
-      margin-top: 50px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 40px;
-    }
-
-
-    .right{
-      margin-top: 22px;
-    }
-
-    .hr-line{
-      margin: 20px 130px 35px 130px;
-    }
-
-    .title{
-      font-size: 45px;
-    }
-
-    .date{
-      margin-top: 20px;
-      font-size: 18px;
-    }
-
-    .date-name{
-      margin-top: 9px;
-      font-size: 18px;
-    }
-
-    .center-content{
-      display: grid;
-      place-content: center;
-      margin-top: 70px;
-    }
-
-    .photo-box{
-      padding: 20px;
-    }
-
-    .photo-content{
-      font-size: 18px;
-    }
-
-    .photo-courtesy{
-      font-size: 16px;
-      margin-top: 30px;
-    }
-
-    .location{
-      margin-top: 180px
-    }
-
-    .location-content{
-      margin-top: 35px;
-    }
-
-    .news{
-      margin-top: 55px;
-      font-size: 32px;
-    }
-
-    .news-title{
-      font-size: 18px;
-    }
-
-    .news-content{
-      margin-top: 13px;
-      padding-right: 13px;
-      font-size: 16px;
-    }
-
-    .arrow{
-      font-size: 32px;
-    }
-
-    .arrow-text{
-      font-size: 18px;
-    }
-
-    .more-vacancies{
-      margin-top: 35px;
-      margin-left: 130px;
-      margin-right: 130px;
-      display: flex;
-      justify-content: flex-end;
-      gap: 10px;
-    }
-
-    .footer{
-      margin-top: 130px;
-    }
+  /* .box-content{
+    width: 974px;
   }
 
-  @media (min-width: 1666px){
-    .container{
-      margin: 0 140px;
-      margin-top: 60px;
-    }
+  .bottom-content{
+    width: 974px;
+  } */
 
-    .box-content{
-      height: 510px;
-      width: 880px;
-    }
-
-    .bottom-content{
-      margin-top: 60px;
-      width: 880px;
-      font-size: 20px;
-    }
-
-    .fb{
-      height: 43px !important;
-      width: 43px !important;
-      position: absolute;
-      margin-top: -19px;
-      margin-left: -65px;
-    }
-
-    .twitter{
-      height: 43px !important;
-      width: 43px !important;
-      position: absolute;
-      margin-top: 31px;
-      margin-left: -65px;
-    }
-
-    .img-container{
-      margin-top: 55px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 45px;
-    }
-
-
-    .right{
-      margin-top: 24px;
-    }
-
-    .hr-line{
-      margin: 25px 140px 35px 140px;
-    }
-
-    .title{
-      font-size: 50px;
-    }
-
-    .date{
-      margin-top: 23px;
-      font-size: 20px;
-    }
-
-    .date-name{
-      margin-top: 11px;
-      font-size: 20px;
-    }
-
-    .center-content{
-      display: grid;
-      place-content: center;
-      margin-top: 80px;
-    }
-
-    .photo-box{
-      padding: 25px;
-    }
-
-    .photo-content{
-      font-size: 20px;
-    }
-
-    .photo-courtesy{
-      font-size: 18px;
-      margin-top: 35px;
-    }
-
-    .location{
-      margin-top: 185px
-    }
-
-    .location-content{
-      margin-top: 40px;
-    }
-
-    .news{
-      margin-top: 60px;
-      font-size: 34px;
-    }
-
-    .news-title{
-      font-size: 20px;
-    }
-
-    .news-content{
-      margin-top: 16px;
-      padding-right: 16px;
-      font-size: 18px;
-    }
-
-    .arrow{
-      font-size: 34px;
-    }
-
-    .arrow-text{
-      font-size: 20px;
-    }
-
-    .more-vacancies{
-      margin-top: 40px;
-      margin-left: 140px;
-      margin-right: 140px;
-      display: flex;
-      justify-content: flex-end;
-      gap: 12px;
-    }
-
-    .footer{
-      margin-top: 140px;
-    }
+  .box-content iframe {
+    height: 556px;
   }
 
-
-  @media (min-width: 1866px){
-    .container{
-      margin: 0 150px;
-      margin-top: 70px;
-    }
-
-    .box-content{
-      height: 580px;
-      width: 980px;
-    }
-
-    .bottom-content{
-      margin-top: 65px;
-      width: 980px;
-      font-size: 22px;
-    }
-
-    .fb{
-      height: 47px !important;
-      width: 47px !important;
-      position: absolute;
-      margin-top: -21px;
-      margin-left: -70px;
-    }
-
-    .twitter{
-      height: 47px !important;
-      width: 47px !important;
-      position: absolute;
-      margin-top: 33px;
-      margin-left: -70px;
-    }
-
-    .img-container{
-      margin-top: 60px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 50px;
-    }
-
-
-    .right{
-      margin-top: 26px;
-    }
-
-    .hr-line{
-      margin: 30px 150px 40px 150px;
-    }
-
-    .title{
-      font-size: 55px;
-    }
-
-    .date{
-      margin-top: 25px;
-      font-size: 22px;
-    }
-
-    .date-name{
-      margin-top: 13px;
-      font-size: 22px;
-    }
-
-    .center-content{
-      display: grid;
-      place-content: center;
-      margin-top: 90px;
-    }
-
-    .photo-box{
-      padding: 30px;
-    }
-
-    .photo-content{
-      font-size: 22px;
-    }
-
-    .photo-courtesy{
-      font-size: 20px;
-      margin-top: 40px;
-    }
-
-    .location{
-      margin-top: 190px
-    }
-
-    .location-content{
-      margin-top: 45px;
-    }
-
-    .news{
-      margin-top: 65px;
-      font-size: 36px;
-    }
-
-    .news-title{
-      font-size: 22px;
-    }
-
-    .news-content{
-      margin-top: 19px;
-      padding-right: 19px;
-      font-size: 20px;
-    }
-
-    .arrow{
-      font-size: 36px;
-    }
-
-    .arrow-text{
-      font-size: 22px;
-    }
-
-    .more-vacancies{
-      margin-top: 45px;
-      margin-left: 150px;
-      margin-right: 150px;
-      display: flex;
-      justify-content: flex-end;
-      gap: 14px;
-    }
-
-    .footer{
-      margin-top: 150px;
-    }
+  .fb{
+    height: 49px !important;
+    width: 49px !important;
+    margin-top: -21px;
+    margin-left: -76px;
   }
 
-  @media (min-width: 2066px){
-    .container{
-      margin: 0 160px;
-      margin-top: 80px;
-    }
-
-    .box-content{
-      height: 680px;
-      width: 1080px;
-    }
-
-    .bottom-content{
-      margin-top: 70px;
-      width: 1080px;
-      font-size: 24px;
-    }
-
-    .fb{
-      height: 51px !important;
-      width: 51px !important;
-      position: absolute;
-      margin-top: -23px;
-      margin-left: -75px;
-    }
-
-    .twitter{
-      height: 51px !important;
-      width: 51px !important;
-      position: absolute;
-      margin-top: 35px;
-      margin-left: -75px;
-    }
-
-    .img-container{
-      margin-top: 65px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 55px;
-    }
-
-
-    .right{
-      margin-top: 28px;
-    }
-
-    .hr-line{
-      margin: 35px 160px 45px 160px;
-    }
-
-    .title{
-      font-size: 60px;
-    }
-
-    .date{
-      margin-top: 30px;
-      font-size: 24px;
-    }
-
-    .date-name{
-      margin-top: 15px;
-      font-size: 24px;
-    }
-
-    .center-content{
-      display: grid;
-      place-content: center;
-      margin-top: 100px;
-    }
-
-    .photo-box{
-      padding: 35px;
-    }
-
-    .photo-content{
-      font-size: 24px;
-    }
-
-    .photo-courtesy{
-      font-size: 22px;
-      margin-top: 45px;
-    }
-
-    .location{
-      margin-top: 195px
-    }
-
-    .location-content{
-      margin-top: 50px;
-    }
-
-    .news{
-      margin-top: 70px;
-      font-size: 38px;
-    }
-
-    .news-title{
-      font-size: 24px;
-    }
-
-    .news-content{
-      margin-top: 22px;
-      padding-right: 22px;
-      font-size: 22px;
-    }
-
-    .arrow{
-      font-size: 38px;
-    }
-
-    .arrow-text{
-      font-size: 24px;
-    }
-
-    .more-vacancies{
-      margin-top: 50px;
-      margin-left: 160px;
-      margin-right: 160px;
-      display: flex;
-      justify-content: flex-end;
-      gap: 16px;
-    }
-
-    .footer{
-      margin-top: 160px;
-    }
+  .twitter{
+    height: 49px !important;
+    width: 49px !important;
+    margin-top: 38px;
+    margin-left: -76px;
   }
 
-  @media (min-width: 2266px){
-    .container{
-      margin: 0 170px;
-      margin-top: 90px;
-    }
-
-    .box-content{
-      height: 760px;
-      width: 1180px;
-    }
-
-    .bottom-content{
-      margin-top: 75px;
-      width: 1180px;
-      font-size: 26px;
-    }
-
-    .fb{
-      height: 55px !important;
-      width: 55px !important;
-      position: absolute;
-      margin-top: -25px;
-      margin-left: -80px;
-    }
-
-    .twitter{
-      height: 55px !important;
-      width: 55px !important;
-      position: absolute;
-      margin-top: 37px;
-      margin-left: -80px;
-    }
-
-    .img-container{
-      margin-top: 70px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 60px;
-    }
-
-
-    .right{
-      margin-top: 30px;
-    }
-
-    .hr-line{
-      margin: 40px 170px 50px 170px;
-    }
-
-    .title{
-      font-size: 65px;
-    }
-
-    .date{
-      margin-top: 35px;
-      font-size: 26px;
-    }
-
-    .date-name{
-      margin-top: 17px;
-      font-size: 26px;
-    }
-
-    .center-content{
-      display: grid;
-      place-content: center;
-      margin-top: 110px;
-    }
-
-    .photo-box{
-      padding: 40px;
-    }
-
-    .photo-content{
-      font-size: 26px;
-    }
-
-    .photo-courtesy{
-      font-size: 24px;
-      margin-top: 50px;
-    }
-
-    .location{
-      margin-top: 200px
-    }
-
-    .location-content{
-      margin-top: 55px;
-    }
-
-    .news{
-      margin-top: 75px;
-      font-size: 40px;
-    }
-
-    .news-title{
-      font-size: 26px;
-    }
-
-    .news-content{
-      margin-top: 25px;
-      padding-right: 25px;
-      font-size: 24px;
-    }
-
-    .arrow{
-      font-size: 40px;
-    }
-
-    .arrow-text{
-      font-size: 26px;
-    }
-
-    .more-vacancies{
-      margin-top: 55px;
-      margin-left: 170px;
-      margin-right: 170px;
-      display: flex;
-      justify-content: flex-end;
-      gap: 18px;
-    }
-
-    .footer{
-      margin-top: 170px;
-    }
+  .more-vacancies{
+    margin-top: 42px;
   }
 
-  @media (min-width: 2466px){
-    .container{
-      margin: 0 180px;
-      margin-top: 100px;
-    }
-
-    .box-content{
-      height: 840px;
-      width: 1280px;
-    }
-
-    .bottom-content{
-      margin-top: 80px;
-      width: 1280px;
-      font-size: 28px;
-    }
-
-    .fb{
-      height: 59px !important;
-      width: 59px !important;
-      position: absolute;
-      margin-top: -27px;
-      margin-left: -85px;
-    }
-
-    .twitter{
-      height: 59px !important;
-      width: 59px !important;
-      position: absolute;
-      margin-top: 39px;
-      margin-left: -85px;
-    }
-
-    .img-container{
-      margin-top: 75px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 65px;
-    }
-
-
-    .right{
-      margin-top: 32px;
-    }
-
-    .hr-line{
-      margin: 45px 180px 55px 180px;
-    }
-
-    .title{
-      font-size: 70px;
-    }
-
-    .date{
-      margin-top: 40px;
-      font-size: 28px;
-    }
-
-    .date-name{
-      margin-top: 19px;
-      font-size: 28px;
-    }
-
-    .center-content{
-      display: grid;
-      place-content: center;
-      margin-top: 120px;
-    }
-
-    .photo-box{
-      padding: 45px;
-    }
-
-    .photo-content{
-      font-size: 28px;
-    }
-
-    .photo-courtesy{
-      font-size: 26px;
-      margin-top: 55px;
-    }
-
-    .location{
-      margin-top: 205px
-    }
-
-    .location-content{
-      margin-top: 60px;
-    }
-
-    .news{
-      margin-top: 80px;
-      font-size: 42px;
-    }
-
-    .news-title{
-      font-size: 28px;
-    }
-
-    .news-content{
-      margin-top: 30px;
-      padding-right: 30px;
-      font-size: 26px;
-    }
-
-    .arrow{
-      font-size: 42px;
-    }
-
-    .arrow-text{
-      font-size: 28px;
-    }
-
-    .more-vacancies{
-      margin-top: 60px;
-      margin-left: 180px;
-      margin-right: 180px;
-      display: flex;
-      justify-content: flex-end;
-      gap: 20px;
-    }
-
-    .footer{
-      margin-top: 180px;
-    }
+  .img-container{
+    margin-top: 69px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 56px;
   }
 
-  @media (min-width: 2560px){
-    .container{
-      margin: 0 190px;
-      margin-top: 110px;
-    }
-
-    .box-content{
-      height: 920px;
-      width: 1380px;
-    }
-
-    .bottom-content{
-      margin-top: 85px;
-      width: 1380px;
-      font-size: 30px;
-    }
-
-    .fb{
-      height: 63px !important;
-      width: 63px !important;
-      position: absolute;
-      margin-top: -29px;
-      margin-left: -90px;
-    }
-
-    .twitter{
-      height: 63px !important;
-      width: 63px !important;
-      position: absolute;
-      margin-top: 41px;
-      margin-left: -90px;
-    }
-
-    .img-container{
-      margin-top: 80px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 70px;
-    }
-
-
-    .right{
-      margin-top: 34px;
-    }
-
-    .hr-line{
-      margin: 50px 190px 60px 190px;
-    }
-
-    .title{
-      font-size: 75px;
-    }
-
-    .date{
-      margin-top: 45px;
-      font-size: 30px;
-    }
-
-    .date-name{
-      margin-top: 21px;
-      font-size: 30px;
-    }
-
-    .center-content{
-      display: grid;
-      place-content: center;
-      margin-top: 130px;
-    }
-
-    .photo-box{
-      padding: 50px;
-    }
-
-    .photo-content{
-      font-size: 30px;
-    }
-
-    .photo-courtesy{
-      font-size: 28px;
-      margin-top: 60px;
-    }
-
-    .location{
-      margin-top: 210px
-    }
-
-    .location-content{
-      margin-top: 65px;
-    }
-
-    .news{
-      margin-top: 85px;
-      font-size: 44px;
-    }
-
-    .news-title{
-      font-size: 30px;
-    }
-
-    .news-content{
-      margin-top: 33px;
-      padding-right: 33px;
-      font-size: 28px;
-    }
-
-    .arrow{
-      font-size: 44px;
-    }
-
-    .arrow-text{
-      font-size: 30px;
-    }
-
-    .more-vacancies{
-      margin-top: 65px;
-      margin-left: 190px;
-      margin-right: 190px;
-      display: flex;
-      justify-content: flex-end;
-      gap: 22px;
-    }
-
-    .footer{
-      margin-top: 190px;
-    }
+  .left{
+    height: 292px;
   }
+
+  .right{
+    margin-top: 27px;
+  }
+
+  .hr-line{
+    margin: 21px 9% 42px 9%;
+  }
+
+  .title{
+    font-size: 56px;
+  }
+
+  .date{
+    margin-top: 24px;
+  }
+
+  .date-name{
+    margin-top: 10px;
+  }
+
+  .center-content{
+    margin-top: 83px;
+  }
+
+  .photo-box{
+    padding: 27px;
+  }
+
+  .photo-content{
+    margin-bottom: 42px;
+  }
+
+  .photo-courtesy{
+    font-size: 19px;
+  }
+
+  .location-content{
+    margin-top: 42px;
+  }
+
+  .news{
+    margin-top: 70px;
+    font-size: 42px;
+  }
+
+  .news-title{
+    font-size: 23px;
+  }
+
+  .news-content{
+    margin-top: 14px;
+    padding-right: 14px;
+    font-size: 19px;
+  }
+
+  .arrow{
+    font-size: 42px;
+  }
+
+  .arrow-text{
+    margin-top: 11px;
+  }
+}
