@@ -1,63 +1,59 @@
-<div class="container">
 
+<div class="container">
   <div class="img-bg animate__animated animate__fadeIn animate__delay-1s">
     <div class="slider">
       <div class="sliderchild">
-        <div class="imagecon">
-          <img [src]="bgImage1">
-          <div class="left-content img-container">
-            <div class="img-content">
-              <p class="capital-words atlas-blackReg">The UP Marine Science Institute</p>
-              <p class="sub-title atlas-blackReg">Empowering People Through Science</p>
-              <p class="second-p atlas-light">{{content1}}</p>
+        <owl-carousel-o [options]="customOptions">
+          <ng-template carouselSlide>
+            <div class="imagecon">
+                <img [src]="bgImage1">
+                <div class="left-content img-container">
+                  <div class="img-content">
+                    <p class="capital-words atlas-blackReg">The UP Marine Science Institute</p>
+                    <p class="sub-title atlas-blackReg">Empowering People Through Science</p>
+                    <p class="second-p atlas-light">{{content1}}</p>
+                    <button id="learn-more" routerLink="/About">LEARN MORE</button>
+                  </div>
+                </div>
+              </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="imagecon">
+              <img [src]="bgImage2">
+              <div class="left-content img-container">
+                <p class="capital-words atlas-blackReg">Filipino scientist makes history by reaching the 3rd deepest spot on Earth
+                </p>
 
-              <button id="learn-more" [routerLink]="[link1]">LEARN MORE</button>
+                <p class="second-p atlas-light">{{content2}}</p>
+                <button id="learn-more" routerLink="/News/content/filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth">LEARN MORE</button>
+              </div>
             </div>
-          </div>
-        </div>
-
-        <div class="imagecon">
-          <img [src]="bgImage2">
-          <div class="left-content img-container">
-            <p class="capital-words atlas-blackReg">Filipino scientist makes history by reaching the 3rd deepest spot on Earth
-            </p>
-
-            <p class="second-p atlas-light">{{content2}}</p>
-            <button id="learn-more" [routerLink]="[link2]">LEARN MORE</button>
-          </div>
-        </div>
-
-        <div class="imagecon">
-          <img [src]="bgImage3">
-          <div class="left-content img-container2" style="color: #384e8a;">
-            <div class="capital-words atlas-blackReg">
-              <p>NARFleet is on its way</p>
-              <p>to prowl Philippine waters</p>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="imagecon">
+              <img [src]="bgImage3">
+              <div class="left-content img-container2" style="color: #384e8a;">
+                <div class="capital-words atlas-blackReg">
+                  <p>NARFleet is on its way</p>
+                  <p>to prowl Philippine waters</p>
+                </div>
+                <p class="second-p atlas-light">The National Academic Research Fleet (NARFleet) is set to embark on its first expedition soon. Established as a response to limited ocean research capacity, the NARFleet program aims to provide better access to ocean research for both the academe and the Philippine government. To achieve this, participating research groups will address problems such as reef protection and productivity, mapping the pelagic zone, and maximizing the use of bio resources.</p>
+                <button id="learn-more" routerLink="/Facilities/floating-assets">LEARN MORE</button>
+              </div>
             </div>
-            <p class="second-p atlas-light">The National Academic Research Fleet (NARFleet) is set to embark on its first expedition soon. Established as a response to limited ocean research capacity, the NARFleet program aims to provide better access to ocean research for both the academe and the Philippine government. To achieve this, participating research groups will address problems such as reef protection and productivity, mapping the pelagic zone, and maximizing the use of bio resources.</p>
-            <button id="learn-more" [routerLink]="[link3]">LEARN MORE</button>
-          </div>
-        </div>
-
-        <div class="imagecon">
-          <img [src]="bgImage4">
-          <div class="left-content img-container2">
-            <p class="capital-words atlas-blackReg">Bolinao Marine Laboratory</p>
-            <p class="atlas-light second-p">{{content4}}</p>
-            <button id="learn-more" [routerLink]="[link4]">LEARN MORE</button>
-          </div>
-        </div>
-
-        <div class="imagecon">
-          <img [src]="bgImage1">
-          <div class="left-content img-container">
-            <p class="capital-words atlas-blackReg">THE UP MARINE SCIENCE INSTITUTE</p>
-            <p class="sub-title atlas-blackReg">Empowering People Through Science</p>
-            <p class="second-p atlas-light">{{content1}}</p>
-            <button id="learn-more" [routerLink]="[link1]">LEARN MORE</button>
-          </div>
-        </div>
-
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="imagecon">
+              <img [src]="bgImage4">
+              <div class="left-content img-container">
+                <p class="capital-words atlas-blackReg">THE UP MARINE SCIENCE INSTITUTE</p>
+                <p class="sub-title atlas-blackReg">Empowering People Through Science</p>
+                <p class="second-p atlas-light">{{content1}}</p>
+                <button id="learn-more" routerLink="/Facilities/bolinao-marine-lab">LEARN MORE</button>
+              </div>
+            </div>
+          </ng-template>
+        </owl-carousel-o>
       </div>
     </div>
   </div>

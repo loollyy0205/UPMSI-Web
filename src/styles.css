@@ -100,3 +100,62 @@ ngStickyNav{
 .atlas-blackReg{
   font-family: 'atlas-blackReg';
 }
+
+/*---- Owl Carousel Style ----*/
+
+.owl-theme .owl-dots{
+  text-align: center;
+  position: relative;
+  top: -70px;
+
+}
+
+ .owl-theme .owl-dots .owl-dot {
+   display: inline-block;
+   zoom: 1;
+ }
+
+ .owl-theme .owl-dots .owl-dot span {
+   width: 15px;
+   height: 15px;
+   margin: 5px 7px;
+   background: #9c9595;
+   display: block;
+   backface-visibility: visible;
+   transition: opacity .2s ease;
+   border-radius: 30px;
+
+
+
+ }
+
+ .owl-theme .owl-dots .owl-dot.active span{
+  background: #ebebec;
+ }
+
+ .owl-theme .owl-dots .owl-dot:hover span {
+   background: rgb(190, 181, 168);
+ }
+
+ @media (min-width: 1366px) {
+    .owl-theme .owl-dots .owl-dot span{
+      height: 9px;
+      width: 9px;
+
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .owl-theme .owl-dots .owl-dot span{
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+
+  @media (min-width: 1920px) {
+    .owl-theme .owl-dots .owl-dot span{
+      width: 15px;
+      height: 15px;
+    }
+  }

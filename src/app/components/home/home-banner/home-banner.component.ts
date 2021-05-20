@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UploadFetchService } from 'src/app/shared/upload-fetch.service';
+import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
   selector: 'app-home-banner',
@@ -7,6 +8,20 @@ import { UploadFetchService } from 'src/app/shared/upload-fetch.service';
   styleUrls: ['./home-banner.component.css']
 })
 export class HomeBannerComponent implements OnInit {
+  customOptions: OwlOptions = {
+    loop: true,
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
+    dots: true,
+    autoplaySpeed: 3500,
+    dotsSpeed: 3500,
+    autoplayTimeout: 8000,
+    autoplay: true,
+    items: 1,
+    autoHeight: false,
+  }
+
   images = [
     {path: "../../../assets/photos/turtle.jpg"},
     {path: "../../../assets/photos/news1.jpeg"},

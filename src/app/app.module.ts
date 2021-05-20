@@ -11,6 +11,7 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireModule } from '@angular/fire';
 import { HttpClientModule } from '@angular/common/http';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -164,6 +165,7 @@ import { PressContentComponent } from './components/news/press-content/press-con
     BrowserAnimationsModule,
     MaterialModule,
     IvyCarouselModule,
+    CarouselModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
