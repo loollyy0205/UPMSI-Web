@@ -1,26 +1,208 @@
 <app-nav></app-nav>
 <hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
 <div class="container animate__animated animate__fadeIn animate__delay-1s">
-  <p class="atlas-bold title">RESEARCH PROJECT AND HIGHLIGHTS</p>
-
-  <div class="img-container">
-    <div class="img-content" *ngFor="let item of researchOpp">
-      <div class="left">
-        <img [src]="item.image" (click)="projectContent()">
-      </div>
-      <div class="right">
-        <div>
-          <p class="atlas-bold header" (click)="projectContent()">{{item.title}}</p>
-          <p class="atlas-light subtitle">{{item.subtitle}}</p>
-          <p class="atlas-light item-content">{{item.content}}</p>
-        </div>
-
-      </div>
+  <div class="content">
+    <div>
+      <p class="atlas-blackReg title" style="color: #394e8a;">RESEARCH PROJECTS & HIGHLIGHTS</p>
+      <p class="lab-desc atlas-light">Research is the primary role of the UP Marine Science Institute. Topics of interest include natural products, pollution, marine culture and productivity, genetics and genomics, and marine chemistry.
+      </p>
     </div>
-
   </div>
 
-</div>
+  <div class="center-box">
+    <div class="box-content">
+      <div class="left">
+        <img src="https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/News%2F01%20highlight-research-projects.jpg?alt=media&token=bb39bdce-22fc-454c-a2e4-f75beddaa499">
+      </div>
+
+      <div class="right">
+          <p class="atlas-blackReg title" style="color: #394e8a;">HIGHLIGHT</p>
+          <div style="display: flex;">
+            <p class="atlas-light highlight-title" >RESEARCH PROJECT</p>
+            <p class="atlas-light year" >2019-2021</p>
+
+          </div>
+
+          <p class="atlas-bold top-10">Discovery and Development of Health Products – Marine Component Phase 2: Project 1: Anti-Pain and Anti-Neurodegeneration Drug Candidates: Discovery and Development</p>
+          <p class="atlas-light top-10">By Dr. Lluisma, Arturo, DOST-PCHRD</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div style="display: grid; place-content: center;">
+    <div class="content2">
+      <div>
+        <p class="atlas-blackReg title" style="color: #394e8a;">RESEARCH TYPE</p>
+        <p class="lab-desc atlas-light">Aside from contributing to the knowledge gaps in the science, UPMSI projects also aim to develop tools, facilities, and biobanks. These research endeavors are funded by the Department of Science and Technology, the Department of Agriculture, the UP Office of the Vice President for Academic Affairs, and the Commission on Higher Education.
+        </p>
+      </div>
+
+      <mat-accordion>
+        <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false">
+          <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState ? '#394e8a' : '#5ca361'">
+          <mat-panel-title class="atlas-light panel-title">RESEARCH PROJECTS</mat-panel-title>
+          </mat-expansion-panel-header>
+          <!-- <div class="regular-content">
+            <div class="left">
+              <div>
+                <p class="atlas-bold">Dr. Laura T. David</p>
+                <p class="atlas-light">Director</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Maricel C. Caro</p>
+                <p class="atlas-light">Administrative Officer V</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Nelia N. Nieto</p>
+                <p class="atlas-light">Administrative Officer III</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Abigail S. Melendres</p>
+                <p class="atlas-light">University Extension Associate I</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Rizza I. Yabes</p>
+                <p class="atlas-light">Administrative Assistant II</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Rafael L. Gipaya</p>
+                <p class="atlas-light">Supplies Officer</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Romeo T. Bides</p>
+                <p class="atlas-light">Administrative Aide VI (BML)</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Monica Mendoza</p>
+                <p class="atlas-light">Administrative Assistant II</p>
+              </div>
+            </div>
+
+            <div class="right">
+              <div>
+                <p class="atlas-bold">Charina C. Caalim</p>
+                <p class="atlas-light">Administrative Officer II (BML)</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Christopher C. Diolazo</p>
+                <p class="atlas-light">Administrative Assistant III (BML)</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Andrew C. Dumaran</p>
+                <p class="atlas-light">Administrative Aide IV (BML)</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Robert A. Murial</p>
+                <p class="atlas-light">Administrative Assistant II</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Orlando M. Olivar</p>
+                <p class="atlas-light">Administrative Aide VI</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Mariano C. Rabe</p>
+                <p class="atlas-light">Administrative Aide VI</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Jocelyn O. Razal</p>
+                <p class="atlas-light">College Librarian III</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Alfonso C. Rubio, Jr.</p>
+                <p class="atlas-light">Administrative Aide IV (BML)</p>
+              </div>
+
+            </div>
+          </div> -->
+        </mat-expansion-panel>
+
+        <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState1 = true"
+            (closed)="panelOpenState1 = false">
+          <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState1 ? '#394e8a' : '#5ca361'">
+          <mat-panel-title class="atlas-light panel-title">RESEARCH PROGRAMS</mat-panel-title>
+          </mat-expansion-panel-header>
+          <!-- <div class="regular-content">
+            <div class="left">
+              <div>
+                <p class="atlas-bold">Sherry-lyn Sayco</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Andrew Torres</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Erika Gernato</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Diovanie De Jesus</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Minin Sinsona</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Sarah Mae Buen</p>
+              </div>
+            </div>
+
+            <div class="right">
+              <div>
+                <p class="atlas-bold">Anabel Gammaru</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Niño Posadas</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Eunice Gianan</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Hannah Amihan</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Shaira Mendones</p>
+              </div>
+
+              <div>
+                <p class="atlas-bold">Aldwyn Calaguing</p>
+              </div>
+            </div>
+          </div> -->
+        </mat-expansion-panel>
+
+      </mat-accordion>
+    </div>
+
+    <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s" (click)="toAcad()">
+      <span class="arrow-text">
+        <p class="atlas-light">TO ACADEMICS</p>
+      </span>
+      <mat-icon class="arrow" style="padding-left: .5%;">arrow_forward</mat-icon>
+    </div>
+  </div>
+  </div>
 
 <div class="footer">
   <app-footer></app-footer>

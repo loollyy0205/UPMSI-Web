@@ -7,25 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./research-project.component.css']
 })
 export class ResearchProjectComponent implements OnInit {
-  researchOpp=[
-    {image: "../../../../assets/photos/sampleImage1.jpg", title: "Lorem ipsum dolor sit amet", subtitle: 'Juan Dela Cruz, February 21, 2019', content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur'},
-    {image: "../../../../assets/photos/sampleImage1.jpg", title: "Lorem ipsum dolor sit amet", subtitle: 'Juan Dela Cruz, February 21, 2019', content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur'},
-    {image: "../../../../assets/photos/sampleImage1.jpg", title: "Lorem ipsum dolor sit amet", subtitle: 'Juan Dela Cruz, February 21, 2019', content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur'},
-    {image: "../../../../assets/photos/sampleImage1.jpg", title: "Lorem ipsum dolor sit amet", subtitle: 'Juan Dela Cruz, February 21, 2019', content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur'},
-    {image: "../../../../assets/photos/sampleImage1.jpg", title: "Lorem ipsum dolor sit amet", subtitle: 'Juan Dela Cruz, February 21, 2019', content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur'},
-    {image: "../../../../assets/photos/sampleImage1.jpg", title: "Lorem ipsum dolor sit amet", subtitle: 'Juan Dela Cruz, February 21, 2019', content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur'},
-    {image: "../../../../assets/photos/sampleImage1.jpg", title: "Lorem ipsum dolor sit amet", subtitle: 'Juan Dela Cruz, February 21, 2019', content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur'},
-    {image: "../../../../assets/photos/sampleImage1.jpg", title: "Lorem ipsum dolor sit amet", subtitle: 'Juan Dela Cruz, February 21, 2019', content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur'},
-    {image: "../../../../assets/photos/sampleImage1.jpg", title: "Lorem ipsum dolor sit amet", subtitle: 'Juan Dela Cruz, February 21, 2019', content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur'},
-    {image: "../../../../assets/photos/sampleImage1.jpg", title: "Lorem ipsum dolor sit amet", subtitle: 'Juan Dela Cruz, February 21, 2019', content: 'Lorem ipsum, dolor sit amet con adipisicing elit. Vel repellat nostrum voluptatibus sint porro consequuntur'},
-  ];
+  panelOpenState:boolean =false;
+  panelOpenState1:boolean =false;
+  panelOpenState2:boolean =false;
   constructor(private router:Router) { }
 
   ngOnInit(): void {
   }
 
-  projectContent(){
-    this.router.navigate(['/News/Research-projects-and-highlights/content']);
+  toAcad(){
+    this.router.navigate(['/Academics']);
   }
 
 }
