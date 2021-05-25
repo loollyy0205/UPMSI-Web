@@ -33,6 +33,7 @@
     "animate.css": "^4.1.1",
     "express": "^4.17.1",
     "firebase": "^8.2.9",
+    "ng-image-slider": "^2.8.0",
     "ngx-owl-carousel-o": "^5.0.0",
     "path": "^0.12.7",
     "rxjs": "~6.6.0",

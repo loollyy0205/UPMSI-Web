@@ -83,6 +83,7 @@ import { FloatingAssetsComponent } from './components/facilities/floating-assets
 import { PuertoComponentsSubpageComponent } from './components/facilities/puerto-gallera/puerto-components/puerto-components-subpage/puerto-components-subpage.component';
 import { PuertoOutreachComponent } from './components/facilities/puerto-gallera/puerto-components/puerto-components-subpage/puerto-outreach/puerto-outreach.component';
 import { PressContentComponent } from './components/news/press-content/press-content.component';
+import { TrainingsComponent } from './components/extension/trainings/trainings.component';
 
 @NgModule({
   declarations: [
@@ -157,7 +158,8 @@ import { PressContentComponent } from './components/news/press-content/press-con
     FloatingAssetsComponent,
     PuertoComponentsSubpageComponent,
     PuertoOutreachComponent,
-    PressContentComponent
+    PressContentComponent,
+    TrainingsComponent
   ],
   imports: [
     BrowserModule,
