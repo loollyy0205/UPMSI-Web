@@ -40,6 +40,6 @@ export class PuertoComponentsSubpageComponent implements OnInit {
   }
 
   gotoBML(){
-    this.router.navigate(['/Facilities/bolinao-marine-lab']);
+    this.router.navigate(['/Facilities/puerto-galera-station']);
   }
 }

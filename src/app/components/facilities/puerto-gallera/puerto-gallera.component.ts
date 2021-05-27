@@ -14,6 +14,6 @@ export class PuertoGalleraComponent implements OnInit {
   }
 
   gotoFacilities(){
-    this.router.navigate(['/Facilities']);
+    this.router.navigate(['/Facilities/pag-asa-marine-station']);
   }
 }

@@ -2,101 +2,14 @@
 <hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
 <div class="container animate__animated animate__fadeIn animate__delay-1s atlas-light">
   <div class="content1">
-    <p class="atlas-bold title">TRAININGS</p>
 
-
-      <div class="up">
-        <div class="up-l">
-          <div class="left-a">
-          </div>
-
-          <div class="rig">
-            <span class="atlas-bold headline-text">
-             Place Your Headline Text Here
-            </span>
-            <p class="atlas-light date-text-a">
-            Feb 17, 2020, 10:04 AM by Yvette Geroleo
-          </p>
-            <div style="display: flex; flex-direction: column;">
-              <p class="atlas-light content-text-a">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore sequi illo blanditiis, vel autem error.
-              </p>
-              <!--<span class="read-more2" style="color: #384e8a;">
-                CONTINUE READING
-              </span>-->
-            </div>
-          </div>
-        </div>
-
-        <div class="up-r">
-          <div class="left-b">
-          </div>
-
-          <div class="rig">
-            <span class="atlas-bold headline-text">
-              Place Your Headline Text Here
-            </span>
-            <p class="atlas-light date-text-b" >
-            Feb 17, 2020, 10:04 AM by Yvette Geroleo
-          </p>
-            <div style="display: flex; flex-direction: column;">
-              <p class="atlas-light content-text-b">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore sequi illo blanditiis, vel autem error.
-              </p>
-              <!--<span (click)="gotoAnnouncement()" class="read-more2" style="color: #384e8a;">
-                CONTINUE READING
-              </span>-->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="up bottom-announce">
-        <div class="up-l">
-          <div class="left-c">
-          </div>
-
-          <div class="rig">
-            <span class="atlas-bold headline-text">
-              Place Your Headline Text Here
-            </span>
-            <p class="atlas-light date-text-c">
-            Feb 17, 2020, 10:04 AM by Yvette Geroleo
-          </p>
-            <div style="display: flex; flex-direction: column;">
-              <p class="atlas-light content-text-c">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore sequi illo blanditiis, vel autem error.
-              </p>
-              <!--<span class="read-more2" style="color: #384e8a;">
-                CONTINUE READING
-              </span>-->
-            </div>
-          </div>
-        </div>
-
-        <div class="up-r">
-          <div class="left-d">
-          </div>
-
-          <div class="rig">
-            <span class="atlas-bold headline-text">
-              Place Your Headline Text Here
-            </span>
-            <p class="atlas-light date-text-d">
-            Feb 17, 2020, 10:04 AM by Yvette Geroleo
-          </p>
-            <div style="display: flex; flex-direction: column;">
-              <p class="atlas-light content-text-d">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore sequi illo blanditiis, vel autem error.
-              </p>
-              <!--<span class="read-more2" style="color: #384e8a;">
-                CONTINUE READING
-              </span>-->
-            </div>
-          </div>
-        </div>
-      </div>
-      <div style="color: #5da563;" class="more-about">Read More About Our Trainings</div>
+    <div class="atlas-bold title">
+      <p>TRAININGS</p>
+    </div>
+    <div style="margin: 0 9%;">
+      <app-trainings-branch></app-trainings-branch>
+    </div>
+    <div style="color: #5da563;" class="more-about" routerLink="/Extension/trainings">Read More About Trainings</div>
 
 
     <div class="content2-container">
@@ -110,48 +23,62 @@
         </div>
 
         <div class="content2-context">
-          The Marine Science Institute, College of Science, University of the philippines Diliman,
-          invites applications for a full-time tenure-trac faculty position in chemical
-          oceanography or marine chemistry, starting in August 2021. Rank and salary are
-          commensurate with qualifications and experience.
+          Summer Camps for marine science and climate change are held annually in partnership with the Department of Science and Technology Science Education Institute (DOST-SEI). Each year, 40 students and 20 teachers from public high schools are invited to join the camp so they can immerse and develop a deeper understanding of the importance of the oceans in our lives, especially as a maritime country.
         </div>
 
         <!--<img class="advo" src="../../../assets/photos/qoute1.JPG" />-->
         <div class="position">
-           <button class="learn-more-a">LEARN MORE</button>
+           <button class="learn-more-a" routerLink="/Extension/community-outreach">LEARN MORE</button>
          </div>
       </div>
     </div>
 
     <div class="content3-container">
       <div class="left">
-        <div class="right-title atlas-blackReg">
-          <span>GALLERY</span>
-        </div>
+        <div style="margin: 0 20%;">
+          <div class="right-title atlas-blackReg">
+            <span>GALLERY</span>
+          </div>
 
-        <div class="content2-context">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rerum harum dolores sed exercitationem? Adipisci esse quisquam ex omnis quaerat necessitatibus totam tempora non, quas itaque quia fugit fugiat voluptas cum. Asperiores ab, ducimus qui fugiat cum accusantium et iure aperiam, natus dolor saepe perferendis harum quibusdam animi maiores quis.
-        </div>
+          <div class="content2-context">
+            Look through the UP Marine Science Institute’s  gallery for photos and documentation of its people, events, expeditions,  and other features.
+          </div>
 
-       <div class="position">
-           <button class="learn-more-b">SEE MORE</button>
-         </div>
+         <div class="position" routerLink="/Extension/gallery">
+             <button class="learn-more-b">SEE MORE</button>
+           </div>
+        </div>
 
       </div>
 
       <div class="right">
         <owl-carousel-o [options]="customOptions">
-          <ng-template carouselSlide>
-            <img [src]="bgImage1">
-          </ng-template>
-          <ng-template carouselSlide>
-            <img [src]="bgImage2">
-          </ng-template>
-          <ng-template carouselSlide>
-            <img [src]="bgImage3">
+          <ng-template carouselSlide *ngFor="let item of images">
+            <img [src]="item.path" style="cursor: pointer;" (click)="galleryPage(item.name)">
           </ng-template>
         </owl-carousel-o>
 
+        <!-- <carousel
+      [height]="'100%'"
+      [margin]="0"
+      [freeScroll]="false"
+      [transitionTimingFunction]="'ease-in-out'"
+      [transitionDuration]="'1500'"
+      [cellsToShow]="1"
+      [cellsToScroll]="1"
+      [cellWidth]="'100%'"
+      [arrowsOutside]="false"
+      [objectFit]="'cover'"
+      [autoplay]="true"
+      [autoplayInterval]="'3000'"
+      [loop]="true"
+      [overflowCellsLimit]="1"
+      [dots]="true"
+      >
+        <div class="carousel-cell" *ngFor="let item of images">
+          <img [src]="item.path">
+        </div>
+      </carousel> -->
       </div>
     </div>
   </div>

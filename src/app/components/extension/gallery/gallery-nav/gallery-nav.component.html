@@ -1,0 +1,142 @@
+<div class="container">
+  <!--<div class="container">-->
+  <div class="top-container animate__animated animate__fadeIn">
+
+    <div [ngClass]="{'header_change': header_variable, 'top-content': !header_variable}">
+      <div class="search-container" *ngIf="!header_variable">
+        <img src="../assets/photos/UPMSI.png" alt="UPMSI LOGO">
+
+        <mat-form-field>
+          <mat-label>Search</mat-label>
+          <input matInput type="text">
+          <button mat-button matSuffix mat-icon-button>
+            <mat-icon>search</mat-icon>
+          </button>
+        </mat-form-field>
+      </div>
+      <div class="nav-container"  [ngStyle]="{'margin-bottom': header_variable ? '-20px' : ''}">
+        <img *ngIf="header_variable" src="../../../assets/photos/logo.png" height="35" width="35">
+
+        <div class="menu-button">
+          <button mat-button [routerLink]="['/Home']" [style.backgroundColor]="home ? '#fafafa' : ''" [style.color]="home ? '#5da563' : ''">HOME</button>
+        </div>
+
+        <div class="home">
+          <div class="menu-button">
+            <button mat-button [routerLink]="['/About']" [style.backgroundColor]="about ? '#fafafa' : '' || hoverAbout ? '#5da563' : ''" [style.color]="about ? '#5da563' : ''|| hoverAbout ? '#fafafa' : ''">ABOUT</button>
+          </div>
+          <div (mouseover)="hoverAbout=true" (mouseleave)="hoverAbout=false" class="dropdown-menu">
+            <span [routerLink]="['/About/about-msi']">About MSI</span>
+            <span [routerLink]="['/About/About-the-director']">About the Director</span>
+            <div class="sub-menu">
+              <span [routerLink]="['/About/faculty']">Faculty</span>
+              <!--<p id="sub-down">
+                <span>Residents</span>
+                <span>Professors Emeriti</span>
+                <span>Retired</span>
+              </p> -->
+            </div>
+
+            <span [routerLink]="['/About/admin']">Admin</span>
+          </div>
+        </div>
+
+        <div class="home">
+          <div class="menu-button">
+            <button mat-button [routerLink]="['/News']" [style.backgroundColor]="news ? '#fafafa' : '' || hoverNews ? '#5da563' : ''" [style.color]="news ? '#5da563' : ''|| hoverNews ? '#fafafa' : ''">NEWS</button>
+          </div>
+          <div (mouseover)="hoverNews=true" (mouseleave)="hoverNews=false" class="dropdown-menu">
+            <span [routerLink]="['/News/more']">MSI News</span>
+            <span [routerLink]="['/News/Announcement']">Announcement</span>
+            <span style="line-height: 1.3;" [routerLink]="['/News/press']">Press Coverage</span>
+            <span [routerLink]="['/News/Vacancies-and-Opportunities/more']">Vacancies/Opportunities</span>
+            <span style="line-height: 1.3;" [routerLink]="['/News/Research-projects-and-highlights']">Research Projects/Highlights</span>
+          </div>
+        </div>
+
+        <div class="home">
+          <div class="menu-button">
+            <button mat-button [routerLink]="['/Academics']" [style.backgroundColor]="education ? '#fafafa' : '' || hoverAcademics ? '#5da563' : ''" [style.color]="education ? '#5da563' : ''|| hoverAcademics ? '#fafafa' : ''">ACADEMICS</button>
+          </div>
+          <div (mouseover)="hoverAcademics=true" (mouseleave)="hoverAcademics=false" class="dropdown-menu">
+            <span [routerLink]="['/Academics/courses-offered']">Course Offered</span>
+            <span [routerLink]="['/Academics/downloadable-forms']">Downloadable Forms</span>
+          </div>
+        </div>
+
+        <div class="home">
+          <div class="menu-button">
+           <button mat-button [routerLink]="['/Research']" [style.backgroundColor]="research ? '#fafafa' : '' || hoverResearch ? '#5da563' : ''" [style.color]="research ? '#5da563' : ''|| hoverResearch ? '#fafafa' : ''">RESEARCH</button>
+          </div>
+          <div (mouseover)="hoverResearch=true" (mouseleave)="hoverResearch=false" class="dropdown-menu">
+            <span [routerLink]="['/Research/areas-of-research']">Areas of Reseach</span>
+            <span [routerLink]="['/Research/laboratories']">Laboratories</span>
+          </div>
+        </div>
+
+        <div class="home">
+          <div class="menu-button">
+            <button mat-button [routerLink]="['/Facilities']" [style.backgroundColor]="facilities ? '#fafafa' : '' || hoverFacilities ? '#5da563' : ''" [style.color]="facilities ? '#5da563' : ''|| hoverFacilities ? '#fafafa' : ''">FACILITIES</button>
+          </div>
+          <div (mouseover)="hoverFacilities=true" (mouseleave)="hoverFacilities=false" class="dropdown-menu">
+            <span [routerLink]="['/Facilities/bolinao-marine-lab']">Bolinao Marine Lab</span>
+            <span [routerLink]="['/Facilities/puerto-galera-station']">Puerto Galera Station</span>
+            <span [routerLink]="['/Facilities/pag-asa-marine-station']">Pag-Asa Marine Station</span>
+            <div class="sub-menu">
+              <span [routerLink]="['/Facilities/floating-assets']">Floating Assets</span>
+              <!--<p id="sub-down">
+                <span>RV Panata</span>
+                <span>RV Kalayaan</span>
+                <span>RV Mandaragat</span>
+                <span>Speedboats and NARFleet</span>
+              </p>-->
+            </div>
+          </div>
+        </div>
+
+        <div class="home">
+          <div class="menu-button">
+            <button mat-button [routerLink]="['/Extension']" [style.backgroundColor]="extension ? '#fafafa' : '' || hoverExtension ? '#5da563' : ''" [style.color]="extension ? '#5da563' : ''|| hoverExtension ? '#fafafa' : ''">EXTENSION</button>
+          </div>
+          <div (mouseover)="hoverExtension=true" (mouseleave)="hoverExtension=false" class="dropdown-menu">
+            <span>Trainings</span>
+            <span>Community Outreach</span>
+            <span [routerLink]="['/Extension/gallery']">Gallery</span>
+          </div>
+        </div>
+
+        <div class="home">
+          <div class="menu-button">
+            <button mat-button [routerLink]="['/Resources']"  [style.backgroundColor]="resources ? '#fafafa' : '' || hoverResources ? '#5da563' : ''" [style.color]="resources ? '#5da563' : ''|| hoverResources ? '#fafafa' : ''">RESOURCES</button>
+          </div>
+          <div (mouseover)="hoverResources=true" (mouseleave)="hoverResources=false" class="dropdown-menu">
+            <span>Publications</span>
+            <span [routerLink]="['/Resources/library']">Library</span>
+            <span>Museums/Exhibits</span>
+            <span>Research Equipment</span>
+            <span>Repository Herbarium</span>
+          </div>
+        </div>
+
+        <div class="home">
+          <button mat-button [routerLink]="['/Contact']" [style.backgroundColor]="contact ? '#fafafa' : ''" [style.color]="contact ? '#5da563' : ''">CONTACT</button>
+        </div>
+
+        <div class="off-hover" style="margin-top: -13px;" *ngIf="header_variable">
+          <mat-form-field style="width: 90px;" appearance="none">
+            <mat-label>Search</mat-label>
+            <input matInput type="text">
+            <button mat-button matSuffix mat-icon-button>
+              <mat-icon style="font-size: 14px;">search</mat-icon>
+            </button>
+          </mat-form-field>
+        </div>
+
+
+      </div>
+      <!-- *ngIf="!header_variable" -->
+      <hr *ngIf="!(facultyHr === false || facilities === false)" style="margin-top: 15px; margin-bottom: 30px;">
+      <!-- <hr *ngIf="facultyHr == false && !bml" style="margin-top: 15px; margin-bottom: 30px;"> -->
+    </div>
+  </div>
+</div>

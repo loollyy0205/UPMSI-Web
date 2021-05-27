@@ -1,104 +1,26 @@
-<div class="news">
-  <div class="first-content">
-    <div class="left-fc1">
-      <div class="news-left" (click)="newsContent()">
-        <img src="../../../assets/photos/acad1.JPG">
+<app-nav></app-nav>
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
+<div class="container animate__animated animate__fadeIn animate__delay-1s">
+  <p class="atlas-bold title">Trainings</p>
+
+  <div class="img-container">
+    <div class="img-content" *ngFor="let item of news; let i = index">
+      <div class="left">
+        <img [src]="item.image" (click)="newsContent(i)">
       </div>
-      <div class="news-right">
-        <div class="date-headline">
-          <p class="atlas-bold headline-text">
-            Filipino scientist makes history by reaching the 3rd deepest spot on Earth
-          </p>
-
-          <!-- <p class="atlas-light date-text">
-            Feb 17, 2020, 10:04 AM by Yvette Geroleo
-          </p> -->
+      <div class="right" style="margin-top: 1%;">
+        <div>
+          <p class="atlas-bold header" (click)="newsContent(i)">{{item.title}}</p>
+          <!-- <p class="atlas-light subtitle">{{item.subtitle}}</p> -->
+          <p class="atlas-light item-content">{{item.content}}</p>
         </div>
-
-        <p class="atlas-light content-text" (click)="newsContent()">
-          Few have been brave enough to venture the depths of the oceans. This year, microbial oceanographer Dr. Deo Florence L. Onda made...
-        </p>
-
-        <!--<div class="read-more" style="color: #384e8a;">
-          <p (click)="newsContent()">Read more</p>
-        </div>-->
       </div>
     </div>
-    <div class="right-fc1">
-      <div class="news-left" (click)="newsContent()">
 
-      </div>
-      <div class="news-right">
-        <div class="date-headline">
-          <p class="atlas-bold headline-text" (click)="newsContent()">
-            UPMSI scientists receive accolades from NAST, OMLC
-          </p>
-
-          <!-- <p class="atlas-light date-text">
-            Feb 17, 2020, 10:04 AM by Yvette Geroleo
-          </p> -->
-        </div>
-
-        <p class="atlas-light content-text">
-          Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center for Climate...
-        </p>
-
-        <!--<div class="read-more" style="color: #384e8a;">
-          <p (click)="newsContent()">Read more</p>
-        </div>-->
-      </div>
-    </div>
   </div>
 
-  <div class="sec-content">
-    <div class="left-fc1">
-      <div class="news-left" (click)="newsContent()">
+</div>
 
-      </div>
-      <div class="news-right">
-        <div class="date-headline">
-          <p class="atlas-bold headline-text" (click)="newsContent()">
-            All About the Giant Clam
-          </p>
-
-          <!-- <p class="atlas-light date-text">
-            Feb 17, 2020, 10:04 AM by Yvette Geroleo
-          </p> -->
-        </div>
-
-        <p class="atlas-light content-text">
-          In the waters of Silaqui Island in Bolinao, Pangasinan, one could never miss the giant clams. The UPMSI Bolinao Marine Laboratory (BML) currently cultures four species at its onshore hatchery and ocean nursery.
-        </p>
-
-        <!--<div class="read-more" style="color: #384e8a;">
-          <p (click)="newsContent()">Read more</p>
-        </div>-->
-      </div>
-    </div>
-    <div class="right-fc1">
-      <div class="news-left" (click)="newsContent()">
-
-      </div>
-      <div class="news-right">
-        <div class="date-headline">
-          <p class="atlas-bold headline-text" (click)="newsContent()">
-            NARFleet is on its way to prowl Philippine waters
-          </p>
-
-          <!-- <p class="atlas-light date-text">
-            Feb 17, 2020, 10:04 AM by Yvette Geroleo
-          </p> -->
-        </div>
-
-        <p class="atlas-light content-text">
-          The National Academic Research Fleet (NARFleet) is set to embark on its first expedition. The program aims to provide better access to ocean research for both the academe...
-        </p>
-
-        <!--<div class="read-more" style="color: #384e8a;">
-          <p (click)="newsContent()">Read more</p>
-        </div>-->
-      </div>
-    </div>
-  </div>
-
+<div class="footer">
+  <app-footer></app-footer>
 </div>

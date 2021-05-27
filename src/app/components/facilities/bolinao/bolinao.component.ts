@@ -82,6 +82,6 @@ onResize(event) {
 
   }
   gotoFacilities(){
-    this.router.navigate(['/Facilities']);
+    this.router.navigate(['/Facilities/puerto-galera-station']);
   }
 }

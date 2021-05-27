@@ -1,0 +1,26 @@
+<app-nav></app-nav>
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
+<div class="container animate__animated animate__fadeIn animate__delay-1s">
+  <p class="atlas-bold title">Community Outreach</p>
+
+  <div class="img-container">
+    <div class="img-content" *ngFor="let item of news; let i = index">
+      <div class="left">
+        <img [src]="item.image" (click)="newsContent(i)">
+      </div>
+      <div class="right" style="margin-top: 1%;">
+        <div>
+          <p class="atlas-bold header" (click)="newsContent(i)">{{item.title}}</p>
+          <!-- <p class="atlas-light subtitle">{{item.subtitle}}</p> -->
+          <p class="atlas-light item-content">{{item.content}}</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="footer">
+  <app-footer></app-footer>
+</div>

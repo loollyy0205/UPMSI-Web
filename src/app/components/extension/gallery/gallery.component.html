@@ -2,22 +2,13 @@
 <hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
 <div class="animate__animated animate__fadeIn animate__delay-1s">
   <div class="container">
-    <p class="atlas-blackReg title-header">GALLERY</p>
-    <!-- <ng-image-slider [images]="imageObject"
-    #nav
-    [imageSize]="{width: 220, height: 150, space: 3}"></ng-image-slider> -->
-
-    <!-- <div class="imageContent">
-      <div *ngFor="let img of try">
-        <img src="../../../../assets/photos/lab1.jpg" alt="sample" width="300" height="200" (click)="openDialog()">
-      </div>
-    </div> -->
+    <p class="atlas-bold title-header">GALLERY</p>
     <div class="content1">
       <div class="content-marg">
-        <p class="atlas-bold title" (click)="allPhotos($event, photos1)">Untitled Album</p> &nbsp;
+        <p class="atlas-bold title" (click)="edGallery()">Ed Gomez Through the Years</p> &nbsp;
         <p class="atlas-light photo-length">({{photos1.length}} photos)</p>
       </div>
-      <p class="atlas-light context">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit enim perspiciatis maiores eaque ad ipsam similique molestiae adipisci voluptatem, doloribus dicta odit expedita placeat dolore hic, nihil voluptatum. Perspiciatis maxime, unde dolor ab accusamus saepe natus debitis. Voluptas sapiente similique placeat quia nemo dolorem reiciendis voluptatem tenetur amet consequatur!</p>
+      <p class="atlas-light context">From the early days of the Marine Science Center to the documentation of fieldwork projects, see Dr. Eduardo Gomez, his life’s work, and the impact he has left on the institution.</p>
       <carousel
       [height]="'100%'"
       [margin]="20"
@@ -32,26 +23,18 @@
       [overflowCellsLimit]="1"
       [dots]="false"
       >
-        <div class="carousel-cell" *ngFor="let item of photos1">
-        <div class="image atlas-light" (click)="openDialog(item.image)">
-          <img class="image__img" [src]="item.image">
-          <div class="image__overlay image__overlay--primary">
-              <div class="image__title atlas-bold">Sample title here</div>
-              <!-- <p class="image__description">
-                  Short description here
-              </p> -->
-          </div>
-        </div>
+        <div class="carousel-cell" *ngFor="let item of photos1; let i = index">
+          <img [src]="item.image" (click)="openDialog(photos1, i)">
         </div>
       </carousel>
     </div>
 
     <div class="content2">
       <div class="content-marg">
-        <p class="atlas-bold title" (click)="allPhotos($event, photos2)">Second Untitled Album</p> &nbsp;
+        <p class="atlas-bold title" (click)="BML()">BML Visit of Chancellor Tan & Party, Jan 2016</p> &nbsp;
         <p class="atlas-light photo-length">({{photos2.length}} photos)</p>
       </div>
-      <p class="atlas-light context">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit enim perspiciatis maiores eaque ad ipsam similique molestiae adipisci voluptatem, doloribus dicta odit expedita placeat dolore hic, nihil voluptatum. Perspiciatis maxime, unde dolor ab accusamus saepe natus debitis. Voluptas sapiente similique placeat quia nemo dolorem reiciendis voluptatem tenetur amet consequatur!</p>
+      <p class="atlas-light context">Bolinao Marine Laboratory (BML) is the main research station of the Marine Science Institute. Last 2016, Chancellor Michael Tan of UP Diliman visited the BML to observe the facility and know more about its projects.</p>
       <carousel
       [height]="'100%'"
       [margin]="20"
@@ -66,24 +49,18 @@
       [overflowCellsLimit]="1"
       [dots]="false"
       >
-        <div class="carousel-cell" *ngFor="let item of photos2">
-          <div class="image atlas-light" (click)="openDialog(item.image)">
-            <img class="image__img" [src]="item.image">
-            <div class="image__overlay image__overlay--primary">
-                <div class="image__title atlas-bold">Sample title here</div>
-
-            </div>
-          </div>
+        <div class="carousel-cell" *ngFor="let item of photos2; let i = index">
+          <img [src]="item.image" (click)="openDialog(photos2, i)">
         </div>
       </carousel>
     </div>
 
     <div class="content2">
       <div class="content-marg">
-        <p class="atlas-bold title" (click)="allPhotos($event, photos1)">Untitled Album</p> &nbsp;
-        <p class="atlas-light photo-length">({{photos1.length}} photos)</p>
+        <p class="atlas-bold title" (click)="benham()">Benham Rise Oceanographic Cruise</p> &nbsp;
+        <p class="atlas-light photo-length">({{photos3.length}} photos)</p>
       </div>
-      <p class="atlas-light context">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit enim perspiciatis maiores eaque ad ipsam similique molestiae adipisci voluptatem, doloribus dicta odit expedita placeat dolore hic, nihil voluptatum. Perspiciatis maxime, unde dolor ab accusamus saepe natus debitis. Voluptas sapiente similique placeat quia nemo dolorem reiciendis voluptatem tenetur amet consequatur!</p>
+      <p class="atlas-light context">The Marine Science Institute has led expeditions to the Benham Rise, surveying the Benham Park and surrounding waters to explore possible resources.</p>
       <carousel
       [height]="'100%'"
       [margin]="20"
@@ -98,17 +75,90 @@
       [overflowCellsLimit]="1"
       [dots]="false"
       >
-        <div class="carousel-cell" *ngFor="let item of photos1">
-          <div class="image atlas-light" (click)="openDialog(item.image)">
-            <img class="image__img" [src]="item.image">
-            <div class="image__overlay image__overlay--primary">
-                <div class="image__title atlas-bold">Sample title here</div>
-
-            </div>
-          </div>
+        <div class="carousel-cell" *ngFor="let item of photos3; let i = index">
+          <img [src]="item.image" (click)="openDialog(photos3, i)">
         </div>
       </carousel>
     </div>
+
+    <div class="content2">
+      <div class="content-marg">
+        <p class="atlas-bold title" (click)="UPMRO()">UP MPRO Visit to BML</p> &nbsp;
+        <p class="atlas-light photo-length">({{photos4.length}} photos)</p>
+      </div>
+      <p class="atlas-light context">The University of the Philippines – Media and Public Relations Office (UP-MPRO) information officer and photographer visited the Bolinao Marine Laboratory (BML), in Bolinao, Pangasinan last April 2018 to accomplish some articles for the UP online systems’ publication called ‘Breakthroughs’. Their 2-day visit in the Giant Clam Capital of the Philippines was highlighted with a tour to the Silaki Ocean Nursery, home to more than 30,000 cultured and reared giant clam individuals from the BML outdoor hatchery facility.</p>
+      <carousel
+      [height]="'100%'"
+      [margin]="20"
+      [freeScroll]="false"
+      [transitionTimingFunction]="'ease-in-out'"
+      [transitionDuration]="'1000'"
+      [cellsToShow]="3"
+      [cellsToScroll]="1"
+      [cellWidth]="'100%'"
+      [arrowsOutside]="true"
+      [objectFit]="'cover'"
+      [overflowCellsLimit]="1"
+      [dots]="false"
+      >
+        <div class="carousel-cell" *ngFor="let item of photos4; let i = index">
+          <img [src]="item.image" (click)="openDialog(photos4, i)">
+        </div>
+      </carousel>
+    </div>
+
+    <div class="content2">
+      <div class="content-marg">
+        <p class="atlas-bold title" (click)="PHrise()">PH Rise Oceanographic Cruise</p> &nbsp;
+        <p class="atlas-light photo-length">({{photos5.length}} photos)</p>
+      </div>
+      <p class="atlas-light context">The PH Rise expedition, held on May 10, 2019, began from Manila South Harbor to the Pacific coast of Luzon. On the first leg of the expedition, surveys and samplings were conducted from the Isabela coast to Aurora. On the second leg, the group traveled to Benham Bank, the shallowest portion of the Philippine Rise. The expedition, led by the UP Marine Science Institute with collaborators from UP Cebu and Siliman University, was part of the “Securing the Eastern Corridor: Understanding the Resiliency of Reef Environments in the Philippine Rise Region" (SECURE Philippine Rise) project funded by the Department of Environment and Natural Resources.</p>
+      <carousel
+      [height]="'100%'"
+      [margin]="20"
+      [freeScroll]="false"
+      [transitionTimingFunction]="'ease-in-out'"
+      [transitionDuration]="'1000'"
+      [cellsToShow]="3"
+      [cellsToScroll]="1"
+      [cellWidth]="'100%'"
+      [arrowsOutside]="true"
+      [objectFit]="'cover'"
+      [overflowCellsLimit]="1"
+      [dots]="false"
+      >
+        <div class="carousel-cell" *ngFor="let item of photos5; let i = index">
+          <img [src]="item.image" (click)="openDialog(photos5, i)">
+        </div>
+      </carousel>
+    </div>
+
+    <div class="content2">
+      <div class="content-marg">
+        <p class="atlas-bold title" (click)="WPS()">WPS</p> &nbsp;
+        <p class="atlas-light photo-length">({{photos6.length}} photos)</p>
+      </div>
+      <p class="atlas-light context">Scientists from the UP Marine Science Institute embarked on expeditions to the Kalayaan Island Group in the West Philippine Sea. RV Kasarinlan conducted oceanographic surveys while BRP Lapu-Lapu surveyed shallow marine ecosystems. This project, Predicting Responses between Ocean Transport and Ecological Connectivity of Threatened ecosystems in the West Philippine Sea (PROTECT WPS), was funded by the Department of Environment and Natural Resources (DENR).</p>
+      <carousel
+      [height]="'100%'"
+      [margin]="20"
+      [freeScroll]="false"
+      [transitionTimingFunction]="'ease-in-out'"
+      [transitionDuration]="'1000'"
+      [cellsToShow]="3"
+      [cellsToScroll]="1"
+      [cellWidth]="'100%'"
+      [arrowsOutside]="true"
+      [objectFit]="'cover'"
+      [overflowCellsLimit]="1"
+      [dots]="false"
+      >
+        <div class="carousel-cell" *ngFor="let item of photos6; let i = index">
+          <img [src]="item.image" (click)="openDialog(photos6, i)">
+        </div>
+      </carousel>
+    </div>
+
   </div>
 
 

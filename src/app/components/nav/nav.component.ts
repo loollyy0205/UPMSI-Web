@@ -64,31 +64,13 @@ export class NavComponent implements OnInit {
       this.research = true;
     }else if(this.router.url === '/Research/areas-of-research'){
       this.research = true;
-    }else if(this.router.url === '/Research/laboratories'){
+    }else if(this.router.url.includes('/Research/laboratories')){
       this.research = true;
     }else if(this.router.url === '/Research/laboratories/biological-oceanography-and-modeling-of-ecosystem-laboratory'){
       this.research = true;
-    }else if(this.router.url === '/Facilities'){
+    }else if(this.router.url.includes('/Facilities')){
       this.facilities = true;
-    }else if(this.router.url === '/Facilities/bolinao-marine-lab'){
-      this.facilities = true;
-      this.bml = true;
-    }else if(this.router.url === '/Facilities/puerto-galera-station'){
-      this.facilities = true;
-      this.bml = true;
-    }else if(this.router.url === '/Facilities/pag-asa-marine-station'){
-      this.facilities = true;
-      this.bml = true;
-    }else if(this.router.url === '/Facilities/floating-assets'){
-      this.facilities = true;
-      this.bml = true;
-    }else if(this.router.url === '/Facilities/bolinao-marine-lab/bml-complex'){
-      this.facilities = true;
-    }else if(this.router.url === '/Extension'){
-      this.extension = true;
-    }else if(this.router.url === '/Extension/gallery'){
-      this.extension = true;
-    }else if(this.router.url === 'Extension/gallery/images'){
+    }else if(this.router.url.includes('/Extension')){
       this.extension = true;
     }else if(this.router.url === '/Contact'){
       this.contact = true;

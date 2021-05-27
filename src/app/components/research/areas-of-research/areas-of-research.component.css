@@ -29,7 +29,7 @@
   margin-left: 9%;
   margin-right: 9%;
   margin-top: 50px;
-  height: 380px;
+  height: 500px;
   position: relative;
   overflow: hidden;
 }
@@ -48,7 +48,7 @@ img:hover{
 .lab-img{
   position: absolute;
   bottom: 8px;
-  right: 16px;
+  left: 7%;
   height: 100%;
   width: 45%;
   z-index: 1;
@@ -81,51 +81,33 @@ img:hover{
 
 .right-body{
   font-size: 16px;
-  line-height: 1.3;
   color: white;
   outline: none;
+  text-transform: uppercase;
 }
 
-.lab-image2{
-  margin-left: 9%;
-  margin-right: 9%;
-  margin-top: 50px;
-  height: 380px;
-  position: relative;
-  overflow: hidden;
-}
-
-.lab-img2{
-  position: absolute;
-  top: 8px;
-  left: 4%;
-  height: 100%;
-  width: 50%;
-  z-index: 1;
-  display: flex;
-  flex-direction: row;
-}
-
-.left2{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 70px;
-}
-
-.facilities-next{
-  color: #384e8a;
-  margin-top: 30px;
-  margin-left: 9%;
-  margin-right: 9%;
-  display: flex;
-  justify-content: flex-end;
-  cursor: pointer;
-}
 
 .arrow{
-  font-size: 40px;
+  font-size: 30px;
+}
+
+.arrow-text{
+  margin-top: 8px;
+}
+
+.arrow-text:hover{
+  text-decoration: underline;
+}
+
+.more-vacancies{
+  color: #384e8a;
+  margin-left: 9%;
+  margin-right: 9%;
+  display: flex;
+  height: 120px;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
 }
 
 .hr-line{
@@ -138,34 +120,43 @@ img:hover{
 
 .bottom-bor{
   border-bottom: 3px solid #5da563;
-  width: 221px;
+  width: 260px;
   margin: 10px 0;
 }
 
+.bottom-bor2{
+  border-bottom: 3px solid #5da563;
+  width: 190px;
+  margin: 10px 0;
+}
+
+.bottom-bor3{
+  border-bottom: 3px solid #5da563;
+  width: 190px;
+  margin: 10px 0;
+}
+
+.bottom-bor4{
+  border-bottom: 3px solid #5da563;
+  width: 110px;
+  margin: 10px 0;
+}
 .context{
-  width: 700px;
+  width: 680px;
   display: flex;
   flex-direction: row;
 }
 
-.context-left{
-  width: 40%;
-}
-
-.context-right{
-  margin-left: 5%;
-}
-
-.context p:nth-child(n+2) {
-  margin-top: 10px;
-}
-
-.footer{
-  margin-top: 9%;
-}
-
 @media (min-width: 1600px) {
-  .container{
+  *{
+    font-size: 19px;
+  }
+
+  .lab-desc {
+    font-size: 19px;
+  }
+
+  .right-body {
     font-size: 19px;
   }
 
@@ -173,51 +164,38 @@ img:hover{
     margin-top: 59px;
   }
 
-  .photo-by {
-    font-size: 13px;
-  }
-
   .lab-desc{
     margin-top: 23px;
-    font-size: 19px;
   }
 
   .lab-img1{
     margin-top: 59px;
-    height: 445px;
+    height: 586px;
+  }
+
+  .lab-img{
+    bottom: 9px;
   }
 
   .title{
-    font-size: 19px;
     width: 410px;
   }
 
   .sub-title {
-    font-size: 19px;
     margin-top: 12px;
     margin-bottom: 35px;
   }
 
-  .right-body{
-    font-size: 19px;
-  }
-
-  .lab-image2{
-    margin-top: 59px;
-    height: 445px;
-  }
-
-
-  .left2{
-    margin-left: 82px;
-  }
-
-  .facilities-next{
-    margin-top: 35px;
-  }
-
   .arrow{
-    font-size: 47px;
+    font-size: 35px;
+  }
+
+  .arrow-text{
+    margin-top: 9px;
+  }
+
+  .more-vacancies{
+    height: 141px;
   }
 
   .hr-line{
@@ -230,77 +208,86 @@ img:hover{
 
   .bottom-bor{
     border-bottom: 4px solid #5da563;
-    width: 259px;
+    width: 305px;
+    margin: 12px 0;
+  }
+
+  .bottom-bor2{
+    border-bottom: 4px solid #5da563;
+    width: 223px;
+    margin: 12px 0;
+  }
+
+  .bottom-bor3{
+    border-bottom: 4px solid #5da563;
+    width: 223px;
+    margin: 12px 0;
+  }
+
+  .bottom-bor4{
+    border-bottom: 4px solid #5da563;
+    width: 129px;
     margin: 12px 0;
   }
 
   .context{
-    width: 820px;
-  }
-
-  .context p:nth-child(n+2) {
-    margin-top: 12px;
+    width: 796px;
   }
 }
 
 @media (min-width: 1900px) {
-  .container{
+  *{
+    font-size: 23px;
+  }
+
+  .lab-desc {
+    font-size: 23px;
+  }
+
+  .right-body {
     font-size: 23px;
   }
 
   .content{
-    margin-top: 71px;
-  }
-
-  .photo-by {
-    font-size: 16px;
+    margin-top: 70px;
   }
 
   .lab-desc{
-    margin-top: 28px;
-    font-size: 23px;
+    margin-top: 27px;
   }
 
   .lab-img1{
-    margin-top: 71px;
-    height: 528px;
+    margin-top: 70px;
+    height: 696px;
+  }
+
+  .lab-img{
+    bottom: 11px;
   }
 
   .title{
-    font-size: 23px;
-    width: 4920px;
+    width: 487px;
   }
 
   .sub-title {
-    font-size: 23px;
     margin-top: 14px;
     margin-bottom: 42px;
   }
 
-  .right-body{
-    font-size: 23px;
-  }
-
-  .lab-image2{
-    margin-top: 71px;
-    height: 528px;
-  }
-
-
-  .left2{
-    margin-left: 98px;
-  }
-
-  .facilities-next{
-    margin-top: 42px;
-  }
-
   .arrow{
-    font-size: 56px;
+    font-size: 42px;
+  }
+
+  .arrow-text{
+    margin-top: 11px;
+  }
+
+  .more-vacancies{
+    height: 167px;
   }
 
   .hr-line{
-    margin: 22px 9% 42px 9%;
+    margin: 21px 9% 42px 9%;
   }
 
   .title-header{
@@ -309,15 +296,28 @@ img:hover{
 
   .bottom-bor{
     border-bottom: 5px solid #5da563;
-    width: 311px;
+    width: 362px;
     margin: 14px 0;
   }
 
-  .context{
-    width: 984px;
+  .bottom-bor2{
+    border-bottom: 5px solid #5da563;
+    width: 265px;
+    margin: 14px 0;
   }
 
-  .context p:nth-child(n+2) {
-    margin-top: 14px;
+  .bottom-bor3{
+    border-bottom: 5px solid #5da563;
+    width: 265px;
+    margin: 14px 0;
+  }
+
+  .bottom-bor4{
+    border-bottom: 5px solid #5da563;
+    width: 153px;
+    margin: 14px 0;
+  }
+  .context{
+    width: 945px;
   }
 }

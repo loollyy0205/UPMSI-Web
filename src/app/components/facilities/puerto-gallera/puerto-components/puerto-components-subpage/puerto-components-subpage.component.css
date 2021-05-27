@@ -63,21 +63,25 @@
   height: 100%;
   background-color: #F5F5F5;
   margin-bottom: 18px;
-  padding-left: 56px;
+  padding-left: 20px;
 }
 
 .card img {
   float: left;
-  padding-right: 35px;
+  padding-right: 20px;
   padding-bottom: 10px;
   width: 380px;
   height: 220px;
   object-fit: cover;
   margin-top: 20px;
+
+  margin-left: 2.5%;
 }
 
 .right {
   padding: 20px 0;
+
+  margin-left: 2.5%;
   margin-right: 40px;
 }
 
@@ -173,11 +177,11 @@ li span {
 
   .card {
     margin-bottom: 25px;
-    padding-left: 77px;
+    padding-left: 23px;
   }
 
   .card img {
-    padding-right: 48px;
+    padding-right: 23px;
     padding-bottom: 14px;
     width: 445px;
     height: 258px;
@@ -236,11 +240,11 @@ li span {
 
   .card {
     margin-bottom: 30px;
-    padding-left: 91px;
+    padding-left: 27px;
   }
 
   .card img {
-    padding-right: 57px;
+    padding-right: 27px;
     padding-bottom: 17px;
     width: 528px;
     height: 306px;

@@ -98,8 +98,8 @@
             <button mat-button [routerLink]="['/Extension']" [style.backgroundColor]="extension ? '#fafafa' : '' || hoverExtension ? '#5da563' : ''" [style.color]="extension ? '#5da563' : ''|| hoverExtension ? '#fafafa' : ''">EXTENSION</button>
           </div>
           <div (mouseover)="hoverExtension=true" (mouseleave)="hoverExtension=false" class="dropdown-menu">
-            <span>Trainings</span>
-            <span>Community Outreach</span>
+            <span routerLink="/Extension/trainings">Trainings</span>
+            <span routerLink="/Extension/community-outreach">Community Outreach</span>
             <span [routerLink]="['/Extension/gallery']">Gallery</span>
           </div>
         </div>

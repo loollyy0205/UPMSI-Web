@@ -1,120 +1,242 @@
-* {
-  font-size: 16px;
-}
-
-.bottom {
-  padding-bottom: 6%;
-}
-
-.title {
-  font-size: 25px;
-  margin-top: 68px;
-}
-
-.sub-title {
-  margin-top: 18px;
-}
-
-.container{
-  margin: 0 9%;
-  margin-top: 20px;
-}
-
-.footer{
-  margin-top: 9%;
-}
-
-.facilities-next{
-  color: #384e8a;
-  margin-top: 30px;
-  display: flex;
-  justify-content: flex-start;
-  cursor: pointer;
-}
-
-.navi {
-  margin-top: 1%;
-}
-
-.navi:hover{
-  text-decoration: underline;
-}
-
-.arrow {
-  font-size: 35px;
-  margin-top: 3px;
-}
-
-.hr-line{
-  margin: 15px 9% 30px 9%;
-}
-
-.box-card {
+.component1 {
+  background-color: #F5F5F5;
   margin-top: 29px;
   height: 100%;
+
 }
 
-.box-card-content {
-  height: 100%;
-  width: 100%;
-}
-
-.card {
-  height: 100%;
-  background-color: #F5F5F5;
-  margin-bottom: 18px;
-  padding-left: 56px;
-}
-
-.card img {
-  float: left;
-  padding-right: 35px;
-  padding-bottom: 10px;
-  width: 380px;
-  height: 220px;
+.component1 img {
+  padding: 20px;
+  margin-left: 2.5%;
+  width: 380px !important;
+  height: 220px !important;
   object-fit: cover;
-  margin-top: 20px;
 }
 
 .right {
-  padding: 20px 0;
-  margin-right: 40px;
+  width: 60%;
+  margin: 20px 0;
+  padding-right: 2.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.card-content {
+.content {
+  margin-top: 10px;
   line-height: 1.5;
-  margin-top: 15px;
 }
 
 .read-more {
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
+  margin-right: 2.6%;
   cursor: pointer;
-  margin-top: -1%;
 }
 
-.limitTextHeight {
-  height: 185px;
-  overflow: hidden;
+.component1-bottom {
+  margin: 0 20px;
+
+  padding-left: 2.5%;
 }
 
-.limitTextHeight2 {
-  height: 185px;
-  overflow: hidden;
+.panel-title{
+  color: white;
+  padding: 15px 0;
+  font-size: 16px;
 }
 
-.limitTextHeight3 {
-  height: 185px;
-  overflow: hidden;
+mat-expansion-panel{
+  border-color: white;
+  background-color: #F5F5F5;
 }
 
-.limitTextHeight4 {
-  height: 185px;
-  overflow: hidden;
+::ng-deep .specific-class > .mat-expansion-indicator:after {
+  color: white;
 }
 
-.limitTextHeight5 {
-  height: 185px;
-  overflow: hidden;
+.specific-class{
+  border-radius: 50px;
+}
+
+.grad-offering{
+  background-color: #F5F5F5;
+  margin-left: 3%;
+  margin-right: 5.5%;
+  margin-top: 45px !important;
+}
+
+.grad-offering1{
+  background-color: #F5F5F5;
+  margin-left: 3%;
+  margin-right: 5.5%;
+  margin-top: 20px !important;
+}
+
+
+.closed-main-head{
+  background-color: #384e8a;
+  border-radius: 50px;
+}
+
+.regular-content{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.regular-content .left div{
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+ul {
+  margin: 0 9%;
+  padding-bottom: 2%;
+  font-size: 16px;
+  font-family: 'atlas-light';
+}
+
+li {
+  margin-top: 20px;
+  line-height: 1.5;
+  color: #384e8a;
+}
+
+li span {
+  color: black;
+}
+
+@media (min-width: 1600px) {
+  *{
+    font-size: 19px;
+  }
+
+  .component1 {
+    margin-top: 34px;
+  }
+  .component1 img {
+    padding: 23px;
+    width: 445px !important;
+    height: 258px !important;
+  }
+
+  .right {
+    margin: 23px 0;
+  }
+
+  .content {
+    margin-top: 12px;
+  }
+
+  .component1-bottom {
+    margin: 0 23px;
+  }
+
+  .panel-title{
+    padding: 18px 0;
+    font-size: 19px;
+  }
+
+  .specific-class{
+    border-radius: 59px;
+  }
+
+  .grad-offering{
+    margin-top: 53px !important;
+  }
+
+  .grad-offering1{
+    margin-top: 23px !important;
+  }
+
+
+  .closed-main-head{
+    border-radius: 59px;
+  }
+
+  .regular-content{
+    margin-top: 12px;
+    font-size: 19px;
+  }
+
+  .regular-content .left div{
+    margin-top: 12px;
+  }
+
+  ul {
+    font-size: 19px;
+  }
+
+  li {
+    margin-top: 23px;
+  }
+}
+
+@media (min-width: 1900px) {
+  *{
+    font-size: 23px;
+  }
+
+  .component1 {
+    margin-top: 40px;
+  }
+  .component1 img {
+    padding: 27px;
+    width: 528px !important;
+    height: 306px !important;
+  }
+
+  .right {
+    margin: 27px 0;
+  }
+
+  .content {
+    margin-top: 14px;
+  }
+
+  .component1-bottom {
+    margin: 0 27px;
+  }
+
+  .panel-title{
+    padding: 21px 0;
+    font-size: 23px;
+  }
+
+  .specific-class{
+    border-radius: 70px;
+  }
+
+  .grad-offering{
+    margin-top: 63px !important;
+  }
+
+  .grad-offering1{
+    margin-top: 27px !important;
+  }
+
+
+  .closed-main-head{
+    border-radius: 70px;
+  }
+
+  .regular-content{
+    margin-top: 14px;
+    font-size: 23px;
+  }
+
+  .regular-content .left div{
+    margin-top: 14px;
+  }
+
+  ul {
+    font-size: 23px;
+  }
+
+  li {
+    margin-top: 23px;
+  }
 }

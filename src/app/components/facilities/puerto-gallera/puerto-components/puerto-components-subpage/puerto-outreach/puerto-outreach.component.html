@@ -1,50 +1,239 @@
-<div class="box-card">
-  <div class="box-card-content">
-    <div class="card">
+<div class="component1">
 
-      <img src="https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/facilities%2Fpuerto%2F08-components-education-classes.JPG?alt=media&token=b98eeada-6feb-4714-b744-d6a21881d008" />
+  <div style="display: flex;">
+    <img src="https://dc585.4shared.com/img/ZjXZaxIeea/s24/179ace90558/08-components-education-classe?async&rand=0.17451788595182438" />
 
-      <div class="right">
-        <div>
-          <p class="atlas-bold" style="color: #384e8a; text-transform: uppercase;">Education & Conservation Classes</p>
-          <div class="card-content" [ngClass]="{'limitTextHeight2': isReadMore2}">
-            <p *ngIf="isReadMore2">{{ "The BML maintains a dive locker which houses a compressor room, two shower rooms with locker facilities (male and female), a central rinsing area, and a locker compartments for the storage of diving equipment. Individual users under the various MSI projects which have Bolinao-based activities are awarded specific assignments." | slice:0:405}}...</p>
-            <p *ngIf="!isReadMore2">The BML maintains a dive locker which houses a compressor room, two shower rooms with locker facilities (male and female), a central rinsing area, and a locker compartments for the storage of diving equipment. Individual users under the various MSI projects which have Bolinao-based activities are awarded specific assignments.<p>
-            <p *ngIf="!isReadMore2" style="margin-top: 2%;">There exists a compressor room, where two (2) compressor units are used alternately: (one which is diesel-powered, and a second one run by electricity). Approximately 50 scuba tanks for rental are filled and stored in the compressor room, to be readily used for fieldwork.</p>
-          </div>
-        </div>
+    <div class="right">
+      <div>
+        <p class="atlas-bold" style="color: #384e8a; text-transform: uppercase;">Education & Conservation Classes</p>
+        <p class="atlas-light content">The University of the Philippines offers a variety of courses that can be held in whole or partly at the Puerto Galera facility. This venue would provide an opportunity for synergy and collaboration of the various units in offering courses. For example, team teaching can be developed that harnesses the strengths of experts from different units. New holistic and transdisciplinary courses can also be developed.</p>
+      </div>
 
-        <div *ngIf="isReadMore2" class="read-more">
-          <p class="atlas-light" style="color: #384e8a;" (click)="showText2()">READ MORE</p>
-        </div>
+      <div *ngIf="isReadMore" class="read-more">
+        <p class="atlas-light" style="color: #384e8a;" (click)="showText()">READ MORE</p>
       </div>
     </div>
+  </div>
 
+  <div *ngIf="!isReadMore" class="component1-bottom">
+    <p class="atlas-bold" style="color: #384e8a; text-transform: uppercase; margin-top: 1%;">courses offered</p>
+    <p class="atlas-light content">Academic courses of various UP units that can use the Puerto Galera facility.</p>
+
+    <mat-accordion>
+      <mat-expansion-panel class="mat-elevation-z0 grad-offering1" style="margin-bottom: -2% !important;" (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false">
+        <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState ? '#394e8a' : '#5ca361'">
+        <mat-panel-title class="atlas-light panel-title">BIODIVERSITY</mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="regular-content">
+          <div class="left">
+            <div>
+              <p class="atlas-light">Marine Taxonomy courses (e.g., courses on marine plants, invertebrates, marine zoology)</p>
+            </div>
+
+            <div>
+              <p class="atlas-light">Biogeography courses</p>
+            </div>
+
+            <div>
+              <p class="atlas-light">Biodiversity courses</p>
+            </div>
+
+            <div>
+              <p class="atlas-light">Microbiology courses</p>
+            </div>
+          </div>
+        </div>
+      </mat-expansion-panel>
+
+      <mat-expansion-panel class="mat-elevation-z0 grad-offering" style="margin-bottom: -2% !important;" (opened)="panelOpenState1 = true"
+          (closed)="panelOpenState1 = false">
+        <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState1 ? '#394e8a' : '#5ca361'">
+        <mat-panel-title class="atlas-light panel-title">ECOSYSTEM HEALTH</mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="regular-content">
+          <div class="left">
+            <div>
+              <p class="atlas-light">Ecology Courses (e.g, animal ecology, plant ecology, marine ecology, wildlife ecology)</p>
+            </div>
+
+            <div>
+              <p class="atlas-light">Physiology Courses</p>
+            </div>
+
+            <div>
+              <p class="atlas-light">Cell Biology Courses</p>
+            </div>
+
+            <div>
+              <p class="atlas-light">Oceanography courses (geology/chemical/physical/biology)</p>
+            </div>
+
+            <div>
+              <p class="atlas-light">Environmental Science courses</p>
+            </div>
+
+            <div>
+              <p class="atlas-light">Environmental Engineering: water quality, wastewater management</p>
+            </div>
+
+            <div>
+              <p class="atlas-light">Geomatics and Geodetic Engineering</p>
+            </div>
+          </div>
+        </div>
+      </mat-expansion-panel>
+
+      <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState2 = true"
+          (closed)="panelOpenState2 = false">
+        <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState2 ? '#394e8a' : '#5ca361'">
+        <mat-panel-title class="atlas-light panel-title">COASTAL RESOURCE AND MANAGEMENT CONSERVATION</mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="regular-content">
+          <div class="left">
+            <div>
+              <p class="atlas-light">Community outreach: Community mapping exercises, establishment of barangay GIS, environmental monitoring</p>
+            </div>
+
+            <div>
+              <p class="atlas-light">Planning and management courses</p>
+            </div>
+
+          </div>
+        </div>
+      </mat-expansion-panel>
+
+    </mat-accordion>
+
+    <p class="atlas-bold" style="color: #384e8a; text-transform: uppercase; margin-top: 5%;">PG Station as Educational Facility</p>
+    <p class="atlas-light content" style="width: 97%;">Harnessing the various expertise of the University of the Philippines, mini‐show areas can be set‐up as an educational facility for the locals, tourists and visitors in the facility.</p>
+
+    <ul>
+      <li>
+        <span>
+          Biodiversity exhibits
+        </span>
+      </li>
+
+      <li>
+        <span>
+          Research output exhibits
+        </span>
+      </li>
+
+      <li>
+        <span>
+          Puerto Galera ecosystems goods and services exhibit
+        </span>
+      </li>
+      <li>
+        <span>
+          Herb garden
+        </span>
+      </li>
+
+      <li>
+        <span>
+          Renewable energy for local communities
+        </span>
+      </li>
+
+      <li>
+        <span>
+          Native and endangered plants garden
+        </span>
+      </li>
+
+    </ul>
   </div>
 </div>
 
-<div class="box-card">
-  <div class="box-card-content">
-    <div class="card">
+<div class="component1">
 
-      <img src="https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/facilities%2Fpuerto%2F09-components-training-outreach.jpg?alt=media&token=6d343724-e417-495b-9fd6-e882b862b3b8" />
+  <div style="display: flex;">
+    <img src="https://dc585.4shared.com/img/N7vmmCOxiq/s24/179ace90940/09-components-training-outreac?async&rand=0.46075421586025356" />
 
-      <div class="right">
-        <div>
-          <p class="atlas-bold" style="color: #384e8a; text-transform: uppercase;">Outreach and Training</p>
-          <div class="card-content" [ngClass]="{'limitTextHeight3': isReadMore3}">
-            <p *ngIf="isReadMore3">Puerto Galera is a prime spot for research for biodiversity and a variety of terrestrial and aquatic ecosystems, as well as conservation and management initiatives. It is also nearby to indigenous cultures. Long‐term monitoring program is established that enables better understanding and management of the health of the ecosystems of Puerto Galera.<p>
-            <p *ngIf="!isReadMore3">Puerto Galera is a prime spot for research for biodiversity and a variety of terrestrial and aquatic ecosystems, as well as conservation and management initiatives. It is also nearby to indigenous cultures. Long‐term monitoring program is established that enables better understanding and management of the health of the ecosystems of Puerto Galera.<p>
-            <!-- <p *ngIf="!isReadMore3"  style="margin-top: 2%;"> Books, journals, training manuals, photographs, brochures and other research materials are available in the library located beside the administration office where the admin officer, institutional research assistant and the admin aide works. The Office of the DDML is also located beside the library. The BML Cafeteria is also located at the 2nd floor of the Administration building.</p> -->
-          </div>
-        </div>
+    <div class="right">
+      <div>
+        <p class="atlas-bold" style="color: #384e8a; text-transform: uppercase;">Outreach & Training</p>
+        <p class="atlas-light content">As an educational facility, the Puerto Galera Station hosts outreach and training activities that help bring scientific knowledge to everyone, from children to government workers, through the following programs:</p>
+      </div>
 
-        <div *ngIf="isReadMore3" class="read-more">
-          <p class="atlas-light" style="color: #384e8a;" (click)="showText3()">READ MORE</p>
-        </div>
+      <div *ngIf="isReadMore2" class="read-more">
+        <p class="atlas-light" style="color: #384e8a;" (click)="showText2()">READ MORE</p>
       </div>
     </div>
+  </div>
 
+  <div *ngIf="!isReadMore2" class="component1-bottom">
+    <p class="atlas-bold" style="color: #384e8a; text-transform: uppercase;  margin-top: 1%;">Training Activities for communities and LGUs:</p>
+
+    <ul>
+      <li>
+        <span>
+          Governance education on Marine and Climate issues
+        </span>
+      </li>
+
+      <li>
+        <span>
+          Vulnerability trainings
+        </span>
+      </li>
+
+      <li>
+        <span>
+          Training, mentoring, and systems development
+        </span>
+      </li>
+      <li>
+        <span>
+          Waste management training
+        </span>
+      </li>
+
+      <li>
+        <span>
+          Development of tourist information system
+        </span>
+      </li>
+
+      <li>
+        <span>
+          Disaster Risk Reduction and Management training
+        </span>
+      </li>
+
+      <li >
+        <span>
+          Basic mapping using satellite images for natural resource management
+        </span>
+      </li>
+
+    </ul>
+
+    <p class="atlas-bold" style="color: #384e8a; text-transform: uppercase;">Community Outreach Activities</p>
+
+    <ul>
+      <li>
+        <span>
+          Summer camps
+        </span>
+      </li>
+
+      <li>
+        <span>
+          Reef check eco-tourism
+        </span>
+      </li>
+
+      <li>
+        <span>
+          Marine conservation education and training
+        </span>
+      </li>
+
+
+    </ul>
   </div>
 </div>
-

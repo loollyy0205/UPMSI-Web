@@ -12,6 +12,7 @@ import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireModule } from '@angular/fire';
 import { HttpClientModule } from '@angular/common/http';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -84,6 +85,9 @@ import { PuertoComponentsSubpageComponent } from './components/facilities/puerto
 import { PuertoOutreachComponent } from './components/facilities/puerto-gallera/puerto-components/puerto-components-subpage/puerto-outreach/puerto-outreach.component';
 import { PressContentComponent } from './components/news/press-content/press-content.component';
 import { TrainingsComponent } from './components/extension/trainings/trainings.component';
+import { TrainingsBranchComponent } from './components/extension/trainings-branch/trainings-branch.component';
+import { CommunityOutreachComponent } from './components/extension/community-outreach/community-outreach.component';
+import { GalleryNavComponent } from './components/extension/gallery/gallery-nav/gallery-nav.component';
 
 @NgModule({
   declarations: [
@@ -159,7 +163,10 @@ import { TrainingsComponent } from './components/extension/trainings/trainings.c
     PuertoComponentsSubpageComponent,
     PuertoOutreachComponent,
     PressContentComponent,
-    TrainingsComponent
+    TrainingsComponent,
+    TrainingsBranchComponent,
+    CommunityOutreachComponent,
+    GalleryNavComponent
   ],
   imports: [
     BrowserModule,
@@ -173,6 +180,7 @@ import { TrainingsComponent } from './components/extension/trainings/trainings.c
     HttpClientModule,
     AngularFireStorageModule,
     AngularFireModule,
+    NgImageSliderModule,
     AngularFireModule.initializeApp({
       apiKey: "AIzaSyC0vgMf-vXSrsIVRNUE7STpC2zcENy125s",
       authDomain: "upmsi-d03af.firebaseapp.com",

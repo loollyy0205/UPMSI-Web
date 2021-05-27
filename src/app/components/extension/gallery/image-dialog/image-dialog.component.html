@@ -1,11 +1,10 @@
 <div class="container">
   <img [src]="imgSrc">
-  <div class="right">
-    <div class="content">
-      <p class="atlas-bold title">Sample Title</p>
-      <p class="atlas-light context">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, pariatur consectetur architecto voluptatem, provident soluta inventore aperiam esse incidunt, voluptatum vitae facilis saepe ratione minima? Accusamus fugiat accusantium ea, mollitia, atque ut dicta quo sit in eveniet molestiae voluptatem sequi?</p>
-    </div>
+  <div *ngIf="imgIndex > 0" class="font-40">
+    <mat-icon class="previous animate__animated animate__fadeIn" inline="true" (click)="previous()">chevron_left</mat-icon>
+  </div>
 
-    <p class="atlas-light photo-by">Photo by: Marine Science Institute</p>
+  <div *ngIf="imgIndex < lastIndex" class="font-40">
+    <mat-icon class="next animate__animated animate__fadeIn" inline="true" (click)="next()">chevron_right</mat-icon>
   </div>
 </div>

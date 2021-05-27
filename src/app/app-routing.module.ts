@@ -1,3 +1,5 @@
+import { CommunityOutreachComponent } from './components/extension/community-outreach/community-outreach.component';
+import { TrainingsComponent } from './components/extension/trainings/trainings.component';
 import { PressContentComponent } from './components/news/press-content/press-content.component';
 import { PuertoComponentsSubpageComponent } from './components/facilities/puerto-gallera/puerto-components/puerto-components-subpage/puerto-components-subpage.component';
 import { FloatingAssetsComponent } from './components/facilities/floating-assets/floating-assets.component';
@@ -70,8 +72,10 @@ const routes: Routes = [
   {path: 'Facilities/floating-assets', component: FloatingAssetsComponent},
   {path: 'Facilities/bolinao-marine-lab/bml-complex', component: ComplexSubpageComponent},
   {path: 'Extension', component: ExtensionComponent},
+  {path: 'Extension/trainings', component: TrainingsComponent},
+  {path: 'Extension/community-outreach', component: CommunityOutreachComponent},
   {path: 'Extension/gallery', component: GalleryComponent},
-  {path: 'Extension/gallery/images', component: ImagesTabComponent},
+  {path: 'Extension/gallery/:name', component: ImagesTabComponent},
   {path: 'Resources', component: ResourcesComponent},
   {path: 'Resources/library', component: LibraryComponent},
   {path: 'Contact', component: ContactComponent},

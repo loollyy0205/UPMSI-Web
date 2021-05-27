@@ -15,6 +15,6 @@ export class PagAsaComponent implements OnInit {
   }
 
   gotoFacilities(){
-    this.router.navigate(['/Facilities']);
+    this.router.navigate(['/Facilities/floating-assets']);
   }
 }

@@ -8,25 +8,25 @@ import { Router } from '@angular/router';
 })
 export class LabpageContactComponent implements OnInit {
   mmlb = [{
-    logo: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/MMBL%2FMMBL_logo_black.png?alt=media&token=3b2396cf-9dfe-488f-ab30-e22cf711bd76',
+    logo: 'https://dc592.4shared.com/img/W3MJJDETea/s24/179ac81d748/MMBL_logo?async&rand=0.33033745831565375',
     email: 'Email: cconaco@msi.upd.edu.ph',
   }];
 
   miel = [{
-    logo: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/MIEL%2FMIEL%20Logo.png?alt=media&token=566f0d1c-14a0-425c-bbfb-1ca23e2f3b25',
+    logo: 'https://dc592.4shared.com/img/UXVa4VLsea/s24/179ac808f28/MIEL_Logo?async&rand=0.7027315813783175',
     room: 'Room 235',
     tel: 'Tel. no.: (632) 981-8500 local 2908',
     email: 'Email: ajmenez@msi.upd.edu.ph / majm.lab@gmail.com '
   }];
 
   mol = [{
-    logo: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/MOL%2F2.%20Logo.png?alt=media&token=38f49cf0-0b5b-4ab3-a4f2-7ba9da15e3ae',
+    logo: 'https://dc592.4shared.com/img/oqoaYNfriq/s24/179ac7dd3f0/2_Logo?async&rand=0.9916611130663846',
     tel: 'Phone: +63 2 8 981 8500 local 2916',
     email: 'Email: microocelab@msi.upd.edu.ph'
   }];
 
   algae = [{
-    logo2: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/AlgaE%2F0%20AlgaE%20lab%20logo%20hi-res.png?alt=media&token=f819746b-79ec-4481-b14b-8b4ab1efe42d',
+    logo2: 'https://dc592.4shared.com/img/49qxAylBea/s24/179ac7e7fd0/0_AlgaE_lab_logo_hi-res?async&rand=0.23334327280584444',
     tel: 'Tel. no.: (63 02) 8991 8500',
     email: 'Email: algalecolab@msi.upd.edu.ph'
   }];

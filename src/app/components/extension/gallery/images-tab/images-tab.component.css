@@ -53,53 +53,8 @@ img:hover{
   font-size: 15px; align-self: flex-end; margin-bottom: 3px;
 }
 
-.image {
-  position: relative;
-  width: 100%;
-}
-
-.image__img {
-  display: block;
-  width: 100%;
-}
-
-.image__overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.25s;
-}
-
-.image__overlay--blur {
-  backdrop-filter: blur(5px);
-}
-
-
-.image__overlay > * {
-  transform: translateY(20px);
-  transition: transform 0.25s;
-}
-
-.image__overlay:hover {
-  opacity: 1;
-}
-
-.image__overlay:hover > * {
-  transform: translateY(0);
-}
-
-.image__title {
-  padding-top: 140px;
-  font-size: 16px;
+.footer {
+  margin-top: 9%;
 }
 
 @media (min-width: 1466px){
@@ -133,12 +88,8 @@ img:hover{
     font-size: 18px;
   }
 
-  .date{
+  .date, p{
     font-size: 18px;
-  }
-
-  .footer{
-    margin-top: 130px;
   }
 
   .photo-length{
@@ -198,12 +149,8 @@ img:hover{
     font-size: 20px;
   }
 
-  .date{
+  .date, p{
     font-size: 20px;
-  }
-
-  .footer{
-    margin-top: 140px;
   }
 
   .photo-length{
@@ -264,12 +211,8 @@ img:hover{
     font-size: 22px;
   }
 
-  .date{
+  .date, p{
     font-size: 22px;
-  }
-
-  .footer{
-    margin-top: 150px;
   }
 
   .photo-length{
@@ -329,12 +272,8 @@ img:hover{
     font-size: 24px;
   }
 
-  .date{
+  .date, p{
     font-size: 24px;
-  }
-
-  .footer{
-    margin-top: 160px;
   }
 
   .photo-length{
@@ -394,12 +333,8 @@ img:hover{
     font-size: 26px;
   }
 
-  .date{
+  .date, p{
     font-size: 26px;
-  }
-
-  .footer{
-    margin-top: 170px;
   }
 
   .photo-length{
@@ -460,12 +395,8 @@ img:hover{
     font-size: 28px;
   }
 
-  .date{
+  .date, p{
     font-size: 28px;
-  }
-
-  .footer{
-    margin-top: 180px;
   }
 
   .photo-length{
@@ -525,12 +456,8 @@ img:hover{
     font-size: 30px;
   }
 
-  .date{
+  .date, p{
     font-size: 30px;
-  }
-
-  .footer{
-    margin-top: 190px;
   }
 
   .photo-length{

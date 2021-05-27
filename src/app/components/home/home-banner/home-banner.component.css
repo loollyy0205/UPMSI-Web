@@ -57,7 +57,7 @@
 
 .slider .img-container{
   height: 100%;
-  margin-left: 168px;
+  margin-left: 9%;
   position: absolute;
   z-index: 1;
   color: white;
@@ -68,9 +68,22 @@
   justify-content: center;
 }
 
+.slider .img-container3{
+  height: 100%;
+  margin-left: 9%;
+  position: absolute;
+  top: 12%;
+  z-index: 1;
+  color: white;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
 .slider .img-container2{
   height: 100%;
-  margin-left: 168px;
+  margin-left: 9%;
   margin-top: 140px;
   top: 0;
   position: absolute;
@@ -139,12 +152,10 @@
   }
 
   .slider .img-container{
-    margin-left: 106px;
     width: 583px;
   }
 
   .slider .img-container2{
-    margin-left: 149px;
     margin-top: 116px;
     width: 415px;
   }
@@ -187,12 +198,10 @@
   }
 
   .slider .img-container{
-    margin-left: 168px;
     width: 583px;
   }
 
   .slider .img-container2{
-    margin-left: 149px;
     margin-top: 116px;
     width: 583px;
   }
@@ -235,12 +244,10 @@
   }
 
   .slider .img-container{
-    margin-left: 168px;
     width: 700px;
   }
 
   .slider .img-container2{
-    margin-left: 168px;
     margin-top: 140px;
     width: 700px;
   }

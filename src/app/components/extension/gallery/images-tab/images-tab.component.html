@@ -4,24 +4,21 @@
   <div class="container">
 
     <div style="display: flex; flex-direction: row; margin-bottom: 10px; margin-top: 20px;">
-      <p class="atlas-bold title">{{dataGallery['name']}}</p> &nbsp;
-      <p class="atlas-light photo-length">({{dataGallery['photos'].length}} photos)</p>
+      <p class="atlas-bold title">{{dataGallery[0].name}}</p> &nbsp;
+      <p class="atlas-light photo-length">({{dataGallery[2].gallery.length}} photos)</p>
     </div>
-    <p class="atlas-light header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit enim perspiciatis maiores eaque ad ipsam similique molestiae adipisci voluptatem, doloribus dicta odit expedita placeat dolore hic, nihil voluptatum. Perspiciatis maxime, unde dolor ab accusamus saepe natus debitis. Voluptas sapiente similique placeat quia nemo dolorem reiciendis voluptatem tenetur amet consequatur!</p>
+
+    <p class="atlas-light header">{{dataGallery[1].content}}</p>
+
+    <div class="atlas-light" style="margin-top: 2%;" *ngIf="upmroBool">
+      <p>Read more about our giant clams here:</p>
+      <p style="margin-top: 2%;"><a href="https://up.edu.ph/meet-the-giant-clam-fam/" target="_blank">Meet the giant clam fam</a></p>
+      <p style="margin-top: 1%;"><a href="https://up.edu.ph/sentinels-of-the-sea/" target="_blank">Sentinels of the sea</a></p>
+    </div>
 
     <div class="img-container">
-      <div *ngFor="let img of dataGallery['photos']">
-        <!-- <img [src]="img.image" (click)="openDialog(img.image)"> -->
-
-
-        <div class="image atlas-light" (click)="openDialog(img.image)">
-          <img [src]="img.image">
-          <div class="image__overlay image__overlay--primary">
-              <div class="image__title atlas-bold">Sample title here</div>
-
-          </div>
-        </div>
-
+      <div *ngFor="let img of dataGallery[2].gallery; let i = index;">
+        <img [src]="img.image" (click)="openDialog(dataGallery[2].gallery, i)">
       </div>
     </div>
 

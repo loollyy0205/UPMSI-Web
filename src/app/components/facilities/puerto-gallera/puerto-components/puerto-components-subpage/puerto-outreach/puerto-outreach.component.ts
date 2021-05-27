@@ -7,11 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PuertoOutreachComponent implements OnInit {
 
+  panelOpenState:boolean =false;
+  panelOpenState1:boolean =false;
+  panelOpenState2:boolean =false;
+
   isReadMore = true
   isReadMore2 = true
-  isReadMore3 = true
-  isReadMore4 = true
-  isReadMore5 = true
 
   constructor() { }
 
@@ -24,18 +25,6 @@ export class PuertoOutreachComponent implements OnInit {
 
   showText2() {
     this.isReadMore2 = !this.isReadMore2;
-  }
-
-  showText3() {
-    this.isReadMore3 = !this.isReadMore3;
-  }
-
-  showText4() {
-    this.isReadMore4 = !this.isReadMore4;
-  }
-
-  showText5() {
-    this.isReadMore5 = !this.isReadMore5;
   }
 
 
