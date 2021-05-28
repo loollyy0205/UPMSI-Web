@@ -22,14 +22,14 @@ export class PressBranchComponent implements OnInit {
   }
 
   newsContent1(){
-    this.router.navigate(['/News/press-coverage-headlines/test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth']);
+    this.router.navigate(['/News/press-coverage-headlines/SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ']);
   }
 
   newsContent2(){
-    this.router.navigate(['/News/press-coverage-headlines/pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo']);
+    this.router.navigate(['/News/press-coverage-headlines/Manila-Bay-rehabilitasyon-o-reklamasyon']);
   }
 
   newsContent3(){
-    this.router.navigate(['/News/press-coverage-headlines/Dr.-Deo-Florence-Onda-to-make-history-as-1st-filipino-to-reach-3rd-deepest-spot-on-earth']);
+    this.router.navigate(['/News/press-coverage-headlines/the-giant-clam-nursery-in-Bolinao-Pangasinan']);
   }
 }

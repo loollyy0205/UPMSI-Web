@@ -8,16 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VacanciesOppComponent implements OnInit {
   apr9 = [
-    {thumbnail: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/vacancies%2Fvac-full-01.jpg?alt=media&token=565676aa-cab2-441f-929a-9ade865644ca'}
+    {thumbnail: 'https://dc585.4shared.com/img/SyHiB3ulea/s24/179b20e5f88/169570726_10160205766627323_78?async&rand=0.4963483103750912'}
   ]
   mar17 = [
-    {thumbnail: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/vacancies%2Fvac-full-02.jpg?alt=media&token=093068c2-7e82-494c-8bd5-d48160a7cf0f'}
+    {thumbnail: 'https://dc585.4shared.com/img/F6fSJSDDea/s24/179b20e5ba0/161941672_10157998106685509_24?async&rand=0.18343630716970516'}
   ]
   mar05 = [
-    {thumbnail: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/vacancies%2Fvac-full-03.jpg?alt=media&token=c8c1af5a-a6d7-4c51-b3c4-f199cc94ceab'}
+    {thumbnail: 'https://dc585.4shared.com/img/HZ5bHjZSea/s24/179b20e57b8/157700410_906574743443631_5420?async&rand=0.2260014347817274'}
   ]
   feb20 = [
-    {thumbnail: 'https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/vacancies%2Fvac-full-04.jpg?alt=media&token=0827af02-d393-4bf6-b262-5a10ff24ac15'}
+    {thumbnail: 'https://dc585.4shared.com/img/huUuQ2h_ea/s24/179b20e4fe8/151139169_3589025434543507_473?async&rand=0.3172312285738339'}
   ]
 
   myArr = [];

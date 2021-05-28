@@ -13,9 +13,9 @@
     [transitionTimingFunction]="'ease-in-out'"
     [transitionDuration]="'1000'"
     [height]="'100%'"
-    [cellsToShow]="2"
+    [cellsToShow]="3"
     [cellsToScroll]="2"
-    [cellWidth]="'100%'"
+    [cellWidth]="'30%'"
     [arrowsOutside]="true"
     [objectFit]="'cover'"
     [overflowCellsLimit]="1"
@@ -23,11 +23,9 @@
     >
     <div class="carousel-cell" *ngFor="let item of publication">
       <div class="publi-content">
-       <span class="atlas-bold" style="color: #5ca361;">{{item.title}}</span>
-       <span style="color: #5ca361;">{{item.date}}</span>
-       <span style="line-height: 1.3;">{{item.content}}</span>
-
-       <div style="display: flex; flex-direction: row; justify-content: flex-end; text-decoration: underline; color: #394e8a;">CONTINUE READING</div>
+       <div class="atlas-bold header" style="color: #5ca361;">{{item.title}}</div>
+       <div class="sub" style="color: #5ca361;">{{item.date}}</div>
+       <div class="body" style="line-height: 1.3;">{{item.content}}</div>
      </div>
     </div>
 
@@ -35,7 +33,7 @@
 
     </div>
     <div class="read-more">
-      READ MORE PUBLICATIONS
+      Read More Publications
     </div>
 
     <div class="content2">
@@ -51,16 +49,12 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas a optio accusantium eligendi! Nisi culpa non natus! Unde, quas eaque?
         </div>
 
-        <div class="know-more">KNOW MORE ABOUT LIBRARY</div>
-
         <div style="display: flex; flex-direction: column; line-height: 1.2;" class="content2-p">
           <span class="atlas-bold title-content" style="color: white;">MUSEUM and EXHIBITS</span>
         </div>
-        <div style="color: white; line-height: 1.5;">
+        <div class="context" style="color: white; line-height: 1.5;">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, exercitationem! Repudiandae atque deserunt odit. Sunt temporibus voluptatibus deserunt nesciunt illum.
         </div>
-
-        <div style="text-decoration: underline; color: white;  display: flex; flex-direction: row; justify-content: flex-end;" class="content2-p">KNOW MORE ABOUT MUSEUMS</div>
 
       </div>
     </div>
@@ -71,20 +65,16 @@
           <span class="atlas-bold title-content" style="color: white;">RESEARCH EQUIPMENT</span>
         </div>
         <div style="color: white; line-height: 1.5;" class="context">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsa corrupti earum adipisci illo explicabo voluptatem assumenda commodi autem fugit!
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsa corrupti earum adipisci illo explicabo voluptatem assumenda commodi autem fugit!<br>
         </div>
 
-        <div style="text-decoration: underline; color: white;  display: flex; flex-direction: row; justify-content: flex-end;" class="know-more">KNOW MORE ABOUT RESEARCH EQUIPMENT</div>
-
-        <div style="display: flex; flex-direction: column; line-height: 1.2;" class="context">
+        <div style="display: flex; flex-direction: column; line-height: 1.2;" class="content2-p">
           <span class="atlas-bold title-content" style="color: white;">REPOSITORY (HEBARIUM)</span>
         </div>
         <div style="color: white; line-height: 1.5;" class="context">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, aliquam eius quidem vero libero dignissimos dicta veritatis numquam quo tempora.
           qualifications and experience.
         </div>
-
-        <div style="text-decoration: underline; color: white;  display: flex; flex-direction: row; justify-content: flex-end;" class="know-more">KNOW MORE ABOUT REPOSITORY</div>
 
       </div>
 

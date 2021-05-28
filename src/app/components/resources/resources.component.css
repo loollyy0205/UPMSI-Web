@@ -2,14 +2,30 @@
   font-size: 16px;
 }
 
-carousel{
-  height: 500px;
+.carousel{
+  height: 250px;
+}
+
+.header{
+ font-size: 14px !important;
+}
+
+.sub{
+color: #94979c !important;
+font-size: 10px !important;
+}
+
+.body{
+ font-size: 14px !important;
+ line-height: 1.3;
+ color: #4c515a !important;
+ margin-top: 15px;
 }
 
 .container .title{
   font-size: 40px;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 30px;
   color: #394e8a;
   margin-left: 120px;
   margin-right: 120px;
@@ -19,23 +35,38 @@ carousel{
   height: 260px;
   margin-left: 120px;
   margin-right: 120px;
-
 }
 
 .publi-content{
-  height: 260px;
+  height: 200px;
   border-right: 1px solid black;
-  width: 350px;
-  padding-right: 30px;
+  width: 270px;
+  padding-right: 20px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  font-size: 18px
+  gap: 10px;
+  padding-top: 25px;
 }
+
+
+.read-more{
+  margin-left: 120px;
+  margin-right: 128px;
+  float: right;
+  margin-top: 25px;
+  cursor: pointer;
+  color: #5ca361;
+  font-size: 16px;
+}
+
+.read-more:hover{
+  text-decoration: underline;
+}
+
 
 .content2{
   height: 500px;
-  margin: 50px 120px 0 120px;
+  margin: 100px 120px 0 120px;
   display: flex;
   flex-direction: row;
 }
@@ -52,6 +83,7 @@ carousel{
   background-color: #394e8a;
   padding: 80px;
   display: flex;
+  padding-top: 70px;
   flex-direction: column;
   justify-content: center;
 }
@@ -79,23 +111,15 @@ carousel{
   background-size: cover;
 }
 
-.read-more{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 50px;
-  font-size: 18px;
-  text-decoration: underline;
-  color: #5ca361;
-}
-
 .hr-line{
   margin: 15px 120px 30px 120px;
 }
 
 .title-content{
   font-size: 35px;
+  cursor: pointer;
 }
+
 
 .context{
   color: white;
@@ -103,17 +127,8 @@ carousel{
   margin-top: 20px;
 }
 
-.know-more{
-  text-decoration: underline;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 20px;
-}
-
 .content2-p{
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .footer{
@@ -125,10 +140,22 @@ carousel{
     font-size: 18px;
   }
 
+  .header{
+   font-size: 16px;
+  } 
+
+ .sub{
+   font-size: 12px;
+  }
+
+ .body{
+  font-size: 16px;
+ }
+
   .container .title{
     font-size: 45px;
     margin-top: 25px;
-    margin-bottom: 55px;
+    margin-bottom: 35px;
     margin-left: 130px;
     margin-right: 130px;
   }
@@ -136,22 +163,21 @@ carousel{
   .publi-container{
     margin-left: 130px;
     margin-right: 130px;
-    height: 300px;
+    height: 270px;
   }
 
   .publi-content{
-    height: 300px;
-    width: 390px;
-    padding-right: 35px;
+    height: 220px;
+    width: 280px;
+    padding-right: 30px;
     display: flex;
     flex-direction: column;
-    gap: 35px;
-    font-size: 20px
+    gap: 15px;
   }
 
   .read-more{
-    margin-top: 55px;
-    font-size: 20px;
+    margin-top: 35px;
+    font-size: 18px;
   }
 
   .hr-line{
@@ -160,7 +186,7 @@ carousel{
 
   .content2, .content3{
     height: 580px;
-    margin: 60px 130px 0 130px;
+    margin: 120px 130px 0 130px;
   }
 
   .content2-right, .content3-left{
@@ -185,33 +211,44 @@ carousel{
     font-size: 20px;
   }
 
+  .header{
+    font-size: 18px;
+  } 
+
+ .sub{
+   font-size: 14px;
+  }
+
+  .body{
+    font-size: 18px;
+  }
+
   .container .title{
     font-size: 50px;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     margin-left: 140px;
     margin-right: 140px;
   }
 
   .publi-container{
-    height: 340px;
+    height: 280px;
     margin-left: 140px;
     margin-right: 140px;
   }
 
   .publi-content{
-    height: 340px;
-    width: 430px;
+    height: 230px;
+    width: 290px;
     padding-right: 40px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    font-size: 22px
+    gap: 20px;
   }
 
   .read-more{
-    margin-top: 60px;
-    font-size: 22px;
+    margin-top: 40px;
+    font-size: 20px;
   }
 
   .hr-line{
@@ -220,7 +257,7 @@ carousel{
 
   .content2, .content3{
     height: 660px;
-    margin: 70px 140px 0 140px;
+    margin: 130px 140px 0 140px;
   }
 
   .content2-right, .content3-left{
@@ -246,33 +283,44 @@ carousel{
     font-size: 22px;
   }
 
+  .header{
+    font-size: 20px;
+  } 
+
+ .sub{
+   font-size: 16px;
+  }
+
+  .body{
+    font-size: 20px;
+  }
+
   .container .title{
     font-size: 55px;
     margin-top: 35px;
-    margin-bottom: 65px;
+    margin-bottom: 45px;
     margin-left: 150px;
     margin-right: 150px;
   }
 
   .publi-container{
-    height: 380px;
+    height: 290px;
     margin-left: 150px;
     margin-right: 150px;
   }
 
   .publi-content{
-    height: 380px;
-    width: 470px;
-    padding-right: 45px;
+    height: 240px;
+    width: 300px;
+    padding-right: 50px;
     display: flex;
     flex-direction: column;
-    gap: 45px;
-    font-size: 24px
+    gap: 25px;
   }
 
   .read-more{
-    margin-top: 65px;
-    font-size: 24px;
+    margin-top: 45px;
+    font-size: 22px;
   }
 
   .hr-line{
@@ -281,7 +329,7 @@ carousel{
 
   .content2, .content3{
     height: 700px;
-    margin: 80px 150px 0 150px;
+    margin: 140px 150px 0 150px;
   }
 
   .content2-right, .content3-left{
@@ -306,33 +354,44 @@ carousel{
     font-size: 24px;
   }
 
+  .header{
+    font-size: 22px;
+  } 
+
+ .sub{
+   font-size: 18px;
+  }
+
+  .body{
+    font-size: 22px;
+  }
+
   .container .title{
     font-size: 60px;
     margin-top: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     margin-left: 160px;
     margin-right: 160px;
   }
 
   .publi-container{
-    height: 420px;
+    height: 300px;
     margin-left: 160px;
     margin-right: 160px;
   }
 
   .publi-content{
-    height: 420px;
-    width: 510px;
-    padding-right: 50px;
+    height: 250px;
+    width: 310px;
+    padding-right: 60px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    font-size: 26px
+    gap: 30px;
   }
 
   .read-more{
-    margin-top: 70px;
-    font-size: 26px;
+    margin-top: 50px;
+    font-size: 24px;
   }
 
   .hr-line{
@@ -341,7 +400,7 @@ carousel{
 
   .content2, .content3{
     height: 775px;
-    margin: 90px 160px 0 160px;
+    margin: 150px 160px 0 160px;
   }
 
   .content2-right, .content3-left{
@@ -366,33 +425,44 @@ carousel{
     font-size: 26px;
   }
 
+  .header{
+    font-size: 24px;
+  } 
+
+ .sub{
+   font-size: 20px;
+  }
+
+  .body{
+    font-size: 24px;
+  }
+
   .container .title{
     font-size: 65px;
     margin-top: 45px;
-    margin-bottom: 75px;
+    margin-bottom: 55px;
     margin-left: 170px;
     margin-right: 170px;
   }
 
   .publi-container{
-    height: 460px;
+    height: 310px;
     margin-left: 170px;
     margin-right: 170px;
   }
 
   .publi-content{
-    height: 460px;
-    width: 550px;
-    padding-right: 55px;
+    height: 360px;
+    width: 320px;
+    padding-right: 70px;
     display: flex;
     flex-direction: column;
-    gap: 55px;
-    font-size: 28px
+    gap: 35px;
   }
 
   .read-more{
-    margin-top: 75px;
-    font-size: 28px;
+    margin-top: 55px;
+    font-size: 26px;
   }
 
   .hr-line{
@@ -401,7 +471,7 @@ carousel{
 
   .content2, .content3{
     height: 850px;
-    margin: 100px 170px 0 170px;
+    margin: 160px 170px 0 170px;
   }
 
   .content2-right, .content3-left{
@@ -426,33 +496,44 @@ carousel{
     font-size: 28px;
   }
 
+  .header{
+    font-size: 26px;
+  } 
+
+ .sub{
+   font-size: 22px;
+  }
+
+  .body{
+    font-size: 26px;
+  }
+
   .container .title{
     font-size: 70px;
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     margin-left: 180px;
     margin-right: 180px;
   }
 
   .publi-container{
-    height: 500px;
+    height: 320px;
     margin-left: 180px;
     margin-right: 180px;
   }
 
   .publi-content{
-    height: 500px;
-    width: 590px;
-    padding-right: 60px;
+    height: 370px;
+    width: 330px;
+    padding-right: 80px;
     display: flex;
     flex-direction: column;
-    gap: 60px;
-    font-size: 30px;
+    gap: 40px;
   }
 
   .read-more{
-    margin-top: 80px;
-    font-size: 30px;
+    margin-top: 60px;
+    font-size: 28px;
   }
 
   .hr-line{
@@ -461,7 +542,7 @@ carousel{
 
   .content2, .content3{
     height: 925px;
-    margin: 110px 180px 0 180px;
+    margin: 170px 180px 0 180px;
   }
 
   .content2-right, .content3-left{
@@ -486,33 +567,44 @@ carousel{
     font-size: 30px;
   }
 
+  .header{
+    font-size: 28px;
+  } 
+
+ .sub{
+   font-size: 24px;
+  }
+
+  .body{
+    font-size: 28px;
+  }
+
   .container .title{
     font-size: 75px;
     margin-top: 55px;
-    margin-bottom: 85px;
+    margin-bottom: 65px;
     margin-left: 190px;
     margin-right: 190px;
   }
 
   .publi-container{
-    height: 540px;
+    height: 330px;
     margin-left: 190px;
     margin-right: 190px;
   }
 
   .publi-content{
-    height: 540px;
-    width: 700px;
-    padding-right: 65px;
+    height: 380px;
+    width: 340px;
+    padding-right: 90px;
     display: flex;
     flex-direction: column;
-    gap: 65px;
-    font-size: 32px;
+    gap: 50px;
   }
 
   .read-more{
-    margin-top: 85px;
-    font-size: 32px;
+    margin-top: 65px;
+    font-size: 30px;
   }
 
   .hr-line{
@@ -521,7 +613,7 @@ carousel{
 
   .content2, .content3{
     height: 1000px;
-    margin: 120px 190px 0 190px;
+    margin: 180px 190px 0 190px;
   }
 
   .content2-right, .content3-left{

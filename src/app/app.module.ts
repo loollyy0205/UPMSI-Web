@@ -88,6 +88,7 @@ import { TrainingsComponent } from './components/extension/trainings/trainings.c
 import { TrainingsBranchComponent } from './components/extension/trainings-branch/trainings-branch.component';
 import { CommunityOutreachComponent } from './components/extension/community-outreach/community-outreach.component';
 import { GalleryNavComponent } from './components/extension/gallery/gallery-nav/gallery-nav.component';
+import { ShipAssetsComponent } from './components/facilities/floating-assets/ship-assets/ship-assets.component';
 
 @NgModule({
   declarations: [
@@ -166,7 +167,8 @@ import { GalleryNavComponent } from './components/extension/gallery/gallery-nav/
     TrainingsComponent,
     TrainingsBranchComponent,
     CommunityOutreachComponent,
-    GalleryNavComponent
+    GalleryNavComponent,
+    ShipAssetsComponent
   ],
   imports: [
     BrowserModule,

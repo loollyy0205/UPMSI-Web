@@ -15,8 +15,8 @@ export class HomeBannerComponent implements OnInit {
     pullDrag: false,
     dots: true,
     autoplaySpeed: 3500,
-    dotsSpeed: 1000,
-    autoplayTimeout: 5000,
+    dotsSpeed: 500,
+    autoplayTimeout: 8000,
     autoplay: true,
     items: 1,
     autoHeight: false,
@@ -78,7 +78,6 @@ export class HomeBannerComponent implements OnInit {
       this.link3 = resData[2].link;
       this.link4 = resData[3].link;
     })
-
   }
 
 }

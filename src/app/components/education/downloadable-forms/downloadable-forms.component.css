@@ -10,6 +10,7 @@ a {
 .content-header{
   height: 297px;
   position: relative;
+  bottom: 20px;
 }
 
 img{
@@ -66,7 +67,7 @@ mat-expansion-panel{
 }
 
 .grad-offering{
-  margin-top: 50px !important;
+  margin-top: 30px !important;
   margin: 0 10%;
 }
 
@@ -128,6 +129,14 @@ mat-expansion-panel{
   margin-left: 8px;
 }
 
+a{
+  color:  #5da563;
+}
+
+a:visited{
+  color: #394e8a;
+}
+
 @media (min-width: 1600px) {
   .container{
     margin-top: 23px;
@@ -166,7 +175,7 @@ mat-expansion-panel{
   }
 
   .grad-offering{
-    margin-top: 59px !important;
+    margin-top: 39px !important;
   }
 
   .core-courses{
@@ -247,7 +256,7 @@ mat-expansion-panel{
   }
 
   .grad-offering{
-    margin-top: 71px !important;
+    margin-top: 51px !important;
   }
 
   .closed-main-head{

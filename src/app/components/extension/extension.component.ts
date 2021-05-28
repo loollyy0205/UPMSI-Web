@@ -10,12 +10,12 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 export class ExtensionComponent implements OnInit {
 
   images = [
-    {path: "https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/extension%2Fgallery-04.png?alt=media&token=87b5acca-21a7-4f1c-a2db-52a4e81a25ed", name: `Ed-Gomez-through-the-years`},
-    {path: "https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/extension%2Fgallery-03.png?alt=media&token=97fee6dc-de64-4004-988f-0b0b3b1e346a", name: `BML-visit-of-chancellor-Tan-&-party-Jan-2016`},
-    {path: "https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/extension%2Fgallery-05.png?alt=media&token=bc0de9e8-d4db-4b69-9316-1c425ac89dd7", name: `benham-rise-oceanographic-cruise`},
-    {path: "https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/extension%2Fgallery-02.png?alt=media&token=38d70fdd-0b83-4c0c-a990-cdc781e8a53e", name: `UP-MPRO-visit-to-BML`},
-    {path: "https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/extension%2Fgallery-01.png?alt=media&token=11ae79e8-8152-4d76-8eb2-f2a19e3deb72", name: `PH-rise-oceanographic-cruise`},
-    {path: "https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/extension%2Fgallery-06.png?alt=media&token=21447894-3b7e-4ac0-b97e-9dcf1e4db28a", name: `WPS`},
+    {path: "https://dc729.4shared.com/img/OoxzdrzLea/s24/179b15df760/gallery-04?async&rand=0.8173222550982155", name: `Ed-Gomez-through-the-years`},
+    {path: "https://dc729.4shared.com/img/7kXWJlFnea/s24/179b15deba8/gallery-03?async&rand=0.12875335433782564", name: `BML-visit-of-chancellor-Tan-&-party-Jan-2016`},
+    {path: "https://dc585.4shared.com/img/aFtchGtwea/s24/179b15e0ed0/gallery-05?async&rand=0.5433471774763841", name: `benham-rise-oceanographic-cruise`},
+    {path: "https://dc585.4shared.com/img/OVlmm-L3iq/s24/179b15ddc08/gallery-02?async&rand=0.9382601495414822", name: `UP-MPRO-visit-to-BML`},
+    {path: "https://dc585.4shared.com/img/g5XYVRFqiq/s24/179b15dd050/gallery-01?async&rand=0.7337152364772384", name: `PH-rise-oceanographic-cruise`},
+    {path: "https://dc729.4shared.com/img/_V2c6OdJiq/s24/179b15e1e70/gallery-06?async&rand=0.08288649428304029", name: `WPS`},
   ];
 
 

@@ -19,7 +19,7 @@ img{
 }
 
 .first-content .left-fc1 .news-left{
-  width: 50%;
+  width: 55%;
   /* background-image: url(../../../../assets/photos/acad2.JPG);
   background-repeat: no-repeat;
   background-size: cover; */
@@ -42,8 +42,7 @@ img{
 }
 
 .first-content .right-fc1 .news-left{
-  width: 50%;
-  background-image: url(../../../../assets/photos/press-coverage/thumbnail-02.jpg);
+  width: 55%;
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
@@ -72,8 +71,7 @@ img{
 }
 
 .sec-content .left-fc1 .news-left{
-  width: 50%;
-  background-image: url(../../../../assets/photos/press-coverage/thumbnail-03.jpg);
+  width: 55%;
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
@@ -86,10 +84,7 @@ img{
 }
 
 .sec-content .right-fc1 .news-left{
-  width: 50%;
-  background-image: url(../../../../assets/photos/press-coverage/thumbnail-04.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 55%;
   cursor: pointer;
 
 }

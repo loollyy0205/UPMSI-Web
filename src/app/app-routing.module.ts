@@ -84,8 +84,8 @@ const routes: Routes = [
   {path: 'News/news-headlines', component: MoreNewsComponent},
   {path: 'News/Announcement', component: AnnouncementComponent},
   {path: 'News/Announcement/:name', component: AnnouncementContentComponent},
-  {path: 'News/Research-projects-and-highlights', component: ResearchProjectComponent},
-  {path: 'News/Research-projects-and-highlights/content', component: ProjectContentComponent},
+  {path: 'Research/Research-projects-and-highlights', component: ResearchProjectComponent},
+  {path: 'Research/Research-projects-and-highlights/content', component: ProjectContentComponent},
   {path: 'News/vacancies-&-opportunities/:name', component: VacanciesOppComponent},
   {path: 'News/Vacancies-and-Opportunities/more', component: MoreVacanciesComponent},
   {path: 'News/press-coverage-headlines', component: PressComponent},
@@ -93,7 +93,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -20,6 +20,20 @@
   color: white;
 }
 
+#learn-more-a{
+  width: 250px;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #384e8a;
+  color: white;
+}
+
 
 /* Education CSS Section */
 .educ-container{

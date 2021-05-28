@@ -16,8 +16,8 @@ export class FacultyComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  gotoNews(){
-    this.router.navigate(['/News']);
+  gotoAdmin(){
+    this.router.navigate(['/About/admin']);
   }
 
 }
