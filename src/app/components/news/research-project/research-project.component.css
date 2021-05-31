@@ -2,6 +2,35 @@
   font-size: 16px;
 }
 
+.content-header{
+  height: 297px;
+  position: relative;
+  margin: 0 9%;
+}
+
+.banner-content{
+  font-size: 16px;
+  margin-top: 13px;
+  width: 684px;
+}
+
+.left-content{
+  position: absolute;
+  z-index: 1;
+  bottom: 8px;
+  width: 500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+  color: white;
+}
+
+.title{
+  font-size: 29px;
+}
+
 .content{
   margin-left: 9%;
   margin-right: 9%;
@@ -13,7 +42,7 @@
 
 .content2{
   width: 1000px;
-  margin-top: 70px;
+  margin-top: 50px;
   height: 100%;
 }
 
@@ -139,28 +168,8 @@ mat-expansion-panel{
 .regular-content{
   height: 100%;
   display: flex;
-  flex-direction: row;
-  margin-top: 20px;
+  flex-direction: column;
   font-size: 16px;
-}
-
-.regular-content .left{
-  width: 50%;
-}
-
-.regular-content .left div{
-  margin-top: 10px;
-  line-height: 1.4;
-}
-
-.regular-content .right div{
-  margin-top: 10px;
-  line-height: 1.4;
-}
-
-
-.regular-content .right{
-  width: 50%;
 }
 
 .more-vacancies{
@@ -183,6 +192,26 @@ mat-expansion-panel{
   margin-top: 8px;
 }
 
+.dd-content {
+  width: 100%;
+  border-bottom: 1px solid rgba(92, 163, 97, .99);
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  place-items: center;
+  padding: 20px 0;
+}
+
+.dd-content img {
+  height: 50px;
+  width: 50px;
+}
+
+.dd-content .img2 {
+  height: 30px !important;
+  width: 90px !important;
+}
+
 @media (min-width: 1600px) {
   *{
     font-size: 19px;
@@ -194,7 +223,7 @@ mat-expansion-panel{
 
   .content2{
     width: 1171px;
-    margin-top: 82px;
+    margin-top: 59px;
   }
 
   .lab-desc{
@@ -301,7 +330,7 @@ mat-expansion-panel{
 
   .content2{
     width: 1391px;
-    margin-top: 97px;
+    margin-top: 70px;
   }
 
   .lab-desc{

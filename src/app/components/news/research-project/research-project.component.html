@@ -1,32 +1,14 @@
 <app-nav></app-nav>
 <hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
 <div class="container animate__animated animate__fadeIn animate__delay-1s">
-  <div class="content">
-    <div>
-      <p class="atlas-blackReg title" style="color: #394e8a;">RESEARCH PROJECTS & HIGHLIGHTS</p>
-      <p class="lab-desc atlas-light">Research is the primary role of the UP Marine Science Institute. Topics of interest include natural products, pollution, marine culture and productivity, genetics and genomics, and marine chemistry.
+
+  <div class="content-header">
+    <img src="https://dc732.4shared.com/img/ASk6PkM-ea/s24/179c1fdb808/01-banner?async&rand=0.054765963762564596">
+    <div class="left-content">
+      <p class="atlas-blackReg title">RESEARCH PROGRAMS & PROJECTS</p>
+      <p class="atlas-light banner-content" style="line-height: 1.3;">
+        Research is the primary role of the UP Marine Science Institute. Topics of interest include natural products, pollution, marine culture and productivity, genetics and genomics, and marine chemistry.
       </p>
-    </div>
-  </div>
-
-  <div class="center-box">
-    <div class="box-content">
-      <div class="left">
-        <img src="https://firebasestorage.googleapis.com/v0/b/upmsi-d03af.appspot.com/o/News%2F01%20highlight-research-projects.jpg?alt=media&token=bb39bdce-22fc-454c-a2e4-f75beddaa499">
-      </div>
-
-      <div class="right">
-          <p class="atlas-blackReg title" style="color: #394e8a;">HIGHLIGHT</p>
-          <div style="display: flex;">
-            <p class="atlas-light highlight-title" >RESEARCH PROJECT</p>
-            <p class="atlas-light year" >2019-2021</p>
-
-          </div>
-
-          <p class="atlas-bold top-10">Discovery and Development of Health Products – Marine Component Phase 2: Project 1: Anti-Pain and Anti-Neurodegeneration Drug Candidates: Discovery and Development</p>
-          <p class="atlas-light top-10">By Dr. Lluisma, Arturo, DOST-PCHRD</p>
-      </div>
-
     </div>
   </div>
 
@@ -42,154 +24,43 @@
         <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState = true"
             (closed)="panelOpenState = false">
           <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState ? '#394e8a' : '#5ca361'">
-          <mat-panel-title class="atlas-light panel-title">RESEARCH PROJECTS</mat-panel-title>
+          <mat-panel-title class="atlas-light panel-title">RESEARCH PROJECTS <span *ngIf="panelOpenState"> &nbsp;&nbsp;-&nbsp;&nbsp; PROGRAM TITLE&nbsp;&nbsp; |&nbsp;&nbsp; PROJECT LEADER&nbsp;&nbsp; |&nbsp;&nbsp; FUNDING AGENCY&nbsp;&nbsp; |&nbsp;&nbsp; DURATION</span></mat-panel-title>
           </mat-expansion-panel-header>
-          <!-- <div class="regular-content">
-            <div class="left">
-              <div>
-                <p class="atlas-bold">Dr. Laura T. David</p>
-                <p class="atlas-light">Director</p>
-              </div>
+          <div class="regular-content">
+            <div class="dd-content" *ngFor="let item of researchProj">
+              <img *ngIf="item.type !== 'pbbl'" [src]="item.logo">
+              <img *ngIf="item.type === 'pbbl'" class="img2" [src]="item.logo">
 
-              <div>
-                <p class="atlas-bold">Maricel C. Caro</p>
-                <p class="atlas-light">Administrative Officer V</p>
-              </div>
+              <p>{{item.title}}</p>
 
-              <div>
-                <p class="atlas-bold">Nelia N. Nieto</p>
-                <p class="atlas-light">Administrative Officer III</p>
-              </div>
+              <p>{{item.leader}}</p>
 
-              <div>
-                <p class="atlas-bold">Abigail S. Melendres</p>
-                <p class="atlas-light">University Extension Associate I</p>
-              </div>
+              <p>{{item.fundingAgency}}</p>
 
-              <div>
-                <p class="atlas-bold">Rizza I. Yabes</p>
-                <p class="atlas-light">Administrative Assistant II</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Rafael L. Gipaya</p>
-                <p class="atlas-light">Supplies Officer</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Romeo T. Bides</p>
-                <p class="atlas-light">Administrative Aide VI (BML)</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Monica Mendoza</p>
-                <p class="atlas-light">Administrative Assistant II</p>
-              </div>
+              <p>{{item.duration}}</p>
             </div>
-
-            <div class="right">
-              <div>
-                <p class="atlas-bold">Charina C. Caalim</p>
-                <p class="atlas-light">Administrative Officer II (BML)</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Christopher C. Diolazo</p>
-                <p class="atlas-light">Administrative Assistant III (BML)</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Andrew C. Dumaran</p>
-                <p class="atlas-light">Administrative Aide IV (BML)</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Robert A. Murial</p>
-                <p class="atlas-light">Administrative Assistant II</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Orlando M. Olivar</p>
-                <p class="atlas-light">Administrative Aide VI</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Mariano C. Rabe</p>
-                <p class="atlas-light">Administrative Aide VI</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Jocelyn O. Razal</p>
-                <p class="atlas-light">College Librarian III</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Alfonso C. Rubio, Jr.</p>
-                <p class="atlas-light">Administrative Aide IV (BML)</p>
-              </div>
-
-            </div>
-          </div> -->
+          </div>
         </mat-expansion-panel>
 
         <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState1 = true"
             (closed)="panelOpenState1 = false">
           <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState1 ? '#394e8a' : '#5ca361'">
-          <mat-panel-title class="atlas-light panel-title">RESEARCH PROGRAMS</mat-panel-title>
+          <mat-panel-title class="atlas-light panel-title">RESEARCH PROGRAMS <span *ngIf="panelOpenState1"> &nbsp;&nbsp;-&nbsp;&nbsp; PROGRAM TITLE&nbsp;&nbsp; |&nbsp;&nbsp; PROJECT LEADER&nbsp;&nbsp; |&nbsp;&nbsp; FUNDING AGENCY&nbsp;&nbsp; |&nbsp;&nbsp; DURATION</span></mat-panel-title>
           </mat-expansion-panel-header>
-          <!-- <div class="regular-content">
-            <div class="left">
-              <div>
-                <p class="atlas-bold">Sherry-lyn Sayco</p>
-              </div>
+          <div class="regular-content">
+            <div class="dd-content" *ngFor="let item of researchProg">
+              <img *ngIf="item.type !== 'pbbl'" [src]="item.logo">
+              <img *ngIf="item.type === 'pbbl'" class="img2" [src]="item.logo">
 
-              <div>
-                <p class="atlas-bold">Andrew Torres</p>
-              </div>
+              <p>{{item.title}}</p>
 
-              <div>
-                <p class="atlas-bold">Erika Gernato</p>
-              </div>
+              <p>{{item.leader}}</p>
 
-              <div>
-                <p class="atlas-bold">Diovanie De Jesus</p>
-              </div>
+              <p>{{item.fundingAgency}}</p>
 
-              <div>
-                <p class="atlas-bold">Minin Sinsona</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Sarah Mae Buen</p>
-              </div>
+              <p>{{item.duration}}</p>
             </div>
-
-            <div class="right">
-              <div>
-                <p class="atlas-bold">Anabel Gammaru</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Niño Posadas</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Eunice Gianan</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Hannah Amihan</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Shaira Mendones</p>
-              </div>
-
-              <div>
-                <p class="atlas-bold">Aldwyn Calaguing</p>
-              </div>
-            </div>
-          </div> -->
+          </div>
         </mat-expansion-panel>
 
       </mat-accordion>
