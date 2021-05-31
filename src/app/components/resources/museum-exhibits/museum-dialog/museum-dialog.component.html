@@ -1,0 +1,10 @@
+<div class="container">
+  <img [src]="imgSrc">
+  <div *ngIf="imgIndex > 0" class="font-40">
+    <mat-icon class="previous animate__animated animate__fadeIn" inline="true" (click)="previous()">chevron_left</mat-icon>
+  </div>
+
+  <div *ngIf="imgIndex < lastIndex" class="font-40">
+    <mat-icon class="next animate__animated animate__fadeIn" inline="true" (click)="next()">chevron_right</mat-icon>
+  </div>
+</div>

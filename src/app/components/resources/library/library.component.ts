@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./library.component.css']
 })
 export class LibraryComponent implements OnInit {
-
+  readMore:boolean = false;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  gotoMuseum() {
+
   }
 
 }

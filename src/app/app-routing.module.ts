@@ -1,3 +1,7 @@
+import { MuseumExhibitsComponent } from './components/resources/museum-exhibits/museum-exhibits.component';
+import { HerbariumComponent } from './components/resources/collection/herbarium/herbarium.component';
+import { CollectionComponent } from './components/resources/collection/collection.component';
+import { PublicationComponent } from './components/resources/publication/publication.component';
 import { CommunityOutreachComponent } from './components/extension/community-outreach/community-outreach.component';
 import { TrainingsComponent } from './components/extension/trainings/trainings.component';
 import { PressContentComponent } from './components/news/press-content/press-content.component';
@@ -44,6 +48,7 @@ import { EducationComponent } from './components/education/education.component';
 import { PressComponent } from './components/news/press/press.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { MuseumTabComponent } from './components/resources/museum-exhibits/museum-tab/museum-tab.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/Home', pathMatch: 'full'},
@@ -78,6 +83,11 @@ const routes: Routes = [
   {path: 'Extension/gallery/:name', component: ImagesTabComponent},
   {path: 'Resources', component: ResourcesComponent},
   {path: 'Resources/library', component: LibraryComponent},
+  {path: 'Resources/publication', component: PublicationComponent},
+  {path: 'Resources/collections', component: CollectionComponent},
+  {path: 'Resources/museum-&-exhibits', component: MuseumExhibitsComponent},
+  {path: 'Resources/museum-&-exhibits/:name', component: MuseumTabComponent},
+  {path: 'Resources/collections/herbarium', component: HerbariumComponent},
   {path: 'Contact', component: ContactComponent},
   {path: 'News', component: NewsComponent},
   {path: 'News/content/:name', component: NewsContentComponent},

@@ -17,14 +17,13 @@ img{
 .banner-content{
   font-size: 16px;
   margin-top: 13px;
-  width: 684px;
 }
 
 .left-content{
   position: absolute;
   z-index: 1;
   bottom: 8px;
-  width: 500px;
+  width: 684px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -57,14 +56,14 @@ img{
 }
 
 .left-image {
-  background-image: url(https://dc697.4shared.com/img/YGtT7tetiq/s24/179c04211d0/3_msi-library?async&rand=0.024983079637042716);
+  background-image: url(https://dc628.4shared.com/img/G1qPettfiq/s24/179c042ec90/02-the_facility?async&rand=0.12958396840575426);
   background-repeat: no-repeat;
   background-size: cover;
   width: 48.5%;
 }
 
 .left-image2 {
-  background-image: url(https://dc697.4shared.com/img/6g4td5nLea/s24/179c0422170/6_services-and-facility?async&rand=0.19436094035114193);
+  background-image: url(https://dc628.4shared.com/img/2lXKjlIgiq/s24/179c042fc30/04-footer?async&rand=0.44942615353506254);
   background-repeat: no-repeat;
   background-size: cover;
   width: 48.5%;
@@ -90,17 +89,16 @@ img{
 }
 
 .the-founder {
-  margin: 100px 4.5% 25px 4.5%;
+  margin: 70px 4.5% 25px 4.5%;
   display: flex;
   flex-direction: row;
 
 }
 
 .the-founder .left-image {
-  background-image: url(https://dc628.4shared.com/img/0XGVo30hiq/s24/179c04215b8/4_librarian-head?async&rand=0.5028103226906018);
+  background-image: url(https://dc697.4shared.com/img/k6lP1nJXea/s24/179c042f078/03-Dr_Velasquez?async&rand=0.5061429361513932);
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 50%;
   height: 240px;
   width: 240px;
   z-index: 999;
@@ -114,7 +112,7 @@ img{
 }*/
 
 .the-founder .right-content {
-  width: 75%;
+  width: 70%;
   margin-left: 43px;
   display: flex;
   flex-direction: column;
@@ -218,6 +216,7 @@ img{
 }
 
 .content-header-contact{
+  margin-top: 70px;
   height: 220px;
   position: relative;
 }
@@ -274,12 +273,11 @@ img{
   .banner-content{
     font-size: 19px;
     margin-top: 15px;
-    width: 801px;
   }
 
   .left-content{
     bottom: 9px;
-    width: 586px;
+    width: 801px;
     padding: 0 59px;
   }
 
@@ -304,7 +302,7 @@ img{
   }
 
   .the-founder {
-    margin: 117px 4.5% 29px 4.5%;
+    margin: 82px 4.5% 29px 4.5%;
 
   }
 
@@ -349,6 +347,7 @@ img{
   }
 
   .content-header-contact{
+    margin-top: 81px;
     height: 258px;
   }
 
@@ -395,12 +394,11 @@ img{
   .banner-content{
     font-size: 23px;
     margin-top: 18px;
-    width: 951px;
   }
 
   .left-content{
     bottom: 11px;
-    width: 696px;
+    width: 951px;
     padding: 0 70px;
   }
 
@@ -425,7 +423,7 @@ img{
   }
 
   .the-founder {
-    margin: 139px 4.5% 34px 4.5%;
+    margin: 97px 4.5% 34px 4.5%;
 
   }
 
@@ -470,6 +468,7 @@ img{
   }
 
   .content-header-contact{
+    margin-top: 97px;
     height: 306px;
   }
 

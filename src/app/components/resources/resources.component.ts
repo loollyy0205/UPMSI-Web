@@ -40,10 +40,31 @@ onResize(event) {
   ];
 
   publication = [
-    {title: 'Call for Abstracts: HAB Symposium Conference', date: 'Published: Dec. 15, 2020', content: 'The Marine Science Institute, College of Science, University of the Philippines Diliman, invites applications for a full-time tenure-track faculty position.'},
-    {title: 'Call for Abstracts: HAB Symposium Conference', date: 'Published: Dec. 15, 2020', content: 'The Marine Science Institute, College of Science, University of the Philippines Diliman, invites applications for a full-time tenure-track faculty position.'},
-    {title: 'Call for Abstracts: HAB Symposium Conference', date: 'Published: Dec. 15, 2020', content: 'The Marine Science Institute, College of Science, University of the Philippines Diliman, invites applications for a full-time tenure-track faculty position.'},
-    {title: 'Call for Abstracts: HAB Symposium Conference', date: 'Published: Dec. 15, 2020', content: 'The Marine Science Institute, College of Science, University of the Philippines Diliman, invites applications for a full-time tenure-track faculty position.'},
+    {
+     title: 'Modeling seagrass bed dynamics under environmental impacts of intensive mariculture activities in Bolinao and Anda, the Philippines',
+     date: 'Published: March 5, 2021',
+     content: 'This study assessed the estuarine-scale dynamics of mixed seagrass beds in Bolinao and Anda coastal areas in the...',
+     url: 'https://www.sciencedirect.com/science/article/abs/pii/S0272771420308830',
+    },
+    {
+     title: 'Responses of Buluan Island turbid fringing reefs, southern Philippines to the 2016 thermal anomaly',
+     date: 'Published: Dec. 15, 2020',
+     content: 'March 2021 This study describes the response to coral bleaching of a turbid reef in Buluan Island Marine Sanctuary (BIMS), southern Philippines. Findings...',
+     url: 'https://www.sciencedirect.com/science/article/pii/S2352485521000967',
+    },
+    {
+     title: 'Small-molecule mimicry hunting strategy in the imperial cone snail, Conus imperialis',
+     date: 'Published: March 12, 2021',
+     content: 'We explored the specialized metabolites from the venom of the worm-hunting cone snail, Conus imperialis. Using the model polychaete worm Platynereis...',
+     url: 'https://advances.sciencemag.org/content/7/11/eabf2704',
+    },
+    {
+     title: 'Differentiating Two Closely Related Alexandrium Species Using Comparative Quantitative Proteomics',
+     date: 'Published: January 2021',
+     content: 'Using isobaric tags for relative and absolute quantitation (iTRAQ)-based quantitative proteomics and two-dimensional differential...',
+     url: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7823455/',
+    },
+
   ]
 
   constructor() { }
@@ -53,3 +74,5 @@ onResize(event) {
   }
 
 }
+
+

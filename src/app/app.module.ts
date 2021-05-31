@@ -89,6 +89,13 @@ import { TrainingsBranchComponent } from './components/extension/trainings-branc
 import { CommunityOutreachComponent } from './components/extension/community-outreach/community-outreach.component';
 import { GalleryNavComponent } from './components/extension/gallery/gallery-nav/gallery-nav.component';
 import { ShipAssetsComponent } from './components/facilities/floating-assets/ship-assets/ship-assets.component';
+import { CollectionComponent } from './components/resources/collection/collection.component';
+import { PublicationComponent } from './components/resources/publication/publication.component';
+import { PublicationListComponent } from './components/resources/publication/publication-list/publication-list.component';
+import { HerbariumComponent } from './components/resources/collection/herbarium/herbarium.component';
+import { MuseumExhibitsComponent } from './components/resources/museum-exhibits/museum-exhibits.component';
+import { MuseumDialogComponent } from './components/resources/museum-exhibits/museum-dialog/museum-dialog.component';
+import { MuseumTabComponent } from './components/resources/museum-exhibits/museum-tab/museum-tab.component';
 
 @NgModule({
   declarations: [
@@ -168,7 +175,14 @@ import { ShipAssetsComponent } from './components/facilities/floating-assets/shi
     TrainingsBranchComponent,
     CommunityOutreachComponent,
     GalleryNavComponent,
-    ShipAssetsComponent
+    ShipAssetsComponent,
+    CollectionComponent,
+    PublicationComponent,
+    PublicationListComponent,
+    HerbariumComponent,
+    MuseumExhibitsComponent,
+    MuseumDialogComponent,
+    MuseumTabComponent
   ],
   imports: [
     BrowserModule,

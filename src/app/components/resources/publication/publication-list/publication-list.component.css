@@ -1,0 +1,172 @@
+.container{
+  margin-top: 35px;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+}
+
+
+mat-expansion-panel{
+  margin-bottom: -20px;
+}
+
+.panel-title{
+  color: white;
+  padding: 18px 10px;
+  font-size: 16px;
+}
+
+mat-expansion-panel{
+  border-color: white;
+  background-color: #fafafa;
+}
+
+::ng-deep .specific-class > .mat-expansion-indicator:after {
+  color: white;
+}
+
+.specific-class{
+  border-radius: 50px;
+}
+
+.grad-offering{
+  margin-top: 50px !important;
+}
+
+
+.closed-main-head{
+  background-color: #384e8a;
+}
+
+.regular-content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.regular-content p {
+  margin: 0px 20px;
+  font-family: 'atlas-light';
+  font-size: 15px;
+  border-bottom: 1.5px solid #5CA361;
+  padding: 20px 0px;
+  line-height: 30px;
+
+}
+
+
+/* @media (min-width: 1366px) {
+  .container{
+    margin-top: 41px;
+  }
+
+  mat-expansion-panel{
+    margin-bottom: -22.5px;
+  }
+
+  .panel-title{
+    padding: 25px 10px;
+    font-size: 15px;
+  }
+
+  .specific-class{
+    border-radius: 70px;
+  }
+
+  .grad-offering{
+    margin-top: 70px !important;
+  }
+
+
+  .closed-main-head{
+    border-radius: 70px;
+  }
+
+  .regular-content p {
+    margin: 0px 20px;
+    font-family: 'atlas-light';
+    font-size: 15px;
+    border-bottom: 1.5px solid #5CA361;
+    padding: 20px 0px;
+    line-height: 30px;
+  }
+
+} */
+
+@media (min-width: 1600px) {
+  .container{
+    margin-top: 41px;
+  }
+
+  mat-expansion-panel{
+    margin-bottom: -22.5px;
+  }
+
+  .panel-title{
+    padding: 25px 10px;
+    font-size: 17px;
+  }
+
+  .specific-class{
+    border-radius: 70px;
+  }
+
+  .grad-offering{
+    margin-top: 70px !important;
+  }
+
+
+  .closed-main-head{
+    border-radius: 70px;
+  }
+
+  .regular-content p {
+    margin: 0px 20px;
+    font-family: 'atlas-light';
+    font-size: 17px;
+    border-bottom: 1.5px solid #5CA361;
+    padding: 20px 0px;
+    line-height: 30px;
+  }
+
+}
+
+@media (min-width: 1920px) {
+  .container{
+    margin-top: 49px;
+  }
+
+  mat-expansion-panel{
+    margin-bottom: -27px;
+  }
+
+  .panel-title{
+    padding: 25px 10px;
+    font-size: 19px;
+  }
+
+  .specific-class{
+    border-radius: 70px;
+  }
+
+  .grad-offering{
+    margin-top: 70px !important;
+  }
+
+
+  .closed-main-head{
+    border-radius: 70px;
+  }
+
+
+  .regular-content p {
+    margin: 0px 20px;
+    font-family: 'atlas-light';
+    font-size: 19px;
+    border-bottom: 1.5px solid #5CA361;
+    padding: 20px 0px;
+    line-height: 30px;
+  }
+
+}

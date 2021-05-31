@@ -1,0 +1,78 @@
+<app-nav></app-nav>
+<div class="container">
+  <div class="content-header">
+    <img src="https://dc628.4shared.com/img/nlAcAH5Qiq/s24/179c042d520/01-banner?async&rand=0.05593078786381822">
+    <div class="left-content">
+      <p class="atlas-blackReg title">The G.T. Velasquez Phycological Herbarium</p>
+      <p class="atlas-light banner-content" style="line-height: 1.3;">
+        Established in the early 1970s, the G.T. Velasquez Phycological Herbarium is witness to the diversity of Philippine seaweeds and seagrass. It was built through the efforts of Dr. Gavino Trono, Jr. as a tribute to the late National Scientist Dr. Gregorio T. Velasquez. With over 55,000 voucher specimens, the Herbarium is the largest collection of marine macrobenthic algae and seagrass both in the Philippines and in the ASEAN region.
+      </p>
+    </div>
+  </div>
+
+  <div class="what-we-do">
+    <div class="left-image"></div>
+    <div class="right-content">
+      <p class="atlas-blackReg title" style="color: #384e8a; margin-bottom: 2.5%;">THE FACILITY</p>
+      <p class="right-content-p">Dr. Velasquez’ legacy revolves around promoting awareness and conservation of algae. The Herbarium aims to implement that through education, archiving, research, and resource management. It showcases the collection of Philippine seaweeds and seagrass to foreign and local visitors, serves as a depository for type specimens and voucher specimens published in the literature, and services the needs of individuals doing in-depth taxonomic and biodiversity studies.</p>
+        <p class="atlas-bold read-more"(click)="readMore = true" *ngIf="!readMore">READ MORE</p>
+    </div>
+  </div>
+  <div class="bottom-content-container" style="display: grid; place-content: center;" *ngIf="readMore">
+    <div class="bottom-content">
+      <p class="atlas-light">Of the 55,000 voucher specimens, 93% were obtained locally, while 7% were collected from other countries. These specimens belong to 500 genera of 2,100 species. The Herbarium comprises 46% Rhodophyceae, 20% Chlorophyceae, 18% Phaeophyceae, 9% Cyanophyceae, and 7% minor groups.</p>
+    </div>
+    <br />
+    <div class="bottom-content">
+      <p class="atlas-light">A number of specimens were collected before the twentieth century. 290 collections are dated before the 1900s. The oldest collection, dated 1750, features the coralline alga Lithothamnion conchatum obtained from Dillon's Beach in Marine County, California, USA.</p>
+    </div>
+    <br />
+  </div>
+
+
+  <div class="the-founder">
+    <div class="left-image"></div>
+    <div class="right-content">
+      <div>
+       <p class="atlas-blackReg title" style="color: #384e8a;">HEAD LIBRARIAN</p>
+        <p class="atlas-bold sub-title" style="color: #384e8a;">JOSELYN O. RAZAL</p>
+        <p class="right-content-p">MSC served as the University’s coordinating base for marine research. In June of the same year, the first Advisory Executive Council of the Center was formed with the appointment of Dr. Edgardo D. Gomez as acting Director. The Center commenced its operations in February 1975 at the building of the U.P. Natural Sciences Research Institute. With its transformation into an institute on 23 April 1985, UPMSI began offering graduate programs.
+        </p>
+      </div>
+    </div>
+  </div>
+
+    <div class="content-header-contact">
+      <div class="bml-complex">
+        <img src="https://dc628.4shared.com/img/2lXKjlIgiq/s24/179c042fc30/04-footer?async&rand=0.44942615353506254">
+        <div class="right-content1 row">
+          <div class="column">
+              <p class="atlas-blackReg title" style="color: #394e8a;">CONTACT US</p>
+              <div class="contact-marg" style="color: black;">
+                <p class="atlas-light">MSI Library Facebook Page</p>
+              </div>
+              <div class="contact-marg" style="color: black;">
+                <p class="atlas-light"><span class="atlas-bold">Email:</span> library@msi.upd.edu.ph</p>
+                <p class="atlas-light"><span class="atlas-bold">Tel No:</span> (632) 8981-8500 loc 2913</p>
+              </div>
+           </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+  <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
+    <span class="arrow-text">
+      <p class="atlas-light" routerLink="/Resources/museum-&-exhibits">TO MUSEUM & EXHIBITS</p>
+    </span>
+    <mat-icon class="arrow" style="padding-left: .5%;" routerLink="/Resources/museum-&-exhibits">arrow_forward</mat-icon>
+  </div>
+</div>
+
+<div class="footer">
+  <app-footer></app-footer>
+</div>
+
+
