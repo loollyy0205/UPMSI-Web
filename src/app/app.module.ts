@@ -96,6 +96,7 @@ import { HerbariumComponent } from './components/resources/collection/herbarium/
 import { MuseumExhibitsComponent } from './components/resources/museum-exhibits/museum-exhibits.component';
 import { MuseumDialogComponent } from './components/resources/museum-exhibits/museum-dialog/museum-dialog.component';
 import { MuseumTabComponent } from './components/resources/museum-exhibits/museum-tab/museum-tab.component';
+import { FacultyDialogComponent } from './components/about/faculty/faculty-dialog/faculty-dialog.component';
 
 @NgModule({
   declarations: [
@@ -182,7 +183,8 @@ import { MuseumTabComponent } from './components/resources/museum-exhibits/museu
     HerbariumComponent,
     MuseumExhibitsComponent,
     MuseumDialogComponent,
-    MuseumTabComponent
+    MuseumTabComponent,
+    FacultyDialogComponent
   ],
   imports: [
     BrowserModule,

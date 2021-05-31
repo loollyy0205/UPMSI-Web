@@ -13,132 +13,28 @@
     <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState = true"
         (closed)="panelOpenState = false">
       <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState ? '#394e8a' : '#5ca361'">
-      <mat-panel-title class="atlas-light panel-title">REGULAR PROFESSORS</mat-panel-title>
+      <mat-panel-title class="atlas-light panel-title">RESIDENT PROFESSORS</mat-panel-title>
       </mat-expansion-panel-header>
       <div class="regular-content">
         <div class="left">
-          <div>
-            <p class="atlas-bold">Porfirio M. Aliño</p>
-            <p class="atlas-light">Research Professor </p>
+          <div *ngFor="let item of residentProf1" (click)="openDialog(item.name)">
+            <p class="atlas-bold">{{item.name}}</p>
+            <p class="atlas-light">{{item.label1}}</p>
+            <p class="atlas-light">{{item.label2}}</p>
+            <p class="atlas-light">{{item.label3}}</p>
+            <p class="atlas-light">{{item.label4}}</p>
           </div>
 
-          <div>
-            <p class="atlas-bold">Patrick C. Cabaitan</p>
-            <p class="atlas-light">Associate Professor</p>
-          </div>
 
-          <div>
-            <p class="atlas-bold">Cecilia G. Conaco</p>
-            <p class="atlas-light">Associate Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Laura T. David</p>
-            <p class="atlas-light">Professor, Director</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Rachel June Ravago- Gotanco</p>
-            <p class="atlas-light">Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Instruction</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Gil S. Jacinto</p>
-            <p class="atlas-light">Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Caroline Marie B. Jaraul</p>
-            <p class="atlas-light">Assistant Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Arturo O. Lluisma</p>
-            <p class="atlas-light">Research Professor</p>
-            <p class="atlas-light">Program Director</p>
-            <p class="atlas-light">Bioinformatics Program and Core Facility</p>
-            <p class="atlas-light">Philippine Genome Center</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Marie Antonette Juinio-Meñez</p>
-            <p class="atlas-light">Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Deo Florence L. Onda</p>
-            <p class="atlas-light">Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Research</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Ma. Josefa R. Pante</p>
-            <p class="atlas-light">Research Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Bolinao Marine Laboratory</p>
-          </div>
         </div>
 
         <div class="right">
-          <div>
-            <p class="atlas-bold">Michael Y. Roleda</p>
-            <p class="atlas-light">Professor</p>
-            <p class="atlas-light">Deputy Director for Facilities and Resources</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Patrick C. Cabaitan</p>
-            <p class="atlas-light">Associate Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Cecilia G. Conaco</p>
-            <p class="atlas-light">Associate Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Laura T. David</p>
-            <p class="atlas-light">Professor, Director</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Rachel June Ravago- Gotanco</p>
-            <p class="atlas-light">Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Instruction</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Gil S. Jacinto</p>
-            <p class="atlas-light">Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Caroline Marie B. Jaraul</p>
-            <p class="atlas-light">Assistant Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Arturo O. Lluisma</p>
-            <p class="atlas-light">Research Professor</p>
-            <p class="atlas-light">Program Director</p>
-            <p class="atlas-light">Bioinformatics Program and Core Facility</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Marie Antonette Juinio-Meñez</p>
-            <p class="atlas-light">Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Deo Florence L. Onda</p>
-            <p class="atlas-light">Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Research</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Ma. Josefa R. Pante</p>
-            <p class="atlas-light">Research Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Bolinao Marine Laboratory</p>
+          <div *ngFor="let item of residentProf2" (click)="openDialog(item.name)">
+            <p class="atlas-bold">{{item.name}}</p>
+            <p class="atlas-light">{{item.label1}}</p>
+            <p class="atlas-light">{{item.label2}}</p>
+            <p class="atlas-light">{{item.label3}}</p>
+            <p class="atlas-light">{{item.label4}}</p>
           </div>
         </div>
       </div>
@@ -147,133 +43,20 @@
     <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState1 = true"
         (closed)="panelOpenState1 = false">
       <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState1 ? '#394e8a' : '#5ca361'">
-      <mat-panel-title class="atlas-light panel-title">PROFESSORS EMERITI</mat-panel-title>
+      <mat-panel-title class="atlas-light panel-title">NATIONAL SCIENTISTS</mat-panel-title>
       </mat-expansion-panel-header>
       <div class="regular-content">
         <div class="left">
           <div>
-            <p class="atlas-bold">Porfirio M. Aliño</p>
-            <p class="atlas-light">Research Professor </p>
+            <p class="atlas-bold">Edgardo D. Gomez</p>
+          </div>
+          <div>
+            <p class="atlas-bold">Lourdes J. Cruz</p>
+          </div>
+          <div>
+            <p class="atlas-bold">Gavino C. Trono Jr.</p>
           </div>
 
-          <div>
-            <p class="atlas-bold">Patrick C. Cabaitan</p>
-            <p class="atlas-light">Associate Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Cecilia G. Conaco</p>
-            <p class="atlas-light">Associate Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Laura T. David</p>
-            <p class="atlas-light">Professor, Director</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Rachel June Ravago- Gotanco</p>
-            <p class="atlas-light">Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Instruction</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Gil S. Jacinto</p>
-            <p class="atlas-light">Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Caroline Marie B. Jaraul</p>
-            <p class="atlas-light">Assistant Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Arturo O. Lluisma</p>
-            <p class="atlas-light">Research Professor</p>
-            <p class="atlas-light">Program Director</p>
-            <p class="atlas-light">Bioinformatics Program and Core Facility</p>
-            <p class="atlas-light">Philippine Genome Center</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Marie Antonette Juinio-Meñez</p>
-            <p class="atlas-light">Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Deo Florence L. Onda</p>
-            <p class="atlas-light">Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Research</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Ma. Josefa R. Pante</p>
-            <p class="atlas-light">Research Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Bolinao Marine Laboratory</p>
-          </div>
-        </div>
-
-        <div class="right">
-          <div>
-            <p class="atlas-bold">Michael Y. Roleda</p>
-            <p class="atlas-light">Professor</p>
-            <p class="atlas-light">Deputy Director for Facilities and Resources</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Patrick C. Cabaitan</p>
-            <p class="atlas-light">Associate Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Cecilia G. Conaco</p>
-            <p class="atlas-light">Associate Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Laura T. David</p>
-            <p class="atlas-light">Professor, Director</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Rachel June Ravago- Gotanco</p>
-            <p class="atlas-light">Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Instruction</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Gil S. Jacinto</p>
-            <p class="atlas-light">Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Caroline Marie B. Jaraul</p>
-            <p class="atlas-light">Assistant Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Arturo O. Lluisma</p>
-            <p class="atlas-light">Research Professor</p>
-            <p class="atlas-light">Program Director</p>
-            <p class="atlas-light">Bioinformatics Program and Core Facility</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Marie Antonette Juinio-Meñez</p>
-            <p class="atlas-light">Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Deo Florence L. Onda</p>
-            <p class="atlas-light">Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Research</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Ma. Josefa R. Pante</p>
-            <p class="atlas-light">Research Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Bolinao Marine Laboratory</p>
-          </div>
         </div>
       </div>
     </mat-expansion-panel>
@@ -281,136 +64,56 @@
     <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState2 = true"
         (closed)="panelOpenState2 = false">
       <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState2 ? '#394e8a' : '#5ca361'">
+      <mat-panel-title class="atlas-light panel-title">PROFESSORS EMERITI</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="regular-content">
+        <div class="left">
+          <div>
+            <p class="atlas-bold">Edgardo D. Gomez</p>
+          </div>
+
+          <div>
+            <p class="atlas-bold">Rhodora V. Azanza </p>
+            <p class="atlas-light">President, National Academy of Science and Technology (NAST)</p>
+          </div>
+
+          <div>
+            <p class="atlas-bold">Lourdes J. Cruz</p>
+          </div>
+
+          <div>
+            <p class="atlas-bold">Gavino C. Trono Jr.</p>
+          </div>
+
+          <div>
+            <p class="atlas-bold">Gisela P. Concepcion</p>
+          </div>
+
+          <div>
+            <p class="atlas-bold">Maria Lourdes San Diego-McGlone</p>
+          </div>
+        </div>
+
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState3 = true"
+        (closed)="panelOpenState3 = false">
+      <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState3 ? '#394e8a' : '#5ca361'">
       <mat-panel-title class="atlas-light panel-title">ADJUNCT PROFESSOR</mat-panel-title>
       </mat-expansion-panel-header>
       <div class="regular-content">
         <div class="left">
           <div>
-            <p class="atlas-bold">Porfirio M. Aliño</p>
-            <p class="atlas-light">Research Professor </p>
+            <p class="atlas-bold">Wolfgang Reichardt</p>
+            <p class="atlas-light">Visiting Scientist</p>
           </div>
 
-          <div>
-            <p class="atlas-bold">Patrick C. Cabaitan</p>
-            <p class="atlas-light">Associate Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Cecilia G. Conaco</p>
-            <p class="atlas-light">Associate Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Laura T. David</p>
-            <p class="atlas-light">Professor, Director</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Rachel June Ravago- Gotanco</p>
-            <p class="atlas-light">Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Instruction</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Gil S. Jacinto</p>
-            <p class="atlas-light">Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Caroline Marie B. Jaraul</p>
-            <p class="atlas-light">Assistant Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Arturo O. Lluisma</p>
-            <p class="atlas-light">Research Professor</p>
-            <p class="atlas-light">Program Director</p>
-            <p class="atlas-light">Bioinformatics Program and Core Facility</p>
-            <p class="atlas-light">Philippine Genome Center</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Marie Antonette Juinio-Meñez</p>
-            <p class="atlas-light">Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Deo Florence L. Onda</p>
-            <p class="atlas-light">Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Research</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Ma. Josefa R. Pante</p>
-            <p class="atlas-light">Research Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Bolinao Marine Laboratory</p>
-          </div>
-        </div>
-
-        <div class="right">
-          <div>
-            <p class="atlas-bold">Michael Y. Roleda</p>
-            <p class="atlas-light">Professor</p>
-            <p class="atlas-light">Deputy Director for Facilities and Resources</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Patrick C. Cabaitan</p>
-            <p class="atlas-light">Associate Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Cecilia G. Conaco</p>
-            <p class="atlas-light">Associate Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Laura T. David</p>
-            <p class="atlas-light">Professor, Director</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Rachel June Ravago- Gotanco</p>
-            <p class="atlas-light">Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Instruction</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Gil S. Jacinto</p>
-            <p class="atlas-light">Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Caroline Marie B. Jaraul</p>
-            <p class="atlas-light">Assistant Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Arturo O. Lluisma</p>
-            <p class="atlas-light">Research Professor</p>
-            <p class="atlas-light">Program Director</p>
-            <p class="atlas-light">Bioinformatics Program and Core Facility</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Marie Antonette Juinio-Meñez</p>
-            <p class="atlas-light">Professor</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Deo Florence L. Onda</p>
-            <p class="atlas-light">Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Research</p>
-          </div>
-
-          <div>
-            <p class="atlas-bold">Ma. Josefa R. Pante</p>
-            <p class="atlas-light">Research Associate Professor</p>
-            <p class="atlas-light">Deputy Director for Bolinao Marine Laboratory</p>
-          </div>
         </div>
       </div>
     </mat-expansion-panel>
+
+
   </mat-accordion>
 
   <div class="where-next " (click)="gotoAdmin()">

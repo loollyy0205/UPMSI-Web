@@ -100,11 +100,13 @@ mat-expansion-panel{
 }
 
 .left div{
-  margin-top: 10px
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 .right div{
-  margin-top: 10px
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 
