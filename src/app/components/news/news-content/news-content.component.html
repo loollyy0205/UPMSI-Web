@@ -8,7 +8,9 @@
     <div class="box-content">
       <img [src]="myArr[0].thumbnail">
       <div class="photo-box">
-      <p class="atlas-light photo-content" *ngIf="nastBool">{{myArr[0].photoContent}}</p>
+      <p class="atlas-light photo-content" *ngIf="!clamsBool && nastBool">{{myArr[0].photoContent}}</p>
+      <p class="atlas-light photo-content" *ngIf="clamsBool" >Two <em>Tridacna Gigas</em> specimens from the BML nursery: Efforts to grow the giant clam population are gaining momentum. Giant clams are still vulnerable and remain endangered due to poor management, unregulated harvesting, and illegal possession and trade.</p>
+      <p class="atlas-light photo-content" *ngIf="!nastBool" >Closeup of a <em>Kappaphycus alvarezii</em> specimen: Much of UPMSI’s research benefits the algae and corals of the Philippines. The dedication of UPMSI scientists to studying these organisms has earned them recognition over the years.</p>
       <p class="atlas-bold photo-courtesy">{{myArr[0].courtesy}}</p>
       </div>
     </div>
@@ -22,6 +24,8 @@
       <img class="twitter" src="../../../../assets/photos/twitter-link.png">
       <p class="atlas-light location-content">{{myArr[0].locationContent}}</p>
       <p class="atlas-light" style="line-height: 1.5; margin-top: 2%;">{{myArr[0].paragraph1}}</p>
+
+      <p class="atlas-light" style="line-height: 1.5; margin-top: 2%;" *ngIf="!nastBool">Dr. Rachel June R. Gotanco was conferred the Eduardo A. Quisumbing Medal for Basic Research alongside co-author Andrew F. Torres during the National Science and Technology Week (NSTW). The award recognizes the study entitled, "Rarity of the 'common' coral <em>Pocillopora damicornis</em> in the western Philippine Archipelago."</p>
       <p class="atlas-light" style="line-height: 1.5; margin-top: 2%;">{{myArr[0].paragraph2}}</p>
       <p class="atlas-light" style="line-height: 1.5; margin-top: 2%;">{{myArr[0].paragraph3}}</p>
       <p class="atlas-light" style="line-height: 1.5; margin-top: 2%;">{{myArr[0].paragraph4}}</p>

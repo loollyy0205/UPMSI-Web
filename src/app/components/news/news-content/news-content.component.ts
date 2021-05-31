@@ -36,7 +36,7 @@ export class NewsContentComponent implements OnInit {
     location: 'Quezon City, Philippines',
     locationContent: 'Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center for Climate Change Adaptation and Disaster Risk Management Foundation, Inc (OMLC).',
     paragraph1: 'Dr. Laura T. David is the first recipient of the Climate Frontiers Fellowship for Climate Resilience for the contributions of her academic and research work to address the threat of climate change.',
-    paragraph2: `Dr. Rachel June R. Gotanco was conferred the Eduardo A. Quisumbing Medal for Basic Research alongside co-author Andrew F. Torres during the National Science and Technology Week (NSTW). The award recognizes the study entitled, "Rarity of the 'common' coral Pacillopora damicornis in the western Philippine Archipelago."`,
+
     paragraph3: `Another NAST-recognized scientist is Dr. Wilfred John E. Santianez, who was a finalist in the 2020 NAST Talent Search for Young Scientists. There he presented his study, “Untangling nets: elucidating the diversity and phylogeny of the clathrate brown algal genus Hydroclathrus, with the description of a new genus Tronoella (Scytosiphonaceae, Phaeophyceae).”`,
     paragraph4: 'The UPMSI congratulates these scientists for their continued contributions to Philippine marine and coastal science.',
     news: [
@@ -51,12 +51,12 @@ export class NewsContentComponent implements OnInit {
     date: 'Updated April 30, 2021',
     author: 'By Gabrielle Abrahan, MSI Contributor',
     thumbnail: 'https://dc585.4shared.com/img/Pc3HKlRniq/s24/179b1eeb228/News-03-clams?async&rand=0.18442392924526962',
-    photoContent: 'Body text here',
+
     courtesy: 'PHOTO COURTESY OF UP-MPRO',
     location: 'Bolinao, Pangasinan',
     locationContent: 'More commonly known as "taklobo" in Filipino, giant clams (Tridacna Gigas) with electric green, brown, and violet colors that are impossible to miss are being grown in the waters surrounding Silaqui Island, the northernmost tip of the town of Bolinao, Pangasinan.',
     paragraph1: 'Thousands of these giant clams are being grown—with juveniles released in the reef to grow into adulthood after spending five months in the hatchery at the Bolinao Marine Laboratory (BML) of the University of the Philippines Marine Science Institute (UPMSI).',
-    paragraph2: `Dr. Rachel June R. Gotanco was conferred the Eduardo A. Quisumbing Medal for Basic Research alongside co-author Andrew F. Torres during the National Science and Technology Week (NSTW). The award recognizes the study entitled, "Rarity of the 'common' coral Pacillopora damicornis in the western Philippine Archipelago."`,
+
     paragraph3: `With only a few breeders from larvae and juveniles that were imported from the Solomon Islands and Australia in 1987, the laboratory was able to cultivate 35,648 adults and 11,209 juveniles. Currently, it is the largest giant clam nursery in the Philippines with 8 species out of 11 found in the country.`,
     paragraph4: 'Over 200,000 giant clams, which came from Bolinao are now growing in more than 70 sites nationwide, making this project a very successful conservation effort that saves the giant clams from possible extinction.',
     paragraph5: 'While there is growing support for the movement, giant clams are still vulnerable and remain endangered due to poor management, unregulated harvesting, and illegal possession and trade.',
@@ -71,9 +71,9 @@ export class NewsContentComponent implements OnInit {
   narfleet = [{
     title: 'NARFleet is on its way to prowl Philippine waters',
     date: 'Updated April 30, 2021',
-    author: '(author)',
+    author: 'MSI Contributor',
     thumbnail: 'https://dc349.4shared.com/img/0HKY7wFdea/s24/179b1eed168/News-04-narfleet?async&rand=0.8674839178744718',
-    photoContent: 'Body text here',
+    photoContent: 'One of the three research vessels of the NARFleet explores the open water. The expeditions begin this year, marking the start of the Philippines’ first long-term oceanic monitoring endeavor.',
     courtesy: 'PHOTO COURTESY OF MSI Contributor',
     location: 'West PH Sea',
     locationContent: 'The National Academic Research Fleet (NARFleet) is set to embark on its first expedition soon. Established as a response to limited ocean research capacity, the NARFleet program aims to provide better access to ocean research for both the academe and the Philippine government. To achieve this, participating research groups will address problems such as reef protection and productivity, mapping the pelagic zone, and maximizing the use of bio resources. The University of the Philippines Visayas (UPV), Bicol University, and Mindanao State University - Iligan Institute of Technology (MSU-IIT) join the UP Marine Science Institute as collaborators and vessel hosts.',
@@ -86,6 +86,7 @@ export class NewsContentComponent implements OnInit {
 
   myArr = [];
   nastBool:boolean = true;
+  clamsBool:boolean = false;
 
   constructor(private router:Router) { }
 
@@ -100,6 +101,7 @@ export class NewsContentComponent implements OnInit {
         break;
       case '/News/content/all-about-the-giant-clam':
         this.myArr = this.clams;
+        this.clamsBool = true;
         break;
       case '/News/content/NARFleet-is-on-its-way-to-prowl-Philippine-waters':
         this.myArr = this.narfleet;
