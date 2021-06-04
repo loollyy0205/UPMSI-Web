@@ -101,6 +101,7 @@ import { AcademicsComponent } from './components/education/academics/academics.c
 import { AcadFocusComponent } from './components/education/academics/acad-focus/acad-focus.component';
 import { MNLPComponent } from './components/resources/collection/mnlp/mnlp.component';
 import { RVAComponent } from './components/resources/collection/rva/rva.component';
+import { VisionMissionComponent } from './components/about/about-msi/vision-mission/vision-mission.component';
 
 @NgModule({
   declarations: [
@@ -192,7 +193,8 @@ import { RVAComponent } from './components/resources/collection/rva/rva.componen
     AcademicsComponent,
     AcadFocusComponent,
     MNLPComponent,
-    RVAComponent
+    RVAComponent,
+    VisionMissionComponent
   ],
   imports: [
     BrowserModule,
