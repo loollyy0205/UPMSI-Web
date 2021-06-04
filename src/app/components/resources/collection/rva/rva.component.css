@@ -3,6 +3,9 @@
   margin-top: 20px;
 }
 
+a {
+  text-decoration: none;
+}
 .content-header{
   height: 297px;
   position: relative;

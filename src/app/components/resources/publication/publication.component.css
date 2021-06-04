@@ -61,7 +61,7 @@
     width: 49%;
   }
 
-  .what-we-do .right-content-p {
+.right-content-p {
     font-size: 16px;
     font-family: 'Atlas-light';
     line-height: 1.5;
@@ -166,7 +166,7 @@
       margin-top: 88px;
     }
 
-    .what-we-do .right-content-p {
+    .right-content-p {
       font-size: 19px;
     }
 
@@ -237,8 +237,8 @@
       margin-top: 106px;
     }
 
-    .what-we-do .right-content-p {
-      font-size: 22px;
+    .right-content-p {
+      font-size: 23px;
     }
 
     .right-content-p2 {

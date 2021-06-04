@@ -96,7 +96,7 @@
 
         <div class="carousel-cell" *ngFor="let item of photos1">
 
-          <div class="highlights-content" (click)="openDialog(item.image)">
+          <div class="highlights-content" (click)="openDialog(item.image, item['title'])">
             <div class="top">
               <img [src]="item.image" alt="">
             </div>

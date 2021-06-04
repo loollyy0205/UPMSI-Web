@@ -48,7 +48,7 @@ onResize(event) {
     },
     {
      title: 'Responses of Buluan Island turbid fringing reefs, southern Philippines to the 2016 thermal anomaly',
-     date: 'Published: Dec. 15, 2020',
+     date: 'Published: March 2021',
      content: 'March 2021 This study describes the response to coral bleaching of a turbid reef in Buluan Island Marine Sanctuary (BIMS), southern Philippines. Findings...',
      url: 'https://www.sciencedirect.com/science/article/pii/S2352485521000967',
     },
@@ -62,6 +62,12 @@ onResize(event) {
      title: 'Differentiating Two Closely Related Alexandrium Species Using Comparative Quantitative Proteomics',
      date: 'Published: January 2021',
      content: 'Using isobaric tags for relative and absolute quantitation (iTRAQ)-based quantitative proteomics and two-dimensional differential...',
+     url: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7823455/',
+    },
+    {
+     title: 'Chemical profiling of the Arctic sea lettuce Ulva lactuca (Chlorophyta) mass-cultivated on land under controlled conditions for food applications',
+     date: 'Published: March 30, 2021',
+     content: 'Different strains of Arctic U. lactuca were mass-cultivated under controlled...',
      url: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7823455/',
     },
 

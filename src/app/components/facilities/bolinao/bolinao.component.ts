@@ -13,10 +13,10 @@ import { HostListener } from '@angular/core';
 export class BolinaoComponent implements OnInit {
   margin:number = -370;
   readMore:boolean = false;
-  photos1 = [{image: '../../../../assets/photos/BML-photos/8-hlights-1.jpg', lab: 'ENVIRONMENT', title: 'Bolinao, sanctuary for raising the giant clams'},
-  {image: '../../../../assets/photos/BML-photos/1-banner-photo-highlights-2.jpg', lab: 'FACILITIES', title: 'The 5-hectare Bolinao Marine Lab Complex'},
-  {image: '../../../../assets/photos/BML-photos/9-hlights-3.JPG', lab: 'COMMUNITY', title: 'BML honors its building staff'},
-  {image: '../../../../assets/photos/BML-photos/9-hlights-4.jpg', lab: 'RESEARCH', title: 'Three boats launched for the MSI fieldwork to take place BML'},
+  photos1 = [{image: 'https://dc570.4shared.com/img/cgoN9rwZea/s24/179d5fb1300/9-highlight-1?async&rand=0.9399459513050967', lab: 'EDUCATION', title: 'Firsthand experience with marine animals'},
+  {image: 'https://dc570.4shared.com/img/oisq_MWdiq/s24/179d5faf3c0/92-hilight-2?async&rand=0.8155523549824943', lab: 'RESEARCH', title: 'Research inside and outside the lab'},
+  {image: 'https://dc570.4shared.com/img/gj6p_CWJea/s24/179d5faff78/93-hilight-3?async&rand=0.8276041688905851', lab: 'EXTENSION/OUTREACH', title: 'Webinars in a world changed by a pandemic'},
+  {image: 'https://dc570.4shared.com/img/99RUCjiRea/s24/179d5fb0b30/94-highlight-4?async&rand=0.022180321961587257', lab: 'COMMUNITY', title: 'Building strong communities'},
   ];
 
   faciContent = [{title: 'RESEARCH FACILITIES', image: '../../../../assets/photos/BML-photos/3-facilities-1.jpg' ,content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet laborum ex non perferendis, necessitatibus quae, corporis ab dicta sint provident nihil. Qui necessitatibus, repudiandae molestiae similique itaque, pariatur dolore repellat dolorem, tenetur natus quas eveniet earum incidunt ratione adipisci voluptates excepturi vel accusamus modi sit hic in dignissimos fugiat? Facilis?'},
@@ -63,12 +63,13 @@ onResize(event) {
     this.innerWidth = window.innerWidth;
   }
 
-  openDialog(imgSrc){
+  openDialog(imgSrc, bmlName){
     this.dialog.open(FacilitiesDialogComponent, {
       width: this.width,
       height: this.height,
       data: {
-        imgSrc: imgSrc
+        imgSrc: imgSrc,
+        title: bmlName
       }
     });
   }
