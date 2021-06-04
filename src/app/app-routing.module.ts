@@ -64,7 +64,7 @@ const routes: Routes = [
   {path: 'About/admin', component: AboutAdminComponent},
   {path: 'About/about-msi', component: AboutMsiComponent},
   {path: 'About/faculty', component: FacultyComponent},
-  {path: 'About/About-the-director', component: AboutTheDirectorComponent},
+  // {path: 'About/About-the-director', component: AboutTheDirectorComponent},
   {path: 'Academics', component: EducationComponent},
   {path: 'Academics/msi-academics', component: AcademicsComponent},
   {path: 'Academics/courses-offered', component: CoursesComponent},
