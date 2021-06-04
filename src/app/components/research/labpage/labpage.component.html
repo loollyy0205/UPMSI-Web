@@ -41,19 +41,27 @@
     <div class="right">
       <p class="atlas-blackReg lab-title">Highlight</p>
 
-    <p class="atlas-bold lab-content">{{myArr[0].labHighlight}}</p>
+    <a [href]="myArr[0].labLink1" target="_blank"><p class="atlas-light lab-content">{{myArr[0].labHighlight}}</p></a> <!-- edited-->
+    <!-- kindly change the labHighbanner sa
+
+      1.Marine Molecular Biology Laboratory.  photo name: Marine Molecular Highlight
+      2.Algal Ecophysiology Laboratory (AlgaE). photo name: Algal highlight
+
+       provided ni Roy sa gdrive(sent sa slack), same photo lang sila, but i think they cropped para walang white margins. -->
+
+
 
     <div class="lab-cite">
-      <p class="atlas-light" style="color: #ffffff; line-height: 1.3;">{{myArr[0].labAuthor}}</p>
+      <p class="atlas-light" style="color: #ffffff; line-height: 1.3;">{{myArr[0].labAuthor}}</p> <!--edited -->
       <p class="atlas-light" style="color: #ffffff;">{{myArr[0].labDate}}</p>
     </div>
 
-    <p class="atlas-light lab-context">{{myArr[0].labContent}}</p>
+    <a [href]="myArr[0].labLink2" target="_blank"><p class="atlas-light lab-context">{{myArr[0].labContent}}</p></a>
 
-    <p class="atlas-bold lab-content">{{myArr[0].labHighlight2}}</p>
+    <p class="atlas-light lab-content">{{myArr[0].labHighlight2}}</p>
 
     <div class="lab-cite">
-      <p class="atlas-light" style="color: #ffffff; line-height: 1.3;">{{myArr[0].labAuthor2}}</p>
+      <p class="atlas-light" style="color: #ffffff; line-height: 1.3; ">{{myArr[0].labAuthor2}}</p>
       <p class="atlas-light" style="color: #ffffff;">{{myArr[0].labDate2}}</p>
     </div>
     </div>

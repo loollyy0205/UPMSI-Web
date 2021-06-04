@@ -1,0 +1,578 @@
+.container{
+  margin: 0 9%;
+  margin-top: 20px;
+}
+
+.content-header{
+  height: 297px;
+  position: relative;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner-content{
+  font-size: 16px;
+  margin-top: 13px;
+}
+
+.left-content{
+  position: absolute;
+  z-index: 1;
+  bottom: 8px;
+  width: 724px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+  color: white;
+}
+
+.title{
+  font-size: 29px;
+}
+
+
+.title-2{
+  font-size: 22px;
+  margin-left: 4.5%;
+  position: relative;
+  top: 50px;
+  letter-spacing: 1px;
+}
+
+
+.what-we-do {
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  height: 270px;
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-image {
+  background-image: url(https://dc570.4shared.com/img/fkUOjixwiq/s24/179d4c630c8/02_online?async&rand=0.23037159108046468);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48.5%;
+}
+
+.left-image2 {
+  background-image: url(https://dc628.4shared.com/img/iDlbEtTlea/s24/179d4c63c80/04_online?async&rand=0.9115628723322315);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48.5%;
+}
+
+.left-image3 {
+  background-image: url(https://dc628.4shared.com/img/k6l6LJBniq/s24/179d4c64c20/06_online?async&rand=0.5560031013693099);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48.5%;
+}
+
+.right-content {
+  width: 48.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-content2 {
+  width: 48.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-content-p {
+  font-size: 16px;
+  font-family: 'Atlas-light';
+  line-height: 1.5;
+}
+
+.the-founder {
+  margin: 70px 4.5% 25px 4.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.the-founder .left-image {
+  background-image: url(https://dc570.4shared.com/img/MTfvcsI0ea/s24/179d4c63898/03_online?async&rand=0.39985390008232824);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+  z-index: 999;
+}
+
+/*
+.the-founder .right-content-box {
+  width: 53%;
+
+  position: absolute;
+}*/
+
+.the-founder .right-content {
+  width: 70%;
+  margin-left: 43px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.the-founder .right-content-p {
+  font-size: 16px;
+  margin-top: 19px;
+  font-family: 'Atlas-light';
+  line-height: 1.5;
+
+}
+
+.sub-title{
+  font-size: 19px;
+  margin-top: 21px;
+}
+
+.read-more{
+  color: #394e8a;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  justify-content: flex-end;
+  margin-top: 5%;
+}
+.read-more:hover{
+  text-decoration: underline;
+}
+
+.bottom-content{
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0px 4.5%;
+}
+
+.bottom-content-container{
+  margin-top: 2%;
+}
+
+.library-contanct-container{
+  position: relative;
+  margin-top: 5%;
+}
+
+.arrow{
+  font-size: 30px;
+}
+
+.arrow-text{
+  margin-top: 8px;
+}
+
+.arrow-text:hover{
+  text-decoration: underline;
+}
+
+.more-vacancies{
+  margin-top: 80px;
+  color: #384e8a;
+  display: flex;
+  height: 120px;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* CONTACT */
+.center-box{
+  display: grid;
+  place-content: center;
+  margin-top: 70px;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.title{
+  font-size: 25px;
+}
+
+.bml-complex{
+  height: 300px;
+  overflow: hidden;
+}
+
+.bml-complex img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+ /* transition: transform .5s ease; COMMENTED OUT */
+}
+
+/*COMMENTED OUT
+.bml-complex img:hover{
+  transform: scale(1.1);
+} */
+
+.content-header-contact2{
+  margin-top: 70px;
+  /* height: 220px; */
+  position: relative;
+}
+
+.content-header-contact{
+  margin-top: 70px;
+  height: 220px;
+  position: relative;
+}
+
+.contact-marg{
+  margin-top: 20px;
+  line-height: 1;
+}
+
+.contact-marg p:nth-child(2){
+  margin-top: 8px;
+}
+
+.bml-complex .right-content1{
+  position: absolute;
+  z-index: 1;
+  left: 50px;
+  bottom: -31px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.right-content2{
+  position: absolute;
+  z-index: 1;
+  left: 50px;
+  bottom: -31px;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.font-20{
+  font-size: 20px;
+}
+
+.position{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.learn-more{
+  width: 250px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #384e8a;
+  color: white;
+}
+
+.what-we-do2 {
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-title {
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  margin-top: 75px;
+}
+@media (min-width: 1600px) {
+  *{
+    font-size: 19px;
+  }
+
+  .what-we-do2 {
+    height: 316px;
+  }
+
+  .container{
+    margin-top: 23px;
+  }
+
+  .content-header{
+    height: 348px;
+  }
+
+  .banner-content{
+    font-size: 19px;
+    margin-top: 15px;
+  }
+
+  .left-content{
+    bottom: 9px;
+    width: 848px;
+    padding: 0 59px;
+  }
+
+  .title{
+    font-size: 34px;
+  }
+
+
+  .title-2{
+    font-size: 26px;
+    top: 59px;
+  }
+
+
+  .what-we-do {
+    height: 316px;
+    margin-top: 88px;
+  }
+
+
+
+  .right-content-p {
+    font-size: 19px;
+  }
+
+  .the-founder {
+    margin: 82px 4.5% 29px 4.5%;
+
+  }
+
+  .the-founder .left-image {
+    height: 281px;
+    width: 281px;
+  }
+
+  .the-founder .right-content {
+    margin-left: 50px;
+  }
+
+  .the-founder .right-content-p {
+    font-size: 19px;
+    margin-top: 22px;
+
+  }
+
+  .sub-title{
+    font-size: 22px;
+    margin-top: 25px;
+  }
+
+  .read-more{
+    font-size: 19px;
+  }
+
+  .bottom-content{
+    font-size: 19px;
+  }
+
+  .center-box{
+    margin-top: 82px;
+  }
+
+  .title{
+    font-size: 29px;
+  }
+
+  .bml-complex{
+    height: 351px;
+  }
+
+  .content-header-contact{
+    margin-top: 81px;
+    height: 258px;
+  }
+
+  .contact-marg{
+    margin-top: 23px;
+  }
+
+  .contact-marg p:nth-child(2){
+    margin-top: 9px;
+  }
+
+  .bml-complex .right-content1{
+    left: 59px;
+    bottom: -36px;
+  }
+
+  .arrow{
+    font-size: 35px;
+  }
+
+  .arrow-text{
+    margin-top: 9px;
+  }
+
+  .more-vacancies{
+    margin-top: 94px;
+    height: 141px;
+  }
+}
+
+@media (min-width: 1900px) {
+  *{
+    font-size: 23px;
+  }
+
+  .what-we-do2 {
+    height: 375px;
+  }
+
+  .container{
+    margin-top: 27px;
+  }
+
+  .content-header{
+    height: 413px;
+  }
+
+  .banner-content{
+    font-size: 23px;
+    margin-top: 18px;
+  }
+
+  .left-content{
+    bottom: 11px;
+    width: 1007px;
+    padding: 0 70px;
+  }
+
+  .title{
+    font-size: 40px;
+  }
+
+
+  .title-2{
+    font-size: 31px;
+    top: 70px;
+  }
+
+
+  .what-we-do {
+    height: 375px;
+    margin-top: 105px;
+  }
+
+  .what-we-do {
+    font-size: 21px;
+  }
+
+  .the-founder {
+    margin: 97px 4.5% 34px 4.5%;
+
+  }
+
+  .the-founder .left-image {
+    height: 337px;
+    width: 337px;
+  }
+
+  .the-founder .right-content {
+    margin-left: 59px;
+  }
+
+  .the-founder .right-content-p {
+    font-size: 23px;
+    margin-top: 26px;
+
+  }
+
+  .right-content-p {
+    font-size: 23px;
+  }
+
+  .sub-title{
+    font-size: 26px;
+    margin-top: 30px;
+  }
+
+  .read-more{
+    font-size: 23px;
+  }
+
+  .bottom-content{
+    font-size: 23px;
+  }
+
+  .center-box{
+    margin-top: 97px;
+  }
+
+  .title{
+    font-size: 34px;
+  }
+
+  .bml-complex{
+    height: 417px;
+  }
+
+  .content-header-contact{
+    margin-top: 97px;
+    height: 306px;
+  }
+
+  .contact-marg{
+    margin-top: 27px;
+  }
+
+  .contact-marg p:nth-child(2){
+    margin-top: 11px;
+  }
+
+  .bml-complex .right-content1{
+    left: 70px;
+    bottom: -43px;
+  }
+
+  .arrow{
+    font-size: 42px;
+  }
+
+  .arrow-text{
+    margin-top: 11px;
+  }
+
+  .more-vacancies{
+    margin-top: 112px;
+    height: 167px;
+  }
+}

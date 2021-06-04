@@ -10,7 +10,9 @@ import { MuseumDialogComponent } from '../museum-dialog/museum-dialog.component'
 })
 export class MuseumTabComponent implements OnInit {
   photos1 = [
-    {name: 'Mobile Marine and Naval Centrum (MMNC)'}, {content: 'The UPMSI joined forces with the Citizen’s Support Your Navy Foundation Philippines, Inc. (CSYNFPI), the Philippine Navy, and the Department of Science and Technology to produce the Mobile Marine and Naval Centrum (MMNC). The MMNC is a roving museum of interactive exhibits that toured various sites from 2018 to 2019. Constructed to be mobile and transportable, the exhibits aim to raise awareness on ocean and maritime issues, like food security and climate change.'},
+    {name: 'Mobile Marine and Naval Centrum (MMNC)'}, {content: 'The UPMSI joined forces with the Citizen’s Support Your Navy Foundation Philippines, Inc. (CSYNFPI), the Philippine Navy, and the Department of Science and Technology to produce the Mobile Marine and Naval Centrum (MMNC). The MMNC is a roving museum of interactive exhibits that toured various sites from 2018 to 2019. Constructed to be mobile and transportable, the exhibits aim to raise awareness on ocean and maritime issues, like food security and climate change.',
+    content2: 'During its year-long run, the MMNC was set up in six locations across the country. In 2018, it was showcased at the UP Diliman College of Science Administration Building and in the SM Megamall Atrium. It was on display at the Philippine Science High School Main Campus in 2019 and, in the same year, it was flown to Panay Island to be displayed at Aklan State University. The MMNC was also part of various events of the Philippine Navy.',
+    content3: 'The exhibit includes educational posters, displays of ship models, interactive sets, and dioramas of marine structures and formations.'},
     {gallery: [
       {image: 'https://dc697.4shared.com/img/oTYxCAE7iq/s24/179c0e17e50/MMNC_1?async&rand=0.6643130394157113'},
     {image: 'https://dc697.4shared.com/img/UsrJcsX0ea/s24/179c0e1d828/MMNC_2?async&rand=0.31679214422403423'},

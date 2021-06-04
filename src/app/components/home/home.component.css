@@ -185,6 +185,16 @@
     padding-right: 47px;
   }
 
+  /* kate: added css */
+  #learn-more-a {
+    width: 293px !important;
+    font-size: 19px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+
 
   /* Education CSS Section */
   .educ-container{
@@ -235,6 +245,16 @@
   /* Learn more Button */
   #learn-more{
     width: 352px;
+    font-size: 23px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+
+  /*kate" added css */
+  #learn-more-a{
+    width: 352px !important;
     font-size: 23px;
     padding-top: 17px;
     padding-bottom: 17px;

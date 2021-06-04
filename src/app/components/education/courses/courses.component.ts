@@ -39,6 +39,11 @@ export class CoursesComponent implements OnInit {
   panelOpenState24:boolean =false;
   panelOpenState25:boolean =false;
   panelOpenState26:boolean =false;
+
+  panelOpenState27:boolean =false;
+  panelOpenState28:boolean =false;
+  panelOpenState29:boolean =false;
+  panelOpenState30:boolean =false;
   constructor() { }
 
   ngOnInit(): void {

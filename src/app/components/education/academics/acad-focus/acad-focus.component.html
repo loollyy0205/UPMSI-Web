@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="header">
+    <p class="atlas-blackReg title" style="color: #384e8a; text-transform: uppercase;">Academic Specializations</p>
+
+    <p class="content-p">While applying to their respective programs, graduate students must choose a subfield of marine science to specialize in. This will determine what kind of research they will be doing throughout the duration of their stay in the UPMSI. Three major tracks are offered: marine biology, marine physical sciences, and marine biotechnology. Each specialization has unique set of core courses that lay the foundation of the student’s expertise</p>
+  </div>
+
+  <div class="box-card">
+    <div class="box-card-content">
+      <div class="card" *ngFor="let item of instituteCont">
+        <div class="left">
+          <img [src]="item.img" />
+        </div>
+        <div class="right">
+          <p class="atlas-bold" style="color: #384e8a;">{{item.title}}</p>
+          <p class="card-content">{{item.content}}</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="header">
+    <p class="atlas-blackReg title" style="color: #384e8a;">Professional Masters in Tropical Marine Ecosystem Management (PM-TMEM)</p>
+
+    <p class="content-p">The Professional Masters in Tropical Marine Ecosystem Management (PM-TMEM) is designed for professionals who wish to pursue careers in government, civil service organization, and private sector involving the management and governance of tropical marine ecosystems.</p>
+  </div>
+
+  <div class="bottom-header">
+    <img src="https://dc733.4shared.com/img/ZnYFhe1vea/s24/179d490e828/03-PM-TMEM-thumbnail?async&rand=0.759970380881601">
+    <p class="atlas-light" style="line-height: 1.5;">PM-TMEM focuses on the application of the sciences for the development of professional skills and practical analyses of practitioners. This program follows a modular, sequential approach that can be completed in 1.5 years. A distinctive element of the PM-TMEM program is its integrative and trans-disciplinary approach within and across the courses, with lectures and field components handled by various interdisciplinary teams of faculty, including local and international experts. The program culminates with the completion of an independent special project that addressed gaps in the management and governance of tropical marine ecosystems on within the students’ areas of responsibility. PM-TMEM is also a part of the graduate offerings of the University of the Philippines (UP), with specific collaboration among 3 campuses -UP Diliman, UP Los Banos and UP Visayas. The program combines the expertise and vast experience of well-established programs in the 3 campuses: (i) UP Diliman’s Marine Science Institute, (ii) UP Visayas’ Institute of Fisheries Policy and Development Studies, and (iii) UP Los Banos’ School of Environmental Science and Management, and the College of Forestry and Natural Resources. All students from the 3 UP campuses will constitute a batch who will attend all course of the program as a single class.</p>
+  </div>
+
+  <p class="atlas-light" style="margin-top: 5%;">To know more about our Graduate Programs, <a href="../../../../../assets/download-forms/Graduate Curriculum.pdf" target="_blank">download the Graduate Curriculum here.</a></p>
+</div>

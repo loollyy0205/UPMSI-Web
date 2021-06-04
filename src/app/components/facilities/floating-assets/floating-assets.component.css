@@ -33,7 +33,7 @@ img{
 .left-content{
   position: absolute;
   z-index: 1;
-  bottom: 8px;
+  bottom: 1px;
   width: 580px;
   height: 100%;
   display: flex;

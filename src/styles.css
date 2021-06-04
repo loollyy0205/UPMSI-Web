@@ -59,10 +59,9 @@ mat-expansion-panel-header {
   z-index: 9999999999;
 }
 
-ngStickyNav{
-  z-index: 9999999999;
+dialog::backdrop {
+  background: rgba(0, 0, 0) !important;
 }
-
 
 @font-face{
   font-family: 'atlas-light';

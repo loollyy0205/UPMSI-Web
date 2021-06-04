@@ -49,7 +49,7 @@ img{
 .what-we-do {
   margin-left: 4.5%;
   margin-right: 4.5%;
-  height: 220px;
+  height: 270px;
   margin-top: 75px;
   display: flex;
   justify-content: space-between;
@@ -92,7 +92,7 @@ img{
   margin: 70px 4.5% 25px 4.5%;
   display: flex;
   flex-direction: row;
-
+  align-items: center;
 }
 
 .the-founder .left-image {
@@ -208,12 +208,13 @@ img{
   height: 100%;
   width: 100%;
   object-fit: cover;
-  transition: transform .5s ease;
+ /* transition: transform .5s ease; COMMENTED OUT */
 }
 
+/*COMMENTED OUT
 .bml-complex img:hover{
   transform: scale(1.1);
-}
+} */
 
 .content-header-contact{
   margin-top: 70px;
@@ -293,7 +294,7 @@ img{
 
 
   .what-we-do {
-    height: 258px;
+    height: 316px;
     margin-top: 88px;
   }
 
@@ -414,7 +415,7 @@ img{
 
 
   .what-we-do {
-    height: 306px;
+    height: 375px;
     margin-top: 105px;
   }
 

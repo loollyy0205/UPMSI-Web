@@ -17,18 +17,22 @@
     </div>
 
     <div class="img-container">
-      <div *ngFor="let img of dataGallery[2].gallery; let i = index;">
-        <img [src]="img.image" (click)="openDialog(dataGallery[2].gallery, i)">
+      <div class="img-content">
+        <div  *ngFor="let img of dataGallery[2].gallery; let i = index;">
+          <div class="photo-cont">
+            <img [src]="img.image" (click)="openDialog(dataGallery[2].gallery, i)">
+          </div>
+        </div>
       </div>
     </div>
 
   </div>
 
-  <div class="see-more" (click)="galleryTab()">
-    <mat-icon class="arrow">arrow_forward</mat-icon>
-    <span style="margin-top: 8px; text-decoration: underline;">
-      <p class="atlas-light">SEE MORE GALLERIES</p>
+  <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
+    <span class="arrow-text" (click)="galleryTab()">
+      <p class="atlas-light">MORE GALLERIES</p>
     </span>
+    <mat-icon class="arrow" style="padding-left: .5%;" (click)="galleryTab()">arrow_forward</mat-icon>
   </div>
 </div>
 <div class="footer">

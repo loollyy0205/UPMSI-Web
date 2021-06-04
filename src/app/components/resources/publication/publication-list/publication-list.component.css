@@ -11,8 +11,8 @@ mat-expansion-panel{
 
 .panel-title{
   color: white;
-  padding: 18px 10px;
-  font-size: 16px;
+  padding: 15px 0px; /*edited*/
+  font-size: 14px; /*edited*/
 }
 
 mat-expansion-panel{
@@ -30,6 +30,7 @@ mat-expansion-panel{
 
 .grad-offering{
   margin-top: 50px !important;
+  padding: 0 120px; /*added*/
 }
 
 
@@ -41,16 +42,16 @@ mat-expansion-panel{
   height: 100%;
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-  font-size: 16px;
+  margin-top: 10px; /*edited*/
+  font-size: 14px; /*edited*/
 }
 
 .regular-content p {
   margin: 0px 20px;
   font-family: 'atlas-light';
-  font-size: 15px;
+  font-size: 14px; /*edited*/
   border-bottom: 1.5px solid #5CA361;
-  padding: 20px 0px;
+  padding: 10px 0px; /*edited*/
   line-height: 30px;
 
 }

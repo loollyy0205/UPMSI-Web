@@ -10,10 +10,39 @@
     </div>
   </div>
 
-  <p class="atlas-light grad-offering" style="line-height: 1.4;">
+  <p class="atlas-light marg-50" style="line-height: 1.4;">
     The UPMSI also offers undergraduate courses such as Oceans, the Marine Sciences, and Oceans and Us. Each student designs his or her own program of study, with interesting electives offered by the Institute and by other units of the College of Science. This curriculum adequately prepares graduate students to pursue their chosen fields of research.
   </p>
     <mat-accordion>
+      <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState27 = true"
+          (closed)="panelOpenState27 = false">
+        <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState27 ? '#394e8a' : '#5ca361'">
+        <mat-panel-title class="atlas-light" style="color: white;">UNDERGRADUATE OFFERING</mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div class="core-courses2">
+          <div class="core-content">
+            <p style="font-weight: bold;">MS 101</p>
+            <p>Oceans</p>
+            <p>LTDavid, GSJacinto, MLSMcGlone, FPSiringan, CLVillanoy, ATYñiquez</p>
+          </div>
+
+          <div class="core-content">
+            <p style="font-weight: bold;">MS 102</p>
+            <p>The Marine Sciences</p>
+            <p>PCCabaitan, MAJMeñez, DFLOnda, MHTYap</p>
+          </div>
+
+          <div class="core-content">
+            <p style="font-weight: bold;">MS 1</p>
+            <p>Oceans and Us</p>
+            <p>CGConaco, LTDavid, RRGotanco, GSJacinto, CBJaraula, MJRPante, LSReyes,  IBRodriguez, MVBRodriguez,  WJESantiañez, FPSiringan, ATYñiguez</p>
+          </div>
+        </div>
+
+
+      </mat-expansion-panel>
+
       <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState = true"
           (closed)="panelOpenState = false">
         <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState ? '#394e8a' : '#5ca361'">
@@ -38,31 +67,31 @@
                 <div class="core-content">
                   <p style="font-weight: bold;">MS 201</p>
                   <p>Ocean Physics and Chemistry</p>
-                  <p>CBJaraula/LTDavid</p>
+                  <p>CBJaraula / LTDavid/CRepollo</p>
                 </div>
 
                 <div class="core-content">
                   <p style="font-weight: bold;">MS 210</p>
                   <p>Physical Oceanography</p>
-                  <p>CVillanoy/LTDavid/IRodriguez</p>
+                  <p>CVillanoy / LTDavid/CRepollo</p>
                 </div>
 
                 <div class="core-content">
                   <p style="font-weight: bold;">MS 220</p>
                   <p>Chemical Oceanography</p>
-                  <p>MSDMcGlone/GSJacinto</p>
+                  <p>MLSMcGlone / GSJacinto</p>
                 </div>
 
                 <div class="core-content">
-                  <p style="font-weight: bold;">MS 220</p>
+                  <p style="font-weight: bold;">MS 240</p>
                   <p>Biological Oceanography</p>
-                  <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+                  <p>MHTYap</p>
                 </div>
 
                 <div class="core-content">
                   <p style="font-weight: bold;">MS 270</p>
                   <p>Biochemistry of Marine Organisms</p>
-                  <p>GPConcepcion/AOLluisma/CGConaco</p>
+                  <p>LSReyes / IBRodriguez / ETYu</p>
                 </div>
               </div>
               </mat-expansion-panel>
@@ -75,34 +104,155 @@
 
               <div class="core-courses">
                 <div class="core-content">
-                  <p style="font-weight: bold;">MS 201</p>
-                  <p>Ocean Physics and Chemistry</p>
-                  <p>CBJaraula/LTDavid</p>
+                  <p style="font-weight: bold;">MS 214</p>
+                  <p>Waves and Tides (on demand)</p>
+                  <p>CLVillanoy / LTDavid</p>
                 </div>
 
                 <div class="core-content">
-                  <p style="font-weight: bold;">MS 210</p>
-                  <p>Physical Oceanography</p>
-                  <p>CVillanoy/LTDavid/IRodriguez</p>
+                  <p style="font-weight: bold;">MS 221</p>
+                  <p>Marine Geochemistry</p>
+                  <p>GSJacinto / CBJaraula</p>
                 </div>
 
                 <div class="core-content">
-                  <p style="font-weight: bold;">MS 220</p>
-                  <p>Chemical Oceanography</p>
-                  <p>MSDMcGlone/GSJacinto</p>
+                  <p style="font-weight: bold;">MS 226</p>
+                  <p>Marine Pollution Chemistry </p>
+                  <p>GSJacinto / MLSMcGlone / IBRodriguez</p>
                 </div>
 
                 <div class="core-content">
-                  <p style="font-weight: bold;">MS 220</p>
-                  <p>Biological Oceanography</p>
-                  <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
+                  <p style="font-weight: bold;">MS 226.1</p>
+                  <p>Marine Pollution Chemistry laboratory</p>
+                  <p>GSJacinto / MLSMcGlone</p>
                 </div>
 
                 <div class="core-content">
-                  <p style="font-weight: bold;">MS 270</p>
-                  <p>Biochemistry of Marine Organisms</p>
-                  <p>GPConcepcion/AOLluisma/CGConaco</p>
+                  <p style="font-weight: bold;">MS 253</p>
+                  <p>Marine Chemical Ecology</p>
+                  <p>LSReyes / MVBRodriguez</p>
                 </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 255</p>
+                  <p>Coral Reef Ecosystems</p>
+                  <p>PCCabaitan</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 256</p>
+                  <p>Marine Algae</p>
+                  <p>WJESantiañez</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 261</p>
+                  <p>Physiology of Marine Algae</p>
+                  <p>MYRoleda</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 385</p>
+                  <p>Marine Toxinology (every odd year)</p>
+                  <p>LSReyes / DFLOnda</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 397</p>
+                  <p>Special Topics: Behavioral Ecology</p>
+                  <p>MAJMeñez</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 397</p>
+                  <p>Special Topics: Genome Biology of Marine Organisms</p>
+                  <p>CGConaco</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 397</p>
+                  <p>Special Topics: Gene Expression Control</p>
+                  <p>CGConaco</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 397</p>
+                  <p>Special Topics: Ecological Modeling</p>
+                  <p>ATYñiguez</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 397</p>
+                  <p>Special Topics: Ecological Restoration</p>
+                  <p>MVBRodriguez</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 397</p>
+                  <p>Special Topics: Molecular Ecology and Evolution</p>
+                  <p>RRGotanco</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 397</p>
+                  <p>Special Topics: Biological-Social Structures</p>
+                  <p>GPConcepcion / MHTYap</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 397</p>
+                  <p>Special Topics: Ecological Assessment with Algae</p>
+                  <p>MYRoleda</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 397</p>
+                  <p>Special Topics: Marine Organic Geochemistry (as needed)</p>
+                  <p>CBJaraula</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 397</p>
+                  <p>Special Topics: Molecular Biology and Bioinformatics of the Biosynthesis of Natural Products</p>
+                  <p>AOLluisma</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 398</p>
+                  <p>Advanced Methods in Marine Science: Quantitative Methods in Microbial Ecology</p>
+                  <p>DFLOnda</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 398</p>
+                  <p>Advanced Methods in Marine Science: Biostatistics</p>
+                  <p>MJRPante</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 398</p>
+                  <p>Advanced Methods in Marine Science: Practical Scientific Programming (every odd year)</p>
+                  <p>AOLluisma</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 398</p>
+                  <p>Advanced Methods in Marine Science: Data Analysis Methods in Oceans</p>
+                  <p>CLVillanoy / LTDavid/CRepollo</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 398</p>
+                  <p>Advanced Methods in Marine Science: Ocean Remote Sensing & Image Analysis</p>
+                  <p>LTDavid</p>
+                </div>
+
+                <div class="core-content">
+                  <p style="font-weight: bold;">MS 398</p>
+                  <p>Methods in Marine Science: Advanced Methods in Natural Products</p>
+                  <p>LSReyes</p>
+                </div>
+
               </div>
               </mat-expansion-panel>
 
@@ -112,35 +262,16 @@
               <mat-panel-title [class]="panelOpenState4 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState4 ? '#394e8a' : 'black'"><mat-icon class="fiber-manual">fiber_manual_record</mat-icon>SEMINAR</mat-panel-title>
               </mat-expansion-panel-header>
 
-              <div class="core-courses">
+              <div class="core-courses ms396">
                 <div class="core-content">
-                  <p style="font-weight: bold;">MS 201</p>
-                  <p>Ocean Physics and Chemistry</p>
-                  <p>CBJaraula/LTDavid</p>
+                  <p style="font-weight: bold;">MS 396</p>
+                  <p>Seminar 1:  Current Topics in Marine Science (for all MS students)</p>
+                  <p>All MSI Faculty</p>
                 </div>
 
                 <div class="core-content">
-                  <p style="font-weight: bold;">MS 210</p>
-                  <p>Physical Oceanography</p>
-                  <p>CVillanoy/LTDavid/IRodriguez</p>
-                </div>
-
-                <div class="core-content">
-                  <p style="font-weight: bold;">MS 220</p>
-                  <p>Chemical Oceanography</p>
-                  <p>MSDMcGlone/GSJacinto</p>
-                </div>
-
-                <div class="core-content">
-                  <p style="font-weight: bold;">MS 220</p>
-                  <p>Biological Oceanography</p>
-                  <p>MHTYap/DFLOnda (Bio Oce)/MRoleda (Physio)/CGConaco (Microbial)</p>
-                </div>
-
-                <div class="core-content">
-                  <p style="font-weight: bold;">MS 270</p>
-                  <p>Biochemistry of Marine Organisms</p>
-                  <p>GPConcepcion/AOLluisma/CGConaco</p>
+                  <p style="font-weight: bold;">MS 396</p>
+                  <p>Seminar (Marine Biology)</p>
                 </div>
               </div>
               </mat-expansion-panel>

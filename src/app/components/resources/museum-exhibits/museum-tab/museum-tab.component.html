@@ -9,27 +9,35 @@
     </div>
 
     <p class="atlas-light header">{{dataGallery[1].content}}</p>
+    <p class="atlas-light header">{{dataGallery[1].content2}}</p>
+    <p class="atlas-light header">{{dataGallery[1].content3}}</p>
 
-    <div class="atlas-light" style="margin-top: 2%;" *ngIf="upmroBool">
-      <p>Read more about our giant clams here:</p>
-      <p style="margin-top: 2%;"><a href="https://up.edu.ph/meet-the-giant-clam-fam/" target="_blank">Meet the giant clam fam</a></p>
-      <p style="margin-top: 1%;"><a href="https://up.edu.ph/sentinels-of-the-sea/" target="_blank">Sentinels of the sea</a></p>
-    </div>
-
-    <div class="img-container">
+    <!-- <div class="img-container">
       <div *ngFor="let img of dataGallery[2].gallery; let i = index;">
         <img [src]="img.image" (click)="openDialog(dataGallery[2].gallery, i)">
       </div>
+    </div> -->
+
+    <div class="img-container">
+      <div class="img-content">
+        <div  *ngFor="let img of dataGallery[2].gallery; let i = index;">
+          <div class="photo-cont">
+            <img [src]="img.image" (click)="openDialog(dataGallery[2].gallery, i)">
+          </div>
+        </div>
+      </div>
     </div>
 
+
   </div>
 
-  <div class="see-more" (click)="galleryTab()">
-    <mat-icon class="arrow">arrow_forward</mat-icon>
-    <span style="margin-top: 8px; text-decoration: underline;">
-      <p class="atlas-light">SEE MORE GALLERIES</p>
+  <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
+    <span class="arrow-text" (click)="galleryTab()">
+      <p class="atlas-light">TO MUSEUM & EXHIBITS</p>
     </span>
+    <mat-icon class="arrow" style="padding-left: .5%;" (click)="galleryTab()">arrow_forward</mat-icon>
   </div>
+
 </div>
 <div class="footer">
   <app-footer></app-footer>

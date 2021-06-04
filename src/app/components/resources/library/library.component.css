@@ -3,6 +3,11 @@
   margin-top: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .content-header{
   height: 297px;
   position: relative;
@@ -50,7 +55,7 @@ img{
 .what-we-do {
   margin-left: 4.5%;
   margin-right: 4.5%;
-  height: 220px;
+  height: 270px;
   margin-top: 75px;
   display: flex;
   justify-content: space-between;
@@ -210,12 +215,13 @@ img{
   height: 100%;
   width: 100%;
   object-fit: cover;
-  transition: transform .5s ease;
+ /* transition: transform .5s ease; commented out */
 }
 
+/*commented out
 .bml-complex img:hover{
   transform: scale(1.1);
-}
+}*/
 
 .content-header-contact{
   height: 220px;
@@ -295,7 +301,7 @@ img{
 
 
   .what-we-do {
-    height: 258px;
+    height: 316px;
     margin-top: 88px;
   }
 
@@ -416,7 +422,7 @@ img{
 
 
   .what-we-do {
-    height: 306px;
+    height: 375px;
     margin-top: 105px;
   }
 

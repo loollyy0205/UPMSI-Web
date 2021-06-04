@@ -17,19 +17,20 @@ img{
   height: 100%;
   width: 100%;
   object-fit: cover;
-  transition: transform .5s ease;
+  /*transition: transform .5s ease; commented out */
 }
 
+/*commented out
 .bml-complex img:hover{
   transform: scale(1.1);
-}
+} */
 
 .bml-complex .right-content{
   position: absolute;
   z-index: 1;
   left: 20px;
   bottom: 30px;
-  width: 57%;
+  width: 80%; /*edited*/
   height: 100%;
   display: flex;
   flex-direction: column;

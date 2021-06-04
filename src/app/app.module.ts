@@ -97,6 +97,10 @@ import { MuseumExhibitsComponent } from './components/resources/museum-exhibits/
 import { MuseumDialogComponent } from './components/resources/museum-exhibits/museum-dialog/museum-dialog.component';
 import { MuseumTabComponent } from './components/resources/museum-exhibits/museum-tab/museum-tab.component';
 import { FacultyDialogComponent } from './components/about/faculty/faculty-dialog/faculty-dialog.component';
+import { AcademicsComponent } from './components/education/academics/academics.component';
+import { AcadFocusComponent } from './components/education/academics/acad-focus/acad-focus.component';
+import { MNLPComponent } from './components/resources/collection/mnlp/mnlp.component';
+import { RVAComponent } from './components/resources/collection/rva/rva.component';
 
 @NgModule({
   declarations: [
@@ -184,7 +188,11 @@ import { FacultyDialogComponent } from './components/about/faculty/faculty-dialo
     MuseumExhibitsComponent,
     MuseumDialogComponent,
     MuseumTabComponent,
-    FacultyDialogComponent
+    FacultyDialogComponent,
+    AcademicsComponent,
+    AcadFocusComponent,
+    MNLPComponent,
+    RVAComponent
   ],
   imports: [
     BrowserModule,

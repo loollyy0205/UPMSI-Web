@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" *ngIf="!myArr[0].publication">
   <div class="left">
     <img [src]="myArr[0].image" />
   </div>
@@ -11,5 +11,52 @@
       <p class="atlas-bold" style="color: #4D525B;" >{{myArr[0].title3}}</p>
       <p class="atlas-light">Academician of the National Academy of Science and Technology | NAST</p>
     </div>
+  </div>
+</div>
+
+<div class="container2" *ngIf="myArr[0].publication">
+  <div class="left2">
+    <img [src]="myArr[0].image" />
+    <div class="content2">
+      <p class="atlas-bold sub-title" style="color: #5da563; margin-top: 5%;">{{myArr[0].name}}</p>
+      <div style="line-height: 1.3;">
+        <p class="atlas-bold" style="margin-top: 3%; color: #4D525B;" >{{myArr[0].title1}}</p>
+        <p class="atlas-light badge">{{myArr[0].badge}}</p>
+        <p class="atlas-light badge">{{myArr[0].badge2}}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="content3">
+    <div style="line-height: 1.3; margin-top: 2%;">
+      <p class="atlas-bold" style="margin-top: 1.2%; color: #4D525B;" >Education</p>
+      <div  style="margin-top: 1.2%; padding-right: 2%;" class="badge atlas-light">
+        <p>{{myArr[0].education1}}</p>
+        <p>{{myArr[0].education2}}</p>
+        <p>{{myArr[0].education3}}</p>
+        <p>{{myArr[0].education4}}</p>
+      </div>
+    </div>
+
+    <div style="line-height: 1.3; margin-top: 2%;">
+      <p class="atlas-bold" style="margin-top: 1.2%; color: #4D525B;" >Research Interests:</p>
+      <div style="margin-top: 1.2%; padding-right: 2%;" class="badge atlas-light">
+        <p>{{myArr[0].RI}}</p>
+      </div>
+    </div>
+
+    <div style="line-height: 1.3; margin-top: 2%;">
+      <p class="atlas-bold" style="margin-top: 1.2%; color: #4D525B;" >Selected Publications:</p>
+      <div  style="margin-top: 1.2%; padding-right: 2%;" class="badge">
+        <ul>
+          <li *ngFor="let item of myArr[0].publication">
+            <span>
+              {{item.publi}}
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
   </div>
 </div>

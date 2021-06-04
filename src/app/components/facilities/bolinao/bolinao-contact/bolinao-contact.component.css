@@ -22,12 +22,13 @@ a {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  transition: transform .5s ease;
+  /*transition: transform .5s ease; commented out */
 }
 
+/*commented out
 .bml-complex img:hover{
   transform: scale(1.1);
-}
+} */
 
 .content-header-contact{
   height: 220px;

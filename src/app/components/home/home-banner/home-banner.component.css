@@ -70,7 +70,7 @@
 
 .slider .img-container2{
   height: 100%;
-  margin-left: 168px;
+  margin-left: 108px !important; /*edited*/
   margin-top: 140px;
   top: 0;
   position: absolute;
@@ -83,7 +83,7 @@
 
 .slider .img-container4{
   height: 100%;
-  margin-left: 168px;
+  margin-left: 108px; /*edited*/
   margin-top: 5%;
   top: 0;
   position: absolute;

@@ -33,22 +33,4 @@ export class TrainingsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  newsContent(i){
-    switch(i) {
-      case 0:
-        this.router.navigate(['/News/content', 'filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth']);
-        break;
-      case 1:
-        this.router.navigate(['/News/content', 'UPMSI-scientists-receive-accolades-from-NAST']);
-        break;
-      case 2:
-        this.router.navigate(['/News/content', 'all-about-the-giant-clam']);
-        break;
-      case 3:
-        this.router.navigate(['/News/content', 'NARFleet-is-on-its-way-to-prowl-Philippine-waters']);
-        break;
-    }
-
-  }
-
 }

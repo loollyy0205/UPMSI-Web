@@ -54,11 +54,7 @@ export class NavComponent implements OnInit {
       this.facultyHr = true;
     }else if(this.router.url === '/About/admin'){
       this.about = true;
-    }else if(this.router.url === '/Academics'){
-      this.education = true;
-    }else if(this.router.url === '/Academics/courses-offered'){
-      this.education = true;
-    }else if(this.router.url === '/Academics/downloadable-forms'){
+    }else if(this.router.url.includes('/Academics')){
       this.education = true;
     }else if(this.router.url === '/Research'){
       this.research = true;

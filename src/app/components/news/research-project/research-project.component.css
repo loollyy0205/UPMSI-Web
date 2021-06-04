@@ -139,7 +139,7 @@ mat-expansion-panel{
 .panel-title{
   color: white;
   padding: 15px 0;
-  font-size: 16px;
+  font-size: 14px; /*edited*/
 }
 
 mat-expansion-panel{
@@ -157,6 +157,7 @@ mat-expansion-panel{
 
 .grad-offering{
   margin-top: 50px !important;
+  padding: 0 120px; /*edited*/
 }
 
 

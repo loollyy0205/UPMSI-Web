@@ -1,3 +1,6 @@
+import { RVAComponent } from './components/resources/collection/rva/rva.component';
+import { MNLPComponent } from './components/resources/collection/mnlp/mnlp.component';
+import { AcademicsComponent } from './components/education/academics/academics.component';
 import { MuseumExhibitsComponent } from './components/resources/museum-exhibits/museum-exhibits.component';
 import { HerbariumComponent } from './components/resources/collection/herbarium/herbarium.component';
 import { CollectionComponent } from './components/resources/collection/collection.component';
@@ -63,6 +66,7 @@ const routes: Routes = [
   {path: 'About/faculty', component: FacultyComponent},
   {path: 'About/About-the-director', component: AboutTheDirectorComponent},
   {path: 'Academics', component: EducationComponent},
+  {path: 'Academics/msi-academics', component: AcademicsComponent},
   {path: 'Academics/courses-offered', component: CoursesComponent},
   {path: 'Academics/downloadable-forms', component: DownloadableFormsComponent},
   {path: 'Research', component: ResearchComponent},
@@ -88,6 +92,8 @@ const routes: Routes = [
   {path: 'Resources/museum-&-exhibits', component: MuseumExhibitsComponent},
   {path: 'Resources/museum-&-exhibits/:name', component: MuseumTabComponent},
   {path: 'Resources/collections/herbarium', component: HerbariumComponent},
+  {path: 'Resources/collections/marine-natural-products-legacy-collection', component: MNLPComponent},
+  {path: 'Resources/collections/RVA-Marine-Microalgal-Culture-collection-RVA-MMCC', component: RVAComponent},
   {path: 'Contact', component: ContactComponent},
   {path: 'News', component: NewsComponent},
   {path: 'News/content/:name', component: NewsContentComponent},

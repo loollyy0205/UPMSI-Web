@@ -1,22 +1,21 @@
-<div class="container">
+<div class="container"> <!-- EDITED : SORTED OUT -->
   <mat-accordion>
-    <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState = true"
-        (closed)="panelOpenState = false">
-      <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState ? '#394e8a' : '#5ca361'">
-      <mat-panel-title class="atlas-light panel-title">2017 PUBLICATIONS</mat-panel-title>
+     <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState5 = true"
+        (closed)="panelOpenState5 = false" >
+      <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState5 ? '#394e8a' : '#5ca361'">
+      <mat-panel-title class="atlas-light panel-title">2021 PUBLICATIONS</mat-panel-title>
       </mat-expansion-panel-header>
-      <div class="regular-content"  *ngFor="let item of publication2017">
-        <p>{{item.content}}</p>
-
+      <div class="regular-content" *ngFor="let item of publication2021">
+       <p>{{item.content}}</p>
       </div>
     </mat-expansion-panel>
 
-    <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState2 = true"
-        (closed)="panelOpenState2 = false" >
-      <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState2 ? '#394e8a' : '#5ca361'">
-      <mat-panel-title class="atlas-light panel-title">2018 PUBLICATIONS</mat-panel-title>
+    <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState4 = true"
+        (closed)="panelOpenState4 = false" >
+      <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState4 ? '#394e8a' : '#5ca361'">
+      <mat-panel-title class="atlas-light panel-title">2020 PUBLICATIONS</mat-panel-title>
       </mat-expansion-panel-header>
-      <div class="regular-content" *ngFor="let item of publication2018">
+      <div class="regular-content" *ngFor="let item of publication2019">
         <p>{{item.content}}</p>
       </div>
     </mat-expansion-panel>
@@ -31,24 +30,27 @@
       </div>
     </mat-expansion-panel>
 
-    <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState4 = true"
-        (closed)="panelOpenState4 = false" >
-      <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState4 ? '#394e8a' : '#5ca361'">
-      <mat-panel-title class="atlas-light panel-title">2020 PUBLICATIONS</mat-panel-title>
+    <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState2 = true"
+        (closed)="panelOpenState2 = false" >
+      <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState2 ? '#394e8a' : '#5ca361'">
+      <mat-panel-title class="atlas-light panel-title">2018 PUBLICATIONS</mat-panel-title>
       </mat-expansion-panel-header>
-      <div class="regular-content" *ngFor="let item of publication2019">
+      <div class="regular-content" *ngFor="let item of publication2018">
         <p>{{item.content}}</p>
       </div>
     </mat-expansion-panel>
 
-    <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState5 = true"
-        (closed)="panelOpenState5 = false" >
-      <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState5 ? '#394e8a' : '#5ca361'">
-      <mat-panel-title class="atlas-light panel-title">2021 PUBLICATIONS</mat-panel-title>
+    <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState = true"
+        (closed)="panelOpenState = false">
+      <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState ? '#394e8a' : '#5ca361'">
+      <mat-panel-title class="atlas-light panel-title">2017 PUBLICATIONS</mat-panel-title>
       </mat-expansion-panel-header>
-      <div class="regular-content" *ngFor="let item of publication2021">
-       <p>{{item.content}}</p>
+      <div class="regular-content"  *ngFor="let item of publication2017">
+        <p>{{item.content}}</p>
+
       </div>
     </mat-expansion-panel>
+
+
   </mat-accordion>
 </div>

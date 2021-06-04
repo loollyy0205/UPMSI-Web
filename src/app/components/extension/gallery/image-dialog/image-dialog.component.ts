@@ -1,6 +1,7 @@
 import { GalleryComponent } from './../gallery.component';
 import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { RIGHT_ARROW, LEFT_ARROW } from '@angular/cdk/keycodes';
 
 @Component({
   selector: 'app-image-dialog',
