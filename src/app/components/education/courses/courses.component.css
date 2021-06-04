@@ -88,14 +88,20 @@ mat-panel-title{
   margin-TOP: 20px;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 15px;
-  margin-bottom: 10px;
+  /* gap: 15px; */
   font-size: 14px;
+  margin-bottom: -50px;
 }
 
 .core-content{
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  line-height: 1.5;
+}
+
+.core-content2{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   line-height: 1.5;
 }
 
@@ -134,6 +140,33 @@ mat-panel-title{
   margin-bottom: -110px
 }
 
+.ms397 {
+  margin-bottom: -140px
+}
+
+.arrow{
+  font-size: 30px;
+}
+
+.arrow-text{
+  margin-top: 8px;
+}
+
+.arrow-text:hover{
+  text-decoration: underline;
+}
+
+.more-vacancies{
+  color: #384e8a;
+  margin-left: 9%;
+  margin-right: 9%;
+  display: flex;
+  height: 120px;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
 @media (min-width: 1466px){
   .container{
     margin: 0 130px;
@@ -161,7 +194,7 @@ mat-panel-title{
   }
 
   mat-panel-title{
-    padding: 17px 5px;
+    padding: 17px 0;
     font-size: 18px;
   }
 
@@ -198,10 +231,38 @@ mat-panel-title{
   .ms396 {
     margin-bottom: -120px
   }
+
+  .ms397 {
+    margin-bottom: -150px
+  }
 }
 
 
-@media (min-width: 1666px){
+@media (min-width: 1600px){
+  .arrow{
+    font-size: 35px;
+  }
+
+  .arrow-text{
+    margin-top: 16px;
+  }
+
+  .core-courses2{
+    margin-top: 23px;
+    gap: 18px;
+    font-size: 16px;
+  }
+
+  .core-content, .tmem-title{
+    font-size: 19px;
+  }
+
+  .more-vacancies{
+    height: 141px;
+    font-size: 19px
+  }
+
+
   .container{
     margin: 0 140px;
     margin-top: 30px;
@@ -228,7 +289,7 @@ mat-panel-title{
   }
 
   mat-panel-title{
-    padding: 19px 10px;
+    padding: 19px 0;
     font-size: 20px;
   }
 
@@ -266,9 +327,37 @@ mat-panel-title{
   .ms396 {
     margin-bottom: -130px
   }
+
+  .ms397 {
+    margin-bottom: -160px
+  }
 }
 
 @media (min-width: 1866px){
+  .arrow{
+    font-size: 42px;
+  }
+
+  .core-courses2{
+    margin-top: 27px;
+    gap: 21px;
+    font-size: 19px;
+  }
+
+  .core-content, .tmem-title{
+    font-size: 23px;
+  }
+
+  .arrow-text{
+    margin-top: 23px;
+  }
+
+  .more-vacancies{
+    height: 167px;
+    font-size: 23px
+  }
+
+
   .container{
     margin: 0 150px;
     margin-top: 35px;
@@ -295,7 +384,7 @@ mat-panel-title{
   }
 
   mat-panel-title{
-    padding: 21px 15px;
+    padding: 21px 0;
     font-size: 22px;
   }
 
@@ -334,6 +423,10 @@ mat-panel-title{
   .ms396 {
     margin-bottom: -140px
   }
+
+  .ms397 {
+    margin-bottom: -170px
+  }
 }
 
 @media (min-width: 2066px){
@@ -363,7 +456,7 @@ mat-panel-title{
   }
 
   mat-panel-title{
-    padding: 23px 20px;
+    padding: 23px 0;
     font-size: 24px;
   }
 
@@ -401,6 +494,10 @@ mat-panel-title{
   .ms396 {
     margin-bottom: -150px
   }
+
+  .ms397 {
+    margin-bottom: -180px
+  }
 }
 
 
@@ -431,7 +528,7 @@ mat-panel-title{
   }
 
   mat-panel-title{
-    padding: 25px 25px;
+    padding: 25px 0;
     font-size: 26px;
   }
 
@@ -469,6 +566,10 @@ mat-panel-title{
   .ms396 {
     margin-bottom: -160px
   }
+
+  .ms397 {
+    margin-bottom: -190px
+  }
 }
 
 
@@ -499,7 +600,7 @@ mat-panel-title{
   }
 
   mat-panel-title{
-    padding: 27px 30px;
+    padding: 27px 0;
     font-size: 28px;
   }
 
@@ -537,6 +638,9 @@ mat-panel-title{
   .ms396 {
     margin-bottom: -170px
   }
+  .ms397 {
+    margin-bottom: -200px
+  }
 }
 
 
@@ -567,7 +671,7 @@ mat-panel-title{
   }
 
   mat-panel-title{
-    padding: 29px 35px;
+    padding: 29px 0;
     font-size: 30px;
   }
 
@@ -604,5 +708,9 @@ mat-panel-title{
 
   .ms396 {
     margin-bottom: -180px
+  }
+
+  .ms397 {
+    margin-bottom: -210px
   }
 }

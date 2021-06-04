@@ -117,24 +117,35 @@ mat-expansion-panel{
   font-size: 16px;
 }
 
-.where-next{
-  color: #384e8a;
-  display: flex;
-  justify-content: flex-end;
-  cursor: pointer;
-  margin-top: 100px;
-}
-
-.arrow {
-  margin-left: 8px;
-}
-
 a{
   color:  #5da563;
 }
 
 a:visited{
   color: #394e8a;
+}
+
+.arrow{
+  font-size: 30px;
+}
+
+.arrow-text{
+  margin-top: 8px;
+}
+
+.arrow-text:hover{
+  text-decoration: underline;
+}
+
+.more-vacancies{
+  color: #384e8a;
+  margin-left: 9%;
+  margin-right: 9%;
+  display: flex;
+  height: 120px;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
 }
 
 @media (min-width: 1600px) {
@@ -208,13 +219,17 @@ a:visited{
     font-size: 19px;
   }
 
-  .where-next{
-    margin-top: 117px;
-    font-size: 19px;
+  .arrow{
+    font-size: 35px;
   }
 
-  .arrow {
-    margin-left: 9px;
+  .arrow-text{
+    margin-top: 16px;
+  }
+
+  .more-vacancies{
+    height: 141px;
+    font-size: 19px
   }
 }
 
@@ -280,12 +295,16 @@ a:visited{
     font-size: 23px;
   }
 
-  .where-next{
-    margin-top: 140px;
-    font-size: 23px;
+  .arrow{
+    font-size: 42px;
   }
 
-  .arrow {
-    margin-left: 11px;
+  .arrow-text{
+    margin-top: 23px;
+  }
+
+  .more-vacancies{
+    height: 167px;
+    font-size: 23px;
   }
 }

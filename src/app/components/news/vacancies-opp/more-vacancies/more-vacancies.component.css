@@ -30,7 +30,7 @@ img{
   text-decoration: underline;
   margin-top: 15px;
   cursor: pointer;
-  
+
 }
 
 .date{
@@ -40,6 +40,29 @@ img{
 
 .footer{
   margin-top: 120px;
+}
+
+.arrow{
+  font-size: 30px;
+}
+
+.arrow-text{
+  margin-top: 8px;
+}
+
+.arrow-text:hover{
+  text-decoration: underline;
+}
+
+.more-vacancies{
+  color: #384e8a;
+  margin-left: 9%;
+  margin-right: 9%;
+  display: flex;
+  height: 120px;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
 }
 
 @media (min-width: 1466px){
@@ -80,9 +103,10 @@ img{
   .footer{
     margin-top: 130px;
   }
+
 }
 
-@media (min-width: 1666px){
+@media (min-width: 1600px){
   .container{
     margin: 0 140px;
   }
@@ -119,6 +143,20 @@ img{
 
   .footer{
     margin-top: 140px;
+  }
+
+
+  .arrow{
+    font-size: 35px;
+  }
+
+  .arrow-text{
+    margin-top: 16px;
+  }
+
+  .more-vacancies{
+    height: 141px;
+    font-size: 19px
   }
 }
 
@@ -160,6 +198,19 @@ img{
 
   .footer{
     margin-top: 150px;
+  }
+
+  .arrow{
+    font-size: 42px;
+  }
+
+  .arrow-text{
+    margin-top: 23px;
+  }
+
+  .more-vacancies{
+    height: 167px;
+    font-size: 23px
   }
 }
 

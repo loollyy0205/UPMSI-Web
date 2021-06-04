@@ -66,15 +66,16 @@
       </mat-accordion>
     </div>
 
-    <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s" (click)="toAcad()">
-      <span class="arrow-text">
-        <p class="atlas-light">TO ACADEMICS</p>
-      </span>
-      <mat-icon class="arrow" style="padding-left: .5%;">arrow_forward</mat-icon>
-    </div>
   </div>
   </div>
 
-<div class="footer">
+  <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
+    <span class="arrow-text" routerLink="/Facilities">
+      <p class="atlas-light">TO FACILITIES</p>
+    </span>
+    <mat-icon class="arrow" style="padding-left: .5%;" routerLink="/Facilities">arrow_forward</mat-icon>
+  </div>
+
+<div>
   <app-footer></app-footer>
 </div>

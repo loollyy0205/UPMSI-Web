@@ -110,6 +110,29 @@ carousel{
   margin-top: 9%;
 }
 
+.arrow{
+  font-size: 30px;
+}
+
+.arrow-text{
+  margin-top: 8px;
+}
+
+.arrow-text:hover{
+  text-decoration: underline;
+}
+
+.more-vacancies{
+  color: #384e8a;
+  margin-left: 9%;
+  margin-right: 9%;
+  display: flex;
+  height: 120px;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
 @media (min-width: 1600px) {
   .container{
     margin-top: 47px;
@@ -164,6 +187,17 @@ carousel{
 
   .content2 carousel {
     height: 193px;
+  }
+
+  .more-vacancies{
+    color: #384e8a;
+    margin-left: 9%;
+    margin-right: 9%;
+    display: flex;
+    height: 120px;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
   }
 }
 
@@ -221,5 +255,18 @@ carousel{
 
   .content2 carousel {
     height: 229px;
+  }
+
+  .arrow{
+    font-size: 42px;
+  }
+
+  .arrow-text{
+    margin-top: 23px;
+  }
+
+  .more-vacancies{
+    height: 167px;
+    font-size: 23px;
   }
 }

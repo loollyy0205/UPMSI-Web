@@ -56,11 +56,7 @@ export class NavComponent implements OnInit {
       this.about = true;
     }else if(this.router.url.includes('/Academics')){
       this.education = true;
-    }else if(this.router.url === '/Research'){
-      this.research = true;
-    }else if(this.router.url === '/Research/areas-of-research'){
-      this.research = true;
-    }else if(this.router.url.includes('/Research/laboratories')){
+    }else if(this.router.url.includes('/Research')){
       this.research = true;
     }else if(this.router.url === '/Research/laboratories/biological-oceanography-and-modeling-of-ecosystem-laboratory'){
       this.research = true;
