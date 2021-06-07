@@ -22,7 +22,7 @@ img{
 .left-content{
   position: absolute;
   z-index: 1;
-  bottom: 8px;
+  top: 2px; /*edited */
   width: 684px;
   height: 100%;
   display: flex;
@@ -255,6 +255,8 @@ img{
   display: flex;
   flex-direction: column;
   width: 65%;
+  margin-top: 15px;
+
 }
 
 
@@ -377,6 +379,10 @@ img{
     margin-top: 94px;
     height: 141px;
   }
+
+  .column {
+  margin-top: 20px;
+}
 }
 
 @media (min-width: 1900px) {
@@ -498,4 +504,8 @@ img{
     margin-top: 112px;
     height: 167px;
   }
+
+  .column {
+  margin-top: 25px;
+}
 }

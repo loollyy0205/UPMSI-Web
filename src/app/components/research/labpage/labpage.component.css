@@ -2,6 +2,22 @@
   margin: 0 9%;
 }
 
+ul {
+  margin: 0 1.7%;
+  font-size: 16px;
+  font-family: 'atlas-light';
+}
+
+li {
+  margin-top: 20px;
+  line-height: 1.5;
+  color: #384e8a;
+}
+
+li span {
+  color: #666666;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
@@ -165,6 +181,13 @@ img{
 }
 
 @media (min-width: 1600px) {
+  ul {
+    font-size: 19px;
+  }
+
+  li {
+    margin-top: 23px;
+  }
 
   .right-bottom-logo {
     height: 117px;
@@ -260,6 +283,13 @@ img{
 }
 
 @media (min-width: 1900px) {
+  ul {
+    font-size: 23px;
+  }
+
+  li {
+    margin-top: 27px;
+  }
 
   .right-bottom-logo {
     height: 139px;

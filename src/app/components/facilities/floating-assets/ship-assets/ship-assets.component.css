@@ -133,6 +133,11 @@ mat-expansion-panel{
   margin-top: 15px;
 }
 
+/* edited : added css */;
+.content4 div:nth-child(n+2){
+  margin-top: 15px;
+}
+
 .content3 {
   display: flex;
   flex-direction: column;

@@ -133,7 +133,7 @@ img:hover{
 }
 
 .body-text {
-  width: 570px;
+  width: 800px; /*edited */
 
 }
 @media (min-width: 1600px) {
@@ -196,7 +196,7 @@ img:hover{
   }
 
   .body-text {
-    width: 668px;
+    width: 898px; /*edited */
   }
 }
 
@@ -284,6 +284,6 @@ img:hover{
   }
 
   .body-text {
-    width: 793px;
+    width: 1025px; /*edited */
   }
 }

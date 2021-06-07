@@ -126,6 +126,11 @@ mat-expansion-panel{
   margin-top: 100px;
 }
 
+/* edited:  added css */;
+.where-next:hover{
+  text-decoration: underline;
+}
+
 .arrow {
   margin-left: 8px;
 }

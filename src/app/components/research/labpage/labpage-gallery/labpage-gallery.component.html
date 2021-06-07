@@ -1,6 +1,6 @@
 <p class="atlas-blackReg title">Gallery</p>
 
-<div style="height: 15vw;">
+<div class="img-container">
   <carousel
   [height]="'100%'"
   [margin]="20"
@@ -33,7 +33,7 @@
     <p class="atlas-blackReg title-profile">Principal Investigator</p>
 
     <p class="atlas-bold profile-subtitle">{{myArr[0].piName}}</p>
-    <p class="atlas-bold profile-subtitle" *ngIf="mmblbool">{{myArr[0].degree}}</p>
+    <p class="atlas-bold profile-subtitle" *ngIf="myArr[0].degree">{{myArr[0].degree}}</p>
 
     <p class="atlas-light profile-content">
       {{myArr[0].aboutPi}}

@@ -77,6 +77,7 @@
   background-image: url(https://dc606.4shared.com/img/G49kpky4iq/s24/179ace878b8/04-floating-assets?async&rand=0.17464771452013794);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: -70px; /* edited : added css */
 }
 
 .hr-line{
@@ -221,6 +222,7 @@
   .content3{
     height: 580px;
     margin-top: 60px;
+    margin-bottom: -60px; /* edited : added css */
   }
 
   .header-content3{
@@ -303,6 +305,7 @@
   .content3{
     height: 660px;
     margin-top: 70px;
+    margin-bottom: -50px; /* edited : added css */
   }
 
   .header-content3{

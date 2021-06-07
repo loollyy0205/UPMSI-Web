@@ -27,7 +27,7 @@ img{
 
 .header{
   color: #394e8a;
-  text-decoration: underline;
+  /*text-decoration: underline; edited: pls remove underline css */
   margin-top: 15px;
   cursor: pointer;
 

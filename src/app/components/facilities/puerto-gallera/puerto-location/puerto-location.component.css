@@ -22,12 +22,13 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  transition: transform .5s ease;
+ /*  transition: transform .5s ease; EDITED : PLS REMOVE HOVER */
 }
 
+/* EDITED : PLS REMOVE HOVER
 .bml-complex img:hover{
   transform: scale(1.1);
-}
+}*/
 
 .content-header-contact{
   height: 220px;

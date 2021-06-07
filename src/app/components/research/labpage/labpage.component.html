@@ -16,8 +16,8 @@
 
   <div class="banner">
     <img [src]="myArr[0].photoBanner">
-    <img [src]="myArr[0].bannerLogo" *ngIf="!algaeBool" class="right-bottom-logo"/>
-    <img [src]="myArr[0].bannerLogo2" *ngIf="algaeBool" class="right-bottom-logo2"/>
+    <img [src]="myArr[0].bannerLogo" *ngIf="myArr[0].bannerLogo" class="right-bottom-logo"/>
+    <img [src]="myArr[0].bannerLogo2" *ngIf="myArr[0].bannerLogo2" class="right-bottom-logo2"/>
   </div>
 
   <div class="title atlas-blackReg" style="text-transform: uppercase;">
@@ -27,8 +27,56 @@
   <p class="atlas-light banner-content">
     {{myArr[0].content}}
   </p>
+  <p class="atlas-light banner-content">
+    {{myArr[0].content1}}
+  </p>
 
-  <span class="visit">VISIT OUR FULL SITE</span>
+  <ul *ngIf="CoREbool">
+    <li>
+      <span>
+        Influence of vital population processes of corals (recruitment, post-settlement mortality, growth, partial mortality and colony mortality) on reef state variables
+      </span>
+    </li>
+
+    <li>
+      <span>
+        Coral restoration and restocking of giant clams
+      </span>
+    </li>
+
+    <li>
+      <span>
+        Coral and giant clam reproduction and larval rearing
+      </span>
+    </li>
+
+    <li>
+      <span>
+        Relative impacts between small (e.g., competition) and large scale (e.g., environmental conditions) factors on reef communities
+      </span>
+    </li>
+
+    <li>
+      <span>
+        Reef fish and habitat associations
+      </span>
+    </li>
+
+    <li>
+      <span>
+        Decadal patterns of reef fish and coral recruitment
+      </span>
+    </li>
+
+    <li>
+      <span>
+        Interaction between corals and other biota (sponge, soft coral, macroalgae)
+      </span>
+    </li>
+
+  </ul>
+
+  <a [href]="myArr[0].site" target="_blank"><span class="visit">VISIT OUR FULL SITE</span></a>
 
   <!--  -->
   <app-labpage-gallery></app-labpage-gallery>

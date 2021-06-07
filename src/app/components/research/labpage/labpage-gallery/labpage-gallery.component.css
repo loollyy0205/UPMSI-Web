@@ -61,6 +61,10 @@ img{
   object-fit: cover;
 }
 
+carousel {
+  height: 14vw;
+}
+
 .image {
   position: relative;
   width: 100%;
