@@ -109,7 +109,7 @@ export class LabpageComponent implements OnInit {
   oasis = [
     {viewing: 'Organic and Stable Isotope (OASIS) Geochemistry Laboratory',
     photoBanner: 'https://dc570.4shared.com/img/t2yJQXSUiq/s24/179e6ce3400/01-jaraula-banner?async&rand=0.3862118150040157',
-    bannerLogo: 'https://dc570.4shared.com/img/CTXV37_riq/s24/179e6ce43a0/OASIS_Logo_B_W?async&rand=0.7078141780478917',
+    bannerLogo: 'https://dc551.4shared.com/img/vykwcEP0iq/s24/179e6ce4788/OASIS_Logo_Colored?async&rand=0.23456468558906995',
     title: 'Organic and Stable Isotope (OASIS) Geochemistry Laboratory',
     content: 'The Organic and Stable Isotope Geochemistry Laboratory (OASIS Geochem lab) of the UP Marine Science Institute was established and headed by Dr. Caroline Marie B. Jaraula in January 4, 2016. OASIS is currently focused on characterizing persistent organic pollutants; tracking their distribution, behavior, and interactions in coastal systems and how they change across physico-chemical gradients. These pollutants include antibiotics, pesticides, plasticizers, flame retardants, etc. The lab also does work on finding mangrove, microbe, and mariculture biomarkers and elemental proxies, only to name a few, but generally geochemically characterizing the environment, present and/or past. The lab is equipped to isolate, quantify, and identify organic matter and lipids from living organisms, sediments, as well as water and fossil fuel; and serves as research grounds for interested high school, undergraduate, and graduate students, as well as postdoctoral researchers.',
     labHighBanner: 'https://dc570.4shared.com/img/iIBQJG-Cea/s24/179e6c07c48/pacuta?async&rand=0.13177488539106985',

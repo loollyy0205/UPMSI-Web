@@ -24,7 +24,7 @@
         <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState = true"
             (closed)="panelOpenState = false">
           <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState ? '#394e8a' : '#5ca361'">
-          <mat-panel-title class="atlas-light panel-title">RESEARCH PROJECTS <span *ngIf="panelOpenState"> &nbsp;&nbsp;-&nbsp;&nbsp; PROGRAM TITLE&nbsp;&nbsp; |&nbsp;&nbsp; PROJECT LEADER&nbsp;&nbsp; |&nbsp;&nbsp; FUNDING AGENCY&nbsp;&nbsp; |&nbsp;&nbsp; DURATION</span></mat-panel-title>
+          <mat-panel-title class="atlas-light panel-title">RESEARCH PROJECTS <span class="font-14" *ngIf="panelOpenState"> &nbsp;&nbsp;-&nbsp;&nbsp; PROGRAM TITLE&nbsp;&nbsp; |&nbsp;&nbsp; PROJECT LEADER&nbsp;&nbsp; |&nbsp;&nbsp; FUNDING AGENCY&nbsp;&nbsp; |&nbsp;&nbsp; DURATION</span></mat-panel-title>
           </mat-expansion-panel-header>
           <div class="regular-content">
             <div class="dd-content" *ngFor="let item of researchProj">
@@ -42,7 +42,7 @@
           </div>
         </mat-expansion-panel>
 
-        <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState1 = true"
+        <mat-expansion-panel (click)="scrollUp($event)" id="panel-2" class="mat-elevation-z0 grad-offering" (opened)="panelOpenState1 = true"
             (closed)="panelOpenState1 = false">
           <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState1 ? '#394e8a' : '#5ca361'">
           <mat-panel-title class="atlas-light panel-title">RESEARCH PROGRAMS <span *ngIf="panelOpenState1"> &nbsp;&nbsp;-&nbsp;&nbsp; PROGRAM TITLE&nbsp;&nbsp; |&nbsp;&nbsp; PROJECT LEADER&nbsp;&nbsp; |&nbsp;&nbsp; FUNDING AGENCY&nbsp;&nbsp; |&nbsp;&nbsp; DURATION</span></mat-panel-title>

@@ -165,6 +165,10 @@ mat-expansion-panel{
   font-size: 14px; /*edited*/
 }
 
+.font-14 {
+  font-size: 14px;
+}
+
 mat-expansion-panel{
   border-color: white;
   background-color: #fafafa;
@@ -316,7 +320,11 @@ mat-expansion-panel{
 
   .panel-title{
     padding: 18px 0;
-    font-size: 19px;
+    font-size: 16px;
+  }
+
+  .font-14 {
+    font-size: 16px;
   }
 
   .specific-class{
@@ -437,7 +445,11 @@ mat-expansion-panel{
 
   .panel-title{
     padding: 21px 0;
-    font-size: 23px;
+    font-size: 19px;
+  }
+
+  .font-14 {
+    font-size: 19px;
   }
 
   .specific-class{

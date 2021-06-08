@@ -46,6 +46,17 @@ export class CoursesComponent implements OnInit {
   panelOpenState30:boolean =false;
   constructor() { }
 
+  scrollUp(event){
+    setTimeout(() => {
+      this.scroll(event.path[3].attributes[1].nodeValue);
+    }, 400);
+  }
+
+  scroll(id) {
+    let el = document.getElementById(id);
+    el.scrollIntoView(true);
+  }
+
   ngOnInit(): void {
   }
 

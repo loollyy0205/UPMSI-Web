@@ -13,7 +13,7 @@ import { HostListener } from '@angular/core';
 export class GalleryComponent implements OnInit {
 
   photos1 = [
-    {image: 'https://dc570.4shared.com/img/XPQogKHvea/s24/179d2e2de50/3rd_International_Seagrass_Bio?async&rand=0.45158033488609695'},
+    {image: 'https://dc570.4shared.com/img/XPQogKHvea/s24/179d2e2de50/3rd_International_Seagrass_Bio?async&rand=0.3294141930469454'},
     {image: 'https://dc570.4shared.com/img/xuSSHezCiq/s24/179d2e2e238/6th_Regional_Management_Commit?async&rand=0.6858609090016048'},
     {image: 'https://dc585.4shared.com/img/4oEMkEm3ea/s24/179b16346c0/20140816_112825?async&rand=0.8779633082457658'},
     {image: 'https://dc731.4shared.com/img/z1JiJdvniq/s24/179b1634e90/20140816_134550?async&rand=0.8907813453830489'},
@@ -392,7 +392,8 @@ export class GalleryComponent implements OnInit {
       width: 'auto',
       data: {
         imgSrc: imgSrc, i
-      }
+      },
+      backdropClass: 'backdropBackground'
     });
   }
 

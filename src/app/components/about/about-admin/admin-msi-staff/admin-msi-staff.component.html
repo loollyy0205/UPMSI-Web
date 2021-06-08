@@ -678,7 +678,7 @@
       </mat-accordion>
     </mat-expansion-panel>
 
-    <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState22 = true"
+    <mat-expansion-panel (click)="scrollUp($event)" id="panel-4" class="mat-elevation-z0 grad-offering" (opened)="panelOpenState22 = true"
         (closed)="panelOpenState22 = false">
       <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState22 ? '#394e8a' : '#5ca361'">
       <mat-panel-title class="atlas-light panel-title">DRIVERS</mat-panel-title>

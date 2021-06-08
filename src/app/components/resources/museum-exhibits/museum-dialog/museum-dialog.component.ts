@@ -1,5 +1,5 @@
 import { MuseumExhibitsComponent } from './../museum-exhibits.component';
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, HostListener, Inject, OnInit } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 @Component({
@@ -15,6 +15,19 @@ export class MuseumDialogComponent implements OnInit {
 
   constructor(public dialogRef: MatDialogRef<MuseumExhibitsComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any) { }
+
+    @HostListener('document:keydown', ['$event'])
+    handleKeyboardEvent(event: KeyboardEvent) {
+        if(event.key == 'ArrowRight') {
+          if(this.imgIndex < this.lastIndex) {
+            this.next();
+          }
+        }else if(event.key == 'ArrowLeft') {
+          if(this.imgIndex > 0){
+            this.previous();
+          }
+        }
+      }
 
   ngOnInit(): void {
     this.imgIndex = this.data.i;

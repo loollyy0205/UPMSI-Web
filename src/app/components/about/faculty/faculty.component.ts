@@ -65,6 +65,17 @@ export class FacultyComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  scrollUp(event){
+    setTimeout(() => {
+      this.scroll(event.path[3].attributes[1].nodeValue);
+    }, 200);
+  }
+
+  scroll(id) {
+    let el = document.getElementById(id);
+    el.scrollIntoView(true);
+  }
+
   gotoAdmin(){
     this.router.navigate(['/About/admin']);
   }

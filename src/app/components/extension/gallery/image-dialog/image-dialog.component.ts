@@ -1,7 +1,12 @@
 import { GalleryComponent } from './../gallery.component';
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, HostListener  } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { RIGHT_ARROW, LEFT_ARROW } from '@angular/cdk/keycodes';
+// import { RIGHT_ARROW, LEFT_ARROW } from '@angular/cdk/keycodes';
+
+export enum KEY_CODE {
+  RIGHT_ARROW = 39,
+  LEFT_ARROW = 37
+}
 
 @Component({
   selector: 'app-image-dialog',
@@ -16,6 +21,19 @@ export class ImageDialogComponent implements OnInit {
 
   constructor(public dialogRef: MatDialogRef<GalleryComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any) { }
+
+    @HostListener('document:keydown', ['$event'])
+  handleKeyboardEvent(event: KeyboardEvent) {
+      if(event.key == 'ArrowRight') {
+        if(this.imgIndex < this.lastIndex) {
+          this.next();
+        }
+      }else if(event.key == 'ArrowLeft') {
+        if(this.imgIndex > 0){
+          this.previous();
+        }
+      }
+    }
 
   ngOnInit(): void {
     this.imgIndex = this.data.i;

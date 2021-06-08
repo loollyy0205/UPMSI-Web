@@ -20,6 +20,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+.backdropBackground {
+  background-color: black;
+  opacity: 0.8 !important;
+}
 .mat-dialog-container {
   padding: 0px !important;
 }

@@ -13,7 +13,7 @@ export class ImagesTabComponent implements OnInit {
   photos1 = [
   {name: 'Ed Gomez Through the Years'}, {content: 'From the early days of the Marine Science Center to the documentation of fieldwork projects, see Dr. Eduardo Gomez, his life’s work, and the impact he has left on the institution.'},
   {gallery: [
-    {image: 'https://dc731.4shared.com/img/s12dt0tzea/s24/179b1635278/3rd_International_Seagrass_Bio?async&rand=0.4108470746739301'},
+    {image: 'https://dc570.4shared.com/img/XPQogKHvea/s24/179d2e2de50/3rd_International_Seagrass_Bio?async&rand=0.3294141930469454'},
     {image: 'https://dc585.4shared.com/img/IZDIcEl1iq/s24/179b1635660/6th_Regional_Management_Commit?async&rand=0.507560131422292'},
     {image: 'https://dc585.4shared.com/img/4oEMkEm3ea/s24/179b16346c0/20140816_112825?async&rand=0.8779633082457658'},
     {image: 'https://dc731.4shared.com/img/z1JiJdvniq/s24/179b1634e90/20140816_134550?async&rand=0.8907813453830489'},
@@ -424,7 +424,8 @@ export class ImagesTabComponent implements OnInit {
       width: 'auto',
       data: {
         imgSrc: imgSrc, i
-      }
+      },
+      backdropClass: 'backdropBackground'
     });
   }
 

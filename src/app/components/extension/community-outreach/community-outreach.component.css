@@ -7,7 +7,6 @@ img{
   height: 100%;
   width: 100%;
   object-fit: cover;
-  cursor: pointer;
 }
 
 .img-container{
@@ -48,8 +47,6 @@ img{
 .header{
   /*color: #394e8a;*/
   color: #5da563;
-  cursor: pointer;
-  cursor: pointer;
 }
 
 .subtitle{
@@ -95,7 +92,6 @@ img{
   height: 120px;
   justify-content: flex-end;
   align-items: center;
-  cursor: pointer;
 }
 
 @media (min-width: 1466px){
