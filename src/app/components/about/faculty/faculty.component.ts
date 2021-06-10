@@ -24,7 +24,11 @@ export class FacultyComponent implements OnInit {
     {name: 'Rachel June Ravago-Gotanco, Ph.D.', label1: 'Associate Professor', label2: 'Deputy Director for Instruction'},
     {name: 'Gil S. Jacinto, Ph.D.', label1: 'Professor - Retired'},
     {name: 'Caroline Marie B. Jaraula, Ph.D.', label1: 'Assistant Professor'},
-    {name: 'Arturo O. Lluisma, Ph.D.', label1: 'Research Professor', label2: 'Program Directory', label3: 'Bioinformatics Program and Core Facility', label4: 'Philippine Genome Center'},
+    {name: 'Arturo O. Lluisma, Ph.D.', label1: 'Research Professor', label2: 'Program Director', label3: 'Bioinformatics Program and Core Facility',
+    /**
+    edited: label2
+    */
+    label4: 'Philippine Genome Center'},
     {name: 'Marie Antonette Juinio-Meñez, Ph.D.', label1: 'Professor', label2: 'NAST Academician '},
     {name: 'Deo Florence L. Onda, Ph.D.', label1: 'Associate Professor', label2: 'Deputy Director for Research'},
   ];
@@ -36,12 +40,18 @@ export class FacultyComponent implements OnInit {
     {name: 'Irene B. Rodriguez, Ph.D.', label1: 'Associate Professor'},
     {name: 'Maria Vanessa B. Rodriguez, Ph.D.', label1: 'Assistant Professor'},
     {name: 'Michael Y. Roleda, Ph.D.', label1: 'Professor, Deputy Director for Facilities and Resources'},
-    {name: 'Wilfred John E. Santiañez, Ph.D.', label1: 'Assistant Professor'},
+    {name: 'Wilfred John E. Santiañez, Ph.D.', label1: 'Assistant Professor', label2: 'Collections Manager, G.T. Velasquez Phycological Herbarium (MSI)'}, /**
+    edited : added label2 for wilfred
+    */
+
     {name: 'Fernando P. Siringan, Ph.D.', label1: 'Professor', label2: 'NAST Academician '},
     {name: 'Cesar L. Villanoy, Ph.D.', label1: 'Professor', label2: 'NAST Academician'},
     {name: 'Maria Helena T. Yap, Ph.D.', label1: 'Professor'},
     {name: 'Aletta T. Yñiguez, Ph.D.', label1: 'Associate Professor'},
-    {name: 'Eizadora T. Yu, Ph.D.', label1: 'Professor '},
+    {name: 'Eizadora T. Yu, Ph.D.', label1: 'Professor', label2: 'Associate Dean for Mentoring, Academic Progress and Advancement (ADMAPA), College of Science'}, /**
+    edited: added label2 for eiazadora
+    */
+
   ];
 
   nationalScientist = [
@@ -75,6 +85,7 @@ export class FacultyComponent implements OnInit {
     let el = document.getElementById(id);
     el.scrollIntoView(true);
   }
+
 
   gotoAdmin(){
     this.router.navigate(['/About/admin']);

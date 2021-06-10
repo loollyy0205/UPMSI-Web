@@ -7,6 +7,7 @@
   display: flex;
   margin-top: 24px;
   flex-direction: row;
+  margin-right: 30px; /* edited */
 }
 
 .title-profile {
@@ -61,10 +62,6 @@ img{
   object-fit: cover;
 }
 
-carousel {
-  height: 14vw;
-}
-
 .image {
   position: relative;
   width: 100%;
@@ -73,6 +70,7 @@ carousel {
 .image__img {
   display: block;
   width: 100%;
+  cursor: pointer; /* edited */
 }
 
 .image__overlay {
@@ -124,6 +122,7 @@ carousel {
   .profile{
     height: 351px;
     margin-top: 28px;
+    margin-right: 35px; /* edited */
   }
 
   .title-profile {
@@ -166,6 +165,7 @@ carousel {
   .profile{
     height: 417px;
     margin-top: 33px;
+    margin-right: 40px; /* edited */
   }
 
   .title-profile {

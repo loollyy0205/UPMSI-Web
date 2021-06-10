@@ -3,9 +3,6 @@
   margin-top: 20px;
 }
 
-a {
-  text-decoration: none;
-}
 .content-header{
   height: 297px;
   position: relative;
@@ -25,7 +22,7 @@ img{
 .left-content{
   position: absolute;
   z-index: 1;
-  bottom: 8px;
+  top: 5px; /*edited */
   width: 724px;
   height: 100%;
   display: flex;

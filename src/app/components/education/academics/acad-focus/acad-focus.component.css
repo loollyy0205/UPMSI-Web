@@ -62,14 +62,6 @@ img {
   overflow: hidden;
 }
 
-.box-card-content {
-  height: 100%;
-  width: 100%;
-  overflow-y: scroll;
-  padding-right: 1000px; /* Increase/decrease this value for cross-browser compatibility */
-  box-sizing: content-box; /* So the width will be 100% + 17px */
-  overflow-x: hidden;
-}
 
 .bottom-header {
   margin-top: 19px;

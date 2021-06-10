@@ -50,7 +50,11 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Horigue, V., Aliño, P.M., White, A.T. and Pressey, R.L. (2012). Marine protected area networks in the Philippines: trends and challenges for establishment and governance. Ocean & Coastal Management Vol. 64, pp. 15-26.'},
       {publi: 'Villanoy,C., David, L., Cabrera, O., Atrigenio, M., Siringan, F., Aliño, P. and Villaluz, M. (2012). Coral reef ecosystems protect shore from high-energy waves under climate change scenarios. Climate Change Vol. 112 (2), pp. 493-505.'},
     ]},
-    {image: 'https://dc697.4shared.com/img/zLgZs-04ea/s24/179c13e9e28/02-Michael_P_Atrigenio?async&rand=0.573086578215513', name: 'Michael P. Atrigenio, Ph.D.', title1: 'Associate Professor',  badge: 'Academician of the National Academy of Science and Technology (NAST)'},
+    {image: 'https://dc697.4shared.com/img/zLgZs-04ea/s24/179c13e9e28/02-Michael_P_Atrigenio?async&rand=0.573086578215513', name: 'Michael P. Atrigenio, Ph.D.', title1: 'Associate Professor',},
+    /**
+    edited: removed  badge: 'Academician of the National Academy of Science and Technology (NAST)'
+    */
+
     {image: 'https://dc697.4shared.com/img/ZlGjRKkFiq/s24/179c13ea5f8/03-Patrick_C_Cabaitan_PhD?async&rand=0.9425446660349646', name: 'Patrick C. Cabaitan, Ph.D.', title1: 'Associate Professor', education1: 'Ph.D. Marine Science', education2: 'University of the Ryukus, Japan', RI: 'Community Ecology, Restoration Ecology, Giant Clam Conservation',
     publication: [
       {publi: 'Tabalanza TD, Jamodiong EA, Diaz LA, Tañedo MCS, Leriorato JC, Villanueva RD, Cabaitan PC. 2020. Successfully cultured and reared coral embryos from wild caught spawn slick in the Philippines. Aquaculture, 525: 734354'},
@@ -125,7 +129,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Karginov FV, Conaco C, Xuan Z, Schmidt BH, Parker JS, Mandel G, Hannon GJ. 2007. A biochemical approach to identifying microRNA targets. Proc. Natl. Acad. Sci. USA. 104(49): 19291-19296.'},
       {publi: 'Otto SJ, McCorkle SR, Hover J, Conaco C, Han JJ, Impey S, Yochum GS, Dunn JJ, Goodman RH, Mandel G. 2007. A new binding motif for the transcriptional repressor REST uncovers large gene networks devoted to neuronal functions. J Neurosci. 27(25):6729-39.'},
     ]},
-    {image: 'https://dc570.4shared.com/img/TJhRtD-Oiq/s24/179e736dcf8/05-Laura_T_David_copy?async&rand=0.5265130685222941', name: 'Laura T. David, Ph.D.', title1: 'Professor', badge: 'Marine Science Institute Director', education1: 'Ph.D. Physical Oceanography', education2: 'University of South Carolina, U.S.A.', RI: 'Coastal Oceanography, remote sensing of coastal and marine environment, ocean energy, coastal ecosystems and climate change, climate change adaptation and disaster risk reduction management, science communication on biodiversity, interconnectivity and climate resilience.',
+    {image: 'https://dc697.4shared.com/img/KIGyXuUGea/s24/179c13eb1b0/05-Laura_T_David?async&rand=0.155880758891626', name: 'Laura T. David, Ph.D.', title1: 'Professor', badge: 'Marine Science Institute Director', education1: 'Ph.D. Physical Oceanography', education2: 'University of South Carolina, U.S.A.', RI: 'Coastal Oceanography, remote sensing of coastal and marine environment, ocean energy, coastal ecosystems and climate change, climate change adaptation and disaster risk reduction management, science communication on biodiversity, interconnectivity and climate resilience.',
     publication: [
       {publi: 'Yñiguez AT,  Maister J, Villanoy CL, Deauna JD, Peñaflor E, Almo A, David LT, Benico GA, Hibay E, Mora I, Arcamo S, Relox J, Azanza RV. "Insights into the dynamics of harmful algal blooms in a tropical estuary through an integrated hydrodynamic-Pyrodinium-shellfish model" Harmful Algae 80:1-14.2018.'},
       {publi: 'Naval PCJ, David LT.  "FishDrop: Estimation of reef fish population density and biomass using stereo cameras" In Techno-Ocean 2016: Return to the Oceans (pp. 527–531).2017.'},
@@ -155,7 +159,11 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Ravago-Gotanco R, Juinio-Meñez MA (2003) Phylogenetic position of the striped-legged forms of Panulirus longipes (A. Milne-Edwards, 1868) (Decapoda, Palinuridae) inferred from mitochondrial DNA sequences. Crustaceana 75: 1047-1059.'},
       {publi: 'Juinio-Meñez MA, Magsino RM, Ravago-Gotanco R, Yu ET (2003) Genetic structure of Linckia laevigata and Tridacna crocea populations in the Palawan shelf and shoal reefs. Marine Biology 142: 717-726.'},
     ]},
-    {image: 'https://dc570.4shared.com/img/VY67hQY1ea/s24/179e736e8b0/08-Gil_Jacinto?async&rand=0.12576866976321144', name: 'Gil S. Jacinto, Ph.D.', title1: 'Professor', education1: 'Ph.D. Marine Chemistry', education2: 'University of Liverpool, U.K.', RI: 'Seawater and sediment geochemistry; eutrophication and hypoxia',
+    {image: 'https://dc697.4shared.com/img/iJYnpPlOea/s24/179c13ecd08/08-Gil_Jacinto?async&rand=0.8022240281154525', name: 'Gil S. Jacinto, Ph.D.', title1: 'Professor - Retired', education1: 'Ph.D. Marine Chemistry', education2: 'University of Liverpool, U.K.', RI: 'Seawater and sediment geochemistry; eutrophication and hypoxia',
+    /**
+    edited:  Professor - Retired
+    */
+
     publication: [
       {publi: 'Gajigan AP, Yñiguez AT, Villanoy CL, San ML, Jacinto, GS, Conaco C. (2018) Diversity and community structure of marine microbes around the Benham Rise underwater plateau, Northeastern Philippines (#22613 ) Structure and. Peer J 1–17.'},
       {publi: 'Ferrera C, Jacinto GS, Chen, CTA, Lui HK. (2018) Organic Carbon Concentrations in High- and Low-Productivity Areas of the Sulu Sea. Sustainability 10(6):1867. '},
@@ -184,7 +192,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'van den Berg, C.M.G. & Jacinto, G.S. (1988). The determination of platinum in sea water using adsorptive cathodic stripping voltammetry. Anal.Chim.Acta, 211, 129-139.'},
       {publi: `Chester, R., Thomas, A., Lin, F., Bashram, A., & Jacinto, G.S. (1988). The solid state speciation of copper in surface water particulates and ocean sediments: 'fingerprinting' the global carbon flux. Mar. Chem., 24, 261-292.`},
     ]},
-    {image: 'https://dc570.4shared.com/img/w2-Pilogiq/s24/179e736ec98/09-Caroline_Marie_B_Jaraula_Ph?async&rand=0.5966924718730575', name: 'Caroline Marie B. Jaraula, Ph.D.', title1: 'Assistant Professor', education1: 'Ph.D. Earth and Environmental Sciences', education2: 'University of Illinois at Chicago, United States of America', RI: 'Environmental biogeochemistry, climate studies, environmental forensics biogeochemistry, organic pollutants, stable isotopes in biogeochemistry',
+    {image: 'https://dc697.4shared.com/img/hMu2WXvWea/s24/179c13ed0f0/09-Caroline_Marie_B_Jaraula_Ph?async&rand=0.7800318056319917', name: 'Caroline Marie B. Jaraula, Ph.D.', title1: 'Assistant Professor', education1: 'Ph.D. Earth and Environmental Sciences', education2: 'University of Illinois at Chicago, United States of America', RI: 'Environmental biogeochemistry, climate studies, environmental forensics biogeochemistry, organic pollutants, stable isotopes in biogeochemistry',
     publication: [
       {publi: 'Roleda M, Jaraula C, Rodolfo R, San Diego-McGlone ML, Cardenas M, Siringan FP. 2017. The tough and tenacious: thriving in natural analogues of warmer and acidic tropical marine waters. Phycologia, 56(4 (Supplement S)), 160–161.'},
       {publi: 'Jaraula CMB, Schwark L, Moreau X, Pickel W, Bagas L, Grice K, 2015. Radiolytic alteration of biopolymers in the Mulga Rock (Australia) uranium district. Applied Geochemistry 52, 97-108.'},
@@ -199,7 +207,11 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Jaraula CMB, Kenig F, Doran PT, Priscu JC, Welch KA, 2008. SPME-GCMS study of the natural attenuation of aviation diesel on the perennial ice cover of Lake Fryxell, Antarctica. Science of the Total Environment 407, 1, 250-262. DOI:10.1016/j.scitotnv.2008.07.064.'},
       {publi: 'Ong JB, Aguda N, Jaraula CMB, Mateo ZRP, Pascua C, Foronda J, 2000. Tidal Effects on Groundwater in a very small tropical island, Science Diliman, Philippines.'},
     ]},
-    {image: 'https://dc697.4shared.com/img/g-yU2YZbea/s24/179c13ed4d8/10-Arturo_O_Lluisma_PhD?async&rand=0.8320257505711277', name: 'Arturo O. Lluisma, Ph.D.', title1: 'Research Associate Professor ', education1: 'Ph.D. Biology ', education2: 'Dalhousie University, Canada ', RI: 'Marine genomics, molecular genetics, and bioinformatics; phylogenetics and genetic diversity; algal and microbial biotechnology',
+    {image: 'https://dc697.4shared.com/img/g-yU2YZbea/s24/179c13ed4d8/10-Arturo_O_Lluisma_PhD?async&rand=0.8320257505711277', name: 'Arturo O. Lluisma, Ph.D.', title1: 'Research Associate Professor ', badge: 'Program Directory', badge2:'Bioinformatics Program and Core Facility Philippine Genome Center', education1: 'Ph.D. Biology ', education2: 'Dalhousie University, Canada ', RI: 'Marine genomics, molecular genetics, and bioinformatics; phylogenetics and genetic diversity; algal and microbial biotechnology',
+/**
+edited the badges
+*/
+
     publication: [
       {publi: 'Mendoza CB, Masacupan DJM, Batoctoy DCR, Yu ET, Lluisma AO, Salvador‐Reyes LA. (2019). Conomarphins cause paralysis in mollusk: Critical and tunable structural elements for bioactivity. J Pept Sci., 25(7):e3179.'},
       {publi: 'Orosco FL, Lluisma AO (2018) Genetic diversity of Penaeus monodon (Fabricius, 1798) in the Philippines as revealed by mitochondrial Cytochrome Oxidase I (COI). Philipp Agric Sci 101(1):84–92.'},
@@ -246,7 +258,11 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Dawes CJ, Trono Jr. GC, Lluisma AO (1992) Culture of Eucheuma denticulatum and Kappaphycus alvarezii. Proc. 2nd RP-USA Phycology Symposium/Workshop, 6-18 January 1992, Philippines, pp. 339-343 '},
       {publi: 'Trono Jr. GC, Lluisma AO (1990) Seasonality of standing crop of a Sargassum (Fucales, Phaeophyta) bed in Bolinao, Pangasinan, Philippines. Hydrobiologia 204/205: 331-338. '},
     ]},
-    {image: 'https://dc373.4shared.com/img/OCFnEG7Bea/s24/179c13ed8c0/11-Marie_Antonette_J_Meez_PhD?async&rand=0.4213947619701257', name: 'Marie Antonette Juinio-Meñez, Ph.D.', title1: 'Professor', education1: 'Ph.D. Biological Sciences ', education2: 'University of Rhode Island, U.S.A.', RI: 'Invertebrate Ecology and Culture, Coastal Resources Management',
+    {image: 'https://dc373.4shared.com/img/OCFnEG7Bea/s24/179c13ed8c0/11-Marie_Antonette_J_Meez_PhD?async&rand=0.4213947619701257', name: 'Marie Antonette Juinio-Meñez, Ph.D.', title1: 'Professor', badge: 'NAST Academician', education1: 'Ph.D. Biological Sciences ', education2: 'University of Rhode Island, U.S.A.', RI: 'Invertebrate Ecology and Culture, Coastal Resources Management',
+    /**
+    edited: added badge: Nast Academician
+    */
+
     publication: [
       {publi: 'Sinsona MJ, Juinio-Meñez MA. 2019. Periphyton characteristics influence the growth and survival of Holothuria scabra early juveniles in an ocean nursery system. Aquac. Res., 50(9):2655-2665.'},
       {publi: 'Gorospe JRC, Junio-Meñez MA, Southgate PC. 2019. Effects of shading on periphyton characteristics and performance of sandfish, Holothuria scabra Jaeger 1833, juveniles. Aquaculture 512:734307. DOI: 10.1016/j.aquaculture.2019.734307.'},
@@ -379,7 +395,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Pante, M.J.R., and J.M. Macaranas. 1989. Genetic characterization of cultured Philippine tilapia stocks, In: PCAMRD, ICLARM, Tilapia Genetics and Culture, Freshwater Aquaculture Center, Central Luzon State University, Muñoz, Nueva Ecija, June 20-22, 1985, Philippine Council for Aquatic and Marine Research and Development, Los Baños, Laguna, International Centre for Living Aquatic Resources Management Center, Manila, Philippines, 1989 62p.(Book Series No. 01/1989).'},
     ]},
     {image: 'https://dc697.4shared.com/img/WLo2pSfyiq/s24/179c13ee478/14-Charina_Lyn_A_Repollo?async&rand=0.13632529792003845', name: 'Charina Lyn A. Repollo, Ph.D.', title1: 'Assistant Professor'},
-    {image: 'https://dc570.4shared.com/img/k5VlzNwkea/s24/179e736f080/15-Lilibeth_S_Reyes_PhD_copy?async&rand=0.4583942655803639', name: 'Lilibeth A. Salvador- Reyes, Ph.D.', title1: 'Associate Professor', education1: 'Ph.D. in Pharmaceutical Sciences-Medicinal Chemistry', education2: 'University of Florida', RI: 'Medicinal and Natural Products Chemistry, Biochemistry, Pharmacology',
+    {image: 'https://dc697.4shared.com/img/cVg7r-M4ea/s24/179c13ee860/15-Lilibeth_S_Reyes_PhD?async&rand=0.888438679623653', name: 'Lilibeth A. Salvador- Reyes, Ph.D.', title1: 'Associate Professor', education1: 'Ph.D. in Pharmaceutical Sciences-Medicinal Chemistry', education2: 'University of Florida', RI: 'Medicinal and Natural Products Chemistry, Biochemistry, Pharmacology',
     publication: [
       {publi: 'Olano DEB, Salvador-Reyes LA, Montaño MNE, Azanza RV. 2020. Sorpiton of paralytic shellfish toxins (PSTs) in algal polysaccharide gels. Algal Research 45:101655.'},
       {publi: 'Tun JO, Salvador-Reyes LA, Velarde MC, Saito N, Suwanborirux K, Concepcion GP. (2019). Synergistic cytotoxicity of Renieramycin M and Doxorubicin in MCF-7 breast cancer cells. Marine Drugs, 17(9):536.'},
@@ -531,7 +547,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Marquez, G.P.B., W.J.E. Santiañez, G. C. Trono, Jr., M.N.E. Montaño, H. Araki, H. Takeuchi and T. Hasegawa. 2014. Seaweed biomass of the Philippines: Sustainable feedstock for biogas production. Renewable and Sustainable Energy Reviews 38: 1056–1068.'},
       {publi: 'Santiañez, W.J.E. and G. C. Trono, Jr. 2013. Taxonomy of the genus Sargassum (Fucales, Phaeophyceae) in Alabat Island, Quezon, Northeastern Philippines. Science Diliman 25: 29–50.'},
     ]},
-    {image: 'https://dc570.4shared.com/img/mN8IJA88ea/s24/179e736f468/20-Dr_Siringan_copy?async&rand=0.4818539129395567', name: 'Fernando P. Siringan, Ph.D.', title1: 'Professor', badge: 'Academician of the National Academy of Science and Technology (NAST)', education1: 'Ph.D. in Geology', education2: 'Rice University, U.S.A.', RI: 'Marine and Coastal Geology, Sedimentology, Seismic Stratigraphy',
+    {image: 'https://dc373.4shared.com/img/DU4OVAcaea/s24/179c13f1358/20-Dr_Siringan?async&rand=0.717556423962705', name: 'Fernando P. Siringan, Ph.D.', title1: 'Professor', badge: 'Academician of the National Academy of Science and Technology (NAST)', education1: 'Ph.D. in Geology', education2: 'Rice University, U.S.A.', RI: 'Marine and Coastal Geology, Sedimentology, Seismic Stratigraphy',
     publication: [
       {publi: 'Jackisch D, Yeo B-X, Switzer AD, He S, Cantarero DLM, Siringan FP, Goodkin NF. 2020. Precipitation stable isotopic signatures of tropical cyclones in Metropolitan Manila, Philippines show significant negative isotopic excursions. Earth Syst. Sci. Discuss.'},
       {publi: 'Servonnat M, Kaye R, Siringan FP, Munar J, Yap HT. 2019. Imperatives for conservation in a threatened center of biodiversity. Coast Manage., 47(5):453-472.'},
@@ -651,7 +667,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Anderson, J.B., Siringan, F. P., and Thomas, M.A., 1990, Sequence stratigraphy of the Late Pleistocene-Holocene Trinity/Sabine valley system: relationship to the distribution fo sand bodies within the transgressive systems tract:  in Armentrout, J. (ed.), Sequence stratigraphy as an Exploration Tool, Proceedings from the Gulf Coast Section of the Society of Economic Paleontologists and Mineralogists Eleventh Research Conference, p. 15-20.'},
       {publi: 'Schoell, W.U., Foronda, J.M., Jagolino, O.C., and Siringan, F. P., 1985, Geology and facies of part of the Laguna Formation:  Natural and Applied Science Bulletin, University of the Philippines, Quezon City, v. 37, p. 37-52.'},
     ]},
-    {image: 'https://dc570.4shared.com/img/YxFJpJ8hea/s24/179e736f850/21-Dr_Villanoy_copy?async&rand=0.32022361456210335', name: 'Cesar L. Villanoy, Ph.D.', title1: 'Professor', badge: 'Academician of the National Academy of Science and Technology (NAST)', education1: 'Ph.D. Physical Oceanography', education2: 'University of Sydney, Australia', RI: 'Ocean Modelling and Applications in Ocean Productivity, Habitat Connectivity and Pollution',
+    {image: 'https://dc373.4shared.com/img/OjaqMm8Dea/s24/179c13f1740/21-Dr_Villanoy?async&rand=0.4799385480823122', name: 'Cesar L. Villanoy, Ph.D.', title1: 'Professor', badge: 'Academician of the National Academy of Science and Technology (NAST)', education1: 'Ph.D. Physical Oceanography', education2: 'University of Sydney, Australia', RI: 'Ocean Modelling and Applications in Ocean Productivity, Habitat Connectivity and Pollution',
     publication: [
       {publi: 'Quimpo TJR, Cabaitan PC, Go KTB, Dumalagan EE, Villanoy C, Siringan FP. 2019. Similarity in benthic habitat and fish assemblages in the upper mesophotic and shallow water reefs in the West Philippine Sea. J Mar Biol Assoc U.K., 99(7):1507-1517. '},
       {publi: 'Dumalagan EE Jr., Cabaitan PC, Bridge TCL, Go KT, Quimpo TJR, Olavides RDD, Munar JC, Villanoy CL, Siringan FP. 2019. Spatial variability in benthic assemblage composition in shallow and upper mesophotic coral ecosystems in the Philippines. Marine Environmental Research, 150:104772.'},
@@ -748,7 +764,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Villanoy CL, Juinio MAR, Menez LB, 1988. Mortality rates of giant clams (Family Tridacnidae) from the Sulu Archipelago and southern Palawan, Philippines. Coral Reefs, 7, 1-5.'},
       {publi: 'Juinio MAR, Menez LB, Villanoy C, 1987. Use of giant clam resources in the Philippines. Naga-ICLARM Q. 10, 7-8.'},
     ]},
-    {image: 'https://dc570.4shared.com/img/8Tz61rsXiq/s24/179e736fc38/22-Maria_Helene_Yap?async&rand=0.7593043934343413', name: 'Maria Helena T. Yap, Ph.D.', title1: 'Professor', education1: 'Doctor rerum naturalium ', education2: 'University of Rostock, German Democratic Republic', RI: 'Coral Reef Ecology, Complex Systems',
+    {image: 'https://dc373.4shared.com/img/FNtHDHGRiq/s24/179c13f1b28/22-Maria_Helene_Yap?async&rand=0.34866816745250273', name: 'Maria Helena T. Yap, Ph.D.', title1: 'Professor', education1: 'Doctor rerum naturalium ', education2: 'University of Rostock, German Democratic Republic', RI: 'Coral Reef Ecology, Complex Systems',
     publication: [
       {publi: 'Yap HT. 2019. One-ecosystem analysis for environmental conservation and sustainble livelihood. F1000Research 2019, 8(F1000 Faculty Rev):328.'},
       {publi: 'Servonnat M, Kaye R, Siringan FP, Munar J, Yap HT. 2019. Imperatives for conservation in a threatened center of biodiversity. Coast Manage., 47(5):453-472.'},
@@ -821,7 +837,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Yap, H.T. and E.D. Gomez. (1985) Growth of Acropora pulchra: III. Preliminary observations on the effects of transplantation and sediment on the growth and survival of transplants. Mar. Biol. 87: 203-209. '},
       {publi: 'Wagner, A., D.L.T. YAP and H.T. Yap. (2015) Drivers and consequences of land use patterns in a developing country rural community. Agriculture, Ecosystems and Environment 214: 78-85. '},
     ]},
-    {image: 'https://dc570.4shared.com/img/1o3-nztNea/s24/179e7370020/23-Aletta_T_Yiguez_PhD_copy?async&rand=0.9096217729517688', name: 'Aletta T. Yñiguez, Ph.D.', title1: 'Associate Professor', education1: 'Ph.D. Marine Biology and Fisheries ', education2: 'University of Miami, U.S.A.', RI: 'Marine Ecology, Biological Oceanography, Ecological Modelling, Dynamics of Marine Systems ',
+    {image: 'https://dc697.4shared.com/img/MsNhxgk6ea/s24/179c13f1f10/23-Aletta_T_Yiguez_PhD?async&rand=0.5550287577959601', name: 'Aletta T. Yñiguez, Ph.D.', title1: 'Associate Professor', education1: 'Ph.D. Marine Biology and Fisheries ', education2: 'University of Miami, U.S.A.', RI: 'Marine Ecology, Biological Oceanography, Ecological Modelling, Dynamics of Marine Systems ',
     publication: [
       {publi: 'Yñiguez AT, Lim PT, Leaw CP, Jipanin SJ, Iwataki M, Benico G. 2020. Over 30 years of HABs in the Philippines and Malaysia: What have we learned? Harmful Algae 101776. Article in Pres'},
       {publi: 'Yñiguez AT, Ottong ZJ. 2020. Predicting fish kills and toxic blooms in an intensive mariculture site in the Philippines using a machine learning model. Sci Total Environ, 707:136173.'},
@@ -871,7 +887,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Juinio-Meñez MA, Magsino R, Ravago-Gotanco R, Yu ET. Genetic structure of Linckia laevigata and Tridacna crocea populations in the Palawan shelf and shoal reefs. Marine Biology 2003. 142, 717-726. '},
       {publi: 'Yu ET, Juinio-Meñez MA, Monje VD. Sequence Variation in the Ribosomal DNA Internal Transcribed Spacer of Tridacna crocea. Marine Biotechnology 2000. 2, 511-516.'},
     ]},
-    {image: 'https://dc570.4shared.com/img/9wIE-xRtea/s24/179e7370fc0/25-28-Gomez?async&rand=0.2533190745828944', name: 'Edgardo D. Gomez, Ph.D.', title1: 'National Scientist ', badge: 'Professor Emeritus', badge2: 'Founding Director, UP-MSI', education1: 'Ph.D. Marine Biology', education2: 'Scripps Institution of Oceanography, University of California- San Diego', RI: 'Coral Reef Ecology and Restoration, Conservation of Marine Resources, Reproduction of Marine invertebrates and Culture of Giant Clams',
+    {image: 'https://dc697.4shared.com/img/NnMVfgK1ea/s24/179c13f3298/25-28-Gomez?async&rand=0.4121902510732698', name: 'Edgardo D. Gomez, Ph.D.', title1: 'National Scientist ', badge: 'Professor Emeritus', badge2: 'Founding Director, UP-MSI', education1: 'Ph.D. Marine Biology', education2: 'Scripps Institution of Oceanography, University of California- San Diego', RI: 'Coral Reef Ecology and Restoration, Conservation of Marine Resources, Reproduction of Marine invertebrates and Culture of Giant Clams',
     publication: [
       {publi: 'Neo, Mei Lin & Wabnitz, Colette & D. Braley, Richard & A. Heslinga, Gerald & Fauvelot, Cecile & Van Wynsberge, Simon & Andréfouët, Serge & Waters, Charles & Shau-Hwai Tan, Aileen & D. Gomez, Edgardo & Costello, Mark & Todd, Peter. (2017). Giant clams (Bivalvia: Cardiidae: Tridacninae): A comprehensive update of species and their distribution, current threats and conservation status. Oceanography and Marine Biology: An Annual Review. 55. 87-388.'},
       {publi: 'Cabaitan, P. C., Gomez, E. D., & Yap, H. T. (2016). The spaghetti sponge Callyspongiasamarensis (Wilson, 1925) provides temporary habitat for reef fish recruits. Marine Biodiversity, 541–542.'},
@@ -882,7 +898,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Gomez, E., Cabaitan, P., Yap, H., & Dizon, R. M. (2014). Can coral cover be restored in the absence of natural recruitment and reef recovery? Restoration Ecology, 22(2), 142–150.'},
       {publi: 'Guest, J. R., Baria, M. V, Gomez, E. D., Heyward, A. J., & Edwards, A. J. (2014). Closing the circle: is it feasible to rehabilitate reefs with sexually propagated corals? Coral Reefs, 33(1), 45–55.'},
     ]},
-    {image: 'https://dc570.4shared.com/img/nWMKf1CLiq/s24/179e73713a8/26-30-Cruz?async&rand=0.5971966017473869', name: 'Lourdes J. Cruz, Ph.D.', title1: 'National Scientist', badge: 'Professor Emeritus', education1: 'Ph.D. Biochemistry', education2: 'University of Iowa City, U.S.A.', RI: 'Marine Toxins, Isolation and characterization of peptides from Conus venoms, Biodiversity and drug development, Linking Science and technology to poor rural communities and indigenous tribes',
+    {image: 'https://dc373.4shared.com/img/pzOCOwF-ea/s24/179c13f3680/26-30-Cruz?async&rand=0.6867143831451246', name: 'Lourdes J. Cruz, Ph.D.', title1: 'National Scientist', badge: 'Professor Emeritus', education1: 'Ph.D. Biochemistry', education2: 'University of Iowa City, U.S.A.', RI: 'Marine Toxins, Isolation and characterization of peptides from Conus venoms, Biodiversity and drug development, Linking Science and technology to poor rural communities and indigenous tribes',
     publication: [
       {publi: 'Lam HY, Enriquez MLD, Heralde, FMI, Loquias, MM, Montaño MNE, Agapito JD, Arriola AK, CruzLJ, Sia IC, Cheng KJG, Enriquez CMD, Marohomsalic HN, Yap JRD. 2018. Establishing a blueprint for nature-based products development and conservation for the Philippines. Acta Med Philipp, 52(4), 295–301.'},
       {publi: 'Subong, B. J. J., Benico, G. A., Sulit, A. K. L., Mendoza, C. O., Cruz, L. J., Azanza, R. V., & Jimenez, E. C. (2017). Toxicity and protein expression of alexandrium species collected in the philippine waters. Philippine Journal of Science, 146(4), 425–436.'},
@@ -895,7 +911,11 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'K.G. Bondoc, H. Lee, L.J. Cruz, C.B. Lebrilla, M.A. Juinio-MenezChemical fingerprinting and phylogenetic mapping of saponin congeners from three tropical holothurian sea cucumbers. Comp. Biochem. Physiol. B Biochem. Mol. Biol., 166 (2013), pp. 182-193'},
       {publi: 'Bhatia S, Kil YJ, Ueberheide B, Chait BT, Tayo L, Cruz L, Lu B, Yates JR, Bern M. 2012. Constrained de novo sequencing of conotoxins. J Prot Res11:4191–200.'},
     ]},
-    {image: 'https://dc570.4shared.com/img/94-FhR7fiq/s24/179e7371b78/27-31-Trono?async&rand=0.11330339555839686', name: 'Gavino C. Trono Jr., Ph.D.', title1: 'National Scientist ', badge: 'Professor Emeritus', badge2: 'Founding Director, UP-MSI', education1: 'Ph.D. Marine Botany', education2: 'University of Hawaii, U.S.A.', RI: 'Seaweed Taxonomy, Ecology, Mariculture',
+    {image: 'https://dc373.4shared.com/img/mab_Y83Giq/s24/179c13f3a68/27-31-Trono?async&rand=0.6009647099153799', name: 'Gavino C. Trono Jr., Ph.D.', title1: 'National Scientist ', badge: 'Professor Emeritus', education1: 'Ph.D. Marine Botany', education2: 'University of Hawaii, U.S.A.', RI: 'Seaweed Taxonomy, Ecology, Mariculture',
+    /**
+    edited: removed badge2: 'Founding Director, UP-MSI',
+    */
+
     publication: [
       {publi: 'Ganzon-Fortes, E. T., G. C. Trono, Jr., R. D. Villanueva, J. B. Romero, and M. N. E. Montaño. 2011. Endong, a Rare Variety of the Farmed Carrageenophyte Eucheuma Denticulatum (Burman) Collins & Hervey from the Philippines. J.Appl.Phycol DOI 10.1007/s10811-011-9740-x.'},
       {publi: `De Senerpont Domis, L.N. de, P. Fama, A.J. Bartlett, W.F. Prud'homme van Reine, C.A. Espinosa and G.C. Trono Jr., 2003. Defining taxon boundaries in members of the morphologically and genetically plastic genus Caulerpa (Caulerpales, Chlorophyta). Journal of Phycology 39: 1019-1037.`},
@@ -959,7 +979,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Cremen, M.C.M., M.R. Martinez-Goss, V.L. Corre Jr. and R.V.  Azanza. 2007. Phytoplankton bloom in commercial shrimp ponds using green water technology. Journal of Applied Phycology 19: 615–624.'},
       {publi: 'Gedaria, A.I., B. Luckas, K. Reinhardt and R.V. Azanza. 2007. Growth response and toxin concentration of cultured Pyrodinium bahamense var. compressum to varying salinity and temperature conditions.  Toxicon 50: 518–529'},
     ]},
-    {image: 'https://dc570.4shared.com/img/dkbQRp-oea/s24/179e7371f60/32-Gisela_Concepcion?async&rand=0.044090933474493', name: 'Gisela P. Concepcion, Ph.D.', title1: 'Professor Emeritus', badge: 'Academician of the National Academy of Science and Technology (NAST)', education1: 'Ph.D. Chemistry', education2: 'University of the Philippines, Diliman ', RI: 'Marine Natural Products, Biochemistry, Development of Bioscreening Methods ',
+    {image: 'https://dc373.4shared.com/img/Q_wJrcH4iq/s24/179c13f4238/32-Gisela_Concepcion?async&rand=0.5022568387981372', name: 'Gisela P. Concepcion, Ph.D.', title1: 'Professor Emeritus', badge: 'Academician of the National Academy of Science and Technology (NAST)', education1: 'Ph.D. Chemistry', education2: 'University of the Philippines, Diliman ', RI: 'Marine Natural Products, Biochemistry, Development of Bioscreening Methods ',
     publication: [
       {publi: 'Torres JP, Lin Z, Fenton DS, Leavitt LU, Niu C, Lam P-Y, Robes JM, Pterson RT, Concepcion GP, Haygood MG, Olivera BM, Schmidt EW. 2020. Boholamide A, an APD-Class, Hypoxia-Selective Cyclodepsipeptide. Journal of Natural Products. Article in Press.'},
       {publi: 'Miller BW, Torres JP, Flores MS, FOrteza I, Rosenber G, Haygood MG, Schmidt EW, Concepcion GP. 2020. Synergistic anti-methicillin-resistant Staphylococcus aureus (MRSA) activity and absolute stereochemistry of 7,8-dideoxygriseorhodin C. Journal of Antibiotics. Article in Press'},

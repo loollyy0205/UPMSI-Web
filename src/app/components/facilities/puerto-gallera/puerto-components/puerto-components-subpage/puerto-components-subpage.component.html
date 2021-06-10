@@ -16,15 +16,21 @@
     <div class="box-card-content">
       <div class="card">
 
-        <img src="https://dc585.4shared.com/img/hHe_3pvsea/s24/179ace8f1d0/07-components-research?async&rand=0.5256393509065986" />
+        <img src="https://dc585.4shared.com/img/hHe_3pvsea/s24/179ace8f1d0/07-components-research?async&rand=0.5256393509065986"/>
 
         <div class="right">
           <div>
-            <p class="atlas-bold" style="color: #384e8a;">RESEARCH</p>
+            <p class="card-title atlas-bold" style="color: #384e8a;">RESEARCH</p> <!-- edited: added acrd-title -->
+
             <div class="card-content atlas-light" [ngClass]="{'limitTextHeight': isReadMore}">
-              <p *ngIf="isReadMore">{{ "Puerto Galera is a prime spot for research for biodiversity and a variety of terrestrial and aquatic ecosystems, as well as conservation and management initiatives. It is also nearby to indigenous cultures. Long‐term monitoring program is established that enables better understanding and management of the health of the ecosystems of Puerto Galera. These monitoring programs are undertaken in upland, lowland and aquatic ecosystems (e.g. rivers, coral reefs, mangrove forests, and seagrass meadows); facilitating a ridge‐to‐reef approach. These would continue and can expand on existing efforts on" | slice:0:405}}...</p>
-              <p *ngIf="!isReadMore">Puerto Galera is a prime spot for research for biodiversity and a variety of terrestrial and aquatic ecosystems, as well as conservation and management initiatives. It is also nearby to indigenous cultures. Long‐term monitoring program is established that enables better understanding and management of the health of the ecosystems of Puerto Galera. These monitoring programs are undertaken in upland, lowland and aquatic ecosystems (e.g. rivers, coral reefs, mangrove forests, and seagrass meadows); facilitating a ridge‐to‐reef approach. These would continue and can expand on existing efforts on monitoring and assessment. Information from this are critical in coming up with effective management plans and determining anthropogenic impacts and management effectiveness.<p>
-              <p *ngIf="!isReadMore" style="margin-top: 2.5%;" class="blackItalic">A Disaster Risk Reduction and Management (DRRM) research program can also be developed there that looks into:</p>
+              <p *ngIf="isReadMore">{{ "Puerto Galera is a prime spot for research for biodiversity and a variety of terrestrial and aquatic ecosystems, as well as conservation and management initiatives. It is also nearby to indigenous cultures. Long‐term monitoring program is established that enables better understanding and management of the health of the ecosystems of Puerto Galera. " | slice:0:348}}...</p>
+              <p *ngIf="!isReadMore">Puerto Galera is a prime spot for research for biodiversity and a variety of terrestrial and aquatic ecosystems, as well as conservation and management initiatives. It is also nearby to indigenous cultures. Long‐term monitoring program is established that enables better understanding and management of the health of the ecosystems of Puerto Galera. <p>
+                 <!-- edited the slice count (348) ^^ -->
+              <p *ngIf="!isReadMore" style="margin-top: 6.5%;">These monitoring programs are undertaken in upland, lowland and aquatic ecosystems (e.g. rivers, coral reefs, mangrove forests, and seagrass meadows); facilitating a ridge‐to‐reef approach. These would continue and can expand on existing efforts on monitoring and assessment. Information from this are critical in coming up with effective management plans and determining anthropogenic impacts and management effectiveness. A Disaster Risk Reduction and Management (DRRM) research program can also be developed there that looks into:</p> <!-- edited: added another <p> -->
+
+              <!--<p *ngIf="!isReadMore" style="margin-top: 2.5%;" class="blackItalic">A Disaster Risk Reduction and Management (DRRM) research program can also be developed there that looks into:</p> edited: remove this <p> -->
+
+
 
               <div *ngIf="!isReadMore">
                 <ul>
@@ -72,7 +78,7 @@
                 </ul>
               </div>
 
-              <p *ngIf="!isReadMore" style="margin-top: 2.5%;" class="atlas-light">The site can also be an attractive venue for national and international researchers and educators to conduct their own studies and classes.</p>
+              <p *ngIf="!isReadMore" style="margin-top: 2.5%;" class="atlas-light">The site can also be an attractive venue for national and international researchers and educators to conduct their own <br> studies and classes.</p>
             </div>
           </div>
 

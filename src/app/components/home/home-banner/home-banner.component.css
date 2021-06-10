@@ -71,7 +71,7 @@
 .slider .img-container2{
   height: 100%;
   margin-left: 108px !important; /*edited*/
-  margin-top: 140px;
+  margin-top: 75px !important; /*edited */
   top: 0;
   position: absolute;
   z-index: 1;
@@ -127,7 +127,7 @@
   width: 351px;
   font-size: 22px;
   margin-top: 42px;
-  padding-top: 17px;
+  padding-top: 10px !important; /*edited */
   padding-bottom: 17px;
   padding-left: 56px;
   padding-right: 56px;

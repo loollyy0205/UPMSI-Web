@@ -111,6 +111,7 @@ mat-expansion-panel{
   color: white;
   padding: 0;
   font-size: 14px; /* edited */
+  line-height: 2.5; /* edited */
 }
 
 .regular-content2{

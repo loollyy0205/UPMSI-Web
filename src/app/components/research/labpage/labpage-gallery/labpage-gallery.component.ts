@@ -72,7 +72,7 @@ export class LabpageGalleryComponent implements OnInit {
       {image: 'https://dc570.4shared.com/img/JZGH7A2cea/s24/179d2bd1e40/Spore_cultures_IMG_7183__2_?async&rand=0.25269479703709985'},
       {image: 'https://dc570.4shared.com/img/FDuw1Ntriq/s24/179d2bd2de0/Spore_cultures_IMG_7204__2_?async&rand=0.45436351025829036'},
      ],
-    pi: 'https://dc588.4shared.com/img/fibRCuGBea/s24/179ac7e87a0/3_PI_MYRoleda?async&rand=0.12911580764776476',
+    pi: 'https://dc547.4shared.com/img/zqkUxzOPea/s24/179f41afd00/18-Michael_Y_Roleda_copy?async&rand=0.09772481356965401',
     piName: 'Michael Y. Roleda, Dr. rer. nat. ',
     degree: 'Professor IV',
     aboutPi: 'Dr. Michael Y. Roleda obtained his Doctorate degree in Natural Sciences (Biology) in Germany. He is currently the Deputy Director for Facilities and Resources in the institute. His research interests are algal stress physiology, applied phycology, ecophysiology, productivity, marine flora biodiversity, cultivation, photobiology, and photochemistry.',
@@ -137,7 +137,7 @@ export class LabpageGalleryComponent implements OnInit {
       {image: 'https://dc570.4shared.com/img/-4qyiLkMiq/s24/179e59e3b98/_5__Resilience__Survive_and_Th?async&rand=0.6495657380491573'},
       {image: 'https://dc570.4shared.com/img/HkcSCHpRea/s24/179e59e3f80/_6__Resilience_Survive_and_Thr?async&rand=0.4284714531645515'},
      ],
-    pi: 'https://dc610.4shared.com/img/0bZ_ODeUiq/s24/179e59e89b8/OCCO_Principal_Investigator?async&rand=0.9443033067076487',
+    pi: 'https://dc547.4shared.com/img/QtBrPnbUiq/s24/179f41ab6b0/05-Laura_T_David_copy?async&rand=0.7223304355251254',
     piName: 'Laura T. David, Ph.D.',
     aboutPi: 'Dr. David is a Professor and Director of the University of the Philippines Marine Science Institute (UP-MSI). Recognized as one of the country’s pioneers in Ocean Remote Sensing, her research includes using remote sensing and numerical modelling to explore how ocean physics influences the distribution and state of ocean flora and fauna. Her expertise is being tapped regionally to assist in matters related to climate change vulnerability and adaptation. She is currently the Chair of the CHED Technical Committee in Marine Science, a member of the National Panel of Technical Experts of the Climate Change Commission, and a member of the International Scientific Steering Committee of GEO Blue Planet and Future Earth Coasts.',
   }];
@@ -152,7 +152,7 @@ export class LabpageGalleryComponent implements OnInit {
       {image: 'https://dc570.4shared.com/img/u_k9tmZyea/s24/179e6c14380/P4290605?async&rand=0.44464897265939474'},
       {image: 'https://dc570.4shared.com/img/Z_Ppc0Nuiq/s24/179e6c15af0/P5166368?async&rand=0.5819443651029024'},
      ],
-    pi: 'https://dc570.4shared.com/img/TUhDNp7nea/s24/179e6c06ca8/RRGotanco_Photo?async&rand=0.6876975213287444',
+    pi: 'https://dc547.4shared.com/img/dsyj4m_Hiq/s24/179f41ad5f0/07-Rachel_June_R_Gotanco_PhD?async&rand=0.8933640996492986',
     piName: 'Rachel Ravago-Gotanco, Ph.D.',
     aboutPi: 'Dr. Ravago-Gotanco applies her background in molecular biology, biotechnology, and marine science to advance research on ecology and evolution in the oceans. She is particularly interested in exploring the ecological and evolutionary drivers of diversification and divergence in marine populations using genomic data, phylogeographic, population- and seascape-genomics approaches. She is also interested in the application of genomics-enabled tools and technologies to cultured populations of marine organisms, to support improved and sustainable aquaculture.',
   }];
@@ -193,7 +193,7 @@ export class LabpageGalleryComponent implements OnInit {
       {image: 'https://dc570.4shared.com/img/_6I9AtJkiq/s24/179e6d33928/Tubbataha_ranger_station_view_?async&rand=0.1826561856026654'},
       {image: 'https://dc570.4shared.com/img/kaudOVeoea/s24/179e6d3b240/Tubbataha_water_sampling_-_cre?async&rand=0.563393904919085'},
      ],
-    pi: 'https://dc570.4shared.com/img/V2qlPZwoea/s24/179e6ce3fb8/CJ_photo?async&rand=0.9979707936622921',
+    pi: 'https://dc547.4shared.com/img/3jbRgRxfiq/s24/179f41ae590/09-Caroline_Marie_B_Jaraula_Ph?async&rand=0.9274403682024024',
     piName: 'Caroline Marie B. Jaraula, Ph.D.',
     degree: 'Assistant Professor',
   }];
@@ -209,7 +209,7 @@ export class LabpageGalleryComponent implements OnInit {
       {image: 'https://dc570.4shared.com/img/GkA7hUY1ea/s24/179e6e61930/4_IMBiBE_Gallery_photo_7?async&rand=0.81535154304813'},
       {image: 'https://dc570.4shared.com/img/x8ciu4fziq/s24/179e6e62100/4_IMBIBE_Gallery_photo_8?async&rand=0.23143205617786622'},
      ],
-    pi: 'https://dc570.4shared.com/img/LGlZBQW6ea/s24/179e6e64428/5_PI_IMBiBE_Profile_photo?async&rand=0.2954028587963302',
+    pi: 'https://dc612.4shared.com/img/PvsKy_1jea/s24/179f41ae978/17-Maria_Vanessa_B_Rodriguez_P?async&rand=0.605536290843367',
     piName: 'Maria Vanessa B. Rodriguez, Ph.D.',
     aboutPi: 'Dr. Maria Vanessa Rodriguez obtained her Doctoral Degree in Marine and Environmental Science at the University of the Ryukyus in Okinawa, Japan. She currently works as an Assistant Professor at the Marine Science Institute. Her academic and research interests include: coral reef ecology, coral and sponge reproduction, and coral recruitment, physiology, and restoration. ',
   }];
@@ -240,7 +240,7 @@ export class LabpageGalleryComponent implements OnInit {
       {image: 'https://dc570.4shared.com/img/qOeqRW3Eea/s24/179e71aa268/4-gallery-Halymenia-culture?async&rand=0.30716755204565027'},
       {image: 'https://dc570.4shared.com/img/TBgjgbMLiq/s24/179e71abdc0/5-gallery-culture?async&rand=0.35551398076844287'},
      ],
-    pi: 'https://dc570.4shared.com/img/DChwsrPOiq/s24/179e71b3ac0/profile-photo-santianez?async&rand=0.6430260604211044',
+    pi: 'https://dc547.4shared.com/img/uap0H2j8iq/s24/179f41b4738/profile-photo-santianez?async&rand=0.5873620826291068',
     piName: 'Wilfred John E. Santiañez, Ph.D. ',
     aboutPi: 'Dr. Wilfred John E. Santiañez obtained his Ph.D. in Natural History Sciences (Biodiversity) from Hokkaido University in Sapporo, Japan where he worked on the systematics of the brown algal family Scytosiphonaceae. He is currently the Collections Manager of the Gregorio T. Velasquez Phycological Herbarium (MSI), the largest algal herbarium in the tropical western Pacific. He is interested in various aspects of seaweed research including seaweed diversity, biology, ecology, and cultivation.',
   }];
@@ -254,7 +254,7 @@ export class LabpageGalleryComponent implements OnInit {
       {image: 'https://dc570.4shared.com/img/l89Ci5kMea/s24/179e7275468/4_gallery_Plankton_community_e?async&rand=0.8139498222973824'},
       {image: 'https://dc570.4shared.com/img/NkScLuuDea/s24/179e7280430/6_gallery_Impacts_on_fisheries?async&rand=0.4935086139507856'},
      ],
-    pi: 'https://dc570.4shared.com/img/4CsijYv2ea/s24/179e7282b40/Yniguez_profile_photo?async&rand=0.3483205482693055',
+    pi: 'https://dc612.4shared.com/img/qb1ucesuiq/s24/179f41b1858/23-Aletta_T_Yiguez_PhD_copy?async&rand=0.35400525422282936',
     piName: 'Aletta T. Yñiguez, Ph.D.',
     aboutPi: 'Dr. Aletta Yñiguez is an Associate Professor at the Marine Science Institute, University of the Philippines in Diliman. She obtained her Ph.D. from the Rosenstiel School of Marine and Atmospheric Science (RSMAS), University of Miami in Florida with the support of Fulbright and Maytag scholarships. She is also the Chair of the UP Puerto Galera Biodiversity and Environmental Research and Outreach Center. She is interested in population and ecosystem dynamics, plankton ecology, harmful algal blooms, fisheries, human impacts on marine ecosystems, ecological modelling.',
   }];

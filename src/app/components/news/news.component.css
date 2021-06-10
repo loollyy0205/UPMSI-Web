@@ -36,7 +36,7 @@ img{
 }
 
 .content2-left{
-  width: 56%;
+  width: 60%; /* edited */
   height: 100%;
   background-image: url(https://dc622.4shared.com/img/epgZDF_liq/s24/179b1ed75c0/01-vacancies-and-opportunities?async&rand=0.5518853966504427);
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@ img{
 }
 
 .content2-right{
-  width: 50%;
+  width: 40%; /* edited */
   background-color: #384e8a;
   display: flex;
   flex-direction: column;

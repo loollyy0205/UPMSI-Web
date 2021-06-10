@@ -79,15 +79,19 @@
 }
 
 .right {
-  padding: 20px 0;
-
+  padding: 30px 0; /*edited */
   margin-left: 2.5%;
   margin-right: 40px;
 }
 
+/*edited: added css */
+.card-title{
+  margin-top: 18px;
+}
+
 .card-content {
   line-height: 1.5;
-  margin-top: 15px;
+  margin-top: 10px /*edited*/
 }
 
 .read-more {
@@ -95,7 +99,7 @@
   flex-direction: row;
   justify-content: flex-end;
   cursor: pointer;
-  margin-top: -1%;
+  margin-top: -4%; /*edited */
 }
 
 .limitTextHeight {
@@ -132,7 +136,7 @@ ul {
 
 li {
   margin-top: 20px;
-  line-height: 1.5;
+  line-height: .5; /*edited */
   color: #384e8a;
 }
 
@@ -193,9 +197,15 @@ li span {
     margin-right: 55px;
   }
 
-  .card-content {
-    margin-top: 18px;
-  }
+  /*edited: added css */
+  .card-title{
+  margin-top: 21px;
+ }
+
+ .card-content {
+  line-height: 1.5;
+  margin-top: 13px /*edited*/
+ }
 
   .limitTextHeight, .limitTextHeight2, .limitTextHeight3, .limitTextHeight4, .limitTextHeight5 {
     height: 217px;
@@ -256,9 +266,15 @@ li span {
     margin-right: 65px;
   }
 
-  .card-content {
-    margin-top: 21px;
-  }
+  /*edited: added css */
+  .card-title{
+  margin-top: 24px;
+ }
+
+ .card-content {
+  line-height: 1.5;
+  margin-top: 16px /*edited*/
+ }
 
   .limitTextHeight, .limitTextHeight2, .limitTextHeight3, .limitTextHeight4, .limitTextHeight5 {
     height: 258px;

@@ -12,7 +12,11 @@ export class NewsContentComponent implements OnInit {
     date: 'Updated April 30, 2021',
     author: 'By Mia Judicpa, MSI Contributor',
     thumbnail: 'https://dc585.4shared.com/img/6gvZfJ_fea/s24/179b1eea670/News-01-scientist?async&rand=0.3544943813759056',
-    photoContent: 'A Filipino scientist from the University of the Philippines has started his historic descent as one of the first humans to reach the third deepest spot on earth.',
+    photoContent: 'Filipino scientist Dr. Deo Florence L. Onda from the University of the Philippines is one of the first humans to reach the third deepest spot on Earth.',
+    /**
+    edited the photocontent
+    */
+
     courtesy: 'PHOTO COURTESY OF Caladan Oceanic',
     location: 'Emden Deep, Philippines',
     locationContent: 'Few have been brave enough to venture the depths of the oceans. Diving ten kilometers below sea level may not have required as much funding as the 1969 moon landing did, but it is worthy of just as much credit.',
@@ -34,7 +38,11 @@ export class NewsContentComponent implements OnInit {
     thumbnail: 'https://dc349.4shared.com/img/fTDppHwOiq/s24/179b1eeaa58/News-02-awards?async&rand=0.47529569452814435',
     courtesy: 'PHOTO COURTESY OF Dr. Michael Y. Roleda',
     location: 'Quezon City, Philippines',
-    locationContent: 'Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center for Climate Change Adaptation and Disaster Risk Management Foundation, Inc (OMLC).',
+    locationContent: 'Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center for Climate Change Adaptation and Disaster Risk Management Foundation, Inc (OML Center).',
+    /**
+    edited the (OMLC) to (OML Center)
+    */
+
     paragraph1: 'Dr. Laura T. David is the first recipient of the Climate Frontiers Fellowship for Climate Resilience for the contributions of her academic and research work to address the threat of climate change.',
 
     paragraph3: `Another NAST-recognized scientist is Dr. Wilfred John E. Santianez, who was a finalist in the 2020 NAST Talent Search for Young Scientists. There he presented his study, “Untangling nets: elucidating the diversity and phylogeny of the clathrate brown algal genus Hydroclathrus, with the description of a new genus Tronoella (Scytosiphonaceae, Phaeophyceae).”`,

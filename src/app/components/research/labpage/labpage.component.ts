@@ -45,7 +45,7 @@ export class LabpageComponent implements OnInit {
     labLink1: '/News/content/filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth',
     content: 'Understanding host-symbiont interactions, microbial biogeography, diversity, dynamics and trophic interactions, plastics-microbes interactions, and consequences of changing conditions using -omics approaches (genomics, transcriptomics and metagenomics), other molecular methods and advanced techniques in confocal laser scanning microscopy',
     labHighBanner: 'https://dc592.4shared.com/img/S6cJ7uEJea/s24/179ac7e1a40/7_Lab_highlight_Photo__Dr_Deo_?async&rand=0.9218025115002331',
-    labHighlight: 'In 2020, Dr. Deo Florence L. Onda, head of (lab name), was invited to dive down Emden Deep with record-holder Victor Vescovo. Dr. Deo (or Dr. Onda?) is the first Filipino and second human to reach the depths of the third deepest point on Earth.',
+    labHighlight: 'In 2020, Dr. Deo Florence L. Onda, head of the Microbial Oceanography Laboratory, was invited to dive down Emden Deep with record-holder Victor Vescovo. Dr. Onda is the first Filipino and second human to reach the depths of the third deepest point on Earth.',
   }
   ];
 

@@ -15,11 +15,21 @@
 
 .right {
   width: 60%;
-  margin: 20px 0;
+  margin: 20px 0; /*edited */
   padding-right: 2.5%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+/*edited : added css */;
+.content-title1{
+  margin-top: 23px;
+}
+
+/*edited : addded css */
+.content-title2{
+  margin-top: 30px;
 }
 
 .content {
@@ -32,7 +42,17 @@
   justify-content: flex-end;
   margin-right: 2.6%;
   cursor: pointer;
+  margin-top: 6% !important; /*edited */
 }
+
+.read-more3 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2.6%;
+  cursor: pointer;
+  margin-top: 10% !important; /*edited */
+}
+
 
 .component1-bottom {
   margin: 0 20px;
@@ -43,7 +63,7 @@
 .panel-title{
   color: white;
   padding: 15px 0;
-  font-size: 16px;
+  font-size: 14px; /*edited */
 }
 
 mat-expansion-panel{
@@ -64,6 +84,7 @@ mat-expansion-panel{
   margin-left: 3%;
   margin-right: 5.5%;
   margin-top: 45px !important;
+  padding: 0 95px; /*edited */
 }
 
 .grad-offering1{
@@ -71,6 +92,7 @@ mat-expansion-panel{
   margin-left: 3%;
   margin-right: 5.5%;
   margin-top: 20px !important;
+  padding: 0 95px; /*edited */
 }
 
 
@@ -94,14 +116,14 @@ mat-expansion-panel{
 
 ul {
   margin: 0 9%;
-  padding-bottom: 2%;
+  padding-bottom: 3%; /* edited */
   font-size: 16px;
   font-family: 'atlas-light';
 }
 
 li {
   margin-top: 20px;
-  line-height: 1.5;
+  line-height: .5; /* edited */
   color: #384e8a;
 }
 
@@ -126,6 +148,16 @@ li span {
   .right {
     margin: 23px 0;
   }
+
+  /*edited : added css */;
+.content-title1{
+  margin-top: 26px;
+}
+
+/*edited : addded css */
+.content-title2{
+  margin-top: 33px;
+}
 
   .content {
     margin-top: 12px;
@@ -191,6 +223,16 @@ li span {
 
   .right {
     margin: 27px 0;
+  }
+
+    /*edited : added css */;
+  .content-title1{
+  margin-top: 29px;
+  }
+
+  /*edited : addded css */
+  .content-title2{
+  margin-top: 36px;
   }
 
   .content {
