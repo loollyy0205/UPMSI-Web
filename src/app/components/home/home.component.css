@@ -38,7 +38,7 @@
 /* Education CSS Section */
 .educ-container{
   height: 600px;
-  background-image: url(../../../assets/photos/home/03-academics.png);
+  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623340911/Home/03-academics_bci8bl.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -76,7 +76,7 @@
 .extension-container .extension-left{
   height: 100%;
   width: 45%;
-  background-image: url(../../../assets/photos/home/04-extension.png);
+  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623340906/Home/04-extension_id3tt0.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -126,7 +126,7 @@
 .resources-container .resources-right{
   height: 100%;
   width: 45%;
-  background-image: url(../../../assets/photos/home/4.2-resources.png);
+  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623340908/Home/4.2-resources_z0eokf.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -146,7 +146,7 @@
 .msiOffice-container .msiOffice-left{
   height: 100%;
   width: 45%;
-  background-image: url(../../../assets/photos/home/4.3-office.png);
+  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623340909/Home/4.3-office_fo2lfw.png);
   background-repeat: no-repeat;
   background-size: cover;
 }

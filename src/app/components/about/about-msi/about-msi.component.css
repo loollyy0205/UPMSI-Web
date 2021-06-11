@@ -47,7 +47,7 @@ img{
 }
 
 .what-we-do .left-image {
-  background-image: url(../../../../assets/photos/about/about-msi/02-what-we-do.jpg);
+  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623341293/About/about%20msi/02-what-we-do_spj9wv.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 48.5%;
@@ -76,7 +76,7 @@ img{
 }
 
 .the-founder .left-image {
-  background-image: url(../../../../assets/photos/about/about-msi/03-the-founderr.png);
+  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623341295/About/about%20msi/03-the-founderr_zk2zdl.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 296px;

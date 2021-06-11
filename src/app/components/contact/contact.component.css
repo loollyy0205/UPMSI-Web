@@ -26,7 +26,7 @@ a {
 
 .banner1 {
   height: 500px;
-  background-image: url('../../../assets/photos/01-banner.png');
+  background-image: url('https://res.cloudinary.com/dqs7gg03v/image/upload/v1623322137/Contact/01-banner_onm6p4.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: grid; place-items: center;
@@ -35,7 +35,7 @@ a {
 .banner2 {
   margin-top: 50px;
   height: 500px;
-  background-image: url('../../../assets/photos/02-banner.png');
+  background-image: url('https://res.cloudinary.com/dqs7gg03v/image/upload/v1623322139/Contact/02-banner_ckajnz.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: grid; place-items: center;

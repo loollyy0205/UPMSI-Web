@@ -69,23 +69,23 @@ dialog::backdrop {
 
 @font-face{
   font-family: 'atlas-light';
-  src: url("./assets/Fonts/AtlasGrotesk-Light.otf");
-}
-
-@font-face{
-  font-family: 'atlas-bold';
-  src: url("./assets/Fonts/AtlasGrotesk-Bold.otf");
-}
-
-@font-face{
-  font-family: 'atlas-blackReg';
-  src: url("./assets/Fonts/Atlas Grotesk Web Black Regular.ttf");
+  src: url("https://res.cloudinary.com/dqs7gg03v/raw/upload/v1623321704/Fonts/AtlasGrotesk-Light_jom77u.otf");
   font-weight: 100;
 }
 
 @font-face{
+  font-family: 'atlas-bold';
+  src: url("https://res.cloudinary.com/dqs7gg03v/raw/upload/v1623321704/Fonts/AtlasGrotesk-Bold_mocbtm.otf");
+}
+
+@font-face{
+  font-family: 'atlas-blackReg';
+  src: url("https://res.cloudinary.com/dqs7gg03v/raw/upload/v1623321704/Fonts/Atlas_Grotesk_Web_Black_Regular_t0wgrn.ttf");
+}
+
+@font-face{
   font-family: 'Atlas Grotesk LC Web Reg Italic';
-  src: url("./assets/Fonts/Atlas Grotesk LC Web Reg Italic.ttf");
+  src: url("https://res.cloudinary.com/dqs7gg03v/raw/upload/v1623321702/Fonts/Atlas_Grotesk_LC_Web_Reg_Italic_dgzcsg.ttf");
 }
 
 .blackItalic {

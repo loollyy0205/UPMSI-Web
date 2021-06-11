@@ -55,10 +55,10 @@ import { MuseumTabComponent } from './components/resources/museum-exhibits/museu
 
 const routes: Routes = [
   {path: '', redirectTo: '/Home', pathMatch: 'full'},
-  {path: 'admin', component: AdminComponent},
-  {path: 'admin/admin-dashboard', component: AdminDashboardComponent},
-  {path: 'admin/admin-home', component: AdminHomeComponent},
-  {path: 'admin/admin-news', component: AdminNewsComponent},
+  // {path: 'admin', component: AdminComponent},
+  // {path: 'admin/admin-dashboard', component: AdminDashboardComponent},
+  // {path: 'admin/admin-home', component: AdminHomeComponent},
+  // {path: 'admin/admin-news', component: AdminNewsComponent},
   {path: 'Home', component: HomeComponent},
   {path: 'About', component: AboutComponent},
   {path: 'About/admin', component: AboutAdminComponent},
