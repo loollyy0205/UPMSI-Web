@@ -38,53 +38,6 @@ img{
   font-size: 29px;
 }
 
-.what-we-do {
-  margin-left: 4.5%;
-  margin-right: 4.5%;
-  height: 289px;
-  margin-top: 75px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.what-we-do .left-image {
-  background-image: url(../../../../assets/photos/about/about-msi/02-what-we-do.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 48.5%;
-}
-
-.what-we-do .right-content {
-  width: 48.5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.what-we-do .right-content-p {
-  font-size: 16px;
-  margin-top: 19px;
-  font-family: 'Atlas-light';
-  line-height: 1.4;
-}
-
-.the-founder {
-  margin-left: 4.5%;
-  margin-right: 4.5%;
-  margin-top: 75px;
-  display: flex;
-  flex-direction: row;
-}
-
-.the-founder .left-image {
-  background-image: url(../../../../assets/photos/about/about-msi/03-the-founderr.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 296px;
-  width: 296px;
-  z-index: 999;
-}
-
 .the-founder .right-content-box {
   width: 53%;
   margin-left: 43px;
@@ -157,30 +110,6 @@ img{
     font-size: 34px;
   }
 
-  .what-we-do {
-    height: 338px;
-    margin-top: 88px;
-  }
-
-  .what-we-do .right-content-p {
-    font-size: 18px;
-    margin-top: 22px;
-  }
-
-
-  .the-founder .left-image {
-    height: 347px;
-    width: 347px;
-  }
-
-  .the-founder .right-content-box {
-    margin-left: 50px;
-  }
-
-  .the-founder .right-content-p {
-    font-size: 18px;
-    margin-top: 22px;
-  }
 
   .sub-title{
     font-size: 18px;
@@ -225,30 +154,6 @@ img{
     font-size: 41px;
   }
 
-  .what-we-do {
-    height: 406px;
-    margin-top: 106px;
-  }
-
-  .what-we-do .right-content-p {
-    font-size: 22px;
-    margin-top: 26px;
-  }
-
-
-  .the-founder .left-image {
-    height: 416px;
-    width: 416px;
-  }
-
-  .the-founder .right-content-box {
-    margin-left: 60px;
-  }
-
-  .the-founder .right-content-p {
-    font-size: 22px;
-    margin-top: 26px;
-  }
 
   .sub-title{
     font-size: 22px;
