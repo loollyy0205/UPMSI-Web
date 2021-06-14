@@ -44,7 +44,7 @@ export class AdminMsiStaffComponent implements OnInit {
   scrollUp(event){
     setTimeout(() => {
       this.scroll(event.path[3].attributes[1].nodeValue);
-    }, 200);
+    }, 400);
   }
 
   scroll(id) {

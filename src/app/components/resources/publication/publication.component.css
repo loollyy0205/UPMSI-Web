@@ -41,26 +41,6 @@
     font-size: 29px;
   }
 
-  .what-we-do {
-    margin-left: 4.5%;
-    margin-right: 4.5%;
-    height: 285px;
-    margin-top: 75px;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .what-we-do .left-image {
-    background-image: url(../../../../assets/photos/about/admin/02-body-photo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 48%;
-  }
-
-  .what-we-do .right-content {
-    width: 49%;
-  }
-
 .right-content-p {
     font-size: 16px;
     font-family: 'Atlas-light';
@@ -103,15 +83,6 @@
   }
 
   @media (min-width: 1366px) {
-    .what-we-do {
-      height: 288px;
-      margin-top: 79px;
-    }
-
-    .what-we-do .right-content-p {
-      font-size: 17px;
-    }
-
     .right-content-p2 {
       font-size: 17px;
       margin-right: 21px;
@@ -120,13 +91,6 @@
   }
 
   @media (min-width: 1540px) {
-    .what-we-do {
-      height: 320px;
-    }
-
-    .what-we-do .right-content-p {
-      font-size: 18px;
-    }
 
     .right-content-p2 {
       font-size: 18px;
@@ -159,11 +123,6 @@
 
     .title{
       font-size: 34px;
-    }
-
-    .what-we-do {
-      height: 338px;
-      margin-top: 88px;
     }
 
     .right-content-p {
@@ -230,11 +189,6 @@
 
     .title{
       font-size: 41px;
-    }
-
-    .what-we-do {
-      height: 406px;
-      margin-top: 106px;
     }
 
     .right-content-p {

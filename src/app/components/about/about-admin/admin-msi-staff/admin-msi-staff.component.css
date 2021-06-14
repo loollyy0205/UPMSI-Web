@@ -84,6 +84,29 @@ mat-expansion-panel{
   width: 50%;
 }
 
+/* edited: added css */
+.left3{
+  width: 50%;
+}
+
+/* edited: added css */
+.left3 div{
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* edited: added css */
+.right3 div{
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* edited: added css */
+.right3{
+  width: 50%;
+  margin-left: 50px;
+}
+
 .contact-banner {
   margin-top: 82px;
   height: 297px;

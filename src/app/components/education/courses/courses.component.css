@@ -38,7 +38,7 @@ img{
 }
 
 .title{
-  font-size: 25px;
+  font-size: 29px; /* edited */
 }
 
 .banner-content {
@@ -66,8 +66,8 @@ mat-panel-title{
 }
 
 .grad-offering{
-  margin-top: 50px !important;
-  padding: 0 170px;
+  margin-top: 40px !important; /*edited */
+  padding: 5px 170px; /*edited */
 }
 
 .marg-50 {
@@ -81,15 +81,15 @@ mat-panel-title{
   grid-template-rows: 1fr 1fr 1fr;
   gap: 15px;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 16px; /*edited */
 }
 
 .core-courses2{
-  margin-TOP: 20px;
+  margin-top: 20px; /*edited*/
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   /* gap: 15px; */
-  font-size: 14px;
+  font-size: 16px; /*edited */
   margin-bottom: -10px; /*edited */
 }
 
@@ -124,7 +124,7 @@ mat-panel-title{
 .fiber-manual{
   font-size: 8px;
   margin-right: -12px;
-  margin-top: 3px;
+  margin-top: 5px; /* edited */
 }
 
 .top-10{
@@ -132,11 +132,11 @@ mat-panel-title{
 }
 
 .top-neg20{
-  margin-top: 10px !important;
+  margin-top: 0px !important;
 }
 
 .top-neg10{
-  margin-top: 10px;
+  margin-top: 8px; /* edited */
 }
 
 .footer{
@@ -154,6 +154,11 @@ mat-panel-title{
 
 .ms397 {
   margin-bottom: -140px
+}
+
+/* edited: added css */
+.tmem-title{
+  font-size: 16px;
 }
 
 .arrow{

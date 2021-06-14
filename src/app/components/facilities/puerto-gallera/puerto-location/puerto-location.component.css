@@ -4,11 +4,21 @@
 
 .container{
   width: 1000px !important;
+  position: relative;
 }
 
 .border-green{
   color: #394e8a;
   border-left: 4px solid #5ca361;
+  padding-left: 20px;
+}
+
+.border-green2{
+  border-right: 3px solid #5ca361;
+  padding-right: 20px;
+}
+
+.left-20 {
   padding-left: 20px;
 }
 
@@ -22,13 +32,13 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
- /*  transition: transform .5s ease; EDITED : PLS REMOVE HOVER */
+  /*transition: transform .5s ease; commented out */
 }
 
-/* EDITED : PLS REMOVE HOVER
+/*commented out
 .bml-complex img:hover{
   transform: scale(1.1);
-}*/
+} */
 
 .content-header-contact{
   height: 220px;
@@ -40,10 +50,18 @@
   margin-top: 20px;
 }
 
-.contact-marg p:nth-child(2){
-  margin-top: 8px;
-}
 
+.bml-complex .right-content1{
+  position: absolute;
+  z-index: 1;
+  left: 50px;
+  top: 45%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  color: white;
+}
 @media (min-width: 1600px) {
   * {
     font-size: 19px;
@@ -77,9 +95,6 @@
     margin-top: 23px;
   }
 
-  .contact-marg p:nth-child(2){
-    margin-top: 9px;
-  }
 }
 
 @media (min-width: 1900px) {
@@ -115,7 +130,4 @@
     margin-top: 27px;
   }
 
-  .contact-marg p:nth-child(2){
-    margin-top: 11px;
-  }
 }
