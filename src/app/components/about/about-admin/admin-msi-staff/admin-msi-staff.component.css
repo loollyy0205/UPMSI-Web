@@ -125,9 +125,11 @@ mat-expansion-panel{
   font-family: 'atlas-light';
 }
 
+/* edited2: whole css */
 .staff-content {
   margin-top: 2% !important;
-  margin-bottom: 2%;
+  margin-bottom: 0% !important;
+  top: 15px;
 }
 
 .panel-title2{
@@ -141,9 +143,14 @@ mat-expansion-panel{
   border-left: 3px solid #5ca361;
   display: flex;
   flex-direction: row;
-  font-size: 16px;
+  font-size: 14px; /* edited2 */
   margin-top: 1.5%;
   width: 100%;
+}
+
+/*edited2: added css */
+.regular-content{
+  font-size: 14px;
 }
 
 .left2 {
