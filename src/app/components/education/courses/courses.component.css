@@ -81,7 +81,7 @@ mat-panel-title{
   grid-template-rows: 1fr 1fr 1fr;
   gap: 15px;
   margin-bottom: 10px;
-  font-size: 16px; /*edited */
+  font-size: 14px; /*edited */
 }
 
 .core-courses2{
@@ -89,7 +89,7 @@ mat-panel-title{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   /* gap: 15px; */
-  font-size: 16px; /*edited */
+  font-size: 14px; /*edited */
   margin-bottom: -10px; /*edited */
 }
 
@@ -97,6 +97,10 @@ mat-panel-title{
   display: grid;
   grid-template-columns: 2fr 4fr 4fr  !important; /*edited*/
   line-height: 1.5;
+}
+
+.core-content:nth-child(n+2), .core-content2:nth-child(n+2), .core-content3:nth-child(n+2) {
+  font-family: 'atlas-light';
 }
 
 .core-content2{
@@ -225,7 +229,6 @@ mat-panel-title{
     grid-template-rows: 1fr 1fr 1fr;
     border-left: 4px solid #5ca361;
     gap: 20px;
-    font-size: 16px;
     margin-bottom: 15px;
   }
 
@@ -320,7 +323,7 @@ mat-panel-title{
     grid-template-rows: 1fr 1fr 1fr;
     border-left: 5px solid #5ca361;
     gap: 25px;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
 
@@ -415,7 +418,7 @@ mat-panel-title{
     grid-template-rows: 1fr 1fr 1fr;
     border-left: 6px solid #5ca361;
     gap: 30px;
-    font-size: 20px;
+    font-size: 19px;
     margin-bottom: 25px;
   }
 
@@ -481,16 +484,6 @@ mat-panel-title{
     margin-top: 70px !important;
   }
 
-  .core-courses{
-    margin-left: 40px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    border-left: 6px solid #5ca361;
-    gap: 35px;
-    font-size: 22px;
-    margin-bottom: 30px;
-  }
-
   .core-courses div{
     margin-left: 40px;
   }
@@ -551,16 +544,6 @@ mat-panel-title{
 
   .grad-offering, .marg-50{
     margin-top: 75px !important;
-  }
-
-  .core-courses{
-    margin-left: 45px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    border-left: 7px solid #5ca361;
-    gap: 40px;
-    font-size: 24px;
-    margin-bottom: 35px;
   }
 
   .core-courses div{
@@ -625,16 +608,6 @@ mat-panel-title{
     margin-top: 80px !important;
   }
 
-  .core-courses{
-    margin-left: 50px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    border-left: 7px solid #5ca361;
-    gap: 45px;
-    font-size: 26px;
-    margin-bottom: 40px;
-  }
-
   .core-courses div{
     margin-left: 50px;
   }
@@ -694,16 +667,6 @@ mat-panel-title{
 
   .grad-offering, .marg-50{
     margin-top: 85px !important;
-  }
-
-  .core-courses{
-    margin-left: 55px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    border-left: 8px solid #5ca361;
-    gap: 50px;
-    font-size: 28px;
-    margin-bottom: 45px;
   }
 
   .core-courses div{
