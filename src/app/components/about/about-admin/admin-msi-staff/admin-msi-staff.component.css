@@ -61,7 +61,6 @@ mat-expansion-panel{
   height: 100%;
   display: flex;
   flex-direction: row;
-  font-size: 16px;
   margin-top: 1.5%;
 }
 
@@ -193,7 +192,11 @@ mat-expansion-panel{
 
   .panel-title{
     padding: 18px 0;
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .panel-title2{
+    font-size: 16px; /* edited */
   }
 
   .specific-class{
@@ -209,9 +212,10 @@ mat-expansion-panel{
     border-radius: 58px;
   }
 
-  .regular-content{
-    font-size: 19px;
+  .regular-content, .regular-content2{
+    font-size: 16px;
   }
+
 
   .left div{
     margin-top: 12px
@@ -256,7 +260,11 @@ mat-expansion-panel{
 
   .panel-title{
     padding: 22px 0;
-    font-size: 22px;
+    font-size: 19px;
+  }
+
+  .panel-title2{
+    font-size: 19px; /* edited */
   }
 
   .specific-class{
@@ -272,8 +280,8 @@ mat-expansion-panel{
     border-radius: 70px;
   }
 
-  .regular-content{
-    font-size: 13px;
+  .regular-content, .regular-content2{
+    font-size: 19px;
   }
 
   .left div{

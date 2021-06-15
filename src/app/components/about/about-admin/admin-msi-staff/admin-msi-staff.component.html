@@ -112,10 +112,10 @@
             </div>
         </mat-expansion-panel>
 
-        <mat-expansion-panel class="mat-elevation-z0 staff-content" (opened)="panelOpenState5 = true"
+        <mat-expansion-panel (click)="scrollUp($event)" id="panel-1"  class="mat-elevation-z0 staff-content" (opened)="panelOpenState5 = true"
         (closed)="panelOpenState5 = false" hideToggle>
           <mat-expansion-panel-header class="specific-class">
-          <mat-panel-title class="atlas-light panel-title2" style="color: #384e8a;"  [ngClass]="panelOpenState5 ? 'atlas-bold' : 'atlas-light'">BML STAFF</mat-panel-title>
+          <mat-panel-title class="atlas-light panel-title2" style="color: #384e8a;" [ngClass]="panelOpenState5 ? 'atlas-bold' : 'atlas-light'">BML STAFF</mat-panel-title>
           </mat-expansion-panel-header>
           <div class="regular-content2">
             <div class="left2">
@@ -145,41 +145,40 @@
           </div>
         </mat-expansion-panel>
 
-        <mat-expansion-panel class="mat-elevation-z0 staff-content" (opened)="panelOpenState6 = true"
+        <mat-expansion-panel (click)="scrollUp($event)" id="panel-2" class="mat-elevation-z0 staff-content" (opened)="panelOpenState6 = true"
         (closed)="panelOpenState6 = false" hideToggle>
-          <mat-expansion-panel-header class="specific-class">
+          <mat-expansion-panel-header class="specific-class" style="margin-bottom: none;">
           <mat-panel-title class="atlas-light panel-title2" style="color: #384e8a;"  [ngClass]="panelOpenState6 ? 'atlas-bold' : 'atlas-light'">SHIP CREW</mat-panel-title>
           </mat-expansion-panel-header>
           <div class="regular-content2">
+                        <!-- edited2: every name-->
             <div class="left2">
               <div>
-                <p class="atlas-light">Leonardo S. Bagtong</p>
-                <p class="atlas-light">Edgardo Cruz</p>
-                <p class="atlas-light">Jeffrey Idor</p>
-                <p class="atlas-light">Reyan Maalihan</p>
-                <p class="atlas-light">Michael C. Manalo</p>
-                <p class="atlas-light">John Rey Nepumoceno</p>
-                <p class="atlas-light">Reynald Nietes</p>
-                <p class="atlas-light">Abrahama Quindoy Jr.</p>
-                <p class="atlas-light">Ricky Villaruel</p>
-                <p class="atlas-light">Rollando Servallos</p>
+                <p class="atlas-light">Capt. Edgardo B. Cruz</p>
+                <p class="atlas-light">C/O Abraham Q. Quindoy Jr.</p>
+                <p class="atlas-light">2/O Reyan S. Maalihan</p>
+                <p class="atlas-light">2/E Ricky I Villaruel</p>
+                <p class="atlas-light">A/B1 Michael C. Manalo</p>
+                <p class="atlas-light">BSN. Leonardo S. Bagtong</p>
+                <p class="atlas-light">A/B2 Jeffrey S. Idor</p>
+                <p class="atlas-light">OLR Reynald P. Nietes</p>
+                <p class="atlas-light">John Rey M. Nepumoceno</p>
               </div>
 
             </div>
-
+            <!-- edited2: every position-->
             <div class="right2">
               <div>
-                <p class="atlas-light">Boatswain</p>
-                <p class="atlas-light">Shipmaster</p>
-                <p class="atlas-light">Seaman</p>
-                <p class="atlas-light">Second Mate</p>
-                <p class="atlas-light">Quartermaster</p>
-                <p class="atlas-light">Cook II</p>
-                <p class="atlas-light">Marine Engineman I</p>
-                <p class="atlas-light">-</p>
-                <p class="atlas-light">First Engineer</p>
-                <p class="atlas-light">Chief Engineer</p>
-              </div>
+                <p class="atlas-light">Master</p>
+                <p class="atlas-light">Chief Officer</p>
+                <p class="atlas-light">Second Officer</p>
+                <p class="atlas-light">Second Engineer</p>
+                <p class="atlas-light">Able Boadied Seaman</p>
+                <p class="atlas-light">Buson</p>
+                <p class="atlas-light">Able Boadied Seaman</p>
+                <p class="atlas-light">Oiler</p>
+                <p class="atlas-light">Chief Cook</p>
+               </div>
             </div>
           </div>
         </mat-expansion-panel>
@@ -190,7 +189,7 @@
 <!-- edited the entire in-house -->
 
 
-     <mat-expansion-panel (click)="scrollUp($event)" id="panel-2" class="mat-elevation-z0 grad-offering" (opened)="panelOpenState30 = true"
+     <mat-expansion-panel  (click)="scrollUp($event)" id="panel-3" class="mat-elevation-z0 grad-offering" (opened)="panelOpenState30 = true"
         (closed)="panelOpenState30 = false">
       <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState30 ? '#394e8a' : '#5ca361'">
       <mat-panel-title class="atlas-light panel-title">IN-HOUSE RESEARCH ASSISTANT</mat-panel-title>
