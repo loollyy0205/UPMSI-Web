@@ -222,6 +222,12 @@ img:hover{
   align-items: center;
   cursor: pointer;
 }
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
 @media (min-width: 1600px) {
   .container{
     font-size: 19px;

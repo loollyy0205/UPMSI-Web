@@ -19,6 +19,7 @@ export class LabpageComponent implements OnInit {
     labLink2: 'https://peerj.com/articles/7785/',
     labAuthor: 'Guzman, et al.,',
     labDate: '2019',
+    site: 'https://cconaco.wixsite.com/mmbl',
     labContent: 'Warm seawater temperature promotes substrate colonization by the blue coral, Heliopora coerulea. PeerJ. 7:e7785.'
   }
   ];
@@ -28,6 +29,7 @@ export class LabpageComponent implements OnInit {
     photoBanner: 'https://dc592.4shared.com/img/bH8qmZPhiq/s24/179ac7fdf60/01-updated-menez-banner?async&rand=0.8872522715554823',
     bannerLogo: 'https://dc592.4shared.com/img/UXVa4VLsea/s24/179ac808f28/MIEL_Logo?async&rand=0.7027315813783175',
     title: 'The Marine Invertebrate Ecology Laboratory',
+    site: 'https://sites.google.com/view/inverts-upmsi/home?authuser=0',
     content: 'The Marine Invertebrate Ecology Laboratory focuses on understanding the basic biology and ecology of high value marine invertebrates to develop a model invertebrate management system which supports sustainable aquaculture, increases invertebrate natural stocks and provides high-value products to fishers. This is to augment capture production and rebuild natural stocks of exploited marine invertebrates. Our research is geared towards expanding options for sustainable and competitive mariculture industry which provides equitable economic benefits to various stakeholders (e.g., fishers, growers, processors, traders, etc.) while maintaining the productivity and biodiversity of commercially important invertebrate fishery resources in the country.',
     labHighBanner: 'https://dc527.4shared.com/img/iD-7JJunea/s24/179ac808b40/lab-highlight?async&rand=0.039514617036574995',
     labHighlight: 'Identification of Priority Sites to Support Management of Commercially Important Sea Cucumber Species by Applying Infomap and Habitat Filters to Larval Dispersal Data',
@@ -42,6 +44,7 @@ export class LabpageComponent implements OnInit {
     photoBanner: 'https://dc588.4shared.com/img/rAJTe9GLea/s24/179ac7dc838/01-updated-onda-banner?async&rand=0.788219176795582',
     bannerLogo: 'https://dc592.4shared.com/img/oqoaYNfriq/s24/179ac7dd3f0/2_Logo?async&rand=0.9916611130663846',
     title: 'Microbial Oceanography Laboratory',
+    fbpage: 'https://www.facebook.com/microoce.ph',
     labLink1: '/News/content/filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth',
     content: 'Understanding host-symbiont interactions, microbial biogeography, diversity, dynamics and trophic interactions, plastics-microbes interactions, and consequences of changing conditions using -omics approaches (genomics, transcriptomics and metagenomics), other molecular methods and advanced techniques in confocal laser scanning microscopy',
     labHighBanner: 'https://dc592.4shared.com/img/S6cJ7uEJea/s24/179ac7e1a40/7_Lab_highlight_Photo__Dr_Deo_?async&rand=0.9218025115002331',
@@ -64,6 +67,7 @@ export class LabpageComponent implements OnInit {
     labContent: 'Inorganic carbon utilization of tropical calcifying macroalgae and the impacts of intensive mariculture-derived coastal acidification on the physiological performance of the rhodolith Sporolithon sp.',
     labAuthor2: 'Roleda, et al.,',
     labDate2: 'November 2020',
+    site: 'https://algalecolab.weebly.com',
   }
   ];
 
@@ -103,6 +107,7 @@ export class LabpageComponent implements OnInit {
     labHighlight: 'Recent research from the lab used molecular methods to revisit the taxonomic identification of a coral species complex, Pocillopora damicornis, characterized by extensive phenotypic plasticity which confounds accurate species identification.',
     labAuthor: 'Torres, et al.,',
     labDate: 'December 2018',
+    site: 'https://mmeel-upmsi.weebly.com',
     labLink1: 'https://www.researchgate.net/publication/327121925_Rarity_of_the_common_coral_Pocillopora_damicornis_in_the_western_Philippine_archipelago',
   }];
 
@@ -111,6 +116,7 @@ export class LabpageComponent implements OnInit {
     photoBanner: 'https://dc570.4shared.com/img/t2yJQXSUiq/s24/179e6ce3400/01-jaraula-banner?async&rand=0.3862118150040157',
     bannerLogo: 'https://dc551.4shared.com/img/vykwcEP0iq/s24/179e6ce4788/OASIS_Logo_Colored?async&rand=0.23456468558906995',
     title: 'Organic and Stable Isotope (OASIS) Geochemistry Laboratory',
+    fbpage: 'https://www.facebook.com/upmsioasisgeochemlab/',
     content: 'The Organic and Stable Isotope Geochemistry Laboratory (OASIS Geochem lab) of the UP Marine Science Institute was established and headed by Dr. Caroline Marie B. Jaraula in January 4, 2016. OASIS is currently focused on characterizing persistent organic pollutants; tracking their distribution, behavior, and interactions in coastal systems and how they change across physico-chemical gradients. These pollutants include antibiotics, pesticides, plasticizers, flame retardants, etc. The lab also does work on finding mangrove, microbe, and mariculture biomarkers and elemental proxies, only to name a few, but generally geochemically characterizing the environment, present and/or past. The lab is equipped to isolate, quantify, and identify organic matter and lipids from living organisms, sediments, as well as water and fossil fuel; and serves as research grounds for interested high school, undergraduate, and graduate students, as well as postdoctoral researchers.',
     labHighBanner: 'https://dc570.4shared.com/img/iIBQJG-Cea/s24/179e6c07c48/pacuta?async&rand=0.13177488539106985',
     labHighlight: 'Synthetic, unintentionally toxic organic compounds that do not degrade easily in the environment. They accumulate in human and animal tissues, disrupt their natural biological pathways, and potentially cause cancer',
@@ -155,6 +161,7 @@ export class LabpageComponent implements OnInit {
     labLink1: 'https://philjournalsci.dost.gov.ph/104-vol-150-s1/1336-updated-checklist-of-the-benthic-marine-macroalgae-of-the-philippines',
     labAuthor: 'Lastimoso, et al.,',
     labDate: 'January 2021',
+    site: 'https://marinephycolab.netlify.app/#home',
   }];
 
   biome = [
@@ -168,7 +175,33 @@ export class LabpageComponent implements OnInit {
     labLink1: 'https://www.sciencedirect.com/science/article/abs/pii/S027277142100175X',
     labAuthor: 'Cordero, et al.,',
     labDate: 'March 2021',
-    site: 'https://biomeph.com',
+    site: 'https://www.biomeph.com/the-group',
+  }];
+
+  marinePharma = [{
+    viewing: 'Marine Pharmacognosy Laboratory',
+    photoBanner: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623831212/Laboratories/Marine%20Pharmacognosy/01-updated-salvador-reyes-banner_mtgivl.jpg',
+    title: 'Marine Pharmacognosy Laboratory',
+    content: 'Natural products are evolutionarily optimized and validated starting points for the development of valuable products for biomedical and industrial applications. Hence, natural products, particularly from marine organisms, can be dubbed as ‘blue gold’.',
+    content1: 'Our work at the Marine Science Institute can be subdivided into three broad domains. Our main focus is on the discovery of natural products from marine organisms such as bacteria cyanobacteria, sponges and mollusks. We are part of two drug discovery consortia in the Philippines: Discovery and Development of Health Products (DDHP) and the Philippine Mollusk Symbiont-International Cooperative Biodiversity Group (PMS-ICBG). Both these projects aim to develop antibiotics, anticancer, and anti-pain agents from molecules produced by marine organisms from the Philippines. In addition, we also spearheaded the assessment of the biotechnological uses of less-studied organisms from the Philippines such as cyanobacteria and the antimalarial activity assessment of marine microorganisms from the Philippines. ',
+    labHighBanner: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623832212/Laboratories/Marine%20Pharmacognosy/highlight_1-Xestospongia_mariculture_copy_ondvvt.jpg',
+    labHighlight: 'Mariculture Potential of Renieramycin-producing Philippine Blue Sponge Xestospongia sp. (Porifera: Haplosclerida)',
+    labLink1: 'https://www.sciencedirect.com/science/article/abs/pii/S0044848618306331',
+    labAuthor: 'Santiago, et al.,',
+    labDate: 'March 2019',
+  }];
+
+  ecoDynamics = [{
+    viewing: 'Ecosystem Dynamics Laboratory',
+    bannerLogo3: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833420/Laboratories/Ecosystem%20Dynamics/0-logo_ypohmh.png',
+    photoBanner: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833729/Laboratories/Ecosystem%20Dynamics/01-yap-banner_whmczq.jpg',
+    title: 'Ecosystem Dynamics Laboratory',
+    content: 'Habitats are interconnected via material and energy flows, constituting one ecosystem in which the human component is embedded. It is not realistic to compartmentalize research approaches along thematic lines, or along boundaries such a terrestrial, marine or freshwater. At the lab we recognize that all disciplines are essential, covering biology, physics, chemistry and geology along with human psychology and the social sciences. A complex systems approach, with its essential underpinning of mathematical modeling, is the hallmark of the lab, its participating students and its collaborators.',
+    labHighBanner: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833397/Laboratories/Ecosystem%20Dynamics/6.1-lab-hilight-photoAttachment_4_Yap_HT_A_Wagner_opxfxd.jpg',
+    labHighlight: 'Using deep-belief networks to understand propensity for livelihood change in a rural coastal community to further conservation',
+    labLink1: 'https://pubmed.ncbi.nlm.nih.gov/32144796/',
+    labAuthor: 'Labao, et al.,',
+    labDate: 'August 2020',
   }];
 
   CoREbool:boolean = false;
@@ -202,6 +235,10 @@ export class LabpageComponent implements OnInit {
       this.myArr = this.mpl;
     }else if(this.router.url === '/Research/laboratories/Biological-Oceanography-and-Modeling-of-Ecosystem-laboratory'){
       this.myArr = this.biome;
+    }else if(this.router.url === '/Research/laboratories/marine-pharmacognosy-laboratory'){
+      this.myArr = this.marinePharma;
+    }else if(this.router.url === '/Research/laboratories/ecosystem-dynamics'){
+      this.myArr = this.ecoDynamics;
     }
   }
 

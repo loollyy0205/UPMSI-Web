@@ -80,6 +80,17 @@ export class LabpageContactComponent implements OnInit {
     tel: 'Tel. no.: +63 2 922-3962',
     email: 'Email: atyniguez@msi.upd.edu.ph'
   }];
+
+  marinePharma = [{
+
+    tel: 'Tel. no.: +63917-636-3614',
+    room: 'Rm 309/365',
+    email: 'Email: lsreyes@msi.upd.edu.ph'
+  }];
+
+  ecoDynamics = [{
+    logo3: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833420/Laboratories/Ecosystem%20Dynamics/0-logo_ypohmh.png',
+  }];
   myArr = [];
 
   constructor(private router:Router) { }
@@ -109,6 +120,10 @@ export class LabpageContactComponent implements OnInit {
       this.myArr = this.mpl;
     }else if(this.router.url === '/Research/laboratories/Biological-Oceanography-and-Modeling-of-Ecosystem-laboratory'){
       this.myArr = this.biome;
+    }else if(this.router.url === '/Research/laboratories/marine-pharmacognosy-laboratory'){
+      this.myArr = this.marinePharma;
+    }else if(this.router.url === '/Research/laboratories/ecosystem-dynamics'){
+      this.myArr = this.ecoDynamics;
     }
   }
 

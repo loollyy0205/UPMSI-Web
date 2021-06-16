@@ -18,6 +18,7 @@
     <img [src]="myArr[0].photoBanner">
     <img [src]="myArr[0].bannerLogo" *ngIf="myArr[0].bannerLogo" class="right-bottom-logo"/>
     <img [src]="myArr[0].bannerLogo2" *ngIf="myArr[0].bannerLogo2" class="right-bottom-logo2"/>
+    <img [src]="myArr[0].bannerLogo3" *ngIf="myArr[0].bannerLogo3" class="right-bottom-logo3"/>
   </div>
 
   <div class="title atlas-blackReg" style="text-transform: uppercase;">
@@ -76,7 +77,8 @@
 
   </ul>
 
-  <a [href]="myArr[0].site" target="_blank"><span class="visit">VISIT OUR FULL SITE</span></a>
+  <a [href]="myArr[0].site" *ngIf="myArr[0].site" target="_blank"><span class="visit">VISIT OUR FULL SITE</span></a>
+  <a [href]="myArr[0].fbpage" target="_blank" *ngIf="myArr[0].fbpage"><span class="visit" *ngIf="myArr[0].fbpage">LEARN MORE ABOUT WORK</span></a>
 
   <!--  -->
   <app-labpage-gallery></app-labpage-gallery>

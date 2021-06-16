@@ -180,6 +180,15 @@ img{
   bottom: 5%;
 }
 
+.right-bottom-logo3 {
+  position: absolute;
+  height: 100px;
+  width: 180px;
+  object-fit: cover;
+  right: 3%;
+  bottom: 5%;
+}
+
 @media (min-width: 1600px) {
   ul {
     font-size: 19px;
@@ -280,6 +289,12 @@ img{
     height: 70px;
     width: 211px;
   }
+
+  .right-bottom-logo3 {
+    height: 117px;
+    width: 211px;
+  }
+
 }
 
 @media (min-width: 1900px) {
@@ -298,6 +313,11 @@ img{
 
   .right-bottom-logo2 {
     height: 83px;
+    width: 251px;
+  }
+
+  .right-bottom-logo3 {
+    height: 139px;
     width: 251px;
   }
 

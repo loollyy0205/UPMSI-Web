@@ -23,6 +23,13 @@
   justify-content: center;
 }
 
+.contact .left3{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .contact .left img{
   height: 200px;
   width: 200px;
@@ -34,6 +41,13 @@
   width: 200px;
   object-fit: cover;
 }
+
+.contact .left3 img{
+  height: 100px;
+  width: 200px;
+  object-fit: cover;
+}
+
 
 .contact .right{
   width: 80%;
@@ -87,6 +101,11 @@
     width: 234px;
   }
 
+  .contact .left3 img{
+    height: 117px;
+    width: 234px;
+  }
+
   .contact .right{
     margin-left: 59px;
     margin-top: 29px; /*added*/
@@ -132,7 +151,12 @@
 
   .contact .left2 img{
     height: 112px;
-    width: 234px;
+    width: 278px;
+  }
+
+  .contact .left3 img{
+    height: 138px;
+    width: 278px;
   }
 
   .contact .right{

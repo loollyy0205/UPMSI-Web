@@ -1,19 +1,18 @@
 /* edited : added css */
 .resources-container{
-  margin-top: 2%;
   display: flex;
   flex-flow: row;
   margin-left:125px;
-  background-color: white;
+  background-color: none; /* edited2 */
   width: 82%;
-  height: 85%;
+  height: 8%;
 }
 
 /* edited : added css */
 .resources-container .resources-left{
   height: 100%;
   width: 55%;
-  background-color: white;
+  background-color: none; /* edited2 */
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -33,7 +32,7 @@
 .resources-content{
   padding: 50px;
   line-height: 1.5;
-  margin-top: 40px;
+  margin-top: 18px !important; /*edited2 */
 }
 
 .container{
@@ -67,7 +66,7 @@
 .lab-img1{
   margin-left: 9%;
   margin-right: 9%;
-  margin-top: 50px;
+  margin-top: 0px; /* edited2 */
   height: 500px;
   position: relative;
   overflow: hidden;

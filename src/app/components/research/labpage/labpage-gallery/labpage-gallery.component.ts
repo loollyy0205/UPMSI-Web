@@ -259,6 +259,47 @@ export class LabpageGalleryComponent implements OnInit {
     aboutPi: 'Dr. Aletta Yñiguez is an Associate Professor at the Marine Science Institute, University of the Philippines in Diliman. She obtained her Ph.D. from the Rosenstiel School of Marine and Atmospheric Science (RSMAS), University of Miami in Florida with the support of Fulbright and Maytag scholarships. She is also the Chair of the UP Puerto Galera Biodiversity and Environmental Research and Outreach Center. She is interested in population and ecosystem dynamics, plankton ecology, harmful algal blooms, fisheries, human impacts on marine ecosystems, ecological modelling.',
   }];
 
+  marinePharma = [{
+    gallery: [
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623831219/Laboratories/Marine%20Pharmacognosy/Chem_analysis_zfcwip.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623831216/Laboratories/Marine%20Pharmacognosy/Salvador-Reyes_Extraction_joakto.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623831216/Laboratories/Marine%20Pharmacognosy/shipworm_ur4m74.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623831216/Laboratories/Marine%20Pharmacognosy/shipworm_ur4m74.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623831216/Laboratories/Marine%20Pharmacognosy/Salvador-Reyes_Cell_culture_sks6df.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623831212/Laboratories/Marine%20Pharmacognosy/Cell_culture_2_psjlqb.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623831213/Laboratories/Marine%20Pharmacognosy/Salvador-Reyes_Chemistry_nx9uk9.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623831211/Laboratories/Marine%20Pharmacognosy/dissecting_snails_lhprch.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623831209/Laboratories/Marine%20Pharmacognosy/DDHP_group_photo_dacqqs.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623831206/Laboratories/Marine%20Pharmacognosy/blue_sponge_mariculture_fwymg0.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623831206/Laboratories/Marine%20Pharmacognosy/Chem_analysis2_cu2qgr.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623831206/Laboratories/Marine%20Pharmacognosy/Microorganisms_hwmf8o.png'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623831203/Laboratories/Marine%20Pharmacognosy/blue_sponge_mariculture2_gftmb6.jpg'},
+     ],
+    pi: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833127/Laboratories/Marine%20Pharmacognosy/15-Lilibeth_S._Reyes_Ph.D._copy_cfxkfx.jpg',
+    piName: 'Dr. Lilibeth A. Salvador-Reyes',
+    aboutPi: 'Dr. Lilibeth Salvador-Reyes is an Associate Professor and UP Scientist I at the Marine Science Institute (UPMSI). She joined the UPMSI in 2013 under the Balik PhD program of the University of the Philippines. She was awarded the Kilmer Prize by the American Society of Pharmacognosy and American Pharmaceutical Association in 2012 and Outstanding Young Scientist by the National Academy of Science and Technology in 2019.',
+  }];
+
+  ecoDynamics = [{
+    gallery: [
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833390/Laboratories/Ecosystem%20Dynamics/03-gallery-Attachment_2_Yap_HT_A_Labao_g4nsix.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833392/Laboratories/Ecosystem%20Dynamics/04-gallery-G8_Yap_HT_Ecosystem_Dynamics_Jonathan_Locqueville_MSc_student_learning_from_the_community_qystck.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833392/Laboratories/Ecosystem%20Dynamics/3.1-gallery-Attachment_3_Yap_HT_EL_Dingkuhn_oi3xv5.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833403/Laboratories/Ecosystem%20Dynamics/3.3-gallery-Attachment_5_Yap_HT_His_Excellency_Thierry_Mathou_former_ambassador_of_France_to_the_Philippines_tusw4n.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833397/Laboratories/Ecosystem%20Dynamics/3.4-gallery-G1_Yap_HT_Ecosystem_Dynamics_MSI_team_in_Abra_de_Ilog_m2cep0.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833400/Laboratories/Ecosystem%20Dynamics/3.5-gallery-G3_Yap_HT_Ecosystem_Dynamics_Collecting_data_about_fisheries_hco8cs.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833389/Laboratories/Ecosystem%20Dynamics/3.6-gallery-G4_Yap_HT_Ecosystem_Dynamics_Raymond_Dizon_releasing_green_turtle_hatchlings_efbwlo.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623834524/Laboratories/Ecosystem%20Dynamics/3.7-gallery-G5_Yap_HT_Ecosystem_Dynamics_Discussions_with_local_community_about_need_for_marine_protected_area_ng1joq.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833395/Laboratories/Ecosystem%20Dynamics/3.8-gallery-G6_Yap_HT_Ecosystem_Dynamics_Teaching_school_children_about_waste_management_uist1k.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623834524/Laboratories/Ecosystem%20Dynamics/3.9-gallery-G7_Yap_HT_Ecosystem_Dynamics_Jonathan_Locqueville_MSc_student_exploring_terrain_lgyux5.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833393/Laboratories/Ecosystem%20Dynamics/4.1-gallery-G9_Yap_HT_Ecosystem_Dynamics_Elsa_Ligaya_Dingkuhn_demonstrating_principles_of_organic_rice_farming_sutdo2.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833396/Laboratories/Ecosystem%20Dynamics/4.2-gallery-G10_Yap_HT_Ecosystem_Dynamics_Students_from_the_University_of_the_Philippines_LB_wgg6ce.jpg'},
+     ],
+    pi: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833433/Laboratories/Ecosystem%20Dynamics/22-Maria_Helene_Yap_kkogpa.jpg',
+    piName: 'Dr. Helen T. Yap',
+    aboutPi: 'Helen T. Yap, Professor of Marine Science, graduated in 1979 from the University of the Philippines - Diliman (BSc Marine Biology, magna cum laude), and obtained her doctorate in 1987 from the Wilhelm-Pieck University in Rostock, the German Democratic Republic.',
+  }];
+
   myArr = [];
 
 
@@ -289,6 +330,10 @@ export class LabpageGalleryComponent implements OnInit {
       this.myArr = this.mpl;
     }else if(this.router.url === '/Research/laboratories/Biological-Oceanography-and-Modeling-of-Ecosystem-laboratory'){
       this.myArr = this.biome;
+    }else if(this.router.url === '/Research/laboratories/marine-pharmacognosy-laboratory'){
+      this.myArr = this.marinePharma;
+    }else if(this.router.url === '/Research/laboratories/ecosystem-dynamics'){
+      this.myArr = this.ecoDynamics;
     }
 
   }
