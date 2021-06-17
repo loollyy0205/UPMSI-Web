@@ -66,7 +66,17 @@
 .lab-img1{
   margin-left: 9%;
   margin-right: 9%;
-  margin-top: 0px; /* edited2 */
+  margin-top: 40px; /* edited3 */
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* edited3: added css */
+.lab-img2{
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 0px;
   height: 500px;
   position: relative;
   overflow: hidden;
@@ -81,6 +91,11 @@ img{
 
 img:hover{
   transform: scale(1.1);
+}
+
+.diag{
+  height: 100%;
+  width: 100%;
 }
 
 .lab-img{
@@ -185,6 +200,22 @@ img:hover{
   flex-direction: row;
 }
 
+/*edited3: added screensize */
+@media (min-width: 1400px) {
+
+/* edited3: added css */
+.diag{
+  height: 450px;
+    width: 450px;
+    background-size: 100%;
+}
+
+/* edited3: added css */
+.resources-container{
+  margin-left:145px;
+}
+}
+
 @media (min-width: 1600px) {
   *{
     font-size: 19px;
@@ -271,6 +302,18 @@ img:hover{
   .context{
     width: 796px;
   }
+
+/* edited3: added css */
+.diag{
+  height: 550px;
+    width: 550px;
+    background-size: 100%;
+}
+
+/* edited3: added css */
+.resources-container{
+  margin-left:165px;
+}
 }
 
 @media (min-width: 1900px) {
@@ -358,4 +401,16 @@ img:hover{
   .context{
     width: 945px;
   }
+
+  /* edited3: added css */
+.diag{
+  height: 630px;
+    width: 630px;
+    background-size: 100%;
+}
+
+/* edited3: added css */
+.resources-container{
+  margin-left:195px;
+}
 }

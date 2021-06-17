@@ -46,9 +46,12 @@ a {
   margin-top: 40px;
   display: flex;
   justify-content: flex-end;
-  text-decoration: underline;
   color: #384e8a;
   cursor: pointer;
+}
+
+.visit:hover {
+  text-decoration: underline;
 }
 
 .hr-line {

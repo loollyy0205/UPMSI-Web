@@ -15,7 +15,7 @@ export class LabpageContactComponent implements OnInit {
   miel = [{
     logo: 'https://dc592.4shared.com/img/UXVa4VLsea/s24/179ac808f28/MIEL_Logo?async&rand=0.7027315813783175',
     room: 'Room 235',
-    tel: 'Tel. no.: (632) 981-8500 local 2908',
+    tel: 'Contact no.: (632) 981-8500 local 2908',
     email: 'Email: ajmenez@msi.upd.edu.ph / majm.lab@gmail.com '
   }];
 
@@ -27,7 +27,7 @@ export class LabpageContactComponent implements OnInit {
 
   algae = [{
     logo2: 'https://dc592.4shared.com/img/49qxAylBea/s24/179ac7e7fd0/0_AlgaE_lab_logo_hi-res?async&rand=0.23334327280584444',
-    tel: 'Tel. no.: (63 02) 8991 8500',
+    tel: 'Contact no.: (63 02) 8991 8500',
     email: 'Email: algalecolab@msi.upd.edu.ph'
   }];
 
@@ -40,7 +40,7 @@ export class LabpageContactComponent implements OnInit {
   OCCO = [{
     logo: 'https://dc570.4shared.com/img/z4JW2PGXea/s24/179e59e85d0/OCCO_Lab_logo_-_colored?async&rand=0.9107429452790894',
     room: 'Rm 344,',
-    tel: 'Tel. no.: +6327 219-1118 / +639178370182',
+    tel: 'Contact no.: +6327 219-1118 / +639178370182',
     email: 'Email: ltdavid@msi.upd.edu.ph'
   }];
 
@@ -53,7 +53,7 @@ export class LabpageContactComponent implements OnInit {
 
   oasis = [{
     logo: 'https://dc570.4shared.com/img/vykwcEP0iq/s24/179e6ce4788/OASIS_Logo_Colored?async&rand=0.3396722751313206',
-    tel: 'Tel. no.: (02) 8981-8500 loc 2907',
+    tel: 'Contact no.: (02) 8981-8500 loc 2907',
     email: 'Email: oasisgeochemistrylab@gmail.com'
   }];
 
@@ -65,31 +65,33 @@ export class LabpageContactComponent implements OnInit {
 
   mbl = [{
     logo: 'https://dc570.4shared.com/img/WehzBd6kea/s24/179e70c65e0/MBLlogo_F?async&rand=0.7480877507135706',
-    tel: 'Tel. No: +632 922 3944',
+    tel: 'Contact No: +632 922 3944',
     email: 'Email: mlmcglone@msi.upd.edu.ph'
   }];
 
   mpl = [{
     logo: 'https://dc570.4shared.com/img/nne_EGJBiq/s24/179e71b2f08/logo-marine-phycology-lab?async&rand=0.44681208196961486',
-    tel: 'Tel. no.: (63 02) 8922 3958',
+    tel: 'Contact no.: (63 02) 8922 3958',
     email: 'Email: marinephycolab@msi.upd.edu.ph'
   }];
 
   biome = [{
     logo2: 'https://dc570.4shared.com/img/-FZ7AQI6iq/s24/179e7280fe8/BiOME_logo_official?async&rand=0.5985281752795979',
-    tel: 'Tel. no.: +63 2 922-3962',
+    tel: 'Contact no.: +63 2 922-3962',
     email: 'Email: atyniguez@msi.upd.edu.ph'
   }];
 
   marinePharma = [{
 
-    tel: 'Tel. no.: +63917-636-3614',
+    tel: 'Contact no.: +63917-636-3614',
     room: 'Rm 309/365',
     email: 'Email: lsreyes@msi.upd.edu.ph'
   }];
 
   ecoDynamics = [{
     logo3: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833420/Laboratories/Ecosystem%20Dynamics/0-logo_ypohmh.png',
+    email: 'Email: helentyap@yahoo.com',
+    tel: 'Contact no.: 02-8922 3959',
   }];
   myArr = [];
 
