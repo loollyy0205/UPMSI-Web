@@ -16,25 +16,21 @@ export class FacultyComponent implements OnInit {
 
   residentProf1 = [
     {name: 'Porfirio M. Aliño, Ph.D.', label1: 'Research Professor', label2: 'NAST Academician '},
-    {name: 'Michael P. Atrigenio, Ph.D.', label1: 'Associate Professor'},
+    {name: 'Michael P. Atrigenio, Ph.D.', label1: 'Assistant Professor'},
     {name: 'Patrick C. Cabaitan, Ph.D.', label1: 'Associate Professor'},
     {name: 'Cecilia G. Conaco, Ph.D.', label1: 'Associate Professor'},
-    {name: 'Laura T. David, Ph.D.', label1: 'Professor, Director'},
+    {name: 'Laura T. David, Ph.D.', label1: 'Professor', label2: 'Director'},
     {name: 'Charissa M. Ferrera, Ph.D.', label1: 'Assistant Professor'},
     {name: 'Rachel June Ravago-Gotanco, Ph.D.', label1: 'Associate Professor', label2: 'Deputy Director for Instruction'},
-    {name: 'Gil S. Jacinto, Ph.D.', label1: 'Professor - Retired'},
+    // {name: 'Gil S. Jacinto, Ph.D.', label1: 'Professor - Retired'},
     {name: 'Caroline Marie B. Jaraula, Ph.D.', label1: 'Assistant Professor'},
-    {name: 'Arturo O. Lluisma, Ph.D.', label1: 'Research Professor', label2: 'Program Director', label3: 'Bioinformatics Program and Core Facility',
-    /**
-    edited: label2
-    */
-    label4: 'Philippine Genome Center'},
+    {name: 'Arturo O. Lluisma, Ph.D.', label1: 'Research Professor'},
     {name: 'Marie Antonette Juinio-Meñez, Ph.D.', label1: 'Professor', label2: 'NAST Academician '},
     {name: 'Deo Florence L. Onda, Ph.D.', label1: 'Associate Professor', label2: 'Deputy Director for Research'},
+    {name: 'Ma. Josefa R. Pante, Ph.D.', label1: 'Professor', label2: 'Deputy Director for Bolinao Marine Laboratory'},
   ];
 
   residentProf2 = [
-    {name: 'Ma. Josefa R. Pante, Ph.D.', label1: 'Research Associate Professor', label2: 'Deputy Director for Bolinao Marine Laboratory'},
     {name: 'Charina Lyn A. Repollo, Ph.D.', label1: 'Assistant Professor'},
     {name: 'Lilibeth A. Salvador- Reyes, Ph.D.', label1: 'Associate Professor'},
     {name: 'Irene B. Rodriguez, Ph.D.', label1: 'Associate Professor'},
@@ -58,6 +54,12 @@ export class FacultyComponent implements OnInit {
     {name: 'Edgardo D. Gomez, Ph.D.'},
     {name: 'Lourdes J. Cruz, Ph.D.'},
     {name: 'Gavino C. Trono Jr., Ph.D.'},
+  ];
+
+  retiredProf = [
+    {name: 'Michael P. Atrigenio, Ph.D.', label1: 'Assistant Professor'},
+    {name: 'Arturo O. Lluisma, Ph.D.', label1: 'Research Professor', label2: 'Program Director', label3: 'Bioinformatics Program and Core Facility', label4: 'Philippine Genome Center'},
+    {name: 'Ma. Josefa R. Pante, Ph.D.', label1: 'Professor', label2: 'Deputy Director for Bolinao Marine Laboratory'},
   ];
 
   emeriti = [

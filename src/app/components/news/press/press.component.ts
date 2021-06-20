@@ -29,7 +29,7 @@ export class PressComponent implements OnInit {
     */
 
     {image: "../../../../assets/photos/press-coverage/thumbnail-05.jpg", title: "U.P. scientist set to be first Filipino to reach 3rd deepest point on earth | New Day", content: 'A scientist is set to make history as the first Filipino who will be able to reach the third deepest point in the world. We speak with Dr. Deo Florence Onda.'},
-    {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Proceed with transparency", content: `"We need to define what is the exporation really for. Is it really just for oil? Or is it for other resources?"`},
+    {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`},
     {image: "../../../../assets/photos/press-coverage/thumbnail-07.jpg", title: "Rappler Talk: Deo Onda on the value of West PH Sea resources to Filipinos", content: `Follow Rappler for the latest news in the Philippines and across the globe. Rappler editor-at-large Marites Vitug sits down with Dr Deo Onda...`},
     {image: "../../../../assets/photos/press-coverage/thumbnail-08.jpg", title: "SONA: UP Marine Science Institute, nanawagan na protektahan ang ating EEZ", content: `Matapos tumambad ang mga sira-sirang bahura sa West Philippine Sea, nanawagan ang UP Marine Science Institute na dapat protektahan ang ating...`},
     {image: "../../../../assets/photos/press-coverage/thumbnail-09.jpg", title: "ON THE SPOT: All Filipino scientific expedition sa Kalayaan Island sa West Philippine Sea", content: `ON THE SPOT: All Filipino scientific expedition sa Kalayaan Island sa West Philippine Sea`},
@@ -63,7 +63,7 @@ export class PressComponent implements OnInit {
         this.router.navigate(['/News/press-coverage-headlines', 'UP-scientist-set-to-be-first-filipino-to-reach-3rd-deepest-point-on-earth']);
         break;
       case 5:
-        this.router.navigate(['/News/press-coverage-headlines', 'proceed-with-transparency']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources']);
         break;
       case 6:
         this.router.navigate(['/News/press-coverage-headlines', 'Rappler-Talk-Deo-Onda-on-the-value-of-West-PH-Sea-resources-to-filipinos']);

@@ -50,7 +50,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Horigue, V., Aliño, P.M., White, A.T. and Pressey, R.L. (2012). Marine protected area networks in the Philippines: trends and challenges for establishment and governance. Ocean & Coastal Management Vol. 64, pp. 15-26.'},
       {publi: 'Villanoy,C., David, L., Cabrera, O., Atrigenio, M., Siringan, F., Aliño, P. and Villaluz, M. (2012). Coral reef ecosystems protect shore from high-energy waves under climate change scenarios. Climate Change Vol. 112 (2), pp. 493-505.'},
     ]},
-    {image: 'https://dc697.4shared.com/img/zLgZs-04ea/s24/179c13e9e28/02-Michael_P_Atrigenio?async&rand=0.573086578215513', name: 'Michael P. Atrigenio, Ph.D.', title1: 'Associate Professor',},
+    {image: 'https://dc697.4shared.com/img/zLgZs-04ea/s24/179c13e9e28/02-Michael_P_Atrigenio?async&rand=0.573086578215513', name: 'Michael P. Atrigenio, Ph.D.', title1: 'Assistant Professor',},
     /**
     edited: removed  badge: 'Academician of the National Academy of Science and Technology (NAST)'
     */
@@ -207,7 +207,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Jaraula CMB, Kenig F, Doran PT, Priscu JC, Welch KA, 2008. SPME-GCMS study of the natural attenuation of aviation diesel on the perennial ice cover of Lake Fryxell, Antarctica. Science of the Total Environment 407, 1, 250-262. DOI:10.1016/j.scitotnv.2008.07.064.'},
       {publi: 'Ong JB, Aguda N, Jaraula CMB, Mateo ZRP, Pascua C, Foronda J, 2000. Tidal Effects on Groundwater in a very small tropical island, Science Diliman, Philippines.'},
     ]},
-    {image: 'https://dc697.4shared.com/img/g-yU2YZbea/s24/179c13ed4d8/10-Arturo_O_Lluisma_PhD?async&rand=0.8320257505711277', name: 'Arturo O. Lluisma, Ph.D.', title1: 'Research Associate Professor ', badge: 'Program Directory', badge2:'Bioinformatics Program and Core Facility Philippine Genome Center', education1: 'Ph.D. Biology ', education2: 'Dalhousie University, Canada ', RI: 'Marine genomics, molecular genetics, and bioinformatics; phylogenetics and genetic diversity; algal and microbial biotechnology',
+    {image: 'https://dc697.4shared.com/img/g-yU2YZbea/s24/179c13ed4d8/10-Arturo_O_Lluisma_PhD?async&rand=0.8320257505711277', name: 'Arturo O. Lluisma, Ph.D.', title1: 'Research Associate Professor ',
 /**
 edited the badges
 */
@@ -361,7 +361,7 @@ edited the badges
       {publi: 'Onda DFL, Lovejoy C. (Submitted). Dinoflagellates in size fractionated samples from the Canada Basin, Western Arctic Ocean. The Journal of Eukaryotic Microbiology.'},
       {publi: 'Joli N, Ardyna M, Onda DFL, Babin M, Gosslin M, Lovejoy C. (Submitted). Baffin Bay: The Janus Gateway. Scientific Reports.'},
     ]},
-    {image: 'https://dc697.4shared.com/img/hbr13GfIea/s24/179c13ee090/13-Ma_Josefa_Pante?async&rand=0.06702497092376403', name: 'Ma. Josefa R. Pante, Ph.D.', title1: 'Research Associate Professor', badge: 'Deputy Director, UP MSI-Bolinao Marine Laboratory ', education1: 'Ph.D. Animal Breeding and Genetics', education2: 'University of Guelph, Canada', RI: 'Quantitative genetics ',
+    {image: 'https://dc697.4shared.com/img/hbr13GfIea/s24/179c13ee090/13-Ma_Josefa_Pante?async&rand=0.06702497092376403', name: 'Ma. Josefa R. Pante, Ph.D.', title1: 'Professor', badge: 'Deputy Director, UP MSI-Bolinao Marine Laboratory ', education1: 'Ph.D. Animal Breeding and Genetics', education2: 'University of Guelph, Canada', RI: 'Quantitative genetics ',
     publication: [
       {publi: 'Labrador K, Agmata A, Palermo JD, Follante J, Pante MJ. 2019. Authentication of processed Philippine sardine products using Hotshot DNA extraction and minibarcode amplification. Food Control 95:150-155'},
       {publi: 'Ravago-Gotanco R, de la Cruz TL, Pante JM, Borsa P. 2018. Cryptic genetic diversity in the mottled rabbitfish Siganus fuscescens with mitochondrial introgression at a contact zone in the South China Sea. PLoS ONE 13(2):1–27. '},

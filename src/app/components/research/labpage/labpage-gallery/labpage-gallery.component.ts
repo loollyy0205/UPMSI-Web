@@ -277,7 +277,7 @@ export class LabpageGalleryComponent implements OnInit {
      ],
     pi: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833127/Laboratories/Marine%20Pharmacognosy/15-Lilibeth_S._Reyes_Ph.D._copy_cfxkfx.jpg',
     piName: 'Dr. Lilibeth A. Salvador-Reyes',
-    aboutPi: 'Dr. Lilibeth Salvador-Reyes is an Associate Professor and UP Scientist I at the Marine Science Institute (UPMSI). She joined the UPMSI in 2013 under the Balik PhD program of the University of the Philippines. She was awarded the Kilmer Prize by the American Society of Pharmacognosy and American Pharmaceutical Association in 2012 and Outstanding Young Scientist by the National Academy of Science and Technology in 2019.',
+    aboutPi: 'Dr. Lilibeth Salvador-Reyes is an Associate Professor and UP Scientist I at the Marine Science Institute (UP MSI). She joined the UP MSI in 2013 under the Balik PhD program of the University of the Philippines. She was awarded the Kilmer Prize by the American Society of Pharmacognosy and American Pharmaceutical Association in 2012 and Outstanding Young Scientist by the National Academy of Science and Technology in 2019.',
   }];
 
   ecoDynamics = [{

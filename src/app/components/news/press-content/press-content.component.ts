@@ -83,12 +83,12 @@ export class PressContentComponent implements OnInit {
   }];
 
   press06 = [{
-    title: `Proceed with transparency`,
-    date: 'September 3, 2019',
-    author: 'One News PH',
-    thumbnail: 'https://www.youtube.com/embed/tikItLGcHcI',
-    photoContent: `"We need to define what is the exporation really for. Is it really just for oil? Or is it for other resources?"`,
-    courtesy: 'VIDEO COURTESY OF One News PH',
+    title: `Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources`,
+    date: 'June 10, 2021',
+    author: 'Rappler',
+    thumbnail: 'https://www.youtube.com/embed/IR5wWPBz_Tc',
+    photoContent: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of the resources found in Philippine waters and how the country can protect them.`,
+    courtesy: 'VIDEO COURTESY OF Rappler',
 
     news: [
       {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
@@ -258,7 +258,7 @@ export class PressContentComponent implements OnInit {
       case '/News/press-coverage-headlines/UP-scientist-set-to-be-first-filipino-to-reach-3rd-deepest-point-on-earth':
         this.myArr = this.press05;
         break;
-      case '/News/press-coverage-headlines/proceed-with-transparency':
+      case '/News/press-coverage-headlines/Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources':
         this.myArr = this.press06;
         break;
       case '/News/press-coverage-headlines/Rappler-Talk-Deo-Onda-on-the-value-of-West-PH-Sea-resources-to-filipinos':
