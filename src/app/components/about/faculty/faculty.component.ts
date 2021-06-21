@@ -13,6 +13,7 @@ export class FacultyComponent implements OnInit {
   panelOpenState1:boolean =false;
   panelOpenState2:boolean =false;
   panelOpenState3:boolean =false;
+  panelOpenState4:boolean =false;
 
   residentProf1 = [
     {name: 'Porfirio M. Aliño, Ph.D.', label1: 'Research Professor', label2: 'NAST Academician '},
@@ -57,9 +58,10 @@ export class FacultyComponent implements OnInit {
   ];
 
   retiredProf = [
-    {name: 'Michael P. Atrigenio, Ph.D.', label1: 'Assistant Professor'},
-    {name: 'Arturo O. Lluisma, Ph.D.', label1: 'Research Professor', label2: 'Program Director', label3: 'Bioinformatics Program and Core Facility', label4: 'Philippine Genome Center'},
-    {name: 'Ma. Josefa R. Pante, Ph.D.', label1: 'Professor', label2: 'Deputy Director for Bolinao Marine Laboratory'},
+    {name: 'Miguel D. Fortes, Ph.D.',},
+    {name: 'Edna Ganzon-Fortes, Ph.D.',},
+    {name: 'Gil S. Jacinto, Ph.D.', label1: 'Professor - Retired'},
+    {name: 'Marco Nemesio E. Montaño, Ph.D.'},
   ];
 
   emeriti = [

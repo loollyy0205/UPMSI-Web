@@ -38,7 +38,7 @@
 /* Education CSS Section */
 .educ-container{
   height: 600px;
-  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623340911/Home/03-academics_bci8bl.png);
+  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1624237643/Home/3.1-academics-section_joxipq.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -76,7 +76,7 @@
 .extension-container .extension-left{
   height: 100%;
   width: 45%;
-  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623340906/Home/04-extension_id3tt0.png);
+  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1624237642/Home/4-extension-section_ah2vps.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
