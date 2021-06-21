@@ -80,10 +80,19 @@
       <mat-panel-title class="atlas-light panel-title">RETIRED PROFESSORS</mat-panel-title>
       </mat-expansion-panel-header>
       <div class="regular-content">
-        <div class="left">
-          <div *ngFor="let item of retiredProf">
-            <div (click)="openDialog(item.name)">
-              <p class="atlas-bold">{{item.name}}</p>
+        <div class="left" style="margin-bottom: -2%;">
+          <div>
+            <div>
+              <p class="atlas-bold">Miguel D. Fortes, Ph.D.</p>
+            </div>
+            <div>
+              <p class="atlas-bold">Edna Ganzon-Fortes, Ph.D.</p>
+            </div>
+            <div (click)="openDialog('Gil S. Jacinto, Ph.D.')">
+              <p class="atlas-bold">Gil S. Jacinto, Ph.D.</p>
+            </div>
+            <div>
+              <p class="atlas-bold">Marco Nemesio E. Montaño, Ph.D.</p>
             </div>
           </div>
 

@@ -57,12 +57,12 @@ export class FacultyComponent implements OnInit {
     {name: 'Gavino C. Trono Jr., Ph.D.'},
   ];
 
-  retiredProf = [
-    {name: 'Miguel D. Fortes, Ph.D.',},
-    {name: 'Edna Ganzon-Fortes, Ph.D.',},
-    {name: 'Gil S. Jacinto, Ph.D.', label1: 'Professor - Retired'},
-    {name: 'Marco Nemesio E. Montaño, Ph.D.'},
-  ];
+  // retiredProf = [
+  //   {name: 'Miguel D. Fortes, Ph.D.',},
+  //   {name: 'Edna Ganzon-Fortes, Ph.D.',},
+  //   {name: 'Gil S. Jacinto, Ph.D.', label1: 'Professor - Retired'},
+  //   {name: 'Marco Nemesio E. Montaño, Ph.D.'},
+  // ];
 
   emeriti = [
     {name: 'Edgardo D. Gomez, Ph.D.'},
