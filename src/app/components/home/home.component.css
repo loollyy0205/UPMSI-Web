@@ -2,17 +2,15 @@
 *{
   margin: 0;
   padding: 0;
+  font-size: 1.17vw;
 }
 
 
 /* Learn more Button */
 #learn-more{
-  width: 250px;
-  font-size: 16px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: 41%;
+  font-size: 1.17vw;
+  padding: 2% 0;
   cursor: pointer;
   border: none;
   outline: none;
@@ -21,12 +19,32 @@
 }
 
 #learn-more-a{
-  width: 250px;
-  font-size: 16px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: 41%;
+  font-size: 1.17vw;
+  padding: 2% 0;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #384e8a;
+  color: white;
+}
+
+/* Learn more Button */
+#learn-more-b{
+  width: 55%;
+  font-size: 1.17vw;
+  padding: 2.5% 0;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #5da563;
+  color: white;
+}
+
+#learn-more-c{
+  width: 55%;
+  font-size: 1.17vw;
+  padding: 2.5% 0;
   cursor: pointer;
   border: none;
   outline: none;
@@ -37,7 +55,7 @@
 
 /* Education CSS Section */
 .educ-container{
-  height: 600px;
+  height: 45vw;
   background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1624237643/Home/3.1-academics-section_joxipq.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,7 +65,8 @@
 }
 
 .educ-title{
-  color: white; font-size: 40px;
+  color: white;
+  font-size: 3vw;
 }
 
 .educ-p{
@@ -55,7 +74,7 @@
 }
 
 .educ-container .educ-content{
-  padding-left: 120px;
+  padding-left: 9%;
   width: 45%;
   /* width: 600px; */
   line-height: 1.5;
@@ -93,15 +112,15 @@
 
 /* Research CSS Section */
 .research-container{
-  height: 600px;
+  height: 45vw;
   display: flex;
   flex-flow: column;
   justify-content: center;
 }
 
 .research-container .research-content{
-  padding-top: 100px;
-  padding-left: 120px;
+  /* padding-top: 8%; */
+  padding-left: 9%;
   width: 45%;
   line-height: 1.5;
 }
@@ -132,7 +151,7 @@
 }
 
 .resources-content{
-  padding: 80px;
+  padding: 13%;
   line-height: 1.5;
 }
 
@@ -161,21 +180,20 @@
 }
 
 .msiOffice-content{
-  padding: 80px;
+  padding: 13%;
   line-height: 1.5;
 }
 
 .res-banner{
-  height: 500px;
+  height: 37vw;
 }
 
 .res-banner-content{
-  font-size: 16px;
+  font-size: 1.17vw;
 }
 
-@media (min-width: 1600px) {
+/* @media (min-width: 1600px) {
 
-  /* Learn more Button */
   #learn-more{
     width: 293px;
     font-size: 19px;
@@ -185,7 +203,6 @@
     padding-right: 47px;
   }
 
-  /* kate: added css */
   #learn-more-a {
     width: 293px !important;
     font-size: 19px;
@@ -195,8 +212,6 @@
     padding-right: 47px;
   }
 
-
-  /* Education CSS Section */
   .educ-container{
     height: 703px;
   }
@@ -211,7 +226,6 @@
     font-size: 19px;
   }
 
-  /* Research CSS Section */
   .research-container{
     height: 703px;
     font-size: 19px;
@@ -242,7 +256,7 @@
 
 
 @media (min-width: 1920px) {
-  /* Learn more Button */
+
   #learn-more{
     width: 352px;
     font-size: 23px;
@@ -252,7 +266,6 @@
     padding-right: 56px;
   }
 
-  /*kate" added css */
   #learn-more-a{
     width: 352px !important;
     font-size: 23px;
@@ -263,7 +276,6 @@
   }
 
 
-  /* Education CSS Section */
   .educ-container{
     height: 843px;
   }
@@ -278,7 +290,6 @@
     font-size: 23px;
   }
 
-  /* Research CSS Section */
   .research-container{
     height: 843px;
     font-size: 23px;
@@ -305,4 +316,4 @@
   .res-banner-content{
     font-size: 23px;
   }
-}
+} */
