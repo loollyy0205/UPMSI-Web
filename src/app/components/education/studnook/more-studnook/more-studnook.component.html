@@ -1,0 +1,27 @@
+<app-nav></app-nav>
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
+<div class="container animate__animated animate__fadeIn animate__delay-1s">
+  <p class="atlas-bold title">GRADUATE STUDENTS' NOOK</p>
+
+  <div class="image-content">
+    <div *ngFor="let item of vacancies; let i = index;">
+      <img [src]="item.image" (click)="moreContent(i)" style="cursor: pointer;">
+      <div style="line-height: 1.4;">
+        <p class="atlas-bold header" (click)="moreContent(i)">{{item.title}}</p>
+        <p class="atlas-light date">{{item.date}}</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
+  <span class="arrow-text" routerLink="/Research">
+    <p class="atlas-light">TO RESEARCH</p>
+  </span>
+  <mat-icon class="arrow" style="padding-left: .5%;" routerLink="/Academics">arrow_forward</mat-icon>
+</div>
+
+<div>
+  <app-footer></app-footer>
+</div>

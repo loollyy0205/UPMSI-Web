@@ -52,6 +52,8 @@ import { PressComponent } from './components/news/press/press.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MuseumTabComponent } from './components/resources/museum-exhibits/museum-tab/museum-tab.component';
+import { MoreStudNookComponent } from './components/education/studnook/more-studnook/more-studnook.component';
+import { StudNookComponent } from './components/education/studnook/studnook.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/Home', pathMatch: 'full'},
@@ -69,6 +71,8 @@ const routes: Routes = [
   {path: 'Academics/msi-academics', component: AcademicsComponent},
   {path: 'Academics/courses-offered', component: CoursesComponent},
   {path: 'Academics/downloadable-forms', component: DownloadableFormsComponent},
+  {path: 'Academics/studnook/more', component: MoreStudNookComponent},
+  {path: 'Academics/studnook/:name', component: StudNookComponent},
   {path: 'Research', component: ResearchComponent},
   {path: 'Research/areas-of-research', component: AreasOfResearchComponent},
   {path: 'Research/laboratories', component: LaboratoriesComponent},

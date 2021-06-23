@@ -102,6 +102,8 @@ import { AcadFocusComponent } from './components/education/academics/acad-focus/
 import { MNLPComponent } from './components/resources/collection/mnlp/mnlp.component';
 import { RVAComponent } from './components/resources/collection/rva/rva.component';
 import { VisionMissionComponent } from './components/about/about-msi/vision-mission/vision-mission.component';
+import { MoreStudNookComponent } from './components/education/studnook/more-studnook/more-studnook.component';
+import { StudNookComponent } from './components/education/studnook/studnook.component';
 
 @NgModule({
   declarations: [
@@ -194,7 +196,9 @@ import { VisionMissionComponent } from './components/about/about-msi/vision-miss
     AcadFocusComponent,
     MNLPComponent,
     RVAComponent,
-    VisionMissionComponent
+    VisionMissionComponent,
+    StudNookComponent,
+    MoreStudNookComponent
   ],
   imports: [
     BrowserModule,

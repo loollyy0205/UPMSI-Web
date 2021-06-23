@@ -1,0 +1,30 @@
+<app-nav></app-nav>
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
+<div class="container animate__animated animate__fadeIn animate__delay-1s">
+  <p class="atlas-bold title">GRADUATE STUDENTS' NOOK</p>
+
+  <div class="center-box">
+    <div class="box-content">
+      <img [src]="myArr[0].thumbnail" />
+    </div>
+  </div>
+
+  <!-- <div class="bottom-content">
+    <p class="atlas-bold" style="color: #394e8a;">(Title Content here!)</p>
+
+    <p class="atlas-light job-context">(Body text here!) Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dignissimos similique quo iste obcaecati labore, ducimus accusamus facere inventore ad, consectetur dolorum? Distinctio voluptatibus quo doloremque officiis? Officia necessitatibus quisquam enim, temporibus repellat placeat, minus esse consequatur nisi blanditiis natus!</p>
+  </div> -->
+
+
+</div>
+
+<div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
+  <span class="arrow-text" (click)="moreVancancies()">
+    <p class="atlas-light">BACK TO GRADUATE STUDENTS' NOOK</p>
+  </span>
+  <mat-icon class="arrow" style="padding-left: .5%;" (click)="moreVancancies()">arrow_forward</mat-icon>
+</div>
+
+<div>
+  <app-footer></app-footer>
+</div>
