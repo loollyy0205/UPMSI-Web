@@ -50,13 +50,23 @@
 
 @media (max-width: 576px) {
   .news-container{
-    margin: 2% 9% 7% 9%;
+    margin: 4% 9% 1% 9%;
     display: flex;
     justify-content: center;
   }
 
+  .top-2 {
+    margin-top: 3.2%;
+  }
+
+  .title{
+    color: #384e8a;
+    font-size: 7vw;
+    cursor: pointer;
+  }
+
   .news-container .news-content{
-    margin-top: 3%;
+    margin-top: 5.5%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
@@ -65,8 +75,8 @@
 
   .content-title{
     color: #274d8b;
-    padding-top: 1%;
-    font-size: 1.17vw;
+    padding-top: 3.5%;
+    font-size: 5vw;
     line-height: 1.2;
   }
 
@@ -77,9 +87,9 @@
   }
 
   .title-content{
-    font-size: 1.025vw;
-    margin-top: 1.2%;
-    margin-bottom: 4%;
+    font-size: 4vw;
+    margin-top: 2.2%;
+    margin-bottom: 7%;
   }
 }
 

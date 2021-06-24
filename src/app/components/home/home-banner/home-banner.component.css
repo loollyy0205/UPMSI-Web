@@ -140,6 +140,45 @@
 }
 
 
+@media (max-width: 576px) {
+  .imagecon{
+    height: 55vw;
+    width: 100%;
+  }
+
+  .capital-words{
+    font-size: 7vw;
+    width: 75%;
+    margin-bottom: 1.5%;
+  }
+
+  .capital-words2{
+    font-size: 7vw;
+    width: 80%;
+    /* line-height: 1.3; */
+    margin-bottom: 1.5%;
+  }
+
+  .sub-title {
+    display: none;
+  }
+
+  .second-p{
+    display: none;
+  }
+
+  #learn-more{
+    width: 35%;
+    font-size: 3vw;
+    margin-top: 2.5%;
+    padding: 1.8% 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #5da563;
+    color: white;
+  }
+}
 
 
 

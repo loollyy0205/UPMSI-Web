@@ -192,128 +192,129 @@
   font-size: 1.17vw;
 }
 
-/* @media (min-width: 1600px) {
+@media (max-width: 576px) {
+  .top-1{
+    margin-top: -10vw;
+  }
 
+  /* Learn more Button */
   #learn-more{
-    width: 293px;
-    font-size: 19px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 47px;
-    padding-right: 47px;
-  }
-
-  #learn-more-a {
-    width: 293px !important;
-    font-size: 19px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 47px;
-    padding-right: 47px;
-  }
-
-  .educ-container{
-    height: 703px;
-  }
-
-  .educ-title{
-    font-size: 47px;
-  }
-
-
-  .educ-container .educ-content{
-    padding-left: 141px;
-    font-size: 19px;
-  }
-
-  .research-container{
-    height: 703px;
-    font-size: 19px;
-  }
-
-  .research-container .research-content{
-    padding-top: 117px;
-    padding-left: 141px;
-  }
-
-  .resources-content{
-    padding: 93px;
-  }
-
-
-  .msiOffice-content{
-    padding: 93px;
-  }
-
-  .res-banner{
-    height: 586px;
-  }
-
-  .res-banner-content{
-    font-size: 19px;
-  }
-}
-
-
-@media (min-width: 1920px) {
-
-  #learn-more{
-    width: 352px;
-    font-size: 23px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    padding-left: 56px;
-    padding-right: 56px;
+    width: 45%;
+    font-size: 3vw;
+    padding: 2.7% 0;
   }
 
   #learn-more-a{
-    width: 352px !important;
-    font-size: 23px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    padding-left: 56px;
-    padding-right: 56px;
+    width: 45%;
+    font-size: 3vw;
+    padding: 3% 0;
   }
 
+  /* Learn more Button */
+  #learn-more-b{
+    width: 55%;
+    font-size: 3vw;
+    padding: 3.5% 0;
+  }
 
+  #learn-more-c{
+    width: 55%;
+    font-size: 3vw;
+    padding: 3.5% 0;
+  }
+
+  /* Education CSS Section */
   .educ-container{
-    height: 843px;
+    height: 52vw;
+    background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1624237643/Home/3.1-academics-section_joxipq.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
   }
 
   .educ-title{
-    font-size: 56px;
+    color: white;
+    font-size: 7vw;
+    line-height: 1.2;
   }
 
+  .educ-p{
+    display: none;
+  }
 
   .educ-container .educ-content{
-    padding-left: 169px;
-    font-size: 23px;
+    padding-left: 9%;
+    width: 70% !important;
   }
 
-  .research-container{
-    height: 843px;
-    font-size: 23px;
+  .extension-container{
+    display: flex;
+    flex-flow: row;
+    height: 100%;
   }
 
-  .research-container .research-content{
-    padding-top: 140px;
-    padding-left: 169px;
+  .extension-container .extension-left{
+    display: none;
+  }
+
+  .extension-container .extension-right{
+    height: 100%;
+    width: 100%;
+    background-color: #384e8a;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .resources-container{
+    margin-top: 5%;
+    display: flex;
+    flex-flow: row;
+    height: 100%;
+  }
+
+  .resources-container .resources-left{
+    height: 100%;
+    width: 100%;
+  }
+
+  .resources-container .resources-right{
+    display: none;
   }
 
   .resources-content{
-    padding: 112px;
+    padding: 13%;
+    line-height: 1.5;
   }
 
+  .msiOffice-container{
+    display: flex;
+    flex-flow: row;
+    margin-top: 5%;
+    margin-bottom: 9%;
+    height: 100%;
+  }
+
+  .msiOffice-container .msiOffice-left{
+    display: none;
+  }
+
+  .msiOffice-container .msiOffice-right{
+    height: 100%;
+    width: 100%
+  }
 
   .msiOffice-content{
-    padding: 112px;
+    padding: 13%;
+    line-height: 1.5;
   }
 
-  .res-banner{
-    height: 703px;
-  }
 
   .res-banner-content{
-    font-size: 23px;
+    font-size: 4vw;
+    margin-top: 3%;
   }
-} */
+}
+
