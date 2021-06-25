@@ -192,7 +192,7 @@
   font-size: 1.17vw;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px), (max-width: 768px) {
   .top-1{
     margin-top: -10vw;
   }
@@ -317,4 +317,5 @@
     margin-top: 3%;
   }
 }
+
 

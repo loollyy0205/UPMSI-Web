@@ -104,6 +104,7 @@ import { RVAComponent } from './components/resources/collection/rva/rva.componen
 import { VisionMissionComponent } from './components/about/about-msi/vision-mission/vision-mission.component';
 import { MoreStudNookComponent } from './components/education/studnook/more-studnook/more-studnook.component';
 import { StudNookComponent } from './components/education/studnook/studnook.component';
+import { MobileNavComponent } from './components/nav/mobile-nav/mobile-nav.component';
 
 @NgModule({
   declarations: [
@@ -198,7 +199,8 @@ import { StudNookComponent } from './components/education/studnook/studnook.comp
     RVAComponent,
     VisionMissionComponent,
     StudNookComponent,
-    MoreStudNookComponent
+    MoreStudNookComponent,
+    MobileNavComponent
   ],
   imports: [
     BrowserModule,

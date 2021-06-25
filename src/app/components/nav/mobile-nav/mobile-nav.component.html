@@ -1,0 +1,76 @@
+<div class="container">
+  <div class="menu">
+    <mat-icon class="menu-icon">menu</mat-icon>
+    <div class="dropdown-menu">
+      <span routerLink="/Home">HOME</span>
+
+      <div class="main-menu">
+        <span style=" display: flex; justify-content: flex-end; position: relative;"><mat-icon style="position: absolute; left: 0;">arrow_left</mat-icon><p routerLink="/About" style="width: fit-content;">ABOUT</p></span>
+          <div class="sub-dropdown">
+            <span [routerLink]="['/About/about-msi']">About MSI</span>
+            <span [routerLink]="['/About/faculty']">Faculty</span>
+            <span [routerLink]="['/About/admin']">Admin</span>
+          </div>
+      </div>
+
+      <div class="main-menu">
+        <span style=" display: flex; justify-content: flex-end; position: relative;"><mat-icon style="position: absolute; left: 0;">arrow_left</mat-icon><p routerLink="/News" style="width: fit-content;">NEWS</p></span>
+          <div class="sub-dropdown">
+            <span [routerLink]="['/News/news-headlines']">MSI News</span>
+            <span [routerLink]="['/News/Announcement']">Announcements</span>
+            <span [routerLink]="['/News/press-coverage-headlines']">Press Coverage</span>
+            <span [routerLink]="['/News/Vacancies-and-Opportunities/more']">Vacancies & Opportunities</span>
+          </div>
+      </div>
+
+      <div class="main-menu">
+        <span style=" display: flex; justify-content: flex-end; position: relative;"><mat-icon style="position: absolute; left: 0;">arrow_left</mat-icon><p routerLink="/Academics" style="width: fit-content;">ACADEMICS</p></span>
+          <div class="sub-dropdown">
+            <span [routerLink]="['/Academics/courses-offered']">Courses Offered</span>
+            <span [routerLink]="['/Academics/downloadable-forms']">Downloadable Forms</span>
+            <span [routerLink]="['/Academics/studnook/more']">Graduate Students' Nook</span>
+          </div>
+      </div>
+
+      <div class="main-menu">
+        <span style=" display: flex; justify-content: flex-end; position: relative;"><mat-icon style="position: absolute; left: 0;">arrow_left</mat-icon><p routerLink="/Research" style="width: fit-content;">RESEARCH</p></span>
+          <div class="sub-dropdown">
+            <span [routerLink]="['/Research/areas-of-research']">Areas of Reseach</span>
+            <span [routerLink]="['/Research/laboratories']">Laboratories</span>
+            <span [routerLink]="['/Research/Research-projects-and-highlights']">Research Programs & Projects</span>
+          </div>
+      </div>
+
+      <div class="main-menu">
+        <span style=" display: flex; justify-content: flex-end; position: relative;"><mat-icon style="position: absolute; left: 0;">arrow_left</mat-icon><p routerLink="/Facilities" style="width: fit-content;">FACILITIES</p></span>
+          <div class="sub-dropdown">
+            <span [routerLink]="['/Facilities/bolinao-marine-lab']">Bolinao Marine Lab</span>
+            <span [routerLink]="['/Facilities/puerto-galera-station']">Puerto Galera Station</span>
+            <span [routerLink]="['/Facilities/pag-asa-marine-station']">Pag Asa Marine Station</span>
+            <span [routerLink]="['/Facilities/floating-assets']">Floating Assets</span>
+          </div>
+      </div>
+
+      <div class="main-menu">
+        <span style=" display: flex; justify-content: flex-end; position: relative;"><mat-icon style="position: absolute; left: 0;">arrow_left</mat-icon><p routerLink="/Extension" style="width: fit-content;">EXTENSION</p></span>
+          <div class="sub-dropdown">
+            <span routerLink="/Extension/trainings">Trainings</span>
+            <span routerLink="/Extension/community-outreach">Community Outreach</span>
+            <span [routerLink]="['/Extension/gallery']">Gallery</span>
+          </div>
+      </div>
+
+      <div class="main-menu">
+        <span style=" display: flex; justify-content: flex-end; position: relative;"><mat-icon style="position: absolute; left: 0;">arrow_left</mat-icon><p routerLink="/Resources" style="width: fit-content;">RESOURCES</p></span>
+          <div class="sub-dropdown">
+            <span routerLink="/Resources/publication">Publications</span>
+            <span [routerLink]="['/Resources/library']">Library</span>
+            <span routerLink="/Resources/museum-&-exhibits">Museums & Exhibits</span>
+            <span routerLink="/Resources/collections">Collections</span>
+          </div>
+      </div>
+
+      <span routerLink="/Contact">CONTACT</span>
+    </div>
+  </div>
+</div>

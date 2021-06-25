@@ -1,3 +1,11 @@
+* {
+  font-size: 1.025vw;
+}
+
+mat-form-field {
+  width: 15vw;
+}
+
 .container{
   /* height: 100vh; */
   background-color: #fafafa;
@@ -13,7 +21,7 @@
 }
 
 .top-container .top-content{
-  padding-top: 50px;
+  padding-top: 4%;
   padding-left: 9%;
   padding-right: 9%;
 }
@@ -25,12 +33,12 @@
 }
 
 .search-container img{
-  height: 100px;
+  height: 7.3vw;
 }
 
 /* Nav CSS Section */
 .top-container .nav-container{
-  padding-top: 30px;
+  padding-top: 3%;
   width: 100%;
   display: flex;
   flex-flow: row;
@@ -40,6 +48,7 @@
 
 .nav-container button{
   color: #4c515a;
+  /* padding: 1vw 2vw; */
   border-radius: 0%;
 }
 
@@ -56,27 +65,19 @@
 .dropdown-menu{
   display: none;
   position: absolute;
-  min-width: 200px;
-}
-
-.dropdown-menu #sub-down{
-  display: none;
-  margin-top: -50px;
-  position: absolute;
-  margin-left: 200px;
-  min-width: 200px;
+  min-width: 15vw;
 }
 
 .dropdown-menu span{
   display: block;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.17vw;
   color: white;
   text-decoration: none;
   border: none;
   outline: none;
   background-color: #5da563;
-  padding: 18px 16px;
+  padding: 10% 8%;
 }
 
 .dropdown-menu span:hover{
@@ -102,402 +103,30 @@
   color: black !important;
 }
 
+.mobile-nav {
+  display: none;
+}
 
-/* @media (min-width: 1466px){
-  .top-container .top-content{
-    padding-top: 60px;
-    padding-left: 130px;
-    padding-right: 130px;
-  }
+@media (max-width: 768px) {
   .search-container img{
-    height: 112px;
+    height: 13vw;
   }
 
-  .top-container .search-container{
-    font-size: 18px;
+  .mobile-nav {
+    display: block;
   }
 
-  mat-form-field{
-    width: 230px;
+  .desktop-nav {
+    display: none;
   }
 
-  .nav-container button{
-    font-size: 16px;
+  mat-form-field {
+    width: 25vw;
+    font-size: 3.5vw;
   }
 
-  .top-container .nav-container{
-    padding-top: 35px;
-  }
-
-  .nav-container button{
-    padding: 2px 17px;
-  }
-
-  .dropdown-menu span{
-    font-size: 18px;
-    padding: 22px 20px;
-  }
-
-  .dropdown-menu #sub-down{
-    min-width: 225px;
-    margin-top: -63px;
-    margin-left: 225px;
-  }
-
-  .dropdown-menu{
-    min-width: 225px;
+  .search-text {
+    font-size: 3.5vw;
   }
 }
 
-@media (min-width: 1666px){
-  .top-container .top-content{
-    padding-top: 70px;
-    padding-left: 140px;
-    padding-right: 140px;
-  }
-  .search-container img{
-    height: 124px;
-  }
-
-  .top-container .search-container{
-    font-size: 20px;
-  }
-
-  mat-form-field{
-    width: 260px;
-  }
-
-  .nav-container button{
-    font-size: 18px;
-  }
-
-  .top-container .nav-container{
-    padding-top: 40px;
-  }
-
-  .nav-container button{
-    padding: 5px 19px;
-  }
-
-  .dropdown-menu span{
-    font-size: 20px;
-    padding: 24px 22px;
-  }
-
-  .dropdown-menu #sub-down{
-    min-width: 250px;
-    margin-top: -70px;
-    margin-left: 250px;
-  }
-
-  .dropdown-menu{
-    min-width: 250px;
-  }
-}
-
-@media (min-width: 1866px){
-  .top-container .top-content{
-    padding-top: 80px;
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  .search-container img{
-    height: 136px;
-  }
-
-  .top-container .search-container{
-    font-size: 22px;
-  }
-
-  mat-form-field{
-    width: 290px;
-  }
-
-  .nav-container button{
-    font-size: 20px;
-  }
-
-  .top-container .nav-container{
-    padding-top: 45px;
-  }
-
-  .nav-container button{
-    padding: 8px 21px;
-  }
-
-  .dropdown-menu span{
-    font-size: 22px;
-    padding: 26px 24px;
-  }
-
-  .dropdown-menu #sub-down{
-    min-width: 275px;
-    margin-top: -75px;
-    margin-left: 275px;
-  }
-
-  .dropdown-menu{
-    min-width: 275px;
-  }
-}
-
-
-@media (min-width: 2066px){
-  .top-container .top-content{
-    padding-top: 90px;
-    padding-left: 160px;
-    padding-right: 160px;
-  }
-  .search-container img{
-    height: 148px;
-  }
-
-  .top-container .search-container{
-    font-size: 24px;
-  }
-
-  mat-form-field{
-    width: 310px;
-  }
-
-  .nav-container button{
-    font-size: 22px;
-  }
-
-  .top-container .nav-container{
-    padding-top: 50px;
-  }
-
-  .nav-container button{
-    padding: 11px 23px;
-  }
-
-  .dropdown-menu span{
-    font-size: 24px;
-    padding: 28px 26px;
-  }
-
-  .dropdown-menu #sub-down{
-    min-width: 300px;
-    margin-top: -82px;
-    margin-left: 300px;
-  }
-
-  .dropdown-menu{
-    min-width: 300px;
-  }
-}
-
-@media (min-width: 2266px){
-  .top-container .top-content{
-    padding-top: 100px;
-    padding-left: 170px;
-    padding-right: 170px;
-  }
-  .search-container img{
-    height: 160px;
-  }
-
-  .top-container .search-container{
-    font-size: 26px;
-  }
-
-  mat-form-field{
-    width: 340px;
-  }
-
-  .nav-container button{
-    font-size: 24px;
-  }
-
-  .top-container .nav-container{
-    padding-top: 55px;
-  }
-
-  .nav-container button{
-    padding: 14px 25px;
-  }
-
-  .dropdown-menu span{
-    font-size: 26px;
-    padding: 30px 28px;
-  }
-
-  .dropdown-menu #sub-down{
-    min-width: 325px;
-    margin-top: -90px;
-    margin-left: 325px;
-  }
-
-  .dropdown-menu{
-    min-width: 325px;
-  }
-}
-
-@media (min-width: 2466px){
-  .top-container .top-content{
-    padding-top: 110px;
-    padding-left: 180px;
-    padding-right: 180px;
-  }
-  .search-container img{
-    height: 172px;
-  }
-
-  .top-container .search-container{
-    font-size: 28px;
-  }
-
-  mat-form-field{
-    width: 370px;
-  }
-
-  .nav-container button{
-    font-size: 26px;
-  }
-
-  .top-container .nav-container{
-    padding-top: 60px;
-  }
-
-  .nav-container button{
-    padding: 17px 27px;
-  }
-
-  .dropdown-menu span{
-    font-size: 28px;
-    padding: 32px 30px;
-  }
-
-  .dropdown-menu #sub-down{
-    min-width: 350px;
-    margin-top: -95px;
-    margin-left: 350px;
-  }
-
-  .dropdown-menu{
-    min-width: 350px;
-  }
-}
-
-@media (min-width: 2466px){
-  .top-container .top-content{
-    padding-top: 120px;
-    padding-left: 190px;
-    padding-right: 190px;
-  }
-  .search-container img{
-    height: 184px;
-  }
-
-  .top-container .search-container{
-    font-size: 30px;
-  }
-
-  mat-form-field{
-    width: 400px;
-  }
-
-  .nav-container button{
-    font-size: 28px;
-  }
-
-  .top-container .nav-container{
-    padding-top: 65px;
-  }
-
-  .nav-container button{
-    padding: 20px 29px;
-  }
-
-  .dropdown-menu span{
-    font-size: 30px;
-    padding: 34px 32px;
-  }
-
-  .dropdown-menu #sub-down{
-    min-width: 375px;
-    margin-top: -100px;
-    margin-left: 375px;
-  }
-
-  .dropdown-menu{
-    min-width: 375px;
-  }
-} */
-
-@media (min-width: 1600px) {
-  * {
-    font-size: 18px;
-  }
-
-  .top-container .top-content{
-    padding-top: 59px;
-  }
-
-  .search-container img{
-    height: 117px;
-  }
-
-  /* Nav CSS Section */
-  .top-container .nav-container{
-    padding-top: 35px;
-  }
-
-  .dropdown-menu{
-    min-width: 234px;
-  }
-
-  .dropdown-menu #sub-down{
-    margin-top: -59px;
-    margin-left: 234px;
-    min-width: 234px;
-  }
-
-  .dropdown-menu span{
-    font-size: 19px;
-    padding: 21px 19px;
-  }
-
-  button {
-    padding: 7px 18px;
-  }
-}
-
-@media (min-width: 1900px) {
-  * {
-    font-size: 21px;
-  }
-
-  .top-container .top-content{
-    padding-top: 70px;
-  }
-
-  .search-container img{
-    height: 139px;
-  }
-
-  /* Nav CSS Section */
-  .top-container .nav-container{
-    padding-top: 42px;
-  }
-
-  .dropdown-menu{
-    min-width: 279px;
-  }
-
-  .dropdown-menu #sub-down{
-    margin-top: -70px;
-    margin-left: 279px;
-    min-width: 279px;
-  }
-
-  .dropdown-menu span{
-    font-size: 22px;
-    padding: 24px 22px;
-  }
-
-  button {
-    padding: 10px 20px;
-  }
-}

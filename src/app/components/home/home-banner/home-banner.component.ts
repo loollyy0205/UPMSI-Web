@@ -17,7 +17,7 @@ export class HomeBannerComponent implements OnInit {
     autoplaySpeed: 3500,
     dotsSpeed: 500,
     autoplayTimeout: 8000,
-    autoplay: true,
+    autoplay: false,
     items: 1,
     autoHeight: false,
   }

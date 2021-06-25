@@ -7,6 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  screenSize:boolean = false;
+
   header_variable:boolean = false;
 
   hoverAbout:boolean = false;
@@ -42,6 +44,12 @@ export class NavComponent implements OnInit {
   // }
 
   ngOnInit(): void {
+    if (window.screen.width <= 768) { // 768px portrait
+      this.screenSize = true;
+    }else if (window.screen.width > 768) { // 768px portrait
+      this.screenSize = false;
+    }
+
     if(this.router.url === '/About'){
       this.about = true;
     }else if(this.router.url === '/About/About-the-director'){
