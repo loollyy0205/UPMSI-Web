@@ -29,6 +29,14 @@
 
   <div class="content3">
     <div style="line-height: 1.3; margin-top: 2%;">
+      <a href="" style="cursor: context-menu;" class="disabled"><p class="atlas-bold" style="margin-top: 1.2%; color: #4D525B;" >Contact</p></a>
+      <div  style="margin-top: 1.2%; padding-right: 2%;" class="badge atlas-light">
+        <p>{{myArr[0].email}}</p>
+      </div>
+    </div>
+
+
+    <div style="line-height: 1.3; margin-top: 2%;">
       <p class="atlas-bold" style="margin-top: 1.2%; color: #4D525B;" >Education</p>
       <div  style="margin-top: 1.2%; padding-right: 2%;" class="badge atlas-light">
         <p>{{myArr[0].education1}}</p>
@@ -56,6 +64,10 @@
           </li>
         </ul>
       </div>
+    </div>
+
+    <div style="line-height: 1.3; margin-top: 2%;" class="google-cit" *ngIf="myArr[0].citation">
+      <a [href]="myArr[0].citation" target="_blank"><p class="atlas-light" style="margin-top: 1.2%; color: #5da563;">Google Scholar Citations</p></a>
     </div>
 
   </div>

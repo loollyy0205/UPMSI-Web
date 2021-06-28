@@ -91,7 +91,7 @@
     <div class="right">
       <p class="atlas-blackReg lab-title">Highlight</p>
 
-    <a [href]="myArr[0].labLink1" target="_blank"><p class="atlas-light lab-content">{{myArr[0].labHighlight}}</p></a> <!-- edited-->
+    <a [href]="myArr[0].labLink1" target="_blank" [ngClass]="{disabled: !myArr[0].labLink1}"><p class="atlas-light lab-content">{{myArr[0].labHighlight}}</p></a> <!-- edited-->
     <!-- kindly change the labHighbanner sa
 
       1.Marine Molecular Biology Laboratory.  photo name: Marine Molecular Highlight
@@ -106,7 +106,7 @@
       <p class="atlas-light" style="color: #ffffff;">{{myArr[0].labDate}}</p>
     </div>
 
-    <a [href]="myArr[0].labLink2" target="_blank"><p class="atlas-light lab-context">{{myArr[0].labContent}}</p></a>
+    <a [href]="myArr[0].labLink2" target="_blank" [ngClass]="{disabled: !myArr[0].labLink2}"><p class="atlas-light lab-context">{{myArr[0].labContent}}</p></a>
 
     <p class="atlas-light lab-content">{{myArr[0].labHighlight2}}</p>
 

@@ -93,6 +93,11 @@ export class LabpageContactComponent implements OnInit {
     email: 'Email: helentyap@yahoo.com',
     tel: 'Contact no.: 02-8922 3959',
   }];
+
+  pbbl = [{
+    logo3: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624855706/Research/Laboratories/Yu/01-pbbl-logo-hi-res_copy_ine3mq.png',
+    email: 'Email: pbbl@msi.upd.edu.ph',
+  }];
   myArr = [];
 
   constructor(private router:Router) { }
@@ -126,6 +131,8 @@ export class LabpageContactComponent implements OnInit {
       this.myArr = this.marinePharma;
     }else if(this.router.url === '/Research/laboratories/ecosystem-dynamics'){
       this.myArr = this.ecoDynamics;
+    }else if(this.router.url === '/Research/laboratories/protein-biochemistry-and-biotechnology-laboratory'){
+      this.myArr = this.pbbl;
     }
   }
 

@@ -199,28 +199,28 @@
 
   /* Learn more Button */
   #learn-more{
-    width: 45%;
-    font-size: 3vw;
-    padding: 2.7% 0;
+    width: 32vw;
+    font-size: 2.5vw;
+    padding: 1.8vw 0;
   }
 
   #learn-more-a{
-    width: 45%;
-    font-size: 3vw;
-    padding: 3% 0;
+    width: 32vw;
+    font-size: 2.5vw;
+    padding: 2.1vw 0;
   }
 
   /* Learn more Button */
   #learn-more-b{
-    width: 55%;
-    font-size: 3vw;
-    padding: 3.5% 0;
+    width: 33.5vw;
+    font-size: 2.5vw;
+    padding: 2vw 0;
   }
 
   #learn-more-c{
-    width: 55%;
-    font-size: 3vw;
-    padding: 3.5% 0;
+    width: 33.5vw;
+    font-size: 2.5vw;
+    padding: 2vw 0;
   }
 
   /* Education CSS Section */
@@ -236,7 +236,8 @@
 
   .educ-title{
     color: white;
-    font-size: 7vw;
+    font-size: 5vw;
+    width: 80%;
     line-height: 1.2;
   }
 

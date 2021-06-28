@@ -140,12 +140,12 @@ dialog::backdrop {
   .owl-theme .owl-dots{
     text-align: center;
     position: relative;
-    top: -6vw;
+    top: -7vw;
   }
 
   .owl-theme .owl-dots .owl-dot span {
-    width: 3vw;
-    height: 3vw;
+    width: 1.5vw;
+    height: 1.5vw;
     margin: 3% 1vw;
   }
  }

@@ -295,9 +295,27 @@ export class LabpageGalleryComponent implements OnInit {
       {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833393/Laboratories/Ecosystem%20Dynamics/4.1-gallery-G9_Yap_HT_Ecosystem_Dynamics_Elsa_Ligaya_Dingkuhn_demonstrating_principles_of_organic_rice_farming_sutdo2.jpg'},
       {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833396/Laboratories/Ecosystem%20Dynamics/4.2-gallery-G10_Yap_HT_Ecosystem_Dynamics_Students_from_the_University_of_the_Philippines_LB_wgg6ce.jpg'},
      ],
-    pi: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833433/Laboratories/Ecosystem%20Dynamics/22-Maria_Helene_Yap_kkogpa.jpg',
+    pi: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624855994/Research/Laboratories/Yap/P.I-profile-photo_n3olr9.jpg',
     piName: 'Dr. Helen T. Yap',
     aboutPi: 'Helen T. Yap, Professor of Marine Science, graduated in 1979 from the University of the Philippines - Diliman (BSc Marine Biology, magna cum laude), and obtained her doctorate in 1987 from the Wilhelm-Pieck University in Rostock, the German Democratic Republic.',
+  }];
+
+  pbbl = [{
+    gallery: [
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624854678/Research/Laboratories/Yu/Gallery_Photo_1_eyvh53.png'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624854687/Research/Laboratories/Yu/Gallery_photo_2_vxicv0.png'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624854688/Research/Laboratories/Yu/Gallery_photo_3_riclot.png'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624854679/Research/Laboratories/Yu/Gallery_photo_4_stsou3.jpg'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624854680/Research/Laboratories/Yu/Gallery_photo_5_chjkqk.png'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624854681/Research/Laboratories/Yu/Gallery_photo_6_hsktft.png'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624854683/Research/Laboratories/Yu/Gallery_photo_7_wxj9lu.png'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624854681/Research/Laboratories/Yu/Gallery_photo_8_i6agxs.png'},
+      {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624854684/Research/Laboratories/Yu/Gallery_photo_9_cq9jxq.png'},
+
+     ],
+    pi: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624854678/Research/Laboratories/Yu/5-PIPhoto_uvd9ci.jpg',
+    piName: 'Dr. Eizadora Yu',
+    aboutPi: 'Eiza is currently a professor at the Marine Science Institute and the Associate Dean for Mentoring, Academic Progress and Advancement at the College of Science in UP Diliman. She acquired her Ph.D. in Biochemistry and Molecular Biology at the University of Maryland, Baltimore County, USA. She also worked as a Postdoctoral Fellow and a Senior Member of the Technical Staff at the Sandia National Laboratories in Livermore, California, USA. She is interested in the use of microbial enzymes and other biomolecules for biotechnology and health applications. She also conducts research on the application of advanced mass spectrometric methods for the proteomic and metabolomic characterization of biomolecules from target microorganisms and for structural studies of RNA, protein-nucleic acid, and protein-protein complexes.',
   }];
 
   myArr = [];
@@ -334,6 +352,8 @@ export class LabpageGalleryComponent implements OnInit {
       this.myArr = this.marinePharma;
     }else if(this.router.url === '/Research/laboratories/ecosystem-dynamics'){
       this.myArr = this.ecoDynamics;
+    }else if(this.router.url === '/Research/laboratories/protein-biochemistry-and-biotechnology-laboratory'){
+      this.myArr = this.pbbl;
     }
 
   }

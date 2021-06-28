@@ -158,10 +158,11 @@ export class LabpageComponent implements OnInit {
     content: 'We actively work on the biology of seaweeds, especially their biodiversity, systematics, life history, and reproduction. We also dabble on algal community ecology, gravitating towards understanding the ecology of canopy-forming seaweeds such as Sargassum. Other research done by our team includes floristics, marine phytogeography, and molecular phylogenetics. Moreover, we conduct applied phycological research, with special reference to seaweed farming (i.e., mass cultivation of carrageenan-producing seaweeds Kappaphycus, Eucheuma, and Halymenia). Currently, we are scaling up on our efforts in harnessing underutilized seaweed resources such as the red seaweed Asparagopsis taxiformis and the green seaweeds Ulva by developing novel and/or locally adapted cultivation technologies for large-scale biomass production. This is to support the call of the seaweed industry to diversify our seaweed products.',
     labHighBanner: 'https://dc570.4shared.com/img/qOeqRW3Eea/s24/179e71aa268/4-gallery-Halymenia-culture?async&rand=0.27788235683871254',
     labHighlight: 'Updated checklist of the benthic marine macroalgae of the Philippines',
-    labLink1: 'https://philjournalsci.dost.gov.ph/104-vol-150-s1/1336-updated-checklist-of-the-benthic-marine-macroalgae-of-the-philippines',
-    labAuthor: 'Lastimoso, et al.,',
-    labDate: 'January 2021',
-    site: 'https://marinephycolab.netlify.app/#home',
+
+    labLink1: 'https://www.sciencedirect.com/science/article/abs/pii/S027277142100175X',
+    labAuthor: 'Cordero, et al.,',
+    labDate: 'March 2021',
+    site: 'https://biomeph.com',
   }];
 
   biome = [
@@ -204,6 +205,20 @@ export class LabpageComponent implements OnInit {
     labDate: 'August 2020',
   }];
 
+  pbbl = [{
+    viewing: 'The Protein Biochemistry and Biotechnology Laboratory',
+    bannerLogo2: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624854678/Research/Laboratories/Yu/01-pbbl-logo-hi-res_nnbeav.png',
+    photoBanner: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624854681/Research/Laboratories/Yu/banner_photo_d4okfm.png',
+    title: 'The Protein Biochemistry and Biotechnology Laboratory',
+    content: 'Our lab pursues research on the discovery and structural characterization of biomolecules primarily by mass spectrometry-based approaches (metabolomics and proteomics) as well as traditional biochemical techniques. We hope that our discoveries will shed light on biochemical adaptations, mechanisms, and find applications in health and functional biomaterials.',
+    labHighBanner: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624854678/Research/Laboratories/Yu/7-Highlight_efyvir.png',
+    labHighlight: `Ericka Itang's paper based on her MS thesis was published in Marine Drugs.  She is a research associate and alumna of the lab (MS Chemistry, 2019).`,
+    // labLink1: 'https://pubmed.ncbi.nlm.nih.gov/32144796/',
+    // labAuthor: 'Labao, et al.,',
+    labDate: 'October 2020',
+    site: 'https://sites.google.com/up.edu.ph/pbbl-upd/home '
+  }];
+
   CoREbool:boolean = false;
   myArr = [];
 
@@ -239,6 +254,8 @@ export class LabpageComponent implements OnInit {
       this.myArr = this.marinePharma;
     }else if(this.router.url === '/Research/laboratories/ecosystem-dynamics'){
       this.myArr = this.ecoDynamics;
+    }else if(this.router.url === '/Research/laboratories/protein-biochemistry-and-biotechnology-laboratory'){
+      this.myArr = this.pbbl;
     }
   }
 

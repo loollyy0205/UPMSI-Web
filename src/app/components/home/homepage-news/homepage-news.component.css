@@ -61,7 +61,7 @@
 
   .title{
     color: #384e8a;
-    font-size: 7vw;
+    font-size: 5vw;
     cursor: pointer;
   }
 
@@ -76,7 +76,7 @@
   .content-title{
     color: #274d8b;
     padding-top: 3.5%;
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 1.2;
   }
 

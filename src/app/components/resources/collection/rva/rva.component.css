@@ -34,8 +34,8 @@ img{
 
 .title{
   font-size: 29px;
+  width: 900px !important; /*edited7 */
 }
-
 
 .title-2{
   font-size: 22px;
@@ -56,14 +56,14 @@ img{
 }
 
 .left-image {
-  background-image: url(https://dc570.4shared.com/img/fkUOjixwiq/s24/179d4c630c8/02_online?async&rand=0.23037159108046468);
+  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1624852384/Resources/RVA/The_Culture_Collection_xgt9dm.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 48.5%;
 }
 
 .left-image2 {
-  background-image: url(https://dc628.4shared.com/img/iDlbEtTlea/s24/179d4c63c80/04_online?async&rand=0.9115628723322315);
+  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1624852384/Resources/RVA/The_Culture_Collection_xgt9dm.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 48.5%;
