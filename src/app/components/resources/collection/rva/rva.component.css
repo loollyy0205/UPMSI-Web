@@ -34,7 +34,7 @@ img{
 
 .title{
   font-size: 29px;
-  width: 900px !important; /*edited7 */
+  width: 70vw !important; /*edited7 */
 }
 
 .title-2{
@@ -43,6 +43,11 @@ img{
   position: relative;
   top: 50px;
   letter-spacing: 1px;
+}
+
+.title3{
+  font-size: 29px;
+  border: none;
 }
 
 
@@ -56,7 +61,7 @@ img{
 }
 
 .left-image {
-  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1624852384/Resources/RVA/The_Culture_Collection_xgt9dm.png);
+  background-image: url(https://dc570.4shared.com/img/fkUOjixwiq/s24/179d4c630c8/02_online?async&rand=0.23037159108046468);
   background-repeat: no-repeat;
   background-size: cover;
   width: 48.5%;
