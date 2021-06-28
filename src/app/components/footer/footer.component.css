@@ -1,4 +1,7 @@
 /* Contact CSS Section */
+* {
+  font-size: 1.17vw;
+}
 
 .contact-container{
   height: 22vw;

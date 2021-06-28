@@ -1,5 +1,4 @@
 <app-nav></app-nav>
-<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
 <div class="container animate__animated animate__fadeIn animate__delay-1s">
 
   <div class="content-header">
@@ -28,8 +27,9 @@
           </mat-expansion-panel-header>
           <div class="regular-content">
             <div class="dd-content" *ngFor="let item of researchProj">
-              <img *ngIf="item.type !== 'pbbl'" [src]="item.logo">
+              <img *ngIf="item.type === ''" [src]="item.logo">
               <img *ngIf="item.type === 'pbbl'" class="img2" [src]="item.logo">
+              <img *ngIf="item.type === 'eco'" class="img3" [src]="item.logo">
 
               <p class="atlas-light">{{item.title}}</p>
 

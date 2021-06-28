@@ -107,13 +107,14 @@ mat-form-field {
   display: none;
 }
 
+
 @media (max-width: 768px) {
   .search-container img{
     height: 13vw;
   }
 
   .mobile-nav {
-    display: block;
+    display: inline;
   }
 
   .desktop-nav {

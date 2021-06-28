@@ -67,6 +67,11 @@ dialog::backdrop {
   background: rgba(0, 0, 0) !important;
 }
 
+/* .mat-expansion-indicator::after {
+  height: .1vw !important;
+  width: .1vw !important;
+} */
+
 @font-face{
   font-family: 'atlas-light';
   src: url("https://res.cloudinary.com/dqs7gg03v/raw/upload/v1623321704/Fonts/AtlasGrotesk-Light_jom77u.otf");
@@ -148,5 +153,6 @@ dialog::backdrop {
     height: 1.5vw;
     margin: 3% 1vw;
   }
+
  }
 

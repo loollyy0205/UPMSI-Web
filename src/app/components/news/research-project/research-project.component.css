@@ -1,13 +1,141 @@
 .container{
-  font-size: 16px;
+  font-size: 1.17vw;
 }
 
+.content-header{
+  height: 21.8vw;
+  position: relative;
+  margin: 0 9%;
+  padding-top: 1.2%;
+}
+
+.banner-content{
+  font-size: 1.17vw;
+  margin-top: 2.5%;
+  width: 50vw;
+}
+
+.left-content{
+  position: absolute;
+  z-index: 1;
+  bottom: -1.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4.5%;
+  color: white;
+}
+
+
+.content2{
+  width: 73.5vw;
+  margin-top: 5%;
+  height: 100%;
+}
+
+.lab-desc{
+  margin-top: 2%;
+  line-height: 1.5;
+  font-size: 1.17vw;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform .5s ease;
+}
+
+.title{
+  font-size: 1.85vw;
+}
+
+mat-expansion-panel{
+  margin-bottom: -2%;
+}
+
+.panel-title{
+  color: white;
+  padding: 2% 1.5%;
+  font-size: 1.05vw; /*edited*/
+}
+
+.font-14 {
+  font-size: 1.05vw;
+}
+
+mat-expansion-panel{
+  border-color: white;
+  background-color: #fafafa;
+  position: relative;
+}
+
+::ng-deep .specific-class > .mat-expansion-indicator:after {
+  color: white;
+}
+
+.specific-class{
+  border-radius: 3vw;
+}
+
+.grad-offering{
+  margin-top: 5% !important;
+  padding: 0 7%; /*edited again */
+}
+
+.closed-main-head{
+  background-color: #384e8a;
+  border-radius: 3vw;
+}
+
+.regular-content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.17vw;
+}
+
+.dd-content {
+  width: 100%;
+  border-bottom: 1px solid rgba(92, 163, 97, .99);
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+  column-gap: 2%;
+  place-items: center;
+  padding: 2% 0;
+  line-height: 1.4;
+}
+
+.dd-content img {
+  height: 4vw;
+  width: 4vw;
+}
+
+.dd-content .img2 {
+  height: 2.2vw !important;
+  width: 6.5vw !important;
+}
+
+.dd-content .img3 {
+  height: 3.5vw !important;
+  width: 6.5vw !important;
+}
+/*
+.mat-down {
+  position: absolute;
+  right: 1.5vw !important;
+  top: 30%;
+  font-size: 1.5vw;
+} */
+
 .arrow{
-  font-size: 30px;
+  font-size: 2.2vw;
 }
 
 .arrow-text{
-  margin-top: 8px;
+  margin-top: .75%;
+  font-size: 1.17vw;
 }
 
 .arrow-text:hover{
@@ -19,473 +147,28 @@
   margin-left: 9%;
   margin-right: 9%;
   display: flex;
-  height: 120px;
+  height: 9vw;
+  margin-top: 2%;
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
 }
 
-.content-header{
-  height: 297px;
-  position: relative;
-  margin: 0 9%;
-}
-
-.banner-content{
-  font-size: 16px;
-  margin-top: 13px;
-  width: 684px;
-}
-
-.left-content{
-  position: absolute;
-  z-index: 1;
-  bottom: 8px;
-  width: 500px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 50px;
-  color: white;
-}
-
-.title{
-  font-size: 29px;
-}
-
-.content{
-  margin-left: 9%;
-  margin-right: 9%;
-  margin-top: 50px;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-}
-
-.content2{
-  width: 1000px;
-  margin-top: 50px;
-  height: 100%;
-}
-
-.lab-desc{
-  margin-top: 20px;
-  line-height: 1.5;
-  font-size: 16px;
-}
-
-img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  transition: transform .5s ease;
-}
-
-.hr-line{
-  margin: 15px 9% 30px 9%;
-}
-
-.title-header{
-  font-size: 35px;
-}
-
-.box-content{
-  height: 300px;
-  width: 1000px;
-  line-height: 1.5;
-  display: flex;
-  flex-direction: row;
-}
-
-.box-content .left{
-  width: 50%;
-  overflow: hidden;
-}
-
-.box-content .left img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  transition: transform .5s ease;
-}
-
-.box-content .left img:hover{
-  transform: scale(1.1);
-}
-
-.box-content .right{
-  width: 50%;
-  margin-left: 30px;
-  margin-top: -10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.center-box{
-  display: grid;
-  place-content: center;
-  margin-top: 70px;
-}
-
-.title{
-  font-size: 25px;
-}
-
-.highlight-title {
-  color: #394e8a;
-  margin-top: 10px;
-  padding-right: 20px;
-  border-right: 3px solid #5ca361;
-}
-
-.year {
-  color: #394e8a;
-  margin-top: 10px;
-  padding-left: 20px;
-}
-
-.top-10 {
-  margin-top: 10px;
-  color: #394e8a;
-}
-
-.footer{
-  margin-top: 9%;
-}
-
-mat-expansion-panel{
-  margin-bottom: -20px;
-}
-
-.panel-title{
-  color: white;
-  padding: 15px 0;
-  font-size: 14px; /*edited*/
-}
-
-.font-14 {
-  font-size: 14px;
-}
-
-mat-expansion-panel{
-  border-color: white;
-  background-color: #fafafa;
-}
-
-::ng-deep .specific-class > .mat-expansion-indicator:after {
-  color: white;
-}
-
-.specific-class{
-  border-radius: 50px;
-}
-
-.grad-offering{
-  margin-top: 50px !important;
-  padding: 0 90px; /*edited again */
-}
-
-
-.closed-main-head{
-  background-color: #384e8a;
-  border-radius: 50px;
-}
-
-.regular-content{
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  font-size: 16px;
-}
-
-.more-vacancies{
-  color: #384e8a;
-  margin-top: 70px;
-  display: flex;
-  justify-content: flex-end;
-  cursor: pointer;
-}
-
-.more-vacancies:hover{
-  text-decoration: underline;
-}
-
-.arrow{
-  font-size: 30px;
-}
-
-.arrow-text{
-  margin-top: 8px;
-}
-
-.dd-content {
-  width: 100%;
-  border-bottom: 1px solid rgba(92, 163, 97, .99);
-  display: grid;
-  grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
-  column-gap: 20px;
-  place-items: center;
-  padding: 20px 0;
-}
-
-.dd-content img {
-  height: 50px;
-  width: 50px;
-}
-
-.dd-content .img2 {
-  height: 30px !important;
-  width: 90px !important;
-}
-
 @media (min-width: 1600px) {
-  *{
-    font-size: 19px;
-  }
-
-  .arrow{
-    font-size: 35px;
-  }
-
   .arrow-text{
-    margin-top: 16px;
+    margin-top: 1.1%;
   }
+}
 
-  .more-vacancies{
-    height: 141px;
-    font-size: 19px
-  }
-
-
-  .content{
-    margin-top: 59px;
-  }
-
-  .content2{
-    width: 1171px;
-    margin-top: 59px;
-  }
-
-  .lab-desc{
-    margin-top: 23px;
-    font-size: 19px;
-  }
-
-  .hr-line{
-    margin: 18px 9% 35px 9%;
-  }
-
-  .title-header{
-    font-size: 41px;
-  }
-
-  .box-content{
-    height: 351px;
-    width: 1171px;
-  }
-
-  .box-content .right{
-    margin-left: 35px;
-    margin-top: -12px;
-  }
-
-  .center-box{
-    margin-top: 82px;
-  }
-
-  .title{
-    font-size: 29px;
-  }
-
-  .highlight-title {
-    margin-top: 12px;
-    padding-right: 23px;
-    border-right: 4px solid #5ca361;
-  }
-
-  .year {
-    margin-top: 12px;
-    padding-left: 23px;
-  }
-
-  .top-10 {
-    margin-top: 12px;
-  }
-
-  mat-expansion-panel{
-    margin-bottom: -23px;
-  }
-
-  .panel-title{
-    padding: 18px 0;
-    font-size: 16px;
-  }
-
-  .font-14 {
-    font-size: 16px;
-  }
-
-  .specific-class{
-    border-radius: 58px;
-  }
-
-  .grad-offering{
-    margin-top: 58px !important;
-  }
-
-  .closed-main-head{
-    border-radius: 58px;
-  }
-
-  .regular-content{
-    margin-top: 23px;
-    font-size: 19px;
-  }
-
-  .regular-content .left div{
-    margin-top: 12px;
-  }
-
-  .regular-content .right div{
-    margin-top: 12px;
-  }
-
-  .more-vacancies{
-    margin-top: 82px;
-  }
-
-  .arrow{
-    font-size: 35px;
-  }
-
+@media (min-width: 2000px) {
   .arrow-text{
-    margin-top: 9px;
+    margin-top: 1.5%;
   }
 }
 
-@media (min-width: 1900px) {
-  *{
-    font-size: 23px;
-  }
-
-
-.arrow{
-  font-size: 42px;
-}
-
-.arrow-text{
-  margin-top: 23px;
-}
-
-.more-vacancies{
-  height: 167px;
-  font-size: 23px;
-}
-
-  .content{
-    margin-top: 70px;
-  }
-
-  .content2{
-    width: 1391px;
-    margin-top: 70px;
-  }
-
-  .lab-desc{
-    margin-top: 27px;
-    font-size: 23px;
-  }
-
-  .hr-line{
-    margin: 21px 9% 42px 9%;
-  }
-
-  .title-header{
-    font-size: 49px;
-  }
-
-  .box-content{
-    height: 417px;
-    width: 1391px;
-  }
-
-  .box-content .right{
-    margin-left: 42px;
-    margin-top: -14px;
-  }
-
-  .center-box{
-    margin-top: 97px;
-  }
-
-  .title{
-    font-size: 34px;
-  }
-
-  .highlight-title {
-    margin-top: 14px;
-    padding-right: 27px;
-    border-right: 5px solid #5ca361;
-  }
-
-  .year {
-    margin-top: 14px;
-    padding-left: 27px;
-  }
-
-  .top-10 {
-    margin-top: 14px;
-  }
-
-  mat-expansion-panel{
-    margin-bottom: -27px;
-  }
-
-  .panel-title{
-    padding: 21px 0;
-    font-size: 19px;
-  }
-
-  .font-14 {
-    font-size: 19px;
-  }
-
-  .specific-class{
-    border-radius: 69px;
-  }
-
-  .grad-offering{
-    margin-top: 69px !important;
-  }
-
-  .closed-main-head{
-    border-radius: 69px;
-  }
-
-  .regular-content{
-    margin-top: 27px;
-    font-size: 23px;
-  }
-
-  .regular-content .left div{
-    margin-top: 14px;
-  }
-
-  .regular-content .right div{
-    margin-top: 14px;
-  }
-
-  .more-vacancies{
-    margin-top: 97px;
-  }
-
-  .arrow{
-    font-size: 42px;
-  }
-
+@media (min-width: 2500px) {
   .arrow-text{
-    margin-top: 11px;
+    margin-top: 2%;
   }
 }
+
