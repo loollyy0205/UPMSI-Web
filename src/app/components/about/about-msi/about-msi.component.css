@@ -1,10 +1,10 @@
 .container{
   margin: 0 9%;
-  margin-top: 20px;
+  margin-top: 1.2%;
 }
 
 .content-header{
-  height: 297px;
+  height: 21.8vw;
   position: relative;
 }
 
@@ -15,33 +15,33 @@ img{
 }
 
 .banner-content{
-  font-size: 16px;
-  margin-top: 13px;
-  width: 684px;
+  font-size: 1.17vw;
+  margin-top: 1.5%;
+  width: 50vw;
 }
 
 .left-content{
   position: absolute;
   z-index: 1;
-  bottom: 8px;
-  width: 800px; /* edited*/
+  bottom: 0;
+  /* width: 800px; */
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 50px;
+  padding: 0 3.7vw;
   color: white;
 }
 
 .title{
-  font-size: 29px;
+  font-size: 1.85vw;
 }
 
 .what-we-do {
   margin-left: 4.5%;
   margin-right: 4.5%;
-  height: 289px;
-  margin-top: 75px;
+  height: 21.187vw;
+  margin-top: 5.490vw;
   display: flex;
   justify-content: space-between;
 }
@@ -61,8 +61,8 @@ img{
 }
 
 .what-we-do .right-content-p {
-  font-size: 16px;
-  margin-top: 19px;
+  font-size: 1.17vw;
+  margin-top: 1.391vw;
   font-family: 'Atlas-light';
   line-height: 1.4;
 }
@@ -70,7 +70,7 @@ img{
 .the-founder {
   margin-left: 4.5%;
   margin-right: 4.5%;
-  margin-top: 75px;
+  margin-top: 5.490vw;
   display: flex;
   flex-direction: row;
 }
@@ -79,14 +79,14 @@ img{
   background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623341295/About/about%20msi/03-the-founderr_zk2zdl.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 296px;
-  width: 296px;
+  height: 21.669vw;
+  width: 21.669vw;
   z-index: 999;
 }
 
 .the-founder .right-content-box {
-  width: 53%;
-  margin-left: 43px;
+  width: 48%;
+  margin-left: 3.148vw;
   position: absolute;
 }
 
@@ -97,23 +97,15 @@ img{
 }
 
 .the-founder .right-content-p {
-  font-size: 16px;
-  margin-top: 19px;
+  font-size: 1.171vw;
+  margin-top: 1.391vw;
   font-family: 'Atlas-light';
   line-height: 1.4;
 }
 
 .sub-title{
-  font-size: 19px;
-  margin-top: 21px;
-}
-
-.arrow{
-  font-size: 30px;
-}
-
-.arrow-text{
-  margin-top: 8px;
+  font-size: 1.391vw;
+  margin-top: 1.537vw;
 }
 
 .arrow-text:hover{
@@ -125,146 +117,159 @@ img{
   margin-left: 9%;
   margin-right: 9%;
   display: flex;
-  height: 120px;
+  height: 8.785vw;
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
+  font-size: 1.171vw;
 }
 
-@media (min-width: 1600px) {
+.mobile-banner-content {
+  display: none;
+}
+
+@media (max-width: 768px) {
   .container{
-    margin-top: 23px;
+    margin-top: 2%;
   }
 
   .content-header{
-    height: 348px;
+    height: 40vw;
+    position: relative;
   }
 
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
 
   .banner-content{
-    font-size: 18px;
-    margin-top: 15px;
-    width: 801px;
+    /* font-size: 1.17vw;
+    margin-top: 1.5%;
+    width: 50vw; */
+    display: none;
   }
 
-  .left-content{
-    width: 886px; /* edited */
-    padding: 0 59px;
+  .mobile-banner-content {
+    display: block;
+    font-size: 4vw;
+    margin-top: 5%;
+    line-height: 1.5;
+    /* width: 50vw; */
   }
 
   .title{
-    font-size: 34px;
+    font-size: 5vw;
+    line-height: 1.2;
   }
 
   .what-we-do {
-    height: 338px;
-    margin-top: 88px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100%;
+    margin-top: 8vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+
+  .what-we-do .left-image {
+    background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623341293/About/about%20msi/02-what-we-do_spj9wv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vw;
+    width: 100%;
+  }
+
+  .what-we-do .right-content {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .what-we-do .right-content-p {
-    font-size: 18px;
-    margin-top: 22px;
+    font-size: 4vw;
+    margin-top: 1.391vw;
+    font-family: 'Atlas-light';
+    line-height: 1.5;
   }
 
+  .the-founder {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 8vw;
+    display: flex;
+    flex-direction: column;
+  }
 
   .the-founder .left-image {
-    height: 347px;
-    width: 347px;
+    background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623341295/About/about%20msi/03-the-founderr_zk2zdl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    width: 50vw;
+  }
+
+  .mobile-left-image {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .the-founder .right-content-box {
-    margin-left: 50px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 5%;
+    text-align: center;
+    position: relative;
+  }
+
+  .the-founder .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .the-founder .right-content-p {
-    font-size: 18px;
-    margin-top: 22px;
+    font-size: 4vw;
+    margin-top: 1.391vw;
+    font-family: 'Atlas-light';
+    line-height: 1.5;
   }
 
   .sub-title{
-    font-size: 18px;
-    margin-top: 22px;
+    font-size: 1.391vw;
+    margin-top: 1.537vw;
   }
 
-  .arrow{
-    font-size: 35px;
-  }
+  /* .arrow{
+    font-size: 5vw;
+  } */
 
   .arrow-text{
-    margin-top: 16px;
+    font-size: 4vw;
+  }
+
+  .arrow-text:hover{
+    text-decoration: underline;
   }
 
   .more-vacancies{
-    height: 141px;
-    font-size: 19px;
+    color: #384e8a;
+    margin-left: 9%;
+    margin-right: 9%;
+    display: flex;
+    flex-direction: row;
+    height: 15vw;
+    margin-top: 2%;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
   }
 }
 
-@media (min-width: 1920px) {
-  .container{
-    margin-top: 28px;
-  }
 
-  .content-header{
-    height: 418px;
-  }
-
-
-  .banner-content{
-    font-size: 22px;
-    margin-top: 18px;
-    width: 961px;
-  }
-
-  .left-content{
-    width: 1003px; /* edited */
-    padding: 0 71px;
-  }
-
-  .title{
-    font-size: 41px;
-  }
-
-  .what-we-do {
-    height: 406px;
-    margin-top: 106px;
-  }
-
-  .what-we-do .right-content-p {
-    font-size: 22px;
-    margin-top: 26px;
-  }
-
-
-  .the-founder .left-image {
-    height: 416px;
-    width: 416px;
-  }
-
-  .the-founder .right-content-box {
-    margin-left: 60px;
-  }
-
-  .the-founder .right-content-p {
-    font-size: 22px;
-    margin-top: 26px;
-  }
-
-  .sub-title{
-    font-size: 22px;
-    margin-top: 26px;
-  }
-
-  .arrow{
-    font-size: 42px;
-  }
-
-  .arrow-text{
-    margin-top: 23px;
-  }
-
-  .more-vacancies{
-    height: 167px;
-    font-size: 23px;
-  }
-}

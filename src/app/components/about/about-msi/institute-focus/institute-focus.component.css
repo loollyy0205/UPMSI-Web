@@ -11,40 +11,40 @@ img {
 }
 
 .header {
-  margin-top: 76px;
-  height: 150px;
+  margin-top: 5.564vw;
+  height: 10.981vw;
 }
 
 .title{
-  font-size: 29px;
+  font-size: 2.123vw;
 }
 
 .content-p {
-  font-size: 16px;
-  margin-top: 19px;
+  font-size: 1.171vw;
+  margin-top: 1.391vw;
   font-family: 'Atlas-light';
   line-height: 1.4;
 }
 
 .card {
-  height: 239px;
+  height: 17.496vw;
   background-color: #F5F5F5;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 18px;
+  margin-bottom: 1.318vw;
 }
 
 .card .left {
   width: 31%;
-  margin: 8px;
+  margin: 0.586vw;
 }
 
 .card .right {
   width: 62.2%;
   /* border: 1px solid black; */
-  margin-right: 40px;
-  font-size: 16px;
+  margin-right: 2.928vw;
+  font-size: 1.171vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,13 +52,13 @@ img {
 
 .card-content {
   font-family: 'atlas-light';
-  font-size: 16px;
-  margin-top: 15px;
+  font-size: 1.171vw;
+  margin-top: 1.098vw;
   line-height: 1.3;
 }
 
 .box-card { /* editted: removed margin-top;*/
-  height: 753px;
+  height: 55.124vw;
   margin-right: -3.7%;
   overflow: hidden;
 }
@@ -72,83 +72,90 @@ img {
   overflow-x: hidden;
 }
 
-@media (min-width: 1600px) {
+@media (max-width: 768px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10%;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
   .header {
-    margin-top: 89px;
-    height: 176px;
+    margin-top: 5.564vw;
+    height: 100%;
   }
 
   .title{
-    font-size: 34px;
+    font-size: 5vw;
   }
 
   .content-p {
-    font-size: 18px;
-    margin-top: 22px;
+    font-size: 4vw;
+    margin-top: 3%;
+    font-family: 'Atlas-light';
+    line-height: 1.4;
   }
 
   .card {
-    height: 280px;
-    margin-bottom: 21px;
+    height: fit-content;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-bottom: 5%;
   }
 
   .card .left {
-    margin: 9px;
+    width: 85%;
+    padding: 5% 0;
+    height: 45vw;
   }
 
   .card .right {
-    margin-right: 47px;
-    font-size: 18px;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 100%;
+    margin-right: 0;
+    font-size: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
   }
 
   .card-content {
-    font-size: 18px;
-    margin-top: 17px;
+    font-family: 'atlas-light';
+    font-size: 4vw;
+    margin-top: 1.098vw;
+    padding: 2% 10% 5% 10%;
+    line-height: 1.3;
   }
 
-  .box-card {
-    margin-top: 34px;
-    height: 882px;
+  .title-text {
+    padding: 0 10%;
+  }
+
+  .box-card { /* editted: removed margin-top;*/
+    height: 115vw;
+    margin-right: 0;
+    overflow: hidden;
+    margin-top: 5%;
+  }
+
+  .box-card-content {
+    height: 100%;
+    width: 100%;
+    overflow-y: visible;
+    padding-right: 0; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+    overflow-x: hidden;
   }
 }
 
-@media (min-width: 1920px) {
-  .header {
-    margin-top: 107px;
-    height: 211px;
-  }
-
-  .title{
-    font-size: 41px;
-  }
-
-  .content-p {
-    font-size: 22px;
-    margin-top: 26px;
-  }
-
-  .card {
-    height: 336px;
-    margin-bottom: 25px;
-  }
-
-  .card .left {
-    margin: 11px;
-  }
-
-  .card .right {
-    margin-right: 56px;
-    font-size: 22px;
-  }
-
-  .card-content {
-    font-size: 22px;
-    margin-top: 20px;
-  }
-
-  .box-card {
-    margin-top: 41px;
-    height: 1058px;
-  }
-}
 
