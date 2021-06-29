@@ -11,6 +11,9 @@
       <p class="atlas-bold" style="color: #4D525B;" >{{myArr[0].title3}}</p>
       <!-- <p class="atlas-light">Academician of the National Academy of Science and Technology | NAST</p> -->
     </div>
+    <div style="line-height: 1.3; margin-top: 2%;" class="google-cit" *ngIf="myArr[0].citation">
+      <a [href]="myArr[0].citation" target="_blank"><p class="atlas-light" style="margin-top: 1.2%; color: #5da563;">Google Scholar Citations</p></a>
+    </div>
   </div>
 </div>
 
@@ -24,6 +27,7 @@
         <p class="atlas-light badge">{{myArr[0].badge}}</p>
         <p class="atlas-light badge">{{myArr[0].badge2}}</p>
       </div>
+
     </div>
   </div>
 

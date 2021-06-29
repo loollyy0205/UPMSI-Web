@@ -146,7 +146,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Ticzon, V.S., Mumby, PJ., Samaniego, B.R., Bejarano-Chavarro, S., David, L.T., Microhabitat use of juvenile coral reef fish in Palau. Environmental Biology of Fishes 95(3) (2012): 355-370. DOI 10.1007/s10641-012-0010-9'},
       {publi: 'Villanoy, C., David, L., Cabrera, O., Atrigenio, M., Siringan, F., Villaluz, M., Aliño, P., Coastal ecosystems protect shore from high-energy waves under climate change scenarios. Climatic Change. 112(2) (2012):493-505. DOI: 10.1007/s10584-012-0399-3'},
     ]},
-    {image: 'https://dc373.4shared.com/img/-dAqitCgiq/s24/179c13ebd68/06-Charissa_M_Ferrera_?async&rand=0.1654507293460148', name: 'Charissa M. Ferrera, Ph.D.', title1: 'Assistant Professor'},
+    {image: 'https://dc373.4shared.com/img/-dAqitCgiq/s24/179c13ebd68/06-Charissa_M_Ferrera_?async&rand=0.1654507293460148', name: 'Charissa M. Ferrera, Ph.D.',citation: 'https://scholar.google.com/citations?user=vupVjtgAAAAJ&hl=en', title1: 'Assistant Professor'},
     {image: 'https://dc697.4shared.com/img/f2RDLNVniq/s24/179c13ec538/07-Rachel_June_R_Gotanco_PhD?async&rand=0.005576854950600341', name: 'Rachel June Ravago-Gotanco, Ph.D.', email: 'rrgotanco@msi.upd.edu.ph', citation: 'https://scholar.google.com.ph/citations?user=RaRuPq0AAAAJ&hl=fil', title1: 'Associate Professor', badge: 'Deputy Director for Instruction', education1: 'Ph.D. Marine Science', education2: 'University of University, Quezon City, Philippines', RI: 'Molecular Ecology and Evolution, Population Genetics, Phylogeography',
     publication: [
       {publi: 'Ravago-Gotanco R, Kim KM (2019) Regional genetic structure of sandfish Holuthuria (Metriatyla) scabra populations across the Philippine archipelago. Fish. Res. 209:143-155.'},
@@ -395,7 +395,7 @@ edited the badges
       {publi: 'Macaranas, J.M., N. Taniguchi, M.J.R. Pante, J.B. Capili, and R.S.V. Pullin. 1986. Electrophoretic evidence for extensive hybrid gene introgression into commercial Oreochromis niloticus (L.) stocks in the Philippines. Aquaculture Research 17:249-258. doi: 10.1111/j.1365-2109.1986.tb00111.x'},
       {publi: 'Pante, M.J.R., and J.M. Macaranas. 1989. Genetic characterization of cultured Philippine tilapia stocks, In: PCAMRD, ICLARM, Tilapia Genetics and Culture, Freshwater Aquaculture Center, Central Luzon State University, Muñoz, Nueva Ecija, June 20-22, 1985, Philippine Council for Aquatic and Marine Research and Development, Los Baños, Laguna, International Centre for Living Aquatic Resources Management Center, Manila, Philippines, 1989 62p.(Book Series No. 01/1989).'},
     ]},
-    {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624850278/About/faculty/Cha_ID_nkfkmm.jpg', name: 'Charina Lyn A. Repollo, Ph.D.', title1: 'Assistant Professor'},
+    {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624850278/About/faculty/Cha_ID_nkfkmm.jpg', name: 'Charina Lyn A. Repollo, Ph.D.', title1: 'Assistant Professor', citation: 'https://scholar.google.com.ph/citations?user=Sd-u2egAAAAJ&hl=en'},
     {image: 'https://dc697.4shared.com/img/cVg7r-M4ea/s24/179c13ee860/15-Lilibeth_S_Reyes_PhD?async&rand=0.888438679623653', name: 'Lilibeth A. Salvador- Reyes, Ph.D.', email: 'lsreyes@msi.upd.edu.ph ', citation: 'https://scholar.google.com/citations?user=xJwDExgAAAAJ&hl=en', title1: 'Associate Professor', education1: 'Ph.D. in Pharmaceutical Sciences-Medicinal Chemistry', education2: 'University of Florida', RI: 'Medicinal and Natural Products Chemistry, Biochemistry, Pharmacology',
     publication: [
       {publi: 'Olano DEB, Salvador-Reyes LA, Montaño MNE, Azanza RV. 2020. Sorpiton of paralytic shellfish toxins (PSTs) in algal polysaccharide gels. Algal Research 45:101655.'},
@@ -765,7 +765,7 @@ edited the badges
       {publi: 'Villanoy CL, Juinio MAR, Menez LB, 1988. Mortality rates of giant clams (Family Tridacnidae) from the Sulu Archipelago and southern Palawan, Philippines. Coral Reefs, 7, 1-5.'},
       {publi: 'Juinio MAR, Menez LB, Villanoy C, 1987. Use of giant clam resources in the Philippines. Naga-ICLARM Q. 10, 7-8.'},
     ]},
-    {image: 'https://dc373.4shared.com/img/FNtHDHGRiq/s24/179c13f1b28/22-Maria_Helene_Yap?async&rand=0.34866816745250273', name: 'Maria Helena T. Yap, Ph.D.', title1: 'Professor', email: 'helentyap@yahoo.com', education1: 'Doctor rerum naturalium ', education2: 'University of Rostock, German Democratic Republic', RI: 'Coral Reef Ecology, Complex Systems',
+    {image: 'https://dc373.4shared.com/img/FNtHDHGRiq/s24/179c13f1b28/22-Maria_Helene_Yap?async&rand=0.34866816745250273', name: 'Maria Helena T. Yap, Ph.D.', title1: 'Professor', email: 'helentyap@yahoo.com', citation: 'https://scholar.google.com.ph/citations?user=qSPpNAoAAAAJ&hl=en', education1: 'Doctor rerum naturalium ', education2: 'University of Rostock, German Democratic Republic', RI: 'Coral Reef Ecology, Complex Systems',
     publication: [
       {publi: 'Yap HT. 2019. One-ecosystem analysis for environmental conservation and sustainble livelihood. F1000Research 2019, 8(F1000 Faculty Rev):328.'},
       {publi: 'Servonnat M, Kaye R, Siringan FP, Munar J, Yap HT. 2019. Imperatives for conservation in a threatened center of biodiversity. Coast Manage., 47(5):453-472.'},
