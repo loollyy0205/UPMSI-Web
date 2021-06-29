@@ -1,19 +1,19 @@
 .container{
-  margin-top: 35px;
+  margin-top: 3%;
   margin-left: 4.5%;
   margin-right: 4.5%;
 }
 
 .title{
-  font-size: 29px;
+  font-size: 2.125vw;
   color: #384e8a;
   margin-bottom: -1.5%;
 }
 
 .title2{
-  font-size: 29px;
-  padding-top: 45px;
-  padding-left: 54px;
+  font-size: 2.125vw;
+  padding-top: 4.4%;
+  padding-left: 5.4%;
 }
 
 img{
@@ -24,13 +24,13 @@ img{
 
 
 mat-expansion-panel{
-  margin-bottom: -20px;
+  margin-bottom: -1.7%;
 }
 
 .panel-title{
   color: white;
-  padding: 15px 0;
-  font-size: 14px; /* edited */
+  padding: 1.06vw 1vw;
+  font-size: 1.025vw; /* edited */
 }
 
 mat-expansion-panel{
@@ -43,18 +43,18 @@ mat-expansion-panel{
 }
 
 .specific-class{
-  border-radius: 50px;
+  border-radius: 3vw;
 }
 
 .grad-offering{
-  margin-top: 50px !important;
-  padding: 0 120px; /* edited */
+  margin-top: 3.5vw !important;
+  padding: 0 11%; /* edited */
 }
 
 
 .closed-main-head{
   background-color: #384e8a;
-  border-radius: 50px;
+  border-radius: 3vw;
 }
 
 .regular-content{
@@ -69,12 +69,12 @@ mat-expansion-panel{
 }
 
 .left div{
-  margin-top: 10px;
+  margin-top: 3%;
   line-height: 1.4;
 }
 
 .right div{
-  margin-top: 10px;
+  margin-top: 3%;
   line-height: 1.4;
 }
 
@@ -90,25 +90,25 @@ mat-expansion-panel{
 
 /* edited: added css */
 .left3 div{
-  margin-top: 10px;
+  margin-top: 3%;
   line-height: 1.5;
 }
 
 /* edited: added css */
 .right3 div{
-  margin-top: 10px;
+  margin-top: 3%;
   line-height: 1.5;
 }
 
 /* edited: added css */
 .right3{
   width: 50%;
-  margin-left: 50px;
+  margin-left: 3vw;
 }
 
 .contact-banner {
-  margin-top: 82px;
-  height: 297px;
+  margin-top: 8%;
+  height: 22.2vw;
   background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623341902/About/administrative%20office/03-footer_dlci33.jpg);
   background-position: center;
   background-size: cover;
@@ -116,50 +116,52 @@ mat-expansion-panel{
 }
 
 .contact-content {
-  width: 708px;
+  width: 52vw;
   color: white;
-  margin-top: 15px;
-  padding-left: 54px;
+  margin-top: 1.5%;
+  padding-left: 5.4%;
   line-height: 1.5;
   font-family: 'atlas-light';
+  font-size: 1.17vw;
 }
 
 /* edited2: whole css */
 .staff-content {
   margin-top: 2% !important;
   margin-bottom: 0% !important;
-  top: 15px;
+  top: 1.5%;
 }
 
 .panel-title2{
   color: white;
   padding: 0;
-  font-size: 14px; /* edited */
+  font-size: 1.025vw; /* edited */
   line-height: 2.5; /* edited */
 }
 
 .regular-content2{
-  border-left: 3px solid #5ca361;
+  border-left: .220vw solid #5ca361;
   display: flex;
   flex-direction: row;
-  font-size: 14px; /* edited2 */
+  font-size: 1.025vw; /* edited2 */
   margin-top: 1.5%;
   width: 100%;
 }
 
 /*edited2: added css */
 .regular-content{
-  font-size: 14px;
+  font-size: 1.025vw;
+  margin-left: 2%;
 }
 
 .left2 {
   width: 30%;
-  margin-left: 20px;
+  margin-left: 2%;
 }
 
 .right2 {
   width: 70%;
-  margin-left: 20px;
+  margin-left: 2%;
 }
 
 .left2 p {
@@ -168,139 +170,4 @@ mat-expansion-panel{
 
 .right2 p {
   line-height: 2.5;
-}
-
-@media (min-width: 1600px) {
-  .container{
-    margin-top: 41px;
-  }
-
-  .title{
-    font-size: 34px;
-  }
-
-  .title2{
-    font-size: 34px;
-    padding-top: 53px;
-    padding-left: 63px;
-  }
-
-
-  mat-expansion-panel{
-    margin-bottom: -23px;
-  }
-
-  .panel-title{
-    padding: 18px 0;
-    font-size: 16px;
-  }
-
-  .panel-title2{
-    font-size: 16px; /* edited */
-  }
-
-  .specific-class{
-    border-radius: 58px;
-  }
-
-  .grad-offering{
-    margin-top: 58px !important;
-  }
-
-
-  .closed-main-head{
-    border-radius: 58px;
-  }
-
-  .regular-content, .regular-content2{
-    font-size: 16px;
-  }
-
-
-  .left div{
-    margin-top: 12px
-  }
-
-  .right div{
-    margin-top: 12px
-  }
-
-  .contact-banner {
-    margin-top: 96px;
-    height: 348px;
-  }
-
-  .contact-content {
-    width: 829px;
-    margin-top: 18px;
-    padding-left: 63px;
-    font-size: 19px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .container{
-    margin-top: 49px;
-  }
-
-  .title{
-    font-size: 41px;
-  }
-
-  .title2{
-    font-size: 41px;
-    padding-top: 64px;
-    padding-left: 76px;
-  }
-
-
-  mat-expansion-panel{
-    margin-bottom: -27px;
-  }
-
-  .panel-title{
-    padding: 22px 0;
-    font-size: 19px;
-  }
-
-  .panel-title2{
-    font-size: 19px; /* edited */
-  }
-
-  .specific-class{
-    border-radius: 70px;
-  }
-
-  .grad-offering{
-    margin-top: 70px !important;
-  }
-
-
-  .closed-main-head{
-    border-radius: 70px;
-  }
-
-  .regular-content, .regular-content2{
-    font-size: 19px;
-  }
-
-  .left div{
-    margin-top: 14px
-  }
-
-  .right div{
-    margin-top: 14px
-  }
-
-  .contact-banner {
-    margin-top: 115px;
-    height: 418px;
-  }
-
-  .contact-content {
-    width: 995px;
-    margin-top: 22px;
-    padding-left: 76px;
-    font-size: 23px;
-  }
 }

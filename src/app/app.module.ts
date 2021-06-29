@@ -105,6 +105,7 @@ import { VisionMissionComponent } from './components/about/about-msi/vision-miss
 import { MoreStudNookComponent } from './components/education/studnook/more-studnook/more-studnook.component';
 import { StudNookComponent } from './components/education/studnook/studnook.component';
 import { MobileNavComponent } from './components/nav/mobile-nav/mobile-nav.component';
+import { ProjectBasedRAComponent } from './components/about/about-admin/admin-msi-staff/project-based-ra/project-based-ra.component';
 
 @NgModule({
   declarations: [
@@ -200,7 +201,8 @@ import { MobileNavComponent } from './components/nav/mobile-nav/mobile-nav.compo
     VisionMissionComponent,
     StudNookComponent,
     MoreStudNookComponent,
-    MobileNavComponent
+    MobileNavComponent,
+    ProjectBasedRAComponent
   ],
   imports: [
     BrowserModule,
