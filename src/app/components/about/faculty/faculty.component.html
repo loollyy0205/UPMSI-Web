@@ -9,6 +9,11 @@
       </p>
     </div>
   </div>
+
+  <p class="atlas-light mobile-content-banner">
+    The faculty of the UP Marine Science Institute (UP MSI) is composed of residents, professors emeriti, and retired professors. Several notable faculty have been lauded as National Scientists and academicians of the National Academy of Science and Technology (NAST). As the University’s center for marine research, faculty members not only teach, but also conduct research across different marine specializations, including marine biology, marine chemistry, physical oceanography, marine geology, and other related disciplines. They are considered to be among the best in the country, both in the academe and research community.
+  </p>
+
   <mat-accordion>
     <mat-expansion-panel id="panel-1" class="mat-elevation-z0 grad-offering" (opened)="panelOpenState = true"
         (closed)="panelOpenState = false">
@@ -46,7 +51,7 @@
       <mat-panel-title class="atlas-light panel-title">PROFESSORS EMERITI</mat-panel-title>
       </mat-expansion-panel-header>
       <div class="regular-content">
-        <div class="left">
+        <div class="left2">
           <div *ngFor="let item of emeriti">
             <div (click)="openDialog(item.name)">
               <p class="atlas-bold">{{item.name}}</p>
@@ -63,7 +68,7 @@
       <mat-panel-title class="atlas-light panel-title">NATIONAL SCIENTISTS</mat-panel-title>
       </mat-expansion-panel-header>
       <div class="regular-content">
-        <div class="left">
+        <div class="left2">
           <div *ngFor="let item of nationalScientist">
             <div (click)="openDialog(item.name)">
               <p class="atlas-bold">{{item.name}}</p>
@@ -80,7 +85,7 @@
       <mat-panel-title class="atlas-light panel-title">RETIRED PROFESSORS</mat-panel-title>
       </mat-expansion-panel-header>
       <div class="regular-content">
-        <div class="left" style="margin-bottom: -2%;">
+        <div class="left2" style="margin-bottom: -2%;">
           <div>
             <div>
               <p class="atlas-bold">Miguel D. Fortes, Ph.D.</p>
@@ -119,14 +124,13 @@
 
   </mat-accordion>
 
-  <div class="where-next " (click)="gotoAdmin()">
-    <span style="margin-top: 6px;">
-      <p class="atlas-light">TO ADMINISTRATIVE OFFICE</p> <!-- edited : removed style -->
+  <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
+    <span class="arrow-text" routerLink="/About/admin">
+      <p class="atlas-light"><span class="navi">TO ADMINISTRATIVE OFFICE</span> <span class="arrow">&rarr;</span></p>
     </span>
-    <mat-icon class="arrow">arrow_forward</mat-icon>
   </div>
 </div>
 
-<div style="margin-top: 70px;">
+<div>
   <app-footer></app-footer>
 </div>

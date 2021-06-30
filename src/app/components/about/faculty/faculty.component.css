@@ -1,10 +1,10 @@
 .container{
   margin: 0 9%;
-  margin-top: 20px;
+  margin-top: 1.464vw;
 }
 
 .content-header{
-  height: 297px;
+  height: 21.742vw;
   position: relative;
 }
 
@@ -15,36 +15,36 @@ img{
 }
 
 .banner-content{
-  font-size: 18px;
-  margin-top: 13px;
-  width: 684px;
+  font-size: 1.171vw;
+  margin-top: 0.952vw;
+  width: 50.073vw;
 }
 
 .left-content{
   position: absolute;
   z-index: 1;
-  bottom: 2px; /*edited*/
-  width: 500px;
+  bottom: 0; /*edited*/
+  width: 36.603vw;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 50px;
+  padding: 0 3.660vw;
   color: white;
 }
 
 .title{
-  font-size: 29px;
+  font-size: 2.123vw;
 }
 
 mat-expansion-panel{
-  margin-bottom: -20px;
+  margin-bottom: -1.464vw;
 }
 
 .panel-title{
   color: white;
-  padding: 15px 0;
-  font-size: 14px;
+  padding: 1.098vw 0;
+  font-size: 1.098vw;
 }
 
 mat-expansion-panel{
@@ -57,21 +57,21 @@ mat-expansion-panel{
 }
 
 .specific-class{
-  border-radius: 50px;
+  border-radius: 3.660vw;
 }
 
 .grad-offering{
-  margin-top: 50px !important;
-  padding: 0 170px;
+  margin-top: 3.660vw !important;
+  padding: 0 12.445vw;
 }
 
 .core-courses{
   height: 100%;
-  margin-left: 20px;
-  border-left: 3px solid #5da563;
+  margin-left: 1.464vw;
+  border-left: 0.220vw solid #5da563;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 15px;
+  column-gap: 1.098vw;
 }
 
 .core-content{
@@ -80,213 +80,224 @@ mat-expansion-panel{
 }
 
 .core-courses div{
-  margin-left: 20px;
+  margin-left: 1.464vw;
 }
 
 .closed-main-head{
   background-color: #384e8a;
-  border-radius: 50px;
+  border-radius: 3.660vw;
 }
 
 .regular-content{
   height: 100%;
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  margin-top: 1.464vw;
+  font-size: 1.025vw;
 }
 
 .left{
   width: 50%;
+  line-height: 1.5;
+}
+
+.left2{
+  width: 50%;
+  line-height: 1.5;
+}
+
+.left2 div{
+  margin-top: 0.732vw;
+  cursor: pointer;
 }
 
 .left div{
-  margin-top: 10px;
+  margin-top: 0.732vw;
   cursor: pointer;
 }
 
 .right div{
-  margin-top: 10px;
+  margin-top: 0.732vw;
   cursor: pointer;
 }
 
 
 .right{
   width: 50%;
+  line-height: 1.5;
 }
 
-.banner-content{
-  font-size: 16px;
+.arrow{
+  font-size: 2vw;
+  padding-left: .5vw;
+  text-decoration: none !important;
 }
 
-.where-next{
-  color: #384e8a;
-  display: flex;
-  justify-content: flex-end;
-  cursor: pointer;
-  margin-top: 100px;
-}
-
-/* edited:  added css */;
-.where-next:hover{
+.navi:hover {
   text-decoration: underline;
 }
 
-.arrow {
-  margin-left: 8px;
+.more-vacancies{
+  color: #384e8a;
+  display: flex;
+  height: 8.785vw;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 2%;
+  font-size: 1.171vw;
 }
 
-@media (min-width: 1600px) {
+.mobile-content-banner {
+
+  display: none;
+}
+
+@media (max-width: 768px) {
   .container{
-    margin-top: 23px;
+    margin-top: 2%;
   }
 
   .content-header{
-    height: 348px;
+    height: 40vw;
   }
 
   .banner-content{
-    font-size: 21px;
-    margin-top: 15px;
-    width: 801px;
+    /* font-size: 4vw;
+    margin-top: 0.952vw;
+    width: 50.073vw; */
+    display: none;
   }
 
   .left-content{
-    width: 586px;
-    padding: 0 59px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0; /*edited*/
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3.660vw;
+    color: white;
   }
 
   .title{
-    font-size: 34px;
+    font-size: 5vw;
+  }
+
+  .mobile-content-banner {
+    display: block;
+    font-size: 4vw;
+    padding-top: 5%;
+    line-height: 1.5;
   }
 
   mat-expansion-panel{
-    margin-bottom: -23px;
+    margin-bottom: 0;
   }
 
   .panel-title{
-    padding: 18px 0;
-    font-size: 16px;
+    color: white;
+    padding: 3vw 0;
+    font-size: 3vw;
+  }
+
+  mat-expansion-panel{
+    border-color: white;
+    background-color: #fafafa;
+  }
+
+  ::ng-deep .specific-class > .mat-expansion-indicator:after {
+    color: white;
   }
 
   .specific-class{
-    border-radius: 59px;
+    border-radius: 5vw;
   }
 
   .grad-offering{
-    margin-top: 59px !important;
-    padding: 0 199px;
+    margin-top: 5vw !important;
+    padding: 0vw;
   }
 
   .core-courses{
-    margin-left: 23px;
-    border-left: 4px solid #5da563;
-    gap: 18px;
+    height: 100%;
+    margin-left: 1.464vw;
+    border-left: 0.220vw solid #5da563;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 1.098vw;
+  }
+
+  .core-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
   }
 
   .core-courses div{
-    margin-left: 23px;
+    margin-left: 1.464vw;
   }
 
   .closed-main-head{
-    border-radius: 59px;
+    background-color: #384e8a;
+    border-radius: 3.660vw;
   }
 
   .regular-content{
-    margin-top: 23px;
-    font-size: 16px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5%;
+    font-size: 3vw;
+  }
+
+  .left{
+    width: 48%;
+    line-height: 1.5;
+  }
+
+  .left2{
+    width: 100%;
+    line-height: 1.5;
   }
 
   .left div{
-    margin-top: 12px
+    margin-top: 5%;
+    cursor: pointer;
+  }
+
+  .left2 div{
+    margin-top: 5%;
+    cursor: pointer;
   }
 
   .right div{
-    margin-top: 12px
+    margin-top: 5%;
+    cursor: pointer;
+    margin-left: 5%;
   }
 
-  .banner-content{
-    font-size: 19px;
+
+  .right{
+    width: 50%;
+    line-height: 1.5;
+  }
+  .arrow{
+    font-size: 7vw;
+    text-decoration: none !important;
   }
 
-  .where-next{
-    margin-top: 117px;
-    font-size: 19px;
+  .navi:hover {
+    text-decoration: underline;
   }
 
-  .arrow {
-    margin-left: 9px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .container{
-    margin-top: 28px;
+  .arrow-text{
+    font-size: 4vw;
   }
 
-  .content-header{
-    height: 418px;
-  }
-
-  .banner-content{
-    font-size: 25px;
-    margin-top: 18px;
-    width: 961px;
-  }
-
-  .left-content{
-    width: 703px;
-    padding: 0 71px;
-  }
-
-  .title{
-    font-size: 41px;
-  }
-
-  mat-expansion-panel{
-    margin-bottom: -28px;
-  }
-
-  .panel-title{
-    padding: 21px 0;
-    font-size: 19px;
-  }
-
-  .specific-class{
-    border-radius: 71px;
-  }
-
-  .grad-offering{
-    margin-top: 71px !important;
-    padding: 0 239px;
-  }
-
-  .closed-main-head{
-    border-radius: 71px;
-  }
-
-  .regular-content{
-    margin-top: 28px;
-    font-size: 19px;
-  }
-
-  .left div{
-    margin-top: 14px
-  }
-
-  .right div{
-    margin-top: 14px
-  }
-
-  .banner-content{
-    font-size: 23px;
-  }
-
-  .where-next{
-    margin-top: 140px;
-    font-size: 23px;
-  }
-
-  .arrow {
-    margin-left: 11px;
+  .more-vacancies{
+    height: 25vw;
+    margin-top: 0;
   }
 }
