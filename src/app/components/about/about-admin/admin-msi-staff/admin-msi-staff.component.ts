@@ -37,7 +37,17 @@ export class AdminMsiStaffComponent implements OnInit {
   panelOpenState28:boolean =false;
   panelOpenState29:boolean =false;
   panelOpenState30:boolean =false;
-
+  panelOpenState31:boolean =false;
+  panelOpenState32:boolean =false;
+  panelOpenState33:boolean =false;
+  panelOpenState34:boolean =false;
+  panelOpenState35:boolean =false;
+  panelOpenState36:boolean =false;
+  panelOpenState37:boolean =false;
+  panelOpenState38:boolean =false;
+  panelOpenState39:boolean =false;
+  panelOpenState40:boolean =false;
+  panelOpenState41:boolean =false;
 
   constructor() { }
 

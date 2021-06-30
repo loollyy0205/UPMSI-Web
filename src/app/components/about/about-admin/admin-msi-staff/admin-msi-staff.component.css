@@ -136,7 +136,8 @@ mat-expansion-panel{
   color: white;
   padding: 0;
   font-size: 1.025vw; /* edited */
-  line-height: 2.5; /* edited */
+  line-height: 1.5; /* edited */
+  margin-top: 2%;
 }
 
 .regular-content2{
@@ -148,6 +149,20 @@ mat-expansion-panel{
   width: 100%;
 }
 
+.regular-content3{
+  border-left: .220vw solid #5ca361;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.025vw; /* edited2 */
+  margin-top: 1.5%;
+  width: 100%;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+}
+
 /*edited2: added css */
 .regular-content{
   font-size: 1.025vw;
@@ -155,19 +170,337 @@ mat-expansion-panel{
 }
 
 .left2 {
-  width: 30%;
+  width: 100%;
   margin-left: 2%;
 }
 
-.right2 {
-  width: 70%;
-  margin-left: 2%;
-}
 
 .left2 p {
   line-height: 2.5;
 }
 
-.right2 p {
-  line-height: 2.5;
+/* edited8: added css */
+.specific-class1:hover{
+  background : none !important;
 }
+
+/* edited8: added css */
+.left4{
+  width: 45%;
+  margin-left: 2%;
+}
+
+/* edited8: added css */
+.left4 div{
+  margin-top: 2.5%;
+  line-height: 1.5;
+}
+
+/* edited8: added css */
+.right4 div{
+  margin-top: 2.1%;
+  line-height: 1.5;
+}
+
+/* edited8: added css */
+.right4{
+  width: 55%;
+  margin-left: 3vw;
+}
+
+/* edited8: added css */
+.left5{
+  width: 40%;
+  margin-left: 2%;
+}
+
+/* edited8: added css */
+.left5 div{
+  margin-top: 3%;
+  line-height: 1.5;
+}
+
+/* edited8: added css */
+.right5 div{
+  margin-top: 2%;
+  line-height: 1.5;
+}
+
+/* edited8: added css */
+.right5{
+  width: 60%;
+  margin-left: 3vw;
+}
+
+.mobile-contact-content {
+  display: none;
+
+}
+
+@media (max-width: 768px) {
+
+  .container{
+    margin-top: 10%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .title{
+    font-size: 5vw;
+    color: #384e8a;
+    margin-bottom: 0;
+  }
+
+  .title2{
+    font-size: 5vw;
+    padding-top: 4.4%;
+    padding-left: 0;
+  }
+
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+  mat-expansion-panel{
+    margin-bottom: 0;
+  }
+
+  .panel-title{
+    color: white;
+    padding: 3vw 0;
+    font-size: 3vw; /* edited */
+  }
+
+  mat-expansion-panel{
+    border-color: #fafafa;
+    background-color: #fafafa;
+  }
+
+  ::ng-deep .specific-class > .mat-expansion-indicator:after {
+    color: white;
+  }
+
+  .specific-class{
+    border-radius: 5vw;
+  }
+
+  .grad-offering{
+    margin-top: 5vw !important;
+    padding: 0; /* edited */
+  }
+
+
+  .closed-main-head{
+    background-color: #384e8a;
+    border-radius: 5vw;
+  }
+
+  .regular-content{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5%;
+  }
+
+  .left{
+    width: 45%;
+  }
+
+  .left div{
+    margin-top: 3%;
+    line-height: 1.4;
+  }
+
+  .right div{
+    margin-top: 3%;
+    line-height: 1.4;
+  }
+
+
+  .right{
+    width: 45%;
+  }
+
+  /* edited: added css */
+  .left3{
+    width: 45%;
+  }
+
+  /* edited: added css */
+  .left3 div{
+    margin-top: 3%;
+    line-height: 1.5;
+  }
+
+  /* edited: added css */
+  .right3 div{
+    margin-top: 3%;
+    line-height: 1.5;
+  }
+
+  /* edited: added css */
+  .right3{
+    width: 45%;
+    margin-left: 3vw;
+  }
+
+  .title-contact {
+    margin-bottom: 2%;
+  }
+
+  .contact-banner {
+    margin-top: 10%;
+    height: 40vw;
+    background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623341902/About/administrative%20office/03-footer_dlci33.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-content {
+    width: 52vw;
+    color: white;
+    margin-top: 1.5%;
+    padding-left: 5.4%;
+    line-height: 1.5;
+    font-family: 'atlas-light';
+    font-size: 4vw;
+    display: none;
+  }
+
+  .mobile-contact-content {
+    display: block;
+    font-size: 4vw;
+    margin-top: 5%;
+    line-height: 1.5;
+  }
+
+  .staff-content {
+    margin-top: 2% !important;
+    margin-bottom: 0% !important;
+    top: 1.5%;
+    margin-left: -1.5vw;
+  }
+
+  .panel-title2{
+    color: white;
+    padding: 0 !important;
+    font-size: 3vw; /* edited */
+    line-height: 1.5; /* edited */
+    margin-top: 5%;
+  }
+
+  .regular-content2{
+    border-left: .5vw solid #5ca361;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    font-size: 3vw; /* edited2 */
+    margin-top: 1.5%;
+    width: 100vw;
+  }
+
+  .regular-content3{
+    border-left: .5vw solid #5ca361;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    font-size: 3vw; /* edited2 */
+    margin-top: 1.5%;
+    width: 95%;
+  }
+
+  .badge {
+    width: 50%;
+  }
+
+  .two-column {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    margin-top: 5%;
+  }
+
+  /*edited2: added css */
+  .regular-content{
+    font-size: 3vw;
+    margin-left: 2%;
+  }
+
+  .left2 {
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .left2 p {
+    line-height: 1.3;
+  }
+
+
+/* edited8: added css */
+.left4{
+  width: 30%;
+  margin-left: 2%;
+}
+
+/* edited8: added css */
+.left4 div{
+  margin-top: 2.5%;
+  line-height: 1.5;
+}
+
+/* edited8: added css */
+.right4 div{
+  margin-top: 2.1%;
+  line-height: 1.5;
+}
+
+/* edited8: added css */
+.right4{
+  width: 30%;
+  margin-left: 3vw;
+}
+
+/* edited8: added css */
+.left5{
+  width: 30%;
+  margin-left: 2%;
+}
+
+/* edited8: added css */
+.left5 div{
+  margin-top: 3%;
+  line-height: 1.5;
+}
+
+/* edited8: added css */
+.right5 div{
+  margin-top: 2%;
+  line-height: 1.5;
+}
+
+/* edited8: added css */
+.right5{
+  width: 30%;
+  margin-left: 3vw;
+}
+}
+
+@media (max-width: 576px) {
+  .staff-content {
+   margin-top: 2% !important;
+   margin-bottom: 0% !important;
+   top: 1.5%;
+   margin-left: -8vw;
+   width: 90vw;
+   }
+
+   .mobile-content {
+     margin-left: -5vw;
+   }
+ }

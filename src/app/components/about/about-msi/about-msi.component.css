@@ -108,7 +108,13 @@ img{
   margin-top: 1.537vw;
 }
 
-.arrow-text:hover{
+.arrow{
+  font-size: 2vw;
+  padding-left: .5vw;
+  text-decoration: none !important;
+}
+
+.navi:hover {
   text-decoration: underline;
 }
 
@@ -246,9 +252,10 @@ img{
     margin-top: 1.537vw;
   }
 
-  /* .arrow{
-    font-size: 5vw;
-  } */
+  .arrow{
+    font-size: 7vw;
+    /* margin-top: -2%; */
+  }
 
   .arrow-text{
     font-size: 4vw;
