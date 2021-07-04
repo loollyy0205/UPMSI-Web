@@ -51,10 +51,25 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Villanoy,C., David, L., Cabrera, O., Atrigenio, M., Siringan, F., Aliño, P. and Villaluz, M. (2012). Coral reef ecosystems protect shore from high-energy waves under climate change scenarios. Climate Change Vol. 112 (2), pp. 493-505.'},
     ]},
 
-    {image: 'https://dc697.4shared.com/img/zLgZs-04ea/s24/179c13e9e28/02-Michael_P_Atrigenio?async&rand=0.573086578215513', name: 'Michael P. Atrigenio, Ph.D.', title1: 'Assistant Professor',},
+    {image: 'https://dc697.4shared.com/img/zLgZs-04ea/s24/179c13e9e28/02-Michael_P_Atrigenio?async&rand=0.573086578215513', name: 'Michael P. Atrigenio, Ph.D.', email: 'matrigenio@msi.upd.edu.ph', title1: 'Associate Professor', education1: 'Doctor of Philosophy in Marine Science Institute, University of the Philippines, Diliman',  education2: '2019 Master of Science in Marine Science, University of the Philippines, Diliman',  education3: '1996 Bachelor of Science in Marine Biology, Xavier University-Ateneo de Cagayan',
+    publication: [
+        {publi: 'Guzman C, Atrigenio M, Shinzato C, Aliño P, Conaco C (2019) Warm seawater temperature promotes substrate  colonization by the blue coral, Heliopora coerulea. PeerJ 7:e7785 https://doi.org/10.7717/peerj.7785'},
+        {publi: 'Atrigenio M, Aliño P, Conaco C (2017) Influence of the blue coral Heliopora coerulea on Scleractinian coral larval  recruitment. J Mar Biol. 2017. https://doi.org/10.1155/2017/6015143'},
+        {publi: 'Cabral, R.B., S.D. Gaines, M.T. Lim, M.P. Atrigenio, S.S. Mamauag, G.C. Pedemonte, P.M. Aliño. 2016. Siting marine  protected areas based on habitat quality and extent provides the greatest bene t to spatially structured  metapopulations. Ecosphere. 7 (11), 1-15.'},
+        {publi: 'Villanoy, C. L. David, O. Cabrera, M. Atrigenio, F. Siringan, M. Villaluz, P. Aliño (2012) Coastal ecosystems protect  shore from high-energy waves under climate change scenarios. Climatic Change. 112: 493-505.'},
+        {publi: 'Alino PM, CL Nanola, DD De Jesus, RI de Ramos, ACM Balingit, LE Robles, HO Arceo, MR Deocadez, MP Atrigenio,  RJS Martinez, et al. 2012. Status of Philippine coral reefs (2008-2011). In: Baria V, R Muallil, DO de Jesus, P  Samonte, MV Ricafrente, H Arceo, PM Alino, eds. Say of the coasts: Sustaining the say of the coasts reporting.  Quezon City: PhilReefs, Philippine Council for Agriculture, Aquatic and Natural Resoruces Research and  Development and the Marine Science Institute, University of the Philippines. P. 10-15.'},
+
+        {publi: 'Antolin, A. M. Atrigenio, J. Acay (eds) (2005) Conservation International Philippines. Biodiversity of Penablanca  Protected Landscape and Seascape. 23 pp.'},
+        {publi: 'Aliño, P.M., M.P. Atrigenio, M.C.C. Quibilan, and M.G.J.P. Tiquio (2004) The Significance of Coastal Ecosystem  Stewardship to Fisheries Productivity, pp.79-83. In Turbulent Seas: The Status of Philippine Marine Fisheries.  2004. 78-83. ISBN 971-92753-4-0.'},
+        {publi: 'M.P. Atrigenio and P.M. Aliño (1996) Effects of the soft coral Xenia puertogalerae on the recruitment of scleractinian corals.  Journal of Exp. Mar. Biol. and Ecol. 203/2:179-189.'},
+        {publi: 'Atrigenio, M.P., P.M. Aliño, B. Palaganas, R.T. Biña and C. Villanoy (1994) Remote sensing in Philippine marine science.  Proceedings of the 3rd ASEAN-Australia Living Coastal Resources Project, Bangkok.'},
+        {publi: 'Uychiaoco A., P. Alino, M. Atrigenio (1992) Vidoe and other monitoring techniques for coral reef communities. In: Proc 3rd ASEAN Science and Technology Week Conference, Marine Science: Living Coastal Resources (Chou LM and CR  Wilkinson, eds), National University of Singapore and National Science and Technology Board, Singapore, pp 35-40.'},
+
     /**
-    edited: removed  badge: 'Academician of the National Academy of Science and Technology (NAST)'
+    edited8
     */
+    ]},
+
 
     {image: 'https://dc697.4shared.com/img/ZlGjRKkFiq/s24/179c13ea5f8/03-Patrick_C_Cabaitan_PhD?async&rand=0.9425446660349646', name: 'Patrick C. Cabaitan, Ph.D.', email: 'pcabaitan@msi.upd.edu.ph', citation: 'https://scholar.google.com/citations?user=QTjEtokAAAAJ&hl=en', title1: 'Associate Professor', education1: 'Ph.D. Marine Science', education2: 'University of the Ryukus, Japan', RI: 'Community Ecology, Restoration Ecology, Giant Clam Conservation',
     publication: [
@@ -146,7 +161,12 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Ticzon, V.S., Mumby, PJ., Samaniego, B.R., Bejarano-Chavarro, S., David, L.T., Microhabitat use of juvenile coral reef fish in Palau. Environmental Biology of Fishes 95(3) (2012): 355-370. DOI 10.1007/s10641-012-0010-9'},
       {publi: 'Villanoy, C., David, L., Cabrera, O., Atrigenio, M., Siringan, F., Villaluz, M., Aliño, P., Coastal ecosystems protect shore from high-energy waves under climate change scenarios. Climatic Change. 112(2) (2012):493-505. DOI: 10.1007/s10584-012-0399-3'},
     ]},
-    {image: 'https://dc373.4shared.com/img/-dAqitCgiq/s24/179c13ebd68/06-Charissa_M_Ferrera_?async&rand=0.1654507293460148', name: 'Charissa M. Ferrera, Ph.D.',citation: 'https://scholar.google.com/citations?user=vupVjtgAAAAJ&hl=en', title1: 'Assistant Professor'},
+    // {image: 'https://dc373.4shared.com/img/-dAqitCgiq/s24/179c13ebd68/06-Charissa_M_Ferrera_?async&rand=0.1654507293460148', name: 'Charissa M. Ferrera, Ph.D.', title1: 'Assistant Professor'},
+
+    {image: 'https://dc373.4shared.com/img/-dAqitCgiq/s24/179c13ebd68/06-Charissa_M_Ferrera_?async&rand=0.1654507293460148', name: 'Charissa M. Ferrera, Ph.D.', peer: true, email: 'cmferrera@msi.upd.edu.ph', title1: 'Assistant Professor', education1: 'PhD Mechanical and Environmental Informatics (2016) ', education2: 'Tokyo Institute of Technology, Tokyo, Japan', education3: 'MS Marine Science (2012)', education4: 'University of the Philippines, Diliman, Quezon City, Philippines', education5: 'BS Chemistry (2004)', education6: 'University of the Philippines, Diliman, Quezon City, Philippines', RI: 'Carbonate chemistry, ocean acidification, nutrient biogeochemistry, chemical oceanography,  eutrophication, harmful algal blooms, oxygen isotopes of phosphate, science communication',citation: 'https://scholar.google.com/citations?user=vupVjtgAAAAJ&hl=en',
+      publication: [
+    ]},
+
     {image: 'https://dc697.4shared.com/img/f2RDLNVniq/s24/179c13ec538/07-Rachel_June_R_Gotanco_PhD?async&rand=0.005576854950600341', name: 'Rachel June Ravago-Gotanco, Ph.D.', email: 'rrgotanco@msi.upd.edu.ph', citation: 'https://scholar.google.com.ph/citations?user=RaRuPq0AAAAJ&hl=fil', title1: 'Associate Professor', badge: 'Deputy Director for Instruction', education1: 'Ph.D. Marine Science', education2: 'University of University, Quezon City, Philippines', RI: 'Molecular Ecology and Evolution, Population Genetics, Phylogeography',
     publication: [
       {publi: 'Ravago-Gotanco R, Kim KM (2019) Regional genetic structure of sandfish Holuthuria (Metriatyla) scabra populations across the Philippine archipelago. Fish. Res. 209:143-155.'},
@@ -160,18 +180,17 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Ravago-Gotanco R, Juinio-Meñez MA (2003) Phylogenetic position of the striped-legged forms of Panulirus longipes (A. Milne-Edwards, 1868) (Decapoda, Palinuridae) inferred from mitochondrial DNA sequences. Crustaceana 75: 1047-1059.'},
       {publi: 'Juinio-Meñez MA, Magsino RM, Ravago-Gotanco R, Yu ET (2003) Genetic structure of Linckia laevigata and Tridacna crocea populations in the Palawan shelf and shoal reefs. Marine Biology 142: 717-726.'},
     ]},
-    {image: 'https://dc697.4shared.com/img/iJYnpPlOea/s24/179c13ecd08/08-Gil_Jacinto?async&rand=0.8022240281154525', name: 'Gil S. Jacinto, Ph.D.', title1: 'Professor - Retired', email: 'gsjacinto@msi.upd.edu.ph / gjacinto@gmail.com', citation: 'https://scholar.google.com.ph/citations?user=mejic5AAAAAJ&hl=en', education1: 'Ph.D. Marine Chemistry', education2: 'University of Liverpool, U.K.', RI: 'Seawater and sediment geochemistry; eutrophication and hypoxia',
+    {image: 'https://dc697.4shared.com/img/iJYnpPlOea/s24/179c13ecd08/08-Gil_Jacinto?async&rand=0.8022240281154525', name: 'Gil S. Jacinto, Ph.D.', title1: 'Professor - Retired', email: 'gsjacinto@msi.upd.edu.ph',email2: 'gjacinto@gmail.com', citation: 'https://scholar.google.com.ph/citations?user=mejic5AAAAAJ&hl=en', education1: 'Ph.D. Marine Chemistry', education2: 'University of Liverpool, U.K.', RI: 'Seawater and sediment geochemistry; eutrophication and hypoxia',
     /**
     edited:  Professor - Retired
     */
 
     publication: [
-      {publi: 'Gajigan AP, Yñiguez AT, Villanoy CL, San ML, Jacinto, GS, Conaco C. (2018) Diversity and community structure of marine microbes around the Benham Rise underwater plateau, Northeastern Philippines (#22613 ) Structure and. Peer J 1–17.'},
-      {publi: 'Ferrera C, Jacinto GS, Chen, CTA, Lui HK. (2018) Organic Carbon Concentrations in High- and Low-Productivity Areas of the Sulu Sea. Sustainability 10(6):1867. '},
-      {publi: 'Breitburg D, Levin LA, Oschlies A, Grégoire M, Chavez FP, Conley DJ, Garçon V, Gilbert D, Gutiérrez D, Isensee K, Jacinto GS, Limburg KE, Montes I, Naqvi SWA, Pitcher GC, Rabalais NN, Roman MR, Rose KA, Seibel BA, Telszewski M, Yasuhara M, Zhang J. (2018) Declining oxygen in the global ocean and coastal waters. Science, 359(6371):7240.'},
-      {publi: 'Huang TH, Chen CTA, Tseng HC, Lou JY, Wang SL, Yang L, Kandasamy S, Gao X, Wang JT, Aldrian E, Jacinto GS, Anshari GZ, Sompongchaiyakul P, Wang BJ. (2017) Riverine carbon fluxes to the South China Sea. J Geophys Res Biogeosci 122(5):1239–1259.'},
-      {publi: 'Ferrera CM, Jacinto GS, Chen C-TA, San Diego-McGlone ML, Datoc MFKT, Lagumen MCT, Senal MIS. (2017) Carbonate parameters in high and low productivity areas of the Sulu Sea, Philippines. Mar Chem 195:2-14.'},
-      {publi: 'Tantengco GOZ, Limbo ACL, Montaño MNE, Jacinto GS. (2015) Cytotoxic activity of crude extract and fractions from Sargassum siliquosum (JG Agardh) and other seaweeds against selected human cancer cell lines. Int.J.Biosci 7:207-2015.'},
+      {publi: 'Ferrera C, Jacinto GS, Chen, CTA, Lui HK. 2018. Organic Carbon Concentrations in High- and Low-Productivity Areas of the Sulu Sea. Sustainability 10(6):1867.'},
+      {publi: 'Gajigan AP, Yñiguez AT, Villanoy CL, San Diego-McGlone, ML., Jacinto, GS, Conaco C. 2018. Diversity and community structure of marine microbes around the Benham Rise underwater plateau, Northeastern Philippines (#22613 ) Structure and. Peer J 1–17.'},
+      {publi: 'Ferrera CM, Jacinto GS, Chen C-TA, San Diego-McGlone ML, Datoc MFKT, Lagumen MCT, Senal MIS. 2017. Carbonate parameters in high and low productivity areas of the Sulu Sea, Philippines. Mar Chem 195:2-14.'},
+      {publi: 'Huang TH, Chen CTA, Tseng HC, Lou JY, Wang SL, Yang L, Kandasamy S, Gao X, Wang JT, Aldrian E, Jacinto GS, Anshari GZ, Sompongchaiyakul P, Wang BJ. 2017. Riverine carbon fluxes to the South China Sea. J Geophys Res Biogeosci 122(5):1239–1259.'},
+      {publi: 'Breitburg D, Levin LA, Oschlies A, Grégoire M, Chavez FP, Conley DJ, Garçon V, Gilbert D, Gutiérrez D, Isensee K, Jacinto GS, Limburg KE, Montes I, Naqvi SWA, Pitcher GC, Rabalais NN, Roman MR, Rose KA, Seibel BA, Telszewski M, Yasuhara M, Zhang J. 2018. Declining oxygen in the global ocean and coastal waters. Science, 359(6371):7240'},
       {publi: 'Sotto, L.P.A., Beusen, A.H.W., Villanoy, C.L., Bouwman, L.F., and Jacinto, G.S. (2015) Nutrients load estimates for Manila Bay, Philippines using population data. Ocean Science Journal. 50(2):467-474'},
       {publi: 'Cabrera, O.C., Villanoy, C.L., Jacinto, G.S., Bernardo, L.P.C., Ferrera, C.M., Velasquez, I.B., Azanza, R.V. (2014). Salt-plug estuarine circulation in Malampaya Sound, Palawan, Philippines. Philippine Science Letters, 2: 428-437.'},
       {publi: 'Sotto, L.P.A., Jacinto, G.S., Villanoy, C.L. (2014). Spatiotemporal variability of hypoxia and eutrophication in Manila Bay, Philippines during the northeast and southwest monsoons. Mar. Pollut. Bull. 85: 446-454.'},
@@ -395,7 +414,20 @@ edited the badges
       {publi: 'Macaranas, J.M., N. Taniguchi, M.J.R. Pante, J.B. Capili, and R.S.V. Pullin. 1986. Electrophoretic evidence for extensive hybrid gene introgression into commercial Oreochromis niloticus (L.) stocks in the Philippines. Aquaculture Research 17:249-258. doi: 10.1111/j.1365-2109.1986.tb00111.x'},
       {publi: 'Pante, M.J.R., and J.M. Macaranas. 1989. Genetic characterization of cultured Philippine tilapia stocks, In: PCAMRD, ICLARM, Tilapia Genetics and Culture, Freshwater Aquaculture Center, Central Luzon State University, Muñoz, Nueva Ecija, June 20-22, 1985, Philippine Council for Aquatic and Marine Research and Development, Los Baños, Laguna, International Centre for Living Aquatic Resources Management Center, Manila, Philippines, 1989 62p.(Book Series No. 01/1989).'},
     ]},
-    {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624850278/About/faculty/Cha_ID_nkfkmm.jpg', name: 'Charina Lyn A. Repollo, Ph.D.', title1: 'Assistant Professor', citation: 'https://scholar.google.com.ph/citations?user=Sd-u2egAAAAJ&hl=en'},
+    // {image: '', name: 'Charina Lyn A. Repollo, Ph.D.', title1: 'Assistant Professor'},
+    {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624850278/About/faculty/Cha_ID_nkfkmm.jpg', name: 'Charina Lyn A. Repollo, Ph.D.', email: 'crepollo@msi.upd.edu.ph ', title1: 'Assistant Professor', education1: '2016: Ph.D. in Oceanography (Physical Oceanography), University of Hawai’i at Manoa, Honolulu, Hawai’i, U.S.A', education2: 'Ph.D. dissertation: Observations of Surface Currents in Panay Strait, Philippines. 2016. Advisor: Pierre Flament', education3: '2005: M.Sc. in Marine Science (Physical Sciences), Marine Science Institute (MSI), University of the Philippines in Diliman, 1101 Quezon City, Philippines', education4: 'M.Sc. Thesis: PHP Ecotoxicology Study: Dispersal Model of Condensate from Malampaya Deep-Water Gas Production. 2005. Advisor: Cesar L. Villanoy. Co-advisor: Laura T. David', education5: '1998: B.Sc. in Fisheries (Inland Aquaculture), University of the Philippines in the Visayas, Miag-ao, Iloilo, Philippines', RI: 'Coastal and island circulation; high frequency radar remote sensing; air-sea interactions ', citation: 'https://scholar.google.com.ph/citations?user=Sd-u2egAAAAJ&hl=en',
+    publication: [
+      {publi: 'Repollo, C.L.A., X. Flores-Vidal, C. Chavanne, P. Flament, and C. Villanoy. Observations of barotropic and baroclinic tides in Panay Strait, Philippines. Submitted to Regional Studies in Marine Science. Under Revision.'},
+      {publi: 'Amedo-Repollo, C., X. Flores-Vidal, C. Chavanne, C. Villanoy, and P. Flament, 2019: Low-frequency Surface Currents and Generation of Island Lee Eddy in Panay Island, Philippines. J. Phys. Oceanogr. 49, 765–787, https://doi.org/10.1175/JPO-D-17-0191.1'},
+      {publi: 'Amedo, C.L.A. and C.L. Villanoy. Wind Stress Curl and Surface Circulation in the South China Sea and the Philippine Sea. (2003). Science Diliman, 15:32-40.'},
+      {publi: 'Magno, M.M., C.L. Amedo, A.M. Altemerano, J.D.H. Palermo, and C.L. Villanoy. (2003) Interaction of the South China Sea and North Pacific Ocean in the Babuyan Channel, Batanes, UPV Journal of Natural Sciences, 8: 152-162.'},
+      {publi: 'Amedo, C.L.A., C.L. Villanoy, and Maria Jayvee Udarbe-Walker. (2002) Indicators of Upwelling at the Northern Bicol Shelf. UPV Journal of Natural Sciences, 7 (1&2): 42-52.'},
+      {publi: 'Amedo, C.L.A., C.L. Villanoy, and Maria Jayvee Udarbe-Walker. Composition and Transport of Pacific Water Masses along the Pacific Seaboard. (2002) UPV Journal of Natural Sciences, 7 (1&2): 90-102.'},
+     /**
+     edited8
+     */
+    ]},
+
     {image: 'https://dc697.4shared.com/img/cVg7r-M4ea/s24/179c13ee860/15-Lilibeth_S_Reyes_PhD?async&rand=0.888438679623653', name: 'Lilibeth A. Salvador- Reyes, Ph.D.', email: 'lsreyes@msi.upd.edu.ph ', citation: 'https://scholar.google.com/citations?user=xJwDExgAAAAJ&hl=en', title1: 'Associate Professor', education1: 'Ph.D. in Pharmaceutical Sciences-Medicinal Chemistry', education2: 'University of Florida', RI: 'Medicinal and Natural Products Chemistry, Biochemistry, Pharmacology',
     publication: [
       {publi: 'Olano DEB, Salvador-Reyes LA, Montaño MNE, Azanza RV. 2020. Sorpiton of paralytic shellfish toxins (PSTs) in algal polysaccharide gels. Algal Research 45:101655.'},
@@ -1086,6 +1118,26 @@ edited the badges
       {publi: 'San Diego-McGlone, M.L. and V.C. Dupra.  2005.  Chapter 3. CNP Fluxes in the Coastal Zone -  Anthropogenic drivers for nitrogen and phosphorus in Southeast Asia.  In Coastal Fluxes in the Anthropocene, Springer.'},
       {publi: 'Dupra, V.C. and M.L. San Diego-McGlone.  2005.  Chapter 3.  CNP Fluxes in the Coastal Zone – Inorganic nutrient fluxes in the coastal ecosystems of Southeast Asia.  In Coastal Fluxes in the Anthropocene, Springer.'},
       {publi: 'De Castro, C.G., M.L. San Diego-McGlone, L.Talaue-McManus.  2005.  Plankton variability in aquaculture areas of Lingayen Gulf.  The Philippine Agricultural Scientist  88(2):213-223.'},
+    ]},
+    {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1625411022/About/faculty/retired_edna_axzxbt.png', email: 'ednaf@upmsi.ph', email2: 'ednatganzon@yahoo.com', name: 'Edna Ganzon-Fortes, Ph.D.', journal: true, title1: 'Research Professor', badge: 'Phycological Herbarium', badge2: 'Deputy Director', education1: 'Ph.D. Marine Science, University of the Philippines, Diliman,  Quezon City, April 1998', education2: 'M.S. Marine Biology, University of the Philippines, Diliman,  Quezon City, November 1981', education3: 'B.S. Zoology, University of the Philippines, Diliman, Quezon  City, October 1973', RI: 'Seaweeds: biology, biodiversity, taxonomy, reproductive biology,  eco-physiology, and culture. Bioinformatics: herbarium and library databases management.',
+    publication: [
+      {publi: 'Ganzon-Fortes, E.T. 1981. Ecological Studies on the Laurencia  Communities at Calatagan, Batangas, Philippines (Masteral  Thesis). College of Arts and Sciences, University of the  Philippines, Diliman, Quezon City, Philippines. 85 p. +  Tables, Figures.'},
+      {publi: 'Ganzon-Fortes, E.T. 1990. Bibliography of Philippine  Seaweeds. Seaweed Information Center, Marine Science  Institute, University of the Philippines, Diliman, Quezon  City. 118 p.'},
+      {publi: 'Ganzon-Fortes, E.T., R. Reynaldo-Campos, M.A. de Castro, M.A.P.  Soriano, and E.M. Boo. 1991. Philippine Seaweeds:  Abstracted Bibliography. Seaweed Information Center, Marine  Science Institute, University of the Philippines, Diliman,  Quezon City. 64 p.'},
+      {publi: 'Ganzon-Fortes, E.T., E.M. Boo, M.A. de Castro, F. Enriquez, E.  Taylo and M.A.P. Soriano. 1994. Bibliography of Philippine  Marine Invertebrates. Seaweed Information Center, Marine  Science Institute, University of the Philippines, Diliman,  Quezon City. 114 p.'},
+      {publi: 'Trono, G.C. Jr. and E.T. Ganzon-Fortes. 1980. An Illustrated  Seaweed Flora of Calatagan, Batangas, Philippines.'},
+      {publi: 'Filipinas Foundation, Inc. and University of the Philippines  Marine Sciences Center, Metro Manila. 114 pp.  Trono, G.C. Jr. and E.T. Ganzon-Fortes [eds.]. 1981. Report on  the Training Course on Gracilaria Algae (a training  subproject under FAO/UNDP Project RAS/74/013).  SCS/GEN/81/29, FAO/UNDP South China Sea Fisheries  Development and Coordinating Programme, Manila, Philippines.  187 pp + Annexes.'},
+      {publi: 'Trono, G.C. Jr. and E.T. Ganzon-Fortes. l988. Philippine  Seaweeds. Technology and Living Resources Center  Publication, National Bookstore, Manila. 330 pp.  7Trono, G.C. Jr. and E.T. Ganzon-Fortes. 1989. Ang Paglinang  ng Eucheuma (Eucheuma Farming). Seaweed Information Center,  Marine Science Institute, University of the Philippines,  Diliman, Quezon City. 57 p.'},
+      {publi: 'Trono, G.C. Jr. and E.T. Ganzon-Fortes. 1989. Pag-Uma sa Guso  (Eucheuma Farming). Seaweed Information Center, Marine  Science Institute, University of the Philippines, Diliman,  Quezon City. 56 p.'},
+    ]},
+    {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1625411022/About/faculty/retired_montano_m9bhqx.png',impacts: true, name: 'Marco Nemesio E. Montaño, Ph.D.', education1: 'University of San Carlos, Cebu City Bachelor of Science in Chemistry 1973', education2: 'University of Liverpool, United Kingdom Postgraduate Diploma in Marine Pollution 1979', education3: 'University of the Philippines, Diliman Master of Science in Chemistry 1982', education4: 'Griffith University, Australia Ph.D. Biological Chemistry 1991',
+    publication: [
+      {publi: 'De la Paz, A.A. Sumalde, C.J.G. Cruz, J. A. Robles, E.A. Pajarillo, P S. Apelado,R J G. Bawalan,  H.Y.Lam, I C Sia, N.E. Montaño, and F.M. Heralde III, 2015. Not all of Taua-taua are Alike: A  Morphological, Molecular Genetic, Phytochemical, and Anti-thrombocytopenic Profiling of  Different Euphorbia hirta Linn, Plants from the Philippines, Phil J Health Res Dev, 19(1):39-49'},
+      {publi: 'Lam, H. Y., Enriquez, M L D, F M Heralde III, M.M. Loquias, M.N.E. Montaño, J.D.  Agapita,A.K. Arriola,L J Cruz,I. C. Sia , K. J.G. Cheng, C. M. Enriquez, H.N. Marabomsalic and  J R D. Yap. 2018. Establishing a Blueprint for Nature-based Products Development and  Conservation for the Philippines. Acta Medica Philippina 52(4):295-301'},
+      {publi: 'Tantengco, GOA, Limbo, AC, Montaño, MNE and Jacinto, DS. 2015. Cytotoxic activity of crude  extract and fractions from Sargassum siliquosum (JG Agardh) and other seaweeds against selected  human cancer cell lines. International Journal of Biosciences 7(2): 207-215.'},
+      {publi: 'Cañete, SJP and NE Montaño. 2002 Kappa-carrageenan gel as agent to sequester Paralytic Shellfish  poison. Marine Biotechnology 4(6): 565-570'},
+      {publi: 'Bonifacio, R.S. and N.E. Montaño. 1998. Inhibitory effects of mercury and cadmium on seed  germination of Enhalus acoroides (L.F.) Royle. Bull. Environ. Contam. Toxicol. 60: 45-51. • Montaño, MNE. Seaweeds in Philippine food: Traditional uses and recent developments. Fisheries Science 68 Supplement II: 1457-1459, November 2002.'},
+      {publi: 'Montaño, N.E., G.Gavino and V.C. Gavino. 2001. Polyunsaturated fatty acid contents of some  traditional fish and shrimp paste condiments of the Philippines. Food Chemistry 75 (2001) • Romero, J.B., N.E. Montaño, F.C. Merca, R.G.O. Rumbaoa, R.D. Villanueva. 2000. Effect of  Sucrose on some Physical Properties of Different Philippine Agars. Philippine Journal of Science 129(1):7-13.'},
     ]},
   ];
   myArr = [];

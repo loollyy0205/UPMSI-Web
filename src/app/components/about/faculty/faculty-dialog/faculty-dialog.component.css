@@ -117,6 +117,10 @@ img {
   font-size: 1.025vw;
 }
 
+.impacts {
+  font-size: 1.171vw;
+}
+
 ul {
   font-size: 1.025vw;
   margin-left: 2.5%;
@@ -259,6 +263,10 @@ img {
 .badge {
   font-size: 4vw;
   margin: 0 3%;
+}
+
+.impacts {
+  font-size: 4vw;
 }
 
 ul {
