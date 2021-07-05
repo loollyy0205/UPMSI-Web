@@ -56,7 +56,7 @@
 /* Education CSS Section */
 .educ-container{
   height: 45vw;
-  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1624237643/Home/3.1-academics-section_joxipq.png);
+  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1625491926/Home/updated-academics-banner_2x_xmeuzr.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -145,7 +145,7 @@
 .resources-container .resources-right{
   height: 100%;
   width: 45%;
-  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623340908/Home/4.2-resources_z0eokf.png);
+  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1625492195/Home/updated-resources_iq6v0z.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -165,7 +165,7 @@
 .msiOffice-container .msiOffice-left{
   height: 100%;
   width: 45%;
-  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1623340909/Home/4.3-office_fo2lfw.png);
+  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1625492155/Home/updated-administration_tbbxmi.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
