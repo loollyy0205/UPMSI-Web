@@ -148,6 +148,7 @@
   background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1625492195/Home/updated-resources_iq6v0z.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .resources-content{
@@ -168,6 +169,7 @@
   background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1625492155/Home/updated-administration_tbbxmi.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .msiOffice-container .msiOffice-right{
