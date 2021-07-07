@@ -129,3 +129,121 @@ img{
   flex-direction: row;
   justify-content: flex-end;
 }
+
+@media (max-width: 768px) {
+  .news .first-content{
+    margin-top: 2.928vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-content .left-fc1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  img{
+    height: 52.267vw;
+    object-fit: cover;
+  }
+
+  .first-content .left-fc1 .news-left{
+    width: 100%;
+    /* background-image: url(../../../../assets/photos/acad2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    cursor: pointer;
+  }
+
+
+  .left-fc1 .news-right{
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .first-content .right-fc1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-content .right-fc1 .news-left{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .right-fc1 .news-right{
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .news .sec-content{
+    margin-top: 2.196vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec-content .left-fc1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec-content .left-fc1 .news-left{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .sec-content .right-fc1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec-content .right-fc1 .news-left{
+    width: 100%;
+    cursor: pointer;
+
+  }
+
+  /* news */
+  .news-box{
+    margin: 0 9%;
+  }
+
+  .date-headline{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .headline-text{
+    color: #5da563;
+    cursor: pointer;
+    line-height: 1.3;
+    font-size: 4vw;
+    margin-top: 2%;
+  }
+
+
+  .content-text{
+    color: #4c515a;
+    font-size: 4vw;
+    line-height: 1.3;
+    margin-top: 0.732vw;
+    margin-bottom: 5%;
+  }
+
+}

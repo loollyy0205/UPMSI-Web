@@ -1,6 +1,6 @@
 .container{
   margin: 0 9%;
-  margin-top: 40px;
+  margin-top: 2.928vw;
 }
 
 img{
@@ -13,7 +13,7 @@ img{
 
 
 .title{
-  font-size: 25px;
+  font-size: 1.830vw;
   color: #394e8a;
 }
 
@@ -23,69 +23,124 @@ img{
 }
 
 carousel{
-  margin-top: 20px;
+  margin-top: 1.464vw;
 }
 
 .content1{
-  padding: 0 100px;
-  margin-top: 50px;
+  padding: 0 7.321vw;
+  margin-top: 3.660vw;
 }
 
 .content1 carousel {
-  height: 165px;
+  height: 12.079vw;
 }
 
 
 .title-header{
-  font-size: 40px;
+  font-size: 2.928vw;
   color: #394e8a;
-  margin-bottom: 20px;
+  margin-bottom: 1.464vw;
 }
 
 .hr-line{
-  margin: 15px 9% 30px 9%;
+  margin: 1.098vw 9% 2.196vw 9%;
 }
 
 .content-marg{
   display: flex;
   flex-direction: row;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  margin-bottom: 0.732vw;
+  margin-top: 1.464vw;
 }
 
 .photo-length{
-  font-size: 15px;
+  font-size: 1.098vw;
   align-self: flex-end;
-  margin-bottom: 3px;
+  margin-bottom: 0.220vw;
 }
 
 .context{
-  margin-top: 10px;
+  margin-top: 0.732vw;
   line-height: 1.4;
+  font-size: 1.171vw;
 }
 
 .content2{
-  padding: 0 100px;
-  margin-top: 70px;
+  padding: 0 7.321vw;
+  margin-top: 5.124vw;
 }
 
 .content2 carousel {
-  height: 165px;
+  height: 12.079vw;
 }
 
 .footer{
   margin-top: 9%;
 }
 
+.acknowledgement {
+  height: 100%;
+  background-color: white;
+  margin-top: 7%;
+  padding: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ack-right {
+  font-size: 1.171vw;
+  color: #384e8a;
+  margin-left: 3%;
+  padding-left: 3%;
+  border-left: 0.146vw solid #384e8a;
+  line-height: 1.4;
+  height: fit-content;
+}
+
+.top-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bottom-box {
+  margin-top: 6%;
+  width: 100%;
+}
+
+.bottom-box .bottom-names:nth-child(n+2) {
+  margin-top: 2.3%;
+}
+
+.bottom-names {
+  font-size: 1.171vw;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-names p:nth-child(n+2) {
+  border-left: 0.073vw solid black;
+  margin-left: 2.6%;
+  padding-left: 2.6%;
+}
+
+.ack-title {
+  color: #384e8a;
+  font-size: 2.196vw;
+}
+
+.lab {
+  margin-top: 6%;
+}
+
 .arrow{
-  font-size: 30px;
+  font-size: 2vw;
+  padding-left: .5vw;
+  text-decoration: none !important;
 }
 
-.arrow-text{
-  margin-top: 8px;
-}
-
-.arrow-text:hover{
+.navi:hover {
   text-decoration: underline;
 }
 
@@ -94,149 +149,9 @@ carousel{
   margin-left: 9%;
   margin-right: 9%;
   display: flex;
-  height: 120px;
+  height: 8.785vw;
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
-}
-
-@media (min-width: 1600px) {
-  .container{
-    margin-top: 47px;
-  }
-
-  .title{
-    font-size: 29px;
-  }
-
-  carousel{
-    margin-top: 23px;
-  }
-
-  .content1{
-    padding: 0 117px;
-    margin-top: 59px;
-  }
-
-  .content1 carousel {
-    height: 193px;
-  }
-
-
-  .title-header{
-    font-size: 47px;
-    margin-bottom: 23px;
-  }
-
-  .hr-line{
-    margin: 18px 9% 35px 9%;
-  }
-
-  .content-marg{
-    margin-bottom: 12px;
-    margin-top: 23px;
-  }
-
-  .photo-length{
-    font-size: 18px;
-    margin-bottom: 4px;
-  }
-
-  .context{
-    margin-top: 12px;
-    font-size: 19px;
-  }
-
-  .content2{
-    padding: 0 117px;
-    margin-top: 82px;
-  }
-
-  .content2 carousel {
-    height: 193px;
-  }
-
-  .arrow{
-    font-size: 35px;
-  }
-
-  .arrow-text{
-    margin-top: 16px;
-  }
-
-  .more-vacancies{
-    height: 141px;
-    font-size: 19px
-  }
-
-}
-
-@media (min-width: 1900px) {
-  .container{
-    margin-top: 55px;
-  }
-
-  .arrow{
-    font-size: 42px;
-  }
-
-  .arrow-text{
-    margin-top: 23px;
-  }
-
-  .more-vacancies{
-    height: 167px;
-    font-size: 23px;
-  }
-
-  .title{
-    font-size: 34px;
-  }
-
-  carousel{
-    margin-top: 27px;
-  }
-
-  .content1{
-    padding: 0 139px;
-    margin-top: 70px;
-  }
-
-  .content1 carousel {
-    height: 229px;
-  }
-
-
-  .title-header{
-    font-size: 56px;
-    margin-bottom: 27px;
-  }
-
-  .hr-line{
-    margin: 21px 9% 42px 9%;
-  }
-
-  .content-marg{
-    margin-bottom: 14px;
-    margin-top: 27px;
-  }
-
-  .photo-length{
-    font-size: 21px;
-    margin-bottom: 5px;
-  }
-
-  .context{
-    margin-top: 14px;
-    font-size: 23px;
-  }
-
-  .content2{
-    padding: 0 139px;
-    margin-top: 97px;
-  }
-
-  .content2 carousel {
-    height: 229px;
-  }
+  font-size: 1.171vw;
 }
