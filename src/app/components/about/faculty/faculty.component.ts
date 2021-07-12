@@ -33,7 +33,7 @@ export class FacultyComponent implements OnInit {
 
   residentProf2 = [
     {name: 'Charina Lyn A. Repollo, Ph.D.', label1: 'Assistant Professor'},
-    {name: 'Lilibeth A. Salvador- Reyes, Ph.D.', label1: 'Associate Professor'},
+    {name: 'Lilibeth A. Salvador-Reyes, Ph.D.', label1: 'Associate Professor'},
     {name: 'Irene B. Rodriguez, Ph.D.', label1: 'Associate Professor'},
     {name: 'Maria Vanessa B. Rodriguez, Ph.D.', label1: 'Assistant Professor'},
     {name: 'Michael Y. Roleda, Ph.D.', label1: 'Professor, Deputy Director for Facilities and Resources'},
