@@ -1,11 +1,10 @@
-
 .container{
   margin: 0 9%;
-  margin-top: 20px;
+  margin-top: 1.464vw;
 }
 
 .content-header{
-  height: 297px;
+  height: 21.742vw;
   position: relative;
 }
 
@@ -16,31 +15,31 @@ img{
 }
 
 .banner-content{
-  font-size: 16px;
-  margin-top: 13px;
-  width: 850px;
+  font-size: 1.171vw;
+  margin-top: 0.952vw;
+  width: 62.225vw;
 }
 
 .left-content{
   position: absolute;
   z-index: 1;
-  bottom: 1px;
-  width: 800px; /* edited*/
+  bottom: 0;
+  width: 58.565vw; /* edited*/
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 50px;
+  padding: 0 3.660vw;
   color: white;
 }
 
 .title{
-  font-size: 29px;
+  font-size: 2.123vw;
 }
 
 .the-founder .right-content-box {
   width: 53%;
-  margin-left: 43px;
+  margin-left: 3.148vw;
   position: absolute;
 }
 
@@ -51,26 +50,24 @@ img{
 }
 
 .the-founder .right-content-p {
-  font-size: 16px;
-  margin-top: 19px;
+  font-size: 1.171vw;
+  margin-top: 1.391vw;
   font-family: 'Atlas-light';
   line-height: 1.4;
 }
 
 .sub-title{
-  font-size: 19px;
-  margin-top: 21px;
+  font-size: 1.391vw;
+  margin-top: 1.537vw;
 }
 
 .arrow{
-  font-size: 30px;
+  font-size: 2vw;
+  padding-left: .5vw;
+  text-decoration: none !important;
 }
 
-.arrow-text{
-  margin-top: 8px;
-}
-
-.arrow-text:hover{
+.navi:hover {
   text-decoration: underline;
 }
 
@@ -79,96 +76,110 @@ img{
   margin-left: 9%;
   margin-right: 9%;
   display: flex;
-  height: 120px;
+  height: 8.785vw;
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
+  font-size: 1.171vw;
 }
 
-@media (min-width: 1600px) {
+.mobile-banner-content {
+  display: none;
+}
+
+@media (max-width: 768px) {
   .container{
-    margin-top: 23px;
+    margin: 0 9%;
+    margin-top: 6%;
   }
 
   .content-header{
-    height: 348px;
+    height: 40vw;
+    position: relative;
+
   }
 
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
 
   .banner-content{
-    font-size: 18px;
-    margin-top: 15px;
-    width: 996px;
+    /* font-size: 1.171vw;
+    margin-top: 0.952vw;
+    width: 62.225vw; */
+    display: none;
+  }
+
+  .mobile-banner-content {
+    display: block;
+    font-size: 4vw;
+    margin-top: 5%;
+    width: 100%;
   }
 
   .left-content{
-    width: 886px; /* edited */
-    padding: 0 59px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 58.565vw; /* edited*/
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3.660vw;
+    color: white;
   }
 
   .title{
-    font-size: 34px;
+    font-size: 5vw;
   }
 
+  .the-founder .right-content-box {
+    width: 53%;
+    margin-left: 3.148vw;
+    position: absolute;
+  }
+
+  .the-founder .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .the-founder .right-content-p {
+    font-size: 1.171vw;
+    margin-top: 1.391vw;
+    font-family: 'Atlas-light';
+    line-height: 1.4;
+  }
 
   .sub-title{
-    font-size: 18px;
-    margin-top: 22px;
+    font-size: 1.391vw;
+    margin-top: 1.537vw;
   }
 
   .arrow{
-    font-size: 35px;
+    font-size: 2vw;
+    padding-left: .5vw;
+    text-decoration: none !important;
   }
 
-  .arrow-text{
-    margin-top: 9px;
-  }
-
-  .more-vacancies{
-    height: 141px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .container{
-    margin-top: 28px;
-  }
-
-  .content-header{
-    height: 418px;
-  }
-
-
-  .banner-content{
-    font-size: 22px;
-    margin-top: 18px;
-    width: 1183px;
-  }
-
-  .left-content{
-    width: 1003px; /* edited */
-    padding: 0 71px;
-  }
-
-  .title{
-    font-size: 41px;
-  }
-
-
-  .sub-title{
-    font-size: 22px;
-    margin-top: 26px;
-  }
-
-  .arrow{
-    font-size: 42px;
-  }
-
-  .arrow-text{
-    margin-top: 11px;
+  .navi:hover {
+    text-decoration: underline;
   }
 
   .more-vacancies{
-    height: 167px;
+    color: #384e8a;
+    margin-left: 9%;
+    margin-right: 9%;
+    display: flex;
+    height: 8.785vw;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.171vw;
   }
+
 }

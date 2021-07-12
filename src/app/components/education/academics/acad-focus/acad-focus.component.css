@@ -10,40 +10,40 @@ img {
 }
 
 .header {
-  margin-top: 70px;
-  height: 150px;
+  margin-top: 5.124vw;
+  height: 10.981vw;
 }
 
 .title{
-  font-size: 29px;
+  font-size: 2.123vw;
 }
 
 .content-p {
-  font-size: 16px;
-  margin-top: 19px;
+  font-size: 1.171vw;
+  margin-top: 2.123vw;
   font-family: 'Atlas-light';
   line-height: 1.4;
 }
 
 .card {
-  height: 239px;
+  height: 17.496vw;
   background-color: #F5F5F5;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 18px;
+  margin-bottom: 1.318vw;
 }
 
 .card .left {
   width: 31%;
-  margin: 8px;
+  margin: 0.586vw;
 }
 
 .card .right {
   width: 62.2%;
   /* border: 1px solid black; */
-  margin-right: 40px;
-  font-size: 16px;
+  margin-right: 2.928vw;
+  font-size: 1.171vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,25 +51,26 @@ img {
 
 .card-content {
   font-family: 'atlas-light';
-  font-size: 16px;
-  margin-top: 15px;
+  font-size: 1.171vw;
+  margin-top: 1.098vw;
   line-height: 1.3;
 }
 
 .box-card { /* editted: removed margin-top;*/
-  height: 753px;
+  height: 55.124vw;
   margin-right: -3.7%;
   overflow: hidden;
 }
 
 
 .bottom-header {
-  margin-top: 19px;
+  margin-top: 1.391vw;
+  font-size: 1.171vw;
 }
 
 .bottom-header img {
-  height: 250px;
-  width: 450px;
+  height: 18.302vw;
+  width: 32.943vw;
   float: left;
   padding-right: 2.5%;
   padding-bottom: 1.3%;
@@ -83,103 +84,6 @@ a:hover {
   text-decoration: underline;
 }
 
-@media (min-width: 1600px) {
-  .header {
-    margin-top: 82px;
-    height: 176px;
-  }
-
-  .title{
-    font-size: 34px;
-  }
-
-  .content-p {
-    font-size: 18px;
-    margin-top: 22px;
-  }
-
-  .card {
-    height: 280px;
-    margin-bottom: 21px;
-  }
-
-  .card .left {
-    margin: 9px;
-  }
-
-  .card .right {
-    margin-right: 47px;
-    font-size: 18px;
-  }
-
-  .card-content {
-    font-size: 18px;
-    margin-top: 17px;
-  }
-
-  .box-card {
-    margin-top: 34px;
-    height: 882px;
-  }
-
-  .bottom-header {
-    margin-top: 23px;
-    font-size: 19px;
-  }
-
-  .bottom-header img {
-    height: 293px;
-    width: 527px;
-  }
+.about {
+  font-size: 1.171vw;
 }
-
-@media (min-width: 1920px) {
-  .header {
-    margin-top: 97px;
-    height: 211px;
-  }
-
-  .title{
-    font-size: 41px;
-  }
-
-  .content-p {
-    font-size: 22px;
-    margin-top: 26px;
-  }
-
-  .card {
-    height: 336px;
-    margin-bottom: 25px;
-  }
-
-  .card .left {
-    margin: 11px;
-  }
-
-  .card .right {
-    margin-right: 56px;
-    font-size: 22px;
-  }
-
-  .card-content {
-    font-size: 22px;
-    margin-top: 20px;
-  }
-
-  .box-card {
-    margin-top: 41px;
-    height: 1058px;
-  }
-
-  .bottom-header {
-    margin-top: 27px;
-    font-size: 23px;
-  }
-
-  .bottom-header img {
-    height: 348px;
-    width: 626px;
-  }
-}
-

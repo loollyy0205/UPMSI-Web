@@ -173,14 +173,9 @@
   }
 
   #learn-more{
-    width: 28.5vw;
-    font-size: 2.5vw;
+    width: 42vw;
+    font-size: 3.5vw;
     margin-top: 2.5%;
-    padding: 1.5vw 0;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background-color: #5da563;
-    color: white;
+    padding: 2vw 0;
   }
 }
