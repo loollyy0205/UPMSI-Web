@@ -65,8 +65,8 @@ onResize(event) {
 
   openDialog(imgSrc, bmlName){
     this.dialog.open(FacilitiesDialogComponent, {
-      width: this.width,
-      height: this.height,
+      width: 'auto',
+      height: 'auto',
       data: {
         imgSrc: imgSrc,
         title: bmlName

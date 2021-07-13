@@ -5,11 +5,11 @@ img{
 }
 
 .title{
-  font-size: 25px;
+  font-size: 1.830vw;
 }
 
 .bml-complex{
-  height: 300px;
+  height: 21.962vw;
   overflow: hidden;
 }
 
@@ -28,8 +28,8 @@ img{
 .bml-complex .right-content{
   position: absolute;
   z-index: 1;
-  left: 20px;
-  bottom: 30px;
+  left: 1.464vw;
+  bottom: 2.196vw;
   width: 80%; /*edited*/
   height: 100%;
   display: flex;
@@ -40,120 +40,33 @@ img{
 
 .content-header2{
   position: relative;
-  width: 1000px !important;
+  width: 73.206vw !important;
 }
 
 .bml-border{
-  padding-left: 20px;
-  margin-top: 70px;
+  padding-left: 1.464vw;
+  margin-top: 5.124vw;
 }
 
 .top-15{
-  margin-top: 15px;
+  margin-top: 1.098vw;
 }
 
 .position{
-  margin-top: 20px;
-  margin-left: 25px;
+  margin-top: 1.464vw;
+  margin-left: 1.830vw;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
 .learn-more{
-  width: 250px;
-  font-size: 16px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: 18.302vw;
+  font-size: 1.171vw;
+  padding: 0.732vw 2.928vw;
   cursor: pointer;
   border: none;
   outline: none;
   background-color: #5da563;
   color: white;
-}
-
-@media (min-width: 1600px) {
-  .title{
-    font-size: 29px;
-  }
-
-  .bml-complex{
-    height: 351px;
-  }
-
-  .bml-complex .right-content{
-    left: 23px;
-    bottom: 35px;
-  }
-  .content-header2{
-    height: 316px;
-    width: 1171px !important;
-  }
-
-  .bml-border{
-    padding-left: 23px;
-    margin-top: 82px;
-  }
-
-  .top-15{
-    margin-top: 18px;
-  }
-
-  .position{
-    margin-top: 23px;
-    margin-left: 29px;
-  }
-
-  .learn-more{
-    width: 293px;
-    font-size: 19px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 47px;
-    padding-right: 47px;
-  }
-}
-
-@media (min-width: 1900px) {
-  .title{
-    font-size: 34px;
-  }
-
-  .bml-complex{
-    height: 417px;
-  }
-
-  .bml-complex .right-content{
-    left: 27px;
-    bottom: 42px;
-  }
-  .content-header2{
-    height: 375px;
-    width: 1391px !important;
-  }
-
-  .bml-border{
-    padding-left: 27px;
-    margin-top: 97px;
-  }
-
-  .top-15{
-    margin-top: 21px;
-  }
-
-  .position{
-    margin-top: 27px;
-    margin-left: 34px;
-  }
-
-  .learn-more{
-    width: 348px;
-    font-size: 23px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 56px;
-    padding-right: 56px;
-  }
 }

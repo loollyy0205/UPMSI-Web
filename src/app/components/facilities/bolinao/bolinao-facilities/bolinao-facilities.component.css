@@ -1,5 +1,5 @@
 .title{
-  font-size: 25px;
+  font-size: 1.830vw;
 }
 
 img {
@@ -9,18 +9,18 @@ img {
 }
 
 .container{
-  width: 1000px !important;
+  width: 73.206vw !important;
 }
 
 .border-green{
   color: #394e8a;
-  border-left: 4px solid #5ca361;
-  padding-left: 20px;
+  border-left: 0.293vw solid #5ca361;
+  padding-left: 1.464vw;
 }
 
 .box-card {
-  margin-top: 29px;
-  height: 753px;
+  margin-top: 2.123vw;
+  height: 55.124vw;
 }
 
 .box-card-content {
@@ -29,23 +29,23 @@ img {
 }
 
 .card {
-  height: 239px;
+  height: 17.496vw;
   background-color: #F5F5F5;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 18px;
+  margin-bottom: 1.318vw;
 }
 
 .card .left {
   width: 31%;
-  margin: 8px;
+  margin: 0.586vw;
 }
 
 .card .right {
   width: 62.2%;
-  margin-right: 40px;
-  font-size: 16px;
+  margin-right: 2.928vw;
+  font-size: 1.171vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,83 +53,7 @@ img {
 
 .card-content {
   font-family: 'atlas-light';
-  font-size: 16px;
-  margin-top: 15px;
+  font-size: 1.171vw;
+  margin-top: 1.098vw;
   line-height: 1.3;
-}
-
-@media (min-width: 1600px) {
-  * {
-    font-size: 19px;
-  }
-
-  .title{
-    font-size: 29px;
-  }
-
-  .container{
-    width: 1171px !important;
-  }
-
-  .box-card {
-    margin-top: 34px;
-    height: 882px;
-  }
-
-  .card {
-    height: 280px;
-    margin-bottom: 21px;
-  }
-
-  .card .left {
-    margin: 9px;
-  }
-
-  .card .right {
-    margin-right: 47px;
-    font-size: 19px;
-  }
-
-  .card-content {
-    font-size: 19px;
-    margin-top: 18px;
-  }
-}
-
-@media (min-width: 1900px) {
-  * {
-    font-size: 23px;
-  }
-
-  .title{
-    font-size: 34px;
-  }
-
-  .container{
-    width: 1391px !important;
-  }
-
-  .box-card {
-    margin-top: 40px;
-    height: 1047px;
-  }
-
-  .card {
-    height: 333px;
-    margin-bottom: 25px;
-  }
-
-  .card .left {
-    margin: 11px;
-  }
-
-  .card .right {
-    margin-right: 56px;
-    font-size: 23px;
-  }
-
-  .card-content {
-    font-size: 23px;
-    margin-top: 21px;
-  }
 }

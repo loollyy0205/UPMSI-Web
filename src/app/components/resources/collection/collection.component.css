@@ -1,18 +1,18 @@
 .container{
-  font-size: 16px;
+  font-size: 1.171vw;
 }
 
 .content{
   margin-left: 9%;
   margin-right: 9%;
-  margin-top: 50px;
+  margin-top: 3.660vw;
   height: 100%;
   display: flex;
   flex-direction: row;
 }
 
 .photo-by {
-  font-size: 11px;
+  font-size: 0.805vw;
   color: #fff;
   position: absolute;
   bottom: 3%;
@@ -20,16 +20,16 @@
 }
 
 .lab-desc{
-  margin-top: 20px;
+  margin-top: 1.464vw;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 1.171vw;
 }
 
 .lab-img1{
   margin-left: 9%;
   margin-right: 9%;
-  margin-top: 50px;
-  height: 500px;
+  margin-top: 3.660vw;
+  height: 36.603vw;
   position: relative;
   overflow: hidden;
 }
@@ -47,7 +47,7 @@ img:hover{
 
 .lab-img{
   position: absolute;
-  bottom: 8px;
+  bottom: 0.586vw;
   right: 8%;
   height: 100%;
   z-index: 1;
@@ -57,7 +57,7 @@ img:hover{
 
 .lab-img2{
   position: absolute;
-  bottom: 8px;
+  bottom: 0.586vw;
   left: 8%;
   height: 100%;
   z-index: 1;
@@ -73,37 +73,34 @@ img:hover{
 }
 
 .title{
-  font-size: 16px;
+  font-size: 1.171vw;
   color: white;
-  width: 350px;
+  width: 25.622vw;
   line-height: 1.3;
 }
 
 .sub-title {
-  font-size: 16px;
-  margin-top: 10px;
+  font-size: 1.171vw;
+  margin-top: 0.732vw;
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 2.196vw;
 }
 
 
 .right-body{
-  font-size: 22px;
+  font-size: 1.611vw;
   color: white;
   outline: none;
   text-transform: uppercase;
 }
 
-
 .arrow{
-  font-size: 30px;
+  font-size: 2vw;
+  padding-left: .5vw;
+  text-decoration: none !important;
 }
 
-.arrow-text{
-  margin-top: 8px;
-}
-
-.arrow-text:hover{
+.navi:hover {
   text-decoration: underline;
 }
 
@@ -112,18 +109,20 @@ img:hover{
   margin-left: 9%;
   margin-right: 9%;
   display: flex;
-  height: 120px;
+  height: 8.785vw;
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
+  font-size: 1.171vw;
 }
 
+
 .hr-line{
-  margin: 15px 9% 30px 9%;
+  margin: 1.098vw 9% 2.196vw 9%;
 }
 
 .title-header{
-  font-size: 35px;
+  font-size: 2.562vw;
 }
 
 .context{
@@ -133,157 +132,6 @@ img:hover{
 }
 
 .body-text {
-  width: 800px; /*edited */
+  width: 58.565vw; /*edited */
 
-}
-@media (min-width: 1600px) {
-  *{
-    font-size: 19px;
-  }
-
-  .lab-desc {
-    font-size: 19px;
-  }
-
-  .right-body {
-    font-size: 26px;
-  }
-
-  .content{
-    margin-top: 59px;
-  }
-
-  .lab-desc{
-    margin-top: 23px;
-  }
-
-  .lab-img1{
-    margin-top: 59px;
-    height: 586px;
-  }
-
-  .lab-img{
-    bottom: 9px;
-  }
-
-  .title{
-    width: 410px;
-  }
-
-  .sub-title {
-    margin-top: 12px;
-    margin-bottom: 35px;
-  }
-
-  .arrow{
-    font-size: 35px;
-  }
-
-  .arrow-text{
-    margin-top: 9px;
-  }
-
-  .more-vacancies{
-    height: 141px;
-  }
-
-  .hr-line{
-    margin: 18px 9% 35px 9%;
-  }
-
-  .title-header{
-    font-size: 41px;
-  }
-
-  .body-text {
-    width: 898px; /*edited */
-  }
-}
-
-@media (min-width: 1900px) {
-  *{
-    font-size: 23px;
-  }
-
-  .lab-desc {
-    font-size: 23px;
-  }
-
-  .right-body {
-    font-size: 31px;
-  }
-
-  .content{
-    margin-top: 70px;
-  }
-
-  .lab-desc{
-    margin-top: 27px;
-  }
-
-  .lab-img1{
-    margin-top: 70px;
-    height: 696px;
-  }
-
-  .lab-img{
-    bottom: 11px;
-  }
-
-  .title{
-    width: 487px;
-  }
-
-  .sub-title {
-    margin-top: 14px;
-    margin-bottom: 42px;
-  }
-
-  .arrow{
-    font-size: 42px;
-  }
-
-  .arrow-text{
-    margin-top: 11px;
-  }
-
-  .more-vacancies{
-    height: 167px;
-  }
-
-  .hr-line{
-    margin: 21px 9% 42px 9%;
-  }
-
-  .title-header{
-    font-size: 49px;
-  }
-
-  .bottom-bor{
-    border-bottom: 5px solid #5da563;
-    width: 362px;
-    margin: 14px 0;
-  }
-
-  .bottom-bor2{
-    border-bottom: 5px solid #5da563;
-    width: 265px;
-    margin: 14px 0;
-  }
-
-  .bottom-bor3{
-    border-bottom: 5px solid #5da563;
-    width: 265px;
-    margin: 14px 0;
-  }
-
-  .bottom-bor4{
-    border-bottom: 5px solid #5da563;
-    width: 153px;
-    margin: 14px 0;
-  }
-
-  .body-text {
-    width: 1025px; /*edited */
-  }
 }

@@ -10,11 +10,11 @@ a {
 }
 
 .title{
-  font-size: 25px;
+  font-size: 1.830vw;
 }
 
 .bml-complex{
-  height: 300px;
+  height: 21.962vw;
   overflow: hidden;
 }
 
@@ -22,33 +22,27 @@ a {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  /*transition: transform .5s ease; commented out */
 }
 
-/*commented out
-.bml-complex img:hover{
-  transform: scale(1.1);
-} */
-
 .content-header-contact{
-  height: 220px;
+  height: 16.105vw;
   position: relative;
-  width: 1000px;
+  width: 73.206vw;
 }
 
 .contact-marg{
-  margin-top: 20px;
+  margin-top: 1.464vw;
 }
 
 .contact-marg p:nth-child(2){
-  margin-top: 8px;
+  margin-top: 0.586vw;
 }
 
 .bml-complex .right-content1{
   position: absolute;
   z-index: 1;
-  left: 50px;
-  bottom: -31px;
+  left: 3.660vw;
+  bottom: -2.269vw;
   width: 50%;
   height: 100%;
   display: flex;
@@ -56,60 +50,3 @@ a {
   justify-content: center;
   color: white;
 }
-
-@media (min-width: 1600px) {
-  .title{
-    font-size: 29px;
-  }
-
-  .bml-complex{
-    height: 351px;
-  }
-
-  .content-header-contact{
-    height: 258px;
-    width: 1171px;
-  }
-
-  .contact-marg{
-    margin-top: 23px;
-  }
-
-  .contact-marg p:nth-child(2){
-    margin-top: 9px;
-  }
-
-  .bml-complex .right-content1{
-    left: 59px;
-    bottom: -36px;
-  }
-}
-
-@media (min-width: 1900px) {
-  .title{
-    font-size: 34px;
-  }
-
-  .bml-complex{
-    height: 417px;
-  }
-
-  .content-header-contact{
-    height: 306px;
-    width: 1391px;
-  }
-
-  .contact-marg{
-    margin-top: 27px;
-  }
-
-  .contact-marg p:nth-child(2){
-    margin-top: 11px;
-  }
-
-  .bml-complex .right-content1{
-    left: 70px;
-    bottom: -43px;
-  }
-}
-

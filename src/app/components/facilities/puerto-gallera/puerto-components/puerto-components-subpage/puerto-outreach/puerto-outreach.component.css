@@ -1,21 +1,21 @@
 .component1 {
   background-color: #F5F5F5;
-  margin-top: 29px;
+  margin-top: 2.123vw;
   height: 100%;
 
 }
 
 .component1 img {
-  padding: 20px;
+  padding: 1.464vw;
   margin-left: 2.5%;
-  width: 380px !important;
-  height: 220px !important;
+  width: 27.818vw !important;
+  height: 16vw !important;
   object-fit: cover;
 }
 
 .right {
   width: 60%;
-  margin: 20px 0; /*edited */
+  margin: 1.464vw 0; /*edited */
   padding-right: 2.5%;
   display: flex;
   flex-direction: column;
@@ -24,16 +24,16 @@
 
 /*edited : added css */;
 .content-title1{
-  margin-top: 23px;
+  margin-top: 1.684vw;
 }
 
 /*edited : addded css */
 .content-title2{
-  margin-top: 30px;
+  margin-top: 2.196vw;
 }
 
 .content {
-  margin-top: 10px;
+  margin-top: 0.732vw;
   line-height: 1.5;
 }
 
@@ -55,15 +55,15 @@
 
 
 .component1-bottom {
-  margin: 0 20px;
+  margin: 0 1.464vw;
 
   padding-left: 2.5%;
 }
 
 .panel-title{
   color: white;
-  padding: 15px 0;
-  font-size: 14px; /*edited */
+  padding: 1.098vw 0;
+  font-size: 1.025vw; /*edited */
 }
 
 mat-expansion-panel{
@@ -76,209 +76,57 @@ mat-expansion-panel{
 }
 
 .specific-class{
-  border-radius: 50px;
+  border-radius: 3.660vw;
 }
 
 .grad-offering{
   background-color: #F5F5F5;
   margin-left: 3%;
   margin-right: 5.5%;
-  margin-top: 45px !important;
-  padding: 0 95px; /*edited */
+  margin-top: 3.294vw !important;
+  padding: 0 6.955vw; /*edited */
 }
 
 .grad-offering1{
   background-color: #F5F5F5;
   margin-left: 3%;
   margin-right: 5.5%;
-  margin-top: 20px !important;
-  padding: 0 95px; /*edited */
+  margin-top: 1.464vw !important;
+  padding: 0 6.955vw; /*edited */
 }
 
 
 .closed-main-head{
   background-color: #384e8a;
-  border-radius: 50px;
+  border-radius: 3.660vw;
 }
 
 .regular-content{
   height: 100%;
   display: flex;
   flex-direction: row;
-  margin-top: 10px;
-  font-size: 16px;
+  margin-top: 0.732vw;
+  font-size: 1.171vw;
 }
 
 .regular-content .left div{
-  margin-top: 10px;
+  margin-top: 0.732vw;
   line-height: 1.4;
 }
 
 ul {
   margin: 0 9%;
   padding-bottom: 3%; /* edited */
-  font-size: 16px;
+  font-size: 1.171vw;
   font-family: 'atlas-light';
 }
 
 li {
-  margin-top: 20px;
+  margin-top: 1.464vw;
   line-height: .5; /* edited */
   color: #384e8a;
 }
 
 li span {
   color: black;
-}
-
-@media (min-width: 1600px) {
-  *{
-    font-size: 19px;
-  }
-
-  .component1 {
-    margin-top: 34px;
-  }
-  .component1 img {
-    padding: 23px;
-    width: 445px !important;
-    height: 258px !important;
-  }
-
-  .right {
-    margin: 23px 0;
-  }
-
-  /*edited : added css */;
-.content-title1{
-  margin-top: 26px;
-}
-
-/*edited : addded css */
-.content-title2{
-  margin-top: 33px;
-}
-
-  .content {
-    margin-top: 12px;
-  }
-
-  .component1-bottom {
-    margin: 0 23px;
-  }
-
-  .panel-title{
-    padding: 18px 0;
-    font-size: 19px;
-  }
-
-  .specific-class{
-    border-radius: 59px;
-  }
-
-  .grad-offering{
-    margin-top: 53px !important;
-  }
-
-  .grad-offering1{
-    margin-top: 23px !important;
-  }
-
-
-  .closed-main-head{
-    border-radius: 59px;
-  }
-
-  .regular-content{
-    margin-top: 12px;
-    font-size: 19px;
-  }
-
-  .regular-content .left div{
-    margin-top: 12px;
-  }
-
-  ul {
-    font-size: 19px;
-  }
-
-  li {
-    margin-top: 23px;
-  }
-}
-
-@media (min-width: 1900px) {
-  *{
-    font-size: 23px;
-  }
-
-  .component1 {
-    margin-top: 40px;
-  }
-  .component1 img {
-    padding: 27px;
-    width: 528px !important;
-    height: 306px !important;
-  }
-
-  .right {
-    margin: 27px 0;
-  }
-
-    /*edited : added css */;
-  .content-title1{
-  margin-top: 29px;
-  }
-
-  /*edited : addded css */
-  .content-title2{
-  margin-top: 36px;
-  }
-
-  .content {
-    margin-top: 14px;
-  }
-
-  .component1-bottom {
-    margin: 0 27px;
-  }
-
-  .panel-title{
-    padding: 21px 0;
-    font-size: 23px;
-  }
-
-  .specific-class{
-    border-radius: 70px;
-  }
-
-  .grad-offering{
-    margin-top: 63px !important;
-  }
-
-  .grad-offering1{
-    margin-top: 27px !important;
-  }
-
-
-  .closed-main-head{
-    border-radius: 70px;
-  }
-
-  .regular-content{
-    margin-top: 14px;
-    font-size: 23px;
-  }
-
-  .regular-content .left div{
-    margin-top: 14px;
-  }
-
-  ul {
-    font-size: 23px;
-  }
-
-  li {
-    margin-top: 23px;
-  }
 }

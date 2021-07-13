@@ -3,7 +3,7 @@
 }
 
 .title{
-  font-size: 25px;
+  font-size: 1.830vw;
   color: #394e8a;
 }
 
@@ -16,34 +16,32 @@ img:hover{
 }
 
 .photo-cont {
-  height: 185px;
+  height: 13.543vw;
   overflow: hidden;
 }
 
 .img-content {
-  width: 1000px;
-  padding-left: 10px;
+  width: 73.206vw;
+  padding-left: 0.732vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 20px;
-  column-gap: 20px;
+  row-gap: 1.464vw;
+  column-gap: 1.464vw;
 }
 
 .img-container{
-  margin-top: 40px;
+  margin-top: 2.928vw;
   display: grid;
   place-items: center;
 }
 
 .arrow{
-  font-size: 30px;
+  font-size: 2vw;
+  padding-left: .5vw;
+  text-decoration: none !important;
 }
 
-.arrow-text{
-  margin-top: 8px;
-}
-
-.arrow-text:hover{
+.navi:hover {
   text-decoration: underline;
 }
 
@@ -52,125 +50,25 @@ img:hover{
   margin-left: 9%;
   margin-right: 9%;
   display: flex;
-  height: 120px;
+  height: 8.785vw;
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
+  font-size: 1.171vw;
 }
 
 
 .header{
-  margin-top: 20px;
-  font-size: 16px;
+  margin-top: 1.464vw;
+  font-size: 1.171vw;
   line-height: 1.5;
 }
 
 .hr-line{
-  margin: 15px 9% 30px 9%;
+  margin: 1.098vw 9% 2.196vw 9%;
 }
 
 .photo-length{
-  font-size: 15px; align-self: flex-end; margin-bottom: 3px;
+  font-size: 1.098vw; align-self: flex-end; margin-bottom: 0.220vw;
 }
 
-@media (min-width: 1600px) {
-  * {
-    font-size: 19px;
-  }
-
-  .title{
-    font-size: 29px;
-  }
-
-  .photo-cont {
-    height: 217px;
-  }
-
-  .img-content {
-    width: 1171px;
-    padding-left: 12px;
-    row-gap: 23px;
-    column-gap: 23px;
-  }
-
-  .img-container{
-    margin-top: 47px;
-  }
-
-  .arrow{
-    font-size: 35px;
-  }
-
-  .arrow-text{
-    margin-top: 9px;
-  }
-
-  .more-vacancies{
-    height: 141px;
-  }
-
-  .header{
-    margin-top: 23px;
-    font-size: 19px;
-  }
-
-  .hr-line{
-    margin: 18px 9% 35px 9%;
-  }
-
-  .photo-length{
-    font-size: 18px;
-    margin-bottom: 4px;
-  }
-}
-
-@media (min-width: 1900px) {
-  * {
-    font-size: 23px;
-  }
-
-  .title{
-    font-size: 34px;
-  }
-
-  .photo-cont {
-    height: 258px;
-  }
-
-  .img-content {
-    width: 1391px;
-    padding-left: 14px;
-    row-gap: 27px;
-    column-gap: 27px;
-  }
-
-  .img-container{
-    margin-top: 56px;
-  }
-
-  .arrow{
-    font-size: 42px;
-  }
-
-  .arrow-text{
-    margin-top: 11px;
-  }
-
-  .more-vacancies{
-    height: 167px;
-  }
-
-  .header{
-    margin-top: 27px;
-    font-size: 23px;
-  }
-
-  .hr-line{
-    margin: 21px 9% 42px 9%;
-  }
-
-  .photo-length{
-    font-size: 21px;
-    margin-bottom: 5px;
-  }
-}

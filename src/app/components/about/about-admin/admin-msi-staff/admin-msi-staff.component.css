@@ -155,6 +155,7 @@ mat-expansion-panel{
   flex-direction: row;
   font-size: 1.025vw; /* edited2 */
   margin-top: 1.5%;
+  margin-left: 2.5%;
   width: 100%;
 }
 
@@ -413,6 +414,7 @@ mat-expansion-panel{
     grid-template-columns: 1fr 1fr; */
     font-size: 3vw; /* edited2 */
     margin-top: 1.5%;
+    margin-left: -1.2%;
     width: 95%;
   }
 
@@ -434,7 +436,7 @@ mat-expansion-panel{
 
   .left2 {
     width: 100%;
-    margin-left: 2%;
+    margin-left: 4%;
   }
 
   .left2 p {

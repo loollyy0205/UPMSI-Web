@@ -1,5 +1,5 @@
 * {
-  font-size: 16px;
+  font-size: 1.171vw;
 }
 
 .card-content p {
@@ -11,17 +11,17 @@
 }
 
 .title {
-  font-size: 25px;
-  margin-top: 68px;
+  font-size: 1.830vw;
+  margin-top: 4.978vw;
 }
 
 .sub-title {
-  margin-top: 18px;
+  margin-top: 1.318vw;
 }
 
 .container{
   margin: 0 9%;
-  margin-top: 20px;
+  margin-top: 1.464vw;
 }
 
 .footer{
@@ -30,31 +30,28 @@
 
 .facilities-next{
   color: #384e8a;
-  margin-top: 30px;
+  margin-top: 2.196vw;
   display: flex;
   justify-content: flex-start;
   cursor: pointer;
 }
 
-.navi {
-  margin-top: 1%;
+.back-arrow {
+  font-size: 2vw;
+  text-decoration: none !important;
 }
 
 .navi:hover{
   text-decoration: underline;
 }
 
-.arrow {
-  font-size: 35px;
-  margin-top: 3px;
-}
 
 .hr-line{
-  margin: 15px 9% 30px 9%;
+  margin: 1.098vw 9% 2.196vw 9%;
 }
 
 .box-card {
-  margin-top: 29px;
+  margin-top: 2.123vw;
   height: 100%;
 }
 
@@ -66,28 +63,28 @@
 .card {
   height: 100%;
   background-color: #F5F5F5;
-  margin-bottom: 18px;
-  padding-left: 56px;
+  margin-bottom: 1.318vw;
+  padding-left: 4.100vw;
 }
 
 .card img {
   float: left;
-  padding-right: 35px;
-  padding-bottom: 10px;
-  width: 380px;
-  height: 220px;
+  padding-right: 2.562vw;
+  padding-bottom: 0.732vw;
+  width: 27.818vw;
+  height: 17.5vw;
   object-fit: cover;
-  margin-top: 20px;
+  margin-top: 1.464vw;
 }
 
 .right {
-  padding: 20px 0;
-  margin-right: 40px;
+  padding: 1.464vw 0;
+  margin-right: 2.928vw;
 }
 
 .card-content {
   line-height: 1.5;
-  margin-top: 15px;
+  margin-top: 1.098vw;
 }
 
 .read-more {
@@ -99,151 +96,27 @@
 }
 
 .limitTextHeight {
-  height: 185px;
+  height: 13.543vw;
   overflow: hidden;
 }
 
 .limitTextHeight2 {
-  height: 185px;
+  height: 13.543vw;
   overflow: hidden;
 }
 
 .limitTextHeight3 {
-  height: 185px;
+  height: 13.543vw;
   overflow: hidden;
 }
 
 .limitTextHeight4 {
-  height: 185px;
+  height: 13.543vw;
   overflow: hidden;
 }
 
 .limitTextHeight5 {
-  height: 185px;
+  height: 13.543vw;
   overflow: hidden;
 }
 
-@media (min-width: 1600px) {
-  * {
-    font-size: 19px;
-  }
-
-  .title {
-    font-size: 29px;
-    margin-top: 80px;
-  }
-
-  .sub-title {
-    margin-top: 21px;
-  }
-
-  .container{
-    margin-top: 23px;
-  }
-
-  .facilities-next{
-    margin-top: 35px;
-  }
-
-  .arrow {
-    font-size: 41px;
-    margin-top: 5px;
-  }
-
-  .hr-line{
-    margin: 21px 9% 41px 9%;
-  }
-
-  .box-card {
-    margin-top: 40px;
-  }
-
-  .card {
-    margin-bottom: 25px;
-    padding-left: 77px;
-  }
-
-  .card img {
-    padding-right: 48px;
-    padding-bottom: 14px;
-    width: 445px;
-    height: 258px;
-    margin-top: 27px;
-  }
-
-  .right {
-    padding: 27px 0;
-    margin-right: 55px;
-  }
-
-  .card-content {
-    margin-top: 18px;
-  }
-
-  .limitTextHeight, .limitTextHeight2, .limitTextHeight3, .limitTextHeight4, .limitTextHeight5 {
-    height: 217px;
-  }
-}
-
-
-@media (min-width: 1900px) {
-  * {
-    font-size: 23px;
-  }
-
-  .title {
-    font-size: 34px;
-    margin-top: 95px;
-  }
-
-  .sub-title {
-    margin-top: 25px;
-  }
-
-  .container{
-    margin-top: 27px;
-  }
-
-  .facilities-next{
-    margin-top: 42px;
-  }
-
-  .arrow {
-    font-size: 49px;
-    margin-top: 6px;
-  }
-
-  .hr-line{
-    margin: 25px 9% 49px 9%;
-  }
-
-  .box-card {
-    margin-top: 48px;
-  }
-
-  .card {
-    margin-bottom: 30px;
-    padding-left: 91px;
-  }
-
-  .card img {
-    padding-right: 57px;
-    padding-bottom: 17px;
-    width: 528px;
-    height: 306px;
-    margin-top: 32px;
-  }
-
-  .right {
-    padding: 32px 0;
-    margin-right: 65px;
-  }
-
-  .card-content {
-    margin-top: 21px;
-  }
-
-  .limitTextHeight, .limitTextHeight2, .limitTextHeight3, .limitTextHeight4, .limitTextHeight5 {
-    height: 258px;
-  }
-}

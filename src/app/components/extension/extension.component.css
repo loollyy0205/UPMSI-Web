@@ -1,14 +1,14 @@
 .container .title{
-  font-size: 40px;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  font-size: 2.928vw;
+  margin-top: 2.928vw;
+  margin-bottom: 2.196vw;
   color: #394e8a;
   margin-left: 9%;
   margin-right: 9%;
 }
 
 .content1{
-  margin-top: 30px;
+  margin-top: 2.196vw;
 }
 
 
@@ -17,8 +17,9 @@
   margin-right: 9%;
   /*text-decoration: underline;*/
   float: right;
-  margin-top: 30px;
+  margin-top: 2.196vw;
   cursor: pointer;
+  font-size: 1.171vw;
 }
 
 .more-about:hover{
@@ -26,7 +27,7 @@
 }
 
 .content2-container{
-  margin: 90px 9% 0 9%;
+  margin: 6.589vw 9% 0 9%;
   height: 36vw;
   display: flex;
   flex-direction: row;
@@ -45,54 +46,48 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 80px;
+  padding: 5.857vw;
 }
 
 .right-title{
   color: white;
-  font-size: 40px;
-  margin-bottom: 20px;
+  font-size: 2.928vw;
+  margin-bottom: 1.464vw;
 }
 
 .position{
-  margin-top: 32px;
+  margin-top: 2.343vw;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
 .learn-more-a{
-  width: 250px;
-  font-size: 16px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: 18.302vw;
+  font-size: 1.171vw;
+  padding: 0.732vw 2.928vw;
   cursor: pointer;
   border: none;
   outline: none;
   background-color: #5da563;
   color: white;
-  margin-top: 15px;
+  margin-top: 1.098vw;
 }
 
 .learn-more-b{
-  width: 250px;
-  font-size: 16px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: 18.302vw;
+  font-size: 1.171vw;
+  padding: 0.732vw 2.928vw;
   cursor: pointer;
   border: none;
   outline: none;
   background-color: #384e8a;
   color: white;
-  margin-top: 15px;
+  margin-top: 1.098vw;
 }
 
 .content3-container{
-  margin: 50px 9% 0 9%;
+  margin: 3.660vw 9% 0 9%;
   height: 36vw;
   display: flex;
   flex-direction: row;
@@ -104,7 +99,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* padding: 80px; */
+  /* padding: 5.857vw; */
 }
 
 .content3-container .right{
@@ -118,12 +113,12 @@
 }
 
 .hr-line{
-  margin: 15px 9% 30px 9%;
+  margin: 1.098vw 9% 2.196vw 9%;
 }
 
 .img-context{
-  margin-top: 30px;
-  font-size: 16px;
+  margin-top: 2.196vw;
+  font-size: 1.171vw;
   line-height: 1.2;
 }
 
@@ -132,11 +127,12 @@
 .content2-context{
   color: white;
   line-height: 1.3;
+  font-size: 1.171vw;
 }
 
 .content2-container .advo{
-  margin-top: 30px;
-  height: 250px;
+  margin-top: 2.196vw;
+  height: 18.302vw;
   width: 100%;
 }
 
@@ -146,7 +142,7 @@
   flex-direction: row;
   justify-content: flex-end;
   color: white;
-  margin-top: 15px;
+  margin-top: 1.098vw;
 }
 
 /* content 3 */
@@ -156,152 +152,9 @@
   flex-direction: row;
   justify-content: flex-end;
   color: white;
-  margin-top: 30px;
+  margin-top: 2.196vw;
 }
 
 .footer{
   margin-top: 9%;
-}
-
-@media (min-width: 1600px) {
-
-  .title{
-    font-size: 47px !important;
-    margin-top: 47px;
-    margin-bottom: 35px;
-  }
-
-
-  .content1{
-    margin-top: 35px;
-  }
-
-  .content2-context{
-    font-size: 19px;
-  }
-
-  .more-about{
-    float: right;
-    margin-top: 35px;
-    font-size: 19px;
-  }
-
-
-  .content2-container .right{
-    padding: 94px;
-  }
-
-  .right-title{
-    font-size: 47px;
-    margin-bottom: 23px;
-  }
-
-  .position{
-    margin-top: 37px;
-  }
-
-  .learn-more-a, .learn-more-b{
-    width: 293px;
-    font-size: 19px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 47px;
-    padding-right: 47px;
-    margin-top: 18px;
-  }
-
-
-  .hr-line{
-    margin: 18px 9% 35px 9%;
-  }
-
-  .img-context{
-    margin-top: 35px;
-    font-size: 19px;
-  }
-
-  .content2-container .advo{
-    margin-top: 35px;
-    height: 293px;
-  }
-
-  .know-about{
-    margin-top: 18px;
-  }
-
-  .see-more{
-    margin-top: 35px;
-  }
-}
-
-
-@media (min-width: 1900px) {
-
-  .title{
-    font-size: 56px !important;
-    margin-top: 56px;
-    margin-bottom: 42px;
-  }
-
-
-  .content1{
-    margin-top: 42px;
-  }
-
-  .content2-context{
-    font-size: 23px;
-  }
-
-  .more-about{
-    float: right;
-    margin-top: 42px;
-    font-size: 23px;
-  }
-
-
-  .content2-container .right{
-    padding: 112px;
-  }
-
-  .right-title{
-    font-size: 56px;
-    margin-bottom: 27px;
-  }
-
-  .position{
-    margin-top: 44px;
-  }
-
-  .learn-more-a, .learn-more-b{
-    width: 348px;
-    font-size: 23px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 56px;
-    padding-right: 56px;
-    margin-top: 21px;
-  }
-
-
-  .hr-line{
-    margin: 21px 9% 42px 9%;
-  }
-
-  .img-context{
-    margin-top: 42px;
-    font-size: 23px;
-  }
-
-  .content2-container .advo{
-    margin-top: 42px;
-    height: 348px;
-  }
-
-  .know-about{
-    margin-top: 21px;
-  }
-
-  .see-more{
-    margin-top: 42px;
-  }
 }

@@ -4,10 +4,10 @@
 
 .ship-content {
   height: 100%;
-  margin-top: 39px;
+  margin-top: 2.855vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 50px;
+  column-gap: 3.660vw;
 }
 
 .ship1 {
@@ -29,35 +29,35 @@
 }
 
 img {
-  height: 305px !important;
-  width: 305px !important;
+  height: 22.328vw !important;
+  width: 22.328vw !important;
   object-fit: cover;
   border-radius: 50%;
 }
 
 .title {
   color: #384e8a;
-  font-size: 21px;
-  margin-top: 20px;
+  font-size: 1.537vw;
+  margin-top: 1.464vw;
 }
 
 .content {
-  margin-top: 10px;
+  margin-top: 0.732vw;
   line-height: 1.4;
   text-align: center;
-  font-size: 15px;
+  font-size: 1.098vw;
 }
 
 .panel-title{
   color: white;
-  padding: 15px 0;
-  font-size: 14px;
+  padding: 1.098vw 0;
+  font-size: 1.025vw;
 }
 
 mat-expansion-panel{
   border-color: white;
   background-color: #fafafa;
-  margin-bottom: -20px !important;
+  margin-bottom: -1.464vw !important;
 }
 
 ::ng-deep .specific-class > .mat-expansion-indicator:after {
@@ -65,48 +65,48 @@ mat-expansion-panel{
 }
 
 .specific-class{
-  border-radius: 50px;
+  border-radius: 3.660vw;
 }
 
 .grad-offering{
   background-color: #fafafa;
-  margin-top: 45px !important;
-  padding: 0 120px; /* added */
+  margin-top: 3.294vw !important;
+  padding: 0 11.464vw; /* added */
 }
 
 .grad-offering1{
   background-color: #fafafa;
-  margin-top: 20px !important;
-  padding: 0 120px; /* added */
+  margin-top: 1.464vw !important;
+  padding: 0 11.464vw; /* added */
 }
 
 
 .closed-main-head{
   background-color: #384e8a;
-  border-radius: 50px;
+  border-radius: 3.660vw;
 }
 
 .regular-content{
   height: 100%;
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
-  font-size: 14px;
+  margin-top: 1.464vw;
+  font-size: 1.025vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .regular-content .left div{
-  margin-top: 10px;
+  margin-top: 0.732vw;
   line-height: 1.4;
 }
 
 .specification {
-   margin-top: 30px;
+   margin-top: 2.196vw;
 }
 
 .content1 {
-  border-right: 1px solid #5da563;
+  border-right: 0.073vw solid #5da563;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -114,11 +114,11 @@ mat-expansion-panel{
 }
 
 .content1 div:nth-child(n+2) {
-  margin-top: 15px;
+  margin-top: 1.098vw;
 }
 
 .content2 {
-  border-right: 1px solid #5da563;
+  border-right: 0.073vw solid #5da563;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,16 +126,16 @@ mat-expansion-panel{
 }
 
 .content2 div:nth-child(n+2) {
-  margin-top: 15px;
+  margin-top: 1.098vw;
 }
 
 .content3 div:nth-child(n+2){
-  margin-top: 15px;
+  margin-top: 1.098vw;
 }
 
 /* edited : added css */;
 .content4 div:nth-child(n+2){
-  margin-top: 15px;
+  margin-top: 1.098vw;
 }
 
 .content3 {
@@ -145,25 +145,10 @@ mat-expansion-panel{
   text-align: center;
 }
 
-.more-vacancies{
-  color: #384e8a;
-  margin-top: 39px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  cursor: pointer;
-  height: 120px;
-  margin-bottom: 2%;
-}
-
 a {
   text-decoration: none;
 }
 
-.arrow{
-  font-size: 30px;
-  margin-left: 10px;
-}
 
 .content4 {
   display: flex;
@@ -175,174 +160,33 @@ a {
 .regular-content2{
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
-  font-size: 14px;
+  margin-top: 1.464vw;
+  font-size: 1.025vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-@media (min-width: 1600px) {
-  *{
-    font-size: 19px;
-  }
-
-  .ship-content {
-    margin-top: 46px;
-    column-gap: 59px;
-  }
-
-  img {
-    height: 357px;
-    width: 357px;
-  }
-
-  .title {
-    font-size: 25px;
-    margin-top: 23px;
-  }
-
-  .content {
-    margin-top: 12px;
-    font-size: 18px;
-  }
-
-  .panel-title{
-    padding: 18px 0;
-    font-size: 19px;
-  }
-
-  .specific-class{
-    border-radius: 59px;
-  }
-
-  .grad-offering{
-    margin-top: 43px !important;
-  }
-
-  .grad-offering1{
-    margin-top: 23px !important;
-  }
-
-
-  .closed-main-head{
-    border-radius: 59px;
-  }
-
-  .regular-content{
-    margin-top: 23px;
-    font-size: 19px;
-  }
-
-  .regular-content .left div{
-    margin-top: 12px;
-  }
-
-  .specification {
-     margin-top: 35px;
-  }
-
-  .content1 div:nth-child(n+2) {
-    margin-top: 18px;
-  }
-
-  .content2 div:nth-child(n+2) {
-    margin-top: 18px;
-  }
-
-  .content3 div:nth-child(n+2){
-    margin-top: 18px;
-  }
-
-  .more-vacancies{
-    margin-top: 46px;
-    height: 141px;
-  }
-
-  .arrow{
-    font-size: 35px;
-    margin-left: 12px;
-  }
+.arrow{
+  font-size: 2vw;
+  padding-left: .5vw;
+  text-decoration: none !important;
 }
 
-@media (min-width: 1900px) {
-  *{
-    font-size: 23px;
-  }
+.navi:hover {
+  text-decoration: underline;
+}
 
-  .ship-content {
-    margin-top: 55px;
-    column-gap: 70px;
-  }
+.more-vacancies{
+  color: #384e8a;
+  display: flex;
+  height: 8.785vw;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.171vw;
+  margin-top: 3%;
+}
 
-  img {
-    height: 424px;
-    width: 424px;
-  }
-
-  .title {
-    font-size: 30px;
-    margin-top: 27px;
-  }
-
-  .content {
-    margin-top: 14px;
-    font-size: 21px;
-  }
-
-  .panel-title{
-    padding: 21px 0;
-    font-size: 23px;
-  }
-
-  .specific-class{
-    border-radius: 70px;
-  }
-
-  .grad-offering{
-    margin-top: 51px !important;
-  }
-
-  .grad-offering1{
-    margin-top: 27px !important;
-  }
-
-
-  .closed-main-head{
-    border-radius: 70px;
-  }
-
-  .regular-content{
-    margin-top: 27px;
-    font-size: 23px;
-  }
-
-  .regular-content .left div{
-    margin-top: 14px;
-  }
-
-  .specification {
-     margin-top: 42px;
-  }
-
-  .content1 div:nth-child(n+2) {
-    margin-top: 21px;
-  }
-
-  .content2 div:nth-child(n+2) {
-    margin-top: 21px;
-  }
-
-  .content3 div:nth-child(n+2){
-    margin-top: 21px;
-  }
-
-  .more-vacancies{
-    margin-top: 55px;
-    height: 167px;
-  }
-
-  .arrow{
-    font-size: 42px;
-    margin-left: 14px;
-  }
+.context {
+  line-height: 1.4;
 }

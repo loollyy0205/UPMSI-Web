@@ -1,18 +1,18 @@
 .container{
-  margin-top: 35px;
+  margin-top: 2.562vw;
   margin-left: 4.5%;
   margin-right: 4.5%;
 }
 
 
 mat-expansion-panel{
-  margin-bottom: -20px;
+  margin-bottom: -1.464vw;
 }
 
 .panel-title{
   color: white;
-  padding: 15px 0px; /*edited*/
-  font-size: 14px; /*edited*/
+  padding: 1.098vw 0px; /*edited*/
+  font-size: 1.025vw; /*edited*/
 }
 
 mat-expansion-panel{
@@ -22,15 +22,17 @@ mat-expansion-panel{
 
 ::ng-deep .specific-class > .mat-expansion-indicator:after {
   color: white;
+  border-width: 0 0.146vw 0.146vw 0 !important;
+  padding: 0.220vw !important;
 }
 
 .specific-class{
-  border-radius: 50px;
+  border-radius: 3.660vw;
 }
 
 .grad-offering{
-  margin-top: 50px !important;
-  padding: 0 120px; /*added*/
+  margin-top: 3.660vw !important;
+  padding: 0 9%; /*added*/
 }
 
 
@@ -42,132 +44,16 @@ mat-expansion-panel{
   height: 100%;
   display: flex;
   flex-direction: column;
-  margin-top: 10px; /*edited*/
-  font-size: 14px; /*edited*/
+  margin-top: 0.732vw; /*edited*/
+  font-size: 1.025vw; /*edited*/
 }
 
 .regular-content p {
-  margin: 0px 20px;
+  margin: 0px 1.464vw;
   font-family: 'atlas-light';
-  font-size: 14px; /*edited*/
+  font-size: 1.025vw; /*edited*/
   border-bottom: 1.5px solid #5CA361;
-  padding: 10px 0px; /*edited*/
-  line-height: 30px;
-
-}
-
-
-/* @media (min-width: 1366px) {
-  .container{
-    margin-top: 41px;
-  }
-
-  mat-expansion-panel{
-    margin-bottom: -22.5px;
-  }
-
-  .panel-title{
-    padding: 25px 10px;
-    font-size: 15px;
-  }
-
-  .specific-class{
-    border-radius: 70px;
-  }
-
-  .grad-offering{
-    margin-top: 70px !important;
-  }
-
-
-  .closed-main-head{
-    border-radius: 70px;
-  }
-
-  .regular-content p {
-    margin: 0px 20px;
-    font-family: 'atlas-light';
-    font-size: 15px;
-    border-bottom: 1.5px solid #5CA361;
-    padding: 20px 0px;
-    line-height: 30px;
-  }
-
-} */
-
-@media (min-width: 1600px) {
-  .container{
-    margin-top: 41px;
-  }
-
-  mat-expansion-panel{
-    margin-bottom: -22.5px;
-  }
-
-  .panel-title{
-    padding: 25px 10px;
-    font-size: 17px;
-  }
-
-  .specific-class{
-    border-radius: 70px;
-  }
-
-  .grad-offering{
-    margin-top: 70px !important;
-  }
-
-
-  .closed-main-head{
-    border-radius: 70px;
-  }
-
-  .regular-content p {
-    margin: 0px 20px;
-    font-family: 'atlas-light';
-    font-size: 17px;
-    border-bottom: 1.5px solid #5CA361;
-    padding: 20px 0px;
-    line-height: 30px;
-  }
-
-}
-
-@media (min-width: 1920px) {
-  .container{
-    margin-top: 49px;
-  }
-
-  mat-expansion-panel{
-    margin-bottom: -27px;
-  }
-
-  .panel-title{
-    padding: 25px 10px;
-    font-size: 19px;
-  }
-
-  .specific-class{
-    border-radius: 70px;
-  }
-
-  .grad-offering{
-    margin-top: 70px !important;
-  }
-
-
-  .closed-main-head{
-    border-radius: 70px;
-  }
-
-
-  .regular-content p {
-    margin: 0px 20px;
-    font-family: 'atlas-light';
-    font-size: 19px;
-    border-bottom: 1.5px solid #5CA361;
-    padding: 20px 0px;
-    line-height: 30px;
-  }
+  padding: 0.732vw 0px; /*edited*/
+  line-height: 2.196vw;
 
 }

@@ -141,7 +141,27 @@ dialog::backdrop {
    background: rgb(190, 181, 168);
  }
 
- @media (max-width: 576px) {
+ .carousel-arrow {
+   height: 2.928vw !important;
+   width: 2.928vw !important;
+   background-size: 2.269vw !important;
+   box-shadow: 0 0 0.366vw rgb(0 0 0 / 15%);
+   margin-top: -1.464vw !important;
+ }
+
+ .carousel-arrow-next {
+   right: -4.392vw !important;
+ }
+
+ .carousel-arrow-prev {
+  left: -4.392vw !important;;
+ }
+
+.mat-expansion-panel-header {
+  padding: 0 1.757vw !important;
+}
+
+ @media (max-width: 768px) {
   .owl-theme .owl-dots{
     text-align: center;
     position: relative;
@@ -152,6 +172,10 @@ dialog::backdrop {
     width: 1.5vw;
     height: 1.5vw;
     margin: 3% 1vw;
+  }
+
+  .mat-expansion-panel-header {
+    padding: 0 5vw !important;
   }
 
  }

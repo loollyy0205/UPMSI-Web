@@ -61,8 +61,8 @@
 
             <p class="atlas-blackReg title" style="color: #394e8a;">HIGHLIGHTS</p>
             <div style="display: flex;">
-              <p class="atlas-light" style="color: #394e8a; margin-top: 5px; padding-right: 20px; border-right: 3px solid #5ca361;">ENVIRONMENT</p>
-              <p class="atlas-light" style="color: #394e8a; margin-top: 5px; padding-left: 20px;">PROJECT HIGHLIGHTS</p>
+              <p class="atlas-light highlight-envi">ENVIRONMENT</p>
+              <p class="atlas-light highlight-proj">PROJECT HIGHLIGHTS</p>
 
             </div>
 
@@ -80,7 +80,6 @@
           <p class="atlas-bold highlights-title">HIGHLIGHTS PREVIEW</p> &nbsp;
         </div>
         <carousel
-        [margin]="margin"
         [freeScroll]="true"
         [transitionTimingFunction]="'ease-in-out'"
         [transitionDuration]="'1000'"
@@ -118,13 +117,13 @@
     </div>
 
     <div style="display: grid; place-content: center;">
-      <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s" (click)="gotoFacilities()">
-        <span style="margin-top: 8px;">
-          <p class="atlas-light">TO PUERTO GALERA STATION</p>
+      <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s" >
+        <span class="arrow-text" (click)="gotoFacilities()">
+          <p class="atlas-light"><span class="navi">TO PUERTO GALERA STATION</span> <span class="arrow">&rarr;</span></p>
         </span>
-        <mat-icon class="arrow">arrow_forward</mat-icon>
       </div>
     </div>
+
   </div>
 </div>
 

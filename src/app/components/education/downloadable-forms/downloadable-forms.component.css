@@ -1,6 +1,6 @@
 .container{
   margin: 0 9%;
-  margin-top: 20px;
+  margin-top: 1.464vw;
 }
 
 a {
@@ -8,9 +8,9 @@ a {
 }
 
 .content-header{
-  height: 297px;
+  height: 21.742vw;
   position: relative;
-  top: 10px; /*edited*/
+  top: 0.732vw; /*edited*/
 }
 
 img{
@@ -20,37 +20,37 @@ img{
 }
 
 .banner-content{
-  font-size: 18px;
-  margin-top: 13px;
-  width: 684px;
+  font-size: 1.318vw;
+  margin-top: 0.952vw;
+  width: 50.073vw;
 }
 
 .left-content{
   position: absolute;
   z-index: 1;
-  bottom: 8px;
-  width: 500px;
+  bottom: 0;
+  width: 36.603vw;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 50px;
+  padding: 0 3.660vw;
   top: 0;
   color: white;
 }
 
 .title{
-  font-size: 29px;
+  font-size: 2.123vw;
 }
 
 mat-expansion-panel{
-  margin-bottom: -20px;
+  margin-bottom: -1.464vw;
 }
 
 .panel-title{
   color: white;
-  padding: 15px 0;
-  font-size: 14px;
+  padding: 1.098vw 0;
+  font-size: 1.025vw;
 }
 
 mat-expansion-panel{
@@ -63,21 +63,21 @@ mat-expansion-panel{
 }
 
 .specific-class{
-  border-radius: 50px;
+  border-radius: 3.660vw;
 }
 
 .grad-offering{
-  margin-top: 50px !important;
-  padding: 0 170px; /*edited*/
+  margin-top: 3.660vw !important;
+  padding: 0 12.445vw; /*edited*/
 }
 
 .core-courses{
   height: 100%;
-  margin-left: 20px;
-  border-left: 3px solid #5da563;
+  margin-left: 1.464vw;
+  border-left: 0.220vw solid #5da563;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 15px;
+  gap: 1.098vw;
 }
 
 .core-content{
@@ -86,18 +86,18 @@ mat-expansion-panel{
 }
 
 .core-courses div{
-  margin-left: 20px;
+  margin-left: 1.464vw;
 }
 
 .closed-main-head{
   background-color: #384e8a;
-  border-radius: 50px;
+  border-radius: 3.660vw;
 }
 
 .regular-content{
   height: 100%;
   display: flex;
-  font-size: 14px;
+  font-size: 1.025vw;
   flex-direction: row;
 }
 
@@ -106,15 +106,15 @@ mat-expansion-panel{
 }
 
 .left p{
-  margin-top: 20px
+  margin-top: 1.464vw;
 }
 
 .right div{
-  margin-top: 10px
+  margin-top: 0.732vw;
 }
 
 .banner-content{
-  font-size: 16px;
+  font-size: 1.171vw;
 }
 
 a{
@@ -126,14 +126,12 @@ a:visited{
 }
 
 .arrow{
-  font-size: 30px;
+  font-size: 2vw;
+  padding-left: .5vw;
+  text-decoration: none !important;
 }
 
-.arrow-text{
-  margin-top: 8px;
-}
-
-.arrow-text:hover{
+.navi:hover {
   text-decoration: underline;
 }
 
@@ -142,169 +140,9 @@ a:visited{
   margin-left: 9%;
   margin-right: 9%;
   display: flex;
-  height: 120px;
+  height: 8.785vw;
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
-}
-
-@media (min-width: 1600px) {
-  .container{
-    margin-top: 23px;
-  }
-
-  .content-header{
-    height: 348px;
-  }
-
-  .banner-content{
-    font-size: 21px;
-    margin-top: 15px;
-    width: 801px;
-  }
-
-  .left-content{
-    width: 586px;
-    padding: 0 59px;
-  }
-
-  .title{
-    font-size: 34px;
-  }
-
-  mat-expansion-panel{
-    margin-bottom: -23px;
-  }
-
-  .panel-title{
-    padding: 18px 0;
-    font-size: 16px;
-  }
-
-  .specific-class{
-    border-radius: 59px;
-  }
-
-  .grad-offering{
-    margin-top: 39px !important;
-  }
-
-  .core-courses{
-    margin-left: 23px;
-    border-left: 4px solid #5da563;
-    gap: 18px;
-  }
-
-  .core-courses div{
-    margin-left: 23px;
-  }
-
-  .closed-main-head{
-    border-radius: 59px;
-  }
-
-  .regular-content{
-    font-size: 16px;
-  }
-
-  .left div{
-    margin-top: 12px
-  }
-
-  .right div{
-    margin-top: 12px
-  }
-
-  .banner-content{
-    font-size: 19px;
-  }
-
-  .arrow{
-    font-size: 35px;
-  }
-
-  .arrow-text{
-    margin-top: 16px;
-  }
-
-  .more-vacancies{
-    height: 141px;
-    font-size: 19px
-  }
-}
-
-@media (min-width: 1920px) {
-  .container{
-    margin-top: 28px;
-  }
-
-  .content-header{
-    height: 418px;
-  }
-
-  .banner-content{
-    font-size: 25px;
-    margin-top: 18px;
-    width: 961px;
-  }
-
-  .left-content{
-    width: 703px;
-    padding: 0 71px;
-  }
-
-  .title{
-    font-size: 41px;
-  }
-
-  mat-expansion-panel{
-    margin-bottom: -28px;
-  }
-
-  .panel-title{
-    padding: 21px 0;
-    font-size: 19px;
-  }
-
-  .specific-class{
-    border-radius: 71px;
-  }
-
-  .grad-offering{
-    margin-top: 51px !important;
-  }
-
-  .closed-main-head{
-    border-radius: 71px;
-  }
-
-  .regular-content{
-    margin-top: 28px;
-    font-size: 19px;
-  }
-
-  .left div{
-    margin-top: 14px
-  }
-
-  .right div{
-    margin-top: 14px
-  }
-
-  .banner-content{
-    font-size: 23px;
-  }
-
-  .arrow{
-    font-size: 42px;
-  }
-
-  .arrow-text{
-    margin-top: 23px;
-  }
-
-  .more-vacancies{
-    height: 167px;
-    font-size: 23px;
-  }
+  font-size: 1.171vw;
 }

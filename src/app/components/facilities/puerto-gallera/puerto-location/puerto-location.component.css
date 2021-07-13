@@ -1,30 +1,30 @@
 .title{
-  font-size: 25px;
+  font-size: 1.830vw;
 }
 
 .container{
-  width: 1000px !important;
+  width: 73.206vw !important;
   position: relative;
 }
 
 .border-green{
   color: #394e8a;
-  border-left: 4px solid #5ca361;
-  padding-left: 20px;
+  border-left: 0.293vw solid #5ca361;
+  padding-left: 1.464vw;
 }
 
 .border-green2{
-  border-right: 3px solid #5ca361;
-  padding-right: 20px;
+  border-right: 0.220vw solid #5ca361;
+  padding-right: 1.464vw;
 }
 
 .left-20 {
-  padding-left: 20px;
+  padding-left: 1.464vw;
 }
 
 .bml-complex{
-  height: 300px;
-  margin-top: 30px;
+  height: 21.962vw;
+  margin-top: 2.196vw;
   overflow: hidden;
 }
 
@@ -35,99 +35,25 @@
   /*transition: transform .5s ease; commented out */
 }
 
-/*commented out
-.bml-complex img:hover{
-  transform: scale(1.1);
-} */
-
 .content-header-contact{
-  height: 220px;
+  height: 16.105vw;
   position: relative;
-  width: 1000px;
+  width: 73.206vw;
 }
 
 .contact-marg{
-  margin-top: 20px;
+  margin-top: 1.464vw;
 }
 
 
 .bml-complex .right-content1{
   position: absolute;
   z-index: 1;
-  left: 50px;
+  left: 3.660vw;
   top: 45%;
   width: 50%;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   color: white;
-}
-@media (min-width: 1600px) {
-  * {
-    font-size: 19px;
-  }
-
-  .title{
-    font-size: 29px;
-  }
-
-  .container{
-    width: 1171px !important;
-  }
-
-  .border-green{
-    border-left: 5px solid #5ca361;
-    padding-left: 23px;
-  }
-
-  .bml-complex{
-    height: 351px;
-    margin-top: 35px;
-  }
-
-
-  .content-header-contact{
-    height: 258px;
-    width: 1171px;
-  }
-
-  .contact-marg{
-    margin-top: 23px;
-  }
-
-}
-
-@media (min-width: 1900px) {
-  * {
-    font-size: 23px;
-  }
-
-  .title{
-    font-size: 34px;
-  }
-
-  .container{
-    width: 1391px !important;
-  }
-
-  .border-green{
-    border-left: 6px solid #5ca361;
-    padding-left: 27px;
-  }
-
-  .bml-complex{
-    height: 417px;
-    margin-top: 42px;
-  }
-
-
-  .content-header-contact{
-    height: 306px;
-    width: 1391px;
-  }
-
-  .contact-marg{
-    margin-top: 27px;
-  }
-
 }
