@@ -117,7 +117,7 @@ img{
   font-size: 1.171vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   font-style: italic; /* edited */
   align-items: center;
 }
