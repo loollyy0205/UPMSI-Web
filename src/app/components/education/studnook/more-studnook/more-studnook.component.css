@@ -59,3 +59,69 @@ img{
   cursor: pointer;
   font-size: 1.171vw;
 }
+
+@media (max-width: 768px) {
+  .container{
+    margin: 0 9%;
+    margin-top: 6%;
+    margin-bottom: 0.732vw;
+  }
+
+  .hr-line{
+    margin: 5% 9% 2.196vw 9%;
+  }
+
+
+  img{
+    width: 100%;
+    height: 42vw;
+    margin-top: 5%;
+  }
+
+  .image-content{
+    margin-top: 2.196vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .title{
+    font-size: 5vw; color: #394e8a;
+  }
+
+  .header{
+    color: #394e8a;
+    /*text-decoration: underline; edited: pls remove underline css */
+    margin-top: 1.098vw;
+    cursor: pointer;
+    font-size: 4vw;
+  }
+
+  .date{
+    font-size: 4vw;
+    color: #394e8a;
+  }
+
+  .arrow{
+    font-size: 7vw;
+    /* margin-top: -2%; */
+  }
+
+  .arrow-text{
+    font-size: 4vw;
+  }
+
+  .more-vacancies{
+    color: #384e8a;
+    margin-left: 9%;
+    margin-right: 9%;
+    display: flex;
+    flex-direction: row;
+    height: 15vw;
+    margin-top: 2%;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+  }
+
+}

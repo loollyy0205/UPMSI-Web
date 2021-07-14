@@ -88,3 +88,96 @@ img {
   cursor: pointer;
   font-size: 1.171vw;
 }
+
+@media (max-width: 768px) {
+  .container{
+    margin: 0 9%;
+    margin-top: 6%;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .box-content{
+    height: 110vw;
+    width: 100%;
+    font-size: 1.025vw;
+    line-height: 1.5;
+  }
+
+  .bottom-content{
+    margin-top: 3.660vw;
+    padding: 0 7.321vw;
+  }
+
+
+  .hr-line{
+    margin: 5% 9% 2.196vw 9%;
+  }
+
+  .title{
+    font-size: 5vw; color: #394e8a;
+  }
+
+  .center-box{
+    display: grid;
+    place-content: center;
+    margin-top: 5%;
+  }
+
+  .date{
+    font-size: 1.171vw;
+    color: red;
+  }
+
+  .indent-content{
+    margin-left: 2.196vw;
+  }
+
+  .send-to-email{
+    margin-top: 1.464vw;
+    font-style: italic;
+  }
+
+  .justified-content{
+    margin-top: 1.464vw;
+    text-align: justify;
+  }
+
+  .job-context{
+    margin-top: 1.464vw;
+    line-height: 1.5;
+  }
+
+  .download-forms{
+    margin-top: 1.464vw;
+    margin-left: 7.321vw;
+    text-decoration: underline;
+    line-height: 1.3;
+    cursor: pointer;
+  }
+
+  .arrow{
+    font-size: 7vw;
+    /* margin-top: -2%; */
+  }
+
+  .arrow-text{
+    font-size: 3vw;
+  }
+
+  .more-vacancies{
+    color: #384e8a;
+    margin-left: 9%;
+    margin-right: 9%;
+    display: flex;
+    flex-direction: row;
+    height: 25vw;
+    margin-top: 2%;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+  }
+}
