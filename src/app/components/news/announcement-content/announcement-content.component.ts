@@ -41,6 +41,7 @@ export class AnnouncementContentComponent implements OnInit {
 
   dolomite = [{
     title: 'UPMSI Official Statement on the Addition of Dolomite Sand to Manila Bay',
+    date: 'September 30, 2020',
     thumbnail: 'https://dc349.4shared.com/img/A6uK_YBeiq/s24/179b1ef4a80/Announcement-03-article-photo?async&rand=0.30787649793091987',
     locationContent: 'Manila Bay is strategically located in the heart of the most densely populated area in the Philippines.  It has a long history of use for shipping, navigation, and port services going back to the 16th century.  In addition to its cultural and historical significance, Manila Bay is important economically as site of industrial activities, human settlement, and source of fisheries.',
     paragraph1: `Manila Bay is bounded by four provinces and Metro Manila and is drained by 17,000 km2 of watershed which is home to 30% of the entire population of the country, and 42% of agricultural areas.  Both terrestrial and marine environments are intricately connected, such that the state of Manila Bay today is a testament of collective efforts and inaction.`,

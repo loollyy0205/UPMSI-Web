@@ -6,6 +6,12 @@ import { Router } from '@angular/router';
   templateUrl: './press-content.component.html',
   styleUrls: ['./press-content.component.css']
 })
+
+/**
+edited9:  edited all the 3 articles inside the news: [] (1)
+*/
+
+
 export class PressContentComponent implements OnInit {
   press01 = [{
     title: 'Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep',
@@ -16,73 +22,28 @@ export class PressContentComponent implements OnInit {
     courtesy: 'VIDEO COURTESY OF GMA News',
 
     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-02.jpg", title: "Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth", content: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach...`, url: 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-03.jpg", title: "Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo | NXT", content: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.', url: 'pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-04.jpg", title: "Dr. Deo Florence Onda to make history as 1st Filipino to reach 3rd deepest spot on Earth | 24 Oras", content: 'Dr. Deo Florence Onda is set to make history as the first Filipino to reach the 34,100 feet Emden Deep, the third deepest spot on Earth.', url: 'Dr.-Deo-Florence-Onda-to-make-history-as-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
       ]
   }];
 
   press02 = [{
-    title: 'Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth',
-    date: 'March 19, 2021',
-    author: 'ANC 24/7',
-    thumbnail: 'https://www.youtube.com/embed/8xzwOIehNDM',
-    photoContent: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach the Emden Deep, the third deepest sport on Earth located in the Philippines trench.`,
-    courtesy: 'VIDEO COURTESY OF ANC 24/7',
+    title: 'Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David',
+    date: 'June 3, 2020',
+    author: 'The World Bank',
+    Pthumbnail: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg',
+    photoContent: `I am a teacher, researcher and science communicator. I make use of remote sensing and modelling to explore how ocean physics influence the distribution and state of ocean flora and fauna. Currently, I am the Director of the Marine Science Institute, University of the Philippines.`,
+    courtesy: 'VIDEO COURTESY OF The World Bank',
 
     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-03.jpg", title: "Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo | NXT", content: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.', url: 'pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-04.jpg", title: "Dr. Deo Florence Onda to make history as 1st Filipino to reach 3rd deepest spot on Earth | 24 Oras", content: 'Dr. Deo Florence Onda is set to make history as the first Filipino to reach the 34,100 feet Emden Deep, the third deepest spot on Earth.', url: 'Dr.-Deo-Florence-Onda-to-make-history-as-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong... | Saksi", content: 'Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim...', url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
       ]
   }];
 
   press03 = [{
-    title: `Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo`,
-    date: 'March 19, 2021',
-    author: 'ABS-CBN News',
-    thumbnail: 'https://www.youtube.com/embed/-G79wneqOMw',
-    photoContent: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.',
-    courtesy: 'VIDEO COURTESY OF ABS-CBN News',
-
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-02.jpg", title: "Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth", content: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach...`, url: 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-04.jpg", title: "Dr. Deo Florence Onda to make history as 1st Filipino to reach 3rd deepest spot on Earth | 24 Oras", content: 'Dr. Deo Florence Onda is set to make history as the first Filipino to reach the 34,100 feet Emden Deep, the third deepest spot on Earth.', url: 'Dr.-Deo-Florence-Onda-to-make-history-as-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      ]
-  }];
-
-  press04 = [{
-    title: `Dr. Deo Florence Onda to make history as 1st Filipino to reach 3rd deepest spot on Earth`,
-    date: 'March 19, 2021',
-    author: 'GMA News',
-    thumbnail: 'https://www.youtube.com/embed/LwRP7CZs8Ws',
-    photoContent: 'Dr. Deo Florence Onda is set to make history as the first Filipino to reach the 34,100 feet Emden Deep, the third deepest spot on Earth.',
-    courtesy: 'VIDEO COURTESY OF GMA News',
-
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-02.jpg", title: "Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth", content: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach...`, url: 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-03.jpg", title: "Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo | NXT", content: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.', url: 'pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo'},
-      ]
-  }];
-
-  press05 = [{
-    title: `U.P. scientist set to be first Filipino to reach 3rd deepest point on earth | New Day`,
-    date: 'March 19, 2021',
-    author: 'CNN Philippines',
-    thumbnail: 'https://www.youtube.com/embed/_OKb9p5eN_s',
-    photoContent: 'A scientist is set to make history as the first Filipino who will be able to reach the third deepest point in the world. We speak with Dr. Deo Florence Onda.',
-    courtesy: 'VIDEO COURTESY OF CNN Philippines',
-
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-02.jpg", title: "Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth", content: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach...`, url: 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-03.jpg", title: "Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo | NXT", content: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.', url: 'pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo'},
-      ]
-  }];
-
-  press06 = [{
     title: `Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources`,
     date: 'June 10, 2021',
     author: 'Rappler',
@@ -90,29 +51,14 @@ export class PressContentComponent implements OnInit {
     photoContent: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of the resources found in Philippine waters and how the country can protect them.`,
     courtesy: 'VIDEO COURTESY OF Rappler',
 
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-02.jpg", title: "Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth", content: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach...`, url: 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-03.jpg", title: "Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo | NXT", content: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.', url: 'pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo'},
+     news: [
+      {image: "../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong... | Saksi", content: 'Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim...', url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
+      {image: "https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
       ]
   }];
 
-  press07 = [{
-    title: `Rappler Talk: Deo Onda on the value of West PH Sea resources to Filipinos`,
-    date: 'August 5, 2019',
-    author: 'Rappler',
-    thumbnail: 'https://www.youtube.com/embed/GwCXnPBrwLI',
-    photoContent: 'Follow Rappler for the latest news in the Philippines and across the globe. Rappler editor-at-large Marites Vitug sits down with Dr Deo Onda, UP MSI assistant professor to discuss the importance of the West Philippine Sea’s underwater resources to Filipinos and the threats the ecosystem faces on Monday, August 5, 2019.',
-    courtesy: 'VIDEO COURTESY OF Rappler',
-
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-02.jpg", title: "Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth", content: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach...`, url: 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-03.jpg", title: "Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo | NXT", content: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.', url: 'pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo'},
-      ]
-  }];
-
-  press08 = [{
+  press04 = [{
     title: `SONA: UP Marine Science Institute, nanawagan na protektahan ang ating EEZ`,
     date: 'July 2, 2019',
     author: 'GMA News',
@@ -121,13 +67,13 @@ export class PressContentComponent implements OnInit {
     courtesy: 'VIDEO COURTESY OF GMA News',
 
     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-02.jpg", title: "Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth", content: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach...`, url: 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-03.jpg", title: "Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo | NXT", content: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.', url: 'pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
       ]
   }];
 
-  press09 = [{
+  press05 = [{
     title: `ON THE SPOT: All Filipino scientific expedition sa Kalayaan Island sa West Philippine Sea`,
     date: 'May 9, 2019',
     author: 'PTV',
@@ -136,13 +82,13 @@ export class PressContentComponent implements OnInit {
     courtesy: 'VIDEO COURTESY OF PTV',
 
     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-02.jpg", title: "Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth", content: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach...`, url: 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-03.jpg", title: "Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo | NXT", content: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.', url: 'pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
       ]
   }];
 
-  press10 = [{
+  press6 = [{
     title: `BT: Paglalakbay ng ilang kawani ng gobyerno at estudyante ng UP-marine science institute`,
     date: 'April 22, 2019',
     author: 'GMA News',
@@ -150,14 +96,14 @@ export class PressContentComponent implements OnInit {
     photoContent: 'BT: Paglalakbay ng ilang kawani ng gobyerno at estudyante ng UP-marine science institute papuntang West Philippine Sea, sinimulan na',
     courtesy: 'VIDEO COURTESY OF GMA News',
 
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-02.jpg", title: "Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth", content: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach...`, url: 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-03.jpg", title: "Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo | NXT", content: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.', url: 'pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo'},
+     news: [
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
       ]
   }];
 
-  press11 = [{
+  press7 = [{
     title: `Manila Bay - Rehabilitasyon o Reklamasyon? (Ika-2 Yugto) | Failon Ngayon`,
     date: 'April 14, 2019',
     author: 'ABS-CBN News',
@@ -165,14 +111,14 @@ export class PressContentComponent implements OnInit {
     photoContent: `"Failon Ngayon" explains how human settlement and urbanization contributed to the pollution of the waterways connected to Manila Bay, tackles the challenges in maintaining the sewerage systems in Metro Manila and the government's effort to address human settlement issue that is seen as a significant contributor to water pollution, elaborates the hazards and risks of the proposed reclamation projects in Manila Bay, and shows the opposing viewpoints about the proposed Manila Bay reclamation amid the pending implementation of NEDA's Manila Bay Sustainable Development Master Plan.`,
     courtesy: 'VIDEO COURTESY OF ABS-CBN News',
 
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-02.jpg", title: "Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth", content: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach...`, url: 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-03.jpg", title: "Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo | NXT", content: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.', url: 'pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo'},
+     news: [
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
       ]
   }];
 
-  press12 = [{
+  press8 = [{
     title: `Adopt a giant clam program, suportado ng UP-Marine Science Institute`,
     date: 'April 22, 2019',
     author: 'Eagle News',
@@ -180,14 +126,14 @@ export class PressContentComponent implements OnInit {
     photoContent: 'Adopt a giant clam program, suportado ng UP-Marine Science Institute',
     courtesy: 'VIDEO COURTESY OF Eagle News',
 
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-02.jpg", title: "Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth", content: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach...`, url: 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-03.jpg", title: "Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo | NXT", content: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.', url: 'pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo'},
+     news: [
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
       ]
   }];
 
-  press13 = [{
+  press9 = [{
     title: `AHA!: The giant clams of Bolinao, Pangasinan`,
     date: 'January 8, 2018',
     author: 'GMA Playground',
@@ -195,14 +141,14 @@ export class PressContentComponent implements OnInit {
     photoContent: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo." Take a look at the Bolinao Marine Laboratory, the largest giant clam sea nursery in the country!',
     courtesy: 'VIDEO COURTESY OF GMA Playground',
 
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-02.jpg", title: "Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth", content: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach...`, url: 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-03.jpg", title: "Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo | NXT", content: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.', url: 'pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo'},
+     news: [
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong... | Saksi", content: 'Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim...', url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
       ]
   }];
 
-  press14 = [{
+  press10 = [{
     title: `How to take care of giant clams`,
     date: 'May 5, 2017',
     author: 'INQUIRER.net',
@@ -210,14 +156,14 @@ export class PressContentComponent implements OnInit {
     photoContent: 'How to take care of giant clams. Video by Noy Morcso and Rem Zamora/editing by Noy Morcoso/Interviewed by Gabriel Cardinoza',
     courtesy: 'VIDEO COURTESY OF INQUIRER.net',
 
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-02.jpg", title: "Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth", content: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach...`, url: 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-03.jpg", title: "Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo | NXT", content: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.', url: 'pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo'},
+     news: [
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
       ]
   }];
 
-  press15 = [{
+  press11 = [{
     title: `The Giant Clam Nursery in Bolinao, Pangasinan`,
     date: 'April 25, 2017',
     author: 'Manila Bulletin Online',
@@ -229,12 +175,16 @@ export class PressContentComponent implements OnInit {
     photoContent5: 'Giant clams are the miracle workers of the coral reefs. And they are endangered. ',
     courtesy: 'VIDEO COURTESY OF Manila Bulletin Online',
 
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep", content: `Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi`, url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-02.jpg", title: "Test of human limitations: UP scientist poised to be 1st Filipino to reach 3rd deepest spot on Earth", content: `Matters of Fact: Dr. Deo Onda, a microbial oceanographer from the University of the Philippines' Marine Science Institute, is about to make history as one of the first humans to reach...`, url: 'test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-03.jpg", title: "Pinoy scientist, gagawa ng kasaysayan sa pagsisid sa '3rd deepest spot' sa mundo | NXT", content: 'Ang scientist na si Dr. Deo Florence Onda ang isa sa pinakaunang tao at pinakaunang Pinoy na mararating ang "3rd deepest spot" sa mundo na matatagpuan sa Philippine Trench.', url: 'pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo'},
+     news: [
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
       ]
   }];
+
+          /**
+        edited9 : changed the press numbering (2)
+        */
 
 
   myArr = [];
@@ -246,51 +196,43 @@ export class PressContentComponent implements OnInit {
       case '/News/press-coverage-headlines/Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep':
         this.myArr = this.press01;
         break;
-      case '/News/press-coverage-headlines/test-of-human-limitations-UP-scientist-poised-to-be-1st-filipino-to-reach-3rd-deepest-spot-on-earth':
+      case '/News/press-coverage-headlines/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david':
         this.myArr = this.press02;
         break;
-      case '/News/press-coverage-headlines/pinoy-scientist-gagawa-ng-kasaysayan-sa-pagsisid-sa-3rd-deepest-spot-sa-mundo':
+      case '/News/press-coverage-headlines/Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources':
         this.myArr = this.press03;
         break;
-      case '/News/press-coverage-headlines/Dr.-Deo-Florence-Onda-to-make-history-as-1st-filipino-to-reach-3rd-deepest-spot-on-earth':
+      case '/News/press-coverage-headlines/SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ':
         this.myArr = this.press04;
         break;
-      case '/News/press-coverage-headlines/UP-scientist-set-to-be-first-filipino-to-reach-3rd-deepest-point-on-earth':
+      case '/News/press-coverage-headlines/ON-THE-SPOT-All-filipino-scientific-expedition-sa-kalayaan-island-sa-West-Philippine-Sea':
         this.myArr = this.press05;
         break;
-      case '/News/press-coverage-headlines/Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources':
-        this.myArr = this.press06;
-        break;
-      case '/News/press-coverage-headlines/Rappler-Talk-Deo-Onda-on-the-value-of-West-PH-Sea-resources-to-filipinos':
-        this.myArr = this.press07;
-        break;
-      case '/News/press-coverage-headlines/SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ':
-        this.myArr = this.press08;
-        break;
-      case '/News/press-coverage-headlines/ON-THE-SPOT-All-filipino-scientific-expedition-sa-kalayaan-island-sa-West-Philippine-Sea':
-        this.myArr = this.press09;
-        break;
       case '/News/press-coverage-headlines/BT-Paglalakbay-ng-ilang-kawani-ng-gobyerno-at-estudyante-ng-UP-marine-science-institute':
-        this.myArr = this.press10;
+        this.myArr = this.press6;
         break;
       case '/News/press-coverage-headlines/Manila-Bay-rehabilitasyon-o-reklamasyon':
-        this.myArr = this.press11;
+        this.myArr = this.press7;
         break;
       case '/News/press-coverage-headlines/adopt-a-giant-clam-program-suportado-ng-UP-Marine-Science-Institute':
-        this.myArr = this.press12;
+        this.myArr = this.press8;
         break;
       case '/News/press-coverage-headlines/AHA!-The-giant-clams-of-Bolinao-Pangasinan':
-        this.myArr = this.press13;
+        this.myArr = this.press9;
         break;
       case '/News/press-coverage-headlines/how-to-take-care-of-giant-clams':
-        this.myArr = this.press14;
+        this.myArr = this.press10;
         break;
       case '/News/press-coverage-headlines/the-giant-clam-nursery-in-Bolinao-Pangasinan':
-        this.myArr = this.press15;
+        this.myArr = this.press11;
         break;
 
     }
   }
+
+          /**
+        edited9 : edited ng switch case numbers (3)
+        */
 
   moreMsiNews(){
     this.router.navigate(['/News/press-coverage-headlines']);

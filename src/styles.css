@@ -161,6 +161,10 @@ dialog::backdrop {
   padding: 0 1.757vw !important;
 }
 
+.ng-star-inserted {
+  z-index: 1;
+}
+
  @media (max-width: 768px) {
   .owl-theme .owl-dots{
     text-align: center;

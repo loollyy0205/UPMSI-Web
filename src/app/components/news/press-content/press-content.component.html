@@ -5,9 +5,13 @@
   <p class="atlas-light date">{{myArr[0].date}}</p>
   <p class="atlas-light date-name">{{myArr[0].author}}</p>
   <div class="center-content">
-    <div class="box-content">
+    <div class="box-content" *ngIf="myArr[0].thumbnail">
       <iframe [src]="myArr[0].thumbnail | safe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+    </div>
+
+    <div class="photothumb" *ngIf="myArr[0].Pthumbnail">
+      <a href="https://www.worldbank.org/en/news/feature/2020/06/03/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-t-david" target="_blank"><img src="https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg" /></a>
     </div>
 
   </div>

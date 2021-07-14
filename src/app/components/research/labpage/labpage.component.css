@@ -119,6 +119,7 @@ img{
   flex-direction: row;
   justify-content: space-between;
   font-style: italic; /* edited */
+  align-items: center;
 }
 
 .lab-context {

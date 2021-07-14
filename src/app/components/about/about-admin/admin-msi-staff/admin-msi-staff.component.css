@@ -40,6 +40,8 @@ mat-expansion-panel{
 
 ::ng-deep .specific-class > .mat-expansion-indicator:after {
   color: white;
+  border-width: 0 0.146vw 0.146vw 0 !important;
+  padding: 0.220vw !important;
 }
 
 .specific-class{
@@ -147,6 +149,7 @@ mat-expansion-panel{
   font-size: 1.025vw; /* edited2 */
   margin-top: 1.5%;
   width: 100%;
+  margin-left: 4%;
 }
 
 .regular-content3{
@@ -282,6 +285,10 @@ mat-expansion-panel{
 
   ::ng-deep .specific-class > .mat-expansion-indicator:after {
     color: white;
+    border-width: 0 0.146vw 0.146vw 0 !important;
+    height: 0.293vw;
+    width: 0.293vw;
+    padding: 0.220vw !important;
   }
 
   .specific-class{
@@ -406,6 +413,7 @@ mat-expansion-panel{
     font-size: 3vw; /* edited2 */
     margin-top: 1.5%;
     width: 100vw;
+    margin-left: -1.2%;
   }
 
   .regular-content3{

@@ -51,7 +51,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Villanoy,C., David, L., Cabrera, O., Atrigenio, M., Siringan, F., Aliño, P. and Villaluz, M. (2012). Coral reef ecosystems protect shore from high-energy waves under climate change scenarios. Climate Change Vol. 112 (2), pp. 493-505.'},
     ]},
 
-    {image: 'https://dc697.4shared.com/img/zLgZs-04ea/s24/179c13e9e28/02-Michael_P_Atrigenio?async&rand=0.573086578215513', name: 'Michael P. Atrigenio, Ph.D.', email: 'matrigenio@msi.upd.edu.ph', title1: 'Associate Professor', education1: 'Doctor of Philosophy in Marine Science Institute, University of the Philippines, Diliman',  education2: '2019 Master of Science in Marine Science, University of the Philippines, Diliman',  education3: '1996 Bachelor of Science in Marine Biology, Xavier University-Ateneo de Cagayan',
+    {image: 'https://dc697.4shared.com/img/zLgZs-04ea/s24/179c13e9e28/02-Michael_P_Atrigenio?async&rand=0.573086578215513', name: 'Michael P. Atrigenio, Ph.D.', email: 'matrigenio@msi.upd.edu.ph', title1: 'Associate Professor', education1: 'Doctor of Philosophy in Marine Science Institute, University of the Philippines, Diliman',
     publication: [
         {publi: 'Guzman C, Atrigenio M, Shinzato C, Aliño P, Conaco C (2019) Warm seawater temperature promotes substrate  colonization by the blue coral, Heliopora coerulea. PeerJ 7:e7785 https://doi.org/10.7717/peerj.7785'},
         {publi: 'Atrigenio M, Aliño P, Conaco C (2017) Influence of the blue coral Heliopora coerulea on Scleractinian coral larval  recruitment. J Mar Biol. 2017. https://doi.org/10.1155/2017/6015143'},
@@ -163,7 +163,7 @@ export class FacultyDialogComponent implements OnInit {
     ]},
     // {image: 'https://dc373.4shared.com/img/-dAqitCgiq/s24/179c13ebd68/06-Charissa_M_Ferrera_?async&rand=0.1654507293460148', name: 'Charissa M. Ferrera, Ph.D.', title1: 'Assistant Professor'},
 
-    {image: 'https://dc373.4shared.com/img/-dAqitCgiq/s24/179c13ebd68/06-Charissa_M_Ferrera_?async&rand=0.1654507293460148', name: 'Charissa M. Ferrera, Ph.D.', peer: true, email: 'cmferrera@msi.upd.edu.ph', title1: 'Assistant Professor', education1: 'PhD Mechanical and Environmental Informatics (2016) ', education2: 'Tokyo Institute of Technology, Tokyo, Japan', education3: 'MS Marine Science (2012)', education4: 'University of the Philippines, Diliman, Quezon City, Philippines', education5: 'BS Chemistry (2004)', education6: 'University of the Philippines, Diliman, Quezon City, Philippines', RI: 'Carbonate chemistry, ocean acidification, nutrient biogeochemistry, chemical oceanography,  eutrophication, harmful algal blooms, oxygen isotopes of phosphate, science communication',citation: 'https://scholar.google.com/citations?user=vupVjtgAAAAJ&hl=en',
+    {image: 'https://dc373.4shared.com/img/-dAqitCgiq/s24/179c13ebd68/06-Charissa_M_Ferrera_?async&rand=0.1654507293460148', name: 'Charissa M. Ferrera, Ph.D.', peer: true, email: 'cmferrera@msi.upd.edu.ph', title1: 'Assistant Professor', education1: 'PhD Mechanical and Environmental Informatics (2016) ', education2: 'Tokyo Institute of Technology, Tokyo, Japan', RI: 'Carbonate chemistry, ocean acidification, nutrient biogeochemistry, chemical oceanography,  eutrophication, harmful algal blooms, oxygen isotopes of phosphate, science communication',citation: 'https://scholar.google.com/citations?user=vupVjtgAAAAJ&hl=en',
       publication: [
     ]},
 
@@ -227,7 +227,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Jaraula CMB, Kenig F, Doran PT, Priscu JC, Welch KA, 2008. SPME-GCMS study of the natural attenuation of aviation diesel on the perennial ice cover of Lake Fryxell, Antarctica. Science of the Total Environment 407, 1, 250-262. DOI:10.1016/j.scitotnv.2008.07.064.'},
       {publi: 'Ong JB, Aguda N, Jaraula CMB, Mateo ZRP, Pascua C, Foronda J, 2000. Tidal Effects on Groundwater in a very small tropical island, Science Diliman, Philippines.'},
     ]},
-    {image: 'https://dc697.4shared.com/img/g-yU2YZbea/s24/179c13ed4d8/10-Arturo_O_Lluisma_PhD?async&rand=0.8320257505711277', name: 'Arturo O. Lluisma, Ph.D.', email: 'aolluisma@up.edu.ph ', citation: 'https://scholar.google.com/citations?user=bWdN5J8AAAAJ&hl=en', title1: 'Research Associate Professor ',
+    {image: 'https://dc697.4shared.com/img/g-yU2YZbea/s24/179c13ed4d8/10-Arturo_O_Lluisma_PhD?async&rand=0.8320257505711277', name: 'Arturo O. Lluisma, Ph.D.', email: 'aolluisma@up.edu.ph ', education1: 'Ph.D. Biology, Dalhousie University, Canada', RI: 'Marine genomics, molecular genetics, and bioinformatics; phylogenetics and genetic diversity; algal and microbial biotechnology', citation: 'https://scholar.google.com/citations?user=bWdN5J8AAAAJ&hl=en', title1: 'Research Associate Professor ',
 /**
 edited the badges
 */
@@ -872,8 +872,11 @@ edited the badges
     ]},
     {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1626078911/photo%20revision/Faculty%20Cropped/23-Aletta_T._Y%C3%B1iguez_Ph.D._copy_ncnvj0.jpg', name: 'Aletta T. Yñiguez, Ph.D.', email: 'atyniguez@msi.upd.edu.ph', citation: 'https://scholar.google.com.ph/citations?user=99SCGvAAAAAJ&hl=en', title1: 'Associate Professor', education1: 'Ph.D. Marine Biology and Fisheries ', education2: 'University of Miami, U.S.A.', RI: 'Marine Ecology, Biological Oceanography, Ecological Modelling, Dynamics of Marine Systems ',
     publication: [
+      /**
+      edited9: publi: 'YYñiguez AT, *removed the double Y (4)
+      */
 
-      {publi: 'YYñiguez AT, Lim PT, Leaw CP, Jipanin SJ, Iwataki M, Benico G. 2021. Over 30 years of HABs in the Philippines and Malaysia: What have we learned? Harmful Algae 102: 101776. https://doi.org/10.1016/j.hal.2020.101776'},
+      {publi: 'Yñiguez AT, Lim PT, Leaw CP, Jipanin SJ, Iwataki M, Benico G. 2021. Over 30 years of HABs in the Philippines and Malaysia: What have we learned? Harmful Algae 102: 101776. https://doi.org/10.1016/j.hal.2020.101776'},
       {publi: 'Yñiguez AT, Ottong ZJ. 2020. Predicting fish kills and toxic blooms in an intensive mariculture site in the Philippines using a machine learning model. Sci Total Environ, 707:136173.'},
       {publi: 'Pata PR, Yñiguez AT. 2019. Larval connectivity patterns of the North Indo-West Pacific coral reefs. PLoS ONE 14(7): e02199313. '},
       {publi: 'Onda DFL, Santos MAG, dela Cruz-Papa D, Yñiguez AT, Azanza RV, Siringan MAT. 2019. Microbial oceanography studies in the context of climate change in the Philippines. Philipp. Sci. Lett., 12(1):9-23'},

@@ -274,7 +274,7 @@ img{
 .column {
   display: flex;
   flex-direction: column;
-  width: 65%;
+  width: 80%;
 }
 
 .right-content2{

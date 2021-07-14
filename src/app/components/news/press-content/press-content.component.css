@@ -14,6 +14,12 @@
   flex-direction: column;
 }
 
+.photothumb {
+  width: 55vw;
+  height: 30vw;
+  background-position: center
+}
+
 .box-content img {
   height: 27.818vw;
 }

@@ -38,10 +38,11 @@ export class NewsContentComponent implements OnInit {
     thumbnail: 'https://dc349.4shared.com/img/fTDppHwOiq/s24/179b1eeaa58/News-02-awards?async&rand=0.47529569452814435',
     courtesy: 'PHOTO COURTESY OF Dr. Michael Y. Roleda',
     location: 'Quezon City, Philippines',
-    locationContent: 'Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center for Climate Change Adaptation and Disaster Risk Management Foundation, Inc (OML Center).',
+    locationContent: 'Four scientists from the UPMSI have been recognized for their work by the Oscar M. Lopez Center for Climate Change Adaptation and Disaster Risk Management Foundation, Inc (OML Center) and the National Academy of Science and Technology (NAST).',
     /**
     edited the (OMLC) to (OML Center)
     */
+
 
     paragraph1: 'Dr. Laura T. David is the first recipient of the Climate Frontiers Fellowship for Climate Resilience for the contributions of her academic and research work to address the threat of climate change.',
 
@@ -59,10 +60,10 @@ export class NewsContentComponent implements OnInit {
     date: 'Updated April 30, 2021',
     author: 'By Gabrielle Abrahan, MSI Contributor',
     thumbnail: 'https://dc585.4shared.com/img/Pc3HKlRniq/s24/179b1eeb228/News-03-clams?async&rand=0.18442392924526962',
-
+    gclambool: true,
     courtesy: 'PHOTO COURTESY OF UP-MPRO',
     location: 'Bolinao, Pangasinan',
-    locationContent: 'More commonly known as "taklobo" in Filipino, giant clams (Tridacna Gigas) with electric green, brown, and violet colors that are impossible to miss are being grown in the waters surrounding Silaqui Island, the northernmost tip of the town of Bolinao, Pangasinan.',
+    // locationContent: 'More commonly known as "taklobo" in Filipino, giant clams (Tridacna Gigas) with electric green, brown, and violet colors that are impossible to miss are being grown in the waters surrounding Silaqui Island, the northernmost tip of the town of Bolinao, Pangasinan.',
     paragraph1: 'Thousands of these giant clams are being grown—with juveniles released in the reef to grow into adulthood after spending five months in the hatchery at the Bolinao Marine Laboratory (BML) of the University of the Philippines Marine Science Institute (UPMSI).',
 
     paragraph3: `With only a few breeders from larvae and juveniles that were imported from the Solomon Islands and Australia in 1987, the laboratory was able to cultivate 35,648 adults and 11,209 juveniles. Currently, it is the largest giant clam nursery in the Philippines with 8 species out of 11 found in the country.`,
