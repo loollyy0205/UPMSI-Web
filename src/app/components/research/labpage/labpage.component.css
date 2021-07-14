@@ -4,12 +4,12 @@
 
 ul {
   margin: 0 1.7%;
-  font-size: 16px;
+  font-size: 1.171vw;
   font-family: 'atlas-light';
 }
 
 li {
-  margin-top: 20px;
+  margin-top: 1.464vw;
   line-height: 1.5;
   color: #384e8a;
 }
@@ -29,25 +29,26 @@ a {
 
 .content {
   color: #5da563;
-  font-size: 14px;
-  margin-top: 20px;
+  font-size: 1.025vw;
+  margin-top: 1.464vw;
 }
 
 .banner {
   width: 100%;
-  height: 500px;
-  margin-top: 40px;
+  height: 36.603vw;
+  margin-top: 2.928vw;
   position: relative;
 }
 
 .banner-content {
   color: #666666;
-  margin-top: 10px;
+  margin-top: 0.732vw;
+  font-size: 1.171vw;
   line-height: 1.4;
 }
 
 .visit {
-  margin-top: 40px;
+  margin-top: 2.928vw;
   display: flex;
   justify-content: flex-end;
   color: #384e8a;
@@ -59,32 +60,29 @@ a {
 }
 
 .hr-line {
-  margin: 15px 9% 30px 9%;
+  margin: 1.098vw 9% 2.196vw 9%;
 }
 
 .facilities-next{
   color: #384e8a;
-  margin-top: 30px;
+  margin-top: 2.196vw;
   display: flex;
   justify-content: flex-start ;
+  align-items: center;
   cursor: pointer;
+}
+
+.back-arrow {
+  margin-top: -1%;
+  font-size: 2.928vw;
+}
+
+.navi {
+  font-size: 1.171vw;
 }
 
 .navi:hover{
   text-decoration: underline;
-}
-
-.next{
-  color: #384e8a;
-  margin-top: 30px;
-  display: flex;
-  justify-content: flex-end;
-  cursor: pointer;
-}
-
-.arrow {
-  font-size: 35px;
-  margin-top: 3px;
 }
 
 img{
@@ -95,26 +93,28 @@ img{
 
 .title{
   line-height: 1.2;
-  margin-top: 40px;
+  margin-top: 2.928vw;
   color: #384e8a;
-  font-size: 30px;
+  font-size: 2.196vw;
   text-transform: uppercase;
 }
 
 .lab-title {
   line-height: 1.2;
   color: white;
-  font-size: 30px;
+  font-size: 2.196vw;
 }
 
 .lab-content {
   color: white;
-  margin-top: 10px;
+  margin-top: 0.732vw;
   line-height: 1.4;
+  font-size: 1.171vw;
 }
 
 .lab-cite {
-  margin-top: 20px;
+  margin-top: 1.464vw;
+  font-size: 1.171vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -124,13 +124,13 @@ img{
 
 .lab-context {
   color: #ffffff;
-  margin-top: 10px;
+  margin-top: 0.732vw;
   line-height: 1.3;
 }
 
 .lab-highlight{
-  margin-top: 26px;
-  height: 420px;
+  margin-top: 1.903vw;
+  height: 30.747vw;
   display: flex;
   flex-direction: row;
 }
@@ -142,16 +142,16 @@ img{
 .lab-highlight .right{
   width: 40%;
   background-color: #384e8a;
-  padding: 0 50px;
+  padding: 0 3.660vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .highlights-content{
-  margin-top: 5px;
-  height: 200px;
-  width: 300px;
+  margin-top: 0.366vw;
+  height: 14.641vw;
+  width: 21.962vw;
   display: flex;
   flex-direction: column;
 }
@@ -166,14 +166,10 @@ img{
   object-fit: cover !important;
 }
 
-.arrow-forward {
-  font-size: 40px;
-}
-
 .right-bottom-logo {
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 7.321vw;
+  width: 7.321vw;
   object-fit: cover;
   right: 3%;
   bottom: 5%;
@@ -181,8 +177,8 @@ img{
 
 .right-bottom-logo2 {
   position: absolute;
-  height: 60px;
-  width: 180px;
+  height: 4.392vw;
+  width: 13.177vw;
   object-fit: cover;
   right: 3%;
   bottom: 5%;
@@ -190,224 +186,9 @@ img{
 
 .right-bottom-logo3 {
   position: absolute;
-  height: 100px;
-  width: 180px;
+  height: 7.321vw;
+  width: 13.177vw;
   object-fit: cover;
   right: 3%;
   bottom: 5%;
-}
-
-@media (min-width: 1600px) {
-  ul {
-    font-size: 19px;
-  }
-
-  li {
-    margin-top: 23px;
-  }
-
-  .right-bottom-logo {
-    height: 117px;
-    width: 117px;
-  }
-
-  .content {
-    font-size: 16px;
-    margin-top: 23px;
-  }
-
-  .banner {
-    height: 586px;
-    margin-top: 47px;
-  }
-
-  .banner-content {
-    margin-top: 12px;
-    font-size: 19px;
-  }
-
-  .visit {
-    margin-top: 47px;
-    font-size: 19px;
-  }
-
-  .hr-line {
-    margin: 18px 9% 35px 9%;
-  }
-
-  .facilities-next{
-    margin-top: 35px;
-    font-size: 19px;
-  }
-
-  .next{
-    margin-top: 35px;
-    font-size: 19px;
-  }
-
-  .arrow {
-    font-size: 41px;
-    margin-top: 4px;
-  }
-
-  .title{
-    margin-top: 47px;
-    font-size: 35px;
-  }
-
-  .lab-title {
-    font-size: 35px;
-  }
-
-  .lab-content {
-    margin-top: 12px;
-    font-size: 19px;
-  }
-
-  .lab-cite {
-    margin-top: 23px;
-    font-size: 19px;
-  }
-
-  .lab-context {
-    margin-top: 12px;
-    font-size: 19px;
-  }
-
-  .lab-highlight{
-    margin-top: 30px;
-    height: 491px;
-  }
-
-  .lab-highlight .right{
-    padding: 0 59px;
-  }
-
-  .highlights-content{
-    margin-top: 6px;
-    height: 234px;
-    width: 351px;
-  }
-
-  .arrow-forward {
-    font-size: 47px;
-  }
-
-  .right-bottom-logo2 {
-    height: 70px;
-    width: 211px;
-  }
-
-  .right-bottom-logo3 {
-    height: 117px;
-    width: 211px;
-  }
-
-}
-
-@media (min-width: 1900px) {
-  ul {
-    font-size: 23px;
-  }
-
-  li {
-    margin-top: 27px;
-  }
-
-  .right-bottom-logo {
-    height: 139px;
-    width: 139px;
-  }
-
-  .right-bottom-logo2 {
-    height: 83px;
-    width: 251px;
-  }
-
-  .right-bottom-logo3 {
-    height: 139px;
-    width: 251px;
-  }
-
-  .content {
-    font-size: 19px;
-    margin-top: 27px;
-  }
-
-  .banner {
-    height: 696px;
-    margin-top: 56px;
-  }
-
-  .banner-content {
-    margin-top: 14px;
-    font-size: 23px;
-  }
-
-  .visit {
-    margin-top: 56px;
-    font-size: 23px;
-  }
-
-  .hr-line {
-    margin: 21px 9% 41px 9%;
-  }
-
-  .facilities-next{
-    margin-top: 41px;
-    font-size: 23px;
-  }
-
-  .next{
-    margin-top: 41px;
-    font-size: 23px;
-  }
-
-  .arrow {
-    font-size: 49px;
-    margin-top: 5px;
-  }
-
-  .title{
-    margin-top: 56px;
-    font-size: 41px;
-  }
-
-  .lab-title {
-    font-size: 41px;
-  }
-
-  .lab-content {
-    margin-top: 14px;
-    font-size: 23px;
-  }
-
-  .lab-cite {
-    margin-top: 27px;
-    font-size: 23px;
-  }
-
-  .lab-context {
-    margin-top: 14px;
-    font-size: 23px;
-  }
-
-  .lab-highlight{
-    margin-top: 36px;
-    height: 583px;
-  }
-
-  .lab-highlight .right{
-    padding: 0 70px;
-  }
-
-  .highlights-content{
-    margin-top: 7px;
-    height: 278px;
-    width: 416px;
-  }
-
-  .arrow-forward {
-    font-size: 56px;
-  }
 }

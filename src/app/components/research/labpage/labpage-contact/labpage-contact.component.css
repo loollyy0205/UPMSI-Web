@@ -1,12 +1,12 @@
 * {
-  font-size: 16px;
+  font-size: 1.171vw;
 }
 
 .contact{
   height: 100%;
   display: flex;
   flex-direction: row;
-  margin-top: 30px; /*edited*/
+  margin-top: 2.196vw; /*edited*/
 }
 
 .contact .left{
@@ -31,159 +31,53 @@
 }
 
 .contact .left img{
-  height: 200px;
-  width: 200px;
+  height: 14.641vw;
+  width: 14.641vw;
   object-fit: cover;
 }
 
 .contact .left2 img{
-  height: 80px;
-  width: 200px;
+  height: 5.857vw;
+  width: 14.641vw;
   object-fit: cover;
 }
 
 .contact .left3 img{
-  height: 100px;
-  width: 200px;
+  height: 7.321vw;
+  width: 14.641vw;
   object-fit: cover;
 }
 
 
 .contact .right{
   width: 80%;
-  margin-left: 50px;
+  margin-left: 3.660vw;
   line-height: 1.5;
   color: #384e8a;
-  margin-top: 20px; /*added*/
+  margin-top: 1.464vw; /*added*/
 }
 
 .contact .right img:nth-child(n+2) {
-  padding-left: 12px !important;
+  padding-left: 0.878vw !important;
 }
 
 .contact .right img{
-  height: 40px;
-  width: 40px;
+  height: 2.928vw;
+  width: 2.928vw;
 }
 
 .title {
   line-height: 1.2;
-  margin-top: 45px;
+  margin-top: 3.294vw;
   color: #384e8a;
-  font-size: 30px;
+  font-size: 2.196vw;
 }
 
 .email {
-  margin-top: 40px;
+  margin-top: 2.928vw;
 }
 
 .soc-logos {
-  margin-left: -10px;
-  margin-top: 43px;
-}
-
-@media (min-width: 1600px) {
-  * {
-    font-size: 19px;
-  }
-
-  .contact{
-    margin-top: 33px; /*edited*/
-  }
-
-  .contact .left img{
-    height: 234px;
-    width: 234px;
-  }
-
-  .contact .left2 img{
-    height: 94px;
-    width: 234px;
-  }
-
-  .contact .left3 img{
-    height: 117px;
-    width: 234px;
-  }
-
-  .contact .right{
-    margin-left: 59px;
-    margin-top: 29px; /*added*/
-  }
-
-  .contact .right img:nth-child(n+2) {
-    padding-left: 14px !important;
-  }
-
-  .contact .right img{
-    height: 47px;
-    width: 47px;
-  }
-
-  .title {
-    margin-top: 53px;
-    font-size: 35px;
-  }
-
-  .email {
-    margin-top: 47px;
-  }
-
-  .soc-logos {
-    margin-left: -12px;
-    margin-top: 50px;
-  }
-}
-
-@media (min-width: 1900px) {
-  * {
-    font-size: 23px;
-  }
-
-  .contact{
-    margin-top: 37px; /*edited*/
-  }
-
-  .contact .left img{
-    height: 278px;
-    width: 278px;
-  }
-
-  .contact .left2 img{
-    height: 112px;
-    width: 278px;
-  }
-
-  .contact .left3 img{
-    height: 138px;
-    width: 278px;
-  }
-
-  .contact .right{
-    margin-left: 70px;
-    margin-top: 40px; /*added*/
-  }
-
-  .contact .right img:nth-child(n+2) {
-    padding-left: 17px !important;
-  }
-
-  .contact .right img{
-    height: 56px;
-    width: 56px;
-  }
-
-  .title {
-    margin-top: 63px;
-    font-size: 42px;
-  }
-
-  .email {
-    margin-top: 56px;
-  }
-
-  .soc-logos {
-    margin-left: -14px;
-    margin-top: 59px;
-  }
+  margin-left: -0.732vw;
+  margin-top: 3.148vw;
 }
