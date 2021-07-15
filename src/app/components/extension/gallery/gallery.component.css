@@ -155,3 +155,169 @@ carousel{
   cursor: pointer;
   font-size: 1.171vw;
 }
+
+
+@media (max-width: 768px) {
+  .container{
+    margin: 0 9%;
+    margin-top: 5%;
+  }
+
+  img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    cursor: pointer !important;
+    background-color: black;
+  }
+
+
+  .title{
+    font-size: 4vw;
+    color: #394e8a;
+  }
+
+  .title:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  carousel{
+    margin-top: 1.464vw;
+  }
+
+  .content1{
+    padding: 0;
+    margin-top: 5%;
+  }
+
+  .content1 carousel {
+    height: 25vw;
+  }
+
+
+  .title-header{
+    font-size: 5vw;
+    color: #394e8a;
+    margin-bottom: 1.464vw;
+    line-height: 1.3;
+  }
+
+  .hr-line{
+    margin: 5% 9% 2.196vw 9%;
+  }
+
+  .content-marg{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.732vw;
+    margin-top: 1.464vw;
+  }
+
+  .photo-length{
+    font-size: 3vw;
+    align-self: flex-end;
+    margin-bottom: 1vw;
+  }
+
+  .context{
+    margin-top: 2%;
+    line-height: 1.4;
+    font-size: 4vw;
+  }
+
+  .content2{
+    padding: 0;
+    margin-top: 10%;
+  }
+
+  .content2 carousel {
+    height: 25vw;
+  }
+
+  .footer{
+    margin-top: 9%;
+  }
+
+  .acknowledgement {
+    height: 100%;
+    background-color: white;
+    margin-top: 7%;
+    padding: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ack-right {
+    font-size: 4vw;
+    color: #384e8a;
+    margin-left: 0;
+    padding-left: 0;
+    border-left:none;
+    line-height: 1.4;
+    height: fit-content;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .top-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottom-box {
+    margin-top: 6%;
+    width: 100%;
+  }
+
+  .bottom-box .bottom-names:nth-child(n+2) {
+    margin-top: 5%;
+  }
+
+  .bottom-box p {
+    line-height: 1.2;
+  }
+
+  .bottom-names {
+    font-size: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .bottom-names p:nth-child(n+2) {
+    border-left: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 4%;
+  }
+
+  .ack-title {
+    color: #384e8a;
+    font-size: 5vw;
+  }
+
+  .lab {
+    margin-top: 20% !important;
+  }
+
+  .arrow{
+    font-size: 7vw;
+  }
+
+  .arrow-text{
+    font-size: 4vw;
+  }
+
+  .more-vacancies{
+    margin-left: 9%;
+    margin-right: 9%;
+    height: 15vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

@@ -260,3 +260,271 @@ img{
   margin-top: 1.098vw;
 
 }
+
+.mobile-banner-content {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container{
+    margin: 0 9%;
+    margin-top: 5%;
+  }
+
+  .content-header{
+    height: 40vw;
+    position: relative;
+  }
+
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .banner-content{
+    display: none;
+  }
+
+  .mobile-banner-content {
+    margin-top: 3%;
+    line-height: 1.4;
+    font-size: 4vw;
+    display: block;
+  }
+
+  .left-content{
+    position: absolute;
+    z-index: 1;
+    top: 0.146vw; /*edited */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3.660vw;
+    color: white;
+  }
+
+  .title{
+    font-size: 5vw;
+    line-height: 1.3;
+  }
+
+
+  .title-2{
+    font-size: 1.611vw;
+    margin-left: 4.5%;
+    position: relative;
+    top: 3.660vw;
+    letter-spacing: 1px;
+  }
+
+
+  .what-we-do {
+    margin-left: 0;
+    margin-right: 0;
+    height: 100%;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-image {
+    background-image: url(https://dc628.4shared.com/img/G1qPettfiq/s24/179c042ec90/02-the_facility?async&rand=0.12958396840575426);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 52vw;
+    margin-bottom: 5%;
+  }
+
+  .left-image2 {
+    background-image: url(https://dc628.4shared.com/img/2lXKjlIgiq/s24/179c042fc30/04-footer?async&rand=0.44942615353506254);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48.5%;
+  }
+
+  .what-we-do .right-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-content2 {
+    width: 48.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .what-we-do .right-content-p {
+    font-size: 4vw;
+    font-family: 'Atlas-light';
+    line-height: 1.5;
+  }
+
+  .the-founder {
+    margin: 5.124vw 4.5% 1.830vw 4.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .the-founder .left-image {
+    background-image: url(https://dc697.4shared.com/img/k6lP1nJXea/s24/179c042f078/03-Dr_Velasquez?async&rand=0.5061429361513932);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vw;
+    width: 45vw;
+    z-index: 999;
+  }
+
+  /*
+  .the-founder .right-content-box {
+    width: 53%;
+
+    position: absolute;
+  }*/
+
+  .the-founder .right-content {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .the-founder .right-content-p {
+    font-size: 4vw;
+    margin-top: 1.391vw;
+    font-family: 'Atlas-light';
+    line-height: 1.5;
+
+  }
+
+  .sub-title{
+    font-size: 1.391vw;
+    margin-top: 1.537vw;
+  }
+
+  .read-more{
+    color: #394e8a;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.171vw;
+    justify-content: flex-end;
+    margin-top: 5%;
+  }
+
+  .bottom-content{
+    font-size: 4vw;
+    line-height: 1.5;
+    margin: 0;
+    margin-top: -2%;
+  }
+
+  .bottom-content-container{
+    margin-top: 2%;
+  }
+
+  .library-contanct-container{
+    position: relative;
+    margin-top: 5%;
+  }
+
+  .arrow{
+    font-size: 7vw;
+  }
+
+  .arrow-text{
+    font-size: 4vw;
+  }
+
+  .more-vacancies{
+    margin-left: 23%;
+    margin-right: 0;
+    height: 30vw;
+    margin-top: 7%;
+    margin-bottom: 0;
+  }
+
+
+  /* CONTACT */
+  .center-box{
+    display: grid;
+    place-content: center;
+    margin-top: 5.124vw;
+  }
+
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .bml-complex{
+    height: 40vw;
+    overflow: hidden;
+  }
+
+  .bml-complex img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   /* transition: transform .5s ease; COMMENTED OUT */
+  }
+
+  /*COMMENTED OUT
+  .bml-complex img:hover{
+    transform: scale(1.1);
+  } */
+
+  .content-header-contact{
+    margin-top: 7%;
+    height: 100%;
+    position: relative;
+  }
+
+  .contact-marg{
+    margin-top: 1.464vw;
+    line-height: 1.2;
+    font-size: 4vw;
+  }
+
+  .contact-marg p:nth-child(2){
+    margin-top: 0.586vw;
+  }
+
+  .bml-complex .right-content1{
+    position: absolute;
+    z-index: 1;
+    left: 6%;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-top: 1.098vw;
+
+  }
+
+}

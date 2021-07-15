@@ -63,3 +63,32 @@ img{
 .font-40 {
   font-size: 1.464vw;
 }
+
+@media (max-width: 768px) {
+  .next {
+    position: absolute;
+    top: 50%;
+    right: 1% !important;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: .5%;
+    outline: none;
+  }
+
+  .previous {
+    position: absolute;
+    top: 50%;
+    left: 1% !important;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: .5%;
+    outline: none;
+  }
+
+  .font-40 {
+    font-size: 6vw;
+  }
+
+}

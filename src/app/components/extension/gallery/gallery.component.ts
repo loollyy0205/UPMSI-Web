@@ -380,15 +380,26 @@ export class GalleryComponent implements OnInit {
   ];
 
 
+  cellToShow:number = 3;
+  height:any = '65%';
+
+
 
   constructor(public dialog: MatDialog, private upl:UploadFetchService, private router:Router) { }
 
   ngOnInit(): void {
+
+    let x = window.matchMedia("(max-width: 768px)");
+
+    if (x.matches) { // If media query matches
+      this.cellToShow = 2;
+      this.height = 'auto';
+    }
   }
 
   openDialog(imgSrc, i){
     this.dialog.open(ImageDialogComponent, {
-      height: '65%',
+      height: this.height,
       width: 'auto',
       data: {
         imgSrc: imgSrc, i

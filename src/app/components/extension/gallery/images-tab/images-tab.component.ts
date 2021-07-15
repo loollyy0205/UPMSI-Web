@@ -390,6 +390,7 @@ export class ImagesTabComponent implements OnInit {
   {image: 'https://dc585.4shared.com/img/QGTgfJ0fea/s24/179b185a788/P4300089?async&rand=0.0385097706510944'},
   ]}];
 
+  height:any = '65%';
   dataGallery = [];
   upmroBool:boolean = false;
   constructor(public dialog:MatDialog, private router:Router) { }
@@ -416,11 +417,17 @@ export class ImagesTabComponent implements OnInit {
         this.dataGallery = this.photos6;
         break;
     }
+
+    let x = window.matchMedia("(max-width: 768px)");
+
+    if (x.matches) {
+      this.height = 'auto';
+    }
   }
 
   openDialog(imgSrc, i){
     this.dialog.open(ImageDialogComponent, {
-      height: '65%',
+      height: this.height,
       width: 'auto',
       data: {
         imgSrc: imgSrc, i

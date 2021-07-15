@@ -37,14 +37,23 @@ export class MuseumExhibitsComponent implements OnInit {
     {image: 'https://dc697.4shared.com/img/PCXpdAm1iq/s24/179c0e1f768/MMNC_25?async&rand=0.22705558811469229'},
   ];
 
+  cellToShow:number = 3;
+  height:any = '65%';
+
   constructor(public dialog: MatDialog, private router:Router) { }
 
   ngOnInit(): void {
+    let x = window.matchMedia("(max-width: 768px)");
+
+    if (x.matches) { // If media query matches
+      this.cellToShow = 2;
+      this.height = 'auto';
+    }
   }
 
   openDialog(imgSrc, i){
     this.dialog.open(MuseumDialogComponent, {
-      height: '65%',
+      height: this.height,
       width: 'auto',
       data: {
         imgSrc: imgSrc, i

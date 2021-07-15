@@ -158,3 +158,158 @@
 .footer{
   margin-top: 9%;
 }
+
+.marg-13 {
+  margin: 0 16%;
+}
+
+@media (max-width: 768px) {
+  .container .title{
+    font-size: 5vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #394e8a;
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+
+  .content1{
+    margin-top: 2.196vw;
+  }
+
+
+  .more-about{
+    margin-left: 9%;
+    margin-right: 9%;
+    /*text-decoration: underline;*/
+    float: right;
+    margin-top: 2.196vw;
+    cursor: pointer;
+    font-size: 4vw;
+  }
+
+  .content2-container{
+    margin: 15% 9% 0 9%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content2-container .left{
+    display: none;
+  }
+
+  .content2-container .right{
+    width: 100%;
+    background-color: #394e8a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 13%;
+  }
+
+  .right-title{
+    color: white;
+    font-size: 5vw;
+    margin-bottom: 3%;
+    line-height: 1.3;
+  }
+
+  .position{
+    margin-top: 2.343vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .learn-more-a{
+    width: 44vw;
+    font-size: 3.5vw;
+    padding: 2vw 0;
+  }
+
+  .learn-more-b{
+
+    width: 44vw;
+    font-size: 3.5vw;
+    padding: 2vw 0;
+  }
+
+  .content3-container{
+    margin: 3.660vw 9% 0 9%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content3-container .left{
+    width: 100%;
+    background-color: #5ca361;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 5.857vw; */
+  }
+
+  .content3-container .right{
+    width: 100%;
+  }
+
+  .content3-container .right img{
+    height: 52vw !important;
+    width: 100% !important;
+    object-fit: cover !important;
+  }
+
+  .marg-13 {
+    margin: 13%;
+  }
+
+  .hr-line{
+    margin: 5% 9% 2.196vw 9%;
+  }
+
+  .img-context{
+    margin-top: 2.196vw;
+    font-size: 1.171vw;
+    line-height: 1.2;
+  }
+
+  /* content 2 */
+
+  .content2-context{
+    color: white;
+    line-height: 1.3;
+    font-size: 4vw;
+  }
+
+  .content2-container .advo{
+    margin-top: 2.196vw;
+    height: 18.302vw;
+    width: 100%;
+  }
+
+  .know-about{
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+    margin-top: 1.098vw;
+  }
+
+  /* content 3 */
+  .see-more{
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+    margin-top: 2.196vw;
+  }
+
+  .footer{
+    margin-top: 9%;
+  }
+
+}

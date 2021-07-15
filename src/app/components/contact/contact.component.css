@@ -48,3 +48,111 @@ a {
 .footer{
   margin-top: 9%;
 }
+
+.mailing-add {
+  border-right: 1px solid white; width: 33.3%; padding-right: 5%; display: flex; flex-direction: column; line-height: 1.4; color: white; justify-content: center;
+}
+
+.mailing-add2 {
+  border-right: 1px solid white; width: 33.3%; padding: 0 5%; display: flex; flex-direction: column; line-height: 1.4; color: white; justify-content: center;
+}
+
+.mailing-add3 {
+  width: 33.3%; padding-left: 5%; display: flex; flex-direction: column; line-height: 1.4; color: white; justify-content: center;
+}
+
+.director-1 {
+  border-right: 1px solid white; width: 33.3%; padding: 1% 5%; display: flex; flex-direction: column; line-height: 1.4; color: white; justify-content: center;
+}
+
+.director-2  {
+  width: 33.3%; padding-left: 5%; display: flex; flex-direction: column; line-height: 1.4; color: white; justify-content: center;
+}
+
+.top-10 {
+  margin-top: 10%;
+}
+
+@media (max-width: 768px) {
+  * {
+    font-size: 4vw;
+  }
+
+  .container{
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+  }
+
+  .container .title{
+    font-size: 5vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    color: #384e8a;
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13%;
+  }
+
+  .hr-line{
+    margin: 5% 9% 2.196vw 9%;
+  }
+
+  .banner1 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dqs7gg03v/image/upload/v1623322137/Contact/01-banner_onm6p4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid; place-content: center;
+  }
+
+  .banner2 {
+    margin-top: 6vw;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://res.cloudinary.com/dqs7gg03v/image/upload/v1623322139/Contact/02-banner_ckajnz.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid; place-content: center;
+  }
+
+  .center-box {
+    padding: 0 6.5%;
+  }
+
+.mailing-add {
+  border-right: none; width: 100%; padding-right: 0; display: flex; flex-direction: column; line-height: 1.5; color: white; justify-content: center;
+}
+
+.mailing-add2 {
+  border-right: none; width: 100%; margin-top: 5%; padding: 0; display: flex; flex-direction: column; line-height: 1.5; color: white; justify-content: center;
+}
+
+.mailing-add3 {
+  width: 100%; padding-left: 0;margin-top: 5%; display: flex; flex-direction: column; line-height: 1.5; color: white; justify-content: center;
+}
+
+.director-1 {
+  border-right: none; width: 100%;margin-top: 5%; padding: 0; display: flex; flex-direction: column; line-height: 1.5; color: white; justify-content: center;
+}
+
+.director-2  {
+  width: 100%; padding-left: 0%;margin-top: 5%; display: flex; flex-direction: column; line-height: 1.5; color: white; justify-content: center;
+}
+
+.top-10 {
+  margin-top: 5%;
+}
+
+}

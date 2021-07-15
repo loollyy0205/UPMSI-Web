@@ -75,3 +75,81 @@ img{
   cursor: pointer;
   font-size: 1.171vw;
 }
+
+.mobile-banner-content {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+.container{
+  margin: 0 9%;
+  margin-top: 5%;
+}
+
+.content-header{
+  height: 40vw;
+  position: relative;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner-content{
+  display: none;
+  /* font-size: 1.171vw;
+  margin-top: 0.952vw;
+  width: 50.073vw; */
+}
+
+.mobile-banner-content {
+  display: block;
+  font-size: 4vw;
+  margin-top: 3%;
+  line-height: 1.4;
+}
+
+.left-content{
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  width: 36.603vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3.660vw;
+  color: white;
+}
+
+.title{
+  font-size: 5vw;
+}
+
+.right-content-p {
+    font-size: 4vw;
+    font-family: 'Atlas-light';
+    line-height: 1.5;
+    margin-top: 5%;
+  }
+
+.arrow{
+  font-size: 7vw;
+}
+
+.arrow-text{
+  font-size: 4vw;
+}
+
+.more-vacancies{
+  margin-left: 9%;
+  margin-right: 9%;
+  height: 20vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+}

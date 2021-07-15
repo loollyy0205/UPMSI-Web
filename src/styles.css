@@ -182,5 +182,13 @@ dialog::backdrop {
     padding: 0 5vw !important;
   }
 
+  .carousel-arrow {
+    height: 7vw !important;
+    width: 7vw !important;
+    background-size: 5vw !important;
+    box-shadow: 0 0 0.366vw rgb(0 0 0 / 15%);
+    margin-top: -3vw !important;
+  }
+
  }
 

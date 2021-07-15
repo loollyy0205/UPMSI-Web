@@ -285,11 +285,12 @@ mat-expansion-panel{
 
   ::ng-deep .specific-class > .mat-expansion-indicator:after {
     color: white;
-    border-width: 0 0.146vw 0.146vw 0 !important;
-    height: 0.293vw;
-    width: 0.293vw;
+    border-width: 0 .35vw .35vw 0 !important;
+    height: .9vw;
+    width: .9vw;
     padding: 0.220vw !important;
   }
+
 
   .specific-class{
     border-radius: 5vw;
