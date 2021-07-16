@@ -31,3 +31,42 @@ img{
 .title{
   font-size: 2.123vw;
 }
+.mobile-banner-content{
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .content-header{
+    height: 40vw;
+  }
+
+  .left-content{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3.660vw;
+    color: white;
+  }
+
+  .banner-content{
+    display: none;
+  }
+
+  .mobile-banner-content{
+    margin-top: 4%;
+    font-size: 4vw;
+    display: block;
+    line-height: 1.5 !important;
+  }
+
+  .title{
+     font-size: 5vw;
+     line-height: 1.3;
+  }
+}

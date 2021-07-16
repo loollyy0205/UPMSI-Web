@@ -65,3 +65,58 @@ img{
 .img-container {
   height: 14vw;
 }
+
+@media (max-width: 756px) {
+  * {
+    font-size: 4vw;
+  }
+
+  .profile{
+    height: 100%;
+    margin-top: 10vw;
+    margin-right: 2.083vw; /* edited */
+    flex-direction: column;
+  }
+
+  .title-profile {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .profile-subtitle {
+    margin-top:  1.09375vw;
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .profile-content {
+    margin-top: 1.09375vw;
+  }
+
+  .title {
+    margin-top: 5vw;
+    font-size: 5vw;
+    margin-bottom: 2.1875vw;
+  }
+
+  .profile .left img{
+    height:  45vw !important;
+    width:  45vw !important;
+    margin-bottom: 2%;
+  }
+
+  .profile .left{
+    width: 100%;
+  }
+
+  .profile .right{
+    width: 100%;
+  }
+
+  .img-container {
+   margin: 0;
+   height: 25vw;
+  }
+
+}
+

@@ -40,3 +40,44 @@ img{
 } */
 
 
+@media (max-width: 768px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .top{
+    width: 100% !important;
+  }
+
+  img{
+    width: 85.264vw;
+    height: 55.622vw;
+    object-fit: cover;
+  }
+
+  .right{
+    height: 35%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .content{
+    padding: 10%;
+    width: 100%;
+  }
+
+  .title{
+    color: #394e8a; font-size: 4vw;
+  }
+
+  .context{
+    font-size: 3vw;
+    margin-top: 0.732vw;
+    line-height: 1.3;
+  }
+
+}

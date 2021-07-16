@@ -65,3 +65,78 @@ img{
   background-color: #5da563;
   color: white;
 }
+
+@media (max-width: 756px) {
+  * {
+    font-size: 4vw;
+  }
+
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .title{
+    font-size: 5vw;
+  }
+
+  .bml-complex{
+    height: 45vw;
+    overflow: hidden;
+  }
+
+  .bml-complex img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /*transition: transform .5s ease; commented out */
+  }
+
+  .bml-complex .right-content{
+    position: absolute;
+    z-index: 1;
+    left: 1.464vw;
+    top: -10%;
+    bottom: 4%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 5%;
+    line-height: 1.2;
+  }
+  .content-header2{
+    height: 40vw;
+    position: relative;
+    width: 100% !important;
+    margin-bottom: 12%;
+  }
+
+  .bml-border{
+    padding-left: 1.464vw;
+    margin-top: 5.124vw;
+  }
+
+  .top-15{
+    margin-top: 1.098vw;
+  }
+
+  .position{
+    margin-top: 1.464vw;
+    margin-left: 1.830vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .learn-more{
+    width: 44vw;
+    font-size: 3.5vw;
+    padding: 2vw 0
+  }
+
+
+}

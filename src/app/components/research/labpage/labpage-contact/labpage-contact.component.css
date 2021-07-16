@@ -81,3 +81,64 @@
   margin-left: -0.732vw;
   margin-top: 3.148vw;
 }
+
+@media (max-width: 756px) {
+  * {
+    font-size:4vw;
+  }
+
+  .contact{
+    margin-top: 1.927083vw; /*edited*/
+    flex-direction: column;
+  }
+
+  .contact .left{
+    width: 100%;
+    display: block;
+  }
+
+  .contact .left img{
+    height: 35vw;
+    width: 35vw;
+    margin-top: 3%;
+  }
+
+  .contact .left2 img{
+    height: 21vw;
+    width: 55vw;
+  }
+
+  .contact .left3 img{
+    height: 30vw;
+    width: 40vw;
+  }
+
+  .contact .right{
+    margin-left: 0;
+    margin-top:  2.083vw; /*added*/
+  }
+
+  .contact .right img:nth-child(n+2) {
+    padding-left: 0.885416vw !important;
+  }
+
+  .contact .right img{
+    height: 2.9166vw;
+    width:  2.9166vw;
+  }
+
+  .title {
+    margin-top: 10vw;
+    font-size: 5vw;
+  }
+
+  .email {
+    margin-top: 2.9166vw;
+  }
+
+  .soc-logos {
+    margin-left: -0.72916vw;
+    margin-top: 3.072916vw;
+  }
+}
+

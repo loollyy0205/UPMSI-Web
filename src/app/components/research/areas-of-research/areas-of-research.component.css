@@ -187,3 +187,141 @@ img:hover{
   cursor: pointer;
   font-size: 1.171vw;
 }
+
+@media (max-width: 768px) {
+  *{
+    font-size: 4vw;
+  }
+
+  .lab-desc {
+    font-size: 4vw;
+    margin-top: 3%;
+  }
+
+  .right-body {
+    font-size: 5vw;
+    line-height: 1.3;
+  }
+
+  .content{
+    margin-top: 59px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .lab-img1{
+    margin-top: 15px;
+    height:175vw;
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+
+  .lab-img2{
+    margin-top: 0;
+    height:175vw;
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+
+
+  .lab-img{
+    bottom: 9px;
+  }
+
+  .title{
+    width: 410px;
+  }
+
+  .sub-title {
+    margin-top: 12px;
+    margin-bottom: 35px;
+  }
+
+
+  .hr-line{
+    margin: 4.5% 9% 0% 9%;
+  }
+
+  .title-header{
+    font-size: 5vw;
+  }
+
+  .bottom-bor, .bottom-bor2, .bottom-bor3, .bottom-bor4{
+    border-bottom: 4px solid #5da563;
+    width: 70vw;
+    margin: 5% 0;
+  }
+
+/*  
+  .context{
+    width: auto;
+  }
+*/
+    /* edited : added css */
+  .resources-container{
+    display: block;
+    background-color: none; /* edited2 */
+    width: 100%;
+    height: 8%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  /* edited : added css */
+  .resources-container .resources-left{
+    height: 100%;
+    width: 100%;
+    background-color: none; /* edited2 */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  /* edited : added css */
+  .resources-container .resources-right{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    overflow: hidden;
+  }
+
+  /* edited : added css */
+  .resources-content{
+    padding: 0 9%;
+    line-height: 1.5;
+    margin-top: 18px !important; /*edited2 */
+    overflow: hidden;
+  }
+
+    .diag{
+    padding: 0 9%;
+    height: 80vw;
+    width: 80vw;
+    background-size: 100%;
+    overflow: hidden;
+  }
+
+  .arrow{
+    font-size: 7vw;
+  }
+
+  .arrow-text{
+    font-size: 4vw;
+  }
+
+  .more-vacancies{
+    margin-left: 9%;
+    margin-right: 9%;
+    height: 15vw;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+
+}
+
+

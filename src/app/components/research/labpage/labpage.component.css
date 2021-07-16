@@ -192,3 +192,129 @@ img{
   right: 3%;
   bottom: 5%;
 }
+
+@media (max-width: 756px) {
+  ul {
+    font-size: 4vw;
+  }
+
+  li {
+    margin-top: 1.40625vw
+  }
+
+  .right-bottom-logo {
+    height: 12vw;
+    width:  12vw;
+  }
+
+  .right-bottom-logo2 {
+    height: 6vw;
+    width: 18vw;
+  }
+
+  .right-bottom-logo3 {
+    height: 12vw;
+    width:  18vw;
+  }
+
+  .content {
+    font-size: 4vw;
+    line-height: 1.4;
+    margin-top:  5%;
+  }
+
+  .banner {
+    height:  45vw;
+    margin-top: 6%;
+  }
+
+  .banner-content {
+    margin-top: 0.72916vw;
+    font-size: 4vw;
+  }
+
+  .back-arrow {
+    margin-top: -4%;
+    font-size: 8vw;
+  }
+
+  .navi {
+    font-size: 4vw;
+  }
+
+  .visit {
+    margin-top: 2.916vw;
+    font-size: 4vw;
+  }
+
+  .hr-line {
+    margin: 1.09375vw 9% 2.1354166vw 9%;
+  }
+
+  .facilities-next{
+    margin-top:  2.135416vw;
+    font-size: 4vw;
+  }
+
+  .next{
+    margin-top: 2.135416vw;
+    font-size: 4vw;
+  }
+
+  .arrow {
+    font-size: 6vw;
+    margin-top:  0.260416vw;
+  }
+
+  .title{
+    margin-top: 2.916vw;
+    font-size: 5vw !important;
+  }
+
+  .lab-title {
+    font-size: 5vw;
+  }
+
+  .lab-content {
+    margin-top: 14px;
+    font-size: 4vw;
+  }
+
+  .lab-cite {
+    margin-top: 27px;
+    font-size: 4vw;
+  }
+
+  .lab-context {
+    margin-top: 14px;
+    font-size: 4vw;
+  }
+
+  .lab-highlight{
+    margin-top: 15%;
+    height:  100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .lab-highlight .left{
+    display: none;
+  }
+
+  .lab-highlight .right{
+    padding: 13%;
+    width: fit-content;
+  }
+
+  .highlights-content{
+    margin-top: 0.36458vw;
+    height: 0;
+    width: 0;
+  }
+
+  .arrow-forward {
+    font-size: 6vw;
+  }
+}
+

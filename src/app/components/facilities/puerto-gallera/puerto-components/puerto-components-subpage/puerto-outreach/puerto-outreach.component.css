@@ -5,6 +5,7 @@
 
 }
 
+
 .component1 img {
   padding: 1.464vw;
   margin-left: 2.5%;
@@ -25,6 +26,7 @@
 /*edited : added css */;
 .content-title1{
   margin-top: 1.684vw;
+  line-height: 1.3;
 }
 
 /*edited : addded css */
@@ -129,4 +131,85 @@ li {
 
 li span {
   color: black;
+}
+
+@media (max-width: 768px) {
+
+  *{
+    font-size: 4vw;
+  }
+
+  .title{
+    font-size: 5vw !important;
+  }
+
+  .component1 div{
+    display: block !important;
+  }
+
+  .component1 img {
+    padding: 5% 0 0 5%;
+    margin-left: 2.5%;
+    width: 85% !important;
+    height: 40vw !important;
+    object-fit: cover;
+  }
+
+  .right{
+    width: 88%;
+    padding: 2% 9% 5% 9%
+  }
+
+  .content{
+    width: 94%;
+  }
+
+  .read-more, .read-more3 {
+    position: relative;
+    left: 62%;
+  }
+
+  .component1-bottom {
+    margin: 0 1.464vw;
+    padding-left: 8%;
+  }
+
+  mat-expansion-panel{
+    margin-bottom: 0;
+  }
+
+  .panel-title{
+    color: white;
+    padding: 3vw 0;
+    font-size: 3vw;
+  }
+
+  mat-expansion-panel{
+    border-color: white;
+    background-color: #fafafa;
+  }
+
+  ::ng-deep .specific-class > .mat-expansion-indicator:after {
+    color: white;
+    border-width: 0 .35vw .35vw 0 !important;
+    height: .9vw;
+    width: .9vw;
+    padding: 0.220vw !important;
+  }
+
+  .specific-class{
+    border-radius: 5vw;
+  }
+
+  .grad-offering, .grad-offering1{
+    margin-top: 5vw !important;
+    padding: 0vw;
+  }
+
+  li {
+    margin-top: 1.464vw;
+    line-height: 1.5; /* edited */
+    color: #384e8a;
+  }
+
 }

@@ -140,3 +140,97 @@ li {
 li span {
   color: black;
 }
+
+@media (max-width: 768px) {
+  * {
+    font-size:  4vw;
+  }
+
+  .title {
+    font-size: 5vw;
+    margin-top: 4.947916vw;
+    line-height: 1.2;
+  }
+
+  .sub-title {
+    margin-top: 1.302083vw;
+  }
+
+  .container{
+    margin-top: 1.40625vw
+  }
+
+  .facilities-next{
+    margin-top:  2.1875vw
+  }
+
+  .arrow {
+    font-size:  6vw;
+    margin-top: 0.3125vw
+  }
+
+  .back-arrow {
+    font-size: 7vw;
+    text-decoration: none !important;
+  }
+
+  .hr-line{
+    margin: 1.302083vw 9% 1.302083vw 9%;
+  }
+
+  .box-card {
+    margin-top:  2.5vw;
+  }
+
+  .card {
+    margin-bottom: 1.5625vw;
+    padding-left:  4.739583vw;
+  }
+
+  .card img {
+    padding-right: 2.3vw;
+    padding-bottom: 0.885416vw;
+    padding-top: 2vw;
+    width:  90%;
+    height: 40vw;
+    margin-top: 1.66vw;
+    float: none;
+  }
+
+  .right {
+    padding: 1.66vw 0;
+    margin-right:  3.385416vw;
+    width: 90%;
+  }
+
+  .read-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin-top: 4%; /*edited */
+    margin-bottom: 4%;
+  }
+
+  ul {
+    margin: 0 10%;
+    font-size: 1.171vw;
+    font-family: 'atlas-light';
+  }
+
+
+li {
+  margin-top: 2vw;
+  line-height: 1.5; /*edited */
+  color: #384e8a;
+}
+
+
+  .card-content {
+    margin-top: 1.09375vw;
+  }
+
+  .limitTextHeight, .limitTextHeight2, .limitTextHeight3, .limitTextHeight4, .limitTextHeight5 {
+    height: 100%;
+  }
+}

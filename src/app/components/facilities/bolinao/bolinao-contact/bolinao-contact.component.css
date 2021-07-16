@@ -50,3 +50,64 @@ a {
   justify-content: center;
   color: white;
 }
+
+
+@media (max-width: 768px) {
+  * {
+    font-size: 4vw;
+  }
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .title{
+    font-size: 5vw;
+  }
+
+  .bml-complex{
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .bml-complex img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .content-header-contact{
+    height: 100%;
+    position: relative;
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .contact-marg{
+    margin-top: 1.464vw;
+  }
+
+  .contact-marg p:nth-child(2){
+    margin-top: 0.586vw;
+  }
+
+  .bml-complex .right-content1{
+    position: absolute;
+    z-index: 1;
+    left: 6vw;
+    bottom: 0vw;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+
+}

@@ -217,3 +217,144 @@ a{
   cursor: pointer;
   font-size: 1.171vw;
 }
+
+@media (max-width: 756px) {
+  .container{
+    font-size: 4vw;
+  }
+
+  .content{
+    margin-top: 0;
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+
+  .photo-by {
+    font-size: 4vw;
+  }
+
+  .lab-desc{
+    margin-top: 1%;
+    font-size: 4vw;
+  }
+
+  .lab-img{
+    width:85%;
+  }
+
+  .lab-img1, .lab-image2{
+    margin-top: 4%;
+    height: 110vw;
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+
+  
+  .lab-image3{
+    margin-top: 3%;
+    height: 140vw;
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+
+  /*
+  .lab-image3{
+    margin-top: 15px;
+    height: 400px;
+    margin-left: 9%;
+    margin-right: 9%;
+  }*/
+
+  .title{
+    font-size: 4vw;
+    width: 70vw;
+  }
+
+  .sub-title {
+    font-size: 4vw;
+    margin-top: 3%;
+    margin-bottom: 10%;
+  }
+
+  .right-body{
+    font-size: 4vw;
+  }
+/*
+  .lab-image2{
+    margin-top: 15px;
+    height: 325px;
+    margin-left: 9%;
+    margin-right: 9%;
+  }*/
+
+
+  .left2{
+    margin-left: 20px;
+    margin-bottom: 37px;
+  }
+
+  .left3{ /* edited: added css*/
+  margin-left: 20px;
+  margin-bottom: 17px;
+  }
+
+  .facilities-next{
+    margin-top: 35px;
+  }
+
+  .arrow{
+    font-size: 47px;
+  }
+
+  .hr-line{
+    margin: 0 9% 0 9%;
+  }
+
+  .title-header{
+    font-size: 5vw;
+    margin: 5% 0;
+  }
+
+  .bottom-bor{
+    border-bottom: 4px solid #5da563;
+    width: 65vw;
+    margin: 12px 0;
+  }
+
+  .context{
+    width: 70vw;
+    flex-direction: column;
+    
+  }
+
+  .context p:nth-child(n+2) {
+    margin-top: 0px;
+    line-height: 1.5;
+  }
+
+  .context-left{
+    width: 100%;
+  }
+
+  .context-right{
+    margin-left: 0%;
+    margin-top: 15px;
+  }
+  .arrow{
+    font-size: 7vw;
+  }
+
+  .arrow-text{
+    font-size: 3.5vw;
+  }
+
+  .more-vacancies{
+    margin-left: 9%;
+    margin-right: 9%;
+    height: 13vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+

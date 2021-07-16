@@ -69,3 +69,53 @@ img{
   background-color: #5da563;
   color: white;
 }
+
+.mobile-bml{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .title{
+    font-size: 5vw;
+
+  }
+
+  .bml-complex{
+    height: 40vw;
+    width: 82vw;
+    margin-top: 5%;
+  }
+
+  
+  .bml-complex .right-content{
+    position: absolute;
+    z-index: 1;
+    left: 5%;
+    bottom: 2.5%;
+    top: -35%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+
+  .bml-border p:nth-child(2){
+    display: none;
+  }
+
+  .mobile-bml{
+    font-size: 4vw;
+    width: 115%;
+    margin-top: 3%;
+    display: block;
+    line-height: 1.5 !important;
+  }
+
+  .learn-more{
+    width: 30vw;
+    font-size: 3vw;
+    padding:  1vw;
+  }
+}

@@ -11,6 +11,10 @@
     </div>
   </div>
 
+  <p class="atlas-light mobile-banner-content" style="line-height: 1.3;">
+    Research is the primary role of the UP Marine Science Institute. Topics of interest include natural products, pollution, marine culture and productivity, genetics and genomics, and marine chemistry.
+  </p>
+
   <div style="display: grid; place-content: center;">
     <div class="content2">
       <div>
@@ -23,7 +27,7 @@
         <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState = true"
             (closed)="panelOpenState = false">
           <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState ? '#394e8a' : '#5ca361'">
-          <mat-panel-title class="atlas-light panel-title">RESEARCH PROJECTS <span class="font-14" *ngIf="panelOpenState"> &nbsp;&nbsp;-&nbsp;&nbsp; PROGRAM TITLE&nbsp;&nbsp; |&nbsp;&nbsp; PROJECT LEADER&nbsp;&nbsp; |&nbsp;&nbsp; FUNDING AGENCY&nbsp;&nbsp; |&nbsp;&nbsp; DURATION</span></mat-panel-title>
+          <mat-panel-title class="atlas-light panel-title">RESEARCH PROJECTS <span class="font-14" *ngIf="span"><span *ngIf="panelOpenState"> &nbsp;&nbsp;-&nbsp;&nbsp; PROGRAM TITLE&nbsp;&nbsp; |&nbsp;&nbsp; PROJECT LEADER&nbsp;&nbsp; |&nbsp;&nbsp; FUNDING AGENCY&nbsp;&nbsp; |&nbsp;&nbsp; DURATION</span></span></mat-panel-title>
           </mat-expansion-panel-header>
           <div class="regular-content">
             <div class="dd-content" *ngFor="let item of researchProj">
@@ -45,7 +49,7 @@
         <mat-expansion-panel (click)="scrollUp($event)" id="panel-2" class="mat-elevation-z0 grad-offering" (opened)="panelOpenState1 = true"
             (closed)="panelOpenState1 = false">
           <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState1 ? '#394e8a' : '#5ca361'">
-          <mat-panel-title class="atlas-light panel-title">RESEARCH PROGRAMS <span *ngIf="panelOpenState1"> &nbsp;&nbsp;-&nbsp;&nbsp; PROGRAM TITLE&nbsp;&nbsp; |&nbsp;&nbsp; PROJECT LEADER&nbsp;&nbsp; |&nbsp;&nbsp; FUNDING AGENCY&nbsp;&nbsp; |&nbsp;&nbsp; DURATION</span></mat-panel-title>
+          <mat-panel-title class="atlas-light panel-title">RESEARCH PROGRAMS<span class="font-14" *ngIf="span"><span *ngIf="panelOpenState1"> &nbsp;&nbsp;-&nbsp;&nbsp; PROGRAM TITLE&nbsp;&nbsp; |&nbsp;&nbsp; PROJECT LEADER&nbsp;&nbsp; |&nbsp;&nbsp; FUNDING AGENCY&nbsp;&nbsp; |&nbsp;&nbsp; DURATION</span></span></mat-panel-title>
           </mat-expansion-panel-header>
           <div class="regular-content">
             <div class="dd-content" *ngFor="let item of researchProg">
@@ -71,11 +75,9 @@
 
   <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
     <span class="arrow-text" routerLink="/Facilities">
-      <p class="atlas-light">TO FACILITIES</p>
+      <p class="atlas-light"><span class="navi">TO FACILITIES</span> <span class="arrow">&rarr;</span></p>
     </span>
-    <mat-icon class="arrow" style="padding-left: .5%;" routerLink="/Facilities">arrow_forward</mat-icon>
   </div>
-
 <div>
   <app-footer></app-footer>
 </div>

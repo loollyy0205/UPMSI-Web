@@ -17,6 +17,12 @@ export class ComplexSubpageComponent implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit(): void {
+    let x = window.matchMedia("(max-width: 768px)");
+
+    if (x.matches) { // If media query matches
+      this.isReadMore = false;
+      this.isReadMore5 = false;
+    }
   }
 
   showText() {

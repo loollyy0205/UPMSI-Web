@@ -160,6 +160,8 @@ export class ResearchProjectComponent implements OnInit {
     {logo: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624887463/Lab%20logos/logo_kluaxa.png', title: `Program: Discovery and Development of Health Products-Marine Compound Phase 2 Project 2: Anti-infective and Anticancer Drug Candidates from Marine Mircroorganisms`, leader: 'Salvador-Reyes, Lilibeth', fundingAgency: 'DOST-PCHRD', duration: '2019-2020', type: ''},
 
   ]
+
+  span:boolean = true;
   constructor(private router:Router) { }
 
   scrollUp(event){
@@ -174,6 +176,11 @@ export class ResearchProjectComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    let x = window.matchMedia("(max-width: 768px)");
+
+    if (x.matches) { // If media query matches
+      this.span = false;
+    }
   }
 
   toAcad(){

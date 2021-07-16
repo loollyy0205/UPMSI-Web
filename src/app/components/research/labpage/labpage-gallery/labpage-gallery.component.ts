@@ -320,7 +320,7 @@ export class LabpageGalleryComponent implements OnInit {
 
   myArr = [];
 
-
+  cellToShow:number = 3;
   constructor(private router:Router) { }
 
   ngOnInit(): void {
@@ -356,5 +356,10 @@ export class LabpageGalleryComponent implements OnInit {
       this.myArr = this.pbbl;
     }
 
+    let x = window.matchMedia("(max-width: 756px)");
+
+    if (x.matches) { // If media query matches
+      this.cellToShow = 2;
+    }
   }
 }

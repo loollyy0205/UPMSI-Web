@@ -24,43 +24,18 @@ export class BolinaoComponent implements OnInit {
     {title: 'OTHER CAMPUS FACILITIES', image: '../../../../assets/photos/BML-photos/5-facilities-3.jpg', content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius modi earum a totam expedita nihil magni commodi aliquam, illo laboriosam ad quam harum iure repudiandae?'}
   ];
 
-  height:string = '610px';
-  width:string = '550px';
+  cellToShow:number = 3;
 
-  public innerWidth: any;
-  @HostListener('window:resize', ['$event'])
-onResize(event) {
-  this.innerWidth = window.innerWidth;
-  if (this.innerWidth <= 1445 && this.innerWidth >= 768) {
-    this.height= '610px';
-    this.width = '550px';
-  } else if (this.innerWidth <= 1665 && this.innerWidth >= 1446) {
-    this.height= '710px';
-    this.width = '650px';
-  }else if (this.innerWidth <= 1865 && this.innerWidth >= 1666) {
-    this.height= '810px';
-    this.width = '750px';
-  }else if (this.innerWidth <= 2065 && this.innerWidth >= 1866) {
-    this.height= '910px';
-    this.width = '850px';
-  }else if (this.innerWidth <= 2265 && this.innerWidth >= 2066) {
-    this.height= '1010px';
-    this.width = '950px';
-  }else if (this.innerWidth <= 2465 && this.innerWidth >= 2266) {
-    this.height= '1110px';
-    this.width = '1050px';
-  }else if (this.innerWidth <= 2665 && this.innerWidth >= 2466) {
-    this.height= '1210px';
-    this.width = '1150px';
-  }else if (this.innerWidth <= 2865 && this.innerWidth >= 2560) {
-    this.height= '1310px';
-    this.width = '1250px';
-  }
-}
+
   constructor(public dialog: MatDialog, private upl:UploadFetchService, private router:Router) { }
 
   ngOnInit(): void {
-    this.innerWidth = window.innerWidth;
+    let x = window.matchMedia("(max-width: 768px)");
+
+    if (x.matches) { // If media query matches
+      this.cellToShow = 2;
+      // this.height = 'auto';
+    }
   }
 
   openDialog(imgSrc, bmlName){

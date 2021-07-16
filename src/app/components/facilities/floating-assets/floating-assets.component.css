@@ -47,3 +47,58 @@ img{
 .title{
   font-size: 2.123vw;
 }
+
+
+@media (max-width: 756px) {
+  * {
+    font-size: 4vw;
+  }
+
+  .container {
+    margin: 3% 9% 0 9%;
+  }
+
+  .content-header{
+    height:  40vw;
+  }
+
+  .banner-content{
+    display: none;
+  }
+
+  .mobile-banner-content{
+    margin: 4% 0 0 0;
+    display: block;
+    font-size: 4vw !important;
+    line-height: 1.5 !important;
+  }
+
+  .left-content{
+    width: 80%;
+    padding: 0 6vw;
+  }
+
+  .title{
+    font-size: 5vw;
+  }
+
+  .content {
+    margin: 0 0%;
+  }
+
+
+  .more-vacancies{
+      margin-left: 9%;
+      margin-right: 0%;
+      height: 20vw;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  .arrow{
+    font-size: 2.1875vw;
+    margin-left: 0.72916vw;
+  }
+
+}
+
+

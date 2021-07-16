@@ -17,6 +17,7 @@
 
 .sub-title {
   margin-top: 1.318vw;
+  line-height: 1.4;
 }
 
 .container{
@@ -120,3 +121,65 @@
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  * {
+    font-size:  4vw;
+  }
+
+  .title {
+    font-size: 5vw;
+    margin-top: 4.947916vw;
+  }
+
+  .sub-title {
+    margin-top: 1.302083vw;
+  }
+
+  .container{
+    margin-top: 1.40625vw
+  }
+
+  .facilities-next{
+    margin-top:  5%;
+  }
+
+  .back-arrow {
+    font-size: 7vw;
+    text-decoration: none !important;
+  }
+
+  .hr-line{
+    margin: 5% 9% 1.302083vw 9%;
+  }
+
+  .box-card {
+    margin-top:  8%;
+  }
+
+  .card {
+    margin-bottom: 1.5625vw;
+    padding-left:  4.739583vw;
+  }
+
+  .card img {
+    padding-right: 2.3vw;
+    padding-bottom: 0.885416vw;
+    width:  93%;
+    height: 40vw;
+    margin-top: 1.66vw;
+    float: none;
+  }
+
+  .right {
+    padding: 1.66vw 0;
+    margin-right:  3.385416vw;
+  }
+
+  .card-content {
+    margin-top: 1.09375vw;
+  }
+
+  .limitTextHeight, .limitTextHeight2, .limitTextHeight3, .limitTextHeight4, .limitTextHeight5 {
+    height: 13.4375vw;
+  }
+}
