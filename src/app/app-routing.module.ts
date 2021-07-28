@@ -1,3 +1,4 @@
+// import { SearchComponent } from './components/search/search.component';
 import { RVAComponent } from './components/resources/collection/rva/rva.component';
 import { MNLPComponent } from './components/resources/collection/mnlp/mnlp.component';
 import { AcademicsComponent } from './components/education/academics/academics.component';
@@ -12,7 +13,6 @@ import { PuertoComponentsSubpageComponent } from './components/facilities/puerto
 import { FloatingAssetsComponent } from './components/facilities/floating-assets/floating-assets.component';
 import { PagAsaComponent } from './components/facilities/pag-asa/pag-asa.component';
 import { PuertoGalleraComponent } from './components/facilities/puerto-gallera/puerto-gallera.component';
-import { PuertoComponentsComponent } from './components/facilities/puerto-gallera/puerto-components/puerto-components.component';
 import { ComplexSubpageComponent } from './components/facilities/bolinao/bolinao-complex/complex-subpage/complex-subpage.component';
 import { DownloadableFormsComponent } from './components/education/downloadable-forms/downloadable-forms.component';
 import { AboutMsiComponent } from './components/about/about-msi/about-msi.component';
@@ -28,10 +28,6 @@ import { MoreVacanciesComponent } from './components/news/vacancies-opp/more-vac
 import { VacanciesOppComponent } from './components/news/vacancies-opp/vacancies-opp.component';
 import { ImagesTabComponent } from './components/extension/gallery/images-tab/images-tab.component';
 import { GalleryComponent } from './components/extension/gallery/gallery.component';
-import { AdminNewsComponent } from './components/admin/admin-news/admin-news.component';
-import { AdminHomeComponent } from './components/admin/admin-home/admin-home.component';
-import { AdminDashboardComponent } from './components/admin/admin-dashboard/admin-dashboard.component';
-import { AdminComponent } from './components/admin/admin.component';
 import { LaboratoriesComponent } from './components/research/laboratories/laboratories.component';
 import { FacultyComponent } from './components/about/faculty/faculty.component';
 import { AreasOfResearchComponent } from './components/research/areas-of-research/areas-of-research.component';
@@ -41,7 +37,6 @@ import { FacilitiesComponent } from './components/facilities/facilities.componen
 import { ResourcesComponent } from './components/resources/resources.component';
 import { ResearchComponent } from './components/research/research.component';
 import { AnnouncementComponent } from './components/news/announcement/announcement.component';
-import { AboutTheDirectorComponent } from './components/about/about-the-director/about-the-director.component';
 import { HomeComponent } from './components/home/home.component';
 import { NewsComponent } from './components/news/news.component';
 import { ExtensionComponent } from './components/extension/extension.component';
@@ -62,6 +57,7 @@ const routes: Routes = [
   // {path: 'admin/admin-home', component: AdminHomeComponent},
   // {path: 'admin/admin-news', component: AdminNewsComponent},
   {path: 'Home', component: HomeComponent},
+  // {path: 'Search', component: SearchComponent},
   {path: 'About', component: AboutComponent},
   {path: 'About/admin', component: AboutAdminComponent},
   {path: 'About/about-msi', component: AboutMsiComponent},

@@ -1,5 +1,6 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2, Inject } from '@angular/core';
 import { Router } from '@angular/router';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-nav',
@@ -31,7 +32,9 @@ export class NavComponent implements OnInit {
   news:boolean = false;
 
   bml:boolean = false;
-  constructor(private router:Router) { }
+  constructor(private router:Router,
+    private renderer2: Renderer2,
+    @Inject(DOCUMENT) private _document) { }
 
   // @HostListener("document:scroll")
   // scrollfunction(){
@@ -44,6 +47,12 @@ export class NavComponent implements OnInit {
   // }
 
   ngOnInit(): void {
+    const s = this.renderer2.createElement('script');
+    s.type = 'text/javascript';
+    s.src = 'https://cse.google.com/cse.js?cx=a089a9bc77b5ecb6d';
+    s.text = ``;
+    this.renderer2.appendChild(this._document.body, s);
+
     if (window.screen.width <= 768) { // 768px portrait
       this.screenSize = true;
     }else if (window.screen.width > 768) { // 768px portrait

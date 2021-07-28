@@ -106,6 +106,7 @@ import { MoreStudNookComponent } from './components/education/studnook/more-stud
 import { StudNookComponent } from './components/education/studnook/studnook.component';
 import { MobileNavComponent } from './components/nav/mobile-nav/mobile-nav.component';
 import { ProjectBasedRAComponent } from './components/about/about-admin/admin-msi-staff/project-based-ra/project-based-ra.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
@@ -202,7 +203,8 @@ import { ProjectBasedRAComponent } from './components/about/about-admin/admin-ms
     StudNookComponent,
     MoreStudNookComponent,
     MobileNavComponent,
-    ProjectBasedRAComponent
+    ProjectBasedRAComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

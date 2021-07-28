@@ -1,0 +1,24 @@
+
+.container{
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.hr-line{
+  margin: 1.098vw 9% 2.196vw 9%;
+}
+
+.footer{
+  margin-top: 9%;
+}
+
+@media (max-width: 768px) {
+  .container{
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+
+  .hr-line{
+    margin: 5% 9% 2.196vw 9%;
+  }
+}
