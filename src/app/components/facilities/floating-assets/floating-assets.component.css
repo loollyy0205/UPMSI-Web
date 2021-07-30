@@ -48,6 +48,15 @@ img{
   font-size: 2.123vw;
 }
 
+.mobile-banner-content {
+  display: none;
+}
+
+.sec-banner-content {
+  margin-top: 3%;
+  line-height: 1.4;
+}
+
 
 @media (max-width: 756px) {
   * {
@@ -60,6 +69,10 @@ img{
 
   .content-header{
     height:  40vw;
+  }
+
+  .sec-banner-content {
+    display: none;
   }
 
   .banner-content{
