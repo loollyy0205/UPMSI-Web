@@ -51,12 +51,12 @@ import { MoreStudNookComponent } from './components/education/studnook/more-stud
 import { StudNookComponent } from './components/education/studnook/studnook.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/Home', pathMatch: 'full'},
+  // {path: '', redirectTo: '/Home', pathMatch: 'full'},
   // {path: 'admin', component: AdminComponent},
   // {path: 'admin/admin-dashboard', component: AdminDashboardComponent},
   // {path: 'admin/admin-home', component: AdminHomeComponent},
   // {path: 'admin/admin-news', component: AdminNewsComponent},
-  {path: 'Home', component: HomeComponent},
+  {path: '', component: HomeComponent},
   // {path: 'Search', component: SearchComponent},
   {path: 'About', component: AboutComponent},
   {path: 'About/admin', component: AboutAdminComponent},

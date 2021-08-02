@@ -97,7 +97,7 @@ export class NavComponent implements OnInit {
       this.news = true;
     }else if(this.router.url === '/News/Vacancies-and-Opportunities'){
       this.news = true;
-    }else if(this.router.url === '/Home'){
+    }else if(this.router.url === ''){
       this.home = true;
     }else if(this.router.url.includes('/Resources')){
       this.resources = true;
