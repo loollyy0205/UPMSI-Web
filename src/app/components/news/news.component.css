@@ -26,6 +26,16 @@ img{
   margin-right: 9%;
 }
 
+/* edited12 */
+.content4{
+  margin-top: 2.928vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
 
 .content2{
   margin: 0 9%;
@@ -313,6 +323,7 @@ img{
 .press-about {
   margin-top: 0;
 }
+
 
 .more-about:hover{
   text-decoration: none;

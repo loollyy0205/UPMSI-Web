@@ -14,13 +14,13 @@ export class LabpageComponent implements OnInit {
     title: 'MARINE MOLECULAR BIOLOGY LABORATORY',
     content: 'The Marine Molecular Biology Laboratory explores the genomic complement of marine organisms to reveal the keys to their success in different ecological niches and to gain insights into the origin and evolution of animal diversity and complexity. Research areas include gene expression dynamics, evolution and development, and marine symbiosis.',
     labHighBanner: 'https://dc570.4shared.com/img/-oRcRP-Uiq/s24/179d2d96488/highlight_heliopora_overgrowin?async&rand=0.8240869498774461',
-    labHighlight: 'Generated a transcriptome resource for the blue coral, Heliopora coerula, to determine the molecular mechanisms underlying its rapid growth at warmer temperatures.',
+
     labLink1: 'https://www.nature.com/articles/s41598-018-26718-5',
     labLink2: 'https://peerj.com/articles/7785/',
     labAuthor: 'Guzman, et al.,',
     labDate: '2019',
     site: 'https://cconaco.wixsite.com/mmbl',
-    labContent: 'Warm seawater temperature promotes substrate colonization by the blue coral, Heliopora coerulea. PeerJ. 7:e7785.'
+
   }
   ];
 
@@ -59,12 +59,12 @@ export class LabpageComponent implements OnInit {
     title: 'Algal Ecophysiology Laboratory (AlgaE)',
     content: 'AlgaE Lab research activities focus on the study of the biology, biochemistry, and ecophysiology of tropical marine macroalgae. Research on the growth, physiology, and biochemical performance of economically and ecologically important microalgal species will help us better understand their biological responses to environmental stress and changing ocean chemistry. We also investigate the important role of light and photosynthesis in algal growth by looking at gene expression under different environmental conditions.',
     labHighBanner: 'https://dc570.4shared.com/img/7UpwHEt8iq/s24/179d2dbba30/Epiphytes_IMG_6395?async&rand=0.22241311240017914',
-    labHighlight: 'Discovery of novel haplotypes from wild populations of Kappaphycus (Gigartinales, Rhodophyta) in the Philippines',
+
     labAuthor: 'Roleda, et al.,',
     labDate: 'March 2021',
     labLink1: 'https://www.e-algae.org/journal/view.php?number=2935#:~:text=Although%20the%20present%20study%20evaluated,the%20Philippines%20still%20harbor%20unutilized',
     labLink2: 'https://www.sciencedirect.com/science/article/abs/pii/S0269749120360322',
-    labContent: 'Inorganic carbon utilization of tropical calcifying macroalgae and the impacts of intensive mariculture-derived coastal acidification on the physiological performance of the rhodolith Sporolithon sp.',
+
     labAuthor2: 'Roleda, et al.,',
     labDate2: 'November 2020',
     site: 'https://algalecolab.weebly.com',
@@ -104,7 +104,7 @@ export class LabpageComponent implements OnInit {
     title: 'Marine Molecular Ecology and Evolution Laboratory',
     content: 'Research at the Marine Molecular Ecology and Evolution Laboratory explores biological diversity, ecology, and evolution in the sea. We primarily use genomic approaches to uncover diversity, patterns of distribution and population connectivity to gain insight into the origins and drivers of neutral and adaptive divergence across the seascape. We look for ways to apply our work to marine resource management, conservation, and the development of genomics-based tools and technologies for aquaculture.',
     labHighBanner: 'https://dc570.4shared.com/img/iIBQJG-Cea/s24/179e6c07c48/pacuta?async&rand=0.13177488539106985',
-    labHighlight: 'Recent research from the lab used molecular methods to revisit the taxonomic identification of a coral species complex, Pocillopora damicornis, characterized by extensive phenotypic plasticity which confounds accurate species identification.',
+
     labAuthor: 'Torres, et al.,',
     labDate: 'December 2018',
     site: 'https://mmeel-upmsi.weebly.com',
@@ -155,14 +155,17 @@ export class LabpageComponent implements OnInit {
     photoBanner: 'https://dc570.4shared.com/img/x_Arygi6ea/s24/179e719c3c0/01-updated-santianez-banner?async&rand=0.05340356381224054',
     bannerLogo: 'https://dc570.4shared.com/img/nne_EGJBiq/s24/179e71b2f08/logo-marine-phycology-lab?async&rand=0.23453132405531107',
     title: 'Marine Phycology Laboratory',
-    content: 'We actively work on the biology of seaweeds, especially their biodiversity, systematics, life history, and reproduction. We also dabble on algal community ecology, gravitating towards understanding the ecology of canopy-forming seaweeds such as Sargassum. Other research done by our team includes floristics, marine phytogeography, and molecular phylogenetics. Moreover, we conduct applied phycological research, with special reference to seaweed farming (i.e., mass cultivation of carrageenan-producing seaweeds Kappaphycus, Eucheuma, and Halymenia). Currently, we are scaling up on our efforts in harnessing underutilized seaweed resources such as the red seaweed Asparagopsis taxiformis and the green seaweeds Ulva by developing novel and/or locally adapted cultivation technologies for large-scale biomass production. This is to support the call of the seaweed industry to diversify our seaweed products.',
     labHighBanner: 'https://dc570.4shared.com/img/qOeqRW3Eea/s24/179e71aa268/4-gallery-Halymenia-culture?async&rand=0.27788235683871254',
     labHighlight: 'Updated checklist of the benthic marine macroalgae of the Philippines',
 
     labLink1: 'https://www.sciencedirect.com/science/article/abs/pii/S027277142100175X',
-    labAuthor: 'Cordero, et al.,',
-    labDate: 'March 2021',
-    site: 'https://biomeph.com',
+    labAuthor: 'Lastimoso and Santiañez',
+    labDate: '(2021)',
+    site: 'https://marinephycolab.netlify.app/',
+    /**
+    edited12 : edited the author, date and site. deledted the content
+    */
+
   }];
 
   biome = [
@@ -176,7 +179,11 @@ export class LabpageComponent implements OnInit {
     labLink1: 'https://www.sciencedirect.com/science/article/abs/pii/S027277142100175X',
     labAuthor: 'Cordero, et al.,',
     labDate: 'March 2021',
-    site: 'https://www.biomeph.com/the-group',
+    site: 'https://www.biomeph.com',
+    /**
+    edited12 : edited the site
+    */
+
   }];
 
   marinePharma = [{
@@ -220,6 +227,10 @@ export class LabpageComponent implements OnInit {
   }];
 
   CoREbool:boolean = false;
+  mplbool:boolean = false;
+  MMEELbool:boolean = false;
+  algaebool:boolean = false;
+  mmlbbool:boolean = false;
   myArr = [];
 
   constructor(private router:Router) { }
@@ -227,12 +238,14 @@ export class LabpageComponent implements OnInit {
   ngOnInit(): void {
     if(this.router.url === '/Research/laboratories/marine-molecular-biology-lab'){
       this.myArr = this.mmlb;
+      this.mmlbbool= true;
     }else if(this.router.url === '/Research/laboratories/marine-invertebrate-ecology-lab'){
       this.myArr = this.miel;
     }else if(this.router.url === '/Research/laboratories/microbial-oceanography-lab'){
       this.myArr = this.mol;
     }else if(this.router.url === '/Research/laboratories/algal-eco-physiology-lab'){
       this.myArr = this.algae;
+      this.algaebool= true;
     }else if(this.router.url === '/Research/laboratories/coral-reef-ecology-laboratory'){
       this.myArr = this.CoRE;
       this.CoREbool= true;
@@ -240,6 +253,7 @@ export class LabpageComponent implements OnInit {
       this.myArr = this.OCCO;
     }else if(this.router.url === '/Research/laboratories/marine-molecular-ecology-and-evolution-laboratory'){
       this.myArr = this.MMEEL;
+      this.MMEELbool= true;
     }else if(this.router.url === '/Research/laboratories/organic-and-stable-isotope-geochemistry'){
       this.myArr = this.oasis;
     }else if(this.router.url === '/Research/laboratories/Interactions-of-Marine-Bionts-and-Benthic-Ecosystems'){
@@ -248,6 +262,7 @@ export class LabpageComponent implements OnInit {
       this.myArr = this.mbl;
     }else if(this.router.url === '/Research/laboratories/Marine-Phycology-Laboratory'){
       this.myArr = this.mpl;
+      this.mplbool= true;
     }else if(this.router.url === '/Research/laboratories/Biological-Oceanography-and-Modeling-of-Ecosystem-laboratory'){
       this.myArr = this.biome;
     }else if(this.router.url === '/Research/laboratories/marine-pharmacognosy-laboratory'){

@@ -36,9 +36,10 @@ export class FacultyComponent implements OnInit {
     {name: 'Lilibeth A. Salvador-Reyes, Ph.D.', label1: 'Associate Professor'},
     {name: 'Irene B. Rodriguez, Ph.D.', label1: 'Associate Professor'},
     {name: 'Maria Vanessa B. Rodriguez, Ph.D.', label1: 'Assistant Professor'},
-    {name: 'Michael Y. Roleda, Ph.D.', label1: 'Professor, Deputy Director for Facilities and Resources'},
-    {name: 'Wilfred John E. Santiañez, Ph.D.', label1: 'Assistant Professor', label2: 'Collections Manager, G.T. Velasquez Phycological Herbarium (MSI)'}, /**
-    edited : added label2 for wilfred
+    {name: 'Michael Y. Roleda, Dr. rer. nat.', label1: 'Professor, Deputy Director for Facilities and Resources'},
+    {name: 'Wilfred John E. Santiañez, Ph.D.', label1: 'Assistant Professor', label2: 'Collections Manager, G.T. Velasquez Phycological Herbarium (MSI)'},
+     /**
+    edited12 : edited Michael Y. Roledo name
     */
 
     {name: 'Fernando P. Siringan, Ph.D.', label1: 'Professor', label2: 'NAST Academician '},

@@ -2,7 +2,7 @@
   <div class="menu">
     <mat-icon class="menu-icon">menu</mat-icon>
     <div class="dropdown-menu">
-      <span routerLink="/Home">HOME</span>
+      <span routerLink="/">HOME</span>
 
       <div class="main-menu">
         <span style=" display: flex; justify-content: flex-end; position: relative;"><mat-icon style="position: absolute; left: 0;">arrow_left</mat-icon><p routerLink="/About" style="width: fit-content;">ABOUT</p></span>
@@ -19,6 +19,7 @@
             <span [routerLink]="['/News/news-headlines']">MSI News</span>
             <span [routerLink]="['/News/Announcement']">Announcements</span>
             <span [routerLink]="['/News/press-coverage-headlines']">Press Coverage</span>
+            <span [routerLink]="['/News/scicomm-headlines']">Features</span><!--edited12 -->
             <span [routerLink]="['/News/Vacancies-and-Opportunities/more']">Vacancies & Opportunities</span>
           </div>
       </div>

@@ -49,6 +49,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { MuseumTabComponent } from './components/resources/museum-exhibits/museum-tab/museum-tab.component';
 import { MoreStudNookComponent } from './components/education/studnook/more-studnook/more-studnook.component';
 import { StudNookComponent } from './components/education/studnook/studnook.component';
+import { MoreScicommComponent } from './components/news/more-scicomm/more-scicomm.component';
+import { ScicommContentComponent } from './components/news/scicomm-content/scicomm-content.component';
 
 const routes: Routes = [
   // {path: '', redirectTo: '/Home', pathMatch: 'full'},
@@ -106,6 +108,8 @@ const routes: Routes = [
   {path: 'News/Vacancies-and-Opportunities/more', component: MoreVacanciesComponent},
   {path: 'News/press-coverage-headlines', component: PressComponent},
   {path: 'News/press-coverage-headlines/:name', component: PressContentComponent},
+  {path: 'News/scicomm/:name', component: ScicommContentComponent},
+  {path: 'News/scicomm-headlines', component: MoreScicommComponent},
 ];
 
 @NgModule({

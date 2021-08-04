@@ -481,7 +481,11 @@ edited the badges
       {publi: 'Baria MVB, Guest JR, Aliño PM, Edwards AJ, Gomez ED  and AJ Heyward. 2010. Caging enhances early survival of the scleractinian coral Acropora tenuis. Journal of Experimental Marine Biology and Ecology 394: 149-153. (Impact factor: 1.866, Citation: 28)'},
       {publi: 'Vicentuan KC, Guest JR, Baria MVB, Cabaitan PC, Dizon RM, Villanueva RD, Aliño PM and Gomez ED, Edwards AJ and AJ Heyward. 2007.  Multi-species spawning of corals in northwestern Philippines. Coral reefs. DOI 10.1007/s00338-007-0325-8. (Impact factor: 3.324, Citation: 24)'},
     ]},
-    {image: 'https://dc373.4shared.com/img/nLpsES8Bea/s24/179c13effd0/18-Michael_Y_Roleda?async&rand=0.8056824945334196', name: 'Michael Y. Roleda, Ph.D.', email: 'myroleda@up.edu.ph', citation: 'https://scholar.google.com/citations?hl=en&user=GPFa2roAAAAJ&view_op=list_works', title1: 'Professor', badge: 'Deputy Director for Facilities and Resources', education1: 'Dr. rer. nat. (Biology)', education2: 'University of Bremen, Germany', RI: 'Algal stress physiology; applied phycology; biodiversity; cultivation; ecophysiology; photobiology',
+    {image: 'https://dc373.4shared.com/img/nLpsES8Bea/s24/179c13effd0/18-Michael_Y_Roleda?async&rand=0.8056824945334196', name: 'Michael Y. Roleda, Dr. rer. nat.', email: 'myroleda@up.edu.ph', citation: 'https://scholar.google.com/citations?hl=en&user=GPFa2roAAAAJ&view_op=list_works', title1: 'Professor', badge: 'Deputy Director for Facilities and Resources', education1: 'Dr. rer. nat. (Biology)', education2: 'University of Bremen, Germany', RI: 'Algal stress physiology; applied phycology; biodiversity; cultivation; ecophysiology; photobiology',
+    /**
+    edited12: edited name
+    */
+
     publication: [
       {publi: 'Ramin M, Franco M, Roleda MY, Aasen IM, Hetta M, Steinshamn H. 2019. In vitro evaluation of utilisable crude protein and methane production for a diet in which grass silage was replaced by different levels and fractions of extracted seaweed proteins. Anim. Feed Sci. Technol., 255:114225.'},
       {publi: 'Roleda MY, Hurd CL (2019) Seaweed nutrient physiology: Application of concepts to aquaculture and bioremediation. Phycologia 58:552-562. '},

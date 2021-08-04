@@ -31,6 +31,9 @@
   <p class="atlas-light banner-content">
     {{myArr[0].content1}}
   </p>
+  <p class="atlas-light banner-content" *ngIf="mplbool">
+    We actively work on the biology of seaweeds, especially their biodiversity, systematics, life history, and reproduction. We also dabble on algal community ecology, gravitating towards understanding the ecology of canopy-forming seaweeds such as Sargassum. Other research done by our team includes floristics, marine phytogeography, and molecular phylogenetics. Moreover, we conduct applied phycological research, with special reference to seaweed farming (i.e., mass cultivation of carrageenan-producing seaweeds <em> Kappaphycus</em>, <em>Eucheuma </em>, and <em> Halymenia </em>). Currently, we are scaling up on our efforts in harnessing underutilized seaweed resources such as the red seaweed Asparagopsis taxiformis and the green seaweeds <em>Ulva </em> by developing novel and/or locally adapted cultivation technologies for large-scale biomass production. This is to support the call of the seaweed industry to diversify our seaweed products.
+  </p>
 
   <ul *ngIf="CoREbool">
     <li>
@@ -91,7 +94,11 @@
     <div class="right">
       <p class="atlas-blackReg lab-title">Highlight</p>
 
-    <a [href]="myArr[0].labLink1" target="_blank" [ngClass]="{disabled: !myArr[0].labLink1}"><p class="atlas-light lab-content">{{myArr[0].labHighlight}}</p></a> <!-- edited-->
+    <a [href]="myArr[0].labLink1" target="_blank" [ngClass]="{disabled: !myArr[0].labLink1}"><p class="atlas-light lab-content">{{myArr[0].labHighlight}}</p>
+    <p class="atlas-light lab-content" *ngIf="MMEELbool">Recent research from the lab used molecular methods to revisit the taxonomic identification of a coral species complex, <em> Pocillopora damicornis</em>, characterized by extensive phenotypic plasticity which confounds accurate species identification.</p>
+    <p class="atlas-light lab-content" *ngIf="algaebool">Discovery of novel haplotypes from wild populations of <em>Kappaphycus</em> (<em>Gigartinales, Rhodophyta</em>) in the Philippines</p>
+    <p class="atlas-light lab-content" *ngIf="mmlbbool">Generated a transcriptome resource for the blue coral, <em>Heliopora coerula</em>, to determine the molecular mechanisms underlying its rapid growth at warmer temperatures.</p>
+    </a> <!-- edited-->
     <!-- kindly change the labHighbanner sa
 
       1.Marine Molecular Biology Laboratory.  photo name: Marine Molecular Highlight
@@ -103,16 +110,19 @@
 
     <div class="lab-cite">
       <p class="atlas-light" style="color: #ffffff; line-height: 1.3;">{{myArr[0].labAuthor}}</p> <!--edited -->
-      <p class="atlas-light" style="color: #ffffff;">{{myArr[0].labDate}}</p>
+      <p class="atlas-light" style="color: #ffffff;">&nbsp; {{myArr[0].labDate}}</p> <!-- edited12 : added &nbsp -->
     </div>
 
-    <a [href]="myArr[0].labLink2" target="_blank" [ngClass]="{disabled: !myArr[0].labLink2}"><p class="atlas-light lab-context">{{myArr[0].labContent}}</p></a>
+    <a [href]="myArr[0].labLink2" target="_blank" [ngClass]="{disabled: !myArr[0].labLink2}"><p class="atlas-light lab-context">{{myArr[0].labContent}}</p>
+    <p class="atlas-light lab-context" *ngIf="algaebool">Inorganic carbon utilization of tropical calcifying macroalgae and the impacts of intensive mariculture-derived coastal acidification on the physiological performance of the rhodolith <em>Sporolithon</em> sp.</p>
+    <p class="atlas-light lab-context" *ngIf="mmlbbool">Warm seawater temperature promotes substrate colonization by the blue coral, <em>Heliopora coerulea</em>. PeerJ. 7:e7785.</p>
+    </a>
 
     <p class="atlas-light lab-content">{{myArr[0].labHighlight2}}</p>
 
     <div class="lab-cite">
       <p class="atlas-light" style="color: #ffffff; line-height: 1.3; ">{{myArr[0].labAuthor2}}</p>
-      <p class="atlas-light" style="color: #ffffff;">{{myArr[0].labDate2}}</p>
+      <p class="atlas-light" style="color: #ffffff;">&nbsp; {{myArr[0].labDate2}}</p> <!-- edited12 : added &nbsp -->
     </div>
     </div>
   </div>

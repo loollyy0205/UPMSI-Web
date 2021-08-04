@@ -41,4 +41,8 @@ export class NewsComponent implements OnInit {
   press(){
     this.router.navigate(['/News/press-coverage-headlines']);
   }
+
+   moreScicomm(){
+    this.router.navigate(['/News/scicomm-headlines']);
+  }
 }
