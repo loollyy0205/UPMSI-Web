@@ -51,7 +51,10 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Villanoy,C., David, L., Cabrera, O., Atrigenio, M., Siringan, F., Aliño, P. and Villaluz, M. (2012). Coral reef ecosystems protect shore from high-energy waves under climate change scenarios. Climate Change Vol. 112 (2), pp. 493-505.'},
     ]},
 
-    {image: 'https://dc697.4shared.com/img/zLgZs-04ea/s24/179c13e9e28/02-Michael_P_Atrigenio?async&rand=0.573086578215513', name: 'Michael P. Atrigenio, Ph.D.', email: 'matrigenio@msi.upd.edu.ph', title1: 'Associate Professor', education1: 'Doctor of Philosophy in Marine Science Institute, University of the Philippines, Diliman',
+    {image: 'https://dc697.4shared.com/img/zLgZs-04ea/s24/179c13e9e28/02-Michael_P_Atrigenio?async&rand=0.573086578215513', name: 'Michael P. Atrigenio, Ph.D.', email: 'matrigenio@msi.upd.edu.ph', title1: 'Assistant Professor', education1: 'Doctor of Philosophy in Marine Science, Marine Science Institute, University of the Philippines, Diliman',
+    /**
+    edited13 : edited title and education
+    */
     publication: [
         {publi: 'Guzman C, Atrigenio M, Shinzato C, Aliño P, Conaco C (2019) Warm seawater temperature promotes substrate  colonization by the blue coral, Heliopora coerulea. PeerJ 7:e7785 https://doi.org/10.7717/peerj.7785'},
         {publi: 'Atrigenio M, Aliño P, Conaco C (2017) Influence of the blue coral Heliopora coerulea on Scleractinian coral larval  recruitment. J Mar Biol. 2017. https://doi.org/10.1155/2017/6015143'},

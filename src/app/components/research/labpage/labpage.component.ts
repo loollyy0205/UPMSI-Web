@@ -65,9 +65,12 @@ export class LabpageComponent implements OnInit {
     labLink1: 'https://www.e-algae.org/journal/view.php?number=2935#:~:text=Although%20the%20present%20study%20evaluated,the%20Philippines%20still%20harbor%20unutilized',
     labLink2: 'https://www.sciencedirect.com/science/article/abs/pii/S0269749120360322',
 
-    labAuthor2: 'Roleda, et al.,',
-    labDate2: 'November 2020',
+    labAuthor2: 'Narvarte, et al.,',
+    labDate2: '2020',
     site: 'https://algalecolab.weebly.com',
+    /**
+    edited13 : edited the author and date
+    */
   }
   ];
 
