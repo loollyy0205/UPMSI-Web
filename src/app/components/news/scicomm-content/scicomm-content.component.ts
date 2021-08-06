@@ -32,11 +32,16 @@ export class ScicommContentComponent implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit(): void {
-    switch(this.router.url) {
-      case '/News/scicomm/against-the-current-how-the-giant-clams-of-the-Philippines-escaped-extinction-with-the-help-of-science-and-the-community':
-        this.myArr = this.giantclam;
-        this.giantclamBool = true;
-        break;
+    // switch(this.router.url) {
+    //   case '/News/scicomm/against-the-current-how-the-giant-clams-of-the-Philippines-escaped-extinction-with-the-help-of-science-and-the-community':
+    //     this.myArr = this.giantclam;
+    //     this.giantclamBool = true;
+    //     break;
+    // }
+
+    if(this.router.url.includes('/News/scicomm/against-the-current-how-the-giant-clams-of-the-Philippines-escaped-extinction-with-the-help-of-science-and-the-community')){
+      this.myArr = this.giantclam;
+      this.giantclamBool = true;
     }
   }
 
