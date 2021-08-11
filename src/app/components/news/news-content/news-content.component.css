@@ -44,6 +44,17 @@ img{
   width: 100%;
 }
 
+ .pdf{
+  height: 700px;
+  width: 51.245vw;
+  display: flex;
+  flex-direction: column;
+  }
+
+a{
+text-decoration: none;
+}
+
 
 .img-container{
   margin-top: 3.660vw;
@@ -198,6 +209,12 @@ img{
     object-fit: cover;
     height: 100%;
     width: 100%;
+  }
+
+  .pdf{
+  width:630px; 
+  height:600px; 
+  margin-right: 10px;
   }
 
 

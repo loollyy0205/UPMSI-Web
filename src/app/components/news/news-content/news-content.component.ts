@@ -80,22 +80,37 @@ export class NewsContentComponent implements OnInit {
   narfleet = [{
     title: 'NARFleet is on its way to prowl Philippine waters',
     date: 'Updated April 30, 2021',
-    author: 'MSI Contributor',
+    author: 'By. Mia N. Judicpa & Gabrielle A. Abrahan, MSI Contributors',
     thumbnail: 'https://dc349.4shared.com/img/0HKY7wFdea/s24/179b1eed168/News-04-narfleet?async&rand=0.8674839178744718',
-    photoContent: 'One of the three research vessels of the NARFleet explores the open water. The expeditions begin this year, marking the start of the Philippines’ first long-term oceanic monitoring endeavor.',
-    courtesy: 'PHOTO COURTESY OF MSI Contributor',
-    location: 'West PH Sea',
-    locationContent: 'The National Academic Research Fleet (NARFleet) is set to embark on its first expedition soon. Established as a response to limited ocean research capacity, the NARFleet program aims to provide better access to ocean research for both the academe and the Philippine government. To achieve this, participating research groups will address problems such as reef protection and productivity, mapping the pelagic zone, and maximizing the use of bio resources. The University of the Philippines Visayas (UPV), Bicol University, and Mindanao State University - Iligan Institute of Technology (MSU-IIT) join the UP Marine Science Institute as collaborators and vessel hosts.',
+    photoContent: 'Filipino Marine Scientists Conclude WPS Summer Expeditions',
+    courtesy: 'PHOTO COURTESY OF xxxx',
+    location: 'xxxx',
+    locationContent: 'Researchers from The Marine Science Institute of the University of the Philippines (UP MSI) conducted two major expeditions in the West Philippine Sea (WPS) on April 23–May 5, and May 7–19, 2021 as part of the research programs “Upgrading Capacity, Infrastructure, and Assets For Marine Scientific Research in the Philippines (Upgrade CIA)” and “Predicting Responses Between Ocean Transport and Ecological Connectivity in Threatened Ecosystems in WPS 2 (PROTECT WPS 2)”, respectively. UP MSI’s M/Y Panata was the research vessel used, and the Chief Scientists were Dr. Charissa M. Ferrera for Upgrade CIA and Dr. Deo Florence L. Onda for PROTECT WPS 2. Collaborators from Western Philippines University in Palawan and UP Visayas were involved in the expeditions.',
     news: [
       {image: "https://dc585.4shared.com/img/6gvZfJ_fea/s24/179b1eea670/News-01-scientist?async&rand=0.3544943813759056", title: "Filipino scientist makes history by reaching the 3rd deepest spot on Earth", content: 'Few have been brave enough to venture the depths of the oceans. This year, microbial oceanographer Dr. Deo Florence L. Onda made history as the second human and the first Filipino to reach Emden Deep, the third deepest spot on earth.', url: 'filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth'},
       {image: "https://dc349.4shared.com/img/fTDppHwOiq/s24/179b1eeaa58/News-02-awards?async&rand=0.47529569452814435", title: "UPMSI scientists receive accolades from NAST, OMLC", content: 'Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center for Climate Change Adaptation and Disaster Risk Management Foundation, Inc (OMLC).', url: 'UPMSI-scientists-receive-accolades-from-NAST'},
       {image: "https://dc585.4shared.com/img/Pc3HKlRniq/s24/179b1eeb228/News-03-clams?async&rand=0.18442392924526962", title: "All About the Giant Clam", content: 'In the waters of Silaqui Island in Bolinao, Pangasinan, one could never miss the giant clams. The UPMSI Bolinao Marine Laboratory (BML) currently cultures four species at its onshore hatchery and ocean nursery.', url: 'all-about-the-giant-clam'},
       ]
-  }];
+   }];
+
+   wps = [{
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1628650267/News/wps-1_advztg.jpg',
+    photoContent: 'The West Philippine Sea (WPS) is home to rich ecosystems that provide valuable resources to the country. With its remarkable biodiversity, it also serves as a research frontier in marine science.',
+    locationContent: '',
+    news: [
+      {image: "https://dc585.4shared.com/img/6gvZfJ_fea/s24/179b1eea670/News-01-scientist?async&rand=0.3544943813759056", title: "Filipino scientist makes history by reaching the 3rd deepest spot on Earth", content: 'Few have been brave enough to venture the depths of the oceans. This year, microbial oceanographer Dr. Deo Florence L. Onda made history as the second human and the first Filipino to reach Emden Deep, the third deepest spot on earth.', url: 'filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth'},
+      {image: "https://dc349.4shared.com/img/fTDppHwOiq/s24/179b1eeaa58/News-02-awards?async&rand=0.47529569452814435", title: "UPMSI scientists receive accolades from NAST, OMLC", content: 'Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center for Climate Change Adaptation and Disaster Risk Management Foundation, Inc (OMLC).', url: 'UPMSI-scientists-receive-accolades-from-NAST'},
+      {image: "https://dc585.4shared.com/img/Pc3HKlRniq/s24/179b1eeb228/News-03-clams?async&rand=0.18442392924526962", title: "All About the Giant Clam", content: 'In the waters of Silaqui Island in Bolinao, Pangasinan, one could never miss the giant clams. The UPMSI Bolinao Marine Laboratory (BML) currently cultures four species at its onshore hatchery and ocean nursery.', url: 'all-about-the-giant-clam'},
+      ]
+   }];
+
+
 
   myArr = [];
   nastBool:boolean = true;
   clamsBool:boolean = false;
+  wpsBool:boolean = false;
+
 
   constructor(private router:Router) { }
 
@@ -114,6 +129,10 @@ export class NewsContentComponent implements OnInit {
         break;
       case '/News/content/NARFleet-is-on-its-way-to-prowl-Philippine-waters':
         this.myArr = this.narfleet;
+        break;
+      case '/News/content/wps-expeditions':
+        this.myArr = this.wps;
+        this.wpsBool = true;
         break;
     }
   }

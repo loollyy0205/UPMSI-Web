@@ -24,8 +24,11 @@
       <img class="twitter" src="../../../../assets/photos/twitter-link.png">
       <p class="atlas-light location-content">{{myArr[0].locationContent}}</p>
       <p class="atlas-light location-content" *ngIf="myArr[0].gclambool">More commonly known as "taklobo" in Filipino, giant clams <em>(Tridacna Gigas)</em> with electric green, brown, and violet colors that are impossible to miss are being grown in the waters surrounding Silaqui Island, the northernmost tip of the town of Bolinao, Pangasinan.</p>
-      <p class="atlas-light" style="line-height: 1.5; margin-top: 2%;">{{myArr[0].paragraph1}}</p>
 
+       <iframe class="atlas-light pdf location-content" *ngIf="wpsBool" src="https://drive.google.com/file/d/1m1EtefEk-0FQClJiCKaUrED3DWuev1no/preview?usp=sharing&embedded=true"frameborder="0">
+       </iframe>
+
+      
       <p class="atlas-light" style="line-height: 1.5; margin-top: 2%;" *ngIf="!nastBool">Dr. Rachel June R. Gotanco was conferred the Eduardo A. Quisumbing Medal for Basic Research alongside co-author Andrew F. Torres during the National Science and Technology Week (NSTW). The award recognizes the study entitled, "Rarity of the 'common' coral <em>Pocillopora damicornis</em> in the western Philippine Archipelago."</p>
       <p class="atlas-light" style="line-height: 1.5; margin-top: 2%;">{{myArr[0].paragraph2}}</p>
       <p class="atlas-light" style="line-height: 1.5; margin-top: 2%;">{{myArr[0].paragraph3}}</p>
