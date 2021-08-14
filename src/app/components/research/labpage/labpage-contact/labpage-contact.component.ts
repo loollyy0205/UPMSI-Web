@@ -8,75 +8,75 @@ import { Router } from '@angular/router';
 })
 export class LabpageContactComponent implements OnInit {
   mmlb = [{
-    logo: 'https://dc592.4shared.com/img/W3MJJDETea/s24/179ac81d748/MMBL_logo?async&rand=0.33033745831565375',
+    logo: 'https://res.cloudinary.com/upmsi/image/upload/v1628151417/Research/Laboratories/Conaco_MMBL/MMBL_logo_j1fzkk.png',
     email: 'Email: cconaco@msi.upd.edu.ph',
   }];
 
   miel = [{
-    logo: 'https://dc592.4shared.com/img/UXVa4VLsea/s24/179ac808f28/MIEL_Logo?async&rand=0.7027315813783175',
+    logo: 'https://res.cloudinary.com/upmsi/image/upload/v1628212365/Research/Laboratories/Juinio-Me%C3%B1ez_MIEL/MIEL_Logo_nqwuxk.png',
     room: 'Room 235',
     tel: 'Contact no.: (632) 981-8500 local 2908',
     email: 'Email: ajmenez@msi.upd.edu.ph / majm.lab@gmail.com '
   }];
 
   mol = [{
-    logo: 'https://dc592.4shared.com/img/oqoaYNfriq/s24/179ac7dd3f0/2_Logo?async&rand=0.9916611130663846',
+    logo: 'https://res.cloudinary.com/upmsi/image/upload/v1628212508/Research/Laboratories/Onda_MOLab/2._Logo_ueteea.png',
     tel: 'Phone: +63 2 8 981 8500 local 2916',
     email: 'Email: microocelab@msi.upd.edu.ph'
   }];
 
   algae = [{
-    logo2: 'https://dc592.4shared.com/img/49qxAylBea/s24/179ac7e7fd0/0_AlgaE_lab_logo_hi-res?async&rand=0.23334327280584444',
+    logo2: 'https://res.cloudinary.com/upmsi/image/upload/v1628212560/Research/Laboratories/Roleda-Algal-Eco-Lab/0_AlgaE_lab_logo_hi-res_dbunqu.png',
     tel: 'Contact no.: (63 02) 8991 8500',
     email: 'Email: algalecolab@msi.upd.edu.ph'
   }];
 
   CoRE = [{
-    logo2: 'https://dc570.4shared.com/img/6yOkqphiea/s24/179e56c0038/CoRE_Lab_logo_version_7__?async&rand=0.5529220824293584',
+    logo2: 'https://res.cloudinary.com/upmsi/image/upload/v1628148249/Research/Laboratories/Cabaitan_CoRELab/CoRE_Lab_logo_version_7___lzgxpt.png',
     room: 'Coral Reef Ecology Laboratory',
     email: 'Email: pcabaitan@msi.upd.edu.ph'
   }];
 
   OCCO = [{
-    logo: 'https://dc570.4shared.com/img/z4JW2PGXea/s24/179e59e85d0/OCCO_Lab_logo_-_colored?async&rand=0.9107429452790894',
+    logo: 'https://res.cloudinary.com/upmsi/image/upload/v1628151851/Research/Laboratories/David_OCCO/OCCO_Lab_logo_-_colored_vkp6ut.png',
     room: 'Rm 344,',
     tel: 'Contact no.: +6327 219-1118 / +639178370182',
     email: 'Email: ltdavid@msi.upd.edu.ph'
   }];
 
   MMEEL = [{
-    logo: 'https://dc570.4shared.com/img/7mvu_c5dea/s24/179e6c064d8/2_official_mmeel_logo?async&rand=0.035765982982655764',
+    logo: 'https://res.cloudinary.com/upmsi/image/upload/v1628152837/Research/Laboratories/Gotanco_MMEEL/2_official_mmeel_logo_tqrlbh.png',
     room: 'Rm 108,',
     tel: '+63 2 8981 8500 ext 2912',
     email: 'Email: mmeel@msi.upd.edu.ph'
   }];
 
   oasis = [{
-    logo: 'https://dc570.4shared.com/img/vykwcEP0iq/s24/179e6ce4788/OASIS_Logo_Colored?async&rand=0.3396722751313206',
+    logo: 'https://res.cloudinary.com/upmsi/image/upload/v1628211774/Research/Laboratories/Jaraula_OASIS/OASIS_Logo_Colored_xab7os.png',
     tel: 'Contact no.: (02) 8981-8500 loc 2907',
     email: 'Email: oasisgeochemistrylab@gmail.com'
   }];
 
   imbbe = [{
-    logo: 'https://dc570.4shared.com/img/-wl26qHIiq/s24/179e7093960/2_IMBiBE_logo?async&rand=0.11372596475990937',
+    logo: 'https://res.cloudinary.com/upmsi/image/upload/v1628212431/Research/Laboratories/MVB%20Rodriguez_IMBiBE/2._IMBiBE_logo_hyjcti.png',
     room: 'Rm. 270, 268 and 117,',
     email: 'Email: imbibelab@msi.upd.edu.ph'
   }];
 
   mbl = [{
-    logo: 'https://dc570.4shared.com/img/WehzBd6kea/s24/179e70c65e0/MBLlogo_F?async&rand=0.7480877507135706',
+    logo: 'https://res.cloudinary.com/upmsi/image/upload/v1628212996/Research/Laboratories/San-Diego-McGlone_MBL/2_Logo/MBLlogo_F_jicjrf.png',
     tel: 'Contact No: +632 922 3944',
     email: 'Email: mlmcglone@msi.upd.edu.ph'
   }];
 
   mpl = [{
-    logo: 'https://dc570.4shared.com/img/nne_EGJBiq/s24/179e71b2f08/logo-marine-phycology-lab?async&rand=0.44681208196961486',
+    logo: 'https://res.cloudinary.com/upmsi/image/upload/v1628213231/Research/Laboratories/Santianez_MarinePhycoLab/logo-marine-phycology-lab_pmnoyw.png',
     tel: 'Contact no.: (63 02) 8922 3958',
     email: 'Email: marinephycolab@msi.upd.edu.ph'
   }];
 
   biome = [{
-    logo2: 'https://dc570.4shared.com/img/-FZ7AQI6iq/s24/179e7280fe8/BiOME_logo_official?async&rand=0.5985281752795979',
+    logo2: 'https://res.cloudinary.com/upmsi/image/upload/v1628215906/Research/Laboratories/Yniguez_BiOME/BiOME_logo_official_a2iipz.jpg',
     tel: 'Contact no.: +63 2 922-3962',
     email: 'Email: atyniguez@msi.upd.edu.ph'
   }];
@@ -89,13 +89,13 @@ export class LabpageContactComponent implements OnInit {
   }];
 
   ecoDynamics = [{
-    logo3: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1623833420/Laboratories/Ecosystem%20Dynamics/0-logo_ypohmh.png',
+    logo3: 'https://res.cloudinary.com/upmsi/image/upload/v1628927297/Research/Laboratories/Yap_EDLab/0-logo_ypohmh_qtso3w.png',
     email: 'Email: helentyap@yahoo.com',
     tel: 'Contact no.: 02-8922 3959',
   }];
 
   pbbl = [{
-    logo3: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1624855706/Research/Laboratories/Yu/01-pbbl-logo-hi-res_copy_ine3mq.png',
+    logo3: 'https://res.cloudinary.com/upmsi/image/upload/v1628216118/Research/Laboratories/Yu_PBBL/01-pbbl-logo-hi-res_hqgjh1.png',
     email: 'Email: pbbl@msi.upd.edu.ph',
   }];
   myArr = [];

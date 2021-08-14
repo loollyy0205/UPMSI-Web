@@ -43,7 +43,7 @@ img{
 
 .first-content .right-fc1 .news-left{
   width: 50%;
-  background-image: url(https://dc349.4shared.com/img/fTDppHwOiq/s24/179b1eeaa58/News-02-awards?async&rand=0.5036393626792237);
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628147198/News/News%20Icons/News-02-awards_fiqdzh.png);
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
@@ -73,7 +73,7 @@ img{
 
 .sec-content .left-fc1 .news-left{
   width: 50%;
-  background-image: url(https://dc585.4shared.com/img/Pc3HKlRniq/s24/179b1eeb228/News-03-clams?async&rand=0.06831474129240833);
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628147225/News/News%20Icons/News-03-clams_yczwfs.png);
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
@@ -87,7 +87,7 @@ img{
 
 .sec-content .right-fc1 .news-left{
   width: 50%;
-  background-image: url(https://dc585.4shared.com/img/0HKY7wFdea/s24/179b1eed168/News-04-narfleet?async&rand=0.5455181720695743);
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628147198/News/News%20Icons/News-04-narfleet_g3lebs.png);
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
@@ -184,7 +184,7 @@ img{
   .first-content .right-fc1 .news-left{
     width: 100%;
     height: 52.267vw;
-    background-image: url(https://dc349.4shared.com/img/fTDppHwOiq/s24/179b1eeaa58/News-02-awards?async&rand=0.5036393626792237);
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628147198/News/News%20Icons/News-02-awards_fiqdzh.png);
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
@@ -216,7 +216,7 @@ img{
   .sec-content .left-fc1 .news-left{
     width: 100%;
     height: 52.267vw;
-    background-image: url(https://dc585.4shared.com/img/Pc3HKlRniq/s24/179b1eeb228/News-03-clams?async&rand=0.06831474129240833);
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628147225/News/News%20Icons/News-03-clams_yczwfs.png);
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
@@ -232,7 +232,7 @@ img{
   .sec-content .right-fc1 .news-left{
     width: 100%;
     height: 52.267vw;
-    background-image: url(https://dc585.4shared.com/img/0HKY7wFdea/s24/179b1eed168/News-04-narfleet?async&rand=0.5455181720695743);
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628147198/News/News%20Icons/News-04-narfleet_g3lebs.png);
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;

@@ -8,16 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VacanciesOppComponent implements OnInit {
   apr9 = [
-    {thumbnail: 'https://dc585.4shared.com/img/SyHiB3ulea/s24/179b20e5f88/169570726_10160205766627323_78?async&rand=0.4963483103750912'}
+    {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1628147007/News/crop1_n1jb3u.jpg'}
   ]
   mar17 = [
-    {thumbnail: 'https://dc585.4shared.com/img/F6fSJSDDea/s24/179b20e5ba0/161941672_10157998106685509_24?async&rand=0.18343630716970516'}
+    {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1628147005/News/crop2_e6sjhv.jpg'}
   ]
   mar05 = [
-    {thumbnail: 'https://dc585.4shared.com/img/HZ5bHjZSea/s24/179b20e57b8/157700410_906574743443631_5420?async&rand=0.2260014347817274'}
+    {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1628147006/News/crop3_bxg6df.jpg'}
   ]
   feb20 = [
-    {thumbnail: 'https://dc585.4shared.com/img/huUuQ2h_ea/s24/179b20e4fe8/151139169_3589025434543507_473?async&rand=0.3172312285738339'}
+    {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1628147007/News/crop4_akease.jpg'}
   ]
 
   myArr = [];

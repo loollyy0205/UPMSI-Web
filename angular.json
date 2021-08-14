@@ -29,8 +29,7 @@
               "node_modules/animate.css/animate.min.css",
               "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css"
             ],
-            "scripts": [
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -124,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "UPMSI"
+  "defaultProject": "UPMSI",
+  "cli": {
+    "analytics": "162d3564-6a9e-4e91-b5f6-196a96d39505"
+  }
 }
