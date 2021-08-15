@@ -30,7 +30,7 @@ a {
 
 .banner1 {
   height: 36.603vw;
-  background-image: url('https://res.cloudinary.com/dqs7gg03v/image/upload/v1623322137/Contact/01-banner_onm6p4.png');
+  background-image: url('https://res.cloudinary.com/upmsi/image/upload/v1627981605/Contact/01-banner_ogidmx.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: grid; place-items: center;
@@ -39,7 +39,7 @@ a {
 .banner2 {
   margin-top: 3.660vw;
   height: 36.603vw;
-  background-image: url('https://res.cloudinary.com/dqs7gg03v/image/upload/v1623322139/Contact/02-banner_ckajnz.png');
+  background-image: url('https://res.cloudinary.com/upmsi/image/upload/v1627981613/Contact/02-banner_yupf11.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: grid; place-items: center;
@@ -111,7 +111,7 @@ a {
   .banner1 {
     height: 100%;
     width: 100%;
-    background-image: url('https://res.cloudinary.com/dqs7gg03v/image/upload/v1623322137/Contact/01-banner_onm6p4.png');
+    background-image: url('https://res.cloudinary.com/upmsi/image/upload/v1627981605/Contact/01-banner_ogidmx.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: grid; place-content: center;
@@ -121,7 +121,7 @@ a {
     margin-top: 6vw;
     width: 100%;
     height: 100%;
-    background-image: url('https://res.cloudinary.com/dqs7gg03v/image/upload/v1623322139/Contact/02-banner_ckajnz.png');
+    background-image: url('https://res.cloudinary.com/upmsi/image/upload/v1627981613/Contact/02-banner_yupf11.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: grid; place-content: center;

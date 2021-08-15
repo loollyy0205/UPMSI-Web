@@ -61,21 +61,21 @@ img{
 }
 
 .left-image {
-  background-image: url(https://dc570.4shared.com/img/fkUOjixwiq/s24/179d4c630c8/02_online?async&rand=0.23037159108046468);
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018845/Resources/RVA/02_awctsb.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 48.5%;
 }
 
 .left-image2 {
-  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1624852384/Resources/RVA/The_Culture_Collection_xgt9dm.png);
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018870/Resources/RVA/The_Culture_Collection_ywf9nt.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 48.5%;
 }
 
 .left-image3 {
-  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1625567721/Resources/RVA/IMG_20210706_155159_100_zjjfkb.png);
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018859/Resources/RVA/IMG_20210706_155159_100_leco8n.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 48.5%;
@@ -108,7 +108,7 @@ img{
 }
 
 .the-founder .left-image {
-  background-image: url(https://dc570.4shared.com/img/MTfvcsI0ea/s24/179d4c63898/03_online?async&rand=0.39985390008232824);
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018838/Resources/RVA/03_halnrr.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 17.570vw;
@@ -402,7 +402,7 @@ img{
   }
 
   .left-image {
-    background-image: url(https://dc570.4shared.com/img/fkUOjixwiq/s24/179d4c630c8/02_online?async&rand=0.23037159108046468);
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018845/Resources/RVA/02_awctsb.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -411,14 +411,14 @@ img{
   }
 
   .left-image2 {
-    background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1624852384/Resources/RVA/The_Culture_Collection_xgt9dm.png);
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018870/Resources/RVA/The_Culture_Collection_ywf9nt.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 48.5%;
   }
 
   .left-image3 {
-    background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1625567721/Resources/RVA/IMG_20210706_155159_100_zjjfkb.png);
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018859/Resources/RVA/IMG_20210706_155159_100_leco8n.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -452,7 +452,7 @@ img{
   }
 
   .the-founder .left-image {
-    background-image: url(https://dc570.4shared.com/img/MTfvcsI0ea/s24/179d4c63898/03_online?async&rand=0.39985390008232824);
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018838/Resources/RVA/03_halnrr.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vw;

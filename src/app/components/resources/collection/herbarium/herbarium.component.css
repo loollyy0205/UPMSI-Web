@@ -56,14 +56,14 @@ img{
 }
 
 .left-image {
-  background-image: url(https://dc628.4shared.com/img/G1qPettfiq/s24/179c042ec90/02-the_facility?async&rand=0.12958396840575426);
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018792/Resources/GT%20Velasquez/02-the_facility_feuvbm.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 48.5%;
 }
 
 .left-image2 {
-  background-image: url(https://dc628.4shared.com/img/2lXKjlIgiq/s24/179c042fc30/04-footer?async&rand=0.44942615353506254);
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018793/Resources/GT%20Velasquez/04-footer_f9aazf.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 48.5%;
@@ -96,7 +96,7 @@ img{
 }
 
 .the-founder .left-image {
-  background-image: url(https://dc697.4shared.com/img/k6lP1nJXea/s24/179c042f078/03-Dr_Velasquez?async&rand=0.5061429361513932);
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018796/Resources/GT%20Velasquez/03-Dr._Velasquez_cmj13e.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 17.570vw;
@@ -331,7 +331,7 @@ img{
   }
 
   .left-image {
-    background-image: url(https://dc628.4shared.com/img/G1qPettfiq/s24/179c042ec90/02-the_facility?async&rand=0.12958396840575426);
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018792/Resources/GT%20Velasquez/02-the_facility_feuvbm.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -340,7 +340,7 @@ img{
   }
 
   .left-image2 {
-    background-image: url(https://dc628.4shared.com/img/2lXKjlIgiq/s24/179c042fc30/04-footer?async&rand=0.44942615353506254);
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018793/Resources/GT%20Velasquez/04-footer_f9aazf.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 48.5%;
@@ -373,7 +373,7 @@ img{
   }
 
   .the-founder .left-image {
-    background-image: url(https://dc697.4shared.com/img/k6lP1nJXea/s24/179c042f078/03-Dr_Velasquez?async&rand=0.5061429361513932);
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018796/Resources/GT%20Velasquez/03-Dr._Velasquez_cmj13e.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vw;

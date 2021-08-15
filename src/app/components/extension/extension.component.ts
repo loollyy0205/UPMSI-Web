@@ -10,12 +10,12 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 export class ExtensionComponent implements OnInit {
 
   images = [
-    {path: "https://dc729.4shared.com/img/OoxzdrzLea/s24/179b15df760/gallery-04?async&rand=0.8173222550982155", name: `Ed-Gomez-through-the-years`},
-    {path: "https://dc729.4shared.com/img/7kXWJlFnea/s24/179b15deba8/gallery-03?async&rand=0.12875335433782564", name: `BML-visit-of-chancellor-Tan-&-party-Jan-2016`},
-    {path: "https://dc585.4shared.com/img/aFtchGtwea/s24/179b15e0ed0/gallery-05?async&rand=0.5433471774763841", name: `benham-rise-oceanographic-cruise`},
-    {path: "https://dc585.4shared.com/img/OVlmm-L3iq/s24/179b15ddc08/gallery-02?async&rand=0.9382601495414822", name: `UP-MPRO-visit-to-BML`},
-    {path: "https://dc585.4shared.com/img/g5XYVRFqiq/s24/179b15dd050/gallery-01?async&rand=0.7337152364772384", name: `PH-rise-oceanographic-cruise`},
-    {path: "https://dc729.4shared.com/img/_V2c6OdJiq/s24/179b15e1e70/gallery-06?async&rand=0.08288649428304029", name: `WPS`},
+    {path: "https://res.cloudinary.com/upmsi/image/upload/v1627981759/Extension/gallery-04_z6hi61.png", name: `Ed-Gomez-through-the-years`},
+    {path: "https://res.cloudinary.com/upmsi/image/upload/v1627981728/Extension/gallery-03_mrvsyp.png", name: `BML-visit-of-chancellor-Tan-&-party-Jan-2016`},
+    {path: "https://res.cloudinary.com/upmsi/image/upload/v1627981742/Extension/gallery-05_g43sx6.png", name: `benham-rise-oceanographic-cruise`},
+    {path: "https://res.cloudinary.com/upmsi/image/upload/v1627981764/Extension/gallery-02_fpk8jp.png", name: `UP-MPRO-visit-to-BML`},
+    {path: "https://res.cloudinary.com/upmsi/image/upload/v1627981754/Extension/gallery-01_wvd6ds.png", name: `PH-rise-oceanographic-cruise`},
+    {path: "https://res.cloudinary.com/upmsi/image/upload/v1627981760/Extension/gallery-06_khqgo9.png", name: `WPS`},
   ];
 
 

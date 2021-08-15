@@ -71,14 +71,14 @@ img{
 }
 
 .left-image {
-  background-image: url(https://dc570.4shared.com/img/dy5vQONEea/s24/179ea644370/3_msi-library__1_?async&rand=0.38460824835430696);
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628217449/Resources/2%20Library/3_msi-library_ritin0.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 48.5%;
 }
 
 .left-image2 {
-  background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1625494050/Resources/Library/updated-lib-services-facilities_zpz4n9.jpg);
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628217446/Resources/2%20Library/6_services-and-facility_oxlp4e.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 48.5%;
@@ -111,7 +111,7 @@ img{
 }
 
 .the-founder .left-image {
-  background-image: url(https://dc628.4shared.com/img/0XGVo30hiq/s24/179c04215b8/4_librarian-head?async&rand=0.5028103226906018);
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628217454/Resources/2%20Library/4_librarian-head_u3mu48.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
@@ -350,7 +350,7 @@ img{
   }
 
   .left-image {
-    background-image: url(https://dc570.4shared.com/img/dy5vQONEea/s24/179ea644370/3_msi-library__1_?async&rand=0.38460824835430696);
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628217449/Resources/2%20Library/3_msi-library_ritin0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -358,7 +358,7 @@ img{
   }
 
   .left-image2 {
-    background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1625494050/Resources/Library/updated-lib-services-facilities_zpz4n9.jpg);
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628217446/Resources/2%20Library/6_services-and-facility_oxlp4e.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 48.5%;
@@ -392,7 +392,7 @@ img{
   }
 
   .the-founder .left-image {
-    background-image: url(https://dc628.4shared.com/img/0XGVo30hiq/s24/179c04215b8/4_librarian-head?async&rand=0.5028103226906018);
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628217454/Resources/2%20Library/4_librarian-head_u3mu48.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
