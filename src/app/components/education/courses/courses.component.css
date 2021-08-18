@@ -96,10 +96,25 @@ mat-panel-title{
   margin-bottom: -0.732vw; /*edited */
 }
 
+.core-courses4{
+  margin-top: 0vw; /*edited*/
+  display: grid;
+  /* gap: 15px; */
+  font-size: 1.025vw; /*edited */
+  margin-bottom: 0vw; /*edited */
+  border-left: 0.220vw solid #5ca361;
+  }
+
 .core-content{
   display: grid;
   grid-template-columns: 2fr 4fr 4fr  !important; /*edited*/
   line-height: 1.5;
+}
+
+.core-content-add{
+  line-height: 1.5;
+  margin-left: 1vw;
+
 }
 
 .core-content:nth-child(n+2), .core-content2:nth-child(n+2), .core-content3:nth-child(n+2) {

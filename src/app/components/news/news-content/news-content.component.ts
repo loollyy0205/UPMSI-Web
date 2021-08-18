@@ -115,7 +115,8 @@ export class NewsContentComponent implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit(): void {
-    switch(this.router.url) {
+  /**
+    switch(this.router.url.includes) {
       case '/News/content/filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth':
         this.myArr = this.deepestSpot;
         break;
@@ -135,6 +136,25 @@ export class NewsContentComponent implements OnInit {
         this.wpsBool = true;
         break;
     }
+    */
+    if(this.router.url.includes('/News/content/filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth')){
+      this.myArr = this.deepestSpot;
+      }
+    if(this.router.url.includes('/News/content/UPMSI-scientists-receive-accolades-from-NAST')){
+      this.myArr = this.NAST;
+      this.nastBool = false;
+      }
+    if(this.router.url.includes('/News/content/all-about-the-giant-clam')){
+      this.myArr = this.clams;
+      this.clamsBool = true;
+      }
+    if(this.router.url.includes('/News/content/NARFleet-is-on-its-way-to-prowl-Philippine-waters')){
+      this.myArr = this.narfleet;
+      }
+    if(this.router.url.includes('/News/content/wps-expeditions')){
+      this.myArr = this.wps;
+      this.wpsBool = true;
+      }
   }
 
   moreMsiNews(){

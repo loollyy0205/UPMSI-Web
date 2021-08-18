@@ -192,6 +192,8 @@ export class PressContentComponent implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit(): void {
+
+  /**
     switch(this.router.url) {
       case '/News/press-coverage-headlines/Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep':
         this.myArr = this.press01;
@@ -228,12 +230,44 @@ export class PressContentComponent implements OnInit {
         break;
 
     }
+    */
+
+    if(this.router.url.includes('/News/press-coverage-headlines/Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep')){
+      this.myArr = this.press01;
+      }
+    if(this.router.url.includes('/News/press-coverage-headlines/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david')){
+      this.myArr = this.press02; 
+      }
+    if(this.router.url.includes('/News/press-coverage-headlines/Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources')){
+      this.myArr = this.press03;
+      }
+    if(this.router.url.includes('/News/press-coverage-headlines/SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ')){
+      this.myArr = this.press04;
+      }
+    if(this.router.url.includes('/News/press-coverage-headlines/ON-THE-SPOT-All-filipino-scientific-expedition-sa-kalayaan-island-sa-West-Philippine-Sea')){
+      this.myArr = this.press05;
+      }
+    if(this.router.url.includes('/News/press-coverage-headlines/BT-Paglalakbay-ng-ilang-kawani-ng-gobyerno-at-estudyante-ng-UP-marine-science-institute')){
+     this.myArr = this.press6;
+      }
+    if(this.router.url.includes('/News/press-coverage-headlines/Manila-Bay-rehabilitasyon-o-reklamasyon')){
+      this.myArr = this.press7;
+      }
+    if(this.router.url.includes('/News/press-coverage-headlines/adopt-a-giant-clam-program-suportado-ng-UP-Marine-Science-Institute')){
+      this.myArr = this.press8;
+      }
+      if(this.router.url.includes('/News/press-coverage-headlines/AHA!-The-giant-clams-of-Bolinao-Pangasinan')){
+      this.myArr = this.press9;
+      }
+    if(this.router.url.includes('/News/press-coverage-headlines/how-to-take-care-of-giant-clams')){
+      this.myArr = this.press10;
+      }
+    if(this.router.url.includes('/News/press-coverage-headlines/the-giant-clam-nursery-in-Bolinao-Pangasinan')){
+      this.myArr = this.press11;
+      }
   }
 
-          /**
-        edited9 : edited ng switch case numbers (3)
-        */
-
+      
   moreMsiNews(){
     this.router.navigate(['/News/press-coverage-headlines']);
   }

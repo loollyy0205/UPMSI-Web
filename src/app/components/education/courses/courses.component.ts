@@ -1,5 +1,7 @@
+import { Router } from '@angular/router';
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatAccordion } from '@angular/material/expansion';
+
 
 @Component({
   selector: 'app-courses',
@@ -7,6 +9,11 @@ import { MatAccordion } from '@angular/material/expansion';
   styleUrls: ['./courses.component.css']
 })
 export class CoursesComponent implements OnInit {
+
+ courses1 = [{
+ name: 'MS 101',
+ }];  
+
   @ViewChild(MatAccordion) accordion: MatAccordion;
   panelOpenState:boolean =false;
   panelOpenState1:boolean =false;
@@ -44,7 +51,15 @@ export class CoursesComponent implements OnInit {
   panelOpenState28:boolean =false;
   panelOpenState29:boolean =false;
   panelOpenState30:boolean =false;
-  constructor() { }
+
+ 
+myArr = [];
+    
+  constructor( private router:Router) { }
+
+
+   
+
 
   scrollUp(event){
     // setTimeout(() => {
@@ -58,6 +73,7 @@ export class CoursesComponent implements OnInit {
   // }
 
   ngOnInit(): void {
+
   }
 
 }

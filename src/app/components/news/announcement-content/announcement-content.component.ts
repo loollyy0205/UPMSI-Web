@@ -78,6 +78,7 @@ export class AnnouncementContentComponent implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit(): void {
+  /**
     switch(this.router.url) {
       case '/News/Announcement/a-letter-for-Dr.-Ed-Gomez-on-his-first-death-anniversary':
         this.myArr = this.deathAnniv;
@@ -93,6 +94,21 @@ export class AnnouncementContentComponent implements OnInit {
         this.myArr = this.emeriti;
         break;
     }
+    */
+
+    if(this.router.url.includes('/News/Announcement/a-letter-for-Dr.-Ed-Gomez-on-his-first-death-anniversary')){
+      this.myArr = this.deathAnniv;
+      }
+    if(this.router.url.includes('/News/Announcement/UPMSI-official-statement-on-DENR-claims')){
+      this.myArr = this.denr;
+      this.denrBool = true;
+      }
+    if(this.router.url.includes('/News/Announcement/UPMSI-official-statement-on-the-addition-of-Dolomite-Sand-to-Manila-Bay')){
+      this.dolomite;
+      }
+    if(this.router.url.includes('/News/Announcement/the-UPMSI-is-home-to-two-new-professors-emeriti')){
+      this.myArr = this.emeriti;
+      }
   }
 
   nextNews(url:string){
