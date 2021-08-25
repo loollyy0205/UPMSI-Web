@@ -118,23 +118,23 @@ dialog::backdrop {
 
 @font-face{
   font-family: 'atlas-light';
-  src: url("https://res.cloudinary.com/dqs7gg03v/raw/upload/v1623321704/Fonts/AtlasGrotesk-Light_jom77u.otf");
+  src: url("https://res.cloudinary.com/upmsi/raw/upload/v1627981549/Assets/AtlasGrotesk-Light_b1pbfb.otf");
   font-weight: 100;
 }
 
 @font-face{
   font-family: 'atlas-bold';
-  src: url("https://res.cloudinary.com/dqs7gg03v/raw/upload/v1623321704/Fonts/AtlasGrotesk-Bold_mocbtm.otf");
+  src: url("https://res.cloudinary.com/upmsi/raw/upload/v1627981549/Assets/AtlasGrotesk-Bold_wb7tdv.otf");
 }
 
 @font-face{
   font-family: 'atlas-blackReg';
-  src: url("https://res.cloudinary.com/dqs7gg03v/raw/upload/v1623321704/Fonts/Atlas_Grotesk_Web_Black_Regular_t0wgrn.ttf");
+  src: url("https://res.cloudinary.com/upmsi/raw/upload/v1627981549/Assets/Atlas_Grotesk_Web_Black_Regular_cf4eju.ttf");
 }
 
 @font-face{
   font-family: 'Atlas Grotesk LC Web Reg Italic';
-  src: url("https://res.cloudinary.com/dqs7gg03v/raw/upload/v1623321702/Fonts/Atlas_Grotesk_LC_Web_Reg_Italic_dgzcsg.ttf");
+  src: url("https://res.cloudinary.com/upmsi/raw/upload/v1627981549/Assets/Atlas_Grotesk_LC_Web_Reg_Italic_jvlh3c.ttf");
 }
 
 .blackItalic {

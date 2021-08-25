@@ -95,7 +95,7 @@ export class CoursesComponent implements OnInit {
 
    sem = [
     {name: 'MS 396 - Seminar 1:  Current Topics in Marine Science (for all MS students)', label1: 'All MSI Faculty'},
-    {name: 'MS 396 - Seminar (Marine Biology) '},
+    {name: 'MS 396 - Seminar (Marine Biology)'},
   ];
 
 
@@ -137,7 +137,7 @@ export class CoursesComponent implements OnInit {
     {name: 'MS 397 - Special Topics: Algal Photobiology and Photochemistry', label1: 'MYRoleda'},
     {name: 'MS 397 - Special Topics: Application of Satellite Altimetry (as needed)', label1: 'CLVillanoy'},
     {name: 'MS 397 - Special Topics: Mixing in Estuarine and Coastal Waters', label1: 'LTDavid'},
-    {name: 'MS 397 - Special Topics: Stable Isotope Geochem', label1: 'CBJaraula / IBRodriguez<'},
+    {name: 'MS 397 - Special Topics: Stable Isotope Geochem', label1: 'CBJaraula / IBRodriguez'},
     {name: 'MS 397 - Special Topics: Marine Observation Systems'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Applied Multivariate Data Analysis', label1: 'MJRPante'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Seaweed and Seagrass Research Methods', label1: 'MYRoleda'},
