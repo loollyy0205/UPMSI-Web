@@ -110,9 +110,7 @@ import { SearchComponent } from './components/search/search.component';
 import { MoreScicommComponent } from './components/news/more-scicomm/more-scicomm.component';
 import { ScicommBranchComponent } from './components/news/scicomm-branch/scicomm-branch.component';
 import { ScicommContentComponent } from './components/news/scicomm-content/scicomm-content.component';
-/**
 import { CoursesDialogComponent } from './components/education/courses/courses-dialog/courses-dialog.component';
-*/
 
 @NgModule({
   declarations: [
@@ -214,9 +212,7 @@ import { CoursesDialogComponent } from './components/education/courses/courses-d
     MoreScicommComponent,
     ScicommBranchComponent,
     ScicommContentComponent,
-    /**
     CoursesDialogComponent,
-    */
   ],
   imports: [
     BrowserModule,

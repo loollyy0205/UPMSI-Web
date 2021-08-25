@@ -104,6 +104,15 @@ img{
   z-index: 999;
 }
 
+.the-founder .left-image-3 {
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629861487/About/03%20Faculty/Faculty-Cropped/imageedit_2_7594054277_plf84i.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 17.570vw;
+  width: 17.570vw;
+  z-index: 999;
+}
+
 /*
 .the-founder .right-content-box {
   width: 53%;
@@ -340,7 +349,7 @@ img{
   }
 
   .left-image2 {
-    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629018793/Resources/GT%20Velasquez/04-footer_f9aazf.png);
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629861487/About/03%20Faculty/Faculty-Cropped/imageedit_2_7594054277_plf84i.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 48.5%;
@@ -380,6 +389,15 @@ img{
     width: 45vw;
     z-index: 999;
   }
+
+  .the-founder .left-image-3 {
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1627980997/About/03%20Faculty/27-31-Trono_luvrty.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vw;
+  width: 45vw;
+  z-index: 999;
+}
 
   /*
   .the-founder .right-content-box {

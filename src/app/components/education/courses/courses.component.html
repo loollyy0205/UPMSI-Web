@@ -17,572 +17,236 @@
   <p class="atlas-light marg-50" style="line-height: 1.4;">
     The UP MSI also offers undergraduate courses such as Oceans, the Marine Sciences, and Oceans and Us. Each student designs his or her own program of study, with interesting electives offered by the Institute and by other units of the College of Science. This curriculum adequately prepares graduate students to pursue their chosen fields of research.
   </p>
-    <mat-accordion>
-      <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState27 = true"
-          (closed)="panelOpenState27 = false">
-        <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState27 ? '#394e8a' : '#5ca361'">
-        <mat-panel-title class="atlas-light" style="color: white;">UNDERGRADUATE OFFERING</mat-panel-title>
-        </mat-expansion-panel-header>
 
-        <div class="core-courses2">
-          <div class="core-content3">
-            <p class="atlas-bold">MS 101</p>
-            <p class="atlas-light">Oceans</p>
-            <p class="atlas-light">LTDavid, GSJacinto, MLSMcGlone, FPSiringan, CLVillanoy, ATYñiquez</p>
+  <mat-accordion>
+    <mat-expansion-panel id="panel-1" class="mat-elevation-z0 grad-offering" (opened)="panelOpenState = true"
+        (closed)="panelOpenState = false">
+      <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState ? '#394e8a' : '#5ca361'">
+      <mat-panel-title class="atlas-light panel-title">UNDERGRADUATE OFFERING</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="regular3-content">
+        <div class="left3">
+          <div *ngFor="let item of undergrad" (click)="openDialog(item.name)">
+            <p class="atlas-bold">{{item.name}}</p>
+            <p class="atlas-light">{{item.label1}}</p>
+            <p class="atlas-light">{{item.label2}}</p>
           </div>
 
-          <div class="core-content3 neg-top">
-            <p class="atlas-bold">MS 102</p>
-            <p class="atlas-light">The Marine Sciences</p>
-            <p>PCCabaitan, MAJMeñez, DFLOnda, MHTYap</p>
-          </div>
+        </div>
 
-          <div class="core-content3 neg-top2">
-            <p class="atlas-bold">MS 1</p>
-            <p class="atlas-light">Oceans and Us</p>
-            <p class="atlas-light">CGConaco, LTDavid, RRGotanco, GSJacinto, CBJaraula, MJRPante, LSReyes,  IBRodriguez, MVBRodriguez,  WJESantiañez, FPSiringan, ATYñiguez</p>
+        <!--<div class="right">
+          <div *ngFor="let item of residentProf2" (click)="openDialog(item.name)">
+            <p class="atlas-bold">{{item.name}}</p>
+            <p class="atlas-light">{{item.label1}}</p>
+            <p class="atlas-light">{{item.label2}}</p>
+            <p class="atlas-light">{{item.label3}}</p>
+            <p class="atlas-light">{{item.label4}}</p>
+          </div>
+        </div> -->
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (click)="scrollUp($event)" id="panel-2" class="mat-elevation-z0 grad-offering" (opened)="panelOpenState1 = true"
+        (closed)="panelOpenState1 = false">
+      <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState1 ? '#394e8a' : '#5ca361'">
+      <mat-panel-title class="atlas-light panel-title">GRADUATE OFFERING</mat-panel-title>
+      </mat-expansion-panel-header>
+
+      <mat-accordion>
+          <mat-expansion-panel class="mat-elevation-z0 op-10 full-width" (opened)="panelOpenState2 = true"
+            (closed)="panelOpenState2 = false" hideToggle>
+              <mat-expansion-panel-header class="specific-class">
+               <mat-panel-title [class]="panelOpenState2 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState2 ? '#394e8a' : 'black'">COURSES OFFERED FOR FIRST SEMESTER</mat-panel-title>
+               </mat-expansion-panel-header>
+
+               <mat-accordion>
+          <mat-expansion-panel  (click)="scrollUp($event)" id="panel-3" class="mat-elevation-z0 op-10 full-width" (opened)="panelOpenState3 = true"
+            (closed)="panelOpenState3 = false">
+              <mat-expansion-panel-header class="specific-class">
+               <mat-panel-title [class]="panelOpenState3 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState3 ? '#394e8a' : 'black'">CORE COURSES</mat-panel-title>
+               </mat-expansion-panel-header>
+               <div class="regular-content full-height2">
+                <div class="left">
+                  <div *ngFor="let item of gfcore" (click)="openDialog(item.name)">
+              <p class="atlas-bold">{{item.name}}</p>
+              <p class="atlas-light">{{item.label1}}</p>
+             <p class="atlas-light">{{item.label2}}</p>
+            </div>
+            </div>
+
+            <div class="right">
+          <div *ngFor="let item of gfcore2" (click)="openDialog(item.name)">
+            <p class="atlas-bold">{{item.name}}</p>
+            <p class="atlas-light">{{item.label1}}</p>
+            <p class="atlas-light">{{item.label2}}</p>
           </div>
         </div>
 
-<!-- edited almost every conetent of core-content (ELECTIVES in Grad Offereing, 1st and 2nd Sem) -->
-
-
-      </mat-expansion-panel>
-
-      <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState = true"
-          (closed)="panelOpenState = false">
-        <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState ? '#394e8a' : '#5ca361'">
-        <mat-panel-title class="atlas-light" style="color: white;">GRADUATE OFFERING</mat-panel-title>
-        </mat-expansion-panel-header>
-
-        <mat-accordion>
-          <mat-expansion-panel class="mat-elevation-z0 top-10 full-width" (opened)="panelOpenState1 = true"
-              (closed)="panelOpenState1 = false" hideToggle>
-            <mat-expansion-panel-header class="specific-class">
-            <mat-panel-title [class]="panelOpenState1 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState1 ? '#394e8a' : 'black'">COURSES OFFERED FOR FIRST SEMESTER</mat-panel-title>
-            </mat-expansion-panel-header>
-
-            <mat-accordion>
-              <mat-expansion-panel class="mat-elevation-z0 top-neg20 full-width" hideToggle (opened)="panelOpenState2 = true"
-                (closed)="panelOpenState2 = false" hideToggle>
-              <mat-expansion-panel-header class="specific-class">
-              <mat-panel-title [class]="panelOpenState2 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState2 ? '#394e8a' : 'black'">&#9679; CORE COURSES</mat-panel-title>
-              </mat-expansion-panel-header>
-
-              <div class="core-courses full-width2">
-                <div class="core-content">
-                  <p class="atlas-bold">MS 201</p>
-                  <p>Ocean Physics and Chemistry</p>
-                  <p>CBJaraula / LTDavid/CRepollo</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 210</p>
-                  <p>Physical Oceanography</p>
-                  <p>CVillanoy / LTDavid/CRepollo</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 220</p>
-                  <p>Chemical Oceanography</p>
-                  <p>MLSMcGlone / GSJacinto</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 240</p>
-                  <p>Biological Oceanography</p>
-                  <p>MHTYap</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 270</p>
-                  <p>Biochemistry of Marine Organisms</p>
-                  <p>LSReyes / IBRodriguez / ETYu</p>
-                </div>
-
-              </div>
-              </mat-expansion-panel>
-
-              <mat-expansion-panel (click)="scrollUp($event)" id="panel-4"  class="mat-elevation-z0 top-neg10 full-width"(opened)="panelOpenState3 = true"
-                (closed)="panelOpenState3 = false" hideToggle>
-              <mat-expansion-panel-header class="specific-class">
-              <mat-panel-title [class]="panelOpenState3 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState3 ? '#394e8a' : 'black'">&#9679; ELECTIVES</mat-panel-title>
-              </mat-expansion-panel-header>
-
-              <div class="core-courses full-width2">
-                <div class="core-content">
-                  <p class="atlas-bold">MS 214</p>
-                  <p>Waves and Tides <br> (on demand)</p>
-                  <p>CLVillanoy / LTDavid</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 221</p>
-                  <p>Marine <br> Geochemistry</p>  <!-- edited -->
-                  <p>GSJacinto / CBJaraula</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 226</p>
-                  <p>Marine Pollution <br> Chemistry </p>
-                  <p>GSJacinto / MLSMcGlone / IBRodriguez</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 226.1</p>
-                  <p>Marine Pollution <br> Chemistry laboratory</p>
-                  <p>GSJacinto / MLSMcGlone</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 253</p>
-                  <p>Marine Chemical Ecology</p>
-                  <p>LSReyes / MVBRodriguez</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 255</p>
-                  <p>Coral Reef Ecosystems</p>
-                  <p>PCCabaitan</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 256</p>
-                  <p>Marine Algae</p>
-                  <p>WJESantiañez</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 261</p>
-                  <p>Physiology of Marine Algae</p>
-                  <p>MYRoleda</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 385</p>
-                  <p>Marine Toxinology <br> (every odd year)</p>
-                  <p>LSReyes / DFLOnda</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 397</p>
-                  <p>Special Topics: <br> Behavioral Ecology</p>
-                  <p>MAJMeñez</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 397</p>
-                  <p>Special Topics: <br> Genome Biology of Marine Organisms</p>
-                  <p>CGConaco</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 397</p>
-                  <p>Special Topics: <br> Gene Expression Control</p>
-                  <p>CGConaco</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 397</p>
-                  <p>Special Topics: <br> Ecological Modeling</p>
-                  <p>ATYñiguez</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 397</p>
-                  <p>Special Topics: <br> Ecological Restoration</p>
-                  <p>MVBRodriguez</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 397</p>
-                  <p>Special Topics:<br>  Molecular Ecology <br> and Evolution</p>
-                  <p>RRGotanco</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 397</p>
-                  <p>Special Topics: <br>Biological-Social <br> Structures</p>
-                  <p>GPConcepcion / MHTYap</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 397</p>
-                  <p>Special Topics: <br> Ecological Assessment <br> with Algae</p>
-                  <p>MYRoleda</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 397</p>
-                  <p>Special Topics:<br>  Marine Organic <br>Geochemistry <br> (as needed)</p>
-                  <p>CBJaraula</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 397</p>
-                  <p>Special Topics:<br>  Molecular Biology and <br> Bioinformatics of the<br> Biosynthesis of <br>Natural Products</p>
-                  <p>AOLluisma</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 398</p>
-                  <p>Advanced Methods in <br> Marine Science: <br> Quantitative Methods <br>in Microbial Ecology</p>
-                  <p>DFLOnda</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 398</p>
-                  <p>Advanced Methods in<br>  Marine Science: <br> Biostatistics</p>
-                  <p>MJRPante</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 398</p>
-                  <p>Advanced Methods in <br>  Marine Science: Practical <br>Scientific Programming <br> (every odd year)</p>
-                  <p>AOLluisma</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 398</p>
-                  <p>Advanced Methods in <br> Marine Science: Data <br> Analysis Methods<br>  in Oceans</p>
-                  <p>CLVillanoy / LTDavid/CRepollo</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 398</p>
-                  <p>Advanced Methods in <br> Marine Science: Ocean <br> Remote Sensing & Image <br> Analysis</p>
-                  <p>LTDavid</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 398</p>
-                  <p>Methods in Marine <br> Science: Advanced <br> Methods in Natural <br> Products</p>
-                  <p>LSReyes</p>
-                </div>
-
-              </div>
-              </mat-expansion-panel>
-
-               <mat-expansion-panel (click)="scrollUp($event)" id="panel-5"  class="mat-elevation-z0 top-neg10 full-width"(opened)="panelOpenState4 = true"
-                (closed)="panelOpenState4 = false" hideToggle>
-              <mat-expansion-panel-header class="specific-class">
-              <mat-panel-title [class]="panelOpenState4 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState4 ? '#394e8a' : 'black'">&#9679; SEMINARS</mat-panel-title>
-              </mat-expansion-panel-header> <!-- edited : Seminar to Seminars -->
-
-              <div class="core-courses ms396-1 full-width2"> <!-- edited -->
-                <div class="core-content">
-                  <p class="atlas-bold">MS 396</p>
-                  <p>Seminar 1:  Current Topics in Marine Science (for all MS students)</p>
-                  <p>All MSI Faculty</p>
-                </div>
-
-                <div class="core-content">
-                  <p class="atlas-bold">MS 396</p>
-                  <p>Seminar (Marine Biology)</p>
-                </div>
-              </div>
-              </mat-expansion-panel>
-            </mat-accordion>
+      </div>
           </mat-expansion-panel>
 
-          <mat-expansion-panel (click)="scrollUp($event)" id="panel-2"  class="mat-elevation-z0 top-10 full-width" hideToggle (opened)="panelOpenState6 = true"
-            (closed)="panelOpenState6 = false ">
-          <mat-expansion-panel-header class="specific-class">
-          <mat-panel-title [class]="panelOpenState6 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState6 ? '#394e8a' : 'black'">SECOND SEMESTER</mat-panel-title>
-          </mat-expansion-panel-header>
+          <mat-expansion-panel class="mat-elevation-z0 op-10 full-width" (opened)="panelOpenState4 = true"
+            (closed)="panelOpenState4 = false" hideToggle>
+              <mat-expansion-panel-header class="specific-class">
+               <mat-panel-title [class]="panelOpenState4 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState4 ? '#394e8a' : 'black'">ELECTIVES</mat-panel-title>
+               </mat-expansion-panel-header>
+               <div class="regular-content">
+                <div class="left">
+                  <div *ngFor="let item of gfelec" (click)="openDialog(item.name)">
+                    <p class="atlas-bold">{{item.name}}</p>
+                    <p class="atlas-light">{{item.label1}}</p>
+                    <p class="atlas-light">{{item.label2}}</p>
+                  </div>
+                </div>
 
-          <mat-accordion>
-            <mat-expansion-panel (click)="scrollUp($event)" id="panel-6"  class="mat-elevation-z0 top-neg20 full-width" hideToggle (opened)="panelOpenState7 = true"
-              (closed)="panelOpenState7 = false">
-            <mat-expansion-panel-header class="specific-class">
-            <mat-panel-title [class]="panelOpenState7 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState7 ? '#394e8a' : 'black'">&#9679; CORE COURSES</mat-panel-title>
-            </mat-expansion-panel-header>
-
-            <div class="core-courses">
-              <div class="core-content">
-                <p class="atlas-bold">MS 230</p>
-                <p>Geological Oceanography</p>
-                <p>FPSiringan / CBJaraula</p>
+                <div class="right">
+                 <div *ngFor="let item of gfelec2" (click)="openDialog(item.name)">
+                   <p class="atlas-bold">{{item.name}}</p>
+                   <p class="atlas-light">{{item.label1}}</p>
+                   <p class="atlas-light">{{item.label2}}</p>
+                 </div>
+                </div>
               </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 240</p>
-                <p>Biological Oceanography</p>
-                <p>MHTYap</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 272</p>
-                <p>Marine Biotechnology 1</p>
-                <p>AOLluisma</p>
-              </div>
-            </div>
-            </mat-expansion-panel>
-
-            <mat-expansion-panel (click)="scrollUp($event)" id="panel-7" class="mat-elevation-z0 top-neg10 full-width"hideToggle (opened)="panelOpenState8 = true"
-              (closed)="panelOpenState8 = false">
-            <mat-expansion-panel-header class="specific-class">
-            <mat-panel-title [class]="panelOpenState8 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState8 ? '#394e8a' : 'black'">&#9679; ELECTIVES</mat-panel-title>
-            </mat-expansion-panel-header>
-
-            <div class="core-courses">
-              <div class="core-content">
-                <p class="atlas-bold">MS 213</p>
-                <p>Dynamics <br> of Oceans</p> <!-- edited -->
-                <p>CLVillanoy</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 216</p>
-                <p>Numerical Ocean <br> Modeling (on demand)</p>
-                <p>CLVillanoy / LTDavid</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 217</p>
-                <p>Coastal and <br> Estuarine Oceanography</p>
-                <p>LTDavid</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 222</p>
-                <p>Chemistry of Marine <br> Coastal Environments <br> (every odd year)</p>
-                <p>GSJacinto / CBJaraula / MLSMcGlone</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 242</p>
-                <p>Marine Microbiology</p>
-                <p>CGConaco</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 246</p>
-                <p>Marine Phytoplankton</p>
-                <p>DFLOnda</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 250</p>
-                <p>Marine Ecology</p>
-                <p>MYRoleda</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 251</p>
-                <p>Population Biology of <br> Marine Organisms</p>
-                <p>PCCabaitan</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 252</p>
-                <p>Marine <br> Biogeography</p> <!-- edited -->
-                <p>PMAliño / MVBRodriguez / RRGotanco</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 254</p>
-                <p>Seagrasses and <br> Mangroves</p>
-                <p>MYRoleda</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 258</p>
-                <p>Marine Fishes</p>
-                <p>PCCabaitan</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 260</p>
-                <p>Marine <br> Biodiversity</p> <!-- edited -->
-                <p>ATYñiguez / RRGotanco / MVBRodriguez</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 273</p>
-                <p>Marine Biotechnology II <br>(every odd year)</p>
-                <p>ETYu</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 278</p>
-                <p>Marine Natural Products <br> (every even year)</p>
-                <p>LSReyes</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 280</p>
-                <p>Management of Marine <br>Resources (every even year)</p>
-                <p>PMAliño / MAJMeñez / MVBRodriguez</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 283</p>
-                <p>Marine Agronomy</p>
-                <p>WJESantiañez</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 361</p>
-                <p>Reproductive Biology</p>
-                <p>MAJMeñez</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 366</p>
-                <p>Population Genetics of <br>Marine Organisms</p>
-                <p>RRGotanco</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 397</p>
-                <p>Special Topics:<br> Seaweed Utilization</p>
-                <p>IBRodriguez</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 397</p>
-                <p>Special Topics: <br>Physical-Biological <br> Interactions  in the Oceans</p>
-                <p>ATYñiguez</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 397</p>
-                <p>Special Topics: Algal <br> Life <br>Histories and <br> Reproduction</p>
-                <p>WJESantiañez</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 397</p>
-                <p>Special Topics: Algal <br>Photobiology and <br> Photochemistry</p>
-                <p>MYRoleda</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 397</p>
-                <p>Special Topics: <br> Application of Satellite <br> Altimetry (as needed)</p>
-                <p>CLVillanoy</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 397</p>
-                <p>Special Topics: <br> Mixing in Estuarine and <br> Coastal Waters</p>
-                <p>LTDavid</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 397</p>
-                <p>Special Topics: <br> Stable Isotope Geochem</p>
-                <p>CBJaraula / IBRodriguez</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 397</p>
-                <p>Special Topics: <br> Marine Observation Systems  </p>
-                <p></p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 398</p>
-                <p>Advanced Methods in <br> Marine Science: Applied <br>Multivariate Data Analysis</p>
-                <p>MJRPante</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 398</p>
-                <p>Advanced Methods in <br> Marine Science: Seaweed  <br> and Seagrass  <br>Research Methods</p>
-                <p>MYRoleda</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 398</p>
-                <p>Advanced Methods in <br>  Marine Science: Techniques <br>  in Coral Reef Ecology</p>
-                <p>PCCabaitan</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 398</p>
-                <p>Advanced Methods in <br> Marine Science: Molecular <br>Biology Methods for <br> Marine Science</p>
-                <p>CGConaco / RRGotanco</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 398</p>
-                <p>Advanced Methods in <br> Marine Science: Elucidation <br> of Natural Products <br> (every odd year)</p>
-                <p>LSReyes</p>
-              </div>
-
-            </div>
-            </mat-expansion-panel>
-
-             <mat-expansion-panel (click)="scrollUp($event)" id="panel-8" class="mat-elevation-z0 top-neg10 full-width"hideToggle (opened)="panelOpenState9 = true"
-              (closed)="panelOpenState9 = false">
-            <mat-expansion-panel-header class="specific-class">
-            <mat-panel-title [class]="panelOpenState9 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState9 ? '#394e8a' : 'black'">&#9679; SEMINAR</mat-panel-title>
-            </mat-expansion-panel-header>
-
-            <div class="core-courses ms396">
-              <div class="core-content">
-                <p class="atlas-bold">MS 396</p>
-                <p>Seminar (Marine Biotechnology)</p>
-              </div>
-
-              <div class="core-content">
-                <p class="atlas-bold">MS 396</p>
-                <p>Seminar (Physical Sciences)</p>
-              </div>
-            </div>
-            </mat-expansion-panel>
-
-            <mat-expansion-panel (click)="scrollUp($event)" id="panel-9" class="mat-elevation-z0 top-neg10 full-width"hideToggle (opened)="panelOpenState28 = true"
-              (closed)="panelOpenState28 = false">
-            <mat-expansion-panel-header class="specific-class">
-            <mat-panel-title [class]="panelOpenState28 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState28 ? '#394e8a' : 'black'">&#9679; MIDYEAR</mat-panel-title>
-            </mat-expansion-panel-header>
-
-            <div class="core-courses ms397">
-              <div class="core-content">
-                <p class="atlas-bold">MS 397</p>
-                <p>Special Topics: Microbial Oceanography</p>
-                <p>DFLOnda</p>
-              </div>
-            </div>
-            </mat-expansion-panel>
-          </mat-accordion>
           </mat-expansion-panel>
 
-          <mat-expansion-panel (click)="scrollUp($event)" id="panel-3"  class="mat-elevation-z0 top-10 full-width" hideToggle (opened)="panelOpenState10 = true"
-            (closed)="panelOpenState10 = false ">
-          <mat-expansion-panel-header class="specific-class">
-          <mat-panel-title [class]="panelOpenState10 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState10 ? '#394e8a' : 'black'">COURSES OFFERED WITH NO CURRENT SCHEDULE INDICATED</mat-panel-title>
-          </mat-expansion-panel-header>
+          <mat-expansion-panel class="mat-elevation-z0 op-10 full-width" (opened)="panelOpenState5 = true"
+            (closed)="panelOpenState5 = false" hideToggle>
+              <mat-expansion-panel-header class="specific-class">
+               <mat-panel-title [class]="panelOpenState5 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState5 ? '#394e8a' : 'black'">SEMINAR</mat-panel-title>
+               </mat-expansion-panel-header>
 
-          <div class="core-courses2">
-            <div class="core-content">
-              <p class="atlas-bold">MS 397</p>
-              <p>Special Topics: Coastal Geomorphology</p>
-              <p>FPSiringan</p>
-            </div>
-
-            <div class="core-content">
-              <p class="atlas-bold">MS 397</p>
-              <p>Special Topics: The Sediment Record of Environmental Change</p>
-              <p>FPSiringan</p>
-            </div>
-
-            <div class="core-content">
-              <p class="atlas-bold">MS 398</p>
-              <p>Advanced Methods in Marine Science:  Analysis of Molecular Sequences (Every even year)</p>
-              <p></p>
-            </div>
-          </div>
+               <div class="regular-content">
+                <div class="left">
+                  <div *ngFor="let item of sem" (click)="openDialog(item.name)">
+                    <p class="atlas-bold">{{item.name}}</p>
+                    <p class="atlas-light">{{item.label1}}</p>
+                    <p class="atlas-light">{{item.label2}}</p>
+                 </div>
+               </div>
+              </div>
           </mat-expansion-panel>
         </mat-accordion>
 
 
-      </mat-expansion-panel>
+          </mat-expansion-panel>
 
-      <mat-expansion-panel (click)="scrollUp($event)" id="panel-1" class="mat-elevation-z0 grad-offering" (opened)="panelOpenState14 = true"
+          <mat-expansion-panel class="mat-elevation-z0 op-10 full-width" (opened)="panelOpenState6 = true"
+            (closed)="panelOpenState6 = false" hideToggle>
+              <mat-expansion-panel-header class="specific-class">
+               <mat-panel-title [class]="panelOpenState6 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState6 ? '#394e8a' : 'black'">SECOND SEMESTER</mat-panel-title>
+               </mat-expansion-panel-header>
+
+                <mat-accordion>
+                  <mat-expansion-panel class="mat-elevation-z0 op-10 full-width" (opened)="panelOpenState7 = true"
+                    (closed)="panelOpenState7 = false" hideToggle>
+                      <mat-expansion-panel-header class="specific-class">
+                          <mat-panel-title [class]="panelOpenState7 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState7 ? '#394e8a' : 'black'">CORE COURSES</mat-panel-title>
+                       </mat-expansion-panel-header>
+                       <div class="regular-content">
+                         <div class="left">
+                          <div *ngFor="let item of gscore" (click)="openDialog(item.name)">
+                          <p class="atlas-bold">{{item.name}}</p>
+                          <p class="atlas-light">{{item.label1}}</p>
+                          <p class="atlas-light">{{item.label2}}</p>
+                          </div>
+                        </div>
+
+                      </div>
+                  </mat-expansion-panel>
+
+                  <mat-expansion-panel class="mat-elevation-z0 op-10 full-width" (opened)="panelOpenState8 = true"
+                    (closed)="panelOpenState8 = false" hideToggle>
+                      <mat-expansion-panel-header class="specific-class">
+                          <mat-panel-title [class]="panelOpenState8 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState8 ? '#394e8a' : 'black'">ELECTIVES</mat-panel-title>
+                      </mat-expansion-panel-header>
+                          <div class="regular-content">
+                            <div class="left">
+                             <div *ngFor="let item of gselec" (click)="openDialog(item.name)">
+                               <p class="atlas-bold">{{item.name}}</p>
+                               <p class="atlas-light">{{item.label1}}</p>
+                               <p class="atlas-light">{{item.label2}}</p>
+                              </div>
+                           </div>
+
+                           <div class="right">
+                            <div *ngFor="let item of gselec2" (click)="openDialog(item.name)">
+                              <p class="atlas-bold">{{item.name}}</p>
+                              <p class="atlas-light">{{item.label1}}</p>
+                              <p class="atlas-light">{{item.label2}}</p>
+                             </div>
+                           </div>
+                         </div>
+                  </mat-expansion-panel>
+
+                  <mat-expansion-panel class="mat-elevation-z0 op-10 full-width" (opened)="panelOpenState9 = true"
+                    (closed)="panelOpenState9 = false" hideToggle>
+                      <mat-expansion-panel-header class="specific-class">
+                          <mat-panel-title [class]="panelOpenState9 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState9 ? '#394e8a' : 'black'">SEMINAR</mat-panel-title>
+                      </mat-expansion-panel-header>
+                      <div class="regular-content">
+                         <div class="left">
+                          <div *ngFor="let item of gssem" (click)="openDialog(item.name)">
+                          <p class="atlas-bold">{{item.name}}</p>
+                          </div>
+                        </div>
+                      </div>
+                  </mat-expansion-panel>
+
+                  <mat-expansion-panel class="mat-elevation-z0 op-10 full-width" (opened)="panelOpenState10 = true"
+                    (closed)="panelOpenState10 = false" hideToggle>
+                      <mat-expansion-panel-header class="specific-class">
+                          <mat-panel-title [class]="panelOpenState10 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState10 ? '#394e8a' : 'black'">MIDYEAR</mat-panel-title>
+                      </mat-expansion-panel-header>
+                        <div class="regular-content">
+                         <div class="left">
+                          <div *ngFor="let item of gsmid" (click)="openDialog(item.name)">
+                          <p class="atlas-bold">{{item.name}}</p>
+                          <p class="atlas-light">{{item.label1}}</p>
+                          <p class="atlas-light">{{item.label2}}</p>
+                          </div>
+                        </div>
+                      </div>
+                  </mat-expansion-panel>
+            </mat-accordion>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel class="mat-elevation-z0 op-10 full-width" (opened)="panelOpenState5 = true"
+            (closed)="panelOpenState5 = false" hideToggle>
+              <mat-expansion-panel-header class="specific-class">
+               <mat-panel-title [class]="panelOpenState5 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState5 ? '#394e8a' : 'black'">COURSES OFFERED WITH NO CURRENT  SCHEDULE INDICATED</mat-panel-title>
+               </mat-expansion-panel-header>
+               <div class="regular-content">
+                         <div class="left">
+                          <div *ngFor="let item of nocore" (click)="openDialog(item.name)">
+                          <p class="atlas-bold">{{item.name}}</p>
+                          <p class="atlas-light">{{item.label1}}</p>
+                          <p class="atlas-light">{{item.label2}}</p>
+                          </div>
+                        </div>
+                      </div>
+          </mat-expansion-panel>
+
+
+
+
+
+
+      <!--<div class="regular-content">
+        <div class="left2">
+          <div *ngFor="let item of emeriti">
+            <div (click)="openDialog(item.name)">
+              <p class="atlas-bold">{{item.name}}</p>
+            </div>
+          </div>
+        </div>
+
+      </div>-->
+    </mat-accordion>
+
+
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (click)="scrollUp($event)" id="panel-1" class="mat-elevation-z0 grad-offering" (opened)="panelOpenState14 = true"
           (closed)="panelOpenState14 = false">
         <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState14 ? '#394e8a' : '#5ca361'">
         <mat-panel-title class="atlas-light" style="color: white;">PROFESSIONAL IN MASTERS IN TROPICAL MARINE ECOSYSTEM MANAGEMENT (PM-TMEM)</mat-panel-title>
@@ -721,11 +385,11 @@
 
 
       </mat-expansion-panel>
-    </mat-accordion>
-</div>
 
 
-<div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
+  </mat-accordion>
+
+  <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
   <span class="arrow-text" routerLink="/Academics/downloadable-forms">
     <p class="atlas-light"><span class="navi">TO DOWNLOADABLE FORMS</span> <span class="arrow">&rarr;</span></p>
   </span>

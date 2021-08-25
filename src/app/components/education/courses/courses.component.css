@@ -1,20 +1,11 @@
 .container{
   margin: 0 9%;
   margin-top: 1.464vw;
-  font-size: 1.171vw;
 }
 
 .content-header{
   height: 21.742vw;
   position: relative;
-  /* background-image: url("../../../../assets/photos/coursesheader.png");
-  background-size: cover;
-  background-repeat: no-repeat; */
-}
-
-mat-expansion-panel{
-  margin-bottom: -1.830vw;
-
 }
 
 img{
@@ -22,6 +13,15 @@ img{
   width: 100%;
   object-fit: cover;
 }
+
+.banner-content{
+  margin-top: 0.586vw;
+}
+
+.marg-50 {
+    margin-top: 5% !important;
+  }
+
 
 .left-content{
   position: absolute;
@@ -38,17 +38,14 @@ img{
 }
 
 .title{
-  font-size: 2.123vw; /* edited */
-}
-
-.banner-content {
-  margin-top: 0.586vw;
+  font-size: 2.123vw;
 }
 
 mat-expansion-panel{
   border-color: white;
   background-color: #fafafa;
   padding-bottom: 1.098vw;
+  margin-bottom: -1.464vw;  
 }
 
 ::ng-deep .specific-class > .mat-expansion-indicator:after {
@@ -69,22 +66,17 @@ mat-panel-title{
 }
 
 .grad-offering{
-  margin-top: 2.928vw !important; /*edited */
-  padding: 0.366vw 12.445vw; /*edited */
-}
-
-.marg-50 {
   margin-top: 3.660vw !important;
+  padding: 0 12.445vw;
 }
 
 .core-courses{
-  margin-left: 3.660vw;
-  border-left: 0.220vw solid #5ca361;
+  height: 100%;
+  margin-left: 1.464vw;
+  border-left: 0.220vw solid #5da563;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 1.098vw;
-  margin-bottom: 0.732vw;
-  font-size: 1.025vw; /*edited */
+  column-gap: 1.098vw;
 }
 
 .core-courses2{
@@ -94,44 +86,22 @@ mat-panel-title{
   /* gap: 15px; */
   font-size: 1.025vw; /*edited */
   margin-bottom: -0.732vw; /*edited */
-}
-
-.core-courses4{
-  margin-top: 0vw; /*edited*/
-  display: grid;
-  /* gap: 15px; */
-  font-size: 1.025vw; /*edited */
-  margin-bottom: 0vw; /*edited */
-  border-left: 0.220vw solid #5ca361;
   }
 
-.core-content{
-  display: grid;
-  grid-template-columns: 2fr 4fr 4fr  !important; /*edited*/
-  line-height: 1.5;
-}
-
-.core-content-add{
-  line-height: 1.5;
-  margin-left: 1vw;
-
-}
-
-.core-content:nth-child(n+2), .core-content2:nth-child(n+2), .core-content3:nth-child(n+2) {
-  font-family: 'atlas-light';
-}
-
-.core-content2{
+  .core-content2{
   display: grid;
   grid-template-columns: 1fr 2fr;
   line-height: 1.5;
+  }
+
+  .tmem-title{
+  font-size: 1.171vw;
+  line-height: 1.3;
 }
 
-/*edited: added css*/;
-.core-content3{
+.core-content{
   display: grid;
-  grid-template-columns: 1fr 2fr 4fr;
-  line-height: 1.5;
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
 .core-courses div{
@@ -139,49 +109,69 @@ mat-panel-title{
 }
 
 .closed-main-head{
-  background-color: #394e8a;
+  background-color: #384e8a;
   border-radius: 3.660vw;
 }
 
-.fiber-manual{
-  font-size: 0.586vw;
-  margin-right: -0.878vw;
-  margin-top: 0.366vw; /* edited */
+.regular-content{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.464vw;
+  font-size: 1.025vw;
+  border-left: 0.220vw solid #5ca361;
+  
 }
 
-.top-10{
-  margin-top: 0.732vw !important;
+.regular3-content{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.464vw;
+  font-size: 1.025vw;
 }
 
-.top-neg20{
-  margin-top: 0px !important;
+.left{
+  width: 50%;
+  line-height: 1.5;
+  margin-left: 1vw;
 }
 
-.top-neg10{
-  margin-top: 0.586vw; /* edited */
+
+.left3{
+  width: 50%;
+  line-height: 1.5;
 }
 
-.footer{
-  margin-top: 8.785vw;
+.left2{
+  width: 50%;
+  line-height: 1.5;
 }
 
-.ms396 {
-  margin-bottom: -6.589vw /*edited */
+.left2 div{
+  margin-top: 0.732vw;
+  cursor: pointer;
 }
 
-/*edited : added css*/
-.ms396-1{
-  margin-bottom: -11.713vw /*edited */
+.left div{
+  margin-top: 0.732vw;
+  cursor: pointer;
 }
 
-.ms397 {
-  margin-bottom: -10.249vw
+.left3 div{
+  margin-top: 0.732vw;
+  cursor: pointer;
 }
 
-/* edited: added css */
-.tmem-title{
-  font-size: 1.171vw;
-  line-height: 1.3;
+.right div{
+  margin-top: 0.732vw;
+  cursor: pointer;
+}
+
+
+.right{
+  width: 50%;
+  line-height: 1.5;
 }
 
 .arrow{
@@ -196,14 +186,12 @@ mat-panel-title{
 
 .more-vacancies{
   color: #384e8a;
-  margin-top: 4%;
-  margin-left: 9%;
-  margin-right: 9%;
   display: flex;
-  height: 6.785vw;
+  height: 8.785vw;
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
+  margin-top: 2%;
   font-size: 1.171vw;
 }
 
@@ -213,36 +201,25 @@ mat-panel-title{
 
 @media (max-width: 768px) {
   .container{
-    margin: 0 9%;
-    margin-top: 6%;
-    font-size: 4vw;
+    margin-top: 2%;
   }
 
   .content-header{
     height: 40vw;
-    position: relative;
-    /* background-image: url("../../../../assets/photos/coursesheader.png");
-    background-size: cover;
-    background-repeat: no-repeat; */
   }
 
-  mat-expansion-panel{
-    margin-bottom: -1.830vw;
-
-  }
-
-  img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  .banner-content{
+    /* font-size: 4vw;
+    margin-top: 0.952vw;
+    width: 50.073vw; */
+    display: none;
   }
 
   .left-content{
     position: absolute;
     z-index: 1;
-    top: 0.073vw;
-    left: 4vw;
-    width: 100%;
+    bottom: 0; /*edited*/
+    width: fit-content;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -252,23 +229,29 @@ mat-panel-title{
   }
 
   .title{
-    font-size: 5vw; /* edited */
+    font-size: 5vw;
   }
 
-  .banner-content {
-    /* margin-top: 0.586vw; */
-    display: none;
-  }
-
-  .mobile-banner-content {
+  .mobile-content-banner {
     display: block;
-    margin-top: 5%;
     font-size: 4vw;
+    padding-top: 5%;
+    line-height: 1.5;
   }
 
   mat-expansion-panel{
+    margin-bottom: 0;
+  }
+
+  .panel-title{
+    color: white;
+    padding: 3vw 0;
+    font-size: 3vw;
+  }
+
+  mat-expansion-panel{
+    border-color: white;
     background-color: #fafafa;
-    padding-bottom: 1.098vw;
   }
 
   ::ng-deep .specific-class > .mat-expansion-indicator:after {
@@ -279,35 +262,22 @@ mat-panel-title{
     padding: 0.220vw !important;
   }
 
-
-  mat-panel-title{
-    color: white;
-    padding: 3vw 0;
-    line-height: 1.3;
-    font-size: 3vw;
-  }
-
-
   .specific-class{
-    border-radius: 6vw;
+    border-radius: 5vw;
   }
 
   .grad-offering{
-    margin-top: 5vw !important; /*edited */
-    padding: 0.366vw 0; /*edited */
-  }
-
-  .marg-50 {
-    margin-top: 5% !important;
+    margin-top: 5vw !important;
+    padding: 0vw;
   }
 
   .core-courses{
-    margin-left: 0;
-    border-left: 0.5vw solid #5ca361;
+    height: 100%;
+    margin-left: 1.464vw;
+    border-left: 0.220vw solid #5da563;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    margin-bottom: 0.732vw;
-    font-size: 3vw; /*edited */
+    column-gap: 1.098vw;
   }
 
   .core-courses2{
@@ -320,90 +290,12 @@ mat-panel-title{
     margin-bottom: -0.732vw; /*edited */
   }
 
-  .core-content{
-    display: grid;
-    grid-template-columns: 2fr 4fr 4fr  !important; /*edited*/
-    column-gap: 1vw;
-    line-height: 1.5;
-  }
-
-  .core-content:nth-child(n+2), .core-content2:nth-child(n+2), .core-content3:nth-child(n+2) {
-    font-family: 'atlas-light';
-  }
-
   .core-content2{
     display: grid;
     grid-template-columns: 1fr 2fr;
     line-height: 1.5;
   }
 
-  /* .neg-top {
-    margin-top: -1.7%
-  }
-
-  .neg-top2 {
-    margin-top: -11%
-  } */
-  /*edited: added css*/;
-  .core-content3{
-    display: grid;
-    grid-template-columns: 1fr 2fr 4fr;
-    line-height: 1.5;
-  }
-
-  .core-courses .core-content:nth-child(n+2) {
-    margin-top: 2%
-  }
-
-  .core-courses div{
-    margin-left: 1.464vw;
-  }
-
-  .closed-main-head{
-    background-color: #394e8a;
-    border-radius: 3.660vw;
-  }
-
-  .full-width {
-    width: 75vw;
-    margin-left: -7%;
-  }
-
-  .full-width2 {
-    width: 65vw;
-    margin-left: 0;
-  }
-
-  .top-10{
-    margin-top: 0.732vw !important;
-  }
-
-  .top-neg20{
-    margin-top: 0px !important;
-  }
-
-  .top-neg10{
-    margin-top: 0.586vw; /* edited */
-  }
-
-  .footer{
-    margin-top: 8.785vw;
-  }
-
-  .ms396 {
-    margin-bottom: -17vw /*edited */
-  }
-
-  /*edited : added css*/
-  .ms396-1{
-    margin-bottom: -31vw /*edited */
-  }
-
-  .ms397 {
-    margin-bottom: -33vw
-  }
-
-  /* edited: added css */
   .tmem-title{
     font-size: 3vw;
     width: 65vw;
@@ -411,31 +303,100 @@ mat-panel-title{
     line-height: 1.3;
   }
 
+  .core-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+  }
+
+  .core-courses div{
+    margin-left: 1.464vw;
+  }
+
+  .closed-main-head{
+    background-color: #384e8a;
+    border-radius: 3.660vw;
+  }
+
+  .regular-content{
+    height: 10%;
+    display: grid;
+  grid-template-rows: 1fr 1fr;
+    margin-top: 1.5%;
+    font-size: 3vw;
+    border-left: 0.5vw solid #5ca361;
+  }
+
+  .left{
+    width: 100%;
+    line-height: 1.5;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 1vw;
+    margin-bottom: 0;
+  }
+
+  .regular-content3{
+    height: 100%;
+    display: grid;
+  grid-template-rows: 1fr 1fr;
+    margin-top: 1.5%;
+    font-size: 3vw;
+  }
+
+  .left3{
+    width: 100%;
+    line-height: 1.5;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+   .left3 div{
+    margin-top: 5%;
+    cursor: pointer;
+  }
+
+  .left2{
+    width: 100%;
+    line-height: 1.5;
+  }
+
+  .left div{
+    margin-top: 5%;
+    cursor: pointer;
+  }
+
+  .left2 div{
+    margin-top: 5%;
+    cursor: pointer;
+  }
+
+  .right div{
+    margin-top: 5%;
+    cursor: pointer;
+    margin-left: 5%;
+  }
+
+
+  /*.right{
+    width: 50%;
+    line-height: 1.5;
+  }*/
+  
   .arrow{
     font-size: 7vw;
-    /* margin-top: -2%; */
+    text-decoration: none !important;
+  }
+
+  .navi:hover {
+    text-decoration: underline;
   }
 
   .arrow-text{
     font-size: 4vw;
   }
 
-  .arrow-text:hover{
-    text-decoration: underline;
-  }
-
   .more-vacancies{
-    color: #384e8a;
-    margin-left: 9%;
-    margin-right: 9%;
-    display: flex;
-    flex-direction: row;
-    height: 15vw;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    justify-content: flex-end;
-    align-items: center;
-    cursor: pointer;
+    height: 25vw;
+    margin-top: 0;
   }
-
 }

@@ -804,6 +804,7 @@ edited the badges
       {publi: 'Villanoy CL, Juinio MAR, Menez LB, 1988. Mortality rates of giant clams (Family Tridacnidae) from the Sulu Archipelago and southern Palawan, Philippines. Coral Reefs, 7, 1-5.'},
       {publi: 'Juinio MAR, Menez LB, Villanoy C, 1987. Use of giant clam resources in the Philippines. Naga-ICLARM Q. 10, 7-8.'},
     ]},
+    
     {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981091/About/03%20Faculty/Faculty-Cropped/22-Maria_Helene_Yap_gptwom.jpg', name: 'Maria Helena T. Yap, Ph.D.', title1: 'Professor', email: 'helentyap@yahoo.com', citation: 'https://scholar.google.com.ph/citations?user=qSPpNAoAAAAJ&hl=en', education1: 'Doctor rerum naturalium ', education2: 'University of Rostock, German Democratic Republic', RI: 'Coral Reef Ecology, Complex Systems',
     publication: [
       {publi: 'Atrigenio, M.P., C. Conaco, C. Guzman, H.T. Yap, and P.M. Aliño. Distribution and abundance of Heliopora coerulea (Cnidaria: Coenothecalia) and notes on its aggressive behavior against scleractinian corals: Temperature mediated? Regional Studies in Marine Science, https://doi.org/10.1016/j.rsma.2020.101502.'},
