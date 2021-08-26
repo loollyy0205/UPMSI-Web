@@ -24,8 +24,8 @@
       <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState ? '#394e8a' : '#5ca361'">
       <mat-panel-title class="atlas-light panel-title">UNDERGRADUATE OFFERING</mat-panel-title>
       </mat-expansion-panel-header>
-      <div class="regular3-content">
-        <div class="left3">
+      <div class="regular-content">
+        <div class="left">
           <div *ngFor="let item of undergrad" (click)="openDialog(item.name)">
             <p class="atlas-bold">{{item.name}}</p>
             <p class="atlas-light">{{item.label1}}</p>
@@ -34,19 +34,17 @@
 
         </div>
 
-        <!--<div class="right">
-          <div *ngFor="let item of residentProf2" (click)="openDialog(item.name)">
+        <div class="right">
+          <div *ngFor="let item of undergrad2" (click)="openDialog(item.name)">
             <p class="atlas-bold">{{item.name}}</p>
             <p class="atlas-light">{{item.label1}}</p>
             <p class="atlas-light">{{item.label2}}</p>
-            <p class="atlas-light">{{item.label3}}</p>
-            <p class="atlas-light">{{item.label4}}</p>
           </div>
-        </div> -->
+        </div> 
       </div>
     </mat-expansion-panel>
 
-    <mat-expansion-panel (click)="scrollUp($event)" id="panel-2" class="mat-elevation-z0 grad-offering" (opened)="panelOpenState1 = true"
+    <mat-expansion-panel  id="panel-2" class="mat-elevation-z0 grad-offering" (opened)="panelOpenState1 = true"
         (closed)="panelOpenState1 = false">
       <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState1 ? '#394e8a' : '#5ca361'">
       <mat-panel-title class="atlas-light panel-title">GRADUATE OFFERING</mat-panel-title>
@@ -60,12 +58,12 @@
                </mat-expansion-panel-header>
 
                <mat-accordion>
-          <mat-expansion-panel  (click)="scrollUp($event)" id="panel-3" class="mat-elevation-z0 op-10 full-width" (opened)="panelOpenState3 = true"
+          <mat-expansion-panel  id="panel-3" class="mat-elevation-z0 op-10 full-width" (opened)="panelOpenState3 = true"
             (closed)="panelOpenState3 = false">
               <mat-expansion-panel-header class="specific-class">
                <mat-panel-title [class]="panelOpenState3 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState3 ? '#394e8a' : 'black'">CORE COURSES</mat-panel-title>
                </mat-expansion-panel-header>
-               <div class="regular-content full-height2">
+               <div class="regular-content">
                 <div class="left">
                   <div *ngFor="let item of gfcore" (click)="openDialog(item.name)">
               <p class="atlas-bold">{{item.name}}</p>
@@ -123,6 +121,14 @@
                     <p class="atlas-light">{{item.label2}}</p>
                  </div>
                </div>
+
+               <div class="right">
+                 <div *ngFor="let item of sem2" (click)="openDialog(item.name)">
+                   <p class="atlas-bold">{{item.name}}</p>
+                   <p class="atlas-light">{{item.label1}}</p>
+                   <p class="atlas-light">{{item.label2}}</p>
+                 </div>
+                </div>
               </div>
           </mat-expansion-panel>
         </mat-accordion>

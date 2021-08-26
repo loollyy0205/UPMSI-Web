@@ -260,10 +260,12 @@ mat-panel-title{
     height: .9vw;
     width: .9vw;
     padding: 0.220vw !important;
+    font: 3vw;
   }
 
   .specific-class{
     border-radius: 5vw;
+    font: 3vw;
   }
 
   .grad-offering{
@@ -359,7 +361,7 @@ mat-panel-title{
   .right div{
     margin-top: 5%;
     cursor: pointer;
-    margin-left: 5%;
+    margin-left: 10%;
   }
 
 
@@ -398,6 +400,10 @@ mat-panel-title{
   .left2 div{
     margin-top: 5%;
     cursor: pointer;
+  }
+
+  .subtitle{
+   font-size: 5vw; 
   }
 
   

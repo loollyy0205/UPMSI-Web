@@ -32,26 +32,35 @@ export class CoursesDialogComponent implements OnInit {
       {publi: 'Evaluate rational strategies on the use and management of ocean resources.'},
     ]},
 
-    /**
-    {name: 'MS 201 - Ocean Physics and Chemistry', cnum: 'MS 201', ctit: 'Ocean Physics and Chemistry', preq: '', credit: '', title1: 'CBJaraula / LTDavid/CRepollo',  RI: '-',
-    publication: [
-      {publi: '-'},
-    ]},
-    */
     
-     /**
-    {name: 'MS 210 - Physical Oceanography', cnum: 'MS 210', ctit: 'Physical Oceanography', preq: '', credit: '', title1: 'CVillanoy / LTDavid/CRepollo',  RI: '---------------------------',
+    {name: 'MS 201 - Ocean Physics and Chemistry', cnum: 'MS 201', ctit: 'Ocean Physics and Chemistry', preq: '', credit: '', title1: 'CBJaraula / LTDavid/CRepollo',  RI: 'An introduction to various aspects of chemical– and physical-mediated ecological interactions of marine organisms. It is a combination of discussions, directed readings and reports.',
     publication: [
-      {publi: '-'},
+      {publi: 'Explain the evolution of oceans and ocean chemistry.'},
+      {publi: 'Discuss marine pollution and water quality issues.'},
+      {publi: 'Discuss maine commodities.'},
+      {publi: 'Explain the major forces which drive the different types of ocean motion.'},
+      {publi: 'Discuss the distribution of temperature and salinity in the oceans and the processes that determine variations with depth and in the different ocean basins.'},
+      {publi: 'Understand the scientific method and how it is applied towards understanding complex ocean dynamics and its relation to marine ecosystem.'},
     ]},
-    */
+    
+    
+     
+    {name: 'MS 210 - Physical Oceanography', cnum: 'MS 210', ctit: 'Physical Oceanography', preq: '', credit: '', title1: 'CVillanoy / LTDavid/CRepollo',  RI: 'Physical properties of sea water, general distribution of salinity, temperature and density, waves and currents, ocean atmosphere interactions.',
+    publication: [
+      {publi: 'Discuss and be able to interpret the large-scale distribution of physical properties e.g. temperature, salinity, and currents in the oceans and the processes that determine its variations with depth and in the different ocean basins.'},
+      {publi: 'Explain the major forces which drive the different types of ocean motion and learn how it can be estimated from observations.'},
+      {publi: 'Calculate and visualize simplified models of ocean dynamics.'},
+    ]},
+    
 
-    /**
-    {name: 'MS 220 - Chemical Oceanography', cnum: 'MS 210', ctit: 'Physical Oceanography', preq: '', credit: '', title1: 'MLSMcGlone / GSJacinto',  RI: '---------------------------',
+    
+    {name: 'MS 220 - Chemical Oceanography', cnum: 'MS 210', ctit: 'Physical Oceanography', preq: '', credit: '', title1: 'MLSMcGlone / GSJacinto',  RI: 'Chemical features and processes in marine waters and sediments, and their interrelationships with the physical and biological systems.',
     publication: [
-      {publi: '-'},
+      {publi: 'Understanding of fluid flow and fluid-solid interaction in the marine environment'},
+      {publi: 'Understanding of the physical processes responsible for shaping coastal and estuarine environments '},
+      {publi: ' An appreciation of the action of waves and tides from coastal to oceanic environments and their prediction.'},
     ]},
-    */
+    
 
     
     {name: 'MS 240 - Biological Oceanography', cnum: 'MS 240', ctit: 'Biological Oceanography', preq: 'MS 210 or MS 201', credit: '3   u', title1: 'MHTYap',  RI: 'The relationship of biological systems to the marine physico-chemical environment',
@@ -63,12 +72,12 @@ export class CoursesDialogComponent implements OnInit {
     ]},
     
 
-    /**
-    {name: 'MS 270 - Biochemistry of Marine Organisms', cnum: 'MS 270', ctit: 'Biochemistry of Marine Organisms', preq: '', credit: '', title1: 'LSReyes / IBRodriguez / ETYu',  RI: '---------------------------',
+    
+    {name: 'MS 270 - Biochemistry of Marine Organisms', cnum: 'MS 270', ctit: 'Biochemistry of Marine Organisms', preq: 'Elementary Biochemistry  or COI', credit: '3   u', title1: 'LSReyes / IBRodriguez / ETYu',  RI: 'Structure-function relationships of biomolecules, bioenergetics, catalysis, and regulation of metabolic pathways; and comparative biochemistry of marine organisms.',
     publication: [
       {publi: ''},
     ]},
-    */
+    
 
     {name: 'MS 255 - Coral Reef Ecosystems', cnum: 'MS 255', ctit: 'Coral Reef Ecosystems', preq: 'COI', credit: '3   u', title1: 'PCCabaitan',  RI: 'Structure, function  and ecological significance of coral reefs and their major living components.',
     publication: [
@@ -132,11 +141,7 @@ export class CoursesDialogComponent implements OnInit {
     {publi: ''},
     ]},
 
-    {name: 'MS 201 - Ocean Physics and Chemistry', cnum: 'MS 201', ctit: 'Ocean Physics and Chemistry', preq: 'Introductory Calculus, Elementary Organic Chemistry and basic Physical Chemistry', credit: '3 u', title1: 'CBJaraula / LTDavid/CRepollo' , RI: 'Introduction to physical and chemical properties and processes in marine waters.',
-    publication: [
-    {publi: ''},
-    ]},
-
+  
     {name: 'MS 210 - Physical Oceanography', cnum: 'MS 210', ctit: 'Physical Oceanography', preq: 'Math 100 or COI', credit: '3 u', title1: 'CVillanoy / LTDavid/CRepollo', RI: 'Physical properties of sea water, general distribution of salinity, temperature and density, waves and currents, ocean atmosphere interactions.',
     publication: [
     {publi: ''},
@@ -230,12 +235,14 @@ export class CoursesDialogComponent implements OnInit {
     {publi: ''},
     ]},
 
-    {name: 'MS 398 - Advanced Methods in Marine Science: Data Analysis Methods in Oceans', cnum: 'MS 398', ctit: 'Data Analysis Methods in Oceans', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'CLVillanoy / LTDavid/CRepollo', RI: 'Specialized techniques used in marine science research. ',
+    {name: 'MS 398 - Advanced Methods in Marine Science: Data Analysis Methods in Oceans', cnum: 'MS 398', ctit: 'Data Analysis Methods in Oceans', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'CLVillanoy / LTDavid/CRepollo', RI: 'The process and outputs of modeling have played important roles in helping to increase our understanding of various complex systems. Modeling enables the synthesis of knowledge on these complex ecological systems, and allows us to simulate and analyze their dynamics. This course will give an introduction into the development and analysis of ecological models. It will provide an overview on the approaches and the model types using a hands-on approach.',
     publication: [
-    {publi: ''},
+    {publi: 'Discuss the concept and process of ecological modeling.'},
+    {publi: 'Discuss different approaches to ecological modeling'},
+    {publi: 'Conceptualize, implement and analyze an ecological model.'},
     ]},
 
-    {name: 'MS 398 - Advanced Methods in Marine Science: Ocean Remote Sensing & Image Analysis', cnum: 'MS 398', ctit: 'Ocean Remote Sensing & Image Analysis', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'LTDavid', RI: 'Specialized techniques used in marine science research. ',
+    {name: 'MS 398 - Advanced Methods in Marine Science: Ocean Remote Sensing & Image Analysis', cnum: 'MS 398', ctit: 'Ocean Remote Sensing & Image Analysis', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'LTDavid', RI: 'Introduction to Satellite Remote Sensing; Specialized techniques used in marine science research. ',
     publication: [
     {publi: ''},
     ]},
@@ -257,7 +264,7 @@ export class CoursesDialogComponent implements OnInit {
 
     {name: 'MS 230 - Geological Oceanography', label1: '', cnum: 'MS 230', ctit: 'Geological Oceanography', preq: 'Geo 11 or COI', credit: '3   u', title1: 'FPSiringan / CBJaraula', RI: 'An introduction to the origin, morphology, structure and processes of the sea floor and ocean margins (for non-geology majors).',
     publication: [
-    {publi: ''},
+    {publi: 'The course will introduce students to the concept of the geological oceanography as a fundamental component of ocean studies that graduate students are expected to know. Background material from this course collates essential knowledge from solid-earth geophysics, geochemistry, sedimentology, and stratigraphy, coastal processes, and climate to discuss plate tectonics, volcanism, rock and sediment deposits, shallow water and deep sea processes, paleoceanography, climate and sea level changes. Global and regional-scale processes are discussed in the context of short- and long-term timescales to instill the connectivity of feedbacks between mechanisms and impacts to the chemical, biological and physical processes.'},
     ]},
 
     {name: 'MS 240 - Biological Oceanography', cnum: 'MS 240', ctit: 'Biological Oceanography', preq: 'MS 210 or MS 201', credit: '3   u', title1: 'MHTYap', RI: 'The relationship of biological systems to the marine physico-chemical environment.',
@@ -282,7 +289,9 @@ export class CoursesDialogComponent implements OnInit {
 
     {name: 'MS 217 - Coastal and Estuarine Oceanography', cnum: 'MS 217', ctit: 'Coastal and Estuarine Oceanography', preq: 'MS 210 or COI', credit: '3 u', title1: 'LTDavid', RI: 'Ocean dynamics modified by   thermohaline effects, presence of coast and shallow bathymetry.',
     publication: [
-    {publi: ''},
+    {publi: 'Understanding of fluid flow and fluid-solid interaction in the marine environment.'},
+    {publi: 'Understanding of the physical processes responsible for shaping coastal and estuarine environments.'},
+    {publi: 'An appreciation of the action of waves and tides from coastal to oceanic environments and their prediction.'},
     ]},
 
     {name: 'MS 222 - Chemistry of Marine Coastal Environments (every odd year)', cnum: 'MS 222', ctit: 'Chemistry of Marine Coastal Environments', preq: 'MS 220 or COI', credit: '3 u', title1: 'GSJacinto / CBJaraula / MLSMcGlone', RI: 'Applications of principles of chemical oceanography to the understanding of various coastal systems including coral reefs, mangroves, seagrass beds, and estuaries.',
@@ -440,6 +449,16 @@ export class CoursesDialogComponent implements OnInit {
     publication: [
     {publi: ''},
     ]},
+
+     {name: 'MS 398 - Advanced Methods in Marine Science: Data Analysis Methods in Oceanography', label1: '', cnum: 'MS 398', ctit: 'Data Analysis Methods in Oceanography', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', RI: 'A hands-on class on data analysis techniques in Oceanography. It addresses data acquisition and quality control, data processing and presentation, statistical methods and error handling, analysis of spatial data fields, and time series analysis methods.',
+    publication: [
+      {publi: 'Expose students to state-of-the-art global earth system databases.'},
+      {publi: 'Introduce instrumentation used to collect the data and learn how to acquire and apply quality control.'},
+      {publi: 'Introduce relevant statistical methods and signal processing techniques and tools such as Power and Rotary Spectral Analysis, Tidal Harmonic Analysis, Lowpass and bandpass filtering, Empirical Orthogonal Function (EOF) Analysis, Correlation, Regression, etc  to prepare students to use these techniques in their own research or career.'},
+      {publi: 'Train  students  with  the  Unix  operating  system, data analysis and display using Matlab, Ocean Data View and Python.'},
+      {publi: 'Improve quantitative understanding of the oceans physical processes that will be useful on their own research projects.'},
+    ]},
+    
 
   ];
   myArr = [];

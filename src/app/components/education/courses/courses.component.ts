@@ -48,6 +48,9 @@ export class CoursesComponent implements OnInit {
   undergrad = [
     {name: 'MS 101 - Oceans', label1: 'LTDavid, GSJacinto, MLSMcGlone, FPSiringan, CLVillanoy, ATYñiquez',},
     {name: 'MS 102 - The Marine Sciences', label1: 'PCCabaitan, MAJMeñez, DFLOnda, MHTYap'},
+  ];
+
+  undergrad2 = [
     {name: 'MS 1 - Oceans and Us', label1: 'CGConaco, LTDavid, RRGotanco, GSJacinto, CBJaraula, MJRPante, LSReyes,  IBRodriguez, MVBRodriguez,  WJESantiañez, FPSiringan, ATYñiguez'},
   ];
 
@@ -91,10 +94,14 @@ export class CoursesComponent implements OnInit {
     {name: 'MS 398 - Advanced Methods in Marine Science: Data Analysis Methods in Oceans', label1: 'CLVillanoy / LTDavid/CRepollo'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Ocean Remote Sensing & Image Analysis', label1: 'LTDavid'},
     {name: 'MS 398 - Methods in Marine Science: Advanced Methods in Natural Products', label1: 'LSReyes'},
+    {name: 'MS 398 - Advanced Methods in Marine Science: Data Analysis Methods in Oceanography'},
   ];
 
    sem = [
     {name: 'MS 396 - Seminar 1:  Current Topics in Marine Science (for all MS students)', label1: 'All MSI Faculty'},
+  ];
+
+  sem2 = [
     {name: 'MS 396 - Seminar (Marine Biology)'},
   ];
 
@@ -144,6 +151,7 @@ export class CoursesComponent implements OnInit {
     {name: 'MS 398 - Advanced Methods in Marine Science: Techniques in Coral Reef Ecology', label1: 'PCCabaitan'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Molecular Biology Methods for Marine Science', label1: 'ACGConaco / RRGotanco'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Elucidation of Natural Products (every odd year)', label1: 'LSReyes'},
+
   ];
 
   gssem = [
