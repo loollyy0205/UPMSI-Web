@@ -58,7 +58,7 @@ mat-expansion-panel{
 mat-panel-title{
   color: white;
   padding: 1.098vw 0;
-  font-size: 1.025vw;
+  font-size: 1.098vw; 
 }
 
 .specific-class{
@@ -318,21 +318,54 @@ mat-panel-title{
   }
 
   .regular-content{
-    height: 10%;
-    display: grid;
-  grid-template-rows: 1fr 1fr;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
     margin-top: 1.5%;
     font-size: 3vw;
-    border-left: 0.5vw solid #5ca361;
   }
 
-  .left{
+  /*.left{
     width: 100%;
     line-height: 1.5;
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-left: 1vw;
     margin-bottom: 0;
+  }
+
+  .left div{
+    margin-top: 5%;
+    cursor: pointer;
+  }
+
+  .right div{
+    margin-top: 5%;
+    cursor: pointer;
+    margin-left: 5%;
+  }*/
+
+  .left{
+    width: 48%;
+    line-height: 1.5;
+  }
+
+
+  .left div{
+    margin-top: 5%;
+    cursor: pointer;
+  }
+
+  .right div{
+    margin-top: 5%;
+    cursor: pointer;
+    margin-left: 5%;
+  }
+
+
+  .right{
+    width: 50%;
+    line-height: 1.5;
   }
 
   .regular-content3{
@@ -360,21 +393,14 @@ mat-panel-title{
     line-height: 1.5;
   }
 
-  .left div{
-    margin-top: 5%;
-    cursor: pointer;
-  }
+  
 
   .left2 div{
     margin-top: 5%;
     cursor: pointer;
   }
 
-  .right div{
-    margin-top: 5%;
-    cursor: pointer;
-    margin-left: 5%;
-  }
+  
 
 
   /*.right{

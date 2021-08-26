@@ -1,4 +1,4 @@
-/* width */
+/* width */ 
 ::-webkit-scrollbar {
   width: 0.732vw;
 }
@@ -95,12 +95,12 @@ img {
 }
 
 .content2 {
-  text-align: left;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: left;
   line-height: 1.5;
-  gap: 10;
+  gap: 0;
 }
 
 .content3 {
@@ -111,6 +111,7 @@ img {
   padding-left: 5%;
   border-left: 0.146vw solid #5da563;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   position: relative;
 }
@@ -130,7 +131,7 @@ ul {
 }
 
 li {
-  margin-top: 1.464vw;
+  margin-top: 1vw;
   line-height: 1.5;
   color: #5da563;
 }
@@ -258,6 +259,7 @@ img {
   border: none;
   /* border-left: 0.146vw solid #5da563; */
   display: flex;
+  justify-content: center;
   flex-direction: column;
   position: relative;
 }

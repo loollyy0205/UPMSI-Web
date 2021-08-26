@@ -19,6 +19,12 @@ export class VacanciesOppComponent implements OnInit {
   feb20 = [
     {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1628147007/News/crop4_akease.jpg'}
   ]
+  new1 = [
+    {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1629959210/News/Opening-1_ipqzrm.png'}
+  ]
+  new2 = [
+    {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1629959211/News/Opening-2_gnkrat.png'}
+  ]
 
   myArr = [];
 
@@ -37,6 +43,12 @@ export class VacanciesOppComponent implements OnInit {
         break;
       case '/News/vacancies-&-opportunities/job-opportunity-msi-feb20':
         this.myArr = this.feb20;
+        break;
+        case '/News/vacancies-&-opportunities/job-opportunity-msi-new1':
+        this.myArr = this.new1;
+        break;
+        case '/News/vacancies-&-opportunities/job-opportunity-msi-new2':
+        this.myArr = this.new2;
         break;
     }
   }

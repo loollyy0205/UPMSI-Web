@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MoreScicommComponent implements OnInit {
   news=[
-    {image: "https://res.cloudinary.com/dqs7gg03v/image/upload/v1628163389/News/scicomm/01-final-header_fiyzt5.png",  title: "Against the Current: How the giant clams of the Philippines escaped extinction with the help of science and the community", content: 'The boundaries of science, including the...'},
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1628066287/News/Features/01-final-header_hjud3l.png",  title: "Against the Current: How the giant clams of the Philippines escaped extinction with the help of science and the community", content: 'The boundaries of science, including the...'},
     /**
     {image: "https://dc585.4shared.com/img/fTDppHwOiq/s24/179b1eeaa58/News-02-awards?async&rand=0.5250163112703308", subtitle: 'April 30, 2021', title: "UPMSI scientists receive accolades from NAST, OMLC", content: 'Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center...'},
     {image: "https://dc349.4shared.com/img/Pc3HKlRniq/s24/179b1eeb228/News-03-clams?async&rand=0.6186946789066841", subtitle: 'April 30, 2021', title: "All About the Giant Clam", content: 'In the waters of Silaqui Island in Bolinao, Pangasinan, one could never miss the giant clams. The UPMSI Bolinao Marine Laboratory (BML) currently cultures four species at its onshore hatchery...'},
