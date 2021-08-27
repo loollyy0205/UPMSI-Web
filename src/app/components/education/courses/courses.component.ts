@@ -81,9 +81,11 @@ export class CoursesComponent implements OnInit {
     {name: 'MS 397 - Special Topics: Ecological Modeling', label1: 'ATYñiguez'},
     {name: 'MS 397 - Special Topics: Ecological Restoration', label1: 'MVBRodriguez'},
     {name: 'MS 397 - Special Topics: Molecular Ecology and Evolution', label1: 'RRGotanco'},
+    {name: 'MS 397 - Special Topics: Submarine Groundwater Discharge', label1: 'FPSiringan'},
     ];
 
     gfelec2 = [
+    {name: 'MS 397 - Special Topics: Environmental Metallomics and Biotechnology', label1: 'IBRodriguez'},
     {name: 'MS 397 - Special Topics: Biological-Social Structures', label1: 'GPConcepcion / MHTYap'},
     {name: 'MS 397 - Special Topics: Ecological Assessment with Algae', label1: 'MYRoleda'},
     {name: 'MS 397 - Special Topics: Marine Organic Geochemistry (as needed)', label1: 'CBJaraula'},
@@ -93,7 +95,7 @@ export class CoursesComponent implements OnInit {
     {name: 'MS 398 - Advanced Methods in Marine Science: Practical Scientific Programming (every odd year)', label1: 'AOLluisma'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Data Analysis Methods in Oceans', label1: 'CLVillanoy / LTDavid/CRepollo'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Ocean Remote Sensing & Image Analysis', label1: 'LTDavid'},
-    {name: 'MS 398 - Methods in Marine Science: Advanced Methods in Natural Products', label1: 'LSReyes'},
+    {name: 'MS 398 - Methods in Marine Science: Advanced Methods in Natural Products & Biomedical Research', label1: 'LSReyes'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Data Analysis Methods in Oceanography'},
   ];
 
@@ -131,26 +133,24 @@ export class CoursesComponent implements OnInit {
     {name: 'MS 283 - Marine Agronomy', label1: 'WJESantiañez'},
     {name: 'MS 361 - Reproductive Biology', label1: 'MAJMeñez'},
     {name: 'MS 366 - Population Genetics of Marine Organisms', label1: 'RRGotanco'},
-    {name: 'MS 280 - Management of Marine Resources (every even year)', label1: 'PMAliño / MAJMeñez / MVBRodriguez'},
     ];
 
     gselec2 = [
-    {name: 'MS 283 - Marine Agronomy', label1: 'WJESantiañez'},
-    {name: 'MS 361 - Reproductive Biology', label1: 'MAJMeñez'},
-    {name: 'MS 366 - Population Genetics of Marine Organisms', label1: 'RRGotanco'},
+    {name: 'MS 397 - Special Topics: Ocean Energy', label1: 'LTDavid'},
     {name: 'MS 397 - Special Topics: Seaweed Utilization', label1: 'IBRodriguez'},
     {name: 'MS 397 - Special Topics: Physical-Biological Interactions in the Oceans', label1: 'ATYñiguez'},
     {name: 'MS 397 - Special Topics: Algal Life Histories and Reproduction', label1: 'WJESantiañez'},
     {name: 'MS 397 - Special Topics: Algal Photobiology and Photochemistry', label1: 'MYRoleda'},
     {name: 'MS 397 - Special Topics: Application of Satellite Altimetry (as needed)', label1: 'CLVillanoy'},
     {name: 'MS 397 - Special Topics: Mixing in Estuarine and Coastal Waters', label1: 'LTDavid'},
-    {name: 'MS 397 - Special Topics: Stable Isotope Geochem', label1: 'CBJaraula / IBRodriguez'},
+    {name: 'MS 397 - Special Topics: Applications of Isotope Geochemistry in Marine Sciences', label1: 'CBJaraula'},
     {name: 'MS 397 - Special Topics: Marine Observation Systems'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Applied Multivariate Data Analysis', label1: 'MJRPante'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Seaweed and Seagrass Research Methods', label1: 'MYRoleda'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Techniques in Coral Reef Ecology', label1: 'PCCabaitan'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Molecular Biology Methods for Marine Science', label1: 'ACGConaco / RRGotanco'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Elucidation of Natural Products (every odd year)', label1: 'LSReyes'},
+    {name: 'MS 398 - Advanced Methods in Marine Science: Practical Mass Spectrometry'},
 
   ];
 

@@ -105,7 +105,13 @@ export class CoursesDialogComponent implements OnInit {
 
     {name: 'MS 397 - Special Topics: Ecological Assessment with Algae', cnum: 'MS 397', ctit: 'Ecological Assessment with Algae', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'MYRoleda',  RI: 'A review of studies and recent advances in the field of using algae in environmental assessments of water bodies that have been used for a century and in countries around the world',
     publication: [
-      {publi: ''},
+      {publi: 'Identify and use the basic vocabulary of phycology.'},
+      {publi: 'Differentiate key algal organisms and functional groups.'},
+      {publi: 'Describe the common coastal habitats of marine algae and factors affecting marine life.'},
+      {publi: 'Explain the influences of environmental factors on the physiology of the marine algae.'},
+      {publi: 'Relate algae to global human and environmental health concerns.'},
+      {publi: 'Demonstrate the ability to understand primary scientific literatures.'},
+      {publi: 'Demonstrate advanced development of critical thinking and analysis, and written and oral communication skills.'},
     ]},
 
     {name: 'MS 398 - Advanced Methods in Marine Science: Quantitative Methods in Microbial Ecology', cnum: 'MS 397', ctit: 'Ecological Assessment with Algae', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'DFLOnda',  RI: 'The course will mainly use the Quantitative Insights into Microbial Ecology (QIIME) platform to process high throughput sequencing (HTS) amplicon (e.g. 18S rRNA and 18S rDNA) data coupled with a myriad of statistical packages - from data filtering, to calculation and visualization of diversity indices and community patterns, to phylogenetic identification, and application of models to understand community assembly and ecology. The format is a mixture of lecture and discussions with hands-on exercises on actual data.',
@@ -187,9 +193,13 @@ export class CoursesDialogComponent implements OnInit {
     {publi: ''},
     ]},
 
-    {name: 'MS 397 - Special Topics: Behavioral Ecology', cnum: 'MS 397', ctit: 'Behavioral Ecology', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'MAJMeñez', RI: 'Discussions on current and emerging topics/issues in the marine sciences.',
+    {name: 'MS 397 - Special Topics: Behavioral Ecology', cnum: 'MS 397', ctit: 'Behavioral Ecology', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'MAJMeñez', RI: 'Behavioral ecology is a synthetic field of research that approaches the integration of animal behavior and ecology from an evolutionary viewpoint. The main objective of this course is: to understand how various behaviors function as adaptive traits, enabling growth, survival and reproduction in specific environmental situations.',
     publication: [
-    {publi: ''},
+    {publi: 'Comprehend the key elements of theories and developments in the study of animal behavior and behavioral ecology.'},
+    {publi: 'Critically read and synthesize scientific papers on particular marine behavioral ecological studies.'},
+    {publi: 'Understand and identify various methods/tools that can be used to measure behavior and parameters to consider for different research objectives.'},
+    {publi: 'Prepare an oral presentation and lead a discussion topic on a topic of interest.'},
+    {publi: 'Prepare a hypothetical research proposal to test particular concepts /theories or address gaps based on pertinent scientific papers.'},
     ]},
 
     {name: 'MS 397 - Special Topics: Genome Biology of Marine Organisms', cnum: 'MS 397', ctit: 'Genome Biology of Marine Organisms', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'CGConaco', RI: 'Discussions on current and emerging topics/issues in the marine sciences.',
@@ -197,9 +207,9 @@ export class CoursesDialogComponent implements OnInit {
     {publi: ''},
     ]},
 
-    {name: 'MS 397 - Special Topics: Gene Expression Control', cnum: 'MS 397', ctit: 'Gene Expression Control', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'CGConaco', RI: 'Discussions on current and emerging topics/issues in the marine sciences.',
+    {name: 'MS 397 - Special Topics: Gene Expression Control', cnum: 'MS 397', ctit: 'Gene Expression Control', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'CGConaco', RI: 'Gene regulatory mechanisms: fundamentals, recent discoveries, and biochemical and genetic approaches.',
     publication: [
-    {publi: ''},
+    {publi: 'To familiarize students with gene regulatory mechanisms and the various approaches that are used to reveal their function; to develop an understanding of basic methodologies that will enable data interpretation and experimental design; to foster a deeper appreciation for the complexity of life.'},
     ]},
 
     {name: 'MS 397 - Special Topics: Ecological Modeling', cnum: 'MS 397', ctit: 'Ecological Modeling', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'ATYñiguez', RI: 'The process and outputs of modeling have played important roles in helping to increase our understanding of various complex systems. Modeling enables the synthesis of knowledge on these complex ecological systems, and allows us to simulate and analyze their dynamics. This course will give an introduction into the development and analysis of ecological models. It will provide an overview on the approaches and the model types using a hands-on approach.',
@@ -209,9 +219,10 @@ export class CoursesDialogComponent implements OnInit {
     {publi: 'Conceptualize, implement and analyze an ecological model'},
     ]},
 
-    {name: 'MS 397 - Special Topics: Ecological Restoration', cnum: 'MS 397', ctit: 'Ecological Restoration', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'MVBRodriguez', RI: 'Discussions on current and emerging topics/issues in the marine sciences.',
+    {name: 'MS 397 - Special Topics: Ecological Restoration', cnum: 'MS 397', ctit: 'Ecological Restoration', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'MVBRodriguez', RI: 'Discussions on current and emerging topics/issues in the field of coral reef restoration.',
     publication: [
-    {publi: ''},
+    {publi: 'To learn i) restoration ecology principles, ii) trends in coral reef degradation, iii) coral reef restoration techniques, planning, implementation and evaluation, and iv) case studies in reef restoration.'},
+    {publi: 'To develop skills in restoring degraded coral reefs.'},
     ]},
 
     {name: 'MS 397 - Special Topics: Marine Organic Geochemistry (as needed)', cnum: 'MS 397', ctit: 'Marine Organic Geochemistry', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'CBJaraula', RI: 'Discussions on current and emerging topics/issues in the marine sciences.',
@@ -247,17 +258,17 @@ export class CoursesDialogComponent implements OnInit {
     {publi: ''},
     ]},
 
-    {name: 'MS 398 - Methods in Marine Science: Advanced Methods in Natural Products', cnum: 'MS 398', ctit: 'Advanced Methods in Natural Products', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'LSReyes', RI: 'Specialized techniques used in marine science research. ',
+    {name: 'MS 398 - Methods in Marine Science: Advanced Methods in Natural Products & Biomedical Research', cnum: 'MS 398', ctit: 'Advanced Methods in Natural Products & Biomedical Research', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'LSReyes', RI: 'Specialized techniques used in marine science research. ',
     publication: [
     {publi: ''},
     ]},
 
-    {name: 'MS 396 - Seminar 1:  Current Topics in Marine Science (for all MS students)', cnum: 'MS 396', ctit: 'Current Topics in Marine Science', preq: 'COI', credit: '1 u; every PhD student shall complete one seminar course every other year after 12 u of courses have been credited to his/her program of study; MS students shall complete only one seminar course.', title1: 'All MSI Faculty', RI: 'Readings and public presentation on current research, issues and topics',
+    {name: 'MS 396 - Seminar 1:  Current Topics in Marine Science (for all MS students)', cnum: 'MS 396', ctit: 'Current Topics in Marine Science', preq: 'COI', credit: '1 u; every PhD student shall complete one seminar course every other year after 12 u of courses have been credited to his/her program of study; MS students shall complete only one seminar course.', title1: 'All MSI Faculty', RI: 'Readings and public presentation on current research, issues and topics.',
     publication: [
     {publi: ''},
     ]},
 
-    {name: 'MS 396 - Seminar (Marine Biology)', cnum: 'MS 396', ctit: 'Advanced Methods in Natural Products', preq: 'COI', credit: '1 u; every PhD student shall complete one seminar course every other year after 12 u of courses have been credited to his/her program of study; MS students shall complete only one seminar course.', RI: 'Readings and public presentation on current research, issues and topics',
+    {name: 'MS 396 - Seminar (Marine Biology)', cnum: 'MS 396', ctit: 'Advanced Methods in Natural Products', preq: 'COI', credit: '1 u; every PhD student shall complete one seminar course every other year after 12 u of courses have been credited to his/her program of study; MS students shall complete only one seminar course.', RI: 'A weekly seminar covering new insights and recent advances shaping the interdisciplinary field of marine biology.',
     publication: [
     {publi: ''},
     ]},
@@ -299,9 +310,9 @@ export class CoursesDialogComponent implements OnInit {
     {publi: ''},
     ]},
 
-    {name: 'MS 242 - Marine Microbiology', cnum: 'MS 242', ctit: 'Marine Microbiology', preq: 'COI', credit: '3 u', title1: 'CGConaco', RI: 'The diversity and role of marine microorganisms in energy flow and biogeochemical cycling.',
+    {name: 'MS 242 - Marine Microbiology', cnum: 'MS 242', ctit: 'Marine Microbiology', preq: 'COI', credit: '3 u', title1: 'CGConaco', RI: 'The diversity and role of marine microorganisms in energy flow and biogeochemical cycling.  The course coverage will include the genotypic and metabolic diversity of marine prokaryotes, their essential roles in bioelement cycling, their importance in symbiosis and pathogenicity, and their role as an indispensable backbone in a multitude of research topics in marine biotechnology. To further introduce students to the exciting field of microbial oceanography, key papers will be selected for in-depth discussion in the class.',
     publication: [
-    {publi: ''},
+    {publi: 'The goal of this course is to familiarize students with concepts and tools in microbiology with emphasis on the study of marine microorganisms and their roles in ocean ecosystems.'},
     ]},
 
     {name: 'MS 250 - Marine Ecology', cnum: 'MS 250', ctit: 'Marine Ecology', preq: 'Undergraduate ecology or COI', credit: '3 u', title1: 'MYRoleda', RI: 'Fundamental ecological principles as applied to the marine environment.',
@@ -316,12 +327,19 @@ export class CoursesDialogComponent implements OnInit {
 
     {name: 'MS 258 - Marine Fishes', cnum: 'MS 258', ctit: 'Marine Fishes', preq: 'Comparative Vertebrate Anatomy', credit: '3 u', title1: 'PCCabaitan', RI: 'Taxonomy,  morphology and ecology of marine fishes.',
     publication: [
-    {publi: ''},
+    {publi: 'To increase appreciation of the evolutionary history and taxonomic diversity of marine fishes.'},
+    {publi: 'To familiarize the basic physiological and behavioral adaptations of fishes to their environment.'},
+    {publi: 'To develop skills in identifying marine fishes, with emphasis on coral reef fishes.'},
+    {publi: 'To discuss some issues concerning the conservation of fish diversity and fisheries management.'},
     ]},
 
     {name: 'MS 260 - Marine Biodiversity', cnum: 'MS 260', ctit: 'Marine Biodiversity', preq: 'Undergraduate Ecology course or  COI', credit: '3 u', title1: 'ATYñiguez / RRGotanco / MVBRodriguez', RI: 'The variety, variability and natural relations of marine living organisms viewed at the structural (organismal to ecosystem) level.',
     publication: [
-    {publi: ''},
+    {publi: 'Increase familiarity on important biodiversity concept.'},
+    {publi: 'Understand the factors that control patterns of marine biodiversity.'},
+    {publi: 'Discuss key issues concerning in marine biodiversity research and conservation.'},
+    {publi: 'Develop skills in using traditional and current methods to describe and measure biodiversity over different scales.'},
+    {publi: 'Reinforce concepts of experimental design and hypothesis-testing.'},
     ]},
 
     {name: 'MS 273 - Marine Biotechnology II (every odd year)', cnum: 'MS 273', ctit: 'Marine Biotechnology II', preq: 'MS 272', credit: '3 u', title1: 'ETYu', RI: 'Molecular,  biotechnological, and related techniques in the study and utilization of marine organisms.',
@@ -336,17 +354,22 @@ export class CoursesDialogComponent implements OnInit {
 
     {name: 'MS 280 - Management of Marine Resources (every even year)', cnum: 'MS 280', ctit: 'Management of Marine Resources', preq: 'Plant Morphoanatomy, Fundamentals of Ecology  or COI', credit: '3 u', title1: 'PMAliño / MAJMeñez / MVBRodriguez', RI: 'Biological and economic concepts for developing and managing the living resources of the sea.',
     publication: [
-    {publi: ''},
+    {publi: 'To understand the theory and practice of ecosystem-based management as applied to coastal and marine systems'},
     ]},
 
     {name: 'MS 283 - Marine Agronomy', cnum: 'MS 283', ctit: 'Marine Agronomy', preq: 'MS 260 or equivalent', credit: '3 u', title1: 'WJESantiañez', RI: 'Ecology and culture of economically important seaweeds and the utilization of their products',
     publication: [
-    {publi: ''},
+    {publi: 'To understand the biology and ecology of farmed seaweeds and their production technologies.'},
+    {publi: 'To critically evaluate the drivers of success and challenges in developing and sustaining the global seaweed industry.'},
     ]},
 
     {name: 'MS 361 - Reproductive Biology', cnum: 'MS 361', ctit: 'Reproductive Biology', preq: 'COI', credit: '3 u', title1: 'MAJMeñez', RI: 'Reproduction in major groups of marine organisms with special reference to cycles and periodicity, in relation to internal and external control mechanisms.',
     publication: [
-    {publi: ''},
+    {publi: 'Review diversity of marine life histories and modes of reproduction.'},
+    {publi: 'Understand processes involved in reproduction at different biological levels (molecular to populations).'},
+    {publi: 'Understand ecological factors that affect different aspects of reproduction.'},
+    {publi: 'RUnderstand evolutional factors that shape reproductive strategies.'},
+    {publi: 'Learn various methods and approaches in investivationg different aspects of reproductive biology and ecology of marine organisms.'},
     ]},
 
     {name: 'MS 366 - Population Genetics of Marine Organisms', cnum: 'MS 366', ctit: 'Population Genetics of Marine Organisms', preq: 'Undergraduate genetics or COI', credit: '3 u', title1: 'RRGotanco', RI: 'The principles of population genetics with emphasis on the application of genetic markers for the assessment and management of wild and cultured organisms.',
@@ -364,9 +387,12 @@ export class CoursesDialogComponent implements OnInit {
     {publi: ''},
     ]},
 
-    {name: 'MS 397 - Special Topics: Algal Life Histories and Reproduction', cnum: 'MS 397', ctit: 'Algal Life Histories and Reproduction', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'WJESantiañez', RI: 'Discussions on current and emerging topics/issues in the marine sciences.',
+    {name: 'MS 397 - Special Topics: Algal Life Histories and Reproduction', cnum: 'MS 397', ctit: 'Algal Life Histories and Reproduction', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'WJESantiañez', RI: 'Discussions and practical exercises towards understanding the diverse life histories and reproductive strategies of seaweeds.',
     publication: [
-    {publi: ''},
+    {publi: 'Understand and appreciate the complexity of algal life histories and reproduction'},
+    {publi: 'Discuss the advantages and disadvantages of seaweed life history variations'},
+    {publi: 'Discuss genetic and environmental factors regulating seaweed life cycles and reproduction'},
+    {publi: 'Obtain skills in culturing and maintaining seaweeds under laboratory conditions to elucidate seaweed life cycle and reproduction'},
     ]},
 
     {name: 'MS 397 - Special Topics: Algal Photobiology and Photochemistry', cnum: 'MS 397', ctit: 'Algal Photobiology and Photochemistry', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'MYRoleda', RI: 'Discussions on current and emerging topics/issues in the marine sciences.',
@@ -384,7 +410,7 @@ export class CoursesDialogComponent implements OnInit {
     {publi: ''},
     ]},
 
-    {name: 'MS 397 - Special Topics: Stable Isotope Geochem', cnum: 'MS 397', ctit: 'Stable Isotope Geochem', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'CBJaraula / IBRodriguez', RI: 'Discussions on current and emerging topics/issues in the marine sciences.',
+    {name: 'MS 397 - Special Topics: Applications of Isotope Geochemistry in Marine Sciences', cnum: 'MS 397', ctit: 'Applications of Isotope Geochemistry in Marine Sciences', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'CBJaraula', RI: 'Discussions on current and emerging topics/issues in the marine sciences.',
     publication: [
     {publi: ''},
     ]},
@@ -394,7 +420,7 @@ export class CoursesDialogComponent implements OnInit {
     {publi: ''},
     ]},
 
-    {name: 'MS 398 - Advanced Methods in Marine Science: Applied Multivariate Data Analysis', cnum: 'MS 398', ctit: 'Applied Multivariate Data Analysis', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'MJRPante', RI: 'Specialized techniques used in marine science research.',
+    {name: 'MS 398 - Advanced Methods in Marine Science: Applied Multivariate Data Analysis', cnum: 'MS 398', ctit: 'Applied Multivariate Data Analysis', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'MJRPante', RI: 'Research in the marine sciences deal with a wide range of data. Multivariate statistical techniques are particularly appropriate for analyzing many variables simultaneously. This course will cover some of the principles of the multivariate analysis and the most common multivariate analyses techniques such as Principal Component Analysis (PCA); Discriminant Function Analysis (DFA); Canonical Variante Analysis (CVA); Canonical Correlations (CanCor); Multivariate Analysis of Variance (MANOVA). The course will help prepare students for research by learning and doing multivariate data analysis; be introduced to approaches that are increasingly being used to discover and analyze multivariate data and provide a tool to carry them out (R and R studio). ',
     publication: [
     {publi: ''},
     ]},
@@ -405,14 +431,16 @@ export class CoursesDialogComponent implements OnInit {
     {publi: ''},
     ]},
 
-    {name: 'MS 398 - Advanced Methods in Marine Science: Techniques in Coral Reef Ecology', cnum: 'MS 398', ctit: 'Techniques in Coral Reef Ecology', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'PCCabaitan', RI: 'Specialized techniques used in marine science research.',
+    {name: 'MS 398 - Advanced Methods in Marine Science: Techniques in Coral Reef Ecology', cnum: 'MS 398', ctit: 'Techniques in Coral Reef Ecology', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'PCCabaitan', RI: 'Methods in monitoring abiotic and biotic parameters in coral reef ecosystems, highlighting key indicator processes for reef degradation and recovery',
     publication: [
-    {publi: ''},
+    {publi: 'Learn principles involved in monitoring coral reef ecology parameters.'},
+    {publi: 'Develop skills in monitoring biotic and abiotic components of coral reefs.'},
+    {publi: 'Process ecological data and frame these in the context of the state of health of the monitored coral reef.'},
     ]},
 
-    {name: 'MS 398 - Advanced Methods in Marine Science: Molecular Biology Methods for Marine Science', cnum: 'MS 398', ctit: 'Molecular Biology Methods for Marine Science', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'ACGConaco / RRGotanco', RI: 'Specialized techniques used in marine science research.',
+    {name: 'MS 398 - Advanced Methods in Marine Science: Molecular Biology Methods for Marine Science', cnum: 'MS 398', ctit: 'Molecular Biology Methods for Marine Science', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'ACGConaco / RRGotanco', RI: 'Fundamental methods in molecular biology and applications in marine science research.',
     publication: [
-    {publi: ''},
+    {publi: 'This course is designed for students with little to no molecular biology background who are interested in exploring research questions in marine science that dive deep into the level of the gene. The course aims to familiarize students with the fundamental techniques in molecular biology, their applications to marine science, as well as recent developments that are fast changing the way in which we understand the oceans. By the end of the course, students are expected to have developed a better understanding of techniques, as well as the skills that will enable them to make use of these in their studies.'},
     ]},
 
     {name: 'MS 398 - Advanced Methods in Marine Science: Elucidation of Natural Products (every odd year)', cnum: 'MS 398', ctit: 'Elucidation of Natural Products', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'LSReyes', RI: 'Specialized techniques used in marine science research.',
@@ -420,12 +448,12 @@ export class CoursesDialogComponent implements OnInit {
     {publi: ''},
     ]},
 
-    {name: 'MS 396 - Seminar (Marine Biotechnology)', cnum: 'MS 396', ctit: 'Marine Biotechnology', preq: 'COI', credit: '1 u; every PhD student shall complete one seminar course every other year after 12 u of courses have been credited to his/her program of study; MS students shall complete only one seminar course.', RI: 'Readings and public presentation on current research, issues and topics.',
+    {name: 'MS 396 - Seminar (Marine Biotechnology)', cnum: 'MS 396', ctit: 'Marine Biotechnology', preq: 'COI', credit: '1 u; every PhD student shall complete one seminar course every other year after 12 u of courses have been credited to his/her program of study; MS students shall complete only one seminar course.', RI: 'A weekly seminar covering new insights and recent advances shaping the interdisciplinary field of marine biotechnology.',
     publication: [
     {publi: ''},
     ]},
 
-    {name: 'MS 396 - Seminar (Physical Sciences)', cnum: 'MS 396', ctit: 'Physical Sciences', preq: 'COI', credit: '1 u; every PhD student shall complete one seminar course every other year after 12 u of courses have been credited to his/her program of study; MS students shall complete only one seminar course.', RI: 'Readings and public presentation on current research, issues and topics.',
+    {name: 'MS 396 - Seminar (Physical Sciences)', cnum: 'MS 396', ctit: 'Physical Sciences', preq: 'COI', credit: '1 u; every PhD student shall complete one seminar course every other year after 12 u of courses have been credited to his/her program of study; MS students shall complete only one seminar course.', RI: 'A weekly seminar covering new insights and recent advances shaping the interdisciplinary field of oceanography.',
     publication: [
     {publi: ''},
     ]},
@@ -450,7 +478,7 @@ export class CoursesDialogComponent implements OnInit {
     {publi: ''},
     ]},
 
-     {name: 'MS 398 - Advanced Methods in Marine Science: Data Analysis Methods in Oceanography', label1: '', cnum: 'MS 398', ctit: 'Data Analysis Methods in Oceanography', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', RI: 'A hands-on class on data analysis techniques in Oceanography. It addresses data acquisition and quality control, data processing and presentation, statistical methods and error handling, analysis of spatial data fields, and time series analysis methods.',
+     {name: 'MS 398 - Advanced Methods in Marine Science: Data Analysis Methods in Oceanography', label1: '', cnum: 'MS 398', ctit: 'Data Analysis Methods in Oceanography', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'CLVillanoy / LTDavid / CRepollo', RI: 'A hands-on class on data analysis techniques in Oceanography. It addresses data acquisition and quality control, data processing and presentation, statistical methods and error handling, analysis of spatial data fields, and time series analysis methods.',
     publication: [
       {publi: 'Expose students to state-of-the-art global earth system databases.'},
       {publi: 'Introduce instrumentation used to collect the data and learn how to acquire and apply quality control.'},
@@ -458,7 +486,26 @@ export class CoursesDialogComponent implements OnInit {
       {publi: 'Train  students  with  the  Unix  operating  system, data analysis and display using Matlab, Ocean Data View and Python.'},
       {publi: 'Improve quantitative understanding of the oceans physical processes that will be useful on their own research projects.'},
     ]},
+
+    {name: 'MS 397 - Special Topics: Submarine Groundwater Discharge', cnum: 'MS 397', ctit: 'Submarine Groundwater Discharge', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'FPSiringan',  RI: 'Discussions on current and emerging topics/issues in the marine sciences.',
+    publication: [
+    {publi: ''},
+    ]},
+
+    {name: 'MS 397 - Special Topics: Environmental Metallomics and Biotechnology', cnum: 'MS 397', ctit: 'Submarine Groundwater Discharge', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'IBRodriguez',  RI: 'Discussions on current and emerging topics/issues in the marine sciences.',
+    publication: [
+    {publi: ''},
+    ]},
     
+    {name: 'MS 397 - Special Topics: Ocean Energy', cnum: 'MS 397', ctit: 'Ocean Energy', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', title1: 'LTDavid',  RI: 'Discussions on current and emerging topics/issues in the marine sciences.',
+    publication: [
+    {publi: ''},
+    ]},
+
+    {name: 'MS 398 - Advanced Methods in Marine Science: Practical Mass Spectrometry', cnum: 'MS 398', ctit: 'Practical Mass Spectrometry', preq: 'COI', credit: '3 u (may be repeated for additional credit as long as the topics are not the same).', RI: 'Specialized techniques used in marine science research.',
+    publication: [
+    {publi: ''},
+    ]},
 
   ];
   myArr = [];
