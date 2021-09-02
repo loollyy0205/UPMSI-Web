@@ -78,7 +78,7 @@ export class CoursesComponent implements OnInit {
     {name: 'MS 397 - Special Topics: Behavioral Ecology', label1: 'MAJMeñez'},
     {name: 'MS 397 - Special Topics: Genome Biology of Marine Organisms', label1: 'CGConaco'},
     {name: 'MS 397 - Special Topics: Gene Expression Control', label1: 'CGConaco'},
-    {name: 'MS 397 - Special Topics: Ecological Modeling', label1: 'ATYñiguez'},
+    {name: 'MS 397 - Special Topics: Ecological Modelling', label1: 'ATYñiguez'},
     {name: 'MS 397 - Special Topics: Ecological Restoration', label1: 'MVBRodriguez'},
     {name: 'MS 397 - Special Topics: Molecular Ecology and Evolution', label1: 'RRGotanco'},
     {name: 'MS 397 - Special Topics: Submarine Groundwater Discharge', label1: 'FPSiringan'},
@@ -95,7 +95,7 @@ export class CoursesComponent implements OnInit {
     {name: 'MS 398 - Advanced Methods in Marine Science: Practical Scientific Programming (every odd year)', label1: 'AOLluisma'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Data Analysis Methods in Oceans', label1: 'CLVillanoy / LTDavid/CRepollo'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Ocean Remote Sensing & Image Analysis', label1: 'LTDavid'},
-    {name: 'MS 398 - Methods in Marine Science: Advanced Methods in Natural Products & Biomedical Research', label1: 'LSReyes'},
+    {name: 'MS 398 - Advanced Methods in Marine Science: Marine Natural Products & Biomedical Research', label1: 'LSReyes'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Data Analysis Methods in Oceanography'},
   ];
 
@@ -111,7 +111,7 @@ export class CoursesComponent implements OnInit {
     gscore = [
     {name: 'MS 230 - Geological Oceanography', label1: 'FPSiringan / CBJaraula'},
     {name: 'MS 240 - Biological Oceanography', label1: 'MHTYap'},
-    {name: 'MS 272 - Marine Biotechnology 1', label1: 'AOLluisma'},
+    {name: 'MS 272 - Marine Biotechnology I', label1: 'AOLluisma'},
   ];
 
   gselec = [
@@ -131,7 +131,7 @@ export class CoursesComponent implements OnInit {
     {name: 'MS 278 - Marine Natural Products (every even year)', label1: 'LSReyes'},
     {name: 'MS 280 - Management of Marine Resources (every even year)', label1: 'PMAliño / MAJMeñez / MVBRodriguez'},
     {name: 'MS 283 - Marine Agronomy', label1: 'WJESantiañez'},
-    {name: 'MS 361 - Reproductive Biology', label1: 'MAJMeñez'},
+    {name: 'MS 361 - Reproductive Biology of Marine Organisms', label1: 'MAJMeñez'},
     {name: 'MS 366 - Population Genetics of Marine Organisms', label1: 'RRGotanco'},
     ];
 
@@ -150,7 +150,7 @@ export class CoursesComponent implements OnInit {
     {name: 'MS 398 - Advanced Methods in Marine Science: Techniques in Coral Reef Ecology', label1: 'PCCabaitan'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Molecular Biology Methods for Marine Science', label1: 'ACGConaco / RRGotanco'},
     {name: 'MS 398 - Advanced Methods in Marine Science: Elucidation of Natural Products (every odd year)', label1: 'LSReyes'},
-    {name: 'MS 398 - Advanced Methods in Marine Science: Practical Mass Spectrometry'},
+    {name: 'MS 398 - Advanced Methods in Marine Science: Practical Mass Spectrometry for Marine Scientists'},
 
   ];
 
@@ -167,6 +167,22 @@ export class CoursesComponent implements OnInit {
     {name: 'MS 397 - Special Topics: Coastal Geomorphology', label1: 'FPSiringan'},
     {name: 'MS 397 - Special Topics: The Sediment Record of Environmental Change', label1: 'FPSiringan'},
     {name: 'MS 398 - Advanced Methods in Marine Science:  Analysis of Molecular Sequences (Every even year)'},
+  ];
+
+  other = [
+    {name: 'MS 397 - Experimental Methods in Marine Natural Products and Biomedical Research'},
+    {name: 'MS 397 - Applications of Molecular Biology and Biochem Techniques to Marine Studies'},
+    {name: 'MS 397 - Development of Bioassays for Marine Samples for Assessment of Therapeutic Potential'},
+    {name: 'MS 397 - Molecular Targets of Anticancer Agents'},
+    {name: 'MS 397 - Biological Structures'},
+  ];
+
+  other2 = [
+    {name: 'MS 397 - Emerging Marine Non-Model Organisms'},
+    {name: 'MS 398 - Practical Computer Programming (every odd year)'},
+    {name: 'MS 398 - Practical Scientific Computing - Python'},
+    {name: 'MS 398 - Structure Determination of Complex Natural Products'},
+    {name: 'MS 398 - Geometric Morphometrics'},
   ];
 
 

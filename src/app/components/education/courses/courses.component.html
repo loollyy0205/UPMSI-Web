@@ -213,6 +213,35 @@
                         </div>
                       </div>
                   </mat-expansion-panel>
+
+            </mat-accordion>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel class="mat-elevation-z0 op-10 full-width" (opened)="panelOpenState6 = true"
+            (closed)="panelOpenState6 = false" hideToggle>
+              <mat-expansion-panel-header class="specific-class">
+               <mat-panel-title [class]="panelOpenState6 ? 'atlas-bold' : 'atlas-light'" [style.color]="panelOpenState6 ? '#394e8a' : 'black'">OTHER COURSE OFFERINGS (ON DEMAND)</mat-panel-title>
+               </mat-expansion-panel-header>
+
+                <mat-accordion>
+                 <div class="regular-content">
+                            <div class="left">
+                             <div *ngFor="let item of other" (click)="openDialog(item.name)">
+                               <p class="atlas-bold">{{item.name}}</p>
+                               <p class="atlas-light">{{item.label1}}</p>
+                               <p class="atlas-light">{{item.label2}}</p>
+                              </div>
+                           </div>
+
+                           <div class="right">
+                            <div *ngFor="let item of other2" (click)="openDialog(item.name)">
+                              <p class="atlas-bold">{{item.name}}</p>
+                              <p class="atlas-light">{{item.label1}}</p>
+                              <p class="atlas-light">{{item.label2}}</p>
+                             </div>
+                           </div>
+                         </div>
+
             </mat-accordion>
           </mat-expansion-panel>
 
