@@ -26,7 +26,7 @@ export class ScicommContentComponent implements OnInit {
 
    pirs = [{
     title: 'A New Pag-Asa Island Research Station Strengthens Marine Science Research in the West Philippine Sea',
-    author: 'By Gabrielle Abrahan & Mia Judicpa, MSI Contributors',
+    author: 'By Gabrielle A. Abrahan & Mia N. Judicpa, MSI Contributors',
     thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1630638350/News/Features/pirs/01-header_y6d9oj.png',
     thumbnail1: 'https://res.cloudinary.com/upmsi/image/upload/v1630638385/News/Features/pirs/Mrose_mmzjdx.png',
     thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1630638392/News/Features/pirs/sir-ando_zrd37x.png',
