@@ -31,7 +31,7 @@
        <p class="atlas-light location-content" style="font-size: 22px;" *ngIf="giantclamBool">Giant clam recruitment and the recruitment envelope</p>
        <p class="atlas-light location-content" *ngIf="giantclamBool">"Right now, we have hundreds of thousands [of giant clams]. Most of these are restocked or produced through mariculture in the Bolinao Marine Laboratory (BML). During the 1980s, locally extinct sila. In most of the Philippine sites, wala nang nahanap, except Palawan (i.e., Cagayancillo Islands), Quezon (i.e., Polillo Islands), and Occidental Mindoro (i.e., Ambil Island). Doon lang ‘yung may natural and wild populations sila, pero one or two individuals lang ang nakita sa mga sites na ito." ("During the 1980s, they were locally extinct. In most of the Philippine sites, none could be found, except Palawan (i.e., Cagayancillo Islands), Quezon (i.e., Polillo Islands), and Occidental Mindoro (i.e., Ambil Island). There, giant clams have natural and wild populations, but only one or two individuals were observed in each site.")</p>
 
-        <div class="center-content">
+        <div class="center-content" *ngIf="giantclamBool">
          <div class="box-content">
           <img [src]="myArr[0].thumbnail1">
            <div >
@@ -48,7 +48,7 @@
        <p class="atlas-light location-content" style="font-size: 22px;" *ngIf="giantclamBool">Fishers as citizen scientists</p>
        <p class="atlas-light location-content" *ngIf="giantclamBool">The locals in Cantaan, a coastal barangay in Camiguin Island, know how integral giant clams are to the health of the ocean. In 1999, the CCMPC established a 3000 m<sup>2</sup> MPA that could serve as a sanctuary for giant clams. When recruits emerged in 2008, the CCMPC encouraged fisherfolk to report sightings while on their fishing routes. Many recruits were lost to poaching and predation, so the CCMPC began transferring them to a nursery in 2015.</p>
 
-       <div class="center-content">
+       <div class="center-content" *ngIf="giantclamBool">
         <div class="box-content">
          <img [src]="myArr[0].thumbnail2">
           <div >
@@ -72,7 +72,7 @@
        <p class="atlas-light location-content" style="font-size: 22px;" *ngIf="giantclamBool">The outlook for citizen science in the Philippines</p>
        <p class="atlas-light location-content" *ngIf="giantclamBool">The CCMPC started out as a group of fisherfolk who were trained to manage and look after the giant clams and other inhabitants of the reefs, like corals, seagrasses, and nearby mangroves. The group became an NGO as it collaborated with different scientific institutions, including the Silliman University Angelo King Center for Research and Environmental Management in Dumaguete and Xavier University - Ateneo de Cagayan in Cagayan de Oro. By designing and proposing conservation projects, the CCMPC receives funding from the local government unit (LGU) and the Department of Environment and Natural Resources (DENR). <br><br>The fishers themselves benefit directly from the monitoring and conservation efforts. Aside from being a giant clam refuge and nursery, the CCMPC MPA is an ecotourism spot that generates a considerable amount of revenue for the fishers. Moreover, keeping the clams and the reefs healthy also ensures more catch.</p>
 
-       <div class="center-content">
+       <div class="center-content" *ngIf="giantclamBool">
         <div class="box-content">
          <img [src]="myArr[0].thumbnail3">
           <div >
@@ -97,7 +97,7 @@
 
         <p class="atlas-light location-content" *ngIf="giantclamBool">In the case of giant clam stewardship, Requilme believes that information and education campaigns are the best way to influence fishers to become skilled citizen scientists. But he also emphasizes that acknowledging the participation of the fishers, aside from the already-existing incentives promoted by the CCMPC, motivates other fishers to join the cause as well.<br><br>As a maritime country, the Philippines has a wealth of marine resources. Yet fishers do not receive enough compensation for their work, suffering from the impacts of climate change, marine degradation, and illegal overfishing by foreign entities. Through citizen science, they are empowered to mitigate these losses and contribute to marine conservation while creating new sources of income. <br><br> In a conversation with Mary Jane Cordero, a CCMPC volunteer who works on the information education campaign, we learn that the success of the giant clam conservation movement is derived from collaboration: <br><br> “Sa willingness ng mga tao to sacrifice, and then [sa commitment] nila sa mga project. ‘Yung challenge sa pagsisimula lang talaga is ‘yung knowledge dapat. Mahirap siya, especially if you do a project. If less ‘yung knowledge mo, and if you don’t have those people to guide you — ‘yung parang kayo-kayo lang ‘yung gagawa... We need the help of the people, particularly those who know a lot in that field din talaga.” (“In the willingness of people to sacrifice, and in their commitment toward the projects. The challenge in setting up the movement is in the knowledge. It’s difficult, especially if you do a project. If you don’t have enough knowledge, and if you don’t have those people to guide you — like when you’re doing things by yourselves... We need the help of the people, particularly those who know a lot in the field.”</p>
        <p class="atlas-light location-content" *ngIf="giantclamBool">      </p>
-       <hr>
+       <hr *ngIf="giantclamBool">
         <div class="ack" style="color: #696969;">
        <p class="atlas-light location-content" *ngIf="giantclamBool"><em>Acknowledgments</em></p>
        <p class="atlas-light location-content" *ngIf="giantclamBool"><em>The study was funded by the Philippine Council for Agriculture, Aquatic and Natural Resources Research and Development (PCAARRD) of the Department of Science and Technology and, in part, by the National Geographic Society. Our fervent gratitude to the Cantaan Centennial Multi-Purpose Cooperative (CCMPC) and the Cordero family: Alona, Anita and  Rioloto, for providing logistical support and accessibility to the data on <em>T. gigas</em> recruits. Our great appreciation as well for the assistance of Chev Duay, Janell Sihay, Rad Edulan and Haskell Distajo during the field surveys.</em></p>
@@ -117,6 +117,108 @@
 
         6. <a href="https://newsinfo.inquirer.net/playground-of-giant-clams" target="_blank" style="color: #384e8a">Cardinoza, G., 2017. Playground of giant clams. [online] Inquirer.net.</a> [Accessed 12 July 2021].</p>
 
+
+
+         <p class="atlas-light location-content" *ngIf="pirsBool"> While world leaders from developed countries are slowly enacting environmental policies to reach their climate targets and transition into a fully carbon-neutral society to combat climate change, small island nations everywhere are proving to be more adept.</p>
+
+         <p class="atlas-light location-content" *ngIf="pirsBool">In the Philippines, there’s an island that is set out to make an example for many others.</p>
+
+         <p class="atlas-bold location-content" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Where it all begins</em></p>
+
+         <p class="atlas-light location-content" *ngIf="pirsBool">Previously known as the Frogman’s Quarter because of the animal’s resemblance to a diver, the Pagasa Island Research Station (PIRS) in Pagasa Island was first established in 1997 with support from the Department of Environment and Natural Resources (DENR) and in cooperation with the Western Command of the Armed Forces of the Philippines (WESCOM).</p>
+
+         <p class="atlas-light location-content" *ngIf="pirsBool">However, due to a lack of sustainable funding and accessibility to the area, the utilization of the research station was not maximized and was limited only to the divers of the Philippine Navy.</p>
+
+         <p class="atlas-light location-content" *ngIf="pirsBool">It had not been occupied for some time after its inauguration in 2000, leaving the dome-shaped building damaged and in need of repairs for it to be fully functional again.</p>
+
+        <div class="center-content" *ngIf="pirsBool">
+         <div class="box-content">
+          <img [src]="myArr[0].thumbnail1">
+           <div >
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 10px;" *ngIf="pirsBool" >Mary Rose Gabuyo, a UP MSI RA, points out damaged portions of the PIRS ceiling.</p>
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="pirsBool"> Photo: Dr. Charissa M. Ferrera</p>
+          </div>
+        </div>
+       </div>
+
+        <p class="atlas-light location-content" *ngIf="pirsBool">With this, one of the components of the University of the Philippines Marine Science Institute’s (UP MSI) Upgrading Capability, Infrastructure and Assets (UPGRADE CIA) program is to conduct ocular inspection and assessment to identify what needs to be done for the rehabilitation of the existing marine science research station situated on the island.</p>
+
+        <p class="atlas-light location-content" *ngIf="pirsBool">This project is also known as the Initial Repair and Refurbishment of the Pagasa station or iRARE Pagasa.</p>
+
+        <p class="atlas-light location-content" *ngIf="pirsBool">“Mula noong na-inaugurate siya, hindi na siya nabalikan ng MSI. Part of the reason was that there was a sudden shift in the priorities for funding by the national government. Alam natin na hindi madaling makapunta doon, but the interest of putting up a laboratory there remains the same,” shares iRARE Project Leader Dr. Fernando Siringan, who is a professor at UP MSI and a NAST academician.</p>
+
+
+        <p class="atlas-light location-content" *ngIf="pirsBool">From the latest assessment during the 2021 WPS expeditions, PIRS was found to be in a dilapidated state with a significant number of cracks on its walls, visible signs of water leaks, termite infestation, and corroded electrical lines.</p>
+
+        <p class="atlas-light location-content" *ngIf="pirsBool">The iRARE team began the refurbishment efforts during the WPS Summer 2021 expeditions by installing a 1 kW solar panel system to power up the station. An Automatic Identification System (AIS) for tracking the movement of ships in the area was also installed.</p>
+
+
+
+       <div class="center-content" *ngIf="pirsBool">
+         <div class="box-content">
+          <img [src]="myArr[0].thumbnail4">
+           <div >
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 10px;" *ngIf="pirsBool" >The iRARE team installing a 1 kW solar panel system to power up the station. This is part of the project’s vision to make Pag-asa island self-sustaining.</p>
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="pirsBool" > Photo: ?</p>
+          </div>
+        </div>
+       </div>
+
+        <p class="atlas-light location-content" *ngIf="pirsBool">The repairs and installation of new features, including an Automatic Identification System (AIS) for tracking the movement of ships in the area are scheduled to be conducted in October 2021.</p>
+
+         <p class="atlas-bold location-content" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Marine Science Research as the core of future plans</em></p>
+
+         <p class="atlas-light location-content" *ngIf="pirsBool">Sea level changes have been affecting small islands, including the coral reefs that surround them. The rate by which the sea level rises has varying effects on the marine environment: a slow rate may result in vertical reef accretion, while a fast rate can drown reefs.</p>
+
+         <p class="atlas-light location-content" *ngIf="pirsBool">As a small and low lying island, sea level rise caused by subsidence and climate change poses a huge threat to Pagasa Island and other similar landforms</p>
+
+         <p class="atlas-light location-content" *ngIf="pirsBool">This, along with other needs of the country, make Marine Science Research (MSR) programs more relevant than ever as they can enabler the protection of our lands and waters, especially those in the West Philippine Sea (WPS).</p>
+
+          <p class="atlas-light location-content" *ngIf="pirsBool">As a maritime nation, the establishment of a marine science research center on the island is key in understanding the Philippines’ marine resources and how to utilize them sustainably. According to Siringan, the establishment and full utilization of PIRS enforces Philippine sovereignty in Pagasa Island, and that science is being conducted in the WPS. Since the area is geographically isolated, many of its features are different from the mainland and neighboring islands, so there is much more to discover.</p>
+
+
+       <div class="center-content" *ngIf="pirsBool">
+         <div class="box-content">
+          <img [src]="myArr[0].thumbnail2">
+           <div >
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 10px;" *ngIf="pirsBool">Dr. Fernando Siringan, iRARE project leader, conducts bathymetry and scan surveys around Pag-asa island.</p>
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="pirsBool" >Photo: GeoOce Media</p>
+          </div>
+        </div>
+       </div>
+
+       <p class="atlas-light location-content" *ngIf="pirsBool">Results found in further research can also be used to create policies against illegal fishing and poaching, artificial island-building, the presence of foreign entities, and other threats like ocean acidification, increased ocean temperatures, sea level rise, and extreme rainfalls due to climate change. Ultimately, these policies will serve to support Philippine troops stationed in the area, nearby coastal communities, and Filipinos everywhere.</p>
+
+         <p class="atlas-bold location-content" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Upcoming WPS expeditions</em></p>
+
+         <p class="atlas-light location-content" *ngIf="pirsBool">The 2021 WPS expeditions are scheduled to resume in September, and Siringan’s team is prioritizing the completion of PIRS refurbishment tasks so that it will be available for use by next year.</p>
+
+         <p class="atlas-light location-content" *ngIf="pirsBool">Aside from the repairs, the team has also been studying sea level changes around the island through bathymetry and side scan surveys, looking at geomorphic indicators of previous sea level stands using single beam systems. This will improve their understanding of the geological changes in the KIG and aid them in designing ways to impede those changes. They will be moving forward with their study on the upcoming second leg of the expeditions.</p>
+
+         <p class="atlas-light location-content" *ngIf="pirsBool">“If the sea would allow us then we will do a multibeam bathymetric survey. If we have time, we will also do some groundwater surveys using electrical resistivity. And then, we will go around the island and look at [changes in] shoreline position and the materials of the beach. We will also estimate the island’s elevation by using [the] EMERY [method] for beach profiling,” he says</p>
+
+          <p class="atlas-bold location-content" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Pag-asa island in the years to come</em></p>
+
+         <p class="atlas-light location-content" *ngIf="pirsBool">Siringan also mentioned a proposed research program called Small Island Life Sustenance in the WPS (SmILeS WPS) to transform islands like Pagasa into regenerative islands that sustain life while also reassuring the integrity of the environment through sustainable means.</p>
+
+         <p class="atlas-light location-content" *ngIf="pirsBool">He ruminates by saying, “Bakit hindi natin gamitin ang Pagasa as a platform for the use of renewable energy? Gulay sa maliliit na isla—ano ang pwedeng maitanim? Pwede bang mag-alaga ng mga hayop? Gamitin ang dumi ng baka at baboy para [maging fertilizer]. Napakakaunti ng tubig doon ngayon. Kailangan din maghanap ng paraan para padamihin ang tubig doon.”</p>
+
+
+       <div class="center-content" *ngIf="pirsBool">
+         <div class="box-content">
+          <img [src]="myArr[0].thumbnail3">
+           <div >
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 10px;" *ngIf="pirsBool" >Many species can be found in the waters of the KIG, prompting scientists to come up with robust and sustainable conservation practices.</p>
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="pirsBool" >Photo: Marine Phycology Lab</p>
+          </div>
+        </div>
+       </div>
+
+       <p class="atlas-light location-content" *ngIf="pirsBool">Through research and development, renewable energy, farming, and groundwater production are among many other possible future projects under SmILeS WPS. The iRARE team is also considering application technology for the institute’s successful studies, such as seaweed culture, sea ranching of sea cucumbers, and integrated multitrophic aquaculture on the island</p>
+
+        <p class="atlas-light location-content" *ngIf="pirsBool">PIRS will be open to any Filipino researcher looking to work within the island or the WPS area. After the construction of the dormitories, foreign researchers will be welcome as well.</p>
+
+       
   </div>
 
 
