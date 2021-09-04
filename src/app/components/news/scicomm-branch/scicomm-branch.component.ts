@@ -17,6 +17,6 @@ export class ScicommBranchComponent implements OnInit {
     this.router.navigate(['/News/scicomm', 'against-the-current-how-the-giant-clams-of-the-Philippines-escaped-extinction-with-the-help-of-science-and-the-community']);
   }
   newsContent1(){
-    this.router.navigate(['/News/scicomm', 'A-New-Pag-Asa-Island-Research-Station-Strengthens-Marine-Science-Research-in-the-West-Philippine-Sea']);
+    this.router.navigate(['/News/scicomm', 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea']);
   }
 } 

@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class MoreScicommComponent implements OnInit {
   news=[
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1628066287/News/Features/01-final-header_hjud3l.png",  title: "Against the Current: How the giant clams of the Philippines escaped extinction with the help of science and the community", content: 'The boundaries of science, including the...'},
-    {image: "https://res.cloudinary.com/upmsi/image/upload/v1630638350/News/Features/pirs/01-header_y6d9oj.png",  title: "A New Pag-Asa Island Research Station Strengthens Marine Science Research in the West Philippine Sea", content: 'Years of neglect have led to the facility becoming run-down. The Upgrade CIA program...'},
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1630638350/News/Features/pirs/01-header_y6d9oj.png",  title: "AA Revived Pag-asa Island Research Station Strengthens Philippine Marine Scientific Research in the West Philippine Sea", content: 'Years of neglect have led to the facility becoming run-down. The Upgrade CIA program...'},
 
     /**
     {image: "https://dc585.4shared.com/img/fTDppHwOiq/s24/179b1eeaa58/News-02-awards?async&rand=0.5250163112703308", subtitle: 'April 30, 2021', title: "UPMSI scientists receive accolades from NAST, OMLC", content: 'Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center...'},
@@ -28,7 +28,7 @@ export class MoreScicommComponent implements OnInit {
         this.router.navigate(['/News/scicomm', 'against-the-current-how-the-giant-clams-of-the-Philippines-escaped-extinction-with-the-help-of-science-and-the-community']);
         break;
       case 1:
-        this.router.navigate(['/News/scicomm', 'A-New-Pag-Asa-Island-Research-Station-Strengthens-Marine-Science-Research-in-the-West-Philippine-Sea']);
+        this.router.navigate(['/News/scicomm', 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea']);
         break;
         /**
       case 2:
