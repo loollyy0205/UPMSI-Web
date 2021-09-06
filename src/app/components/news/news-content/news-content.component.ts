@@ -71,7 +71,7 @@ export class NewsContentComponent implements OnInit {
     paragraph5: 'While there is growing support for the movement, giant clams are still vulnerable and remain endangered due to poor management, unregulated harvesting, and illegal possession and trade.',
     paragraph6: `To curb this, UPMSI-BML has spearheaded 'Adopt a Clam' campaigns to help protect giant clams by raising funds, while raising awareness to the public on the need to preserve them and their importance to marine life as well as the whole ecosystem.`,
     news: [
-      {image: "hhttps://res.cloudinary.com/upmsi/image/upload/v1628147196/News/News%20Icons/News-01-scientist_pshtv5.png", title: "Filipino scientist makes history by reaching the 3rd deepest spot on Earth", content: 'Few have been brave enough to venture the depths of the oceans. This year, microbial oceanographer Dr. Deo Florence L. Onda made history as the second human and the first Filipino to reach Emden Deep, the third deepest spot on earth.', url: 'filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147196/News/News%20Icons/News-01-scientist_pshtv5.png", title: "Filipino scientist makes history by reaching the 3rd deepest spot on Earth", content: 'Few have been brave enough to venture the depths of the oceans. This year, microbial oceanographer Dr. Deo Florence L. Onda made history as the second human and the first Filipino to reach Emden Deep, the third deepest spot on earth.', url: 'filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth'},
       {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147198/News/News%20Icons/News-02-awards_fiqdzh.png", title: "UPMSI scientists receive accolades from NAST, OMLC", content: 'Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center for Climate Change Adaptation and Disaster Risk Management Foundation, Inc (OMLC).', url: 'UPMSI-scientists-receive-accolades-from-NAST'},
       {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147198/News/News%20Icons/News-04-narfleet_g3lebs.png", title: "NARFleet is on its way to prowl Philippine waters", content: 'The National Academic Research Fleet (NARFleet) is set to embark on its first expedition. The program aims to provide better access to ocean research for both the academe and the Philippine government.', url: 'NARFleet-is-on-its-way-to-prowl-Philippine-waters'},
       ]
@@ -82,10 +82,12 @@ export class NewsContentComponent implements OnInit {
     date: 'Updated April 30, 2021',
     author: 'By. Mia N. Judicpa & Gabrielle A. Abrahan, MSI Contributors',
     thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1628147198/News/News%20Icons/News-04-narfleet_g3lebs.png',
+    thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1630898755/News/News%20Icons/Panata-GeoOce_rugkek.jpg',
+    thumbnail3: 'https://res.cloudinary.com/upmsi/image/upload/v1630898764/News/News%20Icons/Narfleet_vessels_vzdtip.png',
     photoContent: 'Filipino Marine Scientists Conclude WPS Summer Expeditions',
     courtesy: 'PHOTO COURTESY OF xxxx',
     location: 'xxxx',
-    locationContent: 'Researchers from The Marine Science Institute of the University of the Philippines (UP MSI) conducted two major expeditions in the West Philippine Sea (WPS) on April 23–May 5, and May 7–19, 2021 as part of the research programs “Upgrading Capacity, Infrastructure, and Assets For Marine Scientific Research in the Philippines (Upgrade CIA)” and “Predicting Responses Between Ocean Transport and Ecological Connectivity in Threatened Ecosystems in WPS 2 (PROTECT WPS 2)”, respectively. UP MSI’s M/Y Panata was the research vessel used, and the Chief Scientists were Dr. Charissa M. Ferrera for Upgrade CIA and Dr. Deo Florence L. Onda for PROTECT WPS 2. Collaborators from Western Philippines University in Palawan and UP Visayas were involved in the expeditions.',
+    enarfleetbool: true,
     news: [
       {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147196/News/News%20Icons/News-01-scientist_pshtv5.png", title: "Filipino scientist makes history by reaching the 3rd deepest spot on Earth", content: 'Few have been brave enough to venture the depths of the oceans. This year, microbial oceanographer Dr. Deo Florence L. Onda made history as the second human and the first Filipino to reach Emden Deep, the third deepest spot on earth.', url: 'filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth'},
       {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147198/News/News%20Icons/News-02-awards_fiqdzh.png", title: "UPMSI scientists receive accolades from NAST, OMLC", content: 'Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center for Climate Change Adaptation and Disaster Risk Management Foundation, Inc (OMLC).', url: 'UPMSI-scientists-receive-accolades-from-NAST'},
@@ -110,6 +112,7 @@ export class NewsContentComponent implements OnInit {
   nastBool:boolean = true;
   clamsBool:boolean = false;
   wpsBool:boolean = false;
+  narfleetBool:boolean = false;
 
 
   constructor(private router:Router) { }
@@ -130,6 +133,7 @@ export class NewsContentComponent implements OnInit {
         break;
       case '/News/content/NARFleet-is-on-its-way-to-prowl-Philippine-waters':
         this.myArr = this.narfleet;
+        this.narfleetBool = true;
         break;
       case '/News/content/wps-expeditions':
         this.myArr = this.wps;
