@@ -79,14 +79,13 @@ export class NewsContentComponent implements OnInit {
 
   narfleet = [{
     title: 'NARFleet is on its way to prowl Philippine waters',
-    date: 'Updated April 30, 2021',
+    date: 'Updated September 7, 2021',
     author: 'By. Mia N. Judicpa & Gabrielle A. Abrahan, MSI Contributors',
-    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1628147198/News/News%20Icons/News-04-narfleet_g3lebs.png',
-    thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1630898755/News/News%20Icons/Panata-GeoOce_rugkek.jpg',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1630983200/News/News%20Icons/Panata-GeoOce_pa7p4n.png',
     thumbnail3: 'https://res.cloudinary.com/upmsi/image/upload/v1630898764/News/News%20Icons/Narfleet_vessels_vzdtip.png',
-    photoContent: 'Filipino Marine Scientists Conclude WPS Summer Expeditions',
-    courtesy: 'PHOTO COURTESY OF xxxx',
-    location: 'xxxx',
+    photoContent: '',
+    courtesy: 'PHOTO COURTESY OF GeoOce Media',
+    location: 'Diliman, Quezon City, PH',
     enarfleetbool: true,
     news: [
       {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147196/News/News%20Icons/News-01-scientist_pshtv5.png", title: "Filipino scientist makes history by reaching the 3rd deepest spot on Earth", content: 'Few have been brave enough to venture the depths of the oceans. This year, microbial oceanographer Dr. Deo Florence L. Onda made history as the second human and the first Filipino to reach Emden Deep, the third deepest spot on earth.', url: 'filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth'},

@@ -22,7 +22,8 @@
       <div class="photo-box">
       <p class="atlas-light photo-content" *ngIf="!clamsBool && nastBool">{{myArr[0].photoContent}}</p>
       <p class="atlas-light photo-content" *ngIf="clamsBool" >Two <em>Tridacna Gigas</em> specimens from the BML nursery: Efforts to grow the giant clam population are gaining momentum. Giant clams are still vulnerable and remain endangered due to poor management, unregulated harvesting, and illegal possession and trade.</p>
-      <p class="atlas-light photo-content" *ngIf="!nastBool" >Closeup of a <em>Kappaphycus alvarezii</em> specimen: Much of UP MSI’s research benefits the algae and corals of the Philippines. The dedication of UP MSI scientists to studying these organisms has earned them recognition over the years.</p>
+      <p class="atlas-light photo-content" *ngIf="clamsBool" >Two <em>Tridacna Gigas</em> specimens from the BML nursery: Efforts to grow the giant clam population are gaining momentum. Giant clams are still vulnerable and remain endangered due to poor management, unregulated harvesting, and illegal possession and trade.</p>
+      <p class="atlas-light photo-content" *ngIf="myArr[0].enarfleetbool">The <em>MY Panata</em> has set sail in many Philippine locations, including the WPS, Visayas Seas, and Sulu Sea.</p>
       <p class="atlas-bold photo-courtesy">{{myArr[0].courtesy}}</p>
       </div>
     </div>
@@ -49,31 +50,22 @@
 
       <p class="atlas-light location-content" *ngIf="myArr[0].enarfleetbool">The NARFleet’s long-term sustainability plan spans 16 years and is divided into three phases. Logistics planning and procurement of assets are currently underway as part of the first phase and capacity building for partner host universities (2019 to 2022). The second phase (2023 to 2028) focuses on local MSRs and expanding the scope of research activities, as well as training more researchers and institutions to conduct ocean-based studies. Finally, the last phase (2029 to 2035) will help expand the MSR efforts to include international collaborators.</p>
 
-      <p class="atlas-light location-content" *ngIf="myArr[0].enarfleetbool">There are seven vessels in the current list of assets, including the existing <em>MY Panata</em> of UP MSI and four other vessels that are still being procured. <em>MY Panata</em>, one of the active vessels funded by the UP System, has already accomplished several missions in the West Philippine Sea (2019 & 2021), the Visayan Seas (2019), and the Tubbataha Reefs and Sulu Sea (2019 & 2021) since its maiden voyage in 2019. It has significantly increased UP MSI’s capacity in performing fieldwork in the different maritime regions of the country. Its accomplishments also emphasize the need for dedicated floating assets for research.</p>
-
-      <div class="center-content" *ngIf="myArr[0].enarfleetbool">
-         <div class="box-content">
-          <img [src]="myArr[0].thumbnail2">
-           <div >
-            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 10px;" *ngIf="myArr[0].enarfleetbool"> WPS Summer 2021 Expeditions</p>
-            <!--<p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="myArr[0].enarfleetbool" >Photo: CCMPC</p>-->
-          </div>
-        </div>
-       </div>
-
-      <p class="atlas-light location-content" *ngIf="myArr[0].enarfleetbool">Currently, the NARFleet coordination and management group is facilitating the procurement of the four new vessels, with a total budget of PhP 110 million granted by the Philippine Government. These include a used sail or power catamaran which will be deployed in inner seas, including the Verde Island Passage, for oceanographic work, habitat monitoring, and marine technology testing. One of the  research vessels will also be stationed in the Visayas waters and the Bohol Sea, while another one will be dedicated to the exploration of the Mindanao waters, like the Sulu Sea and Sulawesi. Lastly, the third research vessel will be based in the Pacific Seaboard and the West Philippine Sea for diving and oceanographic work. The bidding process for the used sail or power catamaran has been completed and the awarding is being finalized, while the research vessels are still undergoing bidding.</p>
-
-      <p class="atlas-light location-content" *ngIf="myArr[0].enarfleetbool">Two other anticipated developments are the NARFleet website launch and the participation of <em>MY Panata</em> in the upcoming cruise in the Kalayaan Island Group (KIG). The cruise, which will run from late September to the majority of October, focuses on the refurbishment of the Pagasa Island Research Station (PIRS), setting up of AIS and Ocean Monitoring System, and survey of reef fish and fisheries in the area and pollution, such as plastics. Meanwhile, the website is scheduled to be released within the year.</p>
-
       <div class="center-content" *ngIf="myArr[0].enarfleetbool">
          <div class="box-content">
           <img style="object-fit: contain;width: 100%; height: 100%;overflow: hidden; position: relative;" [src]="myArr[0].thumbnail3">
            <div >
-            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 15px;" *ngIf="myArr[0].enarfleetbool">Vessels</p>
-            <!--<p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="myArr[0].enarfleetbool >Photo: CCMPC</p>-->
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 15px;" *ngIf="myArr[0].enarfleetbool">The three existing vessels of the fleet, from left to right: <em>MY Panata, RV Kalayaan, RV Mandaragat</em>.</p>
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="myArr[0].enarfleetbool">Photo: MSI Contributors</p>
           </div>
         </div>
        </div>
+
+      <p class="atlas-light location-content" *ngIf="myArr[0].enarfleetbool">There are seven vessels in the current list of assets, including the existing <em>MY Panata</em> of UP MSI and four other vessels that are still being procured. <em>MY Panata</em>, one of the active vessels funded by the UP System, has already accomplished several missions in the West Philippine Sea (2019 & 2021), the Visayan Seas (2019), and the Tubbataha Reefs and Sulu Sea (2019 & 2021) since its maiden voyage in 2019. It has significantly increased UP MSI’s capacity in performing fieldwork in the different maritime regions of the country. Its accomplishments also emphasize the need for dedicated floating assets for research.</p>
+
+
+      <p class="atlas-light location-content" *ngIf="myArr[0].enarfleetbool">Currently, the NARFleet coordination and management group is facilitating the procurement of the four new vessels, with a total budget of PhP 110 million granted by the Philippine Government. These include a used sail or power catamaran which will be deployed in inner seas, including the Verde Island Passage, for oceanographic work, habitat monitoring, and marine technology testing. One of the  research vessels will also be stationed in the Visayas waters and the Bohol Sea, while another one will be dedicated to the exploration of the Mindanao waters, like the Sulu Sea and Sulawesi. Lastly, the third research vessel will be based in the Pacific Seaboard and the West Philippine Sea for diving and oceanographic work. The bidding process for the used sail or power catamaran has been completed and the awarding is being finalized, while the research vessels are still undergoing bidding.</p>
+
+      <p class="atlas-light location-content" *ngIf="myArr[0].enarfleetbool">Two other anticipated developments are the NARFleet website launch and the participation of <em>MY Panata</em> in the upcoming cruise in the Kalayaan Island Group (KIG). The cruise, which will run from late September to the majority of October, focuses on the refurbishment of the Pagasa Island Research Station (PIRS), setting up of AIS and Ocean Monitoring System, and survey of reef fish and fisheries in the area and pollution, such as plastics. Meanwhile, the website is scheduled to be released within the year.</p>
 
        <p class="atlas-light location-content" *ngIf="myArr[0].enarfleetbool">With these vessels that make up a whole fleet dedicated to research and the support of NSC, other government agencies, and partner universities/institutions, the UP MSI hopes to scale up Philippine MSRs and ocean research programs, inspiring more young scientists to participate in research addressing contemporary climate and national security issues.</p>
 
