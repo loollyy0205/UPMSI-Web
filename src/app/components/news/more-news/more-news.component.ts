@@ -14,6 +14,7 @@ export class MoreNewsComponent implements OnInit {
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147225/News/News%20Icons/News-03-clams_yczwfs.png", subtitle: 'April 30, 2021', title: "All About the Giant Clam", content: 'In the waters of Silaqui Island in Bolinao, Pangasinan, one could never miss the giant clams. The UPMSI Bolinao Marine Laboratory (BML) currently cultures four species at its onshore hatchery...'},
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1630983200/News/News%20Icons/Panata-GeoOce_pa7p4n.png", subtitle: 'September 7, 2021', title: "NARFleet is on its way to prowl Philippine waters", content: 'The National Academic Research Fleet (NARFleet) is set to embark on its first Expeditions. The program aims to provide better access to ocean research for both the...'},
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1628493886/News/wps_wypn1r.png", title: "UP MSI WPS expeditions 2021", content: 'Learn more about the latest explorations of the blue planet deep under our very own seas.'},
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1630638350/News/Features/pirs/01-header_y6d9oj.png",  title: "A Revived Pag-asa Island Research Station Strengthens Philippine Marine Scientific Research in the West Philippine Sea", content: 'Years of neglect have led to the facility becoming run-down. The Upgrade CIA program...'},
   ];
   constructor(private router:Router) { }
 
@@ -37,6 +38,9 @@ export class MoreNewsComponent implements OnInit {
        case 4:
         this.router.navigate(['/News/content', 'wps-expeditions']);
         break; 
+      case 5:
+        this.router.navigate(['/News/content', 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea']);
+        break;
     }
 
   }
