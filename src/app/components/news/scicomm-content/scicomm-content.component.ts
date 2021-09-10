@@ -24,29 +24,11 @@ export class ScicommContentComponent implements OnInit {
     paragraph4: '',
   }];
 
-   pirs = [{
-    title: 'A Revived Pag-asa Island Research Station Strengthens Philippine Marine Scientific Research in the West Philippine Sea',
-    author: 'By Gabrielle A. Abrahan & Mia N. Judicpa, MSI Contributors',
-    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1630638350/News/Features/pirs/01-header_y6d9oj.png',
-    thumbnail1: 'https://res.cloudinary.com/upmsi/image/upload/v1630638385/News/Features/pirs/Mrose_mmzjdx.png',
-    thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1630638392/News/Features/pirs/sir-ando_zrd37x.png',
-    thumbnail3: 'https://res.cloudinary.com/upmsi/image/upload/v1630638768/News/Features/pirs/marine-life-in-pagasa_esfbwv.png',
-    thumbnail4: 'https://res.cloudinary.com/upmsi/image/upload/v1630638776/News/Features/pirs/sustainability_l5wob9.png',
-    thumbnail5: 'https://res.cloudinary.com/upmsi/image/upload/v1630742676/News/Features/pirs/kalayaan-lab_2_gdhovk.jpg',
-    photoContent: 'Years of neglect have led to the facility becoming run-down. The Upgrade CIA program has extensive plans for its restoration, which will be rolling out in phases.',
-    courtesy: 'PHOTO COURTESY OF GeoOce Media',
-
-    locationContent: '',
-    paragraph1: '',
-    paragraph2: ``,
-    paragraph3: ``,
-    paragraph4: '',
-  }];
+   
 
 
   myArr = [];
   giantclamBool:boolean = false;
-  pirsBool:boolean = false;
 
 
   constructor(private router:Router) { }
@@ -63,10 +45,7 @@ export class ScicommContentComponent implements OnInit {
       this.myArr = this.giantclam;
       this.giantclamBool = true;
     }
-    if(this.router.url.includes('/News/scicomm/A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea')){
-      this.myArr = this.pirs;
-      this.pirsBool = true;
-    }
+   
   }
 
   moreScicomm(){

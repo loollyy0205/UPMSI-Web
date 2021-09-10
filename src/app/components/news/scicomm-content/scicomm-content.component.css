@@ -10,6 +10,27 @@
   flex-direction: column;
 }
 
+.box-content2{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: center;
+}
+
+video::-webkit-media-controls-panel {
+display: none !important;
+opacity: 1 !important;
+}
+
+.box-content2 video {
+  height: 47.818vw;
+}
+
+.center-content2{
+  place-content: center;
+  margin-top: 4.392vw;
+  margin-left: 3.392vw;
+}
 
 .box-content img {
   height: 27.818vw;
