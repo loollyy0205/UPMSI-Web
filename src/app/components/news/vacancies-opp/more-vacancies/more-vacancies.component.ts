@@ -15,8 +15,8 @@ export class MoreVacanciesComponent implements OnInit {
     {image: 'https://res.cloudinary.com/upmsi/image/upload/v1628147005/News/crop2_e6sjhv.jpg', title: 'University Research Associate II (SG-14)', date:'March 17, 2021'},
     {image: 'https://res.cloudinary.com/upmsi/image/upload/v1628147006/News/crop3_bxg6df.jpg', title: 'University Research Associate II (SG-14)', date:'March 05, 2021'},
     {image: 'https://res.cloudinary.com/upmsi/image/upload/v1628147007/News/crop4_akease.jpg', title: 'Full Time Research Associate II (SG-14)', date:'February 20, 2021'},
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1629959743/News/Opening-1crop_tthqzm.png', title: 'Full Time Chemical Oceanographer or Marine Chemist', date:'September 15, 2021'},
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1629959743/News/Opening-2crop_ycpoiw.png', title: 'Marine Biologist', date:'September 15, 2021'},
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1632125716/News/Faculty_Position_Chemical_Oceanogpraher_or_Marine_Chemist-2.1crop_djqgbt.png', title: 'Full Time Chemical Oceanographer or Marine Chemist', date:'September 30, 2021'},
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1632125716/News/Faculty_Position_Marine_Biologist-1.1crop_vkb1v2.png', title: 'Marine Biologist', date:'September 30, 2021'},
     ]
   constructor(private router:Router) { }
 

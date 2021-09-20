@@ -20,10 +20,10 @@ export class VacanciesOppComponent implements OnInit {
     {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1628147007/News/crop4_akease.jpg'}
   ]
   new1 = [
-    {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1629959210/News/Opening-1_ipqzrm.png'}
+    {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1632124591/News/Faculty_Position_Chemical_Oceanogpraher_or_Marine_Chemist-2_mr3hqc.png'}
   ]
   new2 = [
-    {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1629959211/News/Opening-2_gnkrat.png'}
+    {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1632124591/News/Faculty_Position_Marine_Biologist-1_zurpj2.png'}
   ]
 
   myArr = [];
