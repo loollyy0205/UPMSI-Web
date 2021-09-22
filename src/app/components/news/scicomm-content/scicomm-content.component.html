@@ -1,16 +1,24 @@
 <app-nav></app-nav>
-<!--<div class="center-content2" *ngIf="giantclamBool">
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
+<div class="center-content2" *ngIf="charlonBool">
          <div class="box-content2">
           <video control autoplay loop src="https://res.cloudinary.com/upmsi/video/upload/v1631515723/News/banner-coral_v98eeq.mov" controls></video>
-           
         </div>
-       </div>-->
-<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
+       </div>
+     
+       <div class="box-content3">
+          <div>
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 10px;" *ngIf="charlonBool" >Four-year old coral outplant releasing egg-sperm bundles. </p>
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="charlonBool" >Video: Charlon A. Ligson</p>
+          </div>
+        </div>
+   
+        
 <div class="container animate__animated animate__fadeIn animate__delay-1s">
   <p class="atlas-bold title">{{myArr[0].title}}</p>
-  <p class="atlas-light date">{{myArr[0].date}}</p>
   <p class="atlas-light date-name" style="font:italic;">{{myArr[0].author}}</p>
-  <div class="center-content">
+  <p class="atlas-light date" style="color:gray !important; margin-top: 5px">{{myArr[0].date}}</p>
+  <div class="center-content" *ngIf="giantclamBool" >
     <div class="box-content">
       <img [src]="myArr[0].thumbnail">
       <div class="photo-box">
@@ -24,7 +32,7 @@
   <div style="display: grid; place-content: center;">
     <div class="bottom-content">
       <p class="atlas-bold location">{{myArr[0].location}}</p>
-
+      
       <p class="atlas-light location-content">{{myArr[0].locationContent}}</p>
       <p class="atlas-light location-content" *ngIf="giantclamBool">In the Earth's oceans, various life forms experience dwindling populations, leading to decreased marine biodiversity. Scientists worldwide persist in improving current conservation practices as our situation demands for more radical solutions to the biodiversity problem that arises from exploitation, pollution, and climate change. </p>
       <p class="atlas-light location-content" *ngIf="giantclamBool">One key component of marine conservation research is the monitoring of indicators related to biodiversity and ecosystem health, like changes in the physical properties of ocean water or the abundance of a certain organism.<sup>1</sup> Through monitoring activities, researchers generate sizeable databases of information — such extensive undertakings can be overwhelming and beyond the scope of available manpower. A viable solution is to employ citizen science, which can be loosely defined as the participation of volunteers in the collection (and, occasionally, analysis) of scientific data.<sup>2,3</sup> <br><br>Jeremiah Requilme, a UP MSI graduate student and research associate of the <a href="http://www.msi.upd.edu.ph/Research/laboratories/coral-reef-ecology-laboratory" style="color: #384e8a"> Coral Reef Ecology Laboratory </a>(CoRE, headed by Dr. Patrick Cabaitan), and colleagues published in 2020 the article, <a href="https://www.sciencedirect.com/science/article/abs/pii/S096456912030421X" target="_blank" style="color: #384e8a">"Using citizen science and survey data to determine the recruitment envelope of the endangered giant clam species, <em>Tridacna gigas</em> (Cardiidae: Tridacninae)<sup>4</sup>,"</a> which explores the fruitful outcomes of involving people outside the STEM profession in the data gathering process. In 2017, Requilme and the team set out to a marine protected area (MPA) in Cantaan, Guinsiliban, Camiguin Island to perform a field survey on the number and sizes of <em>T. gigas</em> recruits in the area. <br><br> The article reports 26 <em>T. gigas</em> recruits found 0.2—2.3 km from the clam restocking site, with the field survey returning a count of three recruits. This value is far from the accumulated number of T. gigas recruit sightings reported by the fisherfolk, which totals 23 recruits over a two-year monitoring period. Fishers assist the Cantaan Centennial Multi-purpose Cooperative (CCMPC) in keeping record of the clams. This difference in tally emphasizes the need for citizen science in large-scale and long-term monitoring efforts. <br><br> </p>
@@ -123,12 +131,170 @@
 
         6. <a href="https://newsinfo.inquirer.net/playground-of-giant-clams" target="_blank" style="color: #384e8a">Cardinoza, G., 2017. Playground of giant clams. [online] Inquirer.net.</a> [Accessed 12 July 2021].</p>
 
+        <p class="atlas-light location-content" style="color:gray; font-size: 17px; margin-top: -5vw;" *ngIf="charlonBool"><strong>By. Mia N. Judicpa & Gabrielle A. Abrahan</strong>, MSI Contributors <br>September 22, 2021</p>
 
 
+      <div style= "margin-top: 3vw;">
+        <img class="fb" *ngIf="charlonBool" src="../../../../assets/photos/fblink.png">
+        <img class="twitter"  *ngIf="charlonBool" src="../../../../assets/photos/twitter-link.png">
+      </div>
+      <p class="atlas-light location-content" *ngIf="charlonBool">Despite occupying only 0.1% (285,000 km2) of the ocean floor, corals are integral in marine biodiversity and geology, fisheries, and natural products chemistry. They are their own ecosystems, housing thousands, maybe even millions, of organisms. The majority of the corals worldwide thrive in the warm waters of the tropics and are found in regions like the Pacific Ocean, the Caribbean Sea, and the Persian Gulf. </p>
+
+
+
+         <p class="atlas-light location-content" *ngIf="charlonBool">The study of coral restoration is urgently needed because corals lead productive lives in symbiosis with many organisms, and their degradation or disappearance can have dangerous effects on the state of the oceans. According to scientists and conservationists, environmental cues and the corresponding physiological processes, like metabolism and reproduction, can be monitored to ensure that corals live and survive under optimal conditions</p>
+
+         <div class="center-content" *ngIf="charlonBool">
+         <div class="box-content2">
+          <video control autoplay loop src="https://res.cloudinary.com/upmsi/video/upload/v1632128113/News/Features/charlon/draft-4-coral-map-1_aqhuoz.mp4" controls></video>
+         </div>
+         <div class="box-content4">
+          <div >
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 10px;" *ngIf="charlonBool" >Current status of reefs in the country <sup>[1-4].</sup> </p>
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="charlonBool" >Graphics: Roy C. Corvera, Martina J. Salazar <!--/  <a href="https://www.sciencedirect.com/science/article/pii/B9780081008539000518" target="_blank" target="_blank" style="text-decoration: underline; color:#384e8a;">Reference 1</a>, <a href="https://news.mongabay.com/2019/05/new-map-shows-warming-waters-where-coral-reefs-could-be-under-threat/" target="_blank" target="_blank" style="text-decoration: underline; color:#384e8a;">Reference 2</a>--></p>
+          </div>
+        </div>
+       </div>
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">In a paper by Charlon Ligson and Dr. Patrick Cabaitan of the <a href="https://www.msi.upd.edu.ph/Research/laboratories/coral-reef-ecology-laboratory"  target="_blank" style="color:black;">Coral Reef Ecology (CoRE)</a> Laboratory, the survival rates of coral outplants four years post-outplantation were monitored and associated with their characteristics. <em><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/rec.13363" target="_blank" style="color:black;">“Survival and sexual maturity of sexually propagated Acropora verweyi corals 4 years after outplantation,” </a></em> <sup>1</sup> published in 2021, explores coral survivorship by comparing the survival rates of 240 <em>A. verweyi</em> corals, while checking the effect of two parameters: the size of the coral outplant and the location of the outplantation site. By sharing this information publicly, the authors hope that the results of the survey can guide future restoration methods and marine policymaking</p>
+
+       <p class="atlas-light location-content" style="font-size: 22px;" *ngIf="charlonBool">Threatened homes</p>
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">A member of the phylum Cnidaria alongside nematocyst-bearing invertebrates like jellyfish and sea anemones, corals are clusters of tiny organisms called coral polyps. There can be as many as a million polyps in a single coral and, within each polyp, a million microalgae per cm2 that perform photosynthesis. One can say that corals are aggregates of little organisms that function together.</p>
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">Small creatures, in large numbers, can accomplish great feats in construction. Corals are <em>foundation species</em> — they are capable of forming habitats due to the sheer number of corals in the marine benthos and their mutualistic interactions with other species in the ecosystem.<sup>2</sup> Soft and hard corals grow into various morphologies, building reefs with intricate architectures in the process. Many species of fish and invertebrates take advantage of their structural features to form strategies for survival.</p>
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">Aside from building reefs, corals also form a breakwater, a type of structural protection from waves and cyclones. They can be sources of natural products or chemical compounds that are screened for potential use in medicine and pharmaceutics. In the Philippines, they are crucial to coastal communities, not only for food security but also by aiding the livelihoods of the people living there.<sup>3</sup></p>
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">Corals are among the organisms that directly bear the brunt of global warming. The rise in ocean temperatures induces bleaching, whereby the algae that provide color to the corals are expelled due to external stresses. Since algae are the main food source of corals, bleaching forces the corals into a state of starvation. Anthropogenic activities like exploitation of fisheries and pollution also threaten and degrade coral reefs.</p>
+
+       <p class="atlas-light location-content" style="font-size: 22px;" *ngIf="charlonBool">Science as a tool to rehabilitate reefs</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">How do we make sure that reef inhabitants retain their homes?</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">“Coral restoration is a complex puzzle that involves figuring the right pieces to match perfectly,” Ligson says. “These puzzle pieces include the site, corals, other marine organisms, people, money, governance, etc. But a small puzzle piece that our paper explored pertains to time. It takes a long time to grow baby coral to sizes with a better chance of survival when outplanted on the reef.”</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">Some areas need some human intervention to kickstart the recovery of degraded reefs. When the natural recovery is too low, active restoration may be employed to kickstart the recovery of the coral populations. Common examples of active restoration include substrate stabilization, the addition of artificial reefs, coral outplantation, coral sexual propagation, and larval enhancement."</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">The 240 coral outplants monitored in this study were transferred in 2015 from the nursery to two sites in Cabungan and Caniogan, Anda, Pangasinan, respectively. Outplantation typically begins with identifying gravid or “pregnant” colonies. Researchers keep an eye out for spawning activity during the full moon phases of March to July and, at the appropriate time, collect coral fragments and check them for the presence of colored eggs. This characteristic qualifies coral colonies as “gravid,” a technical term meaning “pregnant.”</p>
+
+        <div class="center-content" *ngIf="charlonBool">
+        <div class="box-content">
+         <img [src]="myArr[0].thumbnail">
+          <div >
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 10px;" *ngIf="charlonBool" >Colored eggs on a sampled fragment indicate sexual maturity of a 4-year-old coral outplant.</p>
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="charlonBool" >Photo: Charlon A. Ligson</p>
+         </div>
+        </div>
+       </div>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">Once these corals are transferred to the lab, researchers wait for the corals to spawn at nighttime, and the eggs and sperm are mixed to promote fertilization. The embryos develop into larvae soon after, then they are given transportable substrates to settle upon. The juveniles are maintained in nurseries for several months before they are outplanted on degraded reefs.</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">Ligson wondered: how effective can outplantation efforts be? In the field of coral reef ecology, many studies have already shed light on this question but rarely do they explore the outcomes of outplantation years after. He tells us about his experience in jumpstarting the study:</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">“I was working on my thesis experiment, but my earlier attempts failed. So, out of desperation, I went on the field to look for the last coral species that might spawn. And then, when we were looking for a potential species, we just remembered that we were diving in our previous outplantation site. So, we went to our former study site and searched for our coral outplants. And to our surprise, they were still there after four years! To top it all, a lot of them were gravid.”</p>
+
+        <p class="atlas-light location-content" style="font-size: 22px;" *ngIf="charlonBool">Coral reef restoration in the Philippines</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">Ligson conducted his study in the municipality of Anda, Pangasinan, northwestern Philippines, where the Caniogan and Cabungan reefs of the Bolinao-Anda reef complex are located. When asked if there were existing coral restoration practices in the area, he responded, “To my knowledge, the communities in these areas have no current restoration efforts in place. But the communities are aware of marine and fish sanctuaries and the protected areas.”</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">As an aspiring marine biologist who specializes in coral sexual propagation for coral restoration, Ligson has seven years of practice in the field under his belt. He contemplates the need for a comprehensive study on the effectiveness of coral restoration efforts in the Philippines but supposes that it may be highly variable, depending on the coral species, sites, and methods.</p>
          
+        <div class="center-content" *ngIf="charlonBool">
+        <div class="box-content">
+         <img [src]="myArr[0].thumbnail2">
+          <div >
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 10px;" *ngIf="charlonBool" >Charlon Ligson, the study’s first author with the plastic tubs used to propagate corals in the laboratory.</p>
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="charlonBool" >Photo: Charlon A. Ligson</p>
+         </div>
+        </div>
+       </div>  
 
+       <p class="atlas-light location-content" *ngIf="charlonBool">One way to check the success of restoration practices is to study the characteristics of sexually mature coral outplants (corals that have been outplanted or transferred to an external site), and monitor them over a period of time. Simultaneously, the effect of key factors like the ages and sizes of the outplants during outplantation can be correlated with these characteristics.</p>
+
+       <p class="atlas-light location-content" style="font-size: 22px;" *ngIf="charlonBool">Connecting outplant characteristics to survival</p>
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">Ligson shares that this study augments the <a href="https://link.springer.com/article/10.1007/s00338-013-1114-1" target="_blank" style=" color:black;">previous research of Dr. ‪Maria Vanessa Baria-Rodriguez and her co-authors</a>, where they did similar propagation work using a different species. “After growing their corals, [Dr. Baria-Rodriguez’ group] outplanted them at different periods, namely, at 7, 14, and 19 months of rearing. One insight from their study is that colonies reared for many months in the nursery may have an advantage in survival.”</p>
+
+      <p class="atlas-light location-content" *ngIf="charlonBool">However, long periods of rearing do not always ensure this advantage, as the corals can still be subject to bad conditions like predation or temperature spikes in the nursery.</p>
+
+       <div class="center-content" *ngIf="charlonBool">
+         <div class="box-content2">
+          <video control autoplay loop src="https://res.cloudinary.com/upmsi/video/upload/v1632127960/News/Features/charlon/sep20-eggs_ni6dbu.mp4" controls></video>
+         </div>
+         <div class="box-content4">
+          <div >
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 10px;" *ngIf="charlonBool" >These developing coral embryos indicate viability of gametes collected from the 4-year-old coral outplants. </p>
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="charlonBool" >Video: Charlon A. Ligson</p>
+          </div>
+        </div>
+       </div> 
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">“I just got curious if it is feasible to outplant these corals as early as four months,” he says. “In addition to the age aspect, we also have the size and site aspects. Though our corals are very young, we compared small and large coral babies of the same age. We outplanted them on two sites to check if there will be some site-specific differences.”</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">When Ligson surveyed the corals in 2019, four years after outplantation, he found that only 43 in total survived — 24 in Caniogan and 19 in Cabungan. A higher survival rate for the large coral outplants in Caniogan was observed, possibly due to the turbidity of the water in the area. Meanwhile, no difference in survivorship was noted between small and large coral outplants in Cabungan. Despite differences in survivorship in the two size classes, Ligson observed that all coral outplants grew to a similar size after four years regardless of their initial size. It could be that it is only during the first year post-outplantation that the initial sizes of the outplant would pose an advantage. Once the outplants survive the year, the initial size may not matter anymore.</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">Of the 43 remaining corals, 35 were gravid. This is an important finding because having a high percentage of gravid corals gives us confidence that outplants can survive up to sexual maturity and become crucial contributors to the survival of the species and, consequently, to the rebuilding of degraded coral communities.</p>
+
+        <p class="atlas-light location-content" style="font-size: 22px;" *ngIf="charlonBool">Using the knowledge to develop restoration strategies</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">What’s the next step? Results like these are valuable in optimizing current coral restoration strategies and improving environmental policies. Ligson emphasizes that this type of information should not be kept hidden in lab reports, that “it is imperative to share this valuable information not only with fellow researchers but to the community.” </p>
        
-       
+        <div class="center-content" *ngIf="charlonBool">
+         <div class="box-content5">
+          <video control autoplay loop src="https://res.cloudinary.com/upmsi/video/upload/v1632127884/News/Features/charlon/charlon3_jhtmux.mp4" controls></video>
+         </div>
+         <div class="box-content4" style="margin-top: 1vw! important;">
+          <div >
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 0px;" *ngIf="charlonBool" >A diver carefully collects a mature coral colony 4 years after outplantation.</p>
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="charlonBool" >Video: Charlon A. Ligson</p>
+          </div>
+        </div>
+       </div>
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">“It is timely to talk about coral restoration, given that the United Nations declared 2021-2030 as the Decade on Ecosystem Restoration. It is a big challenge for our government, the academe, the NGOs, and all citizens to incorporate restoration knowledge into practice. So let's continue working together. As I have mentioned, coral restoration is a complex puzzle. We researchers may hold a few puzzle pieces, but we need the whole community to complete these pieces.”</p>
+
+       <p class="atlas-light location-content"  style="font-size: 20px;" *ngIf="charlonBool">References</p>
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">1. Ligson, C. A., & Cabaitan, P. C. (2021). Survival and sexual maturity of sexually propagated                       <em>Acropora verweyi</em>                        corals 4 years after outplantation. <em>Restoration Ecology</em>, 29(5). doi:10.1111/rec.13363<br><br>
+
+       2. LEllison, A. M. (2019). Foundation Species, Non-trophic Interactions, and the Value of Being Common. <em>iScience</em>, 13, 254–268. doi:10.1016/j.isci.2019.02.020<br><br>
+
+       3. Cabral, R. B., & Geronimo, R. C. (2018). How important are coral reefs to food security in the Philippines? Diving deeper than national aggregates and averages. <em>Marine Policy</em>, 91, 136–141. doi:10.1016/j.marpol.2018.02.007 <br><br>
+
+       4. LHoegh-Guldberg, O. (2010). Coral reef ecosystems and anthropogenic climate change. <em>Regional Environmental Change</em>, 11(S1), 215–227. doi:10.1007/s10113-010-0189-2<br><br>
+
+       5. Chasing Coral. (2017). [film] Directed by J. Orlowski. Boulder, Colorado, USA: Exposure Labs.<br><br>
+
+       6. Teh, L. S., Teh, L. C., & Sumaila, U. R. (2013). A Global Estimate of the Number of Coral Reef Fishers. <em>PLoS One</em>, 8(6), e65397. doi: 10.1371/journal.pone.0065397<br><br>
+
+       7. Witt, V., Wild, C., & Uthicke, S. (2012). Interactive climate change and runoff effects alter O2 fluxes and bacterial community composition of coastal biofilms from the Great Barrier Reef. <em>Aquatic microbial ecology</em>, 66(2), 117-131. doi: 10.3354/ame01562<br><br>
+
+       8. UNEP-WCMC, WorldFish Centre, WRI, TNC (2021). Global distribution of warm-water coral reefs, compiled from multiple sources including the Millennium Coral Reef Mapping Project. Version 4.1. Includes contributions from IMaRS-USF and IRD (2005), IMaRS-USF (2005) and Spalding et al. (2001). Cambridge (UK): UN Environment World Conservation Monitoring Centre. doi: 10.34892/t2wk-5t34<br><br>
+
+       9. Licuanan, W. Y., Cabreira, R. W., & Aliño, P. M. (2019). The Philippines. World Seas: An Environmental Evaluation.<br><br>
+
+       10. onghurst, A. R. (2007). <em>Ecological Geography of the Sea</em>, Elsevier. doi: 10.1016/B978-012455521-1/50012-7<br><br>
+
+       11. Stat, M., Baker, A. C., Bourne, D. G., Correa, A. M. S., Forsman, Z., Huggett, M. J., Pochon, X., Skillings, D., Toonen R. J., van Oppen, M. J. H., & Gates, R. D. (2012). Molecular delineation of species in the coral holobiont. <em>Advances in marine biology</em>, 63, 1-65. doi: 10.1016/B978-0-12-394282-1.00001-6<br><br>
+
+       12. Lee, C. S., Wilson Yeo, Y. S., & Sin, T. M. (2012). Bleaching response of Symbiodinium (zooxanthellae): Determination by flow cytometry. <em>Cytometry Part A</em>, 81(10), 888-895. doi: 10.1002/cyto.a.22111<br><br>
+
+       13. Wooldridge, S. A. (2010). Is the coral‐algae symbiosis really ‘mutually beneficial’for the partners?. <em>BioEssays</em>, 32(7), 615-625. doi: /10.1002/bies.200900182<br><br>
+
+       14. Wooldridge, S. A. (2017). Instability and breakdown of the coral–algae symbiosis upon exceedence of the interglacial pCO2 threshold (> 260 ppmv): the “missing” Earth-System feedback mechanism. <em>Coral Reefs</em>, 36(4), 1025-1037. doi: 10.1007/s00338-017-1594-5<br><br>
+
+       15. <em>Coral Symbiosis</em>. The Davies Marine Population Genomics Lab. <strong>2021</strong>. Retrieved 16 September 2021, from https://sites.bu.edu/davieslab/research/symbiosis/.<br><br>
+
+       16.Baums, I. B., Devlin‐Durante, M. K., & LaJeunesse, T. C. (2014). New insights into the dynamics between reef corals and their associated dinoflagellate endosymbionts from population genetic studies. <em>Molecular ecology</em>, 23(17), 4203-4215. doi: 10.1111/mec.12788<br><br>
+
+       17. Technau, U., & Weis, V. M. (2013). Evodevo meets ecology: the ninth okazaki biology conference on marine biology. EvoDevo, 4. doi: 10.1186/2041-9139-4-18
+
+      </p>
+
+      
+
+
   </div>
 
 

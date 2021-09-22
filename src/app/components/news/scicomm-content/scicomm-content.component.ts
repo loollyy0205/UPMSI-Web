@@ -24,11 +24,23 @@ export class ScicommContentComponent implements OnInit {
     paragraph4: '',
   }];
 
-   
 
+  charlon = [{
+    title: '',
+    author2: '',
+    date: '',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1632271400/News/Features/charlon/Colony_145_-_rapid_sampling_eqqkcc.jpg',
+    thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1632127946/News/Features/charlon/Charlon_h9sd0q.png',
+    
+    locationContent: '',
+  }];
+
+   
 
   myArr = [];
   giantclamBool:boolean = false;
+  charlonBool:boolean = false;
+  
 
 
   constructor(private router:Router) { }
@@ -44,6 +56,11 @@ export class ScicommContentComponent implements OnInit {
     if(this.router.url.includes('/News/scicomm/against-the-current-how-the-giant-clams-of-the-Philippines-escaped-extinction-with-the-help-of-science-and-the-community')){
       this.myArr = this.giantclam;
       this.giantclamBool = true;
+    }
+
+    if(this.router.url.includes('/News/scicomm/coral-propagation')){
+      this.myArr = this.charlon;
+      this.charlonBool = true;
     }
    
   }

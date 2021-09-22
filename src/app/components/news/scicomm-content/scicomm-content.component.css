@@ -17,6 +17,20 @@
   flex-direction: center;
 }
 
+.box-content3{
+  display: right;
+  flex-direction: right;
+  text-align: right;
+  margin-right: 2vw;
+}
+
+.box-content4{
+  display: left;
+  flex-direction: left;
+  text-align: left;
+  margin-left: 0vw;
+}
+
 video::-webkit-media-controls-panel {
 display: none !important;
 opacity: 1 !important;
@@ -24,6 +38,19 @@ opacity: 1 !important;
 
 .box-content2 video {
   height: 47.818vw;
+}
+
+.box-content5{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: center;
+  margin-bottom: none;
+}
+
+.box-content5 video {
+  height: 41.818vw;
+  width: 93.818vw;;
 }
 
 .center-content2{
@@ -71,7 +98,7 @@ sup {
   width: 2.562vw !important;
   cursor: pointer;
   position: absolute;
-  margin-top: -1.098vw;
+  margin-top: .5vw;
   margin-left: -4.026vw;
 }
 
@@ -80,7 +107,7 @@ sup {
   width: 2.562vw !important;
   cursor: pointer;
   position: absolute;
-  margin-top: 1.977vw;
+  margin-top: 3.5vw;
   margin-left: -4.026vw;
 }
 
