@@ -21,7 +21,7 @@
   display: right;
   flex-direction: right;
   text-align: right;
-  margin-right: 2vw;
+  margin-right: 3vw;
 }
 
 .box-content4{
@@ -50,7 +50,19 @@ opacity: 1 !important;
 
 .box-content5 video {
   height: 41.818vw;
-  width: 93.818vw;;
+  width: 93.718vw;;
+}
+
+.box-content6{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: center;
+  margin-left: 1.5vw;
+}
+
+.box-content6 video {
+  height: 47.718vw;
 }
 
 .center-content2{
