@@ -25,7 +25,7 @@ export class ScicommContentComponent implements OnInit {
   }];
 
 
-  charlon = [{
+ /** charlon = [{
     title: '',
     author2: '',
     date: '',
@@ -33,13 +33,15 @@ export class ScicommContentComponent implements OnInit {
     thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1632127946/News/Features/charlon/Charlon_h9sd0q.png',
     
     locationContent: '',
-  }];
+  }];*/
 
    
 
   myArr = [];
   giantclamBool:boolean = false;
+  /**
   charlonBool:boolean = false;
+  */
   
 
 
@@ -58,10 +60,12 @@ export class ScicommContentComponent implements OnInit {
       this.giantclamBool = true;
     }
 
-    if(this.router.url.includes('/News/scicomm/coral-propagation')){
+   /** 
+   if(this.router.url.includes('/News/scicomm/coral-propagation')){
       this.myArr = this.charlon;
       this.charlonBool = true;
     }
+    */
    
   }
 
