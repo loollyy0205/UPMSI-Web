@@ -311,8 +311,8 @@ strong{
   }
 
   .location-content2{
-  margin-top: 2.296vw;
-  line-height: 1.5;
+   margin-top: 5vw;
+   line-height: 1.5;
   }
 
   .news{
@@ -344,6 +344,11 @@ strong{
   .arrow-text{
     font-size: 4vw;
   }
+
+  strong{
+  font-weight: 900;
+}
+
 
   .more-vacancies{
     margin-left: 9%;
