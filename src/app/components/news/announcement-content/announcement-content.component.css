@@ -134,6 +134,11 @@ strong{
   line-height: 1.5;
 }
 
+.location-content2{
+  margin-top: 2.096vw;
+  line-height: 1.5;
+}
+
 .news{
   margin-top: 3.660vw;
   font-size: 2.196vw;
@@ -303,6 +308,11 @@ strong{
   .location-content{
     margin-top: 2.196vw;
     line-height: 1.5;
+  }
+
+  .location-content2{
+  margin-top: 2.296vw;
+  line-height: 1.5;
   }
 
   .news{
