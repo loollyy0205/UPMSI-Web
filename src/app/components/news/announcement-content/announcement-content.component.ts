@@ -55,7 +55,7 @@ export class AnnouncementContentComponent implements OnInit {
 
   emeriti = [{
     title: 'The UPMSI is home to two new Professors Emeriti',
-    thumbnail: 'hhttps://res.cloudinary.com/upmsi/image/upload/v1628147144/News/Announcements%20Icons/Announcement-04_fkckkz.png',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1628147144/News/Announcements%20Icons/Announcement-04_fkckkz.png',
     locationContent: `It's a double celebration for The Marine Science Institute! `,
     paragraph1: 'The UPMSI congratulates another Professor Emeritus this year, Dr. Maria Lourdes San Diego-McGlone!',
     paragraph2: `Dr. Maria Lourdes San Diego-McGlone is one of the very few and pioneering chemical oceanographers in the Philippines and is currently the head of the Marine Biogeochemistry Laboratory of UP MSI.  Through the years, her research focus has been on the changing coastal water quality, nutrient fluxes and budgets, primary production, and the effect of human activities on the land-ocean-sediment-atmosphere interactions.  She has also been part of several multi-disciplinary researches involving the chemical hydrography of the Philippine seas.  Until now, her research projects continue to address environmental stressors such as eutrophication, harmful algal blooms and ocean acidification, and their impact on coastal systems including coral reefs and blue carbon ecosystems.`,
@@ -70,10 +70,29 @@ export class AnnouncementContentComponent implements OnInit {
       ]
   }];
 
+  statement = [{
+    title: 'Statement of the University of the Philippines-Marine Science Institute (UPMSI) on coral restoration technologies',
+    author: 'Authors: MSI faculty, RM Dizon and DW dela Cruz',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1632374953/News/Announcements%20Icons/Statement_Banner2_amgmhn.png',
+    locationContent: ``,
+
+
+    news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147159/News/Announcements%20Icons/Announcement-01-article_lxmr0x.png", title: "A letter for Dr. Ed Gomez on his first death anniversary", content: `Today, we pause from our seemingly harried life because of the COVID-19 pandemic and remember you with much gratitude for your extraordinary contributions and the rich legacy you leave us behind.`, url: 'a-letter-for-Dr.-Ed-Gomez-on-his-first-death-anniversary'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147128/News/Announcements%20Icons/Announcement-02_lettlk.png", title: "UPMSI Official Statement on DENR Claims", content: `This is to clarify the statement made by Department of Environment and Natural Resources (DENR) Undersecretary Benny Antiporda accusing the University of the Philippines Marine Science Institute (UPMSI) of charging the DENR half a billion pesos in consultation fees and being, in a word, “bayaran.”`, url: 'UPMSI-official-statement-on-DENR-claims'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147118/News/Announcements%20Icons/Announcement-03-article-photo_kcitfn.png", title: "UPMSI Official Statement on the Addition of Dolomite Sand to Manila Bay", content: 'The UPMSI believes that the use of crushed dolomite sand will not help solve the environmental problems in Manila Bay. Read more about the implications of transferring dolomite sand in this statement.', url: 'UPMSI-official-statement-on-the-addition-of-Dolomite-Sand-to-Manila-Bay'},
+      ]
+  }];
+
 
 
   myArr = [];
-  nastBool:boolean = true;
+  nastBool:boolean = false;
+  statementBool:boolean = false;
+  deathAnnivBool:boolean = false;
+  dolomiteBool:boolean = false;
+  emeritiBool:boolean = false;
+  
 
   constructor(private router:Router) { }
 
@@ -98,16 +117,23 @@ export class AnnouncementContentComponent implements OnInit {
 
     if(this.router.url.includes('/News/Announcement/a-letter-for-Dr.-Ed-Gomez-on-his-first-death-anniversary')){
       this.myArr = this.deathAnniv;
+      this.deathAnnivBool = true;
       }
     if(this.router.url.includes('/News/Announcement/UPMSI-official-statement-on-DENR-claims')){
       this.myArr = this.denr;
       this.denrBool = true;
       }
     if(this.router.url.includes('/News/Announcement/UPMSI-official-statement-on-the-addition-of-Dolomite-Sand-to-Manila-Bay')){
-      this.dolomite;
+      this.myArr = this.dolomite;
+      this.dolomiteBool = true;
       }
     if(this.router.url.includes('/News/Announcement/the-UPMSI-is-home-to-two-new-professors-emeriti')){
       this.myArr = this.emeriti;
+      this.emeritiBool = true;
+      }
+    if(this.router.url.includes('/News/Announcement/Statement-of-the-UPMSI-on-coral-restoration-technologies')){
+      this.myArr = this.statement;
+      this.statementBool = true;
       }
   }
 
