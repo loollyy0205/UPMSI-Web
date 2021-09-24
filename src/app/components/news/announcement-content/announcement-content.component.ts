@@ -72,7 +72,7 @@ export class AnnouncementContentComponent implements OnInit {
 
   statement = [{
     title: 'Statement of the University of the Philippines-Marine Science Institute (UPMSI) on coral restoration technologies',
-    author: 'Authors: MSI faculty, RM Dizon and DW dela Cruz',
+    author: 'Authors: MSI faculty, RM Dizon, and DW dela Cruz',
     thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1632469350/News/Announcements%20Icons/Statement_Banner3_vlkxag.png',
     locationContent: ``,
 
