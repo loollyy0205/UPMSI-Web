@@ -55,6 +55,10 @@ img{
   width: 100%;
 }
 
+strong{
+  font-weight: 900;
+}
+
 
 .img-container{
   margin-top: 3.660vw;
