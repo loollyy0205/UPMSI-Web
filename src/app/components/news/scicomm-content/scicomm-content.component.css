@@ -1,6 +1,8 @@
 .container{
-  margin: 0 12%;
+  margin: 0 1%;
   margin-top: 2.928vw;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .box-content{
@@ -8,6 +10,8 @@
   width: 51.245vw;
   display: flex;
   flex-direction: column;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .box-content2{
@@ -15,8 +19,7 @@
   width: 100%;
   display: flex;
   flex-direction: center;
-  max-width: 100%;
-  overflow-x: hidden;
+  
 }
 
 .box-content3{
@@ -218,6 +221,10 @@ img{
   line-height: 1.5;
 }
 
+.location-content2{
+  margin-top: 2.196vw;
+  line-height: 1.5;
+} 
 .news{
   margin-top: 3.660vw;
   font-size: 2.196vw;
@@ -434,14 +441,28 @@ img{
   height: 100%;
   width: 100%;
   display: flex;
-  flex-direction: left;
-  margin-right: 0vw;
-  padding-right: 10vw;
+  flex-direction: center;
+  margin-left: -5vw;
 }
 
+
 .box-content7 video {
-  height: 100vw;
-  width: 100vw;
+  height: 110vw;
+  width: 110vw;
+}
+
+.location-content2{
+  margin-top: 2.196vw;
+  line-height: 1.5;
+  font-size: 5vw;
+  padding: 0 10%;
+}
+
+.box-content3{
+  display: right;
+  flex-direction: right;
+  text-align: right;
+  margin-right: -6vw;
 }
 }
 
