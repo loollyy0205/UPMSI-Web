@@ -278,7 +278,7 @@ img{
 
 
   .container{
-    margin: 0 7%;
+    margin: 0 0%;
     margin-top: 6%;
   }
 
@@ -448,8 +448,8 @@ img{
 
 
 .box-content7 video {
-  height: 100vw;
-  width: 100vw;
+  height: 124vw;
+  width: 124vw;
 }
 
 .location-content2{
@@ -463,14 +463,14 @@ img{
   display: right;
   flex-direction: right;
   text-align: right;
-  margin-right: -8vw;
+  margin-right: -16vw;
   padding: 0 9%;
 }
 
 .center-content2{
   place-content: center;
   margin-top: 4.392vw;
-  margin-left: -8vw; 
+  margin-left: -22vw; 
   width: 100vw;
 }
 }
