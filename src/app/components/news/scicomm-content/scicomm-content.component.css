@@ -442,8 +442,7 @@ img{
   width: 100%;
   display: flex;
   flex-direction: center;
-  margin-left: -6vw;
-  margin: 0 9%;
+  margin-left: 5vw;
 }
 
 
@@ -463,7 +462,7 @@ img{
   display: right;
   flex-direction: right;
   text-align: right;
-  margin-right: -16vw;
+  margin-right: -14vw;
   padding: 0 9%;
 }
 
