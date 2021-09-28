@@ -278,7 +278,7 @@ img{
 
 
   .container{
-    margin: 0 9%;
+    margin: 0 7%;
     margin-top: 6%;
   }
 
@@ -443,26 +443,35 @@ img{
   display: flex;
   flex-direction: center;
   margin-left: -5vw;
+  margin: 0 9%;
 }
 
 
 .box-content7 video {
-  height: 110vw;
-  width: 110vw;
+  height: 100vw;
+  width: 100vw;
 }
 
 .location-content2{
   margin-top: 2.196vw;
   line-height: 1.5;
   font-size: 5vw;
-  padding: 0 10%;
+  padding: 0 9%;
 }
 
 .box-content3{
   display: right;
   flex-direction: right;
   text-align: right;
-  margin-right: -6vw;
+  margin-right: -8vw;
+  padding: 0 9%;
+}
+
+.center-content2{
+  place-content: center;
+  margin-top: 4.392vw;
+  margin-left: -8vw; 
+  width: 100vw;
 }
 }
 
