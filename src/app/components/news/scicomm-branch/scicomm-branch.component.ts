@@ -16,9 +16,9 @@ export class ScicommBranchComponent implements OnInit {
   newsContent(){
     this.router.navigate(['/News/scicomm', 'against-the-current-how-the-giant-clams-of-the-Philippines-escaped-extinction-with-the-help-of-science-and-the-community']);
   }
-  
+  /**
   newsContent1(){
     this.router.navigate(['/News/scicomm', 'coral-propagation']);
   }
-  
+  */
 } 
