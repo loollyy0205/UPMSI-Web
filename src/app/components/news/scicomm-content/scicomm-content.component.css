@@ -2,7 +2,7 @@
   margin: 0 1%;
   margin-top: 2.928vw;
   overflow-x: hidden;
-  overflow-y: hidden
+  overflow-y: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -291,6 +291,8 @@ img{
   .container{
     margin: 0 0%;
     margin-top: 6%;
+    overflow-x: hidden;
+  overflow-y: hidden
   }
 
   .box-content{
@@ -453,16 +455,13 @@ img{
   width: 100%;
   display: flex;
   flex-direction: center;
-  margin-left: -5vw;
-
+  margin-left: 5vw;
 }
 
 
 .box-content7 video {
-
-  min-width: 100%;
-  height: auto;
-
+  height: 130vw;
+  width: 130vw;
 }
 
 .location-content2{
@@ -476,14 +475,15 @@ img{
   display: right;
   flex-direction: right;
   text-align: right;
-  margin-right: -17vw;
+  margin-right: -12vw;
   padding: 0 9%;
 }
 
 .center-content2{
   place-content: center;
   margin-top: 4.392vw;
-
+  margin-left: -22vw; 
+  width: 100vw;
 }
 }
 
