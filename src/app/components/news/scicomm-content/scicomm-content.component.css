@@ -229,14 +229,12 @@ img{
 .location-content{
   margin-top: 2.196vw;
   line-height: 1.5;
-  overflow-x: hidden;
-  padding:0;
- margin:0;
 }
 
 .location-content2{
-  margin-top: 2.196vw;
+  margin-top: 3.5vw;
   line-height: 1.5;
+  font-size: 1.8vw;
 } 
 .news{
   margin-top: 3.660vw;
