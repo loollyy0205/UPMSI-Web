@@ -22,9 +22,12 @@
         </div>
    
         
-<div class="container animate__animated animate__fadeIn animate__delay-1s">
-  <p class="atlas-bold title">{{myArr[0].title}}</p>
-  <p class="atlas-light date-name" style="font:italic;">{{myArr[0].author}}</p>
+<div class="container  animate__animated animate__fadeIn animate__delay-1s">
+
+  <!--<p class="atlas-bold title">{{myArr[0].title}}</p>-->
+   <p class="atlas-bold title" *ngIf="giantclamBool" style="margin: 0 9%">{{myArr[0].title}}</p>
+  <!--<p class="atlas-light date-name" style="font:italic;">{{myArr[0].author}}</p>-->
+   <p class="atlas-light date-name" *ngIf="giantclamBool" style="font:italic;margin: 0 9%">{{myArr[0].author}}</p>
   <p class="atlas-light date" style="color:gray !important; margin-top: 5px">{{myArr[0].date}}</p>
   <div class="center-content" *ngIf="giantclamBool" >
     <div class="box-content">
@@ -119,14 +122,14 @@
 
         <p class="atlas-light location-content" *ngIf="giantclamBool">In the case of giant clam stewardship, Requilme believes that information and education campaigns are the best way to influence fishers to become skilled citizen scientists. But he also emphasizes that acknowledging the participation of the fishers, aside from the already-existing incentives promoted by the CCMPC, motivates other fishers to join the cause as well.<br><br>As a maritime country, the Philippines has a wealth of marine resources. Yet fishers do not receive enough compensation for their work, suffering from the impacts of climate change, marine degradation, and illegal overfishing by foreign entities. Through citizen science, they are empowered to mitigate these losses and contribute to marine conservation while creating new sources of income. <br><br> In a conversation with Mary Jane Cordero, a CCMPC volunteer who works on the information education campaign, we learn that the success of the giant clam conservation movement is derived from collaboration: <br><br> “Sa willingness ng mga tao to sacrifice, and then [sa commitment] nila sa mga project. ‘Yung challenge sa pagsisimula lang talaga is ‘yung knowledge dapat. Mahirap siya, especially if you do a project. If less ‘yung knowledge mo, and if you don’t have those people to guide you — ‘yung parang kayo-kayo lang ‘yung gagawa... We need the help of the people, particularly those who know a lot in that field din talaga.” (“In the willingness of people to sacrifice, and in their commitment toward the projects. The challenge in setting up the movement is in the knowledge. It’s difficult, especially if you do a project. If you don’t have enough knowledge, and if you don’t have those people to guide you — like when you’re doing things by yourselves... We need the help of the people, particularly those who know a lot in the field.”</p>
        <p class="atlas-light location-content" *ngIf="giantclamBool">      </p>
-       <hr *ngIf="giantclamBool">
-        <div class="ack" style="color: #696969;">
+       <hr *ngIf="giantclamBool" style=" margin-top: 3vw;">
+        <div class="ack" style="color: #696969; margin-top: 3vw;">
        <p class="atlas-light location-content" *ngIf="giantclamBool"><em>Acknowledgments</em></p>
        <p class="atlas-light location-content" *ngIf="giantclamBool"><em>The study was funded by the Philippine Council for Agriculture, Aquatic and Natural Resources Research and Development (PCAARRD) of the Department of Science and Technology and, in part, by the National Geographic Society. Our fervent gratitude to the Cantaan Centennial Multi-Purpose Cooperative (CCMPC) and the Cordero family: Alona, Anita and  Rioloto, for providing logistical support and accessibility to the data on <em>T. gigas</em> recruits. Our great appreciation as well for the assistance of Chev Duay, Janell Sihay, Rad Edulan and Haskell Distajo during the field surveys.</em></p>
      </div>
 
 
-        <p class="atlas-light location-content" *ngIf="giantclamBool">References</p>
+        <p class="atlas-light location-content" style=" margin-top: 3vw;" *ngIf="giantclamBool">References</p>
        <p class="atlas-light location-content" *ngIf="giantclamBool">1. <a href="https://www.frontiersin.org/articles/10.3389/fmars.2016.00207/full" target="_blank" style="color: #384e8a">Teixeira, H., Berg, T., Uusitalo, L., Fürhaupter, K., Heiskanen, A., Mazik, K., Lynam, C., Neville, S., Rodriguez, J., Papadopoulou, N., Moncheva, S., Churilova, T., Kryvenko, O., Krause-Jensen, D., Zaiko, A., Veríssimo, H., Pantazi, M., Carvalho, S., Patrício, J., Uyarra, M. and Borja, À. 2016. A Catalogue of Marine Biodiversity Indicators. Frontiers in Marine Science </a>, [online] 3. [Accessed 19 July 2021].<br>
 
         2. <a href="https://www.omlopezcenter.org/citizen-science-is-the-key-how-everyone-can-help-in-protecting-our-marine-and-coastal-resources/" target="_blank" style="color: #384e8a"> Yokingco, J. and Gabriel, A., 2015. “Citizen Science” is the key: How everyone can help in protecting our marine and coastal resources – OML Center. [online] Omlopezcenter.org.</a>[Accessed 12 July 2021].<br>

@@ -1,8 +1,17 @@
 .container{
   margin: 0 1%;
   margin-top: 2.928vw;
-  max-width: 100%;
   overflow-x: hidden;
+  overflow-y: hidden
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+    display: none;
+     width: 0;
+    height: 0;
+    overflow-y: hidden;
 }
 
 .box-content{
@@ -173,6 +182,7 @@ img{
 .title{
   font-size: 2.928vw;
   color: #394e8a;
+
 }
 
 .date{
@@ -219,7 +229,9 @@ img{
 .location-content{
   margin-top: 2.196vw;
   line-height: 1.5;
-  
+  overflow-x: hidden;
+  padding:0;
+ margin:0;
 }
 
 .location-content2{
