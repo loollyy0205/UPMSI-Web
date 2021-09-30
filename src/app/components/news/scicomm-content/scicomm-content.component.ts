@@ -26,9 +26,6 @@ export class ScicommContentComponent implements OnInit {
 
 
 charlon = [{
-    title: '',
-    author2: '',
-    date: '',
     thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1632802602/News/Features/charlon/Colony_145_-_rapid_sampling-2_krb6md.jpg',
     thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1632803414/News/Features/charlon/Optimized-Charlon_m0qfbc.jpg',
     

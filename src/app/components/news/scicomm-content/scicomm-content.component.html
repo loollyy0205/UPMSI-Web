@@ -24,10 +24,8 @@
         
 <div class="container  animate__animated animate__fadeIn animate__delay-1s">
 
-  <!--<p class="atlas-bold title">{{myArr[0].title}}</p>-->
-   <p class="atlas-bold title" *ngIf="giantclamBool" style="margin: 0 9%">{{myArr[0].title}}</p>
-  <!--<p class="atlas-light date-name" style="font:italic;">{{myArr[0].author}}</p>-->
-   <p class="atlas-light date-name" *ngIf="giantclamBool" style="font:italic;margin: 0 9%">{{myArr[0].author}}</p>
+  <p class="atlas-bold title" style="font:italic;margin: 0 9%">{{myArr[0].title}}</p>
+  <p class="atlas-light date-name" style="font:italic; margin: 0 9%; margin-top: 5px">{{myArr[0].author}}</p>
   <p class="atlas-light date" style="color:gray !important; margin-top: 5px">{{myArr[0].date}}</p>
   <div class="center-content" *ngIf="giantclamBool" >
     <div class="box-content">
