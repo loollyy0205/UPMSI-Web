@@ -399,7 +399,7 @@ img{
   .photo-courtesy{
     font-size: 3vw;
     margin-top: 7%;
-    padding: 0 5%;
+    padding: 0 0%;
   }
 
   .location-content{
@@ -491,7 +491,7 @@ img{
   margin-top: 4.392vw;
   width: 100%;
     overflow-x: hidden;
-    margin-left: -1.2vw;
+    margin-left: 0vw;
 
 
 }
