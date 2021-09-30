@@ -226,6 +226,10 @@ img{
   font-size: 1.025vw;
 }
 
+.photo-courtesy2{
+  font-size: 1.025vw;
+}
+
 .location-content{
   margin-top: 2.196vw;
   line-height: 1.5;
@@ -300,7 +304,7 @@ img{
     width: 100%;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
+
   }
 
   .box-content img {
@@ -399,6 +403,12 @@ img{
   .photo-courtesy{
     font-size: 3vw;
     margin-top: 7%;
+    padding: 0 7.7%;
+  }
+
+  .photo-courtesy2{
+    font-size: 3vw;
+    margin-top: 7%;
     padding: 0 0%;
   }
 
@@ -477,12 +487,12 @@ img{
   margin-top: 2.196vw;
   line-height: 1.5;
   font-size: 5vw;
-  padding: 0 8%;
+  padding: 0 9%;
 }
 
 .box-content3{
     overflow-x: hidden;
-    margin-left: 30%;
+    margin-left: 0%;
 
 }
 
@@ -492,8 +502,13 @@ img{
   width: 100%;
     overflow-x: hidden;
     margin-left: 0vw;
-
-
 }
+.box-content4{
+  display: left;
+  flex-direction: left;
+  text-align: left;
+  margin-left: 0vw;
+  }
+
 }
 
