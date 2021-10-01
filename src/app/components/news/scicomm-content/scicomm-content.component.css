@@ -23,6 +23,15 @@
   overflow-x: hidden;
 }
 
+.box-content11{
+  height: 100%;
+  width: 51.245vw;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .box-content2{
   height: 10%;
   width: 100%;
@@ -230,6 +239,10 @@ img{
   font-size: 1.025vw;
 }
 
+.photo-courtesy3{
+  font-size: 1.025vw;
+}
+
 .location-content{
   margin-top: 2.196vw;
   line-height: 1.5;
@@ -288,14 +301,20 @@ img{
 #content-mobile {display: none;}
 
 @media (max-width: 768px) {
+
 #content-desktop {display: none;}
 #content-mobile {display: block;}
 
 
   .container{
-    margin: 0 9%;
+    margin: 0 0%;
     margin-top: 6%;
-    overflow-x: hidden;
+    
+  }
+
+  .container2{
+  margin-top: 6%;
+  margin: 0 0% !important;
 
   }
 
@@ -304,10 +323,21 @@ img{
     width: 100%;
     display: flex;
     flex-direction: column;
-
   }
 
   .box-content img {
+    height: 52vw;
+  }
+
+  .box-content11{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -5vw;
+  }
+
+  .box-content11 img {
     height: 52vw;
   }
 
@@ -386,6 +416,7 @@ img{
     display: grid;
     place-content: center;
     margin-top: 4.392vw;
+    margin: 0 9%;
   }
 
   .photo-box{
@@ -411,6 +442,13 @@ img{
     margin-top: 7%;
     padding: 0 0%;
   }
+
+  .photo-courtesy3{
+    font-size: 3vw;
+    margin-top: 7%;
+    padding: 0 1%;
+  }
+
 
   .location-content{
     margin-top: 2.196vw;
@@ -472,15 +510,14 @@ img{
 
 .box-content7 video {
   height: 100%;
-  
   flex-direction: left;
   text-align: left;
   padding: 0 0%;
   max-width: 100%;
   width: 100%;
   margin-left: auto;
-    margin-right: auto;
-    display: block
+  margin-right: auto;
+  display: block
 }
 
 .location-content2{
@@ -491,8 +528,8 @@ img{
 }
 
 .box-content3{
-    overflow-x: hidden;
-    margin-left: 0%;
+  overflow-x: hidden;
+  margin-left: 0%;
 
 }
 
@@ -500,15 +537,42 @@ img{
   place-content: center;
   margin-top: 4.392vw;
   width: 100%;
-    overflow-x: hidden;
-    margin-left: 0vw;
+  overflow-x: hidden;
+  margin-left: 0vw;
 }
+
 .box-content4{
   display: left;
   flex-direction: left;
   text-align: left;
   margin-left: 0vw;
-  }
+}
+
+.box-content10{
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  display: block;
+   }
+
+.box-content10 img {
+  height: 60%;
+  flex-direction: left;
+  text-align: left;
+  padding: 0 0%;
+  max-width: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.center-content3{
+  place-content: center;
+  margin-top: 4.392vw;
+  width: 100%;
+
+}
 
 }
 

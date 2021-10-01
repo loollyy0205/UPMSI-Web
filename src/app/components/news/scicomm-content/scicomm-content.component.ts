@@ -28,6 +28,8 @@ export class ScicommContentComponent implements OnInit {
 charlon = [{
     thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1632802602/News/Features/charlon/Colony_145_-_rapid_sampling-2_krb6md.jpg',
     thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1632803414/News/Features/charlon/Optimized-Charlon_m0qfbc.jpg',
+    thumbnail3: 'https://res.cloudinary.com/upmsi/image/upload/v1633055665/News/Features/charlon/For_Web_2x_mg6dus.png',
+    thumbnail4: 'https://res.cloudinary.com/upmsi/image/upload/v1633055657/News/Features/charlon/for-mobile_p6uteb.png',
     
     locationContent: '',
   }];
