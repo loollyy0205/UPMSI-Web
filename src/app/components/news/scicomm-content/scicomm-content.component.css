@@ -94,6 +94,19 @@ opacity: 1 !important;
   margin-left: 3.392vw;
 }
 
+.box-content12 {
+  height: 100%;
+  width: 55.245vw !important;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.box-content12 img {
+   height:55.718vw;
+}
+
+
 .box-content img {
   height: 27.818vw;
 }
@@ -334,7 +347,6 @@ img{
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: -5vw;
   }
 
   .box-content11 img {
@@ -446,9 +458,8 @@ img{
   .photo-courtesy3{
     font-size: 3vw;
     margin-top: 7%;
-    padding: 0 1%;
+    padding: 0 2%;
   }
-
 
   .location-content{
     margin-top: 2.196vw;
