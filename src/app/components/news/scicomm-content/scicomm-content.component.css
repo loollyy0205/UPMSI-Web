@@ -51,7 +51,7 @@
   display: left;
   flex-direction: left;
   text-align: left;
-  margin-left: 0vw;
+  margin-left: 1.5vw;
 }
 
 video::-webkit-media-controls-panel {
@@ -437,7 +437,7 @@ img{
   .center-content{
     display: grid;
     place-content: center;
-    margin-top: 4.392vw;
+    margin-top: 5.392vw;
     margin: 0 9%;
   }
 
@@ -551,7 +551,10 @@ img{
 .box-content3{
   overflow-x: hidden;
   margin-left: 0%;
+}
 
+.box-content5{
+  margin-left: -.5vw !important;
 }
 
 .center-content2{
