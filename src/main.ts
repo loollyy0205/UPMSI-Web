@@ -14,6 +14,5 @@ if (location.protocol !== 'https:') {
 }
 
 
-
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
