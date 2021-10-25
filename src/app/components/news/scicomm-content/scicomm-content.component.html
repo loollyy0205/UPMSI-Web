@@ -14,10 +14,31 @@
         </div>
         </div>
      
-       <div class="box-content3">
+       <div class="box-content3" *ngIf="charlonBool">
           <div>
             <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="charlonBool" >Four-year old coral outplant releasing egg-sperm bundles. </p>
             <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="charlonBool" >Video: Charlon A. Ligson</p>
+          </div>
+        </div>
+
+<div class="center-content2" id="content-desktop" *ngIf="habsBool" style="margin-top: 1.5vw;">
+         <div class="box-content2" id="content-desktop">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1634799622/News/Features/HABS/draft-banner-HABS_1_pkzqid.mp4"></video>
+        </div>
+
+        </div>
+
+ <div class="center-content2" id="content-mobile" *ngIf="habsBool" style="margin-top: 1.5vw;">
+
+        <div class="box-content7" id="content-mobile">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1634799622/News/Features/HABS/draft-banner-HABS_1_pkzqid.mp4"></video>
+        </div>
+        </div>
+
+<div class="box-content4a" *ngIf="habsBool">
+          <div>
+            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" ><em>When the monsoon winds take over and the conditions are right, algae can multiply like crazy. In their recently published collaborative work, Dr. Aletta Yñiguez and Ms. Zheina Ottong share how they developed a potential early warning detection system for HABs, a feat that earned them the Dr. Elvira Tan Award in Aquatic Sciences.</em></p>
+            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" ></p>
           </div>
         </div>
    
@@ -253,7 +274,7 @@
       <p class="atlas-light location-content" *ngIf="charlonBool">However, long periods of rearing do not always ensure this advantage, as the corals can still be subject to bad conditions like predation or temperature spikes in the nursery.</p>
 
        <div class="center-content" *ngIf="charlonBool">
-         <div class="box-content2" style="margin-left: 1.5vw !important;">
+         <div class="box-content2" style="margin-left: 1.5vw">
           <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1632809052/News/Features/charlon/sep20-eggs_2_s54fmg.mp4"></video>
          </div>
          <div class="box-content4">
@@ -332,6 +353,125 @@
       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">17. Technau, U., & Weis, V. M. (2013). Evodevo meets ecology: the ninth okazaki biology conference on marine biology. EvoDevo, 4. doi: 10.1186/2041-9139-4-18</p>
        
 
+      <p class="atlas-light location-content" *ngIf="habsBool">In 1983, many inhabitants of Samar, Masbate, Sorsogon, and even Western Visayas were gripped by symptoms like tingling, numbness, and nausea. Almost 300 cases of food poisoning were reported. The culprit was eventually identified to be the dinoflagellate <em>Pyrodinium bahamense</em> that affected green mussels in Maqueda Bay and Villareal Bay, where several mariculture facilities for shellfish were located. Shellfish harvesting was banned in those locations for eight months.<sup>1</sup></p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">Numerous reports of harmful algal bloom (HAB) events in the Philippines have surfaced since then. HABs are familiar to many of us — we know it as the “red tide,” a phenomenon whereby the open water becomes discolored, possibly in reddish hues, due to the overgrowth of algae. Still, the term “HAB'' is not limited to describing red discoloration. Algae can turn the water yellow, blue, or even milky.</p>
+
+       <div class="center-content" *ngIf="habsBool">
+        <div class="box-content11">
+         <img [src]="myArr[0].thumbnail">
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >Red tide: If you look closely, blotches of maroon manifest in the deep blue waters of Bolinao, Pangasinan, a major concern for the fish pens scattered all over Lingayen Gulf</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: Dr. Gil Jacinto</p>
+         </div>
+        </div>
+       </div> 
+
+       <p class="atlas-light location-content" *ngIf="habsBool">Marine biologists are always on the lookout for HABs because of their associated threats. The algae may harbortoxins, as evidenced by the Paralytic Shellfish Poisoning (PSP) terror of 1983, or cause physical damage merely due to overgrowth.</p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">Live tracking of HABs can be expensive, so Dr. Aletta Yñiguez and co-author Zheina Ottong turned to artificial intelligence (AI) to forecast these occurrences. <em> <a href="https://www.sciencedirect.com/science/article/pii/S0048969719361698" target="_blank"  style="color: #384e8a;">“Predicting fish kills and toxic blooms in an intensive mariculture site in the Philippines using a machine learning model”</a></em><sup>2</sup> presents promising results obtained through the random forest algorithm. The AI was proven to accurately identify fish kills and toxic blooms, giving us a headstart on achieving real-time monitoring of HABs.</p>
+
+       <p class="atlas-light location-content2" *ngIf="habsBool">Mysterious slurries</p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">When a marine, freshwater, or estuary environment is overwhelmed by an algal bloom, it turns into a large body of sludge or foam. The process begins when algae cysts emerge from dormancy in the benthic region and germinate. These cysts hatch under the right conditions, releasing cells that reproduce continuously for weeks until they have proliferated enough to form the “bloom.” </p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">Algal blooms appear different depending on the algae that cause them. The first recorded PSP event caused by <em>P. bahamense</em> was a red tide. On the other hand, algal blooms caused by cyanobacteria (blue-green algae) appear greenish. There are also bioluminescent algae that can illuminate seawater at night, shining blue light from below the water surface. </p>
+
+       <div class="center-content" *ngIf="habsBool">
+        <div class="box-content11">
+         <img [src]="myArr[0].thumbnail3">
+          <div style="width:100%;">
+            <div  class="column1">
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" ><em>Coscinodiscus</em> sp., Magueda Bay, Philippines</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: J. Maister</p>
+         </div>
+         <div class="column2">
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a;  margin-top: 10px;" *ngIf="habsBool" >Bloom of diatoms </p>
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: J. Maister</p>
+         </div>
+         </div>
+        </div>
+       </div> 
+
+       <p class="atlas-light location-content" *ngIf="habsBool">Not all algal blooms are “harmful” — to be “harmful,” the algae in question must produce toxins. But non-toxic blooms are also dangerous because they produce large amounts of biomass. These are unwelcome changes that may harm the organisms sharing that habitat. Algal blooms dominate and compete with the natural phytoplankton population, leading to the collapse of the balance in the local ecosystem. Moreover, algal blooms lead to decreased dissolved oxygen levels, suffocating the fish population and causing fish kills.</p>
+
+       <div class="center-content" *ngIf="habsBool" >
+         <div class="box-content5" style="margin-left: 1.2vw;">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1634809990/News/Features/HABS/alexandrium-minutum-toxic_r64w8m.mp4"></video>
+         </div>
+         <div class="box-content4b" style="margin-top: .5vw! important;">
+          <div >
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 0px;" *ngIf="habsBool" >Toxic <em>Alexandrium minutum</em></p>
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Video: ?</p>
+          </div>
+        </div>
+       </div>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">While regarded as threats, HABs actually occur naturally every year. They are not necessarily man-made phenomena; they have existed long before the first mention of climate change. In fact, HAB-causing species have been observed in fossil records. Certain conditions can increase the likelihood of a HAB happening, like high water temperature, slow water flow, and changes in the local ecology of a body of water.</p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">The number one contributing factor is higher nutrient (phosphorus and/or nitrogen) levels. Algae are plants, and these nutrients serve as fertilizer to them. Human activities like agriculture, manufacturing, and sewage disposal, increase nutrient levels in water, and may therefore contribute to the spread and frequency of HAB phenomena. Transporting affected organisms to different locations (via trade) also helps spread HAB-causing algae.</p>
+
+       <p class="atlas-light location-content2" *ngIf="habsBool">Endangered livelihoods</p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">Only select countries are regularly affected by HABs, but a growing body of evidence shows that these phenomena have been spreading. A recently published UN Global Assessment on algal bloom<sup>3</sup> found that the Philippines, a maritime country, experienced the highest number of PSP cases (around 67% of the global count) from 1985 to 2018, with 165 fatalities.</p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">In the past year alone, several Philippine regions were affected by the red tide, including Palawan, Bohol, Negros Oriental, Western Samar, Leyte, Biliran, Davao Oriental, Surigao del Sur, and Zamboanga del Norte. Shellfish bans are enacted whenever needed.</p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">“Usually toxic blooms happen sa mga embayment like Manila Bay, Sorsogon Bay. Iyon ‘yung mga usual. Parating marami sa Visayas. Marami tayong bays eh, mga hotspot areas sa Visayas. In Mindanao now, medyo marami na rin naapektuhan,” Dr. Yñiguez explains when asked about the vulnerability of Philippine areas to HABs.</p>
+
+       <div class="center-content" *ngIf="habsBool">
+        <div class="box-content11">
+         <img [src]="myArr[0].thumbnail4">
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >Fish that could have been sold and consumed lie motionless on some seaweed. Fish kills brought about by HABs threaten the livelihoods of many fisherfolk in the Philippines. <span class="grayText"> File Photo </span></p>
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: Dr. Gil Jacinto</p>
+         </div>
+        </div>
+       </div> 
+
+       <p class="atlas-light location-content2" *ngIf="habsBool">Training computers to forecast HABs</p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">The number one contributing factor is higher nutrient (phosphorus and/or nitrogen) levels. Algae are plants, and these nutrients serve as fertilizer to them. Human activities like agriculture, manufacturing, and sewage disposal, increase nutrient levels in water, and may therefore contribute to the spread and frequency of HAB phenomena. Transporting affected organisms to different locations (via trade) also helps spread HAB-causing algae.</p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">Only select countries are regularly affected by HABs, but a growing body of evidence shows that these phenomena have been spreading. A recently published UN Global Assessment on algal bloom<sup>3</sup> found that the Philippines, a maritime country, experienced the highest number of PSP cases (around 67% of the global count) from 1985 to 2018, with 165 fatalities.</p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">In the past year alone, several Philippine regions were affected by the red tide, including Palawan, Bohol, Negros Oriental, Western Samar, Leyte, Biliran, Davao Oriental, Surigao del Sur, and Zamboanga del Norte. Shellfish bans are enacted whenever needed.</p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">“Usually toxic blooms happen sa mga embayment like Manila Bay, Sorsogon Bay. Iyon ‘yung mga usual. Parating marami sa Visayas. Marami tayong bays eh, mga hotspot areas sa Visayas. In Mindanao now, medyo marami na rin naapektuhan,” Dr. Yñiguez explains when asked about the vulnerability of Philippine areas to HABs.</p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">Food safety risk management measures like banning shellfish harvest have been taken to prevent the poisonings. Albeit necessary, these measures put many livelihoods at risk. For instance, the 1992 <em>Pyrodinium</em> red tide outbreak affected almost 40,000 fisherfolk, translating to an estimated economic loss of PhP 3.4 billion (2002 prices).<sup>4</sup></p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">HABs are a dire concern for many sectors of society — public health, economy, and livelihoods — and the development of early-warning tools can greatly improve our chances of mitigating them.</p>
+
+       <div class="center-content" *ngIf="habsBool" >
+         <div class="box-content5" style="margin-left: 1.2vw;">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1634878778/News/Features/HABS/Bolinao_Guiguiwanen_channel_drone_k4bswf.mp4"></video>
+         </div>
+         <div class="box-content4b" style="margin-top: .5vw! important;">
+          <div >
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 0px;" *ngIf="habsBool" >Toxic <em>Alexandrium minutum</em></p>
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Video: ?</p>
+          </div>
+        </div>
+       </div>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">While regarded as threats, HABs actually occur naturally every year. They are not man-made phenomena; they have existed long before the first mention of climate change. In fact, HAB-causing species have been observed in fossil records. Certain conditions can increase the likelihood of a HAB happening, like high water temperature, slow water flow, and changes in the local ecology of a body of water. However, the number one contributing factor is higher nutrient (phosphorus and/or nitrogen) levels. Algae are plants, and these nutrients serve as fertilizer to them.</p>
+
+       <div class="center-content" *ngIf="habsBool">
+        <div class="box-content11">
+         <img [src]="myArr[0].thumbnail2">
+          <div style="width:100%;">
+            <div  style="width: 50%; height: 100px; float: left;">
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >AWQMS at Bolinao</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: ?</p>
+         </div>
+         <div style="margin-left: 51%; height: 100px;">
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a;  margin-top: 10px;" *ngIf="habsBool" >SensPak at Bolinao</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: ?</p>
+         </div>
+         </div>
+        </div>
+       </div> 
       
 
 

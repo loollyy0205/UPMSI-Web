@@ -34,11 +34,21 @@ charlon = [{
     locationContent: '',
   }];
 
+habs = [{
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1634801080/News/Features/HABS/Bolinao_bloom_discoloration_1_ojv2vj.jpg',
+    thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1634808527/News/Features/HABS/website1_a7ye7g.jpg',
+    thumbnail3: 'https://res.cloudinary.com/upmsi/image/upload/v1634809763/News/Features/HABS/website3_gxyeka.jpg',
+    thumbnail4: 'https://res.cloudinary.com/upmsi/image/upload/v1634877425/News/Features/HABS/fish-kill_cxrrcs.jpg',
+    
+    locationContent: '',
+  }];
+
    
 
   myArr = [];
   giantclamBool:boolean = false;
   charlonBool:boolean = false;
+  habsBool:boolean = false;
   
   
 
@@ -62,6 +72,11 @@ charlon = [{
    if(this.router.url.includes('/News/scicomm/coral-propagation')){
       this.myArr = this.charlon;
       this.charlonBool = true;
+    }
+
+    if(this.router.url.includes('/News/scicomm/In-Full-Bloom')){
+      this.myArr = this.habs;
+      this.habsBool = true;
     }
   
    
