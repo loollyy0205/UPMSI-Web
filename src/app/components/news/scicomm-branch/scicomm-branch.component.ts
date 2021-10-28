@@ -20,10 +20,9 @@ export class ScicommBranchComponent implements OnInit {
   newsContent1(){
     this.router.navigate(['/News/scicomm', 'coral-propagation']);
   }
-/**
+
   newsContent2(){
     this.router.navigate(['/News/scicomm', 'In-Full-Bloom']);
   }
-  */
   
 } 

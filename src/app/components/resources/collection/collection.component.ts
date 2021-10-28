@@ -13,8 +13,8 @@ export class CollectionComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  toContact() {
-    this.router.navigate(['/Contact']);
+  toWebinar() {
+    this.router.navigate(['/Resources/webinar']);
   }
 
 

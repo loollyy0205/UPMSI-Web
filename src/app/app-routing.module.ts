@@ -51,6 +51,9 @@ import { MoreStudNookComponent } from './components/education/studnook/more-stud
 import { StudNookComponent } from './components/education/studnook/studnook.component';
 import { MoreScicommComponent } from './components/news/more-scicomm/more-scicomm.component';
 import { ScicommContentComponent } from './components/news/scicomm-content/scicomm-content.component';
+import { WebinarComponent } from './components/resources/webinar/webinar.component';
+import { WebinarContentComponent } from './components/resources/webinar-content/webinar-content.component';
+
 
 const routes: Routes = [
   // {path: '', redirectTo: '/Home', pathMatch: 'full'},
@@ -110,6 +113,8 @@ const routes: Routes = [
   {path: 'News/press-coverage-headlines/:name', component: PressContentComponent},
   {path: 'News/scicomm/:name', component: ScicommContentComponent},
   {path: 'News/scicomm-headlines', component: MoreScicommComponent},
+  {path: 'Resources/webinar', component: WebinarComponent},
+  {path: 'Resources/webinar/:name', component: WebinarContentComponent},
 ];
 
 @NgModule({

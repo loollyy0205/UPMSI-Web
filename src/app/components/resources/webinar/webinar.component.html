@@ -1,0 +1,33 @@
+<app-nav></app-nav>
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
+<div class="container animate__animated animate__fadeIn animate__delay-1s">
+  <p class="atlas-bold title">WEBINARS</p> <!-- edited13 -->
+
+  <div class="img-container">
+    <div class="img-content" *ngFor="let item of news; let i = index">
+      <div class="left">
+        <img [src]="item.image" (click)="newsContent(i)">
+      </div>
+      <div class="right">
+        <div>
+          <p class="atlas-bold header" (click)="newsContent(i)">{{item.title}}</p>
+          <p class="atlas-light subtitle">{{item.subtitle}}</p>
+          <p class="atlas-light item-content">{{item.content}}</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+<div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
+  <span class="arrow-text" routerLink="/Contact">
+    <p class="atlas-light"><span class="navi">TO CONTACT</span> <span class="arrow">&rarr;</span></p><!-- edited13 -->
+  </span>
+</div>
+
+<div>
+  <app-footer></app-footer>
+</div>

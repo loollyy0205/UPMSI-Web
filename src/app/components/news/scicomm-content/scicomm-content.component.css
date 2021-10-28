@@ -352,6 +352,18 @@ img{
    height: 30px;
 }
 
+.mob{
+  width: 50%;
+  height: 70px;
+  float: left;
+}
+
+.mob2{
+  width: 50%;
+  height: 130px;
+  float: left;
+}
+
 #content-desktop {display: block;}
 #content-mobile {display: none;}
 
@@ -653,6 +665,14 @@ img{
 .column2{
   margin-left: 51%;
    height: 100px;
+}
+
+.mob{
+  height: 100%;
+}
+
+.mob2{
+  height: 100%;
 }
 
 }

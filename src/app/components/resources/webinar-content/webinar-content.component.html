@@ -1,0 +1,52 @@
+<app-nav></app-nav>
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
+<div class="container animate__animated animate__fadeIn animate__delay-1s">
+  <div class="content">
+    <div>
+      <p class="atlas-blackReg title" >Resilient Coastal Livelihoods and Ecosystems</p> <!-- EDITED TEXT-->
+      <p class="lab-desc atlas-light title2" *ngIf="firstBool">
+        October 25, 2021
+      </p>
+    </div>
+  </div>
+
+  <div >
+    
+
+
+
+  </div>
+  <div class="center-content" *ngIf="firstBool">
+         <div class="box-content5">
+          <video controls src="https://res.cloudinary.com/upmsi/video/upload/v1635321606/Resources/Webinars/Resilient_Coastal_Livelihoods_and_Ecosystems_Webinar_zqmvvp.mp4"></video>
+         </div>
+       </div>
+
+   <p class="atlas-light location-content" *ngIf="firstBool">The webinar "Resilient Coastal Livelihoods and Ecosystems" was held on October 25, 2021 via Zoom and Facebook. This was conducted in cooperation with the National Committee on Marine Sciences (NCMS) of the UNESCO National Commission of the Philippines (UNACOM), in support of the UNESCO Decade of Ocean Science.</p>
+
+  <div class="center-content" *ngIf="firstBool">
+        <div class="box-content11" *ngIf="firstBool">
+         <img [src]="myArr[0].thumbnail">
+        </div>
+       </div> 
+
+
+
+  
+
+  
+
+  
+
+
+  <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
+    <span class="arrow-text" (click)="toWeb()">
+      <p class="atlas-light"><span class="navi">MORE WEBINARS</span> <span class="arrow">&rarr;</span></p>
+    </span>
+  </div>
+
+  </div>
+
+<div class="footer">
+  <app-footer></app-footer>
+</div>
