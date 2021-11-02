@@ -39,7 +39,7 @@ habs = [{
     thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1634808527/News/Features/HABS/website1_a7ye7g.jpg',
     thumbnail3: 'https://res.cloudinary.com/upmsi/image/upload/v1634809763/News/Features/HABS/website3_gxyeka.jpg',
     thumbnail4: 'https://res.cloudinary.com/upmsi/image/upload/v1634801082/News/Features/HABS/Bolinao_fish_cage1_Rica_i3mjvk.jpg',
-    thumbnail5: 'https://res.cloudinary.com/upmsi/image/upload/v1634800895/News/Features/HABS/Field_at_Bolinao3_woafht.jpg',
+    thumbnail5: 'https://res.cloudinary.com/upmsi/image/upload/v1635818420/News/Features/HABS/Field_at_Bolinao3_t5hvol.jpg',
     thumbnail6: 'https://res.cloudinary.com/upmsi/image/upload/v1634808843/News/Features/HABS/Aerial_shot_fish_farming_Pangasinan_2016_-_G_Jacinto_tq00il.jpg',
     thumbnail7: 'https://res.cloudinary.com/upmsi/image/upload/v1634800888/News/Features/HABS/Field_at_Bolinao4_ovhxsr.jpg',
     thumbnail8: 'https://res.cloudinary.com/upmsi/image/upload/v1635219142/News/Features/HABS/Bolinao_workshop_with_stakeholders_xpoknn.jpg',

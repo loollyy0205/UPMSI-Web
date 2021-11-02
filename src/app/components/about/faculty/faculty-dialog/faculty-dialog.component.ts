@@ -170,7 +170,7 @@ export class FacultyDialogComponent implements OnInit {
       publication: [
     ]},
 
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981158/About/03%20Faculty/faculty-cropped2/07-Rachel_June_R._Gotanco_Ph.D._yn43rf.jpg', name: 'Rachel June Ravago-Gotanco, Ph.D.', email: 'rrgotanco@msi.upd.edu.ph', citation: 'https://scholar.google.com.ph/citations?user=RaRuPq0AAAAJ&hl=fil', title1: 'Associate Professor', badge: 'Deputy Director for Instruction', education1: 'Ph.D. Marine Science', education2: 'University of University, Quezon City, Philippines', RI: 'Molecular Ecology and Evolution, Population Genetics, Phylogeography',
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981158/About/03%20Faculty/faculty-cropped2/07-Rachel_June_R._Gotanco_Ph.D._yn43rf.jpg', name: 'Rachel June Ravago-Gotanco, Ph.D.', email: 'rrgotanco@msi.upd.edu.ph', citation: 'https://scholar.google.com.ph/citations?user=RaRuPq0AAAAJ&hl=fil', title1: 'Associate Professor', badge: 'Deputy Director for Instruction', education1: 'Ph.D. Marine Science', education2: 'University of Philippines, Quezon City, Philippines', RI: 'Molecular Ecology and Evolution, Population Genetics, Phylogeography',
     publication: [
       {publi: 'Ravago-Gotanco R, Kim KM (2019) Regional genetic structure of sandfish Holuthuria (Metriatyla) scabra populations across the Philippine archipelago. Fish. Res. 209:143-155.'},
       {publi: 'Torres AF, Ravago-Gotanco R (2018) Rarity of the "common" coral Pocillopora damicornis in the western Philippine archipelago. Coral  Reefs.'},

@@ -5,6 +5,14 @@
   overflow-y: hidden;
 }
 
+.container1{
+  margin: 0 1%;
+  margin-top: 2.928vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color:black;
+}
+
 ::-webkit-scrollbar {
     width: 0;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
