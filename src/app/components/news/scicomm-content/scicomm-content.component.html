@@ -35,13 +35,6 @@
         </div>
         </div>
 
-<div class="box-content4a" *ngIf="habsBool">
-          <div>
-            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" ><em>When the monsoon winds take over and the conditions are right, algae can multiply like crazy. In their recently published collaborative work, Dr. Aletta Yñiguez and Ms. Zheina Ottong share how they developed a potential early warning detection system for HABs, a feat that earned them the Dr. Elvira Tan Award in Aquatic Sciences.</em></p>
-            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" ></p>
-          </div>
-        </div>
-   
         
 <div class="container  animate__animated animate__fadeIn animate__delay-1s">
 
@@ -351,6 +344,9 @@
       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">16. Baums, I. B., Devlin‐Durante, M. K., & LaJeunesse, T. C. (2014). New insights into the dynamics between reef corals and their associated dinoflagellate endosymbionts from population genetic studies. <em>Molecular ecology</em>, 23(17), 4203-4215. doi: 10.1111/mec.12788</p>
 
       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">17. Technau, U., & Weis, V. M. (2013). Evodevo meets ecology: the ninth okazaki biology conference on marine biology. EvoDevo, 4. doi: 10.1186/2041-9139-4-18</p>
+
+      <p class="atlas-light location-content" *ngIf="habsBool">By Mia N. Judicpa & Gabrielle A. Abrahan, MSI Contributors</p>
+      <p class="atlas-light location-content" style="margin-top: .2vw;" *ngIf="habsBool">November 2, 2021</p>
        
 
       <p class="atlas-light location-content" *ngIf="habsBool">In 1983, many inhabitants of Samar, Masbate, Sorsogon, and even Western Visayas were gripped by symptoms like tingling, numbness, and nausea. Almost 300 cases of food poisoning were reported. The culprit was eventually identified to be the dinoflagellate <em>Pyrodinium bahamense</em> that affected green mussels in Maqueda Bay and Villareal Bay, where several mariculture facilities for shellfish were located. Shellfish harvesting was banned in those locations for eight months.<sup>1</sup></p>
@@ -358,7 +354,7 @@
        <p class="atlas-light location-content" *ngIf="habsBool">Numerous reports of harmful algal bloom (HAB) events in the Philippines have surfaced since then. HABs are familiar to many of us — we know it as the “red tide,” a phenomenon whereby the open water becomes discolored, possibly in reddish hues, due to the overgrowth of algae. Still, the term “HAB'' is not limited to describing red discoloration. Algae can turn the water yellow, blue, or even milky.</p>
 
        <div class="center-content" *ngIf="habsBool">
-        <div class="box-content11">
+        <div class="box-content11-a">
          <img [src]="myArr[0].thumbnail">
           <div >
            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >Red tide: If you look closely, blotches of maroon manifest in the deep blue waters of Bolinao, Pangasinan, a major concern for the fish pens in the area.</p>
@@ -367,27 +363,27 @@
         </div>
        </div> 
 
-       <p class="atlas-light location-content" *ngIf="habsBool">Marine biologists are always on the lookout for HABs because of their associated threats. The algae may harbortoxins, as evidenced by the Paralytic Shellfish Poisoning (PSP) terror of 1983, or cause physical damage merely due to overgrowth.</p>
+       <p class="atlas-light location-content" *ngIf="habsBool">Marine biologists are always on the lookout for HABs because of their associated threats. The algae may harbor toxins, as evidenced by the Paralytic Shellfish Poisoning (PSP) terror of 1983, or cause physical damage merely due to overgrowth. </p>
 
        <p class="atlas-light location-content" *ngIf="habsBool">Live tracking of HABs can be expensive, so Dr. Aletta Yñiguez and co-author Zheina Ottong turned to artificial intelligence (AI) to forecast these occurrences. <em> <a href="https://www.sciencedirect.com/science/article/pii/S0048969719361698" target="_blank"  style="color: #384e8a;">“Predicting fish kills and toxic blooms in an intensive mariculture site in the Philippines using a machine learning model”</a></em><sup>2</sup> presents promising results obtained through the random forest algorithm. The AI was proven to accurately identify fish kills and toxic blooms, giving us a headstart on achieving real-time monitoring of HABs.</p>
 
        <p class="atlas-light location-content2" *ngIf="habsBool">Mysterious slurries</p>
 
-       <p class="atlas-light location-content" *ngIf="habsBool">When a marine, freshwater, or estuary environment is overwhelmed by an algal bloom, it turns into a large body of sludge or foam. The process begins when algae cysts emerge from dormancy in the benthic region and germinate. These cysts hatch under the right conditions, releasing cells that reproduce continuously for weeks until they have proliferated enough to form the “bloom.” </p>
+       <p class="atlas-light location-content" *ngIf="habsBool">When a marine, freshwater, or estuary environment is overwhelmed by an algal bloom, it turns into a large body of sludge or foam. The process begins when algae cysts emerge from dormancy in the benthic region and germinate. These cysts hatch under the right conditions, releasing cells that reproduce continuously for weeks until they have proliferated enough to form the “bloom.”  </p>
 
        <p class="atlas-light location-content" *ngIf="habsBool">Algal blooms appear different depending on the algae that cause them. The first recorded PSP event caused by <em>P. bahamense</em> was a red tide. On the other hand, algal blooms caused by cyanobacteria (blue-green algae) appear greenish. There are also bioluminescent algae that can illuminate seawater at night, shining blue light from below the water surface. </p>
 
 
         <div class="center-content" *ngIf="habsBool">
-        <div class="box-content11">
+        <div class="box-content11-a">
          <img [src]="myArr[0].thumbnail3">
           <div style="width:100%;">
             <div  class="mob">
-           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >Bloom of the diatom Coscinodiscus sp. at Maqueda Bay, Samar on August 28, 2019.</p>
-           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: Jennifer Maister of UP MSI BiOME lab</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >Bloom of the diatom <em>Coscinodiscus</em> sp. at Maqueda Bay, Samar on August 28, 2019.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: Jennifer Maister of UP MSI BiOME lab.</p>
          </div>
          <div class="mob">
-           <p class="atlas-light photo-courtesy2" style= "color:#384e8a;  margin-top: 10px;" *ngIf="habsBool" >Bloom of the diatoms Pseudo-nitzschia sp. and Rhizosolenia sp. with a lone Protoperidinium dinoflagellate cell at Manila Bay in October 2019.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a;  margin-top: 10px;" *ngIf="habsBool" >Bloom of the diatoms <em>Pseudo-nitzschia</em> sp. and <em>Rhizosolenia</em> sp. with a lone <em>Protoperidinium</em> dinoflagellate cell at Manila Bay in October 2019.</p>
            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: Jennifer Maister of UP MSI BiOME lab</p>
          </div>
          </div>
@@ -401,8 +397,8 @@
           <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1634809990/News/Features/HABS/alexandrium-minutum-toxic_r64w8m.mp4"></video>
          </div>
          <div class="box-content4b" style="margin-top: .5vw! important;">
-          <div >
-           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 0px;" *ngIf="habsBool" >Live <em>Alexandrium minutum</em> seen under a microscope. A. <em>minutu</em> is one of the main toxic dinoflagellates that bloom in Bolinao-Anda, Pangasinan</p>
+          <div class="mob3">
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 0px;" *ngIf="habsBool" >Live <em>Alexandrium minutum</em> seen under a microscope. A. <em>minutu</em> is one of the main toxic dinoflagellates that bloom in Bolinao-Anda, Pangasinan.</p>
            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Video:  Rica Dungog of UP MSI BiOME lab</p>
           </div>
         </div>
@@ -410,27 +406,27 @@
 
        <p class="atlas-light location-content" *ngIf="habsBool">While regarded as threats, HABs actually occur naturally every year. They are not necessarily man-made phenomena; they have existed long before the first mention of climate change. In fact, HAB-causing species have been observed in fossil records. Certain conditions can increase the likelihood of a HAB happening, like high water temperature, slow water flow, and changes in the local ecology of a body of water.</p>
 
-       <p class="atlas-light location-content" *ngIf="habsBool">The number one contributing factor is higher nutrient (phosphorus and/or nitrogen) levels. Algae are plants, and these nutrients serve as fertilizer to them. Human activities like agriculture, manufacturing, and sewage disposal, increase nutrient levels in water, and may therefore contribute to the spread and frequency of HAB phenomena. Transporting affected organisms to different locations (via trade) also helps spread HAB-causing algae.</p>
+       <p class="atlas-light location-content" *ngIf="habsBool">The number one contributing factor is higher nutrient (phosphorus and/or nitrogen) levels. Algae are plants, and these nutrients serve as fertilizer to them. Human activities like agriculture, manufacturing, and sewage disposal increase nutrient levels in the water, and may therefore contribute to the spread and frequency of HAB phenomena. Transporting affected organisms to different locations (via trade) also helps spread HAB-causing algae.</p>
 
        <p class="atlas-light location-content2" *ngIf="habsBool">Endangered livelihoods</p>
 
-       <p class="atlas-light location-content" *ngIf="habsBool">Only select countries are regularly affected by HABs, but a growing body of evidence shows that these phenomena have been spreading. A recently published UN Global Assessment on algal bloom<sup>3</sup> found that the Philippines, a maritime country, experienced the highest number of PSP cases (around 67% of the global count) from 1985 to 2018, with 165 fatalities.</p>
+       <p class="atlas-light location-content" *ngIf="habsBool">Only select countries are regularly affected by HABs, but a growing body of evidence shows that these phenomena have been spreading. A recently published UN Global Assessment on algal blooms3 found that the Philippines, a maritime country, experienced the highest number of PSP cases (around 67% of the global count) from 1985 to 2018, with 165 fatalities.</p>
 
        <p class="atlas-light location-content" *ngIf="habsBool">In the past year alone, several Philippine regions were affected by the red tide, including Palawan, Bohol, Negros Oriental, Western Samar, Leyte, Biliran, Davao Oriental, Surigao del Sur, and Zamboanga del Norte. Shellfish bans are enacted whenever needed.</p>
 
        <p class="atlas-light location-content" *ngIf="habsBool">“Usually toxic blooms happen sa mga embayment like Manila Bay, Sorsogon Bay. Iyon ‘yung mga usual. Parating marami sa Visayas. Marami tayong bays eh, mga hotspot areas sa Visayas. In Mindanao now, medyo marami na rin naapektuhan,” Dr. Yñiguez explains when asked about the vulnerability of Philippine areas to HABs.</p>
 
        <div class="center-content" *ngIf="habsBool">
-        <div class="box-content11">
+        <div class="box-content11-a">
          <img [src]="myArr[0].thumbnail4">
-          <div>
-           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >The white layer floating inside this fish cage in Bolinao isn’t foam, but dead milkfish or bangus. Fish kills are among the dangerous consequences of algal blooms, leading to large losses for fisherfolk.</p>
+          <div class="mob3">
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >The white layer floating inside this fish cage in Bolinao isn’t foam, but dead milkfish or bangus. Fish kills are among the dangerous consequences of algal blooms and lead to large economic losses for fisherfolk.</p>
            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: Rica Dungog of UP MSI BiOME lab</p>
          </div>
         </div>
        </div> 
 
-       <p class="atlas-light location-content" *ngIf="habsBool">Food safety risk management measures like banning shellfish harvest have been taken to prevent the poisonings. Albeit necessary, these measures put many livelihoods at risk. For instance, the 1992 <em>Pyrodinium</em> red tide outbreak affected almost 40,000 fisherfolk, translating to an estimated economic loss of PhP 3.4 billion (2002 prices).<sup>4</sup></p>
+       <p class="atlas-light location-content" *ngIf="habsBool">Food safety risk management measures like banning shellfish harvest have been taken to prevent poisonings. Albeit necessary, these measures put many livelihoods at risk. For instance, the 1992 <em>Pyrodinium</em> red tide outbreak affected almost 40,000 fisherfolk, translating to an estimated economic loss of PhP 3.4 billion (2002 prices).<sup>4</sup></p>
 
        <p class="atlas-light location-content" *ngIf="habsBool">HABs are a dire concern for many sectors of society — public health, economy, and livelihoods — and the development of early-warning tools can greatly improve our chances of mitigating them.</p>
 
@@ -439,8 +435,8 @@
           <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1634878778/News/Features/HABS/Bolinao_Guiguiwanen_channel_drone_k4bswf.mp4"></video>
          </div>
          <div class="box-content4b" style="margin-top: .5vw! important;">
-          <div >
-           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 0px;" *ngIf="habsBool" >Drone shot of the <em>bangus</em> fish cages and shellfish farms lining the Guiguiwanen Channel in Bolinao, Pangasinan</p>
+          <div class="mob4">
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 0px;" *ngIf="habsBool" >Drone shot of the <em>bangus</em> fish cages and shellfish farms lining the Guiguiwanen Channel in Bolinao, Pangasinan. Aiding fisherfolk with the early-warning system is a major motivation behind the study as fish farming is an important source of income for the people of Bolinao.</p>
            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Clip: Dexter Dela Cruz for the Coastal Acidification Project 2</p>
           </div>
         </div>
@@ -454,9 +450,9 @@
        <p class="atlas-light location-content" *ngIf="habsBool">“For me, it’s very interesting na, usually, diba hindi natin iniisip ang mga halaman. But then if they’re not there, we’re not here,” she says. “And everything else isn’t there either. I find [it] fascinating how they’re so important. Lalo na ‘yung mga phytoplankton and microalgae, ‘di naman pinapansin masyado.”</p>
 
        <div class="center-content" *ngIf="habsBool">
-        <div class="box-content11">
+        <div class="box-content11-a">
          <img [src]="myArr[0].thumbnail5">
-          <div>
+          <div class="mob3">
            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >Testing the SensPak at the hatchery at the Bolinao Marine Laboratory: The SensPak is a low-cost multiparameter system developed through a collaboration between the National Institute of Physics (Dr. Giovanni Tapang and Alimuddin Arriesgado) and UP MSI (Dr. Aletta Yñiguez, Dr. Gil Jacinto, Narod Eco, Rica Dugong, and Manuel Justin Custado).</p>
            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: UP MSI BiOME lab</p>
          </div>
@@ -467,25 +463,20 @@
 
        <p class="atlas-light location-content" *ngIf="habsBool">“For example, may potential na magkaroon ng fish kill. Then, within the next few days, the fish farmers can consider na, ‘Ah, okay, baka pwede na i-ahon ‘yung mga isda.’ Ma-prevent ‘yung likelihood na magkaroon ng fish kill because of the prediction, preventing losses. That’s early-warning mitigation.”</p>
 
-      <p class="atlas-light location-content" *ngIf="habsBool">Dr. Yñiguez collaborated with computational physicist Zheina Ottong to develop the algorithm. Ottong would feed data gathered from 2015 to 2017 in 16 sampling sites in Bolinao, Pangasinan to the <em>random</em> forest, a machine learning algorithm that can be “trained” to solve complex classification problems.</p>
+      <p class="atlas-light location-content" *ngIf="habsBool">Dr. Yñiguez collaborated with data scientist Zheina Ottong to develop the algorithm. Ottong would feed data gathered from 2015 to 2017 in 16 sampling sites in Bolinao, Pangasinan to the<em>random forest</em>, a machine learning algorithm that can be “trained” to solve complex classification problems.</p>
 
        
 
        <p class="atlas-light location-content2" *ngIf="habsBool">The random forest algorithm</p>
 
-       <p class="atlas-light location-content" *ngIf="habsBool">The authors considered the physical (temperature and salinity) and chemical (dissolved oxygen and pH) properties of water, as well as its chlorophyll-a (Chl-<em>a</em>) levels. These factors were chosen based on the questions: are they relevant to HABs? Were the data obtained during a known HAB event? Can we acquire them real-time?</p>
+       <p class="atlas-light location-content" *ngIf="habsBool">The authors considered the physical (temperature and salinity) and chemical (dissolved oxygen and pH) properties of water, as well as its chlorophyll-a (Chl-<em>a</em>) levels. These factors were chosen based on the questions: are they relevant to HABs? Were the data obtained during a known HAB event? Can we acquire them in real-time?</p>
 
        <div class="center-content" *ngIf="habsBool">
-        <div class="box-content11">
+        <div class="box-content11-a">
          <img [src]="myArr[0].thumbnail2">
-          <div style="width:100%;">
-            <div class="mob2">
-           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >Testing the SensPak deployed at a fish cage at Bolinao. The SensPak is a low-cost multiparameter system developed through a collaboration between the National Institute of Physics (Dr. Giovanni Tapang, Alimuddin Arriesgado) and MSI (Dr. Aletta Yñiguez, Dr. Gil Jacinto, Narod Eco, Rica Dugong, Manuel Justin Custado)</p>
+            <div class="mob3">
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >The Automated Water Quality Monitoring System or AWQMS (left) and the SensPak (right) deployed in Bolinao. </p>
            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: BiOME lab, UPMSI</p>
-         </div>
-         <div class="mob2">
-           <p class="atlas-light photo-courtesy2" style= "color:#384e8a;  margin-top: 10px;" *ngIf="habsBool" >SensPak at Bolinao</p>
-           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: ?</p>
          </div>
          </div>
         </div>
@@ -496,10 +487,10 @@
        <p class="atlas-light location-content" *ngIf="habsBool">We asked Dr. Yñiguez to let us in on how the algorithm works. “Whether you use Netflix, YouTube, or TikTok, you’re consuming specific content, tapos makikita mo may mga recommendations na. Bakit may recommendations na hawig sa mga nakita ko? Yung taste ko? Kung nanonood ka madalas ng BTS, dadami ‘yung associated videos with BTS or K-pop. That’s the concept of machine learning. You put in historical data tapos makikita [ng computer] anong pattern sa data na ‘yun. Based on that, ‘yung likelihood or types ng things that you watch na nakuha, magre-recommend na siya ng similar.</p>
 
        <div class="center-content" *ngIf="habsBool">
-        <div class="box-content11">
+        <div class="box-content11-a">
          <img [src]="myArr[0].thumbnail6">
           <div>
-           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >Fish farming is an important source of income for the people of Bolinao. Here, Dr. Yñiguez and her group gathered sensor data with the added goal of helping fisherfolk.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >Aerial shot of a bloom discoloring the waters around fish pens and fish farms in Bolinao-Anda, Pangasinan in 2016.</p>
            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: Dr. Gil Jacinto</p>
          </div>
         </div>
@@ -510,8 +501,8 @@
        <div class="center-content" *ngIf="habsBool">
         <div class="box-content11">
          <img [src]="myArr[0].thumbnail7">
-          <div>
-           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >Testing the SensPak in the field at Bolinao. The SensPak is a low-cost multiparameter system developed through a collaboration between the National Institute of Physics (Dr. Giovanni Tapang, Alimuddin Arriesgado (in photo)) and MSI (Dr. Aletta Yñiguez (in photo), Dr. Gil Jacinto, Narod Eco, Rica Dugong, Manuel Justin Custado)</p>
+          <div class="mob3">
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >Fieldwork routine: Dr. Yñiguez (right) and Alimuddin Arriesgado of the National Institute of Physics (left) testing the SensPak in Bolinao.</p>
            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: BiOME lab, UPMSI</p>
          </div>
         </div>
@@ -528,10 +519,10 @@
        <p class="atlas-light location-content" *ngIf="habsBool">Apart from collaborating with agencies, involving fisherfolk and other members of the mariculture industry is equally important. If we build capacity within these communities, we can invite the primary stakeholders to participate directly in the monitoring and interpretation of data, giving them more autonomy when engaging in dialogues with their LGUs.</p>
 
         <div class="center-content" *ngIf="habsBool">
-        <div class="box-content11">
+        <div class="box-content11-a">
          <img [src]="myArr[0].thumbnail8">
           <div>
-           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >Bolinao workshop with  the stakeholders.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >A workshop with the stakeholders of Bolinao.</p>
            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: BiOME lab, UPMSI</p>
          </div>
         </div>
@@ -539,27 +530,17 @@
 
        <p class="atlas-light location-content" *ngIf="habsBool">Dr. Yñiguez shares that her end goal with HABs research is to see real-time, early warning detection systems be implemented in the Philippines.</p>
 
-       <p class="atlas-light location-content" *ngIf="habsBool">“Panaginip ko talaga ‘yung ma-push ang real-time automated detection. Dito kasi, [ang] sensors pa lang ay para sa physical [variables] pero I’d really like na kasama na talaga ‘yung images, like of the phytoplankton themselves in real-time, which is possible but super expensive. So we hope sometime in the future ay lower cost na siya.</p>
+       <p class="atlas-light location-content" *ngIf="habsBool">“Panaginip ko talaga ‘yung ma-push ang real-time automated detection. Dito kasi, [ang] sensors pa lang ay para sa physical [variables] pero I’d really like na kasama na talaga ‘yung images, like of the phytoplankton themselves in real-time, which is possible but super expensive. So we hope, sometime in the future, ay lower cost na siya.</p>
 
-      <p class="atlas-light location-content" *ngIf="habsBool">“With that, we can have really great data and information and monitoring. Even if may COVID at ‘di ka makalabas, may data pa rin. Iyon ‘yung kulang dito sa Pilipinas, ‘yung long term na time series na information. How are you supposed to know ano ‘yung nangyayari sa site? Is it deteriorating, improving, how is climate change impacting it? If you don’t have that long term information, I’d really like [that] in different embayments in the Philippines, naka-set up yung mga ganyang system at models that will make data and information just accessible to a lot of people, at magagamit siya for mariculture purposes or other fisheries na studies. It’s the future.”</p>
+      <p class="atlas-light location-content" *ngIf="habsBool">“With that, we can have really great data and information and monitoring. Even if may COVID at ‘di ka makalabas, may data pa rin. Iyon ‘yung kulang dito sa Pilipinas, ‘yung long term na time series na information. How are you supposed to know ano ‘yung nangyayari sa site? Is it deteriorating, improving… How is climate change impacting it? If you don’t have that long term information, I’d really like [that] in different embayments in the Philippines, naka-set up ‘yung mga ganyang system at models that will make data and information just accessible to a lot of people, at magagamit siya for mariculture purposes or other fisheries na studies. It’s the future.”</p>
 
-       <div class="center-content" *ngIf="habsBool">
-        <div class="box-content11">
-         <img [src]="myArr[0].thumbnail9">
-          <div>
-           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="habsBool" >Caption :</p>
-           <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="habsBool" >Photo: Dr. Gil Jacinto, 2016</p>
-         </div>
-        </div>
-       </div>
-
-       
+       <hr  *ngIf="habsBool" style=" margin-top: 4vw;">
 
   <p class="atlas-light location-content"  style="font-size: 13px; margin-top: 3vw; text-align: center; padding: 2vw;color:gray;" *ngIf="habsBool  ">Curious about the real-time data and model forecasts that were developed in the article? Check out the <a href="https://habhub.philhabs.net/#/" target="_blank"  style="color: #384e8a; text-decoration: underline;">HABHub site</a> here! </p>
       
   <p class="atlas-light location-content"  style="font-size: 16px; margin-top: 3vw;  color:gray;" *ngIf="habsBool">Acknowledgments</p>
 
-  <p class="atlas-light location-content" style="font-size: 12px; margin-top: .5vw;  color:gray;" *ngIf="habsBool">TDr. Aletta Yñiguez would like to thank her collaborators in the development of the algorithms and their applications: from NIP, UP Diliman: Dr. Giovanni Tapang and Alimuddin Arriesgado; from UP MSI: Dr. Cesar Villanoy, Dr. Charina Amedo-Repollo, Dr. Gil Jacinto, Dr. Ma. Lourdes San Diego-McGlone, Dr. Ma. Josefa Pante, Dr. Rhodora Azanza, Rodrigo Narod Eco, Rica Dungog, Paul Andrew Gravoso, Andalus Punongbayan, Manuel Justin Custado. BFAR Region 1. DOST-PCAARRD for the funding</p>
+  <p class="atlas-light location-content" style="font-size: 12px; margin-top: .5vw;  color:gray;" *ngIf="habsBool">The authors would like to acknowledge their collaborators in the development of the algorithms and applications: Dr. Giovanni Tapang and Alimuddin Arriesgado from the National Institute of Physics, UP Diliman; Dr. Cesar Villanoy, Dr. Charina Amedo-Repollo, Dr. Gil Jacinto, Dr. Ma. Lourdes San Diego-McGlone, Dr. Ma. Josefa Pante, Dr. Rhodora Azanza, Rodrigo Narod Eco, Rica Dungog, Paul Andrew Gravoso, Andalus Punongbayan, and Manuel Justin Custado from the UP MSI; and the Bureau of Fisheries and Aquatic Resources (BFAR) of Region 1. They would also like to thank the Department of Science and Technology Philippine Council for Agriculture, Aquatic and Natural Resources Research and Development (DOST-PCAARRD) for funding the project.</p>
   
 
 <p class="atlas-light location-content"  style="font-size: 16px; margin-top: 2.5vw; color:gray;" *ngIf="habsBool">References:</p>
@@ -600,7 +581,7 @@
     <p class="atlas-light"><span class="navi">MORE FEATURES</span> <span class="arrow">&rarr;</span></p>
   </span>
 </div>
-</div>
+
 
 <div class="footer">
   <app-footer></app-footer>
