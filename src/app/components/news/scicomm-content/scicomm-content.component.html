@@ -435,7 +435,7 @@
 
        <p class="atlas-light location-content" *ngIf="habsBool">Food safety risk management measures like banning shellfish harvest have been taken to prevent poisonings. Albeit necessary, these measures put many livelihoods at risk. For instance, the 1992 <em>Pyrodinium</em> red tide outbreak affected almost 40,000 fisherfolk, translating to an estimated economic loss of PhP 3.4 billion (2002 prices).<sup>4</sup></p>
 
-       <p class="atlas-light location-content" *ngIf="habsBool">HABs are a dire concern for many sectors of society — public health, economy, and livelihoods — and the development of early-warning tools can greatly improve our chances of mitigating them.</p>
+       <p class="atlas-light location-content" style="font-size:24px; font-style: italic" *ngIf="habsBool">HABs are a dire concern for many sectors of society — public health, economy, and livelihoods — and the development of early-warning tools can greatly improve our chances of mitigating them.</p>
 
         <div class="center-content" *ngIf="habsBool" >
          <div class="box-content5" style="margin-left: 1.2vw;">
@@ -456,6 +456,8 @@
 
        <p class="atlas-light location-content" *ngIf="habsBool">“For me, it’s very interesting na, usually, diba hindi natin iniisip ang mga halaman. But then if they’re not there, we’re not here,” she says. “And everything else isn’t there either. I find [it] fascinating how they’re so important. Lalo na ‘yung mga phytoplankton and microalgae, ‘di naman pinapansin masyado.”</p>
 
+       <p class="atlas-light location-content" *ngIf="habsBool">(“For me, it’s very interesting that we usually don’t pay attention to plants. But, then, if they’re not there, we’re not here. And everything else isn’t there either. I find [it] fascinating how they’re so important. Especially the phytoplankton and microalgae, they’re not noticed much.”)</p>
+
        <div class="center-content" *ngIf="habsBool">
         <div class="box-content11-a">
          <img [src]="myArr[0].thumbnail5">
@@ -468,9 +470,9 @@
 
        <p class="atlas-light location-content" *ngIf="habsBool">While algae are crucial to water-based ecosystems, too much of anything can be a bad thing. With her knowledge of algae and their behaviors, Dr. Yñiguez seeks to understand which environmental factors most likely have a relationship with the onset of HABs. Learning these factors helps her design algorithms to predict HABs, which should be set up in coastal or maritime locations ideally:</p>
 
-       <p class="atlas-light location-content" *ngIf="habsBool">“For example, may potential na magkaroon ng fish kill. Then, within the next few days, the fish farmers can consider na, ‘Ah, okay, baka pwede na i-ahon ‘yung mga isda.’ Ma-prevent ‘yung likelihood na magkaroon ng fish kill because of the prediction, preventing losses. That’s early-warning mitigation.”</p>
+       <p class="atlas-light location-content" style="font-size:24px; font-style: italic" *ngIf="habsBool">“For example, may potential na magkaroon ng fish kill. Then, within the next few days, the fish farmers can consider na, ‘Ah, okay, baka pwede na i-ahon ‘yung mga isda.’ Ma-prevent ‘yung likelihood na magkaroon ng fish kill because of the prediction, preventing losses. That’s early-warning mitigation.”</p>
 
-      <p class="atlas-light location-content" *ngIf="habsBool">Dr. Yñiguez collaborated with data scientist Zheina Ottong to develop the algorithm. Ottong would feed data gathered from 2015 to 2017 in 16 sampling sites in Bolinao, Pangasinan to the<em>random forest</em>, a machine learning algorithm that can be “trained” to solve complex classification problems.</p>
+      <p class="atlas-light location-content" *ngIf="habsBool">(“For example, a potential fish kill can happen. Then, within the next few days, the fish farmers can consider, ‘Ah, okay, maybe we can take out the fish.’ The likelihood of a fish kill can be prevented because of the prediction, preventing losses. That’s early-warning mitigation.”)</p>
 
        
 
@@ -493,6 +495,8 @@
 
        <p class="atlas-light location-content" *ngIf="habsBool">We asked Dr. Yñiguez to let us in on how the algorithm works. “Whether you use Netflix, YouTube, or TikTok, you’re consuming specific content, tapos makikita mo may mga recommendations na. Bakit may recommendations na hawig sa mga nakita ko? Yung taste ko? Kung nanonood ka madalas ng BTS, dadami ‘yung associated videos with BTS or K-pop. That’s the concept of machine learning. You put in historical data tapos makikita [ng computer] anong pattern sa data na ‘yun. Based on that, ‘yung likelihood or types ng things that you watch na nakuha, magre-recommend na siya ng similar.</p>
 
+       <p class="atlas-light location-content" *ngIf="habsBool">(“Whether you use Netflix, YouTube, or TikTok, you’re consuming specific content, then you notice the recommendations. Why are there recommendations based on what I see? On my taste? If you watch BTS often, the associated videos with BTS or K-pop will increase. That’s the concept of machine learning. You put in historical data then the [computer] sees the pattern in those data. Based on that, the likelihood or types of things that you watch, it will recommend something similar.)</p>
+
        <div class="center-content" *ngIf="habsBool">
         <div class="box-content11-a">
          <img [src]="myArr[0].thumbnail6">
@@ -504,6 +508,8 @@
        </div>
 
        <p class="atlas-light location-content" *ngIf="habsBool">“Dito sa ginawa namin, ang historical data ay in the past several years na may HAB event sa Bolinao — may fish kill, may toxic bloom, may shellfish ban. Ano ‘yung mga environmental events associated doon sa mga ‘yun? The algorithm, then, gagawa ng mga trace of associated values and conditions at that time. Umuulit ‘yun nang umuulit na gumagawa siya ng trace until it approaches a threshold of accuracy para makuha niya nang tama ‘yung patterns. And then you have a separate data set na i-test natin kung napre-predict ba niya yung outcomes. Nagkaroon ba ng bloom o hindi based on an independent data set?”</p>
+
+       <p class="atlas-light location-content" *ngIf="habsBool">(“In this work, the historical data include the past several years that there was a HAB event in Bolinao — a fish kill, toxic bloom, shellfish ban. What are the environmental events associated with those? The algorithm, then, produces traces of associated values and conditions at that time. The generation of traces repeats until it approaches a threshold of accuracy, so that it gets the patterns right. And then you have a separate data set to test if it can predict the outcomes. Did a bloom occur or not, based on an independent data set?”)</p>
 
        <div class="center-content" *ngIf="habsBool">
         <div class="box-content11">
@@ -523,7 +529,7 @@
 
        <p class="atlas-light location-content" *ngIf="habsBool">There are HAB hotspots all over the Philippines, so collaboration with different agencies is crucial to expediting the deployment of AI-based HABs forecast systems in communities. Currently, Dr. Yñiguez and her group are collaborating with BFAR, and they hope to work with other agencies like the Department of Environment and Natural Resources.</p>
 
-       <p class="atlas-light location-content" *ngIf="habsBool">Apart from collaborating with agencies, involving fisherfolk and other members of the mariculture industry is equally important. If we build capacity within these communities, we can invite the primary stakeholders to participate directly in the monitoring and interpretation of data, giving them more autonomy when engaging in dialogues with their LGUs.</p>
+       <p class="atlas-light location-content" style="font-size:24px; font-style: italic" *ngIf="habsBool">Apart from collaborating with agencies, involving fisherfolk and other members of the mariculture industry is equally important. If we build capacity within these communities, we can invite the primary stakeholders to participate directly in the monitoring and interpretation of data, giving them more autonomy when engaging in dialogues with their LGUs.</p>
 
         <div class="center-content" *ngIf="habsBool">
         <div class="box-content11-a">
@@ -539,7 +545,11 @@
 
        <p class="atlas-light location-content" *ngIf="habsBool">“Panaginip ko talaga ‘yung ma-push ang real-time automated detection. Dito kasi, [ang] sensors pa lang ay para sa physical [variables] pero I’d really like na kasama na talaga ‘yung images, like of the phytoplankton themselves in real-time, which is possible but super expensive. So we hope, sometime in the future, ay lower cost na siya.</p>
 
+       <p class="atlas-light location-content" *ngIf="habsBool">(“My dream is for real-time automated detection to be pushed. Here, the sensors are only for physical [variables] but I’d really like to include images, like of the phytoplankton themselves in real-time, which is possible but super expensive. So we hope, sometime in the future, it’s going to come at a lower cost.)</p>
+
       <p class="atlas-light location-content" *ngIf="habsBool">“With that, we can have really great data and information and monitoring. Even if may COVID at ‘di ka makalabas, may data pa rin. Iyon ‘yung kulang dito sa Pilipinas, ‘yung long term na time series na information. How are you supposed to know ano ‘yung nangyayari sa site? Is it deteriorating, improving… How is climate change impacting it? If you don’t have that long term information, I’d really like [that] in different embayments in the Philippines, naka-set up ‘yung mga ganyang system at models that will make data and information just accessible to a lot of people, at magagamit siya for mariculture purposes or other fisheries na studies. It’s the future.”</p>
+
+      <p class="atlas-light location-content" *ngIf="habsBool">(“With that, we can have really great data and information and monitoring. Even with COVID and restrictions on going out, there’s still data to acquire. That’s what the Philippines lacks, long term time series information. How are you supposed to know what’s happening to a site? Is it deteriorating, improving... How is climate change impacting it? If you don’t have that long term information, I’d really like [that] in different embayments in the Philippines, those systems and models are set up so that data and information will just be accessible to a lot of people, and these can be used for mariculture purposes or other fisheries research. It’s the future.”)</p>
 
        <hr  *ngIf="habsBool" style=" margin-top: 4vw;">
 
