@@ -406,17 +406,16 @@ img{
    height: 30px;
 }
 
-.mob{
-  width: 50%;
-  height: 70px;
-  float: left;
+.pullout{
+  font-size:24px; 
+  font-style: italic; 
+  text-align: center; 
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
 }
 
-.mob2{
-  width: 50%;
-  height: 130px;
-  float: left;
-}
 
 #content-desktop {display: block;}
 #content-mobile {display: none;}
@@ -725,6 +724,14 @@ img{
   height: 100%;
 }
 
+.mob-a{
+  height: 100%;
+}
+
+.mob3{
+  height: 100%;
+}
+
 .mob2{
   height: 100%;
 }
@@ -734,6 +741,11 @@ img{
   height: 100%;
   float: left;
   line-height: 1.4;
+}
+
+.pullout{
+  font-size:24px; 
+  padding: 6vw;
 }
 
 }
