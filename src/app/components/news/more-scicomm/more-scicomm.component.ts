@@ -12,7 +12,7 @@ export class MoreScicommComponent implements OnInit {
     
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1632297254/News/Features/charlon/banner-thumbnail_xibgye.png",  title: "Underwater Cities: Studying coral propagation to rehabilitate coral communities", content: 'We often revere outer space as an expanse of wonder and mystery and look up at the...'},
 
-    {image: "https://res.cloudinary.com/upmsi/image/upload/v1632297254/News/Features/charlon/banner-thumbnail_xibgye.png",  title: "In Full Bloom: Predicting HAB events using A.I.", content: 'When the monsoon winds take over and the conditions are right, algae can multiply like crazy. In their recently published collaborative work, Dr. Aletta Yñiguez and Ms. Zheina Ottong...'},
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1635907412/News/Features/HABS/Bloom_of_diatoms_jamqyb.jpg",  title: "In Full Bloom: Predicting HAB events using A.I.", content: 'When the monsoon winds take over and the conditions are right, algae can multiply like crazy. In their recently published collaborative work, Dr. Aletta Yñiguez and Ms. Zheina Ottong...'},
 
    /** 
     {image: "https://dc585.4shared.com/img/fTDppHwOiq/s24/179b1eeaa58/News-02-awards?async&rand=0.5250163112703308", subtitle: 'April 30, 2021', title: "UPMSI scientists receive accolades from NAST, OMLC", content: 'Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center...'},
