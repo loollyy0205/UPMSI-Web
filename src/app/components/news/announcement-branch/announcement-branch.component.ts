@@ -12,10 +12,11 @@ export class AnnouncementBranchComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+/**
   gotoAnnouncement(){
     this.router.navigate(['/News/Announcement', 'Statement-of-the-UPMSI-on-Lingayen-Gulf-Offshore-Mining']);
   }
+  */
 
   gotoAnnouncement1(){
     this.router.navigate(['/News/Announcement', 'Statement-of-the-UPMSI-on-coral-restoration-technologies']);
