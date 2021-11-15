@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AnnouncementComponent implements OnInit {
   researchOpp=[
-    {image: "https://res.cloudinary.com/upmsi/image/upload/v1636436433/News/Announcements%20Icons/Icon_tohvww.png", title: "Statement of the University of the Philippines-Marine Science Institute (UPMSI) on Lingayen Gulf Offshore Mining", content: ''},
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1636436433/News/Announcements%20Icons/Icon_tohvww.png", title: "", content: ''},
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1632464161/News/Announcements%20Icons/Announcements_Icon_1_zvfgi3.png", title: "Statement of the University of the Philippines-Marine Science Institute (UPMSI) on coral restoration technologies", content: 'Coral restoration is the process of assisting the recovery of a portion of a reef ecosystem that has been degraded...'},
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147111/News/Announcements%20Icons/anc1_supmp6.png", title: "A letter for Dr. Ed Gomez on his first death anniversary", content: 'Today, we pause from our seemingly harried life because of the COVID-19 pandemic and remember you with much gratitude for your extraordinary contributions and the rich legacy you leave us behind.'},
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147108/News/Announcements%20Icons/anc2_okxsof.png", title: "UPMSI Official Statement on DENR Claims", content: 'This is to clarify the statement made by Department of Environment and Natural Resources (DENR) Undersecretary Benny Antiporda accusing the University of the Philippines Marine Science Institute (UPMSI)...'},
