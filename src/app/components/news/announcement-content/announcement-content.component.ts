@@ -154,10 +154,11 @@ export class AnnouncementContentComponent implements OnInit {
       this.myArr = this.statement;
       this.statementBool = true;
       }
-    if(this.router.url.includes('/News/Announcement/Statement-of-the-UPMSI-on-Lingayen-Gulf-Offshore-Mining')){
+   /** if(this.router.url.includes('/News/Announcement/Statement-of-the-UPMSI-on-Lingayen-Gulf-Offshore-Mining')){
       this.myArr = this.gulf;
       this.gulfBool = true;
       }
+      */
   }
 
   nextNews(url:string){
