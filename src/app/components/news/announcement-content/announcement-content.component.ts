@@ -84,6 +84,24 @@ export class AnnouncementContentComponent implements OnInit {
       ]
   }];
 
+  gulf = [{
+    title: 'Statement of the University of the Philippines-Marine Science Institute (UPMSI) on Lingayen Gulf Offshore Mining',
+    author: '',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1636439685/News/Announcements%20Icons/Regions187683-620x413_vwmmha.jpg',
+    thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1636446755/News/Announcements%20Icons/Status_of_Philippine_Marine_Fisheries_u9ehoa.png',
+    thumbnail3: 'https://res.cloudinary.com/upmsi/image/upload/v1636449993/News/Announcements%20Icons/3_g0y5b1.png',
+    thumbnail4: 'https://res.cloudinary.com/upmsi/image/upload/v1636449993/News/Announcements%20Icons/1_axnfj1.png',
+    thumbnail5: 'https://res.cloudinary.com/upmsi/image/upload/v1636449994/News/Announcements%20Icons/2_egvgc6.png',
+    locationContent: ``,
+
+
+    news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147159/News/Announcements%20Icons/Announcement-01-article_lxmr0x.png", title: "A letter for Dr. Ed Gomez on his first death anniversary", content: `Today, we pause from our seemingly harried life because of the COVID-19 pandemic and remember you with much gratitude for your extraordinary contributions and the rich legacy you leave us behind.`, url: 'a-letter-for-Dr.-Ed-Gomez-on-his-first-death-anniversary'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147128/News/Announcements%20Icons/Announcement-02_lettlk.png", title: "UPMSI Official Statement on DENR Claims", content: `This is to clarify the statement made by Department of Environment and Natural Resources (DENR) Undersecretary Benny Antiporda accusing the University of the Philippines Marine Science Institute (UPMSI) of charging the DENR half a billion pesos in consultation fees and being, in a word, “bayaran.”`, url: 'UPMSI-official-statement-on-DENR-claims'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147118/News/Announcements%20Icons/Announcement-03-article-photo_kcitfn.png", title: "UPMSI Official Statement on the Addition of Dolomite Sand to Manila Bay", content: 'The UPMSI believes that the use of crushed dolomite sand will not help solve the environmental problems in Manila Bay. Read more about the implications of transferring dolomite sand in this statement.', url: 'UPMSI-official-statement-on-the-addition-of-Dolomite-Sand-to-Manila-Bay'},
+      ]
+  }];
+
 
 
   myArr = [];
@@ -92,6 +110,7 @@ export class AnnouncementContentComponent implements OnInit {
   deathAnnivBool:boolean = false;
   dolomiteBool:boolean = false;
   emeritiBool:boolean = false;
+  gulfBool:boolean = false;
   
 
   constructor(private router:Router) { }
@@ -134,6 +153,10 @@ export class AnnouncementContentComponent implements OnInit {
     if(this.router.url.includes('/News/Announcement/Statement-of-the-UPMSI-on-coral-restoration-technologies')){
       this.myArr = this.statement;
       this.statementBool = true;
+      }
+    if(this.router.url.includes('/News/Announcement/Statement-of-the-UPMSI-on-Lingayen-Gulf-Offshore-Mining')){
+      this.myArr = this.gulf;
+      this.gulfBool = true;
       }
   }
 
