@@ -122,7 +122,42 @@ export class NewsContentComponent implements OnInit {
     paragraph2: ``,
     paragraph3: ``,
     paragraph4: '',
+
+     news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147196/News/News%20Icons/News-01-scientist_pshtv5.png", title: "Filipino scientist makes history by reaching the 3rd deepest spot on Earth", content: 'Few have been brave enough to venture the depths of the oceans. This year, microbial oceanographer Dr. Deo Florence L. Onda made history as the second human and the first Filipino to reach Emden Deep, the third deepest spot on earth.', url: 'filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147198/News/News%20Icons/News-02-awards_fiqdzh.png", title: "UPMSI scientists receive accolades from NAST, OMLC", content: 'Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center for Climate Change Adaptation and Disaster Risk Management Foundation, Inc (OMLC).', url: 'UPMSI-scientists-receive-accolades-from-NAST'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147225/News/News%20Icons/News-03-clams_yczwfs.png", title: "All About the Giant Clam", content: 'In the waters of Silaqui Island in Bolinao, Pangasinan, one could never miss the giant clams. The UPMSI Bolinao Marine Laboratory (BML) currently cultures four species at its onshore hatchery and ocean nursery.', url: 'all-about-the-giant-clam'},
+      ]
   }];
+
+  merf = [{
+    title: 'UP MSI, MERF host short courses on skills development for Philippine Coast Guard',
+    date: 'November 24, 2021',
+    author: 'By. Mia N. Judicpa & Gabrielle A. Abrahan, MSI Contributors',
+    location: 'Quezon City, Philippines',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1637799742/News/News%20Icons/merf/banner-final_cni12e.png',
+    thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1637799737/News/News%20Icons/merf/diving-course_rluw7l.jpg',
+    thumbnail3: 'https://res.cloudinary.com/upmsi/image/upload/v1637799743/News/News%20Icons/merf/diving-course-2_ihobg5.jpg',
+    thumbnail4: 'https://res.cloudinary.com/upmsi/image/upload/v1637799742/News/News%20Icons/merf/manta-tow_okzqjx.jpg',
+    thumbnail5: 'https://res.cloudinary.com/upmsi/image/upload/v1637799748/News/News%20Icons/merf/closing-photo_zrnryr.png',
+    photoContent: '',
+    courtesy: '',
+  
+    paragraph7: 'Researchers and professors from UP MSI gave in-depth lectures and held exercises on water quality monitoring; aerial, surface, and underwater data gathering techniques for coastal and ocean resources; and the valuation process from an actual case of local coral damage.',
+    paragraph8: 'Day 1 tackled phytoplankton, their importance as primary producers, and the threats they face from climate change and (micro)plastics pollution. Ms. Erika Grace Gernato, a researcher, discussed the methods involved in phytoplankton monitoring, such as the plankton net, microscopic imaging, and plankton identification. Her lecture was complemented by Ms. Norchel Gomez’s discussion on plastics monitoring and how it can help us address and mitigate pollution.',
+    paragraph9: 'Water quality monitoring was the focus of Day 2. Marine chemist Dr. Charissa Ferrera shared her expertise on measuring different parameters related to water quality, including how to use the Conductivity Temperature and Pressure (CTD) system, Acoustic Doppler Current Profiler (ADCP), and multiparameter sensor.',
+    paragraph10: 'A total of 58 participants joined the workshop.',
+    paragraph11: 'A total of 58 participants joined the workshop.',
+
+
+
+    news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147196/News/News%20Icons/News-01-scientist_pshtv5.png", title: "Filipino scientist makes history by reaching the 3rd deepest spot on Earth", content: 'Few have been brave enough to venture the depths of the oceans. This year, microbial oceanographer Dr. Deo Florence L. Onda made history as the second human and the first Filipino to reach Emden Deep, the third deepest spot on earth.', url: 'filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147198/News/News%20Icons/News-02-awards_fiqdzh.png", title: "UPMSI scientists receive accolades from NAST, OMLC", content: 'Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center for Climate Change Adaptation and Disaster Risk Management Foundation, Inc (OMLC).', url: 'UPMSI-scientists-receive-accolades-from-NAST'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147225/News/News%20Icons/News-03-clams_yczwfs.png", title: "All About the Giant Clam", content: 'In the waters of Silaqui Island in Bolinao, Pangasinan, one could never miss the giant clams. The UPMSI Bolinao Marine Laboratory (BML) currently cultures four species at its onshore hatchery and ocean nursery.', url: 'all-about-the-giant-clam'},
+      ]
+   }];
+
 
 
 
@@ -132,7 +167,7 @@ export class NewsContentComponent implements OnInit {
   wpsBool:boolean = false;
   narfleetBool:boolean = false;
   pirsBool:boolean = false;
-
+  merfBool:boolean = false;
 
   constructor(private router:Router) { }
 
@@ -182,6 +217,10 @@ export class NewsContentComponent implements OnInit {
      if(this.router.url.includes('/News/content/A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea')){
       this.myArr = this.pirs;
       this.pirsBool = true;
+    }
+    if(this.router.url.includes('/News/content/UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard')){
+      this.myArr = this.merf;
+      this.merfBool = true;
     }
   }
 

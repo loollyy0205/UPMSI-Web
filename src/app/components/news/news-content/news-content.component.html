@@ -1,25 +1,21 @@
-<meta charset="utf-8">
-  <!-- Primary Meta Tags -->
-  <title>UP Marine Science Institute</title>
-  <meta name="title" content="Filipino scientist makes history by reaching the 3rd deepest spot on Earth">
-  <meta name="description" content="ilipino scientist Dr. Deo Florence L. Onda from the University of the Philippines is one of the first humans to reach the third deepest spot on Earth.">
-
-<meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.msi.upd.edu.ph/News/content/filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth">
-  <meta property="og:title" content="Filipino scientist makes history by reaching the 3rd deepest spot on Earth">
-  <meta property="og:description" content="Filipino scientist Dr. Deo Florence L. Onda from the University of the Philippines is one of the first humans to reach the third deepest spot on Earth.">
-  <meta property="og:image" content="https://res.cloudinary.com/upmsi/image/upload/v1628147196/News/News%20Icons/News-01-scientist_pshtv5.png">
-
 <app-nav></app-nav>
-<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line">
+<div class="center-content3" id="content-desktop" *ngIf="merfBool" style="margin-top: 1.5vw;">
+         <div class="box-content2" id="content-desktop">
+           <img  [src]="myArr[0].thumbnail">
+           <div >
+        </div>
+
+        </div>
+
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line" *ngIf="!merfBool">
 <div class="container animate__animated animate__fadeIn animate__delay-1s">
   <p class="atlas-bold title">{{myArr[0].title}}</p>
   <p class="atlas-light date">{{myArr[0].date}}</p>
   <p class="atlas-light date-name">{{myArr[0].author}}</p>
   <div class="center-content">
-    <div class="box-content">
-      <img [src]="myArr[0].thumbnail">
-      <div class="photo-box">
+    <div class="box-content" >
+      <img [src]="myArr[0].thumbnail"  *ngIf="!merfBool"> <!-- *ngIf="clamsBool && !nastBool && deepestSpotBool && !wpsBool && !narfleetBool"-->
+      <div class="photo-box" *ngIf="!merfBool" >
       <p class="atlas-light photo-content" *ngIf="!clamsBool && nastBool">{{myArr[0].photoContent}}</p>
       <p class="atlas-light photo-content" *ngIf="clamsBool" >Two <em>Tridacna Gigas</em> specimens from the BML nursery: Efforts to grow the giant clam population are gaining momentum. Giant clams are still vulnerable and remain endangered due to poor management, unregulated harvesting, and illegal possession and trade.</p>
       <p class="atlas-light photo-content" *ngIf="clamsBool" >Two <em>Tridacna Gigas</em> specimens from the BML nursery: Efforts to grow the giant clam population are gaining momentum. Giant clams are still vulnerable and remain endangered due to poor management, unregulated harvesting, and illegal possession and trade.</p>
@@ -89,7 +85,7 @@
 
          <p class="atlas-light location-content" *ngIf="pirsBool">In the Philippines, there’s an island that is set out to make an example for many others.</p>
 
-         <p class="atlas-bold location-content" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Where it all begins</em></p>
+         <p class="subtitle atlas-bold location-content" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Where it all begins</em></p>
 
          <p class="atlas-light location-content" *ngIf="pirsBool">The Pagasa Island Research Station (PIRS) in Pagasa Island was first established in 1997 with support from the Department of Science and Technology (DOST) - Philippine Council for Aquatic and Marine Research and Development (PCAMRD)  and in cooperation with the Western Command of the Armed Forces of the Philippines (WESCOM).</p>
 
@@ -165,7 +161,7 @@
         </div>
        </div>
 
-        <p class="atlas-bold location-content" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Upcoming WPS expeditions</em></p>
+        <p class="subtitle atlas-bold location-content" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Upcoming WPS expeditions</em></p>
 
         <p class="atlas-light location-content" *ngIf="pirsBool">The 2021 WPS expeditions are scheduled to resume in September, and Siringan’s team is prioritizing the completion of PIRS refurbishment tasks so that it will be available for use by next year.</p>
 
@@ -173,7 +169,7 @@
 
         <p class="atlas-light location-content" *ngIf="pirsBool">“If the sea would allow us then we will do a multibeam bathymetric survey. If we have time, we will also do some groundwater surveys using electrical resistivity. And then, we will go around the island and look at the state of the coastline and the materials of the beach. We will also estimate the island’s elevation by using the Emery (1961) method for beach profiling,” he says.</p>
 
-        <p class="atlas-bold location-content" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Pag-asa island in the years to come</em></p>
+        <p class="subtitle atlas-bold location-content" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Pag-asa island in the years to come</em></p>
 
         <p class="atlas-light location-content" *ngIf="pirsBool">Siringan also mentioned a proposed research program called Small Island Life Sustenance in the WPS (SmILeS WPS) to transform islands like Pagasa into regenerative islands that sustain life while also reassuring the integrity of the environment through sustainable means.</p>
 
@@ -202,6 +198,112 @@
        <p class="atlas-light location-content" style= "margin-top: 1%; text-decoration: underline;" *ngIf="pirsBool"><a href="https://www.gmanetwork.com/news/news/nation/801067/philippines-to-reactivate-west-philippine-sea-marine-research-center-esperon/story/" target="_blank" style="color: #384e8a">Philippines to Reactive West Philippine Sea Marine Research Center - Esperon</a></p>
 
        <p class="atlas-light location-content" style= "margin-top: 1%; text-decoration: underline;" *ngIf="pirsBool"><a href="https://www.philstar.com/headlines/2021/08/28/2123143/philippines-reactivating-marine-research-center-pagasa" target="_blank" style="color: #384e8a">Philippines Reactivating Marine Research Center in Pagasa</a></p>
+
+
+
+       <p class="atlas-light location-content2" *ngIf="merfBool">The UP Marine Science Institute (UP MSI) and the Marine Environment and Resources Foundation, Inc. (MERF) prepared and hosted a short course for the Philippine Coast Guard (PCG), their long-time partner in protecting Philippine waters.</p>
+
+       <p class="atlas-light location-content2" *ngIf="merfBool">The online workshop, entitled “Short Course on Skills Development:  Water Quality Monitoring, Data Collection Methods for Coastal and Marine Resources, Analysis of Data and Valuation Process for Coral Damage Case in the Philippines,” was held for five days, with each day dedicated to a specific topic in marine science.</p>
+
+       <p class="atlas-light location-content2" *ngIf="merfBool">As part of UP MSI and PCG’s partnership, which began in 2019 with in-person workshops that included open water dive course certifications, this workshop was designed to increase awareness on several issues in fisheries and the marine environment, like pollution and declining water quality. Participants from the PCG learned the fundamental principles of ocean monitoring and related practical skills useful in taking care of marine protected areas (MPAs) around the country.</p>
+
+       <p class="atlas-light location-content2" *ngIf="merfBool">A total of 58 participants joined the workshop.</p>
+
+        <div class="center-content2" *ngIf="merfBool">
+         <div class="box-content">
+          <img [src]="myArr[0].thumbnail2">
+           <div >
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 10px;" *ngIf="merfBool">The collaborative efforts among UP MSI, MERF, Inc., and the PCG are integral to ensuring the protection of our marine resources. Pictured here are the participants of the diving courses held in 2019 at Bauan, Batangas.</p>
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="merfBool" >Photo: Junie Aguirre</p>
+          </div>
+        </div>
+       </div>
+
+      <div class="center-content2" *ngIf="merfBool">
+         <div class="box-content">
+          <img [src]="myArr[0].thumbnail3">
+           <div >
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 10px;" *ngIf="merfBool">Part of the 2019 diving courses is the Open Water Diving Course. </p>
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="merfBool" >Photo: Junie Aguirre</p>
+          </div>
+        </div>
+       </div>
+
+       <p class="subtitle atlas-light location-content2" *ngIf="merfBool"><br>An Exchange of Knowledge</p>
+
+       <p class="atlas-light location-content2" *ngIf="merfBool">Researchers and professors from UP MSI gave in-depth lectures and held exercises on water quality monitoring; aerial, surface, and underwater data gathering techniques for coastal and ocean resources; and the valuation process from an actual case of local coral damage.</p>
+
+       <p class="atlas-light location-content2" *ngIf="merfBool">Day 1 tackled phytoplankton, their importance as primary producers, and the threats they face from climate change and (micro)plastics pollution. Ms. Erika Grace Gernato, a researcher, discussed the methods involved in phytoplankton monitoring, such as the plankton net, microscopic imaging, and plankton identification. Her lecture was complemented by Ms. Norchel Gomez’s discussion on plastics monitoring and how it can help us address and mitigate pollution.</p>
+
+       <p class="atlas-light location-content2" *ngIf="merfBool">Water quality monitoring was the focus of Day 2. Marine chemist Dr. Charissa Ferrera shared her expertise on measuring different parameters related to water quality, including how to use the Conductivity Temperature and Pressure (CTD) system, Acoustic Doppler Current Profiler (ADCP), and multiparameter sensor.</p>
+
+
+       <div class="center-content2" *ngIf="merfBool" >
+         <div class="box-content5">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1637802509/News/News%20Icons/merf/niskin-video_xt6nuh.mov"></video>
+         </div>
+         <div class="box-content4b" style="margin-top: .5vw! important;">
+          <div class="mob4">
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 0px;" *ngIf="merfBool" >Dr. Charissa Ferrera’s lecture on water quality monitoring included a video demonstration about Niskin sampling, a plastic bottle device used to take water samples at chosen depths.</p>
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="merfBool" >Video: Dr. Charissa Ferrera</p>
+          </div>
+        </div>
+       </div>
+
+       <p class="atlas-light location-content2" *ngIf="merfBool">Days 3 and 4 tackled a variety of topics. Mr. Aldwin Almo’s lecture and exercise on Geographic Information Systems (GIS) and aerial imaging are sure to aid the PCG in monitoring coastlines and the changes that occur in those areas.</p>
+
+       <p class="atlas-light location-content2" *ngIf="merfBool">Mr. Mark Edison Raquino, the Research and Development Coordinator of Daloy ng Buhay, Inc. (DALUHAY), also demonstrated how to perform the Manta Tow survey, a coral reef survey method conducted by “towing” a snorkel diver, who then surveys the reef directly and reports observations at specific intervals.</p>
+
+       <div class="center-content2" *ngIf="merfBool">
+         <div class="box-content">
+          <img [src]="myArr[0].thumbnail4">
+           <div >
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="merfBool" >A demonstration of the manta tow technique: The diver hangs onto the manta board that leads them  along the coral reefs.</p>
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 10px;" *ngIf="merfBool"><em>The manta tow technique...as part of sir mark raquino’s lecture…</em></p>
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="merfBool" >Photo: Michael J. Emslie, Australian Institute of Marine Science</p>
+          </div>
+        </div>
+       </div>
+
+       <p class="subtitle atlas-light location-content2" *ngIf="merfBool"><br>Motivation for better marine protection</p>
+
+        <p class="atlas-light location-content2" *ngIf="merfBool">Not only was the workshop an opportunity to learn, but it also served to remind the participants of the importance of their work and cause. Dr. Deo Florence Onda, Deputy Director for Research (DDR) of UP MSI and Project Leader of the activity, opened the workshop with a presentation on the connectivity of the ecosystems in the Philippines, as well as the challenges its coastal and marine environment are experiencing.</p>
+
+       <p class="atlas-light location-content2" *ngIf="merfBool">Project coordinator and workshop moderator Ms. Miraflor Sanchez followed with a talk on the United Nations Sustainable Development Goals to set the motivation and rationale behind the workshop. Her talk included the United Nations Decade of Ocean Science for Sustainable Development, which started this year and goes by the theme, “The Science We Need for the Ocean We Want.”</p>
+
+        <p class="atlas-light location-content2" *ngIf="merfBool">On the last day, Atty. Jay Batongbacal gave a lecture on the history, significance, and current state of Philippine sovereignty in the WPS, rightfully concluding the week-long online workshop.</p>
+
+        <div class="center-content2" *ngIf="merfBool" >
+         <div class="box-content5">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1637808412/News/News%20Icons/merf/Lawak_-_Santia%C3%B1ez_2_s1z4lf.mp4"></video>
+         </div>
+         <div class="box-content4b" style="margin-top: .5vw! important;">
+          <div class="mob4">
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 0px;" *ngIf="merfBool" >Various colorful fish roam a coral reef near Lawak Island that boasts many types of soft and hard corals. This year’s workshop can help the PCG develop key skills on monitoring and interpreting data that can be used to improve policies on Philippine marine biodiversity.</p>
+           <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="merfBool" >Video: Dr. Wilfred John Santiañez</p>
+          </div>
+        </div>
+       </div>
+
+       <p class="atlas-light location-content2" *ngIf="merfBool">In the end, CG RADM Rolando Lizor N. Punzalan was called on to provide a response on behalf of the PCG. He talked about the tasks PCG has been carrying out in different parts of the country to protect its waters and the need for more collaboration among all stakeholders.</p>
+
+        <p class="atlas-light location-content2" *ngIf="merfBool">LTJG Gerald L. Cordero also took the time to thank all the organizers and members of the PCG, expressing appreciation for their active participation and interest to learn. "Kayo po yung andito from the first to last day. Kayo din po mismo ang nagtatanong ano ang mga kailangan gawin, ano yung mga software na makakabilis sa pagtrabaho at ano ang mga best way sa pagsasagawa nito. We're all excited that a part of our training will be physical at actual na gagawin," he says. </p>
+
+       <p class="atlas-light location-content2" *ngIf="merfBool">Dr. Onda also shared the future plans of the national government and UP MSI to further strengthen and upgrade our capacity to do  more marine scientific research activities (MSRs) in the country. He further stressed the importance of interagency cooperation and collaboration in carrying out such activities. “Hindi dito natatapos ang collaboration ng UPMSI, MERF, at PCG. At hindi rin po dito natatapos ang pagpapalawig natin ng karanasan ng ating mga tanod dagat,” he says.</p>
+
+        <p class="atlas-light location-content2" *ngIf="merfBool">He ended his message by saying that these workshops and the work being done are a continuation of a long-term partnership as co-protectors of the sea.</p>
+
+        <div class="center-content2" *ngIf="merfBool">
+         <div class="box-content">
+          <img [src]="myArr[0].thumbnail5">
+           <div >
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="merfBool" >The organizers and participants were all smiles as the workshop ended. All groups learned substantial ideas from each other.</p>
+          
+          </div>
+        </div>
+       </div>
+
+
        
     </div>
   </div>
