@@ -99,7 +99,7 @@ sup {
 .center-content{
   display: grid;
   place-content: center;
-  margin-top: 4.392vw;
+  margin-top: 8.392vw;
 }
 
 .box-content11{
@@ -392,7 +392,7 @@ sup {
 .center-content{
     display: grid;
     place-content: center;
-    margin-top: 5.392vw;
+    margin-top: 8.392vw;
     margin: 0 0%;
   }
 
@@ -401,6 +401,7 @@ sup {
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-top: 7vw;
   }
 
   .box-content11 img {
@@ -418,7 +419,9 @@ sup {
 
   .location-content3{
   line-height: 1.5;
-  font-size: 34px; 
+  font-size: 24px; 
+  margin-bottom: 3vw;
+  margin-top: 6vw;
 }
 
 }

@@ -102,6 +102,23 @@ export class AnnouncementContentComponent implements OnInit {
       ]
   }];
 
+  edg = [{
+    title: 'A tribute to EDG',
+    author: '',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1638436118/News/Announcements%20Icons/1_gygghl.png',
+    thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1638436117/News/Announcements%20Icons/2_l7gxzf.png',
+    thumbnail3: 'https://res.cloudinary.com/upmsi/image/upload/v1638436120/News/Announcements%20Icons/3_bybtqs.png',
+    thumbnail4: 'https://res.cloudinary.com/upmsi/image/upload/v1638436118/News/Announcements%20Icons/4_tppz8p.png',
+    locationContent: ``,
+
+
+    news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147159/News/Announcements%20Icons/Announcement-01-article_lxmr0x.png", title: "A letter for Dr. Ed Gomez on his first death anniversary", content: `Today, we pause from our seemingly harried life because of the COVID-19 pandemic and remember you with much gratitude for your extraordinary contributions and the rich legacy you leave us behind.`, url: 'a-letter-for-Dr.-Ed-Gomez-on-his-first-death-anniversary'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147128/News/Announcements%20Icons/Announcement-02_lettlk.png", title: "UPMSI Official Statement on DENR Claims", content: `This is to clarify the statement made by Department of Environment and Natural Resources (DENR) Undersecretary Benny Antiporda accusing the University of the Philippines Marine Science Institute (UPMSI) of charging the DENR half a billion pesos in consultation fees and being, in a word, “bayaran.”`, url: 'UPMSI-official-statement-on-DENR-claims'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147118/News/Announcements%20Icons/Announcement-03-article-photo_kcitfn.png", title: "UPMSI Official Statement on the Addition of Dolomite Sand to Manila Bay", content: 'The UPMSI believes that the use of crushed dolomite sand will not help solve the environmental problems in Manila Bay. Read more about the implications of transferring dolomite sand in this statement.', url: 'UPMSI-official-statement-on-the-addition-of-Dolomite-Sand-to-Manila-Bay'},
+      ]
+  }];
+
 
 
   myArr = [];
@@ -111,6 +128,7 @@ export class AnnouncementContentComponent implements OnInit {
   dolomiteBool:boolean = false;
   emeritiBool:boolean = false;
   gulfBool:boolean = false;
+  edgBool:boolean = false;
   
 
   constructor(private router:Router) { }
@@ -157,6 +175,10 @@ export class AnnouncementContentComponent implements OnInit {
     if(this.router.url.includes('/News/Announcement/Statement-of-the-UPMSI-on-Lingayen-Gulf-Offshore-Mining')){
       this.myArr = this.gulf;
       this.gulfBool = true;
+      }
+    if(this.router.url.includes('/News/Announcement/A-tribute-to-EDG')){
+      this.myArr = this.edg;
+      this.edgBool = true;
       }
   }
 
