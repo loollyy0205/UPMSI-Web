@@ -21,7 +21,7 @@ export class PressComponent implements OnInit {
     edited4: changed content
     */
 
-    {image: "https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..'},
+    {image: 'https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg', title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..'},
     /**
     edited9: changed content (2)
     */

@@ -14,14 +14,15 @@ export class AnnouncementBranchComponent implements OnInit {
   }
 
   gotoAnnouncement(){
-    this.router.navigate(['/News/Announcement', 'Statement-of-the-UPMSI-on-Lingayen-Gulf-Offshore-Mining']);
+    this.router.navigate(['/News/Announcement', 'A-tribute-to-EDG']);
   }
 
   gotoAnnouncement1(){
-    this.router.navigate(['/News/Announcement', 'Statement-of-the-UPMSI-on-coral-restoration-technologies']);
+    this.router.navigate(['/News/Announcement', 'Statement-of-the-UPMSI-on-Lingayen-Gulf-Offshore-Mining']);
   }
+
   gotoAnnouncement2(){
-    this.router.navigate(['/News/Announcement', 'a-letter-for-Dr.-Ed-Gomez-on-his-first-death-anniversary']);
+    this.router.navigate(['/News/Announcement', 'Statement-of-the-UPMSI-on-coral-restoration-technologies']);
   }
   gotoAnnouncement3(){
     this.router.navigate(['/News/Announcement', 'UPMSI-official-statement-on-DENR-claims']);

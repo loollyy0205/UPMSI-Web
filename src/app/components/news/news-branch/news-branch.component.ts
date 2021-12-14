@@ -14,13 +14,13 @@ export class NewsBranchComponent implements OnInit {
   }
 
   newsContent(){
-    this.router.navigate(['/News/content', 'filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth']);
+    this.router.navigate(['/News/content', 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard']);
   }
   newsContent1(){
-    this.router.navigate(['/News/content', 'UPMSI-scientists-receive-accolades-from-NAST']);
+    this.router.navigate(['/News/content', 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea']);
   }
   newsContent2(){
-    this.router.navigate(['/News/content', 'all-about-the-giant-clam']);
+    this.router.navigate(['/News/content', 'wps-expeditions']);
   }
   newsContent3(){
     this.router.navigate(['/News/content', 'NARFleet-is-on-its-way-to-prowl-Philippine-waters']);
