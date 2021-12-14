@@ -34,7 +34,7 @@ export class FacultyComponent implements OnInit {
   residentProf2 = [
     {name: 'Charina Lyn A. Repollo, Ph.D.', label1: 'Assistant Professor'},
     {name: 'Lilibeth A. Salvador-Reyes, Ph.D.', label1: 'Associate Professor'},
-    {name: 'Irene B. Rodriguez, Ph.D.', label1: 'Associate Professor'},
+    {name: 'Irene B. Rodriguez, Dr. rer. nat.', label1: 'Associate Professor'},
     {name: 'Maria Vanessa B. Rodriguez, Ph.D.', label1: 'Assistant Professor'},
     {name: 'Michael Y. Roleda, Dr. rer. nat.', label1: 'Professor, Deputy Director for Facilities and Resources'},
     {name: 'Wilfred John E. Santiañez, Ph.D.', label1: 'Assistant Professor', label2: 'Collections Manager, G.T. Velasquez Phycological Herbarium (MSI)'},
@@ -44,7 +44,7 @@ export class FacultyComponent implements OnInit {
 
     {name: 'Fernando P. Siringan, Ph.D.', label1: 'Professor', label2: 'NAST Academician '},
     {name: 'Cesar L. Villanoy, Ph.D.', label1: 'Professor', label2: 'NAST Academician'},
-    {name: 'Maria Helena T. Yap, Ph.D.', label1: 'Professor'},
+    {name: 'Maria Helena T. Yap, Dr. rer. nat.', label1: 'Professor'},
     {name: 'Aletta T. Yñiguez, Ph.D.', label1: 'Associate Professor'},
     {name: 'Eizadora T. Yu, Ph.D.', label1: 'Professor', label2: 'Associate Dean for Mentoring, Academic Progress and Advancement (ADMAPA), College of Science'}, /**
     edited: added label2 for eiazadora

@@ -323,16 +323,27 @@ export class PublicationListComponent implements OnInit {
     {content: "Yñiguez, A. T., Lim, P. T., Leaw, C. P., Jipanin, S. J., Iwataki, M., Benico, G., & Azanza, R. V. (2021). Over 30 years of HABs in the Philippines and Malaysia: What have we learned? Harmful Algae, 102, Article number 101776. https://doi.org/10.1016/j.hal.2020.101776."},
     {content: "Yoshikai, M. Nakamura, T., Tanaka, Y., Nakaoka, M. Watanabe, A. Herrera, E. Tsuchiya, T. Miyajima, T. San Diego-McGlone, M.L., Fortes, M., Blanco, A., Tamondong, A., Nadaoka, K.(2021). Modeling seagrass bed dynamics under environmental impacts of intensive mariculture activities in Bolinao and Anda, the Philippines. Estuarine, Coastal and Shelf Science, 250: 1-14."},
 
-
-
-    
-    
-
     {content: "Cordero-bailey, K., Bollozos, I.S.F., Plaermo, J.D.H., Silvano, K.M., Escobar, M.T.L, San Diego-McGlone, M.L., David, L.T., Yñiguez, A.T. (2021). Characterizing the vertical phytoplankton distribution in the Philippine Sea off the northeastern coast of Luzon. Estuarine, Coastal and Shelf Science, 254:1-13."},
-    
 
     {content: "Ligson CA, & Cabaitan PC. (2021). Survival and sexual maturity of sexually propagated Acropora verweyi corals 4 years after outplantation. Restoration Ecology. Article in Press. DOI: https://doi.org/10.1111/rec.13363"},
     {content: "Torreno VPM, Dumalan, RJP, Batoctoy, DCR, Juinio-Meñez, MA and Yu, ET. (2021) Rapid Profiling of Saponin Extracts from Stichopus horrens Sea Cucumbers by Mass Spectrometry. Philippine Journal of Science. In press."},
+
+    {content: "Tan, K., Conaco, C. (2021). Characterization of the hidden break in giant clam 28S ribosomal RNA. Journal of Molluscan Studies, 87(3), eyab029"},
+
+    {content: "Soria, J.L.A., M A Angelique, A., Ramos, R.D., Siringan, F.P. (2021). Prograding shoreline, emerging gravel bars, and mangrove recolonization in 40 years on a mixed siliciclastic-carbonate coast in Southwestern Luzon, Philippines. Philippine Journal of Science 150(5), pp. 997-1012."},
+
+    {content: "Roleda, M.Y., Heesch, S. (2021). Chemical profiling of Ulva species for food applications: What is in a name? Food Chemistry, 361, 130084."},
+
+    {content: "Ray, R., Miyajima, T., Watanabe, A., Yoshikai, M., Ferrera, C.M., Orizar, I., Nakamura, T., San Diego-McGlone, M.L., Herrera, E.C., Nadaoka, K., Herrera, E.C., Nadaoka, K. (2021). Dissolved and particulate carbon export from a tropical mangrove-dominated riverine system Limnology and Oceanography (Article in Press)."},
+
+    {content: "Pata, P.R., Yñiguez, A.T. (2021). Spatial Planning Insights for Philippine Coral Reef Conservation Using Larval Connectivity Networks. Frontiers in Marine Science 8, Article Number 719691."},
+
+    {content: "Onda, D.F.L., Sharief, K.M. (2021) Identification of Microorganisms Related to Microplastics. IN: Rocha-Santos T., Costa M., Mouneyrac C. (eds) Handbook of Microplastics in the Environment, pp. 1-34. Springer, Cham."},
+
+    {content: "Bonilla, K.G., Guest, J.R., dela Cruz, D.W., Baria-Rodriguez, M.V. (2021). Onset of sexual maturity of sexually propagated and wild colonies of the massive coral Favites abdita in northwestern Philippines. Invertebrate Reproduction and Development, 65(3), pp. 201–209"},
+
+    {content: "Batucan, J.D., Susana, S.R., Ochoa, M.M.T., Salvador-Reyes, L.A. (2021). Biological activity and chemical profiling of terrestrial and freshwater cyanobacteria from the Philippines. Philippine Journal of Science 150(5), pp. 1245-1254"},
+    
   ]
 
   constructor() { }
