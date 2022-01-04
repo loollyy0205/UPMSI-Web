@@ -113,6 +113,7 @@ import { ScicommContentComponent } from './components/news/scicomm-content/scico
 import { CoursesDialogComponent } from './components/education/courses/courses-dialog/courses-dialog.component';
 import { WebinarComponent } from './components/resources/webinar/webinar.component';
 import { WebinarContentComponent } from './components/resources/webinar-content/webinar-content.component';
+import { ShipAssetsDialogComponent } from './components/facilities/floating-assets/ship-assets/ship-assets-dialog/ship-assets-dialog.component';
 
 @NgModule({
   declarations: [
@@ -217,6 +218,7 @@ import { WebinarContentComponent } from './components/resources/webinar-content/
     CoursesDialogComponent,
     WebinarComponent,
     WebinarContentComponent,
+    ShipAssetsDialogComponent,
   ],
   imports: [
     BrowserModule,

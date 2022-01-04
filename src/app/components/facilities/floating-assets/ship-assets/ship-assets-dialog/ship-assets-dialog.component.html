@@ -1,0 +1,93 @@
+<!-- <div class="container" *ngIf="!myArr[0].publication">
+  <div class="img-cont">
+    <div class="left">
+      <img [src]="myArr[0].image" />
+    </div>
+  </div>
+
+  <div class="content">
+    <p class="atlas-bold sub-title" style="color: #5da563;">{{myArr[0].name}}</p>
+    <div style="line-height: 1.3;">
+      <p class="atlas-bold" style="margin-top: 3%; color: #4D525B;" >{{myArr[0].title1}}</p>
+      <p class="atlas-bold" style="color: #4D525B;" >{{myArr[0].title2}}</p>
+      <p class="atlas-bold" style="color: #4D525B;" >{{myArr[0].title3}}</p>
+
+    </div>
+    <div style="line-height: 1.3; margin-top: 2%;" class="google-cit" *ngIf="myArr[0].citation">
+      <a [href]="myArr[0].citation" target="_blank"><p class="atlas-light" style="margin-top: 1.2%; color: #5da563;">Google Scholar Citations</p></a>
+    </div>
+  </div>
+</div> -->
+
+<div class="container2" *ngIf="myArr[0].publication">
+  <div class="left2">
+    <img [src]="myArr[0].image" />
+    <div class="content2">
+      <p class="atlas-bold sub-title" style="color: #5da563; margin-top: 5%;">{{myArr[0].name}}</p>
+      <div style="line-height: 1.3;">
+        <p class="atlas-bold" style="margin-top: 3%; color: #4D525B;" >{{myArr[0].title1}}</p>
+        <p class="atlas-light badge">{{myArr[0].badge}}</p>
+        <p class="atlas-light badge">{{myArr[0].badge2}}</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="content3">
+    <div style="line-height: 1.3; margin-top: 2%;" *ngIf="myArr[0].email">
+      <a href="" style="cursor: context-menu;" class="disabled"><p class="atlas-bold" style="margin-top: 1.2%; color: #4D525B;" >Contact</p></a>
+      <div  style="margin-top: 1.2%; padding-right: 2%;" class="badge atlas-light">
+        <p>{{myArr[0].email}}</p>
+        <p>{{myArr[0].email2}}</p>
+      </div>
+    </div>
+
+
+    <!--<div style="line-height: 1.3; margin-top: 2%;">
+      <p class="atlas-bold" style="margin-top: 1.2%; color: #4D525B;" >Education</p>
+      <div  style="margin-top: 1.2%; padding-right: 2%;" class="badge atlas-light">
+        <p>{{myArr[0].education1}}</p>
+        <p>{{myArr[0].education2}}</p>
+        <p>{{myArr[0].education3}}</p>
+        <p>{{myArr[0].education4}}</p>
+        <p>{{myArr[0].education5}}</p>
+        <p>{{myArr[0].education6}}</p>
+      </div>
+    </div>
+
+    <div style="line-height: 1.3; margin-top: 2%;" *ngIf="myArr[0].RI">
+      <p class="atlas-bold" style="margin-top: 1.2%; color: #4D525B;" >Research Interests:</p>
+      <div style="margin-top: 1.2%; padding-right: 2%;" class="badge atlas-light">
+        <p>{{myArr[0].RI}}</p>
+      </div>
+    </div>
+
+    <div style="line-height: 1.3; margin-top: 2%;">
+      <p class="atlas-bold" style="margin-top: 1.2%; color: #4D525B;" >Selected Publications:</p>
+
+      <div *ngIf="myArr[0].peer">
+        <div style="margin-top: 3%; margin-bottom: -2%;">
+          <em class="atlas-light">Peer-reviewed journal papers</em>
+        </div>-->
+
+       
+
+      <div *ngIf="myArr[0].publication" style="margin-top: 1.2%; padding-right: 2%;" class="badge">
+        <ul>
+          <li *ngFor="let item of myArr[0].publication">
+            <span>
+              {{item.publi}}
+            </span>
+
+          </li>
+        </ul>
+      </div>
+
+      
+
+      
+
+  
+
+  </div>
+</div>

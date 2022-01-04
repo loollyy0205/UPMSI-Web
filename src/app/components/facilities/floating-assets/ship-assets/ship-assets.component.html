@@ -1,4 +1,4 @@
-
+ 
 <div class="container">
   <div class="ship-content">
     <div class="ship1">
@@ -95,62 +95,41 @@
         </div>
       </mat-expansion-panel>
 
-      <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState1 = true"
-          (closed)="panelOpenState1 = false">
-        <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState1 ? '#394e8a' : '#5ca361'">
-        <mat-panel-title class="atlas-light panel-title">CREW</mat-panel-title>
-        </mat-expansion-panel-header>
-        <div class="regular-content2">
-          <div class="content4">
-            <div class="context"> <!-- edited9 : changed all names and positions of crew -->
-              <p class="atlas-bold">Capt. Edgardo B. Cruz</p>
-              <p class="atlas-light">Master</p>
-            </div>
+      
 
-            <div class="context">
-              <p class="atlas-bold">C/O Abraham Q. Quindoy Jr.</p>
-              <p class="atlas-light">Chief Officer</p>
-            </div>
-
-            <div class="context">
-              <p class="atlas-bold">2/O Reyan S. Maalihan</p>
-              <p class="atlas-light">Second Officer</p>
-            </div>
-
-            <div class="context">
-              <p class="atlas-bold">2/E Ricky I Villaruel</p>
-              <p class="atlas-light">Second Engineer</p>
-            </div>
-
-            <div class="context">
-              <p class="atlas-bold">A/B1 Michael C. Manalo</p>
-              <p class="atlas-light">Able Bodied Seaman</p>
-            </div>
+      <mat-expansion-panel id="panel-3" class="mat-elevation-z0 grad-offering" (opened)="panelOpenState3 = true"
+        (closed)="panelOpenState3 = false">
+      <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState3 ? '#394e8a' : '#5ca361'">
+      <mat-panel-title class="atlas-light panel-title">CREW</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="regular-content2">
+        <div class="content4">
+        <div class="context">
+          <div *ngFor="let item of residentProf1" (click)="openDialog(item.name)">
+            <p class="atlas-bold">{{item.name}}</p>
+            <p class="atlas-light">{{item.label1}}</p>
+            <p class="atlas-light">{{item.label2}}</p>
+            <p class="atlas-light">{{item.label3}}</p>
+            <p class="atlas-light">{{item.label4}}</p>
+          </div>
           </div>
 
-          <div class="content4">
-            <div class="context">
-              <p class="atlas-bold">BSN. Leonardo S. Bagtong</p>
-              <p class="atlas-light">Buson</p>
-            </div>
 
-            <div class="context">
-              <p class="atlas-bold">A/B2 Jeffrey S. Idor</p>
-              <p class="atlas-light">Able Bodied Seaman</p>
-            </div>
 
-            <div class="context">
-              <p class="atlas-bold">OLR Reynald P. Nietes</p>
-              <p class="atlas-light">Oiler</p>
-            </div>
-
-            <div class="context">
-              <p class="atlas-bold">John Rey M. Nepumoceno</p>
-              <p class="atlas-light">Chief Cook</p>
-            </div>
+        </div>
+        <div class="content4">
+        <div class="context">
+          <div *ngFor="let item of residentProf2" (click)="openDialog(item.name)">
+            <p class="atlas-bold">{{item.name}}</p>
+            <p class="atlas-light">{{item.label1}}</p>
+            <p class="atlas-light">{{item.label2}}</p>
+            <p class="atlas-light">{{item.label3}}</p>
+            <p class="atlas-light">{{item.label4}}</p>
           </div>
         </div>
-      </mat-expansion-panel>
+        </div>
+            </div>
+    </mat-expansion-panel>
 
     </mat-accordion>
 
