@@ -1,0 +1,146 @@
+* {
+  font-size: 1.025vw;
+}
+
+mat-form-field {
+  width: 15vw;
+}
+
+.mat-button-base {
+  min-width: 4.685vw !important;
+  line-height: 2.635vw !important;
+  padding: 0 1.171vw !important;
+}
+
+.mat-icon-button {
+  min-width: 2vw !important;
+  line-height: 1.5vw !important;
+  padding: 0 !important;
+}
+
+.container{
+  /* height: 100vh; */
+ background-color:black;
+}
+
+/* Logo and nav CSS Section */
+.container .top-container{
+  position: relative;
+  background-color:black;
+  width: 100%;
+  z-index: 9999;
+  position: relative;
+}
+
+.top-container .top-content{
+  padding-top: 4%;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+.top-container .search-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:black;
+}
+
+.search-container img{
+  height: 7.3vw;
+}
+
+/* Nav CSS Section */
+.top-container .nav-container{
+  padding-top: 3%;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+ background-color:black;
+}
+
+.nav-container button{
+  color: #4c515a;
+  /* padding: 1vw 2vw; */
+  border-radius: 0%;
+}
+
+.nav-container button:hover{
+  background-color: #5da563;
+  color: white;
+}
+
+.home{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  min-width: 15vw;
+}
+
+.dropdown-menu span{
+  display: block;
+  cursor: pointer;
+  font-size: 1.17vw;
+  color: white;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background-color: #5da563;
+  padding: 10% 8%;
+}
+
+.dropdown-menu span:hover{
+  background-color:rgb(110, 174, 115);
+  color: white;
+
+}
+
+.home:hover .dropdown-menu{
+  display: block;
+}
+
+.dropdown-menu .sub-menu:hover #sub-down{
+  display: block;
+}
+
+.home:hover .menu-button{
+  background-color: transparent;
+}
+
+.off-hover button:hover{
+  background-color: #fff !important;
+  color: black !important;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  .search-container img{
+    height: 13vw;
+  }
+
+  .mobile-nav {
+    display: inline;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  mat-form-field {
+    width: 25vw;
+    font-size: 3.5vw;
+  }
+
+  .search-text {
+    font-size: 3.5vw;
+  }
+}
+

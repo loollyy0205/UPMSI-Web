@@ -13,16 +13,20 @@ export class ScicommBranchComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  newsContent(){
+  newsContent3(){
     this.router.navigate(['/News/scicomm', 'against-the-current-how-the-giant-clams-of-the-Philippines-escaped-extinction-with-the-help-of-science-and-the-community']);
   }
  
-  newsContent1(){
+  newsContent2(){
     this.router.navigate(['/News/scicomm', 'coral-propagation']);
   }
 
-  newsContent2(){
+  newsContent1(){
     this.router.navigate(['/News/scicomm', 'In-Full-Bloom']);
+  }
+
+  newsContent(){
+    this.router.navigate(['/News/alan', 'coral-propagation']);
   }
   
 } 

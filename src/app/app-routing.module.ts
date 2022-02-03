@@ -53,6 +53,10 @@ import { MoreScicommComponent } from './components/news/more-scicomm/more-scicom
 import { ScicommContentComponent } from './components/news/scicomm-content/scicomm-content.component';
 import { WebinarComponent } from './components/resources/webinar/webinar.component';
 import { WebinarContentComponent } from './components/resources/webinar-content/webinar-content.component';
+import { AlanContentComponent } from './components/news/alan-content/alan-content.component';
+import { MoreAlanComponent } from './components/news/more-alan/more-alan.component';
+
+
 
 
 const routes: Routes = [
@@ -115,6 +119,9 @@ const routes: Routes = [
   {path: 'News/scicomm-headlines', component: MoreScicommComponent},
   {path: 'Resources/webinar', component: WebinarComponent},
   {path: 'Resources/webinar/:name', component: WebinarContentComponent},
+  {path: 'News/alan/:name', component: AlanContentComponent},
+  {path: 'News/alan-headlines', component: MoreAlanComponent},
+ 
 ];
 
 @NgModule({

@@ -10,13 +10,10 @@ export class MoreVacanciesComponent implements OnInit {
   vacancies= [
   /**
   edited: changed writter to writers in 1st article
-  */
+  
     {image: 'https://res.cloudinary.com/upmsi/image/upload/v1628147007/News/crop1_n1jb3u.jpg', title: 'Q.A, Copywriters, Content Writers', date:'April 09, 2021'},
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1628147005/News/crop2_e6sjhv.jpg', title: 'University Research Associate II (SG-14)', date:'March 17, 2021'},
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1628147006/News/crop3_bxg6df.jpg', title: 'University Research Associate II (SG-14)', date:'March 05, 2021'},
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1628147007/News/crop4_akease.jpg', title: 'Full Time Research Associate II (SG-14)', date:'February 20, 2021'},
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1632125716/News/Faculty_Position_Chemical_Oceanogpraher_or_Marine_Chemist-2.1crop_djqgbt.png', title: 'Full Time Chemical Oceanographer or Marine Chemist', date:'September 30, 2021'},
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1632125716/News/Faculty_Position_Marine_Biologist-1.1crop_vkb1v2.png', title: 'Marine Biologist', date:'September 30, 2021'},
+    */
+   
     ]
   constructor(private router:Router) { }
 
@@ -25,24 +22,11 @@ export class MoreVacanciesComponent implements OnInit {
 
   moreContent(i){
     switch(i) {
+      /**
       case 0:
         this.router.navigate(['/News/vacancies-&-opportunities/', 'job-opportunity-msi-apr9']);
         break;
-      case 1:
-        this.router.navigate(['/News/vacancies-&-opportunities/', 'job-opportunity-msi-mar17']);
-        break;
-      case 2:
-        this.router.navigate(['/News/vacancies-&-opportunities/', 'job-opportunity-msi-mar05']);
-        break;
-      case 3:
-        this.router.navigate(['/News/vacancies-&-opportunities/', 'job-opportunity-msi-feb20']);
-        break;
-        case 4:
-        this.router.navigate(['/News/vacancies-&-opportunities/', 'job-opportunity-msi-new1']);
-        break;
-      case 5:
-        this.router.navigate(['/News/vacancies-&-opportunities/', 'job-opportunity-msi-new2']);
-        break;
+     */
     }
   }
 

@@ -114,6 +114,13 @@ import { CoursesDialogComponent } from './components/education/courses/courses-d
 import { WebinarComponent } from './components/resources/webinar/webinar.component';
 import { WebinarContentComponent } from './components/resources/webinar-content/webinar-content.component';
 import { ShipAssetsDialogComponent } from './components/facilities/floating-assets/ship-assets/ship-assets-dialog/ship-assets-dialog.component';
+import { MoreAlanComponent } from './components/news/more-alan/more-alan.component';
+import { AlanContentComponent } from './components/news/alan-content/alan-content.component';
+import {AlanBranchComponent } from './components/news/alan-branch/alan-branch.component';
+import { MobileNavbComponent } from './components/navb/mobile-navb/mobile-navb.component';
+import { NavbComponent } from './components/navb/navb.component';
+
+
 
 @NgModule({
   declarations: [
@@ -219,6 +226,12 @@ import { ShipAssetsDialogComponent } from './components/facilities/floating-asse
     WebinarComponent,
     WebinarContentComponent,
     ShipAssetsDialogComponent,
+    MoreAlanComponent,
+    AlanContentComponent,
+    AlanBranchComponent,
+    MobileNavbComponent,
+    NavbComponent,
+
   ],
   imports: [
     BrowserModule,

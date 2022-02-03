@@ -1,0 +1,303 @@
+<app-nav></app-nav>
+
+<!--<div class="center-content2" id="content-desktop" *ngIf="charlonBool" style="margin-top: 1.5vw; ">
+         <div class="box-content2" id="content-desktop">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1632913881/News/Features/charlon/updated-sep29-coral-1_copy_ippms9.mp4"></video>
+        </div>
+
+        </div>
+
+        <div class="center-content2" id="content-mobile" *ngIf="charlonBool" style="margin-top: 1.5vw;">
+
+        <div class="box-content7" id="content-mobile">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1632917274/News/Features/charlon/updated2-mobile-banner_dcjpyj.mp4"></video>
+        </div>
+        </div>-->
+     
+ 
+
+        
+<div class="container  animate__animated animate__fadeIn animate__delay-1s">
+  <div class="center-content2" id="content-desktop" *ngIf="charlonBool">
+         <div class="box-content2" id="content-desktop">
+          <!--<video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1632913881/News/Features/charlon/updated-sep29-coral-1_copy_ippms9.mp4"></video>-->
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1643598456/News/Features/alan/Banner_Desktop_iq3wor.png" alt="header" /> 
+        </div>
+
+        <div class="box-content3" *ngIf="charlonBool">
+          <div>
+            <p class="atlas-light photo-courtesy2" style= "color:gray;" *ngIf="charlonBool" >Illustration: Martina Salazar</p>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="center-content2" id="content-mobile" *ngIf="charlonBool">
+
+        <div class="box-content7" id="content-mobile">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1643598465/News/Features/alan/Banner_Mobile_rsorle.png" alt="header" /> 
+        </div>
+
+        <div class="box-content3" *ngIf="charlonBool">
+          <div>
+             <p class="atlas-light photo-courtesy2" style= "color:gray;" *ngIf="charlonBool" >Illustration: Martina Salazar</p>
+          </div>
+        </div>
+        </div>
+
+
+  <p class="atlas-bold title" style="font:italic;margin: 0 9%">{{myArr[0].title}}</p>
+  <p class="atlas-light date-name" style="font:italic; margin: 0 9%; margin-top: 5px">{{myArr[0].author}}</p>
+  <p class="atlas-light date" style="color:gray !important; margin-top: 5px">{{myArr[0].date}}</p>
+
+ 
+
+  <div style="display: grid; place-content: center;">
+    <div class="bottom-content">
+      <p class="atlas-bold location">{{myArr[0].location}}</p>
+      
+      <p class="atlas-light location-content">{{myArr[0].locationContent}}</p>
+      
+
+       <!--<div class="author">
+          <p class="atlas-light location-content" *ngIf="charlonBool"><strong>By. Mia N. Judicpa & Gabrielle A. Abrahan</strong>, MSI Contributors <br>January 29, 2022</p>
+        </div>-->
+
+      <div style= "margin-top: 3vw;">
+        <img class="fb" *ngIf="charlonBool" src="../../../../assets/photos/fblink.png">
+        <img class="twitter"  *ngIf="charlonBool" src="../../../../assets/photos/twitter-link.png">
+      </div>
+      <p class="atlas-light location-content" *ngIf="charlonBool">Good bacteria roam the human skin freely, forming an additional protective layer against pathogens. They make up a part of the human microbiota: a collection of microorganisms that inhabit our body and contribute their own functions for our well-being. Together, the human host and the microbiota are known as the “holobiont.” </p>
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">Like us, corals host a myriad of microorganisms. Loosely, their microbiome consists of  photosynthetic algae, fungi, archaea, prokaryotic bacteria, and even viruses. While our microbiome mostly functions as additional protection against pathogenic microbes, the coral microbiome actually participates in many life processes, from metabolism to supplying essential amino acids. More and more studies have proven how integral the coral microbiome is to the survival of coral reefs and, consequently, of the entire marine ecosystem.
+ </p>
+
+
+
+         <div class ="bottom-content">
+        <p class="atlas-light location-content" *ngIf="charlonBool">Corals are vulnerable to many stressors, most of which arise from human activity like coastal construction work, improper waste disposal, unethical fishing practices, and coral harvesting.<sup>1</sup>  <em> Artificial light at night</em> (ALAN) is part of this long list and has been recently shown to disrupt biological processes that are essential to coral growth and propagation.<sup>2-5</sup>
+</p>
+      </div>
+
+      
+
+         <div class="center-content" *ngIf="charlonBool">
+         <div class="box-content6">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1643606987/News/Features/alan/collage1_-_Copy_oklziv.png" />
+         </div>
+         <div class="box-content04" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:gray; margin-top: 10px;" *ngIf="charlonBool" >Day & Night Cycle</p>
+           <p class="atlas-light photo-courtesy2" style= "color:gray; margin-top: 10px;" *ngIf="charlonBool" >Illustration: Martina Salazar
+</p>
+          </div>
+        </div>
+       </div>     
+
+       <p class="atlas-light location-content2" *ngIf="charlonBool">Disturbance in the deep</p>
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">The demand for commercial and recreational sites in beachfronts and coastal towns drives many urbanization projects in these areas. With around 2.5 billion people living within 100 km of the world’s coastal areas,<sup>6</sup> the use of electric lights like LEDs keeps skyrocketing. In fact, 22% of the world’s shorelines are illuminated by ALAN — with Asia contributing a third of that estimate — as reported in 2010.<sup>7</sup> Smith and co-authors found that ALAN affects 1.9 million km<sup>2</sup> of the world’s shallow waters (1 m depth).<sup>8</sup></p>
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">Studies have shown that lengthy exposure to LEDs results in two primary adverse effects in corals: one, the symbiotic algae of the coral microbiome fails to efficiently perform photosynthesis and, two, the gametogenesis cycle loses synchronization.<sup>2-5</sup> The higher-energy blue-white LEDs have a more pronounced effect than yellow LEDs.<sup>3</sup></p>
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">Now, just as ALAN has long-term negative effects on humans compared to daylight, the question goes: what exactly happens in corals during these periods of change? Jake Baquiran and his colleagues worked with scientists from Israel to investigate the ALAN phenomenon from multiple perspectives, including coral spawning, coral microbial communities, and coral host gene expression. The 2020 paper,  <a href="https://pubmed.ncbi.nlm.nih.gov/33053643/"  style="color:white;" target="_blank">“The Prokaryotic Microbiome of Acropora digitifera is Stable under Short-Term Artificial Light Pollution</a>,”<sup>9</sup> posits that ALAN can cause the coral microbiome to change.</p>
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">The group used gravid (pregnant) specimens of <em>Acropora digitifera</em>, subjecting them to three types of treatment that mimic ALAN over a two-month period. Sequencing of these corals revealed that their microbial communities did not change much with the light treatments. Even then, other interesting patterns were observed.</p>
+
+       <div class="center-content" *ngIf="charlonBool" >
+         <div class="box-content5" id="content-desktop">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1643598650/News/Features/alan/final-ALAN-diagram-1_ifiwzb.mov"></video>
+         </div>
+         <div class="box-content4b" style="margin-top: .5vw! important;" id="content-desktop">
+          <div class="mob3">
+           <p class="atlas-light photo-courtesy" style= "color:gray;" *ngIf="charlonBool">Baquiran and the team dove into the Caniogan Reef of the Bolinao-Anda Reef Complex (Pangasinan, Northwestern Philippines) to collect 45 colonies of A. digitifera. These colonies were allowed to adjust to their new environment for 21 days, then segregated into three tanks, each subjected to a different light treatment every night: cold (bluish) white LED, warm (yellowish) white LED, and ambient light treatment (as the control group).</p>
+           <p class="atlas-light photo-courtesy" style= "color:gray; margin-top: 8px;" *ngIf="charlonBool">Graphics: Roy Corvera</p>
+          </div>
+        </div>
+
+        <div class="box-content5" id="content-mobile">
+          <video width="1920" height="1080" [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1643598623/News/Features/alan/ALAN-diagram-mobile-1_eaqkx6.mov"></video>
+         </div>
+         <div class="box-content4b" style="margin-top: .5vw! important;" id="content-mobile">
+          <div class="mob3">
+           <p class="atlas-light photo-courtesy" style= "color:gray; margin-top: 0px;" *ngIf="charlonBool">Baquiran and the team dove into the Caniogan Reef of the Bolinao-Anda Reef Complex (Pangasinan, Northwestern Philippines) to collect 45 colonies of A. digitifera. These colonies were allowed to adjust to their new environment for 21 days, then segregated into three tanks, each subjected to a different light treatment every night: cold (bluish) white LED, warm (yellowish) white LED, and ambient light treatment (as the control group).</p>
+          <p class="atlas-light photo-courtesy" style= "color:gray;" *ngIf="charlonBool">Graphics: Roy Corvera</p>
+          </div>
+        </div>
+       </div>
+
+       
+
+     
+
+
+      
+      <div class="container2">
+        
+
+       <p class="atlas-light location-content2" *ngIf="charlonBool">The <em>A. digitifera</em> microbiome under ALAN</p>
+
+       <p class="atlas-light location-content" *ngIf="charlonBool">Coral fragments were retrieved from select colonies at different time intervals then sent out for gene sequencing. The group found that the <em>A. digitifera</em> microbiome is dominated by the phyla Proteobacteria, Firmicutes, Bacteroidetes, Actinobacteria, Planctomycetes, Verrucomicrobia, and Cyanobacteria. Regardless of the light treatment and exposure time, the populations of these microorganisms varied across samples or colonies.</p>
+
+      
+
+       
+
+
+      <div class="atlas-light location-content boxed" *ngIf="charlonBool">
+        <div class="text">
+          <p class="head"><strong>The microbiome was stable under ALAN exposure, but changed throughout time.</strong></p>
+              <p><br>Seeing how the microbiome composition of <em>A. digitifera</em> did not change significantly when exposed to warm or cold white light, it can be said that the coral microbiome can survive under light stress.<sup>10,11</sup> Baquiran ascribes this to the <em>physiological plasticity</em> of the microbiome.<sup>12,13</sup> Physiological plasticity is the phenomenon by which organisms — in this case, the microbial taxa that make up the <em>A. digitifera</em> microbiome — alter their observable traits so they can adapt better to environmental changes. By displaying plasticity, the coral microbiome can be stable even under stressful conditions, and will be able to continue to help the coral host survive.</p>
+        </div>
+      </div>
+
+       <div class="center-content2" *ngIf="charlonBool">
+         <div class="box-content6">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1643785171/News/Features/alan/keyfinding-1_zl12o5.png" />
+         </div>
+         <div class="box-content4" >
+          <div >
+            <p class="atlas-light photo-courtesy" style= "color:gray; margin-top: 10px;" *ngIf="charlonBool" >Reference: Japan Agency for Marine-Earth Science and Technology (JAMSTEC)</p>
+           <p class="atlas-light photo-courtesy" style= "color:gray; margin-top: 10px;" *ngIf="charlonBool" >Key Findings Illustrations: Roy Corvera</p>
+          </div>
+        </div>
+       </div>
+
+     
+
+      <div class="atlas-light location-content boxed" *ngIf="charlonBool">
+        <div class="text">
+          <p class="head"><strong>Some microbes grow faster under ALAN exposure.</strong></p>
+              <p><br>The corals subjected to both types of light treatment displayed more counts of certain members of Proteobacteria called the <em>aerobic anoxygenic photoheterotrophic bacteria</em> (AAPB), compared to other microorganisms. As bacteria that harness light to produce energy, AAPB activity increases under illumination, and their populations grow faster. AAPB have a large impact on the carbon cycle: since they use solar energy to survive and not complex carbon compounds like other bacteria, more carbon remains in the ocean.</p>
+        </div>
+      </div>
+
+       <div class="center-content2" *ngIf="charlonBool">
+         <div class="box-content6">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1643785174/News/Features/alan/keyfinding2_p5uhfk.png" />
+         </div>
+         <div class="box-content4" >
+          <div >
+            <p class="atlas-light photo-courtesy" style= "color:gray; margin-top: 10px;" *ngIf="charlonBool" >Reference: Japan Agency for Marine-Earth Science and Technology (JAMSTEC)</p>
+            <p class="atlas-light photo-courtesy" style= "color:gray; margin-top: 10px;" *ngIf="charlonBool" >Key Findings Illustrations: Roy Corvera</p>
+          </div>
+        </div>
+       </div>
+
+       <div class="atlas-light location-content boxed" *ngIf="charlonBool">
+        <div class="text">
+          <p class="head"><strong>There are more nitrogen-fixing microorganisms in ALAN-exposed corals.</strong></p>
+              <p><br>Symbiodiniaceae are closely associated with the microorganisms that gather nitrogen from the air and release it to the coral host in a process called nitrogen-fixing. The coral colonies that were exposed to ALAN bore more nitrogen-fixing microorganisms, also known as diazotrophs, in their microbiomes. Nitrogen fixation is a fundamental process in which microorganisms capture inert nitrogen from the air and convert it into more reactive, thereby useful, compounds like ammonia<sup>14</sup>, which is important to the growth of primary producers (e.g., algae).</p>
+        </div>
+      </div>
+
+      <div class="center-content" *ngIf="charlonBool">
+         <div class="box-content0">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1643789459/News/Features/alan/Web_1920_2_tfeo4i.png" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:gray; margin-top: 10px;" *ngIf="charlonBool" >Reference: Japan Agency for Marine-Earth Science and Technology (JAMSTEC)</p>
+           <p class="atlas-light photo-courtesy2" style= "color:gray; margin-top: 10px;" *ngIf="charlonBool" >Key Findings Illustrations: Roy Corvera</p>
+          </div>
+        </div>
+       </div>
+
+
+
+      <div class="atlas-light location-content boxed" *ngIf="charlonBool">
+        <div class="text">
+          <p class="head"><strong>More <em>Endozoicomonadaceae</em> emerged as the spawning period approached.</strong></p>
+              <p><br>T“The interesting part of the paper, I think, is ‘yung nakita namin na, as the spawning period approached, the number or the relative abundance of Endozoicomonas increased. I think ‘yun ang pinaka-highlight ng paper, not ALAN itself.”
+
+              <br>(“The interesting part of the paper, I think, is that we saw, as the spawning period approached, the number or the relative abundance of Endozoicomonas increased. I think that was the top highlight of the paper, not ALAN itself.”)
+
+              <br>Baquiran observed that the relative abundance of Endozoicomonas grew as the gravid (pregnant) coral colonies produced gametes. He and fellow writers hypothesize that Endozoicomonas actually protect the gametes spawned into the water column from unwanted microbes by producing antimicrobial compounds.
+
+              <br>Endozoicomonas use quorum sensing as a way to communicate with each other and decide on how to modify their gene expression according to how many bacterial cells are present in the environment.<sup>15</sup> Through quorum sensing, microbes can control their physiological activities, such as antibiotic production, symbiosis, competence, and virulence.
+
+            </p>
+        </div>
+      </div>
+
+        <p class="atlas-light location-content2" *ngIf="charlonBool">Enlightening Insights</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">As we continue to see an increase in both the reach and intensity of ALAN, we need to get a better idea of how it affects or endangers corals at the micro- and macroscale. After their investigation of the ALAN-exposed coral microbiome, Baquiran and colleagues discovered that despite short-term exposure to light pollution every night, the overall coral microbiome community remained resilient, keeping the corals healthy. But this is just one aspect of the ALAN phenomenon. Baquiran shares:</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">“Actually, there are three papers na manggagaling sa large study na ‘to. This microbiome study, ay part lang siya ng [series]... Parang side experiment lang siya. Ang totoong focus is to look at the effect of ALAN on coral gametogenesis and spawning. So, actually, may isang paper na talaga na na-publish [...] sa Current Biology, ‘yung paper led by Dr. [Inbal] Ayalon from Israel [...] ‘Yung isa pang lalabas na paper is ‘yung study ng isa sa mga students ni Dr. Conaco na [tungkol sa] gene expression of corals affected by artificial light pollution.”</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">(“Actually, there are three papers that will come from this large study. This microbiome study is just one part of the [series]... It’s like a side experiment. The real focus is to look at the effect of ALAN on coral gametogenesis and spawning. So, actually, there has already been one paper published [...] in Current Biology,  the paper led by Dr. [Inbal] Ayalon from Israel [...] The other paper that will be released is the study of one of Dr. Conaco’s students about the gene expression of  corals affected by artificial light pollution.”</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">“Second is the effect of ALAN on the coral gametogenesis and spawning of the corals,” Baquiran explains. “Then, the third one na ginagawa palang sa ngayon ay ‘yung effect ng ALAN sa gene expression ng coral host and the symbionts.”</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">(“Then, the third one, which is currently being written, is the effect of ALAN in the gene expression of the coral host and the symbionts.”)</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">The findings to the second topic have been published <a href="https://www.sciencedirect.com/science/article/pii/S0960982220315827"  style="color:white;" target="_blank">here</a>, while the mysteries surrounding the effect of ALAN on the gene expression of the coral host and its symbionts are yet to be uncovered.</p>
+
+        <p class="atlas-light location-content" *ngIf="charlonBool">Baquiran emphasizes that this study gives preliminary insight on the effect of ALAN on the coral microbiome, and that the effect of prolonged ALAN exposure should be examined in the future. While the initial hypothesis focused on the variability of the microbiome as a direct response to ALAN, the group obtained other interesting results, including which microbial taxa have grown and what the population increase implies for the health of the coral host.</p>
+
+         <p class="atlas-light location-content" *ngIf="charlonBool">There is so much more to learn in this field of study. Future discoveries or knowledge on the possible effects of light pollution on coral reefs can greatly help LGUs and administrative bodies governing coastal towns or communities develop regulations for construction and development projects. </p>
+
+      
+       <hr  *ngIf="charlonBool" style=" margin-top: 3vw;">
+
+       <p class="atlas-light location-content"  style="font-size: 16px; margin-top: 3vw;  color:gray; text-align: center" *ngIf="charlonBool">Acknowledgments</p>
+
+       <p class="atlas-light location-content" style="font-size: 12px; margin-top: .5vw;  color:gray; text-align: center" *ngIf="charlonBool">
+        Writers: Mia N.  Judicpa, Gabrielle A. Abrahan <br>
+        Creative Direction & Graphics: Martina J. Salazar, Roy C. Corvera<br>
+        Web Developer: Kate C. Reodica
+</p>
+
+       <p class="atlas-light location-content"  style="font-size: 16px; margin-top: 5vw; color:gray;" *ngIf="charlonBool">References:</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">1. Threats to Coral Reefs | US EPA. Retrieved 5 January 2022, from <a href="https://www.epa.gov/coral-reefs/threats-coral-reefs"  style="color:gray" target="_blank">https://www.epa.gov/coral-reefs/threats-coral-reefs</a>.</p>
+
+        <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">2. Ayalon, I., Rosenberg, Y., Benichou, J., Campos, C., Sayco, S., & Nada, M. et al. (2021). Coral Gametogenesis Collapse under Artificial Light Pollution. <em>Current Biology</em>, 31(2), 413-419.e3. doi: 10.1016/j.cub.2020.10.039</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">3. Ayalon, I., Barros Marangoni, L., Benichou, J., Avisar, D., & Levy, O. (2019). Red Sea corals under Artificial Light Pollution at Night (ALAN) undergo oxidative stress and photosynthetic impairment. <em>Global Change Biology</em>, 25(12), 4194-4207. doi: 10.1111/gcb.14795</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool"> 4. Ayalon, I., Benichou, J., Avisar, D., & Levy, O. (2021). The Endosymbiotic Coral Algae Symbiodiniaceae Are Sensitive to a Sensory Pollutant: Artificial Light at Night, ALAN. <em>Frontiers In Physiology</em>, 12. doi: 10.3389/fphys.2021.695083</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">5. Levy, O., Fernandes de Barros Marangoni, L., I. C. Benichou, J., Rottier, C., Béraud, E., Grover, R., & Ferrier-Pagès, C. (2020). Artificial light at night (ALAN) alters the physiology and biochemistry of symbiotic reef building corals. <em>Environmental Pollution</em>, 266, 114987. doi: 10.1016/j.envpol.2020.114987</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">6. Sevilla, N., Adeath, I., Le Bail, M., & Ruiz, A. (2019). <em>Coastal Management</em> (pp. 21-38). Academic Press.</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">7. Davies, T., Duffy, J., Bennie, J., & Gaston, K. (2014). The nature, extent, and ecological implications of marine light pollution. <em>Frontiers In Ecology And The Environment</em>, 12(6), 347-355. doi: 10.1890/130281</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">8. Smyth, T., Wright, A., McKee, D., Tidau, S., Tamir, R., & Dubinsky, Z. et al. (2021). A global atlas of artificial light at night under the sea. <em>Elementa: Science Of The Anthropocene</em>, 9(1). <a href="https://doi.org/10.1525/elementa.2021.00049"  style="color:gray" target="_blank">https://doi.org/10.1525/elementa.2021.00049</a></p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">9. Baquiran, J.I.P., Nada, M.A.L., Campos, C.L.D., Sayco, S.L.G., Cabaitan, P.C., Rosenberg, Y., Ayalon, I., Levy, O., Conaco, C. The Prokaryotic Microbiome of Acropora digitifera is Stable under Short-Term Artificial Light Pollution. Microorganisms. 2020; 8(10):1566. https://doi.org/10.3390/microorganisms8101566</p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">10. Garren, M., Raymundo, L., Guest, J., Harvell, C., & Azam, F. (2009). Resilience of Coral-Associated Bacterial Communities Exposed to Fish Farm Effluent. Plos ONE, 4(10), e7319. <a href="https://doi.org/10.1371/journal.pone.0007319"  style="color:gray" target="_blank">https://doi.org/10.1371/journal.pone.0007319</a></p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">11. Gajigan, A., Diaz, L., & Conaco, C. (2017). Resilience of the prokaryotic microbial community ofAcropora digitiferato elevated temperature. Microbiologyopen, 6(4), e00478.     <a href="https://doi.org/10.1002/mbo3.478"  style="color:gray" target="_blank">https://doi.org/10.1002/mbo3.478</a></p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">12. Evans, T., & Hofmann, G. (2012). Defining the limits of physiological plasticity: how gene expression can assess and predict the consequences of ocean change. Philosophical Transactions Of The Royal Society B: Biological Sciences, 367(1596), 1733-1745.  <a href="https://doi.org/10.1098/rstb.2012.0019"  style="color:gray" target="_blank">https://doi.org/10.1098/rstb.2012.0019</a></p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">13. Keshavmurthy, S., Beals, M., Hsieh, H., Choi, K., & Chen, C. (2021). Physiological plasticity of corals to temperature stress in marginal coral communities. Science Of The Total Environment, 758, 143628. <a href="https://doi.org/10.1016/j.scitotenv.2020.143628" style="color:gray" target="_blank">https://doi.org/10.1016/j.scitotenv.2020.143628</a></p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">14. Rädecker, N., Pogoreutz, C., Voolstra, C., Wiedenmann, J., & Wild, C. (2015). Nitrogen cycling in corals: the key to understanding holobiont functioning?. Trends In Microbiology, 23(8), 490-497. <a href="https://doi.org/10.1016/j.tim.2015.03.008"  style="color:gray" target="_blank">https://doi.org/10.1016/j.tim.2015.03.008</a></p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="charlonBool">15. Neave, M., Michell, C., Apprill, A., & Voolstra, C. (2017). Endozoicomonas genomes reveal functional adaptation and plasticity in bacterial strains symbiotically associated with diverse marine hosts. Scientific Reports, 7(1). <a href="https://doi.org/10.1038/srep40579"  style="color:gray" target="_blank">https://doi.org/10.1038/srep40579</a></p>
+     
+
+  </div>
+
+
+</div>
+
+</div>
+
+<div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
+  <span class="arrow-text" (click)="moreScicomm()">
+    <p class="atlas-light"><span class="navi">MORE FEATURES</span> <span class="arrow">&rarr;</span></p>
+  </span>
+</div>
+</div>
+
+<div class="container2  animate__animated animate__fadeIn animate__delay-1s">
+<div class="footer" style="margin: 0 0% !important">
+  <app-footer></app-footer>
+</div>
+</div>
