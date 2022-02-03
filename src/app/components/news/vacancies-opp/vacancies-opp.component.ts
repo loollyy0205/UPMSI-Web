@@ -17,9 +17,11 @@ export class VacanciesOppComponent implements OnInit {
 
   ngOnInit(): void {
     switch(this.router.url) {
+      /**
       case '/News/vacancies-&-opportunities/job-opportunity-msi-apr9':
         this.myArr = this.apr9;
         break;
+        */
     }
   }
 
