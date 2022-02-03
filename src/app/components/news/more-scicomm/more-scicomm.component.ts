@@ -33,7 +33,7 @@ export class MoreScicommComponent implements OnInit {
   newsContent(i){
     switch(i) {
     case 0:
-        this.router.navigate(['/News/alan', 'coral-propagation']);
+        this.router.navigate(['/News/alan', 'lights-off']);
         break;
       case 1:
         this.router.navigate(['/News/scicomm/', 'In-Full-Bloom']);

@@ -26,7 +26,7 @@ export class ScicommBranchComponent implements OnInit {
   }
 
   newsContent(){
-    this.router.navigate(['/News/alan', 'coral-propagation']);
+    this.router.navigate(['/News/alan', 'lights-off']);
   }
   
 } 

@@ -43,7 +43,7 @@ charlon = [{
 
    
   
-   if(this.router.url.includes('/News/alan/coral-propagation')){
+   if(this.router.url.includes('/News/alan/lights-off')){
       this.myArr = this.charlon;
       this.charlonBool = true;
     }
