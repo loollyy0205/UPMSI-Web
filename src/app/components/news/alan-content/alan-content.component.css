@@ -222,6 +222,11 @@ opacity: 1 !important;
   place-content: center;
 }
 
+.center-content4{
+  display: grid;
+  place-content: center;
+}
+
 .box-content12 {
 
 margin-right: 30px;
@@ -359,6 +364,7 @@ img{
 .center-content{
   display: grid;
   place-content: center;
+  margin-top: 3vw;
 }
 
 .center-content0{
@@ -627,6 +633,7 @@ img{
     margin-top: 2.196vw;
     line-height: 1.5;
     margin: 0 10%;
+    margin-top: 2vw;
   }
 
   .news{
@@ -724,7 +731,6 @@ img{
 .center-content2{
   display: grid;
   place-content: center;
-  margin: 0 9%;
 }
 
 .box-content4{
@@ -891,7 +897,11 @@ img{
     margin-top: 5.392vw;
     margin: 0 9%;
 }
-
+.center-content4{
+  display: grid;
+  place-content: center;
+  margin: 0 9%;
+}
 
 }
 
