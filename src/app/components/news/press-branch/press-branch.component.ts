@@ -14,22 +14,22 @@ export class PressBranchComponent implements OnInit {
   }
 
   pressContent(){
-    this.router.navigate(['/News/press-coverage-headlines']);
+    this.router.navigate(['/News/press-coverage-headlines/']);
   }
 
   newsContent(){
-    this.router.navigate(['/News/press-coverage-headlines/UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island']);
+    this.router.navigate(['/News/press-coverage-headlines/Research-facility']);
   }
 
   newsContent1(){
-    this.router.navigate(['/News/press-coverage-headlines/Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep']);
+    this.router.navigate(['/News/press-coverage-headlines/Research-station']);
   }
 
   newsContent2(){
-    this.router.navigate(['/News/press-coverage-headlines/SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ']);
+    this.router.navigate(['/News/press-coverage-headlines/Team-of-PH']);
   }
 
   newsContent3(){
-    this.router.navigate(['/News/press-coverage-headlines/Manila-Bay-rehabilitasyon-o-reklamasyon']);
+    this.router.navigate(['/News/press-coverage-headlines/station-opens']);
   }
 }

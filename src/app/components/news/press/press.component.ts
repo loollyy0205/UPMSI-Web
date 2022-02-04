@@ -17,6 +17,21 @@ then change the infos of the article 2
 export class PressComponent implements OnInit {
   news=[
 
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Research facility sa Pag-asa Island, West PH Sea binuksan ng Pinoy experts", content: 'UP Marine Science Institute opens research hub on Pag-asa Island'},
+
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956573/News/press/siringan-anc_anitfe.png", title: "Research station on West PH Sea's Pag-asa island unveiled", content: 'UP Marine Science Institute opens research hub on Pag-asa Island'},
+
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1643947925/News/press/inquirernews_qnaqsh.png", title: "Team of PH scientists now headed to Pag-asa Island", content: ' A team of scientists from the University of the Philippines Marine Science Institute (UP MSI) is bound to Pag-asa...'},
+
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1643947924/News/press/manilanews_kaf1wi.jpg", title: "Of science and sovereignty: Research station opens in Pag-asa Island", content: 'Pag-asa Research Station or PIRS, the hub is envisioned to be an innovative center of scientific research in the middle of the West Philippine Sea.'},
+
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1643947924/News/press/palawannews_oetc57.jpg", title: "Pag-asa Island sets up scientific research station", content: 'UP Marine Science Institute opens research hub on Pag-asa Island'},
+
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1643947925/News/press/esquirenews_lhmt1a.jpg", title: "Pag-asa Island sets up scientific research station", content: 'UP Marine Science Institute opens research hub on Pag-asa Island'},
+
+
+
+
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1639465218/News/press/press_12_fprwjz.png", title: "UP Marine Science Institute opens research hub on Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island'},
 
     {image: "../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong... | Saksi", content: 'Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim...'},
@@ -41,39 +56,58 @@ export class PressComponent implements OnInit {
   newsContent(i){
     switch(i) {
       case 0:
-        this.router.navigate(['/News/press-coverage-headlines', 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Research-facility']);
         break;
       case 1:
-        this.router.navigate(['/News/press-coverage-headlines', 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Research-station']);
         break;
       case 2:
-        this.router.navigate(['/News/press-coverage-headlines', 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Team-of-PH']);
         break;
       case 3:
-        this.router.navigate(['/News/press-coverage-headlines', 'Rappler-Talk-Deo-Onda-on-the-value-of-West-PH-Sea-resources-to-filipinos']);
+        this.router.navigate(['/News/press-coverage-headlines', 'station-opens']);
         break;
       case 4:
-        this.router.navigate(['/News/press-coverage-headlines', `SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ`]);
+        this.router.navigate(['/News/press-coverage-headlines', 'Pag-asa sland']);
         break;
       case 5:
-        this.router.navigate(['/News/press-coverage-headlines', 'ON-THE-SPOT-All-filipino-scientific-expedition-sa-kalayaan-island-sa-West-Philippine-Sea']);
+        this.router.navigate(['/News/press-coverage-headlines', 'scientific-research']);
         break;
+
       case 6:
-        this.router.navigate(['/News/press-coverage-headlines', 'BT-Paglalakbay-ng-ilang-kawani-ng-gobyerno-at-estudyante-ng-UP-marine-science-institute']);
+        this.router.navigate(['/News/press-coverage-headlines', 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island']);
         break;
       case 7:
-        this.router.navigate(['/News/press-coverage-headlines', 'Manila-Bay-rehabilitasyon-o-reklamasyon']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep']);
         break;
       case 8:
-        this.router.navigate(['/News/press-coverage-headlines', 'adopt-a-giant-clam-program-suportado-ng-UP-Marine-Science-Institute']);
+        this.router.navigate(['/News/press-coverage-headlines', 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david']);
         break;
       case 9:
-        this.router.navigate(['/News/press-coverage-headlines', `AHA!-The-giant-clams-of-Bolinao-Pangasinan`]);
+        this.router.navigate(['/News/press-coverage-headlines', 'Rappler-Talk-Deo-Onda-on-the-value-of-West-PH-Sea-resources-to-filipinos']);
         break;
       case 10:
-        this.router.navigate(['/News/press-coverage-headlines', 'how-to-take-care-of-giant-clams']);
+        this.router.navigate(['/News/press-coverage-headlines', `SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ`]);
         break;
       case 11:
+        this.router.navigate(['/News/press-coverage-headlines', 'ON-THE-SPOT-All-filipino-scientific-expedition-sa-kalayaan-island-sa-West-Philippine-Sea']);
+        break;
+      case 12:
+        this.router.navigate(['/News/press-coverage-headlines', 'BT-Paglalakbay-ng-ilang-kawani-ng-gobyerno-at-estudyante-ng-UP-marine-science-institute']);
+        break;
+      case 13:
+        this.router.navigate(['/News/press-coverage-headlines', 'Manila-Bay-rehabilitasyon-o-reklamasyon']);
+        break;
+      case 14:
+        this.router.navigate(['/News/press-coverage-headlines', 'adopt-a-giant-clam-program-suportado-ng-UP-Marine-Science-Institute']);
+        break;
+      case 15:
+        this.router.navigate(['/News/press-coverage-headlines', `AHA!-The-giant-clams-of-Bolinao-Pangasinan`]);
+        break;
+      case 16:
+        this.router.navigate(['/News/press-coverage-headlines', 'how-to-take-care-of-giant-clams']);
+        break;
+      case 17:
         this.router.navigate(['/News/press-coverage-headlines', 'the-giant-clam-nursery-in-Bolinao-Pangasinan']);
         break;
     }

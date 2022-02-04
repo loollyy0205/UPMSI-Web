@@ -19,7 +19,13 @@
   <div style="display: grid; place-content: center;">
     <div class="bottom-content">
       <div class="photo-box">
-      <p class="atlas-light photo-content">{{myArr[0].photoContent}}</p>
+      <p class="atlas-light photo-content" >{{myArr[0].photoContent}}</p>
+
+      <p class="atlas-light photo-content" *ngIf="press03Bool">Kindly visit the <a href="https://globalnation.inquirer.net/199379/team-of-ph-scientists-now-headed-to-pag-asa-island"  style="color:gray" target="_blank">article here.</a></p>
+      <p class="atlas-light photo-content" *ngIf="press04Bool">Kindly visit the <a href="https://manilanews.ph/of-science-and-sovereignty-research-station-opens-in-pag-asa-island/"  style="color:gray" target="_blank">article here.</a></p>
+      <p class="atlas-light photo-content" *ngIf="press05Bool">Kindly visit the <a href="https://palawan-news.com/pag-asa-island-sets-up-scientific-research-station/"  style="color:gray" target="_blank">article here.</a></p>
+      
+      <p class="atlas-light photo-content" *ngIf="press6Bool">Kindly visit the <a href="https://www.esquiremag.ph/politics/news/u-p-scientists-are-headed-to-pag-asa-a00293-20211004"  style="color:gray" target="_blank">article here.</a></p>
       <p class="atlas-light photo-content">{{myArr[0].photoContent2}}</p>
       <p class="atlas-light photo-content">{{myArr[0].photoContent3}}</p>
       <p class="atlas-light photo-content">{{myArr[0].photoContent4}}</p>

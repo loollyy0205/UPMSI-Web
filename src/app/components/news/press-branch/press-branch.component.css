@@ -11,11 +11,24 @@
   display: flex;
   flex-direction: row;
 }
-
 img{
   height: 100%;
   width: 100%;
   object-fit: cover;
+  cursor: pointer;
+}
+
+.img-container{
+  margin-top: 3.660vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-content{
+  height: 11.493vw;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2.928vw;
 }
 
 .first-content .left-fc1 .news-left{

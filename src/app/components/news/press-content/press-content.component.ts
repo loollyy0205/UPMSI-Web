@@ -14,7 +14,7 @@ edited9:  edited all the 3 articles inside the news: [] (1)
 
 export class PressContentComponent implements OnInit {
 
-/*
+
 press01 = [{
     title: `Research facility sa Pag-asa Island, West PH Sea binuksan ng Pinoy experts`,
     date: 'October 25, 2021',
@@ -30,7 +30,7 @@ press01 = [{
       ]
   }];
 
-press01 = [{
+press02 = [{
     title: `Research station on West PH Sea's Pag-asa island unveiled`,
     date: 'October 25, 2021',
     author: 'ANC 24/7',
@@ -47,7 +47,7 @@ press01 = [{
 
 
 
-  press01 = [{
+  press03 = [{
     title: `Team of PH scientists now headed to Pag-asa Island`,
     date: 'October 4, 2021',
     author: 'Inquirer.net',
@@ -62,7 +62,7 @@ press01 = [{
       ]
   }];
 
-  press01 = [{
+  press04 = [{
     title: `Of science and sovereignty: Research station opens in Pag-asa Island`,
     date: 'October 25, 2021',
     author: 'Manila News',
@@ -77,7 +77,7 @@ press01 = [{
       ]
   }];
 
-  press01 = [{
+  press05 = [{
     title: `Pag-asa Island sets up scientific research station`,
     date: 'October 30, 2021',
     author: 'Palawan News',
@@ -92,7 +92,7 @@ press01 = [{
       ]
   }];
 
-   press01 = [{
+   press6 = [{
     title: `Pag-asa Island sets up scientific research station`,
     date: 'October 30, 2021',
     author: 'Palawan News',
@@ -106,9 +106,9 @@ press01 = [{
       {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
       ]
   }];
-  **/
 
-press01 = [{
+
+press7 = [{
     title: `UP Marine Science Institute opens research hub on Pag-asa Island`,
     date: 'October 25, 2021',
     author: 'ANC 24/7',
@@ -123,7 +123,7 @@ press01 = [{
       ]
   }];
 
-  press02 = [{
+  press8 = [{
     title: 'Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep',
     date: 'March 25, 2021',
     author: 'GMA News',
@@ -138,7 +138,7 @@ press01 = [{
       ]
   }];
 
-  press03 = [{
+  press9 = [{
     title: 'Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david',
     date: 'June 3, 2020',
     author: 'The World Bank',
@@ -153,7 +153,7 @@ press01 = [{
       ]
   }];
 
-  press04 = [{
+  press10 = [{
     title: `Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources`,
     date: 'June 10, 2021',
     author: 'Rappler',
@@ -168,7 +168,7 @@ press01 = [{
       ]
   }];
 
-  press05 = [{
+  press11 = [{
     title: `SONA: UP Marine Science Institute, nanawagan na protektahan ang ating EEZ`,
     date: 'July 2, 2019',
     author: 'GMA News',
@@ -183,7 +183,7 @@ press01 = [{
       ]
   }];
 
-  press6 = [{
+  press12 = [{
     title: `ON THE SPOT: All Filipino scientific expedition sa Kalayaan Island sa West Philippine Sea`,
     date: 'May 9, 2019',
     author: 'PTV',
@@ -198,7 +198,7 @@ press01 = [{
       ]
   }];
 
-  press7 = [{
+  press13 = [{
     title: `BT: Paglalakbay ng ilang kawani ng gobyerno at estudyante ng UP-marine science institute`,
     date: 'April 22, 2019',
     author: 'GMA News',
@@ -213,7 +213,7 @@ press01 = [{
       ]
   }];
 
-  press8 = [{
+  press14 = [{
     title: `Manila Bay - Rehabilitasyon o Reklamasyon? (Ika-2 Yugto) | Failon Ngayon`,
     date: 'April 14, 2019',
     author: 'ABS-CBN News',
@@ -228,7 +228,7 @@ press01 = [{
       ]
   }];
 
-  press9 = [{
+  press15 = [{
     title: `Adopt a giant clam program, suportado ng UP-Marine Science Institute`,
     date: 'April 22, 2019',
     author: 'Eagle News',
@@ -243,7 +243,7 @@ press01 = [{
       ]
   }];
 
-  press10 = [{
+  press16 = [{
     title: `AHA!: The giant clams of Bolinao, Pangasinan`,
     date: 'January 8, 2018',
     author: 'GMA Playground',
@@ -258,7 +258,7 @@ press01 = [{
       ]
   }];
 
-  press11 = [{
+  press17 = [{
     title: `How to take care of giant clams`,
     date: 'May 5, 2017',
     author: 'INQUIRER.net',
@@ -273,7 +273,7 @@ press01 = [{
       ]
   }];
 
-  press12 = [{
+  press18 = [{
     title: `The Giant Clam Nursery in Bolinao, Pangasinan`,
     date: 'April 25, 2017',
     author: 'Manila Bulletin Online',
@@ -298,87 +298,143 @@ press01 = [{
 
   myArr = [];
 
+  
+  press03Bool:boolean = false;
+  press04Bool:boolean = false;
+  press05Bool:boolean = false;
+  press6Bool:boolean = false;
+
   constructor(private router:Router) { }
 
   ngOnInit(): void {
 
   /**
     switch(this.router.url) {
-      case '/News/press-coverage-headlines/UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island':
+      case '/News/press-coverage-headlines/Research-facility':
         this.myArr = this.press01;
         break;
-      case '/News/press-coverage-headlines/Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep':
+      case '/News/press-coverage-headlines/Research-station':
         this.myArr = this.press02;
         break;
-      case '/News/press-coverage-headlines/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david':
+      case '/News/press-coverage-headlines/Team-of-PH':
         this.myArr = this.press03;
+        this.press03Bool = true;
         break;
-      case '/News/press-coverage-headlines/Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources':
+      case '/News/press-coverage-headlines/station-opens':
         this.myArr = this.press04;
+        this.press04Bool = true;
         break;
-      case '/News/press-coverage-headlines/SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ':
+      case '/News/press-coverage-headlines/Pag-asa sland':
         this.myArr = this.press05;
+        this.press05Bool = true;
         break;
-      case '/News/press-coverage-headlines/ON-THE-SPOT-All-filipino-scientific-expedition-sa-kalayaan-island-sa-West-Philippine-Sea':
-        this.myArr = this.press06;
+      case '/News/press-coverage-headlines/scientific-research':
+        this.myArr = this.press6;
+        this.press6Bool = true;
         break;
-      case '/News/press-coverage-headlines/BT-Paglalakbay-ng-ilang-kawani-ng-gobyerno-at-estudyante-ng-UP-marine-science-institute':
+      case '/News/press-coverage-headlines/UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island':
         this.myArr = this.press7;
         break;
-      case '/News/press-coverage-headlines/Manila-Bay-rehabilitasyon-o-reklamasyon':
+      case '/News/press-coverage-headlines/Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep':
         this.myArr = this.press8;
         break;
-      case '/News/press-coverage-headlines/adopt-a-giant-clam-program-suportado-ng-UP-Marine-Science-Institute':
+      case '/News/press-coverage-headlines/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david':
         this.myArr = this.press9;
         break;
-      case '/News/press-coverage-headlines/AHA!-The-giant-clams-of-Bolinao-Pangasinan':
+      case '/News/press-coverage-headlines/Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources':
         this.myArr = this.press10;
         break;
-      case '/News/press-coverage-headlines/how-to-take-care-of-giant-clams':
+      case '/News/press-coverage-headlines/SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ':
         this.myArr = this.press11;
         break;
-      case '/News/press-coverage-headlines/the-giant-clam-nursery-in-Bolinao-Pangasinan':
+      case '/News/press-coverage-headlines/ON-THE-SPOT-All-filipino-scientific-expedition-sa-kalayaan-island-sa-West-Philippine-Sea':
         this.myArr = this.press12;
+        break;
+      case '/News/press-coverage-headlines/BT-Paglalakbay-ng-ilang-kawani-ng-gobyerno-at-estudyante-ng-UP-marine-science-institute':
+        this.myArr = this.press13;
+        break;
+      case '/News/press-coverage-headlines/Manila-Bay-rehabilitasyon-o-reklamasyon':
+        this.myArr = this.press14;
+        break;
+      case '/News/press-coverage-headlines/adopt-a-giant-clam-program-suportado-ng-UP-Marine-Science-Institute':
+        this.myArr = this.press15;
+        break;
+      case '/News/press-coverage-headlines/AHA!-The-giant-clams-of-Bolinao-Pangasinan':
+        this.myArr = this.press16;
+        break;
+      case '/News/press-coverage-headlines/how-to-take-care-of-giant-clams':
+        this.myArr = this.press17;
+        break;
+      case '/News/press-coverage-headlines/the-giant-clam-nursery-in-Bolinao-Pangasinan':
+        this.myArr = this.press18;
         break;
 
     }
     */
 
-     if(this.router.url.includes('/News/press-coverage-headlines/UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island')){
+    if(this.router.url.includes('/News/press-coverage-headlines//Research-facility')){
       this.myArr = this.press01;
       }
-    if(this.router.url.includes('/News/press-coverage-headlines/Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep')){
+
+    if(this.router.url.includes('/News/press-coverage-headlines/Research-station')){
       this.myArr = this.press02;
       }
-    if(this.router.url.includes('/News/press-coverage-headlines/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david')){
-      this.myArr = this.press03; 
+
+    if(this.router.url.includes('/News/press-coverage-headlines/Team-of-PH')){
+      this.myArr = this.press03;
+      this.press03Bool = true;
       }
-    if(this.router.url.includes('/News/press-coverage-headlines/Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources')){
+
+    if(this.router.url.includes('/News/press-coverage-headlines/station-opens')){
       this.myArr = this.press04;
+      this.press04Bool = true;
       }
-    if(this.router.url.includes('/News/press-coverage-headlines/SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ')){
+
+    if(this.router.url.includes('/News/press-coverage-headlines/Pag-asa sland')){
       this.myArr = this.press05;
+      this.press05Bool = true;
       }
-    if(this.router.url.includes('/News/press-coverage-headlines/ON-THE-SPOT-All-filipino-scientific-expedition-sa-kalayaan-island-sa-West-Philippine-Sea')){
+
+    if(this.router.url.includes('/News/press-coverage-headlines/scientific-research')){
       this.myArr = this.press6;
+      this.press6Bool = true;
       }
-    if(this.router.url.includes('/News/press-coverage-headlines/BT-Paglalakbay-ng-ilang-kawani-ng-gobyerno-at-estudyante-ng-UP-marine-science-institute')){
-     this.myArr = this.press7;
+
+     if(this.router.url.includes('/News/press-coverage-headlines/UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island')){
+      this.myArr = this.press7;
       }
-    if(this.router.url.includes('/News/press-coverage-headlines/Manila-Bay-rehabilitasyon-o-reklamasyon')){
+    if(this.router.url.includes('/News/press-coverage-headlines/Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep')){
       this.myArr = this.press8;
       }
-    if(this.router.url.includes('/News/press-coverage-headlines/adopt-a-giant-clam-program-suportado-ng-UP-Marine-Science-Institute')){
-      this.myArr = this.press9;
+    if(this.router.url.includes('/News/press-coverage-headlines/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david')){
+      this.myArr = this.press9; 
       }
-      if(this.router.url.includes('/News/press-coverage-headlines/AHA!-The-giant-clams-of-Bolinao-Pangasinan')){
+    if(this.router.url.includes('/News/press-coverage-headlines/Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources')){
       this.myArr = this.press10;
       }
-    if(this.router.url.includes('/News/press-coverage-headlines/how-to-take-care-of-giant-clams')){
+    if(this.router.url.includes('/News/press-coverage-headlines/SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ')){
       this.myArr = this.press11;
       }
-    if(this.router.url.includes('/News/press-coverage-headlines/the-giant-clam-nursery-in-Bolinao-Pangasinan')){
+    if(this.router.url.includes('/News/press-coverage-headlines/ON-THE-SPOT-All-filipino-scientific-expedition-sa-kalayaan-island-sa-West-Philippine-Sea')){
       this.myArr = this.press12;
+      }
+    if(this.router.url.includes('/News/press-coverage-headlines/BT-Paglalakbay-ng-ilang-kawani-ng-gobyerno-at-estudyante-ng-UP-marine-science-institute')){
+     this.myArr = this.press13;
+      }
+    if(this.router.url.includes('/News/press-coverage-headlines/Manila-Bay-rehabilitasyon-o-reklamasyon')){
+      this.myArr = this.press14;
+      }
+    if(this.router.url.includes('/News/press-coverage-headlines/adopt-a-giant-clam-program-suportado-ng-UP-Marine-Science-Institute')){
+      this.myArr = this.press15;
+      }
+      if(this.router.url.includes('/News/press-coverage-headlines/AHA!-The-giant-clams-of-Bolinao-Pangasinan')){
+      this.myArr = this.press16;
+      }
+    if(this.router.url.includes('/News/press-coverage-headlines/how-to-take-care-of-giant-clams')){
+      this.myArr = this.press17;
+      }
+    if(this.router.url.includes('/News/press-coverage-headlines/the-giant-clam-nursery-in-Bolinao-Pangasinan')){
+      this.myArr = this.press18;
       }
   }
 
