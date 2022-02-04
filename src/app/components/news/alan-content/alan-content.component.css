@@ -724,6 +724,7 @@ img{
 .center-content2{
   display: grid;
   place-content: center;
+  margin: 0 9%;
 }
 
 .box-content4{
