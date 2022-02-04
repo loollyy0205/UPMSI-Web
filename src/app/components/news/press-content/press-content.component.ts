@@ -14,6 +14,100 @@ edited9:  edited all the 3 articles inside the news: [] (1)
 
 export class PressContentComponent implements OnInit {
 
+/*
+press01 = [{
+    title: `Research facility sa Pag-asa Island, West PH Sea binuksan ng Pinoy experts`,
+    date: 'October 25, 2021',
+    author: 'TV Patrol',
+    thumbnail: 'https://www.youtube.com/embed/DjoFeUivwNQ',
+    photoContent: 'UP Marine Science Institute opens research hub on Pag-asa Island',
+    courtesy: 'VIDEO COURTESY OF ANC 24/7',
+
+     news: [
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+      ]
+  }];
+
+press01 = [{
+    title: `Research station on West PH Sea's Pag-asa island unveiled`,
+    date: 'October 25, 2021',
+    author: 'ANC 24/7',
+    thumbnail: 'https://www.youtube.com/embed/fIwlGAkir-c',
+    photoContent: 'UP Marine Science Institute opens research hub on Pag-asa Island',
+    courtesy: 'VIDEO COURTESY OF ANC 24/7',
+
+     news: [
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+      ]
+  }];
+
+
+
+  press01 = [{
+    title: `Team of PH scientists now headed to Pag-asa Island`,
+    date: 'October 4, 2021',
+    author: 'Inquirer.net',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1643947925/News/press/inquirernews_qnaqsh.png',
+    photoContent: '',
+    courtesy: 'VIDEO COURTESY OF INQUIRER.NET',
+
+     news: [
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+      ]
+  }];
+
+  press01 = [{
+    title: `Of science and sovereignty: Research station opens in Pag-asa Island`,
+    date: 'October 25, 2021',
+    author: 'Manila News',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1643947924/News/press/manilanews_kaf1wi.jpg',
+    photoContent: '',
+    courtesy: 'VIDEO COURTESY OF MANILA NEWS',
+
+     news: [
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+      ]
+  }];
+
+  press01 = [{
+    title: `Pag-asa Island sets up scientific research station`,
+    date: 'October 30, 2021',
+    author: 'Palawan News',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1643947924/News/press/palawannews_oetc57.jpg',
+    photoContent: '',
+    courtesy: 'VIDEO COURTESY OF PALAWAN NEWS',
+
+     news: [
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+      ]
+  }];
+
+   press01 = [{
+    title: `Pag-asa Island sets up scientific research station`,
+    date: 'October 30, 2021',
+    author: 'Palawan News',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1643947925/News/press/esquirenews_lhmt1a.jpg',
+    photoContent: '',
+    courtesy: 'VIDEO COURTESY OF ESQUIRE MAG',
+
+     news: [
+      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
+      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+      ]
+  }];
+  **/
+
 press01 = [{
     title: `UP Marine Science Institute opens research hub on Pag-asa Island`,
     date: 'October 25, 2021',
