@@ -325,8 +325,8 @@ export class PublicationListComponent implements OnInit {
     {content: "Ligson, C.A., Cabaitan, P.C. (2021). Survival and sexual maturity of sexually propagated Acropora verweyi corals 4 years after outplantation. Restoration Ecology 29(5),e13363."},
 
     {content: "Ligson CA, & Cabaitan PC. (2021). Survival and sexual maturity of sexually propagated Acropora verweyi corals 4 years after outplantation. Restoration Ecology. Article in Press. DOI: https://doi.org/10.1111/rec.13363"},
-    {content: "Torreno VPM, Dumalan, RJP, Batoctoy, DCR, Juinio-Meñez, MA and Yu, ET. (2021) Rapid Profiling of Saponin Extracts from Stichopus horrens Sea Cucumbers by Mass Spectrometry. Philippine Journal of Science. In press."},
 
+  
 
     {content: "Lin, B., Liu, Z., Eglinton, T.I., Blattmann, T.M., Kandasamy, S, Haghipour, N., Siringan, F.P. (2021). Organic Matter Compositions and Loadings in River Sediments From Humid Tropical Volcanic Luzon Island of the Philippines. Journal of Geophysical Research: Biogeosciences 126(7),e2020JG006192"},
 
@@ -397,7 +397,8 @@ export class PublicationListComponent implements OnInit {
 
     {content: "Tañedo, M.C.S., Villanueva, R.D., Torres, A.F., Ravago-Gotanco, R., San Diego-McGlone, M.L. (2021). Individual and Interactive Effects of Ocean Warming and Acidification on Adult Favites colemani. Frontiers in Marine Science, 8, Article Number 704487."},
 
-    {content: "Torreno, V.P.M., Dumalan, R.J.P., Batoctoy, D.C.R., Juinio-Meñez, M.A., Yu, E.T. (2021). Rapid profiling of saponin extracts from stichopus horrens sea cucumbers by mass spectrometry. Philippine Journal of Science 150(4), pp. 601-609"},
+    {content: "Torreno VPM, Dumalan, RJP, Batoctoy, DCR, Juinio-Meñez, MA and Yu, ET. (2021) Rapid Profiling of Saponin Extracts from Stichopus horrens Sea Cucumbers by Mass Spectrometry. Philippine Journal of Science. In press."},
+
 
     {content: "Torres, J.P., Lin, Z., Watkins, M., Salcedo, P.F., Baskin, R.P., Elhabian, S., Safvi-Hemami, H., Taylor, D., Tun, J., Concepcion, G.P., Saguil, N., Yanagiharam A.A., Fang, Y., McArthur, J.R., Tae, H.-S., Finol-Urdaneta, R.K., Ozpolat, B.D., Olivera, B.M., & Schmidt, E.W. (2021). Small-molecule mimicry hunting strategy in the imperial cone snail, Conus imperialis. Science Advances, 7(11): eabf2704."},
 
