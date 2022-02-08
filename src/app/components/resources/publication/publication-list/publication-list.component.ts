@@ -343,6 +343,18 @@ export class PublicationListComponent implements OnInit {
     {content: "Bonilla, K.G., Guest, J.R., dela Cruz, D.W., Baria-Rodriguez, M.V. (2021). Onset of sexual maturity of sexually propagated and wild colonies of the massive coral Favites abdita in northwestern Philippines. Invertebrate Reproduction and Development, 65(3), pp. 201–209"},
 
     {content: "Batucan, J.D., Susana, S.R., Ochoa, M.M.T., Salvador-Reyes, L.A. (2021). Biological activity and chemical profiling of terrestrial and freshwater cyanobacteria from the Philippines. Philippine Journal of Science 150(5), pp. 1245-1254"},
+
+    {content: "Manuel, A., A. Blanco, O. Cabrera, M.L. San Diego-McGlone.  2021.  Mapping coloured dissolved organic matter in Manila Bay using SENTINEL-3 and WASI.  Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLVI-4/W6-2021, 207–212, https://doi.org/10.5194/isprs-archives-XLVI-4-W6-2021-207-2021, 2021."},
+
+    {content: "Ray, R., T. Miyajima, A. Watanabe, M. Yoshikai, C.M. Ferrera, I. Orizar, T. Nakamura, M.L San Diego-McGlone, E.C. Herrera, K. Nadaoka.  2021.  Dis"},
+
+    {content: "Tañedo, M.C.S., R.D. Villanueva, A.F. Torres, R. Ravago-Gotanco, M.L. San Diego-McGlone.  2021.   Individual and interactive effects of ocean warming and acidification on adult Favites colemani. Frontiers in Marine Science 8:704487. doi: 10.3389/fmars.2021.704487"},
+
+    {content: "Cordero-Bailey, K., I.S.F. Bollozos, J.D.H. Palermo, K.M. Silvano, M.T.L. Escobar, G.S. Jacinto, M.L. San Diego-McGlone, L.T. David, A.T. Yñiguez.  2021.  Characterizing the vertical phytoplankton distribution in the Philippine Sea off the northeastern coast of Luzon.  Estuarine, Coastal and Shelf Science 254: 107322, Doi.10.1016/j.ecss.2021.107322."},
+
+    {content: "Yoshikai, M., T. Nakamura, Y. Tanaka, M. Nakaoka, A. Watanabe, E. Herrera, T. Tshuchiya, T. Miyajima, M.L. San Diego-McGlone, M.D. Fortes, A.C. Blanco, A.M. Tamondong, K. Nadaoka.  2021.  Modeling seagrass bed dynamics under environmental impacts of intensive mariculture activities in Bolinao and Anda, the Philippines.  2020.  Estuarine, Coastal and Shelf Science 250: 107152, Doi.10.1016/j.ecss  2020.107152."},
+
+
     
   ]
 

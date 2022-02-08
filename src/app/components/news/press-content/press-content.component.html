@@ -11,7 +11,16 @@
     </div>
 
     <div class="photothumb" *ngIf="myArr[0].Pthumbnail">
-      <a href="https://www.worldbank.org/en/news/feature/2020/06/03/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-t-david" target="_blank"><img src="https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg" /></a>
+      <a *ngIf="press9Bool" href="https://www.worldbank.org/en/news/feature/2020/06/03/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-t-david" target="_blank"><img src="https://res.cloudinary.com/dqs7gg03v/image/upload/v1626222672/News/Press%20Coverage/thumbnail-16_kgvqlv.jpg" /></a>
+
+      <a *ngIf="press04Bool" href="https://www.worldbank.org/en/news/feature/2020/06/03/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-t-david" target="_blank"><img src="https://res.cloudinary.com/upmsi/image/upload/v1644303123/News/press/manilanews_mdqq1d.jpg" /></a>
+
+      <a *ngIf="press03Bool" href="https://www.worldbank.org/en/news/feature/2020/06/03/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-t-david" target="_blank"><img src="https://res.cloudinary.com/upmsi/image/upload/v1644304858/News/press/inquirernews-1_py0bky.png" /></a>
+
+      <a *ngIf="press05Bool" href="https://www.worldbank.org/en/news/feature/2020/06/03/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-t-david" target="_blank"><img src="https://res.cloudinary.com/upmsi/image/upload/v1643947924/News/press/palawannews_oetc57.jpg" /></a>
+
+      <a *ngIf="press6Bool" href="https://www.worldbank.org/en/news/feature/2020/06/03/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-t-david" target="_blank"><img src="https://res.cloudinary.com/upmsi/image/upload/v1644303122/News/press/esquirenews_trarhb.jpg" /></a>
+
     </div>
 
   </div>
@@ -21,11 +30,14 @@
       <div class="photo-box">
       <p class="atlas-light photo-content" >{{myArr[0].photoContent}}</p>
 
-      <p class="atlas-light photo-content" *ngIf="press03Bool">Kindly visit the <a href="https://globalnation.inquirer.net/199379/team-of-ph-scientists-now-headed-to-pag-asa-island"  style="color:gray" target="_blank">article here.</a></p>
-      <p class="atlas-light photo-content" *ngIf="press04Bool">Kindly visit the <a href="https://manilanews.ph/of-science-and-sovereignty-research-station-opens-in-pag-asa-island/"  style="color:gray" target="_blank">article here.</a></p>
-      <p class="atlas-light photo-content" *ngIf="press05Bool">Kindly visit the <a href="https://palawan-news.com/pag-asa-island-sets-up-scientific-research-station/"  style="color:gray" target="_blank">article here.</a></p>
+      <p class="atlas-light photo-content" *ngIf="press03Bool">Kindly visit the <a href="https://globalnation.inquirer.net/199379/team-of-ph-scientists-now-headed-to-pag-asa-island"  style="color:white" target="_blank">article here.</a></p>
+      <p class="atlas-light photo-content" *ngIf="press04Bool">Kindly visit the <a href="https://manilanews.ph/of-science-and-sovereignty-research-station-opens-in-pag-asa-island/"  style="color:white" target="_blank">article here.</a></p>
+      <p class="atlas-light photo-content" *ngIf="press05Bool">Kindly visit the <a href="https://palawan-news.com/pag-asa-island-sets-up-scientific-research-station/"  style="color:white" target="_blank">article here.</a></p>
       
-      <p class="atlas-light photo-content" *ngIf="press6Bool">Kindly visit the <a href="https://www.esquiremag.ph/politics/news/u-p-scientists-are-headed-to-pag-asa-a00293-20211004"  style="color:gray" target="_blank">article here.</a></p>
+      <p class="atlas-light photo-content" *ngIf="press6Bool">Kindly visit the <a href="https://www.esquiremag.ph/politics/news/u-p-scientists-are-headed-to-pag-asa-a00293-20211004"  style="color:white" target="_blank">article here.</a></p>
+
+      <p class="atlas-light photo-content" *ngIf="press9Bool">Kindly visit the <a href="https://www.worldbank.org/en/news/feature/2020/06/03/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-t-david"  style="color:white" target="_blank">article here.</a></p>
+
       <p class="atlas-light photo-content">{{myArr[0].photoContent2}}</p>
       <p class="atlas-light photo-content">{{myArr[0].photoContent3}}</p>
       <p class="atlas-light photo-content">{{myArr[0].photoContent4}}</p>

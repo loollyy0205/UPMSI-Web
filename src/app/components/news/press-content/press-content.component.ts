@@ -51,9 +51,9 @@ press02 = [{
     title: `Team of PH scientists now headed to Pag-asa Island`,
     date: 'October 4, 2021',
     author: 'Inquirer.net',
-    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1643947925/News/press/inquirernews_qnaqsh.png',
+    Pthumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1644304858/News/press/inquirernews-1_py0bky.png',
     photoContent: '',
-    courtesy: 'VIDEO COURTESY OF INQUIRER.NET',
+    courtesy: 'PHOTO COURTESY OF INQUIRER.NET',
 
      news: [
       {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
@@ -66,9 +66,9 @@ press02 = [{
     title: `Of science and sovereignty: Research station opens in Pag-asa Island`,
     date: 'October 25, 2021',
     author: 'Manila News',
-    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1643947924/News/press/manilanews_kaf1wi.jpg',
+    Pthumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1644303123/News/press/manilanews_mdqq1d.jpg',
     photoContent: '',
-    courtesy: 'VIDEO COURTESY OF MANILA NEWS',
+    courtesy: 'PHOTO COURTESY OF MANILA NEWS',
 
      news: [
       {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
@@ -81,9 +81,9 @@ press02 = [{
     title: `Pag-asa Island sets up scientific research station`,
     date: 'October 30, 2021',
     author: 'Palawan News',
-    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1643947924/News/press/palawannews_oetc57.jpg',
+    Pthumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1643947924/News/press/palawannews_oetc57.jpg',
     photoContent: '',
-    courtesy: 'VIDEO COURTESY OF PALAWAN NEWS',
+    courtesy: 'PHOTO COURTESY OF PALAWAN NEWS',
 
      news: [
       {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
@@ -95,10 +95,10 @@ press02 = [{
    press6 = [{
     title: `Pag-asa Island sets up scientific research station`,
     date: 'October 30, 2021',
-    author: 'Palawan News',
-    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1643947925/News/press/esquirenews_lhmt1a.jpg',
+    author: 'Esquire Mag',
+    Pthumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1644303122/News/press/esquirenews_trarhb.jpg',
     photoContent: '',
-    courtesy: 'VIDEO COURTESY OF ESQUIRE MAG',
+    courtesy: 'PHOTO COURTESY OF ESQUIRE MAG',
 
      news: [
       {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
@@ -143,8 +143,8 @@ press7 = [{
     date: 'June 3, 2020',
     author: 'The World Bank',
     thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1639464112/News/press/press_16_3_fb8olo.jpg',
-    photoContent: `I am a teacher, researcher and science communicator. I make use of remote sensing and modelling to explore how ocean physics influence the distribution and state of ocean flora and fauna. Currently, I am the Director of the Marine Science Institute, University of the Philippines.`,
-    courtesy: 'VIDEO COURTESY OF The World Bank',
+    photoContent: '',
+    courtesy: 'PHOTO COURTESY OF THE WORLD BANK',
 
     news: [
       {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
@@ -303,6 +303,7 @@ press7 = [{
   press04Bool:boolean = false;
   press05Bool:boolean = false;
   press6Bool:boolean = false;
+  press9Bool:boolean = false;
 
   constructor(private router:Router) { }
 
@@ -313,7 +314,7 @@ press7 = [{
       case '/News/press-coverage-headlines/Research-facility':
         this.myArr = this.press01;
         break;
-      case '/News/press-coverage-headlines/Research-station':
+      case '/News/press-coverage-headlines/island-unveiled':
         this.myArr = this.press02;
         break;
       case '/News/press-coverage-headlines/Team-of-PH':
@@ -340,6 +341,7 @@ press7 = [{
         break;
       case '/News/press-coverage-headlines/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david':
         this.myArr = this.press9;
+        this.press9Bool = true;
         break;
       case '/News/press-coverage-headlines/Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources':
         this.myArr = this.press10;
@@ -372,11 +374,11 @@ press7 = [{
     }
     */
 
-    if(this.router.url.includes('/News/press-coverage-headlines//Research-facility')){
+    if(this.router.url.includes('/News/press-coverage-headlines/West-PH-Sea')){
       this.myArr = this.press01;
       }
 
-    if(this.router.url.includes('/News/press-coverage-headlines/Research-station')){
+    if(this.router.url.includes('/News/press-coverage-headlines/island-unveiled')){
       this.myArr = this.press02;
       }
 
@@ -390,7 +392,7 @@ press7 = [{
       this.press04Bool = true;
       }
 
-    if(this.router.url.includes('/News/press-coverage-headlines/Pag-asa sland')){
+    if(this.router.url.includes('/News/press-coverage-headlines/Pag-asa-island')){
       this.myArr = this.press05;
       this.press05Bool = true;
       }
@@ -408,6 +410,7 @@ press7 = [{
       }
     if(this.router.url.includes('/News/press-coverage-headlines/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david')){
       this.myArr = this.press9; 
+      this.press9Bool = true;
       }
     if(this.router.url.includes('/News/press-coverage-headlines/Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources')){
       this.myArr = this.press10;

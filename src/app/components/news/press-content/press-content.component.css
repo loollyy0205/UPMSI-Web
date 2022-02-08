@@ -12,6 +12,7 @@
   width: 55vw;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .photothumb {

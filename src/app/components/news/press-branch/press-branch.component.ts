@@ -18,11 +18,11 @@ export class PressBranchComponent implements OnInit {
   }
 
   newsContent(){
-    this.router.navigate(['/News/press-coverage-headlines/Research-facility']);
+    this.router.navigate(['/News/press-coverage-headlines/West-PH-Sea']);
   }
 
   newsContent1(){
-    this.router.navigate(['/News/press-coverage-headlines/Research-station']);
+    this.router.navigate(['/News/press-coverage-headlines/island-unveiled']);
   }
 
   newsContent2(){

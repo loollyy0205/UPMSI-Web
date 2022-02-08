@@ -21,7 +21,7 @@ export class PressComponent implements OnInit {
 
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956573/News/press/siringan-anc_anitfe.png", title: "Research station on West PH Sea's Pag-asa island unveiled", content: 'UP Marine Science Institute opens research hub on Pag-asa Island'},
 
-    {image: "https://res.cloudinary.com/upmsi/image/upload/v1643947925/News/press/inquirernews_qnaqsh.png", title: "Team of PH scientists now headed to Pag-asa Island", content: ' A team of scientists from the University of the Philippines Marine Science Institute (UP MSI) is bound to Pag-asa...'},
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1644304858/News/press/inquirernews-1_py0bky.png", title: "Team of PH scientists now headed to Pag-asa Island", content: ' A team of scientists from the University of the Philippines Marine Science Institute (UP MSI) is bound to Pag-asa...'},
 
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1643947924/News/press/manilanews_kaf1wi.jpg", title: "Of science and sovereignty: Research station opens in Pag-asa Island", content: 'Pag-asa Research Station or PIRS, the hub is envisioned to be an innovative center of scientific research in the middle of the West Philippine Sea.'},
 
@@ -56,10 +56,10 @@ export class PressComponent implements OnInit {
   newsContent(i){
     switch(i) {
       case 0:
-        this.router.navigate(['/News/press-coverage-headlines', 'Research-facility']);
+        this.router.navigate(['/News/press-coverage-headlines', 'West-PH-Sea']);
         break;
       case 1:
-        this.router.navigate(['/News/press-coverage-headlines', 'Research-station']);
+        this.router.navigate(['/News/press-coverage-headlines', 'island-unveiled']);
         break;
       case 2:
         this.router.navigate(['/News/press-coverage-headlines', 'Team-of-PH']);
@@ -68,7 +68,7 @@ export class PressComponent implements OnInit {
         this.router.navigate(['/News/press-coverage-headlines', 'station-opens']);
         break;
       case 4:
-        this.router.navigate(['/News/press-coverage-headlines', 'Pag-asa sland']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Pag-asa-island']);
         break;
       case 5:
         this.router.navigate(['/News/press-coverage-headlines', 'scientific-research']);
