@@ -1180,12 +1180,9 @@ edited the badges
 
       {publi: 'Manuel, A., A. Blanco, O. Cabrera, M.L. San Diego-McGlone.  2021.  Mapping coloured dissolved organic matter in Manila Bay using SENTINEL-3 and WASI.  Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLVI-4/W6-2021, 207–212, https://doi.org/10.5194/isprs-archives-XLVI-4-W6-2021-207-2021, 2021.'},
 
-
-      {publi: 'Tañedo, M.C.S., R.D. Villanueva, A.F. Torres, R. Ravago-Gotanco, M.L. San Diego-McGlone.  2021.   Individual and interactive effects of ocean warming and acidification on adult Favites colemani. Frontiers in Marine Science 8:704487. doi: 10.3389/fmars.2021.704487'},
-
-
       {publi: 'Ray, R., T. Miyajima, A. Watanabe, M. Yoshikai, C.M. Ferrera, I. Orizar, T. Nakamura, M.L San Diego-McGlone, E.C. Herrera, K. Nadaoka.  2021.  Dissolved and particulate carbon export from a tropical mangrove-dominated riverine system.  Limnology and Oceanography 9999, 1–19. doi: 10.1002/lno.11934'},
 
+      {publi: 'Tañedo, M.C.S., R.D. Villanueva, A.F. Torres, R. Ravago-Gotanco, M.L. San Diego-McGlone.  2021.   Individual and interactive effects of ocean warming and acidification on adult Favites colemani. Frontiers in Marine Science 8:704487. doi: 10.3389/fmars.2021.704487'},
 
      {publi: 'Cordero-Bailey, K., I.S.F. Bollozos, J.D.H. Palermo, K.M. Silvano, M.T.L. Escobar, G.S. Jacinto, M.L. San Diego-McGlone, L.T. David, A.T. Yñiguez.  2021.  Characterizing the vertical phytoplankton distribution in the Philippine Sea off the northeastern coast of Luzon.  Estuarine, Coastal and Shelf Science 254: 107322, Doi.10.1016/j.ecss.2021.107322.'},
 
