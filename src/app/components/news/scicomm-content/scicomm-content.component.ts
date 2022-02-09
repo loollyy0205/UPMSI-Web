@@ -47,12 +47,42 @@ habs = [{
     locationContent: '',
   }];
 
+   kig = [{
+    title: 'The First Of Many: UP MSI’s Most Important Expedition Yet',
+    date2: '',
+    author: 'By: Mia N. Judicpa & Gabrielle A. Abrahan',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1644397404/News/Features/kig/20211019_095252_n5sjih.jpg',
+    thumbnail1: 'https://res.cloudinary.com/upmsi/image/upload/v1644397359/News/Features/kig/Screen_Shot_2021-11-29_at_11.28.53_AM_w4ytop.jpg',
+   
+
+
+    location: '',
+    locationContent: '',
+    photoContent: 'The Pag-asa Island Research Station during its soft launch.',
+    courtesy: 'PHOTO COURTESY OF Sarahmae Buen',
+    paragraph1: `A new year of Science is to be kicked off with the UP Marine Science Institute’s (UP MSI) first research expedition to Pag-asa island in the Kalayaan Island Group (KIG) for 2022.`,
+    paragraph2: `Pag-asa island has been envisioned to pilot sustainable small-island living, demonstrating systems and practices guided by science that can be applied in other existing small islands in the country, eventually helping improve their own living conditions sustainably.`,
+    paragraph3: `A new milestone for the Pag-asa Island Research Station (PIRS) is the rollout of the long-term stay program during the expedition. Five members of the science crew will be assigned on the island for approximately two to three months, testing the functionality of PIRS, the only marine research station in the entire KIG in the West Philippine Sea (WPS).`,
+    paragraph4: 'In line with this, the team will be continuing the refurbishment of PIRS that was done in previous expeditions. Furnishings, such as tables, chairs, shelves, kitchen essentials, and quarters will be installed.',
+    paragraph5: 'But more importantly, aside from the scientific research that will be conducted, this expedition will be a homecoming for our marine scientists. For the first time since the onslaught of Typhoon Odette, they will finally be able to visit Pag-asa island.',
+    paragraph6: 'As members of the local island community, UP MSI put together a donation drive to extend their help to the people. The priority for the first few days of the expedition is to provide relief and extend assistance, especially to those that need it the most. The plans include the rebuilding of houses and other infrastructure, distribution of food packs, medicine, books, and school supplies.',
+    paragraph7: 'At the end of the day, the pursuit of science alone is not enough. It must always be done as an act of service for the people and the environment.',
+    paragraph8: 'The UP MSI would like to extend its gratitude to all its partners and private entities who have donated by providing funds to purchase materials or in-kind to help the people of Pag-asa Island.',
+
+    news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1637799742/News/News%20Icons/merf/banner-final_cni12e.png", title: "UP MSI, MERF host short courses on skills development for Philippine Coast Guard", content: 'Few have been brave enough to venture the depths of the oceans. This year, microbial oceanographer Dr. Deo Florence L. Onda made history as the second human and the first Filipino to reach Emden Deep, the third deepest spot on earth.', url: 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628493886/News/wps_wypn1r.png", title: "A Revived Pag-asa Island Research Station Strengthens Philippine Marine Scientific Research in the West Philippine Sea", content: 'Years of neglect have led to the facility becoming run-down. The Upgrade CIA program...', url: 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628493886/News/wps_wypn1r.png", title: "UP MSI WPS expeditions 2021", content: 'Learn more about the latest explorations of the blue planet deep under our very own seas.', url: 'wps-expeditions'},
+      ]
+  }];
+
    
 
   myArr = [];
   giantclamBool:boolean = false;
   charlonBool:boolean = false;
   habsBool:boolean = false;
+  kigBool:boolean = false;
   
   
 
@@ -81,6 +111,12 @@ habs = [{
     if(this.router.url.includes('/News/scicomm/In-Full-Bloom')){
       this.myArr = this.habs;
       this.habsBool = true;
+    }
+
+
+    if(this.router.url.includes('/News/scicomm/The-First-Of-Many')){
+      this.myArr = this.kig;
+      this.kigBool = true;
     }
   
    

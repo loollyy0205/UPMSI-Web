@@ -41,6 +41,7 @@
   <p class="atlas-bold title" style="font:italic;margin: 0 9%">{{myArr[0].title}}</p>
   <p class="atlas-light date-name" style="font:italic; margin: 0 9%; margin-top: 5px">{{myArr[0].author}}</p>
   <p class="atlas-light date" style="color:gray !important; margin-top: 5px">{{myArr[0].date}}</p>
+  <p class="atlas-light date2" style="color:gray !important; margin-top: 5px">{{myArr[0].date2}}</p>
   <div class="center-content" *ngIf="giantclamBool" >
     <div class="box-content">
       <img [src]="myArr[0].thumbnail">
@@ -52,9 +53,23 @@
 
   </div>
 
+   <div class="center-contentkig" *ngIf="kigBool" >
+    <div class="box-contentkig">
+      <img [src]="myArr[0].thumbnail">
+      <div class="photo-boxkig">
+       <p class="atlas-light photo-content">{{myArr[0].photoContent}}</p>
+      <p class="atlas-bold photo-courtesy3">{{myArr[0].courtesy}}</p>
+      </div>
+    </div>
+
+  </div>
+
   <div style="display: grid; place-content: center;">
     <div class="bottom-content">
       <p class="atlas-bold location">{{myArr[0].location}}</p>
+
+      
+
       
       <p class="atlas-light location-content">{{myArr[0].locationContent}}</p>
       <p class="atlas-light location-content" *ngIf="giantclamBool">In the Earth's oceans, various life forms experience dwindling populations, leading to decreased marine biodiversity. Scientists worldwide persist in improving current conservation practices as our situation demands for more radical solutions to the biodiversity problem that arises from exploitation, pollution, and climate change. </p>
@@ -594,6 +609,29 @@
       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="habsBool">11. https://www.sciencedirect.com/science/article/abs/pii/S1568988320300561</p>
 
 
+        <p class="atlas-light parag1" style="line-height: 1.5; margin-top: 8% !important;">{{myArr[0].paragraph1}}</p>
+
+      <p class="atlas-light parag" style="line-height: 1.5; margin-top: 2%;">{{myArr[0].paragraph2}}</p>
+      <p class="atlas-light parag" style="line-height: 1.5; margin-top: 2%;">{{myArr[0].paragraph3}}</p>
+
+      <div class="center-contentkig1" *ngIf="kigBool">
+         <div class="box-contentkig">
+          <img [src]="myArr[0].thumbnail1">
+           <div >
+            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 10px;" *ngIf="kigBool" >A gray fabric was untied to symbolize the traditional ribbon-cutting. It was led by iRARE project leader Dr. Fernando Siringan and Pag-asa island coordinator Dennis Baña.</p>
+            <p class="atlas-light photo-courtesy2" style= "color:#384e8a; margin-top: 5px;" *ngIf="kigBool" >Photo: ABS-CBN</p>
+          </div>
+        </div>
+       </div>
+
+
+
+      <p class="atlas-light parag" style="line-height: 1.5; margin-top: 5%;">{{myArr[0].paragraph4}}</p>
+      <p class="atlas-light parag" style="line-height: 1.5; margin-top: 2%;">{{myArr[0].paragraph5}}</p>
+      <p class="atlas-light parag" style="line-height: 1.5; margin-top: 2%;">{{myArr[0].paragraph6}}</p>
+      <p class="atlas-light parag" style="line-height: 1.5; margin-top: 2%;">{{myArr[0].paragraph7}}</p>
+      <hr style="  margin-top: 5%;">
+      <p class="atlas-light parag" style="line-height: 1.5; margin-top: 5%; font-style: italic;">{{myArr[0].paragraph8}}</p>
 
   </div>
 

@@ -14,19 +14,19 @@ export class ScicommBranchComponent implements OnInit {
   }
 
   newsContent3(){
-    this.router.navigate(['/News/scicomm', 'against-the-current-how-the-giant-clams-of-the-Philippines-escaped-extinction-with-the-help-of-science-and-the-community']);
+    this.router.navigate(['/News/scicomm', 'coral-propagation']);
   }
  
   newsContent2(){
-    this.router.navigate(['/News/scicomm', 'coral-propagation']);
-  }
-
-  newsContent1(){
     this.router.navigate(['/News/scicomm', 'In-Full-Bloom']);
   }
 
-  newsContent(){
+  newsContent1(){
     this.router.navigate(['/News/alan', 'lights-off']);
+  }
+
+  newsContent(){
+    this.router.navigate(['/News/scicomm', 'The-First-Of-Many']);
   }
   
 } 
