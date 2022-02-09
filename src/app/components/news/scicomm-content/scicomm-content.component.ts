@@ -50,7 +50,7 @@ habs = [{
    kig = [{
     title: 'The First Of Many: UP MSI’s Most Important Expedition Yet',
     date2: '',
-    author: 'By: Mia N. Judicpa & Gabrielle A. Abrahan',
+    author: 'By: Gabrielle A. Abrahan & Mia N. Judicpa ',
     thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1644397404/News/Features/kig/20211019_095252_n5sjih.jpg',
     thumbnail1: 'https://res.cloudinary.com/upmsi/image/upload/v1644397359/News/Features/kig/Screen_Shot_2021-11-29_at_11.28.53_AM_w4ytop.jpg',
    
@@ -68,6 +68,7 @@ habs = [{
     paragraph6: 'As members of the local island community, UP MSI put together a donation drive to extend their help to the people. The priority for the first few days of the expedition is to provide relief and extend assistance, especially to those that need it the most. The plans include the rebuilding of houses and other infrastructure, distribution of food packs, medicine, books, and school supplies.',
     paragraph7: 'At the end of the day, the pursuit of science alone is not enough. It must always be done as an act of service for the people and the environment.',
     paragraph8: 'The UP MSI would like to extend its gratitude to all its partners and private entities who have donated by providing funds to purchase materials or in-kind to help the people of Pag-asa Island.',
+    paragraph9: 'For this expedition, the team will be carrying out the next plans for the Initial Repair and Refurbishment of the Pag-asa station (IRARE) project under the Upgrading Capability, Infrastructure and Assets (UPGRADE-CIA) program, which is supported by the National Security Council (NSC). The delegation also includes members from the Department of Environment and Natural Resources - Environmental Management Bureau (DENR - EMB) and National Mapping and Resource Information Authority (NAMRIA). ',
 
     news: [
       {image: "https://res.cloudinary.com/upmsi/image/upload/v1637799742/News/News%20Icons/merf/banner-final_cni12e.png", title: "UP MSI, MERF host short courses on skills development for Philippine Coast Guard", content: 'Few have been brave enough to venture the depths of the oceans. This year, microbial oceanographer Dr. Deo Florence L. Onda made history as the second human and the first Filipino to reach Emden Deep, the third deepest spot on earth.', url: 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard'},

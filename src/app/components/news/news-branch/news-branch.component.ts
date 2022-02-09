@@ -14,15 +14,15 @@ export class NewsBranchComponent implements OnInit {
   }
 
   newsContent(){
-    this.router.navigate(['/News/content', 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard']);
+    this.router.navigate(['/News/scicomm', 'The-First-Of-Many']);
   }
   newsContent1(){
-    this.router.navigate(['/News/content', 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea']);
+    this.router.navigate(['/News/content', 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard']);
   }
   newsContent2(){
-    this.router.navigate(['/News/content', 'wps-expeditions']);
+    this.router.navigate(['/News/content', 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea']);
   }
   newsContent3(){
-    this.router.navigate(['/News/content', 'NARFleet-is-on-its-way-to-prowl-Philippine-waters']);
+    this.router.navigate(['/News/scicomm', 'wps-expeditions']);
   }
 }

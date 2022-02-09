@@ -9,8 +9,6 @@ import { Component, OnInit } from '@angular/core';
 export class MoreScicommComponent implements OnInit {
   news=[
 
-     {image: "https://res.cloudinary.com/upmsi/image/upload/v1644400743/News/Features/kig/thumbnail-1_lwwpci.png",  title: "The First Of Many: UP MSI’s Most Important Expedition Yet", content: 'A new year of Science is to be kicked off with the UP Marine Science Institute’s (UP MSI) first research expedition to Pag-asa...'},
-
      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643598465/News/Features/alan/Banner_Mobile_rsorle.png",  title: "Lights Off: How does light pollution affect a coral’s little inhabitants?", content: ' Good bacteria roam the human skin freely, forming an additional protective layer against pathogens. They make up a part  of the human microbiota...'},
 
      {image: "https://res.cloudinary.com/upmsi/image/upload/v1635907412/News/Features/HABS/Bloom_of_diatoms_jamqyb.jpg",  title: "In Full Bloom: Predicting HAB events using A.I.", content: 'When the monsoon winds take over and the conditions are right, algae can multiply like crazy. In their recently published collaborative work, Dr. Aletta Yñiguez and Ms. Zheina Ottong...'},
@@ -35,18 +33,15 @@ export class MoreScicommComponent implements OnInit {
   newsContent(i){
     switch(i) {
     case 0:
-        this.router.navigate(['/News/scicomm', 'The-First-Of-Many']);
-        break;
-    case 1:
         this.router.navigate(['/News/alan', 'lights-off']);
         break;
-    case 2:
+      case 1:
         this.router.navigate(['/News/scicomm/', 'In-Full-Bloom']);
         break;
-    case 3:
+        case 2:
         this.router.navigate(['/News/scicomm', 'coral-propagation']);
         break;
-    case 4:
+        case 3:
         this.router.navigate(['/News/scicomm', 'against-the-current-how-the-giant-clams-of-the-Philippines-escaped-extinction-with-the-help-of-science-and-the-communityIn-Full-Bloom']);
         break;
               

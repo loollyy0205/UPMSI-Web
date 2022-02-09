@@ -9,6 +9,9 @@ import { Location } from '@angular/common';
 })
 export class MoreNewsComponent implements OnInit {
   news=[
+
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1644400743/News/Features/kig/thumbnail-1_lwwpci.png",  title: "The First Of Many: UP MSI’s Most Important Expedition Yet", content: 'A new year of Science is to be kicked off with the UP Marine Science Institute’s (UP MSI) first research expedition to Pag-asa...'},
+
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1637799742/News/News%20Icons/merf/banner-final_cni12e.png",  title: "UP MSI, MERF host short courses on skills development for Philippine Coast Guard", content: 'The UP Marine Science Institute (UP MSI) and the Marine Environment and Resources Foundation, Inc....'},
 
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1630638350/News/Features/pirs/01-header_y6d9oj.png",  title: "A Revived Pag-asa Island Research Station Strengthens Philippine Marine Scientific Research in the West Philippine Sea", content: 'Years of neglect have led to the facility becoming run-down. The Upgrade CIA program...'},
@@ -35,24 +38,27 @@ export class MoreNewsComponent implements OnInit {
   newsContent(i){
     switch(i) {
       case 0:
-        this.router.navigate(['/News/content', 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard']);
+        this.router.navigate(['/News/scicomm', 'The-First-Of-Many']);
         break;
       case 1:
-        this.router.navigate(['/News/content', 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea']);
+        this.router.navigate(['/News/content', 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard']);
         break;
       case 2:
-        this.router.navigate(['/News/content', 'wps-expeditions']);
+        this.router.navigate(['/News/content', 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea']);
         break;
       case 3:
+        this.router.navigate(['/News/content', 'wps-expeditions']);
+        break;
+      case 4:
         this.router.navigate(['/News/content', 'NARFleet-is-on-its-way-to-prowl-Philippine-waters']);
         break;
-       case 4:
+       case 5:
         this.router.navigate(['/News/content', 'all-about-the-giant-clam']);
         break; 
-      case 5:
+      case 6:
         this.router.navigate(['/News/content', 'UPMSI-scientists-receive-accolades-from-NAST']);
         break;
-      case 6:
+      case 7:
         this.router.navigate(['/News/content', 'filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth']);
         break;
     }
