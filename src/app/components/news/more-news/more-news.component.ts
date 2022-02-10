@@ -10,7 +10,7 @@ import { Location } from '@angular/common';
 export class MoreNewsComponent implements OnInit {
   news=[
 
-    {image: "https://res.cloudinary.com/upmsi/image/upload/v1644400743/News/Features/kig/thumbnail-1_lwwpci.png",  title: "The First Of Many: UP MSI’s Most Important Expedition Yet", content: 'A new year of Science is to be kicked off with the UP Marine Science Institute’s (UP MSI) first research expedition to Pag-asa...'},
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1644400743/News/Features/kig/thumbnail-1_lwwpci.png",  title: "The First of Many: A Research Expedition Beyond Science Going Beyond Science: An Expedition for the People", content: 'A new year of Science is to be kicked off with the UP Marine Science Institute’s (UP MSI) first...'},
 
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1637799742/News/News%20Icons/merf/banner-final_cni12e.png",  title: "UP MSI, MERF host short courses on skills development for Philippine Coast Guard", content: 'The UP Marine Science Institute (UP MSI) and the Marine Environment and Resources Foundation, Inc....'},
 
