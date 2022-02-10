@@ -48,7 +48,7 @@ habs = [{
   }];
 
    kig = [{
-    title: 'The First of Many: A Research Expedition Beyond Science Going Beyond Science: An Expedition for the People',
+    title: 'The First of Many: A Research Expedition Beyond Science',
     date2: '',
     author: 'By: Gabrielle A. Abrahan & Mia N. Judicpa ',
     thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1644397404/News/Features/kig/20211019_095252_n5sjih.jpg',
