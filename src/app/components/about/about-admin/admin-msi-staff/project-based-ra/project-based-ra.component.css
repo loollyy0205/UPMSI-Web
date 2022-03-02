@@ -14,6 +14,10 @@ mat-expansion-panel{
   background-color: #fafafa;
 }
 
+mat-expansion-panel-header {
+    height: 7% !important;
+}
+
 /* ::ng-deep .specific-class > .mat-expansion-indicator:after {
   color: white;
 } */

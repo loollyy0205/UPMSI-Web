@@ -367,6 +367,8 @@ export class PublicationListComponent implements OnInit {
 
     {content: "Requilme, J.N.C, Conaco, C., Sayco, S.L.G., Roa-Quiaoit, H.A., Cabaitan, P.C. (2021). Using citizen science and survey data to determine the recruitment envelope of the giant clam, Tridacna gigas (Cardiidae: Tridacninae). Ocean and Coastal Management, 202, Article Number 105515."},
 
+     {content: "Reyes, M., San Diego-McGlone, M.L., Pavia, R., Opiňa, J., Isah, R., Magyaya, R., Morris, J., Tamayo, N., Licianan, W. (2022). Low pH and low coral cover at a shallowhydrothermal vent site in Batangas, Philippines. Philippine Journal ofScience. 151 (2): 665-670."},
+
     {content: "Rioja, R.A., Palomar-Abesamis, N., Juinio-Meñez, M.A. (2021). Associated effects of shading on the behavior, growth, and survival of Stichopus cf. horrens juveniles. Aquaculture International 29(5), pp. 1991-2007."},
 
     {content: "Rioja, R.A., Palomar-Abesamis, N., Juinio-Meñez, M.A. (2021). Correction to: Associated effects of shading on the behavior, growth, and survival of Stichopus cf. horrens juveniles (Aquaculture International, (2021), 29, 5, (1991-2007), 10.1007/s10499-021-00732-3). Aquaculture International."},

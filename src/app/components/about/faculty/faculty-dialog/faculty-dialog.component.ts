@@ -74,7 +74,7 @@ export class FacultyDialogComponent implements OnInit {
     ]},
 
 
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627980977/About/03%20Faculty/03-Patrick_C._Cabaitan_Ph.D._u6eik7.jpg', name: 'Patrick C. Cabaitan, Ph.D.', email: 'pcabaitan@msi.upd.edu.ph', citation: 'https://scholar.google.com/citations?user=QTjEtokAAAAJ&hl=en', title1: 'Associate Professor', education1: 'Ph.D. Marine Science', education2: 'University of the Ryukus, Japan', RI: 'Community Ecology, Restoration Ecology, Giant Clam Conservation',
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627980977/About/03%20Faculty/03-Patrick_C._Cabaitan_Ph.D._u6eik7.jpg', name: 'Patrick C. Cabaitan, Ph.D.', email: 'pcabaitan@msi.upd.edu.ph', citation: 'https://scholar.google.com/citations?user=QTjEtokAAAAJ&hl=en', title1: 'Professor', education1: 'Ph.D. Marine Science', education2: 'University of the Ryukus, Japan', RI: 'Community Ecology, Restoration Ecology, Giant Clam Conservation',
     publication: [
       {publi: 'Tabalanza TD, Jamodiong EA, Diaz LA, Tañedo MCS, Leriorato JC, Villanueva RD, Cabaitan PC. 2020. Successfully cultured and reared coral embryos from wild caught spawn slick in the Philippines. Aquaculture, 525: 734354'},
       {publi: 'Quimpo TJR, Ligson CA, Manogan DP, Requilme JNC, Albelda RL, Conaco C, Cabaitan PC. 2020. Fish farm effluents alter reef benthic assemblages and reduce coral settlement. Mar. Pollut. Bull., 153:111025.'},
@@ -117,7 +117,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Cabaitan, P.C., W.Y. Licuanan, and E.D. Gomez. (2007). Comparison between videographic and photographic methods in assessing coral reef benthic communities. Science Diliman 19(1): 7-13. *Nominated for the National Academy of Science and Technology (NAST) Outstanding Scientific Paper Award, Philippines'},
       {publi: 'Gomez, E.D., P.C. Cabaitan, and K.C. Vicentuan. (2006). Coral culture and transplantation and restocking of giant clams in the Philippines. In: Proceedings of the Regional Technical Consultation on Stock Enhancement for Threatened Species of International Concern, 13- 15 July 2005. Iloilo City, Philippines.'},
     ]},
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627980973/About/03%20Faculty/04-Ma._Cecilia_G._Conaco_Ph.D._e1xcle.jpg', name: 'Cecilia G. Conaco, Ph.D.', email: 'cconaco@msi.upd.edu.ph', citation: 'https://scholar.google.com/citations?user=xAYEl4sAAAAJ&hl=en', title1: 'Associate Professor', education1: 'Ph.D. Molecular and Cellular Biology ', education2: 'Stony Brook University, U.S.A.', RI: 'Cecilia is fascinated by neuronal development and early animal evolution. She is also interested in the regulatory networks that control gene expression dynamics underlying the ability of many marine organisms to rapidly respond and adapt to their environment.',
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627980973/About/03%20Faculty/04-Ma._Cecilia_G._Conaco_Ph.D._e1xcle.jpg', name: 'Cecilia G. Conaco, Ph.D.', email: 'cconaco@msi.upd.edu.ph', citation: 'https://scholar.google.com/citations?user=xAYEl4sAAAAJ&hl=en', title1: 'Professor', education1: 'Ph.D. Molecular and Cellular Biology ', education2: 'Stony Brook University, U.S.A.', RI: 'Cecilia is fascinated by neuronal development and early animal evolution. She is also interested in the regulatory networks that control gene expression dynamics underlying the ability of many marine organisms to rapidly respond and adapt to their environment.',
     publication: [
       {publi: 'Quimpo TJR, Ligson CA, Manogan DP, Requilme JNC, Albelda RL, Conaco C, Cabaitan PC. 2020. Fish farm effluents alter reef benthic assemblages and reduce coral settlement. Mar. Pollut. Bull., 153:111025.'},
       {publi: 'Conaco C, Cabaitan PC. 2020. Influence of salinity and temperature on the surivival and settlement of Helipora coerulea larvae. Mar. Pollut. Bull., 150:110703.'},
@@ -170,7 +170,7 @@ export class FacultyDialogComponent implements OnInit {
       publication: [
     ]},
 
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981158/About/03%20Faculty/faculty-cropped2/07-Rachel_June_R._Gotanco_Ph.D._yn43rf.jpg', name: 'Rachel June Ravago-Gotanco, Ph.D.', email: 'rrgotanco@msi.upd.edu.ph', citation: 'https://scholar.google.com.ph/citations?user=RaRuPq0AAAAJ&hl=fil', title1: 'Associate Professor', badge: 'Deputy Director for Instruction', education1: 'Ph.D. Marine Science', education2: 'University of Philippines, Quezon City, Philippines', RI: 'Molecular Ecology and Evolution, Population Genetics, Phylogeography',
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981158/About/03%20Faculty/faculty-cropped2/07-Rachel_June_R._Gotanco_Ph.D._yn43rf.jpg', name: 'Rachel June Ravago-Gotanco, Ph.D.', email: 'rrgotanco@msi.upd.edu.ph', citation: 'https://scholar.google.com.ph/citations?user=RaRuPq0AAAAJ&hl=fil', title1: 'Professor', badge: 'Deputy Director for Instruction', education1: 'Ph.D. Marine Science', education2: 'University of Philippines, Quezon City, Philippines', RI: 'Molecular Ecology and Evolution, Population Genetics, Phylogeography',
     publication: [
       {publi: 'Ravago-Gotanco R, Kim KM (2019) Regional genetic structure of sandfish Holuthuria (Metriatyla) scabra populations across the Philippine archipelago. Fish. Res. 209:143-155.'},
       {publi: 'Torres AF, Ravago-Gotanco R (2018) Rarity of the "common" coral Pocillopora damicornis in the western Philippine archipelago. Coral  Reefs.'},
@@ -230,7 +230,7 @@ export class FacultyDialogComponent implements OnInit {
       {publi: 'Jaraula CMB, Kenig F, Doran PT, Priscu JC, Welch KA, 2008. SPME-GCMS study of the natural attenuation of aviation diesel on the perennial ice cover of Lake Fryxell, Antarctica. Science of the Total Environment 407, 1, 250-262. DOI:10.1016/j.scitotnv.2008.07.064.'},
       {publi: 'Ong JB, Aguda N, Jaraula CMB, Mateo ZRP, Pascua C, Foronda J, 2000. Tidal Effects on Groundwater in a very small tropical island, Science Diliman, Philippines.'},
     ]},
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627980976/About/03%20Faculty/10-Arturo_O._Lluisma_Ph.D._bud5ot.jpg', name: 'Arturo O. Lluisma, Ph.D.', email: 'aolluisma@up.edu.ph ', education1: 'Ph.D. Biology, Dalhousie University, Canada', RI: 'Marine genomics, molecular genetics, and bioinformatics; phylogenetics and genetic diversity; algal and microbial biotechnology', citation: 'https://scholar.google.com/citations?user=bWdN5J8AAAAJ&hl=en', title1: 'Research Associate Professor ',
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627980976/About/03%20Faculty/10-Arturo_O._Lluisma_Ph.D._bud5ot.jpg', name: 'Arturo O. Lluisma, Ph.D.', email: 'aolluisma@up.edu.ph ', education1: 'Ph.D. Biology, Dalhousie University, Canada', RI: 'Marine genomics, molecular genetics, and bioinformatics; phylogenetics and genetic diversity; algal and microbial biotechnology', citation: 'https://scholar.google.com/citations?user=bWdN5J8AAAAJ&hl=en', title1: 'Professor',
 /**
 edited the badges
 */
@@ -384,7 +384,7 @@ edited the badges
       {publi: 'Onda DFL, Lovejoy C. (Submitted). Dinoflagellates in size fractionated samples from the Canada Basin, Western Arctic Ocean. The Journal of Eukaryotic Microbiology.'},
       {publi: 'Joli N, Ardyna M, Onda DFL, Babin M, Gosslin M, Lovejoy C. (Submitted). Baffin Bay: The Janus Gateway. Scientific Reports.'},
     ]},
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627980978/About/03%20Faculty/13-Ma._Josefa_Pante_xausky.jpg', name: 'Ma. Josefa R. Pante, Ph.D.', email: 'mjpante@msi.upd.edu.ph', citation: 'https://scholar.google.com.ph/citations?user=QFSfYt8AAAAJ&hl=tl&oi=ao', title1: 'Professor', badge: 'Deputy Director, UP MSI-Bolinao Marine Laboratory ', education1: 'Ph.D. Animal Breeding and Genetics', education2: 'University of Guelph, Canada', RI: 'Quantitative genetics ',
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627980978/About/03%20Faculty/13-Ma._Josefa_Pante_xausky.jpg', name: 'Ma. Josefa R. Pante, Ph.D.', email: 'mjpante@msi.upd.edu.ph', citation: 'https://scholar.google.com.ph/citations?user=QFSfYt8AAAAJ&hl=tl&oi=ao', title1: 'Research Professor', badge: 'Deputy Director, UP MSI-Bolinao Marine Laboratory ', education1: 'Ph.D. Animal Breeding and Genetics', education2: 'University of Guelph, Canada', RI: 'Quantitative genetics ',
     publication: [
       {publi: 'Labrador K, Agmata A, Palermo JD, Follante J, Pante MJ. 2019. Authentication of processed Philippine sardine products using Hotshot DNA extraction and minibarcode amplification. Food Control 95:150-155'},
       {publi: 'Ravago-Gotanco R, de la Cruz TL, Pante JM, Borsa P. 2018. Cryptic genetic diversity in the mottled rabbitfish Siganus fuscescens with mitochondrial introgression at a contact zone in the South China Sea. PLoS ONE 13(2):1–27. '},
@@ -431,7 +431,7 @@ edited the badges
      */
     ]},
 
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981091/About/03%20Faculty/Faculty-Cropped/15-Lilibeth_S._Reyes_Ph.D._copy_o0vs3d.jpg', name: 'Lilibeth A. Salvador-Reyes, Ph.D.', email: 'lsreyes@msi.upd.edu.ph ', citation: 'https://scholar.google.com/citations?user=xJwDExgAAAAJ&hl=en', title1: 'Associate Professor', education1: 'Ph.D. in Pharmaceutical Sciences-Medicinal Chemistry', education2: 'University of Florida', RI: 'Medicinal and Natural Products Chemistry, Biochemistry, Pharmacology',
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981091/About/03%20Faculty/Faculty-Cropped/15-Lilibeth_S._Reyes_Ph.D._copy_o0vs3d.jpg', name: 'Lilibeth A. Salvador-Reyes, Ph.D.', email: 'lsreyes@msi.upd.edu.ph ', citation: 'https://scholar.google.com/citations?user=xJwDExgAAAAJ&hl=en', title1: 'Professor', education1: 'Ph.D. in Pharmaceutical Sciences-Medicinal Chemistry', education2: 'University of Florida', RI: 'Medicinal and Natural Products Chemistry, Biochemistry, Pharmacology',
     publication: [
       {publi: 'Olano DEB, Salvador-Reyes LA, Montaño MNE, Azanza RV. 2020. Sorpiton of paralytic shellfish toxins (PSTs) in algal polysaccharide gels. Algal Research 45:101655.'},
       {publi: 'Tun JO, Salvador-Reyes LA, Velarde MC, Saito N, Suwanborirux K, Concepcion GP. (2019). Synergistic cytotoxicity of Renieramycin M and Doxorubicin in MCF-7 breast cancer cells. Marine Drugs, 17(9):536.'},
@@ -468,7 +468,7 @@ edited the badges
       {publi: 'Rodriguez IB and Ho T-Y (2015) Influence of cobalt and B12 on the growth and N2 fixation of Trichodesmium. Frontiers in Microbiology, 6:623. doi: 10.3389/fmicb.2015'},
       {publi: 'Rodriguez IB and Ho T-Y (2014) Diel nitrogen fixation pattern of Trichodesmium: the interactive control of light and Ni. Scientific Reports, Vol. 4. doi: 10.1038/srep04445 '},
     ]},
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981160/About/03%20Faculty/faculty-cropped2/17-Maria_Vanessa_B._Rodriguez_Ph.D._copy_ofwd4w.jpg', name: 'Maria Vanessa B. Rodriguez, Ph.D.', email: 'vrodriguez@msi.upd.edu.ph', citation: 'https://scholar.google.com/citations?user=E94YNiYAAAAJ&hl=en', title1: 'Assistant Professor', education1: 'Ph.D. in Marine and Environmental Science', education2: 'University of the Ryukus, Okinawa, Japan ', RI: 'Coral reef ecology, Coral reproduction and recruitment, Coral physiology, Coral restoration',
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981160/About/03%20Faculty/faculty-cropped2/17-Maria_Vanessa_B._Rodriguez_Ph.D._copy_ofwd4w.jpg', name: 'Maria Vanessa B. Rodriguez, Ph.D.', email: 'vrodriguez@msi.upd.edu.ph', citation: 'https://scholar.google.com/citations?user=E94YNiYAAAAJ&hl=en', title1: 'Associate Professor', education1: 'Ph.D. in Marine and Environmental Science', education2: 'University of the Ryukus, Okinawa, Japan ', RI: 'Coral reef ecology, Coral reproduction and recruitment, Coral physiology, Coral restoration',
     publication: [
       {publi: 'Baria-Rodriguez MV, dela Cruz DW, Dizon, RM, Yap HT, Villanueva RD. Performance and cost‐ effectiveness of sexually produced Acropora granulosa juveniles compared with asexually generated coral fragments in restoring degraded reef areas. 2019. Aquatic Conservation: Marine Freshwater Ecosystem. 2019;1–10. (Impact factor: 2.988)'},
       {publi: 'Benjamin C, Punongbayan A, dela Cruz DW, Villanueva R, Baria MV, Yap HT. Use of Bayesian analysis with individual-based modelling to project outcomes of coral restoration. 2016. Restoration Ecology. In press. (Impact factor: 1.838)'},
@@ -587,7 +587,7 @@ edited the badges
       {publi: 'Marquez, G.P.B., W.J.E. Santiañez, G. C. Trono, Jr., M.N.E. Montaño, H. Araki, H. Takeuchi and T. Hasegawa. 2014. Seaweed biomass of the Philippines: Sustainable feedstock for biogas production. Renewable and Sustainable Energy Reviews 38: 1056–1068.'},
       {publi: 'Santiañez, W.J.E. and G. C. Trono, Jr. 2013. Taxonomy of the genus Sargassum (Fucales, Phaeophyceae) in Alabat Island, Quezon, Northeastern Philippines. Science Diliman 25: 29–50.'},
     ]},
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981090/About/03%20Faculty/Faculty-Cropped/20-Dr._Siringan_copy_awphpb.jpg', name: 'Fernando P. Siringan, Ph.D.', email: 'fpsiringan@msi.upd.edu.ph ', citation: 'https://scholar.google.com/citations?user=SutF8LwAAAAJ&hl=en', title1: 'Professor', badge: 'Academician of the National Academy of Science and Technology (NAST)', education1: 'Ph.D. in Geology', education2: 'Rice University, U.S.A.', RI: 'Marine and Coastal Geology, Sedimentology, Seismic Stratigraphy',
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981090/About/03%20Faculty/Faculty-Cropped/20-Dr._Siringan_copy_awphpb.jpg', name: 'Fernando P. Siringan, Ph.D.', email: 'fpsiringan@msi.upd.edu.ph ', citation: 'https://scholar.google.com/citations?user=SutF8LwAAAAJ&hl=en', title1: 'Research Professor', badge: 'Academician of the National Academy of Science and Technology (NAST)', education1: 'Ph.D. in Geology', education2: 'Rice University, U.S.A.', RI: 'Marine and Coastal Geology, Sedimentology, Seismic Stratigraphy',
     publication: [
       {publi: 'Jackisch D, Yeo B-X, Switzer AD, He S, Cantarero DLM, Siringan FP, Goodkin NF. 2020. Precipitation stable isotopic signatures of tropical cyclones in Metropolitan Manila, Philippines show significant negative isotopic excursions. Earth Syst. Sci. Discuss.'},
       {publi: 'Servonnat M, Kaye R, Siringan FP, Munar J, Yap HT. 2019. Imperatives for conservation in a threatened center of biodiversity. Coast Manage., 47(5):453-472.'},
@@ -926,7 +926,7 @@ edited the badges
 
     ]},
 
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981099/About/03%20Faculty/Faculty-Cropped/23-Aletta_T._Y%C3%B1iguez_Ph.D._copy_cgw1zi.jpg', name: 'Aletta T. Yñiguez, Ph.D.', email: 'atyniguez@msi.upd.edu.ph', citation: 'https://scholar.google.com.ph/citations?user=99SCGvAAAAAJ&hl=en', title1: 'Associate Professor', education1: 'Ph.D. Marine Biology and Fisheries ', education2: 'University of Miami, U.S.A.', RI: 'Marine Ecology, Biological Oceanography, Ecological Modelling, Dynamics of Marine Systems ',
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981099/About/03%20Faculty/Faculty-Cropped/23-Aletta_T._Y%C3%B1iguez_Ph.D._copy_cgw1zi.jpg', name: 'Aletta T. Yñiguez, Ph.D.', email: 'atyniguez@msi.upd.edu.ph', citation: 'https://scholar.google.com.ph/citations?user=99SCGvAAAAAJ&hl=en', title1: 'Professor', education1: 'Ph.D. Marine Biology and Fisheries ', education2: 'University of Miami, U.S.A.', RI: 'Marine Ecology, Biological Oceanography, Ecological Modelling, Dynamics of Marine Systems ',
     publication: [
       /**
       edited9: publi: 'YYñiguez AT, *removed the double Y (4)
@@ -1187,7 +1187,9 @@ edited the badges
      {publi: 'Cordero-Bailey, K., I.S.F. Bollozos, J.D.H. Palermo, K.M. Silvano, M.T.L. Escobar, G.S. Jacinto, M.L. San Diego-McGlone, L.T. David, A.T. Yñiguez.  2021.  Characterizing the vertical phytoplankton distribution in the Philippine Sea off the northeastern coast of Luzon.  Estuarine, Coastal and Shelf Science 254: 107322, Doi.10.1016/j.ecss.2021.107322.'},
 
 
-    {publi: 'Yoshikai, M., T. Nakamura, Y. Tanaka, M. Nakaoka, A. Watanabe, E. Herrera, T. Tshuchiya, T. Miyajima, M.L. San Diego-McGlone, M.D. Fortes, A.C. Blanco, A.M. Tamondong, K. Nadaoka.  2021.  Modeling seagrass bed dynamics under environmental impacts of intensive mariculture activities in Bolinao and Anda, the Philippines.  2020.  Estuarine, Coastal and Shelf Science 250: 107152, Doi.10.1016/j.ecss  2020.107152.'},
+     {publi: 'Yoshikai, M., T. Nakamura, Y. Tanaka, M. Nakaoka, A. Watanabe, E. Herrera, T. Tshuchiya, T. Miyajima, M.L. San Diego-McGlone, M.D. Fortes, A.C. Blanco, A.M. Tamondong, K. Nadaoka.  2021.  Modeling seagrass bed dynamics under environmental impacts of intensive mariculture activities in Bolinao and Anda, the Philippines.  2020.  Estuarine, Coastal and Shelf Science 250: 107152, Doi.10.1016/j.ecss  2020.107152.'},
+
+     {publi: 'Reyes, M., San Diego-McGlone, M.L., Pavia, R., Opiňa, J., Isah, R., Magyaya, R., Morris, J., Tamayo, N., Licianan, W. (2022). Low pH and low coral cover at a shallow hydrothermal vent site in Batangas, Philippines. Philippine Journal of Science. 151 (2): 665-670.'},
     ]},
 
     
