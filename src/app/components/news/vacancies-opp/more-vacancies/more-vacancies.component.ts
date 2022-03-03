@@ -8,11 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MoreVacanciesComponent implements OnInit {
   vacancies= [
-  /**
-  edited: changed writter to writers in 1st article
-  
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1628147007/News/crop1_n1jb3u.jpg', title: 'Q.A, Copywriters, Content Writers', date:'April 09, 2021'},
-    */
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1646265290/News/MB-crop_mpdihx.png', title: 'Marine Biologist', date: ''},
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1646265290/News/CO-crop_buzuqs.png', title: 'Chemical Oceanographer or Marine Chemist'},
+
    
     ]
   constructor(private router:Router) { }
@@ -22,11 +20,13 @@ export class MoreVacanciesComponent implements OnInit {
 
   moreContent(i){
     switch(i) {
-      /**
       case 0:
-        this.router.navigate(['/News/vacancies-&-opportunities/', 'job-opportunity-msi-apr9']);
+        this.router.navigate(['/News/vacancies-&-opportunities/', 'mb']);
         break;
-     */
+      case 1:
+        this.router.navigate(['/News/vacancies-&-opportunities/', 'co']);
+        break;  
+     
     }
   }
 
