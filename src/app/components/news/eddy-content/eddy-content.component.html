@@ -1,0 +1,378 @@
+
+
+<!--<div class="center-content2" id="content-desktop" *ngIf="panayBool" style="margin-top: 1.5vw; ">
+         <div class="box-content2" id="content-desktop">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1632913881/News/Features"panay/updated-sep29-coral-1_copy_ippms9.mp4"></video>
+        </div>
+
+        </div>
+
+        <div class="center-content2" id="content-mobile" *ngIf="panayBool" style="margin-top: 1.5vw;">
+
+        <div class="box-content7" id="content-mobile">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1632917274/News/Features"panay/updated2-mobile-banner_dcjpyj.mp4"></video>
+        </div>
+        </div>-->
+     
+ 
+
+        
+<div class="container  animate__animated animate__fadeIn animate__delay-1s">
+  <div class="center-content2" id="content-desktop" *ngIf="panayBool">
+         <div class="box-content2" id="content-desktop">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1646622153/News/Features/eddy/banner-1_hdlkvr.mp4"></video>
+          <!--<img src="https://res.cloudinary.com/upmsi/image/upload/v1643598456/News/Features/alan/Banner_Desktop_iq3wor.png" alt="header" /> -->
+        </div>
+
+       
+
+        </div>
+
+        <div class="center-content2" id="content-mobile" *ngIf="panayBool">
+
+        <div class="box-content7" id="content-mobile">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1646622266/News/Features/eddy/mobile-banner-1_aimppr.mp4"></video>
+          <!--<img src="https://res.cloudinary.com/upmsi/image/upload/v1643598465/News/Features/alan/Banner_Mobile_rsorle.png" alt="header" />--> 
+        </div>
+
+      
+        </div>
+
+
+  <p class="atlas-bold title" style="font:italic;margin: 0 9%">{{myArr[0].title}}</p>
+  <p class="atlas-light date-name" style="font:italic; margin: 0 9%; margin-top: 5px">{{myArr[0].author}}</p>
+  <p class="atlas-light date" style="color:gray !important; margin-top: 5px">{{myArr[0].date}}</p>
+
+ 
+
+  <div style="display: grid; place-content: center;">
+    <div class="bottom-content">
+      <p class="atlas-bold location">{{myArr[0].location}}</p>
+      
+      <p class="atlas-light location-content">{{myArr[0].locationContent}}</p>
+      
+
+       <div class="author">
+          <p class="atlas-light location-content" *ngIf="panayBool"><strong>By. Mia N. Judicpa & Gabrielle A. Abrahan</strong><br>March 7, 2022</p>
+        </div>
+
+      <div style= "margin-top: 3vw;">
+        <img class="fb" *ngIf="panayBool" src="../../../../assets/photos/fblink.png">
+        <img class="twitter"  *ngIf="panayBool" src="../../../../assets/photos/twitter-link.png">
+      </div>
+      <p class="atlas-light location-content" *ngIf="panayBool">Around four months a year, we experience a respite from our tropical climate when the weather starts to chill. During Christmas, we wear thick clothes as winds from Siberia and China descend upon our mornings and bring with them good — and <em>cold</em> — tidings.</p>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">These winds prevail during the northeast monsoon season, which we know locally as <em>Amihan</em>. It is one of the two seasons our country experiences annually. They visit us from November to late March, and are followed by the winds that blow during the southeast monsoon season, called <em>Habagat</em>, after the transition months of April–May.</p>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">How do these winds interact with our waters and islands? What else do these winds bring?</p>
+
+
+      
+
+         <!--<div class="center-content" *ngIf="panayBool">
+         <div class="box-content6">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1643606987/News/Features/alan/collage1_-_Copy_oklziv.png" />
+         </div>
+         <div class="box-content04" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:gray; margin-top: 10px;" *ngIf="panayBool" >Day & Night Cycle</p>
+           <p class="atlas-light photo-courtesy2" style= "color:gray; margin-top: 10px;" *ngIf="panayBool" >Illustration: Martina Salazar
+</p>
+          </div>
+        </div>
+       </div>    --> 
+
+       <p class="atlas-light location-content2" *ngIf="panayBool">Weather in the ocean</p>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">The winds interact with the ocean to generate currents that redistribute heat around the world, thereby regulating and stabilizing climate patterns. Ocean currents may also be driven by the earth’s rotation, the tides, and by differences in water density.</p>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">If you zoom out, you will see large circular ocean currents formed by global wind patterns and forces created by Earth’s rotation called gyres. Five major gyres occupy the earth’s oceans: the North and South Pacific Subtropical Gyres, the North and South Atlantic Subtropical Gyres, and the Indian Ocean Subtropical Gyre. Aside from the larger and more permanent gyres, there are many types of currents:  eddies, whirlpools, deep ocean currents, and jet streams.<sup>1</sup></p>
+
+        <div class="box-contentyt" *ngIf="myArr[0].thumbnail" style="margin-top: 45px;">
+      <iframe [src]="myArr[0].thumbnail | safe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+
+
+       <p class="atlas-light location-content" *ngIf="panayBool">Eddies at the back of an island form when stronger winds interact with the rugged terrain of the island or an oceanic flow passes the island. They are vortex-like phenomena that can last for months, and may be as small as a couple of centimeters or as large as hundreds of kilometers across. The swirling motion of eddies causes nutrients normally found in colder, deeper waters to rise to the surface. With enough light for photosynthesis to occur, this process influences the biological productivity of the area.<sup>2-5</sup></p>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">Mesoscale (large-scale, less than 100 km) eddies are frequently observed in the seas around and within the Philippine archipelago. The multitude of embayments and isolated deep seas within a network of interconnecting straits, coupled with the complex bathymetry of the ocean floor and the rugged topography of the Philippines, all contribute to the formation of eddies.</p>
+
+       <!--<div class="center-content" *ngIf="panayBool" >
+         <div class="box-content5" id="content-desktop">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1643598650/News/Features/alan/final-ALAN-diagram-1_ifiwzb.mov"></video>
+         </div>
+         <div class="box-content4b" style="margin-top: .5vw! important;" id="content-desktop">
+          <div class="mob3">
+           <p class="atlas-light photo-courtesy" style= "color:gray;" *ngIf="panayBool">Baquiran and the team dove into the Caniogan Reef of the Bolinao-Anda Reef Complex (Pangasinan, Northwestern Philippines) to collect 45 colonies of A. digitifera. These colonies were allowed to adjust to their new environment for 21 days, then segregated into three tanks, each subjected to a different light treatment every night: cold (bluish) white LED, warm (yellowish) white LED, and ambient light treatment (as the control group).</p>
+           <p class="atlas-light photo-courtesy" style= "color:gray; margin-top: 8px;" *ngIf="panayBool">Graphics: Roy Corvera</p>
+          </div>
+        </div>
+
+        <div class="box-content5" id="content-mobile">
+          <video width="1920" height="1080" [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1643598623/News/Features/alan/ALAN-diagram-mobile-1_eaqkx6.mov"></video>
+         </div>
+         <div class="box-content4b" style="margin-top: .5vw! important;" id="content-mobile">
+          <div class="mob3">
+           <p class="atlas-light photo-courtesy" style= "color:gray; margin-top: 0px;" *ngIf="panayBool">Baquiran and the team dove into the Caniogan Reef of the Bolinao-Anda Reef Complex (Pangasinan, Northwestern Philippines) to collect 45 colonies of A. digitifera. These colonies were allowed to adjust to their new environment for 21 days, then segregated into three tanks, each subjected to a different light treatment every night: cold (bluish) white LED, warm (yellowish) white LED, and ambient light treatment (as the control group).</p>
+          <p class="atlas-light photo-courtesy" style= "color:gray;" *ngIf="panayBool">Graphics: Roy Corvera</p>
+          </div>
+        </div>
+       </div>-->
+
+        <div class="center-content0" *ngIf="panayBool">
+         <div class="box-content0">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622068/News/Features/eddy/eddies-1_ydpqyv.png" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Many eddies, represented by these swirling patterns, form around the world. They are part of a large current system that transports nutrients and influences biological productivity.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" ></p>
+          </div>
+        </div>
+       </div>
+
+       
+
+     
+
+
+      
+      <div class="container2">
+        
+
+       <p class="atlas-light location-content2" *ngIf="panayBool">Curiosities in Panay Strait</p>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">Dr. Charina Lyn Amedo-Repollo was born on Panay Island, the westernmost island in the Visayas. She tells us how her work in physical oceanography began right in her hometown:</p>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">“When I [returned to research], a professor from the University of Hawai’i  was looking for students to be trained in handling and operating the high-frequency (HF) radars. There was a big program in collaboration with UP MSI, the Philippine Strait Dynamics Experiment. Since he was looking for a student to train, I was recommended by Dr. [Cesar] Villanoy because he knows I was born and raised in Panay. This helped me a lot in selecting the sites, managing the logistics, installing, operating, and maintaining the HF radars.”</p>
+
+       <div class="center-content0" *ngIf="panayBool">
+         <div class="box-contentuz">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646621984/News/Features/eddy/P7040240_uzxrco.jpg" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >One of the sites for the HF radar setup was located in the municipality of Laua-an, Antique. Dr. Repollo poses with local workers and colleagues from UP MSI, the Autonomous University of Baja California in Mexico, and the Institute of Engineering Sciences of Toulon and the Var in France. Photo taken in 2008.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Photo: Jhobert Repollo</p>
+          </div>
+        </div>
+       </div>
+
+      
+
+        
+
+        <p class="atlas-light location-content" *ngIf="panayBool">Boasting a productive maritime economy, Panay is bordered by the Iloilo and Guimaras Straits, Panay Gulf, and the Visayan, Sibuyan, and Sulu Seas.<sup>6</sup> The topography of the island is dominated by mountain ranges and hilly areas on either side.</p>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">The Panay Strait is bounded by the coast of Panay Island on the east and the Palawan Island chain on the west. With the surrounding Semirara Sea, Panay shelf, Cuyo shelf, and Cuyo Group of Islands, the Panay Strait is a topographically intricate system consisting of shelves, small low-lying islands, seamounts, a deep basin, and sills forming the shallowest point within the strait.</p>
+
+        <div class="center-content0" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contentp">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622003/News/Features/eddy/Panay_Map_q3e0mv.png" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Panay Island, the westernmost island in central Philippines, is surrounded by many bodies of water that hold a rich marine ecosystem.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" ></p>
+          </div>
+        </div>
+       </div>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">Many oceanographic processes control the water flow here, including tides, sea level variations between the South China Sea and the Pacific Ocean, changing of the monsoon seasons, the El Niño–Southern Oscillation (ENSO), and the episodic occurrence of tropical cyclones.<sup>7-11</sup> </p>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">The many features within and surrounding Panay Strait make it an ideal location for eddies to form.</p>
+
+       <div class="center-content0" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contento">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622064/News/Features/eddy/273905109_4643775522417298_6822767315235415692_n_uzt0ra.jpg" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >The JECA Lambaklad Fishing is a fish trap located in Brgy . Malabor in Tibiao, Antique. Fresh fish are caught every day.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Photo: Discover Antique, Philippines Facebook Page</p>
+          </div>
+        </div>
+       </div>
+
+
+       <p class="atlas-light location-content" *ngIf="panayBool">The publication,<em>Low-frequency surface currents and generation of an island lee eddy in Panay Island, Philippines<sup>12</sup></em>, describes water flow and movement in Panay Strait, identifying prevalent eddies and jet flows. Intensive observations from the cruise and satellite images support the findings that there are regions in Panay Strait that are productive biological hubs.</p>
+
+       <p class="atlas-light location-content2" *ngIf="panayBool">Using remote sensing to map water movements</p>
+
+
+
+       <p class="atlas-light location-content" *ngIf="panayBool">Dr. Repollo and her colleagues used a specialized shore-based remote sensing system with over-the-horizon (OTH) radar technology to monitor ocean surface currents. They were able to detect eddy formations that generate upwelling. Upwelling is an oceanographic process in which currents bring cooler, and usually nutrient-rich, deep water towards the ocean surface. These nutrients “fertilize” surface waters, thus often have high biological productivity and therefore, good fishing grounds.</p>
+
+
+       <p class="atlas-light location-content" *ngIf="panayBool">With HF radars deployed in three points (Pandan, Laua-an and Tobias Fornier) along the coastline of Antique, they characterized the spatial and temporal variability of surface currents. They also used Acoustic Doppler Current Profiler (ADCP) data to describe the three-dimensional circulation in the area.</p>
+
+       <div class="center-content0" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contenti">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622076/News/Features/eddy/P5051125_fbjuey.jpg" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Laying of cable that connects each antenna to the computer set-up in Pandan, Antique. Dr. C.L. Repollo with the help of Dr. L. T. David, C.L.  Villanoy, Dr. O.C. Cabrera, Dr. J.D. Palermo at Ms. L.A Solera. Taken in 2008.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Photo: Jhobert Repollo</p>
+          </div>
+        </div>
+       </div>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">Phytoplankton blooms are indicators of marine ecosystem health. Correlating with the idea that eddy sites have high biological productivity, chlorophyll (a photosynthetic pigment present in all algal species) levels can be used as a proxy for phytoplankton biomass and indicate upwelling. Satellite ocean color technology is widely used to detect, map, and monitor chlorophyll. In the satellite images, the greener the color, the higher the chlorophyll concentration. </p>
+
+       <p class="atlas-light location-content2" *ngIf="panayBool">Local circulations</p>
+
+
+
+       <p class="atlas-light location-content" *ngIf="panayBool">From the HF Radar data and chlorophyll-a level estimates, Dr. Repollo was able to identify two dominant phenomena in Panay Strait: the seasonal cyclonic Panay Eddy and its intensified eastern flow, the Panay Coastal Jet. She also described how monsoon patterns in the Philippines influence Panay Eddy formation.</p>
+
+       <div class="center-content0" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contentu">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622049/News/Features/eddy/SW_NE_Monsoons_qfpfm7.png" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Southwest and Northeast Monsoon/climatological seasonal changes of wind.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" ></p>
+          </div>
+        </div>
+       </div>
+
+
+       <p class="atlas-light location-content" *ngIf="panayBool">The Philippine archipelago contains many isolated circulations that are unique within the area. These local circulations are partly influenced by the seasonal reversal of the monsoon winds that the country experiences: the southwest monsoon from June to September and the northeast monsoon from November to March. The topographies of the ocean floor and of the surrounding land masses play a significant part as well.</p>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">The formation of Panay Eddy is due to the stronger and relatively stable northeast monsoon winds. As these winds blow across the mountainous islands of Mindoro and Panay, they intensify between islands and weaken at the lee or back of the island. This causes the winds to rotate counterclockwise (cyclonic) and generates upwelling.</p>
+
+       <div class="center-content0" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contenty">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622033/News/Features/eddy/P5291320_yhh07x.jpg" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Creating a prototype transmitting antenna in Tobias Fornier, Antique with the help of Dr. Xavier Flores Vidal, Yannek Meunier, Karlo Primavera and Jhobert B. Repollo. Taken in 2007</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Photo: Dr. C.L.A. Repollo</p>
+          </div>
+        </div>
+       </div>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">Upwelling brings cold, nutrient rich water from the depths of the ocean to the surface, which is important for primary productivity (algal growth). This, in turn, supports a richly productive marine ecosystem and is the reason for the abundant fisheries and sightings of large marine mammals in this region.</p>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">The Panay Eddy starts to form in November, peaks in February, and decays by late March. It is 100 km across in size, with an effective depth of about 130 m. Depending on the strength and direction of the prevailing Amihan, the center of the eddy may shift across the strait.</p>
+
+       <div class="center-content0" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contentr">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622011/News/Features/eddy/274466771_4664768140318036_2585100571502993378_n_xrqxpr.jpg" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Local fishermen at Ipil, Barbaza, Antique, Philippines.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Photo: Discover Antique, Philippines Facebook Page</p>
+          </div>
+        </div>
+       </div>
+
+
+
+       <p class="atlas-light location-content2" *ngIf="panayBool">Linking physical oceanography and fisheries </p>
+
+
+
+       <p class="atlas-light location-content" *ngIf="panayBool">If there is one huge difference between terrestrial and marine environments, it is that the latter constantly moves, impacting the supply of nutrients, sometimes enhancing the ocean’s productivity and, ultimately, the food web.</p>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">Dr. Repollo’s background in fisheries helped her establish the significant links between physical processes in the ocean and marine productivity.</p>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">“Actually, there are a lot of processes between that link. It takes time for you to be able to predict [implications of physical phenomena] into fisheries. But there are studies, including ours, that really link these processes [together]. When you observe a similar physical feature, usually, it is also high in biological production. Anywhere you go, upwelling areas will always be productive — they are known to be major fishing grounds.</p>
+
+        <div class="center-content0 row" id="content-desktop" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contente column">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622074/News/Features/eddy/272445343_4618737691587748_4842450152521336010_n_ccquij.jpg" />
+         </div>
+         <div class="box-content01 column" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 230px;" *ngIf="panayBool" >Skipjack tuna caught by two ring nets or “kubkuban", 21 kms away from the shore of Tibiao, Antique.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Photo: Discover Antique, Philippines Facebook Page</p>
+          </div>
+        </div>
+       </div>
+
+        <div class="center-content0" id="content-mobile" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contente">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622074/News/Features/eddy/272445343_4618737691587748_4842450152521336010_n_ccquij.jpg" />
+         </div>
+         <div class="box-content01" style="margin: 0 14%">
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Skipjack tuna caught by two ring nets or “kubkuban", 21 kms away from the shore of Tibiao, Antique.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Photo: Discover Antique, Philippines Facebook Page</p>
+          </div>
+        </div>
+       </div>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">“This high productivity area is present not only in Panay but is prevalent in the west side of the country, particularly in the major islands of Luzon, Mindoro, Negros and Mindanao. How can we conserve and manage the resources that we have in that rich marine environment</p>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">“The information we gathered and the results we published in peer-reviewed international journals need to be shared and conveyed at a level that the general audience, particularly the local government units and concerned agencies, can understand well for them to be able to create informed decisions on their management and conservation plans.”</p>
+
+
+
+      
+       <hr  *ngIf="panayBool" style=" margin-top: 3vw;">
+
+       <p class="atlas-light location-content"  style="font-size: 16px; margin-top: 3vw;  color:gray; " *ngIf="panayBool">Acknowledgments</p>
+
+       <p class="atlas-light location-content" style="font-size: 12px; margin-top: .5vw;  color:gray; " *ngIf="panayBool">
+       The authors would like to thank Renato Adolfo, Fernando Castrence, Francis Kenith Adolfo, Robert Valenzuela, and Ronald De Guzman for field and hatchery assistance. This study was funded by the Department of Science and Technology Philippine Council for Agriculture, Aquatic and Natural Resources Research and Development.
+
+        <br><br> Writers: Mia N.  Judicpa, Gabrielle A. Abrahan <br>
+        Creative Direction & Graphics: Martina J. Salazar, Roy C. Corvera<br>
+        Web Developer: Kate C. Reodica
+</p>
+
+       <p class="atlas-light location-content"  style="font-size: 16px; margin-top: 3vw; color:gray;" *ngIf="panayBool">References:</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">1. <em>What is a gyre?</em>. Oceanservice.noaa.gov. Retrieved 28 February 2022, from  <a href="https://oceanservice.noaa.gov/facts/gyre.html"  style="color:gray" target="_blank">https://oceanservice.noaa.gov/facts/gyre.html</a>.</p>
+
+        <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">2. Benitez-Nelson, C. R., Bidigare, R. R., Dickey, T. D., Landry, M. R., Leonard, C. L., Brown, S. L., et al. (2007). Mesoscale eddies drive increased silica export in the subtropical Pacific Ocean. <em>Science</em>, 316, 1017–1021. <a href="https://doi.org/10.1126/science.1136221"  style="color:gray" target="_blank">https://doi.org/10.1126/science.1136221</a>.</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">3. Chen, X., Pan, D., Bai, Y., He, X., Chen, C. T. A., & Hao, Z. (2013a). Episodic phytoplankton bloom events in the Bay of Bengal triggered by multiple forcings. <em>Deep-Sea Research Part I: Oceanographic Research Papers</em>, 73, 17–30.  <a href="https://doi.org/10.1016/j.dsr.2012.11.011"  style="color:gray" target="_blank">https://doi.org/10.1016/j.dsr.2012.11.011</a>.</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool"> 4. Ning, X., Chai, F., Xue, H., Cai, Y., Liu, C., Zhu, G., & Shi, J. (2004). Physical-biological oceanographic coupling influencing phytoplankton and primary production in the South China Sea. <em>Journal of Geophysical Research</em>, 109, C10005. <a href="https://doi.org/10.1029/2004JC002365"  style="color:gray" target="_blank">https://doi.org/10.1029/2004JC002365</a>.</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">5. Yun, M. S., Kim, B. K., Joo, H. T., Yang, E. J., Nishino, S., Chung, K. H., et al. (2015). Regional productivity of phytoplankton in the western Arctic Ocean during early summer in 2010. <em>Deep-Sea Research Part II: Topical Studies in Oceanography</em>, 120, 61–71. <a href="http://dx.doi.org/10.1016/j.dsr2.2014.11.023"  style="color:gray" target="_blank">http://dx.doi.org/10.1016/j.dsr2.2014.11.023</a>.</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">6. Britannica, T. Editors of Encyclopaedia (2018, January 19). Panay. Encyclopedia Britannica. <a href="https://www.britannica.com/place/Panay-island-Philippines"  style="color:gray" target="_blank">https://www.britannica.com/place/Panay-island-Philippines</a>.</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">7. White, W.B., Tourre, Y.M., Barlow, M., Dettinger, M. (2003). A delayed action oscillator shared by biennial, interannual, and decadal signals in the Pacific basin. <em>Journal of Geophysical Research C: Oceans</em> 108, C3. <a href="https://doi.org/10.1029/2002JC001490"  style="color:gray" target="_blank">https://doi.org/10.1029/2002JC001490</a>.</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">8. McClean, J.L., Ivanova, D.P., Sprintall, J., (2005). Remote origins of interannual variability in the Indonesian throughflow region from data and a global parallel ocean program simulation. <em>Journal of Geophysical Research C: Oceans</em>, 110, C10. <a href="https://doi.org/10.1029/2004JC002477"  style="color:gray" target="_blank">https://doi.org/10.1029/2004JC002477</a>.</p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">9. Pullen, J., Doyle, J.D., May, P., Chavanne, C., Flament, P., Arnone, R.A. (2008). Monsoon surges trigger oceanic eddy formation and propagation in the lee of the philippine islands. <em>Geophysical Research Letters</em>, 35 (7). <a href="https://doi.org/10.1029/2007GL033109"  style="color:gray" target="_blank">https://doi.org/10.1029/2007GL033109</a>.</p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">10. Han, W., Moore, A.M., Levin, J., Zhang, B., Arango, H.G., Curchitser, E., Di Lorenzo, E., Gordon, A.L., Lin, J., 2009. Seasonal surface ocean circulation and dynamics in the philippine archipelago region during 2004–2008. <em>Dynamics of Atmospheres and Oceans</em>, 47 (1), 114–137. <a href="http://doi.org/10.1016/j.dynatmoce.2008.10.007"  style="color:gray" target="_blank">http://doi.org/10.1016/j.dynatmoce.2008.10.007</a>.</p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">11. May, P.W., J.D. Doyle, J.D. Pullen, and L.T. David. 2011. Two-way coupled atmosphere-ocean modeling of the PhilEx Intensive Observational Periods. <em>Oceanography</em>, 24 (1), 48–57. <a href="https://doi.org/10.5670/oceanog.2011.03"  style="color:gray" target="_blank">https://doi.org/10.5670/oceanog.2011.03</a>.</p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">12. Amedo-Repollo, C., Flores-Vidal, X., Chavanne, C., Villanoy, C., & Flament, P. (2021). Barotropic and baroclinic tides in Panay Strait, Philippines. <em>  Regional Studies In Marine Science, 41</em>, 101612. <a href="https://doi.org/10.1016/j.rsma.2021.101612"  style="color:gray" target="_blank">https://doi.org/10.1016/j.rsma.2021.101612</a>.</p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">13. Yun, M., Kim, Y., Jeong, Y., Joo, H., Jo, Y., & Lee, C. et al. (2020). Weak Response of Biological Productivity and Community Structure of Phytoplankton to Mesoscale Eddies in the Oligotrophic Philippine Sea. <em>Journal Of Geophysical Research: Oceans, 125</em>(12). <a href="https://doi.org/10.1029/2020jc016436"  style="color:gray" target="_blank">https://doi.org/10.1029/2020jc016436</a>.</p>
+     
+
+  </div>
+
+
+</div>
+
+</div>
+
+<div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
+  <span class="arrow-text" (click)="moreScicomm()">
+    <p class="atlas-light"><span class="navi">MORE FEATURES</span> <span class="arrow">&rarr;</span></p>
+  </span>
+</div>
+</div>
+
+<div class="container2  animate__animated animate__fadeIn animate__delay-1s">
+<div class="footer" style="margin: 0 0% !important">
+  <app-footer></app-footer>
+</div>
+</div>

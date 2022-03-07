@@ -119,6 +119,7 @@ import { AlanContentComponent } from './components/news/alan-content/alan-conten
 import {AlanBranchComponent } from './components/news/alan-branch/alan-branch.component';
 import { MobileNavbComponent } from './components/navb/mobile-navb/mobile-navb.component';
 import { NavbComponent } from './components/navb/navb.component';
+import { EddyContentComponent } from './components/news/eddy-content/eddy-content.component';
 
 
 
@@ -231,6 +232,7 @@ import { NavbComponent } from './components/navb/navb.component';
     AlanBranchComponent,
     MobileNavbComponent,
     NavbComponent,
+    EddyContentComponent,
 
   ],
   imports: [
