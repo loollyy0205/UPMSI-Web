@@ -223,7 +223,7 @@ opacity: 1 !important;
 }
 
 .box-content0 img {
-  height: 27vw;
+  height: 31vw;
 }
 
 .box-contentuz{
@@ -259,7 +259,7 @@ opacity: 1 !important;
 }
 
 .box-contento img {
-  height: 28vw;
+  height: 40vw;
 }
 
 .box-contenti{
@@ -485,8 +485,12 @@ img{
   margin-top: 3vw;
 }
 
+.center-content10{
+  margin:0 -15%;
+}
+
 .center-content0{
-  
+
 }
 
 
@@ -983,7 +987,7 @@ img{
 }
 
 .box-content0{
-  height: 10%;
+
   width: 100%;
   display: flex;
   flex-direction: center;
@@ -991,7 +995,7 @@ img{
 }
 
 .box-content0 img {
-  height: 100vw;
+  height: 50vw;
 }
 
 .box-content01{
@@ -1149,6 +1153,10 @@ img{
   content: "";
   display: table;
   clear: both;
+}
+
+.center-content10{
+  margin:0 6%;
 }
 
 }
