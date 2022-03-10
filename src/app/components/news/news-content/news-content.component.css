@@ -64,20 +64,19 @@ img{
   place-content: center;
   margin-top: 4.392vw;
   width: 100%;
-  overflow-x: hidden;
-  margin-left: 0vw;
+  padding-bottom: 50%;
 }
 
 .box-content2{
   height: 10%;
   width: 100%;
   display: flex;
-  flex-direction: center;
+  flex-direction: column;
   
 }
 
-.box-content img {
-  height: 27.818vw;
+.box-content2 img {
+  height: 60.818vw;
 }
 
   .box-content5{
@@ -477,4 +476,27 @@ hr {
   .box-content img {
     height: 52vw;
   }
+
+  .center-content3{
+  place-content: center;
+  padding-top-top: 20.392vw;
+  width: 100%;
+  padding-bottom: 40%;
+}
+
+.box-content2{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.box-content2 img {
+  height: 60.818vw;
+}
+
+.location2{
+  margin: 0 7%;
+}
 }

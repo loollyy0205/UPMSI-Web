@@ -158,6 +158,30 @@ export class NewsContentComponent implements OnInit {
       ]
    }];
 
+    web = [{
+    title: 'The Case For Marine Scientific Research in the Philippines',
+    date: 'March 10, 2022',
+    author: 'By Gabrielle Abrahan & Mia Judicpa , MSI Contributor',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1646876270/News/News%20Icons/webinar/final-banner_poz48i.png',
+    photoContent: 'Filipino scientist Dr. Deo Florence L. Onda from the University of the Philippines is one of the first humans to reach the third deepest spot on Earth.',
+    /**
+    edited the photocontent
+    */
+
+    courtesy: 'PHOTO COURTESY OF Caladan Oceanic',
+    location: 'Emden Deep, Philippines',
+    locationContent: 'Few have been brave enough to venture the depths of the oceans. Diving ten kilometers below sea level may not have required as much funding as the 1969 moon landing did, but it is worthy of just as much credit.',
+    paragraph1: 'The Emden Deep point of the Philippine trench has a depth of 10,540 meters. Compared to the tallest man-made structure, the Burj Khalifa (830 m), or the highest peak on earth, Mt. Everest (8,849 m), the Emden Deep is of much larger scale.',
+    paragraph2: `Last year, Dr. Deo Florence L. Onda, a microbial oceanographer from the UP Marine Science Institute (UPMSI), was invited to the Emden Deep by private travel company Eyos Expeditions. Caladan Oceanic, a prolific organization focused on undersea technology and expeditions, has been organizing a dive in the Emden Deep and chose Dr. Onda's name out of a list of prospective Filipinos. The invitation included diving alongside Mr. Victor Vescovo, undersea explorer and founder of Caladan Oceanic, in the US$48 million DSV Limiting Factor.`,
+    paragraph3: `The expedition ran from March 22 to 28 aboard the research-oriented vessel DSSV Pressure Drop. The descent itself took place on March 23rd and spanned ten hours, which Dr. Onda claims to have prepared for by watching videos of ocean explorations, attuning himself to enclosed environments, and making sure that he was always prepared for the worst.Last year, Dr. Deo Florence L. Onda, a microbial oceanographer from the UP Marine Science Institute (UPMSI), was invited to the Emden Deep by private travel company Eyos Expeditions. Caladan Oceanic, a prolific organization focused on undersea technology and expeditions, has been organizing a dive in the Emden Deep and chose Dr. Onda's name out of a list of prospective Filipinos. The invitation included diving alongside Mr. Victor Vescovo, undersea explorer and founder of Caladan Oceanic, in the US$48 million DSV Limiting Factor.`,
+    paragraph4: 'Dr. Onda leads the Microbial Oceanography Laboratory of the UPMSI. His research gives insight on the role of microbial communities in events that take place in the ocean. The Emden Deep expedition has given him the opportunity to further emphasize the importance of scientific research in policy-making and marine preservation.',
+    news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1637799742/News/News%20Icons/merf/banner-final_cni12e.png", title: "UP MSI, MERF host short courses on skills development for Philippine Coast Guard", content: 'Few have been brave enough to venture the depths of the oceans. This year, microbial oceanographer Dr. Deo Florence L. Onda made history as the second human and the first Filipino to reach Emden Deep, the third deepest spot on earth.', url: 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628493886/News/wps_wypn1r.png", title: "A Revived Pag-asa Island Research Station Strengthens Philippine Marine Scientific Research in the West Philippine Sea", content: 'Years of neglect have led to the facility becoming run-down. The Upgrade CIA program...', url: 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628493886/News/wps_wypn1r.png", title: "UP MSI WPS expeditions 2021", content: 'Learn more about the latest explorations of the blue planet deep under our very own seas.', url: 'wps-expeditions'},
+      ]
+  }];
+
 
 
 

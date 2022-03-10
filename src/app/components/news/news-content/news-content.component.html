@@ -28,7 +28,8 @@
 
   <div style="display: grid; place-content: center;">
     <div class="bottom-content">
-      <p class="atlas-bold location">{{myArr[0].location}}</p>
+      <p class="atlas-bold location" *ngIf="!merfBool">{{myArr[0].location}}</p>
+      <p class="atlas-bold location2" *ngIf="merfBool">{{myArr[0].location}}</p>
       <img class="fb" src="../../../../assets/photos/fblink.png">
       <img class="twitter" src="../../../../assets/photos/twitter-link.png">
       <p class="atlas-light location-content">{{myArr[0].locationContent}}</p>
@@ -91,7 +92,7 @@
 
          <p class="atlas-light location-content" *ngIf="pirsBool">According to Dr. Rene Abesamis, who was then a research assistant and part of the original team that established the research center PIRS oon Pag-asa island, the structure was prefabricated and initially meant for Tubbataha Reef. Through arrangements made with the Department of National Defense (DND), it was transferred to its current location. </p>
 
-         <div class="center-content" *ngIf="pirsBool">
+         <div class="center-content" *ngIf="pirsBool" style="margin-bottom: 50px;">
          <div class="box-content">
           <img style="object-fit: contain;width: 95%; height: 95%;overflow: hidden; position: relative; margin-left: 15px;" [src]="myArr[0].thumbnail5">
            <div >
