@@ -10,6 +10,8 @@ import { Location } from '@angular/common';
 export class MoreNewsComponent implements OnInit {
   news=[
 
+   {image: "https://res.cloudinary.com/upmsi/image/upload/v1646876270/News/News%20Icons/webinar/final-banner_poz48i.png", subtitle: 'March 10, 2022', title: "The Case For Marine Scientific Research in the Philippines", content: 'Experts discussed challenges and opportunities in the approval process and framework for marine scientific research (MSR)...'},
+
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1644400743/News/Features/kig/thumbnail-1_lwwpci.png",  title: "The First of Many: A Research Expedition Beyond Science", content: 'A new year of Science is to be kicked off with the UP Marine Science Institute’s (UP MSI) first...'},
 
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1637799742/News/News%20Icons/merf/banner-final_cni12e.png",  title: "UP MSI, MERF host short courses on skills development for Philippine Coast Guard", content: 'The UP Marine Science Institute (UP MSI) and the Marine Environment and Resources Foundation, Inc....'},
@@ -25,6 +27,9 @@ export class MoreNewsComponent implements OnInit {
      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147198/News/News%20Icons/News-02-awards_fiqdzh.png", subtitle: 'April 30, 2021', title: "UPMSI scientists receive accolades from NAST, OMLC", content: 'Four scientists from the UPMSI have been recognized for their work by the National Academy of Science and Technology (NAST) and the Oscar M. Lopez Center...'},
 
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147196/News/News%20Icons/News-01-scientist_pshtv5.png", subtitle: 'April 30, 2021', title: "Filipino scientist makes history by reaching the 3rd deepest spot on Earth", content: 'Few have been brave enough to venture the depths of the oceans. This year, microbial oceanographer Dr. Deo Florence L. Onda made...'},
+
+    
+    
     
     
    
@@ -37,28 +42,31 @@ export class MoreNewsComponent implements OnInit {
 
   newsContent(i){
     switch(i) {
-      case 0:
-        this.router.navigate(['/News/scicomm', 'The-First-Of-Many']);
+     case 0:
+        this.router.navigate(['/News/content', 'The-Case-For-Marine-Scientific-Research']);
         break;
       case 1:
-        this.router.navigate(['/News/content', 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard']);
+        this.router.navigate(['/News/scicomm', 'The-First-Of-Many']);
         break;
       case 2:
-        this.router.navigate(['/News/content', 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea']);
+        this.router.navigate(['/News/content', 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard']);
         break;
       case 3:
-        this.router.navigate(['/News/content', 'wps-expeditions']);
+        this.router.navigate(['/News/content', 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea']);
         break;
       case 4:
+        this.router.navigate(['/News/content', 'wps-expeditions']);
+        break;
+      case 5:
         this.router.navigate(['/News/content', 'NARFleet-is-on-its-way-to-prowl-Philippine-waters']);
         break;
-       case 5:
+       case 6:
         this.router.navigate(['/News/content', 'all-about-the-giant-clam']);
         break; 
-      case 6:
+      case 7:
         this.router.navigate(['/News/content', 'UPMSI-scientists-receive-accolades-from-NAST']);
         break;
-      case 7:
+      case 8:
         this.router.navigate(['/News/content', 'filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth']);
         break;
     }

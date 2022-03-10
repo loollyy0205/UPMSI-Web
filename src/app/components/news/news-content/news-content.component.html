@@ -7,15 +7,23 @@
 
         </div>
 
-<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line" *ngIf="!merfBool">
+        <div class="center-content3" id="content-desktop" *ngIf="webBool" style="margin-top: 1.5vw;">
+         <div class="box-content2" id="content-desktop">
+           <img  [src]="myArr[0].thumbnail">
+          
+        </div>
+
+        </div>
+
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line" *ngIf="!merfBool && !webBool">
 <div class="container animate__animated animate__fadeIn animate__delay-1s">
   <p class="atlas-bold title">{{myArr[0].title}}</p>
   <p class="atlas-light date">{{myArr[0].date}}</p>
   <p class="atlas-light date-name">{{myArr[0].author}}</p>
   <div class="center-content">
     <div class="box-content" >
-      <img [src]="myArr[0].thumbnail"  *ngIf="!merfBool"> <!-- *ngIf="clamsBool && !nastBool && deepestSpotBool && !wpsBool && !narfleetBool"-->
-      <div class="photo-box" *ngIf="!merfBool" >
+      <img [src]="myArr[0].thumbnail"  *ngIf="!merfBool && !webBool"> <!-- *ngIf="clamsBool && !nastBool && deepestSpotBool && !wpsBool && !narfleetBool"-->
+      <div class="photo-box" *ngIf="!merfBool && !webBool" >
       <p class="atlas-light photo-content" *ngIf="!clamsBool && nastBool">{{myArr[0].photoContent}}</p>
       <p class="atlas-light photo-content" *ngIf="clamsBool" >Two <em>Tridacna Gigas</em> specimens from the BML nursery: Efforts to grow the giant clam population are gaining momentum. Giant clams are still vulnerable and remain endangered due to poor management, unregulated harvesting, and illegal possession and trade.</p>
       <p class="atlas-light photo-content" *ngIf="clamsBool" >Two <em>Tridacna Gigas</em> specimens from the BML nursery: Efforts to grow the giant clam population are gaining momentum. Giant clams are still vulnerable and remain endangered due to poor management, unregulated harvesting, and illegal possession and trade.</p>
@@ -86,7 +94,7 @@
 
          <p class="atlas-light location-content" *ngIf="pirsBool">In the Philippines, there’s an island that is set out to make an example for many others.</p>
 
-         <p class="subtitle atlas-bold location-content" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Where it all begins</em></p>
+         <p class="subtitle atlas-bold location-content3" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Where it all begins</em></p>
 
          <p class="atlas-light location-content" *ngIf="pirsBool">The Pagasa Island Research Station (PIRS) in Pagasa Island was first established in 1997 with support from the Department of Science and Technology (DOST) - Philippine Council for Aquatic and Marine Research and Development (PCAMRD)  and in cooperation with the Western Command of the Armed Forces of the Philippines (WESCOM).</p>
 
@@ -141,7 +149,7 @@
 
         <p class="atlas-light location-content" *ngIf="pirsBool">The repairs and installation of new features, including an Automatic Identification System (AIS) for tracking the movement of ships in the area are scheduled to be conducted in October 2021</p>
 
-         <p class="atlas-bold location-content" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Marine Science Research as the core of future plans</em></p>
+         <p class="atlas-bold location-content3" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Marine Science Research as the core of future plans</em></p>
 
          <p class="atlas-light location-content" *ngIf="pirsBool">Sea level changes have been affecting small islands, including the coral reefs that surround them. The rate by which the sea level rises has varying effects on the marine environment: a slow rate allows the reef to keep pace through vertical accretion, while a fast rate can drown reefs.</p>
 
@@ -162,7 +170,7 @@
         </div>
        </div>
 
-        <p class="subtitle atlas-bold location-content" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Upcoming WPS expeditions</em></p>
+        <p class="subtitle atlas-bold location-content3" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Upcoming WPS expeditions</em></p>
 
         <p class="atlas-light location-content" *ngIf="pirsBool">The 2021 WPS expeditions are scheduled to resume in September, and Siringan’s team is prioritizing the completion of PIRS refurbishment tasks so that it will be available for use by next year.</p>
 
@@ -170,7 +178,7 @@
 
         <p class="atlas-light location-content" *ngIf="pirsBool">“If the sea would allow us then we will do a multibeam bathymetric survey. If we have time, we will also do some groundwater surveys using electrical resistivity. And then, we will go around the island and look at the state of the coastline and the materials of the beach. We will also estimate the island’s elevation by using the Emery (1961) method for beach profiling,” he says.</p>
 
-        <p class="subtitle atlas-bold location-content" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Pag-asa island in the years to come</em></p>
+        <p class="subtitle atlas-bold location-content3" style="font-size: 20px;" *ngIf="pirsBool"><br><em>Pag-asa island in the years to come</em></p>
 
         <p class="atlas-light location-content" *ngIf="pirsBool">Siringan also mentioned a proposed research program called Small Island Life Sustenance in the WPS (SmILeS WPS) to transform islands like Pagasa into regenerative islands that sustain life while also reassuring the integrity of the environment through sustainable means.</p>
 
@@ -302,6 +310,84 @@
           </div>
         </div>
        </div>
+
+
+        <p class="atlas-light location-content" *ngIf="webBool" style="margin-top: -40px;">Experts discussed challenges and opportunities in the approval process and framework for marine scientific research (MSR) under international law as the Philippines continues to develop its MSR capability.</p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">Last March 2, 2022, the three-part “Track 1.5 Dialogue on Marine Scientific Research (MSR)” webinar series launched its first session. It was organized by the University of the Philippines Marine Science (UP MSI), Foundation for the National Interest (FNI), the Marine Environment and Resources Foundation (MERF), and the United States Embassy in the Philippines. </p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">Government, Policy, and Law was the focus of the first panel of discussions, while Science and Research was the focus of the second panel. </p>
+
+
+       <p class="atlas-bold location-content3" style="font-size: 20px;" *ngIf="webBool"><br><em>MSR and the Law of the Sea</em></p>
+
+       <p class="atlas-light location-content" *ngIf="webBool">MSR spans a range of scientific fields that study the oceans, their physical properties, and marine life. It has proven to be essential through the years with many contributions to human development from food to energy. Through the study of the marine environment and the understanding of the many factors that affect it, its ecosystems are better protected with continued sustainable management. </p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">MSR was widely unregulated until the 1950s, when the international community agreed to introduce a legal regime that requires coastal state consent for the conduct of research on the continental shelf. </p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">Today, the United Nations Convention on the Law of the Sea (UNCLOS) serves as a legal framework that administers activities involving the world’s oceans. Since its enactment in 1982, one of the established freedoms of the convention is the freedom of scientific research on the high seas, making it a guiding principle in conducting MSR.</p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">In the first panel discussion on government policies and regulatory framework in conducting MSR, the featured speaker was Dr. James Kraska from the US Naval War College. Those who gave their reactions based on their experiences were Dr. Ahmad Almaududy from the Indonesian Ministry of Foreign Affairs, Atty. Youna Lyons from the National University of Singapore - Center for International Law, and Mr. Christopher Madrigal, an MSR policy consultant in the Philippines.</p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">To start, Dr. Kraska explained the general principles of MSR, what is and what is not MSR, its broad definitions, and the process of conducting it in the territorial seas of coastal states under the UNCLOS.</p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">“There’s no specific definition of what constitutes marine scientific research in the law of the sea convention, but we do know that it must be conducted for peaceful purposes, meaning that it may not be used as a subterfuge for armed conflict or aggression. It also should be produced to increase the knowledge of all mankind. That tells us that MSR must be disseminated widely, unclassified, open-source, and should be for the benefit of all states and their human populations. After all, we are sharing the marine environment together,” he shares.</p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">Dr. Kraska also mentioned the different challenges that researchers are faced with, including the lack of consent from coastal states and the national security concern in the South China Sea (SCS) region due to countries that have been asserting ‘rights protection.’ Lastly, he pointed out opportunities for countries like the Philippines to maximize MSR by undergoing large multilateral research programs. Although programs like these can still pose disagreements among states, it can also be taken as a challenge to assert good diplomacy.</p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">One of the first reactors, Dr. Almaududy, proposed the importance of a unified MSR regulation between neighboring maritime nations such as the Philippines and Indonesia — one that implements legal frameworks. He also believes that benefit sharing in MSR must be observed under the international law of common heritage of mankind.</p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">According to Atty. Lyons, the country must assess the environmental impact of MSR, especially during multiple expeditions in the same area, which may continually exploit resources during research activities. She recommended that data acquired from MSR be shared with other states to advance research in the region.</p>
+
+  
+
+        <div class="center-content3" *ngIf="webBool">
+         <div class="box-content">
+          <img style="object-fit: contain;width: 100%; height: 100%;overflow: hidden; position: relative;" [src]="myArr[0].thumbnail2">
+           <div >
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 15px;" *ngIf="webBool" >The rich marine biodiversity of the Indo-Pacific region warrants the need for improved MSR policies. Mapped here are areas beyond national jurisdiction in the Indo-Pacific, shared during Atty. Youna Lyons’ commentary on the conduct of MSR.</p>
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="webBool" >Reference: Centre for International Laws, National University of Singapore</p>
+          </div>
+        </div>
+       </div>
+
+       <p class="atlas-light location-content" *ngIf="webBool">With his vast experience working with the national government on MSR policy, Mr. Madrigal expressed his views on the state of MSR in the Philippines. He said that garnering more support for MSR from policymakers can be difficult due to the focus of the national development discourse being land-centric instead of archipelagic. But he also stated that steps are being taken by the government to establish transparency in the application process with the institutionalization of the revised foreign MSR application guidelines. While there is still much work left to be done in terms of tracking, monitoring, and collating MSR information, Mr. Madrigal considers this to be a way for different stakeholders to collaborate.</p>
+
+
+       <p class="atlas-bold location-content3" style="font-size: 20px;" *ngIf="webBool"><br><em>Strengthening MSRs in Philippine Waters</em></p>
+
+       <p class="atlas-light location-content" *ngIf="webBool">For the past decades, we have been seeing a rapidly changing ocean that is riddled with the long-term effects of climate change and human activity, impacting marine ecosystems, coastlines, and coastal communities. </p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">Now, more than ever, there is a great need for scientific research to monitor, explain, and understand these changes. The knowledge gained from research can be used to plan nature-based solutions for climate change adaptation and for the sustainable management and conservation of marine resources.</p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">The Philippines is in the process of upgrading its capacity for marine research by building its own National Academic Research Fleet (NARFleet) under the Upgrading Capacity, Infrastructure, and Assets for Marine Scientific Research in the Philippines (UPGRADE CIA). Among the program’s long-term proposals is to distribute these vessels and assets to state universities and colleges (SUCs) and higher educational institutions (HEIs), particularly those outside the capital, to study our waters. </p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">The second panel discussion, led by Dr. Alan Jamieson from the University of Western Australia, focused on scientific approaches and research practices in MSR. Mr. Romain Troublé from Tara Expeditions Foundation, Mr. Gregory O’Brien from the Office of Ocean and Polar Affairs of the US Department of State, and Dr. Mohd Uzair bin Rusli from the Institute of Oceanography and Environment - Universiti Malaysia Terengganu were the reactors.</p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">Dr. Jamieson gave a summary of his MSR experience in different exclusive economic zones (EEZs) of various countries. According to him, each country has a different process when conducting MSR, despite UNCLOS. He further mused that scientific work can be simple, productive, and fun just as much as it is complicated, bureaucratic, and even highly politicized, recounting various experiences where local scientists and governments demand either authorship or ownership of the research data. Before closing his presentation, he gave a few recommendations to researchers on how to navigate the system including, remembering that not all MSR is controversial, looking at different ways to make the system more efficient, and making sure that you’re working with the right people.</p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">“Concentrate on the people involved, not the politics, and build strong relationships on trust, friendship, and networks. They’re not based on who holds the money, the politics, or authorship of scientific publications,” he advises.</p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">Mr. Troublé shared similar experiences, saying that he too has had trouble collaborating with coastal states, especially in terms of streamlining processes. He ended by saying that more data, tools, and technologies are needed to understand marine biodiversity, which is why regulation on MSR is important. </p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">As a Senior Oceans Policy Advisor who works in processing applications for MSR in the US and oversees research by US scientists, Mr. O’brien expressed the different challenges faced by researchers, specifically ones that pose a financial and planning burden. He said that on the agency side, the system needs to improve in terms of maintaining awareness throughout the whole process, especially when members that go through approvals change during the MSR. </p>
+
+        <p class="atlas-light location-content" *ngIf="webBool">The last reactor was Dr. Mohd Uzair who talked about how government agencies hesitate to approve research permits by foreign scientists because they are often seen as “parachute scientists.” He reiterates the importance of building networks among approving agencies, understanding their point of view, and communicating how the MSR will have an economic advantage. </p>
+
+        <p class="atlas-bold location-content3" style="font-size: 20px;" *ngIf="webBool"><br><em>Working towards healthy Philippine seas for future generations of Filipinos</em></p>
+
+       <p class="atlas-light location-content" *ngIf="webBool">The program was closed by UP MSI Director Dr. Laura David. She thanked the speakers for their time and for sharing valuable lessons with other researchers. “We need to remember that the ocean is a common heritage and therefore, we will benefit from the shared data and collaborative studies.”</p>
+
+       <div class="center-content3" *ngIf="webBool">
+         <div class="box-content">
+          <img style="object-fit: contain;width: 100%; height: 100%;overflow: hidden; position: relative;" [src]="myArr[0].thumbnail3">
+           <div >
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 15px;" *ngIf="webBool" >TA school of bluestreak fusiliers (<em>Pterocaesio tile</em>) roam in the waters of the Kalayaan Island Group. This region is one of the Philippines’ richest and most productive marine ecosystems, hosting 30% of the total reef area of the country. </p>
+            <p class="atlas-light photo-courtesy" style= "color:#384e8a; margin-top: 5px;" *ngIf="webBool" >Photo: UP MSI Marine Phycology Lab</p>
+          </div>
+        </div>
+       </div>
+
 
 
        

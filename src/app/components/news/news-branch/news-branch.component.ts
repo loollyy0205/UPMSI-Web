@@ -13,16 +13,18 @@ export class NewsBranchComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  newsContent(){
+   newsContent(){
+    this.router.navigate(['/News/content', 'The-Case-For-Marine-Scientific-Research']);
+  }
+
+  newsContent1(){
     this.router.navigate(['/News/scicomm', 'The-First-Of-Many']);
   }
-  newsContent1(){
+  newsContent2(){
     this.router.navigate(['/News/content', 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard']);
   }
-  newsContent2(){
-    this.router.navigate(['/News/content', 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea']);
-  }
+  
   newsContent3(){
-    this.router.navigate(['/News/scicomm', 'wps-expeditions']);
+    this.router.navigate(['/News/content', 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea']);
   }
 }

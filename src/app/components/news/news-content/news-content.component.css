@@ -211,6 +211,11 @@ hr {
   line-height: 1.5;
 }
 
+.location-content3{
+  margin-top: 2.196vw;
+  line-height: 1.5;
+}
+
 .location-content2{
   margin-top: 2.196vw;
   line-height: 1.5;
@@ -367,6 +372,13 @@ hr {
     margin: 0 7%;
   }
 
+
+  .center-content2{
+    display: grid;
+    place-content: center;
+    margin-bottom: 10.392vw;
+  }
+
   .photo-box{
     height: 100%;
     background-color: #394e8a;
@@ -393,6 +405,14 @@ hr {
     line-height: 1.5;
     margin: 0 7%;
   }
+
+  .location-content3{
+    margin-top: 5.196vw;
+    margin-bottom: 3.196vw;
+    line-height: 1.5; 
+    font-size: 5vw !important;
+     }
+
 
   .news{
     margin-top: 7.660vw;
@@ -497,6 +517,6 @@ hr {
 }
 
 .location2{
-  margin: 0 7%;
+  margin: 0 7%L;
 }
 }
