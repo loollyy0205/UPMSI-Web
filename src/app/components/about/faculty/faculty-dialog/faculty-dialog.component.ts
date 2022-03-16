@@ -170,7 +170,7 @@ export class FacultyDialogComponent implements OnInit {
       publication: [
     ]},
 
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981158/About/03%20Faculty/faculty-cropped2/07-Rachel_June_R._Gotanco_Ph.D._yn43rf.jpg', name: 'Rachel June Ravago-Gotanco, Ph.D.', email: 'rrgotanco@msi.upd.edu.ph', citation: 'https://scholar.google.com.ph/citations?user=RaRuPq0AAAAJ&hl=fil', title1: 'Professor', badge: 'Deputy Director for Instruction', education1: 'Ph.D. Marine Science', education2: 'University of Philippines, Quezon City, Philippines', RI: 'Molecular Ecology and Evolution, Population Genetics, Phylogeography',
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981158/About/03%20Faculty/faculty-cropped2/07-Rachel_June_R._Gotanco_Ph.D._yn43rf.jpg', name: 'Rachel June Ravago-Gotanco, Ph.D.', email: 'rrgotanco@msi.upd.edu.ph', citation: 'https://scholar.google.com.ph/citations?user=RaRuPq0AAAAJ&hl=fil', title1: 'Professor',  education1: 'Ph.D. Marine Science', education2: 'University of Philippines, Quezon City, Philippines', RI: 'Molecular Ecology and Evolution, Population Genetics, Phylogeography',
     publication: [
       {publi: 'Ravago-Gotanco R, Kim KM (2019) Regional genetic structure of sandfish Holuthuria (Metriatyla) scabra populations across the Philippine archipelago. Fish. Res. 209:143-155.'},
       {publi: 'Torres AF, Ravago-Gotanco R (2018) Rarity of the "common" coral Pocillopora damicornis in the western Philippine archipelago. Coral  Reefs.'},
@@ -431,7 +431,7 @@ edited the badges
      */
     ]},
 
-    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981091/About/03%20Faculty/Faculty-Cropped/15-Lilibeth_S._Reyes_Ph.D._copy_o0vs3d.jpg', name: 'Lilibeth A. Salvador-Reyes, Ph.D.', email: 'lsreyes@msi.upd.edu.ph ', citation: 'https://scholar.google.com/citations?user=xJwDExgAAAAJ&hl=en', title1: 'Professor', education1: 'Ph.D. in Pharmaceutical Sciences-Medicinal Chemistry', education2: 'University of Florida', RI: 'Medicinal and Natural Products Chemistry, Biochemistry, Pharmacology',
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1627981091/About/03%20Faculty/Faculty-Cropped/15-Lilibeth_S._Reyes_Ph.D._copy_o0vs3d.jpg', name: 'Lilibeth A. Salvador-Reyes, Ph.D.', email: 'lsreyes@msi.upd.edu.ph ', citation: 'https://scholar.google.com/citations?user=xJwDExgAAAAJ&hl=en', title1: 'Professor', badge: 'Deputy Director for Instruction', education1: 'Ph.D. in Pharmaceutical Sciences-Medicinal Chemistry', education2: 'University of Florida', RI: 'Medicinal and Natural Products Chemistry, Biochemistry, Pharmacology',
     publication: [
       {publi: 'Olano DEB, Salvador-Reyes LA, Montaño MNE, Azanza RV. 2020. Sorpiton of paralytic shellfish toxins (PSTs) in algal polysaccharide gels. Algal Research 45:101655.'},
       {publi: 'Tun JO, Salvador-Reyes LA, Velarde MC, Saito N, Suwanborirux K, Concepcion GP. (2019). Synergistic cytotoxicity of Renieramycin M and Doxorubicin in MCF-7 breast cancer cells. Marine Drugs, 17(9):536.'},

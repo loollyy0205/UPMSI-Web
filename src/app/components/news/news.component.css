@@ -19,7 +19,7 @@ img{
 
 .content1{
   margin-top: 2.928vw;
-  height: 100%;
+  height: 65%;
   display: flex;
   flex-direction: column;
   margin-left: 9%;
@@ -29,7 +29,7 @@ img{
 /* edited12 */
 .content4{
   margin-top: 2.928vw;
-  height: 100%;
+  height: 65%;
   display: flex;
   flex-direction: column;
   margin-left: 9%;
@@ -255,7 +255,7 @@ img{
 .content2{
   margin: 0 9%;
   height: 100%;
-  margin-top: 15%;
+  margin-top: 330%;
   display: flex;
   flex-direction: row;
 }
@@ -331,7 +331,15 @@ img{
 
 /* announcement */
 .title-margin{
-  margin-top: 18%;
+  margin-top: 80%;
+}
+
+.title-margin2{
+  margin-top: 200%;
+}
+
+.title-margin3{
+  margin-top: 220%;
 }
 
 

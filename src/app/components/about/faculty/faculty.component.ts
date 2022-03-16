@@ -22,7 +22,7 @@ export class FacultyComponent implements OnInit {
     {name: 'Cecilia G. Conaco, Ph.D.', label1: 'Professor'},
     {name: 'Laura T. David, Ph.D.', label1: 'Professor', label2: 'Director'},
     {name: 'Charissa M. Ferrera, Ph.D.', label1: 'Assistant Professor'},
-    {name: 'Rachel June Ravago-Gotanco, Ph.D.', label1: 'Professor', label2: 'Deputy Director for Instruction'},
+    {name: 'Rachel June Ravago-Gotanco, Ph.D.', label1: 'Professor'},
     // {name: 'Gil S. Jacinto, Ph.D.', label1: 'Professor - Retired'},
     {name: 'Caroline Marie B. Jaraula, Ph.D.', label1: 'Assistant Professor'},
     {name: 'Arturo O. Lluisma, Ph.D.', label1: 'Professor'},
@@ -33,7 +33,7 @@ export class FacultyComponent implements OnInit {
 
   residentProf2 = [
     {name: 'Charina Lyn A. Repollo, Ph.D.', label1: 'Assistant Professor'},
-    {name: 'Lilibeth A. Salvador-Reyes, Ph.D.', label1: 'Professor'},
+    {name: 'Lilibeth A. Salvador-Reyes, Ph.D.', label1: 'Professor', label2: 'Deputy Director for Instruction'},
     {name: 'Irene B. Rodriguez, Dr. rer. nat.', label1: 'Associate Professor'},
     {name: 'Maria Vanessa B. Rodriguez, Ph.D.', label1: 'Associate Professor'},
     {name: 'Michael Y. Roleda, Dr. rer. nat.', label1: 'Professor, Deputy Director for Facilities and Resources'},

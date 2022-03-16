@@ -184,6 +184,12 @@ hr {
   margin-top: 4.392vw;
 }
 
+.center-content4{
+  display: grid;
+  place-content: center;
+  margin-top: 4.392vw;
+}
+
 .photo-box{
   height: 100%;
   background-color: #394e8a;
@@ -379,6 +385,13 @@ hr {
     margin-bottom: 10.392vw;
   }
 
+   .center-content4{
+    display: grid;
+    place-content: center;
+    margin-top: 5.392vw;
+    margin-bottom: 5.392vw;
+  }
+
   .photo-box{
     height: 100%;
     background-color: #394e8a;
@@ -499,7 +512,7 @@ hr {
 
   .center-content3{
   place-content: center;
-  padding-top-top: 20.392vw;
+  padding-top: 5.392vw;
   width: 100%;
   padding-bottom: 40%;
 }

@@ -162,9 +162,10 @@ export class NewsContentComponent implements OnInit {
     title: 'The Case For Marine Scientific Research in the Philippines',
     date: 'March 10, 2022',
     author: 'By Gabrielle Abrahan & Mia Judicpa , MSI Contributor',
-    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1646876270/News/News%20Icons/webinar/final-banner_poz48i.png',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1646965737/News/News%20Icons/webinar/final-banner-3_s9fwux.png',
     thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1646876267/News/News%20Icons/webinar/1_ayf48v.jpg',
     thumbnail3: 'https://res.cloudinary.com/upmsi/image/upload/v1646876307/News/News%20Icons/webinar/P4280281_bbqgaf.jpg',
+    thumbnail4: 'https://res.cloudinary.com/upmsi/image/upload/v1646965798/News/News%20Icons/webinar/poster-2_zorsj1.png',
     photoContent: '',
     /**
     edited the photocontent
@@ -249,11 +250,14 @@ export class NewsContentComponent implements OnInit {
       this.myArr = this.merf;
       this.merfBool = true;
     }
-    /*if(this.router.url.includes('/News/content/The-Case-For-Marine-Scientific-Research')){
+   /* if(this.router.url.includes('/News/content/The-Case-For-Marine-Scientific-Research')){
       this.myArr = this.web;
       this.webBool = true;
+
     }
     **/
+
+
   }
 
   moreMsiNews(){

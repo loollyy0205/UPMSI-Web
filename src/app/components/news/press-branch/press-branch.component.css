@@ -146,7 +146,7 @@ img{
 @media (max-width: 768px) {
   .news .first-content{
     margin-top: 2.928vw;
-    height: 100%;
+    height: 50%;
     display: flex;
     flex-direction: column;
   }
@@ -202,7 +202,7 @@ img{
 
   .news .sec-content{
     margin-top: 2.196vw;
-    height: 100%;
+    height: 10%;
     display: flex;
     flex-direction: column;
   }
