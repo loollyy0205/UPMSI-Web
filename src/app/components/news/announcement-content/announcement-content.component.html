@@ -45,6 +45,14 @@
       </div> -->
     </div>
 
+    <div class="box-content2" *ngIf="absBool">
+      <img [src]="myArr[0].thumbnail">
+      <!-- <div class="photo-box">
+      <p class="atlas-light photo-content" *ngIf="nastBool">{{myArr[0].photoContent}}</p>
+      <p class="atlas-bold photo-courtesy">{{myArr[0].courtesy}}</p>
+      </div> -->
+    </div>
+
   </div>
 
   <div style="display: grid; place-content: center;">
@@ -312,6 +320,9 @@
 
        <p class="atlas-light location-content2" style="line-height: 1.5;" *ngIf="edgBool">
       The same call inspires the current generation of marine scientists in MSI through their initiatives in the WPS. These include the refurbishment and restoration of the Pag-asa Island Research Station, establishment of the National Academic Research Fleet, and continued conduct of marine scientific expedition for surveys and monitoring.</p>
+
+       <p class="atlas-light location-content2" style="line-height: 1.5;" *ngIf="absBool">
+      All currently-enrolled CS students and 2020-2021 graduates are highly encouraged to submit to <a href="https://science.upd.edu.ph/call-for-abstract-submissions-for-3rd-graduate-student-research-conference/" target="_blank">http://bitly.ws/p8uJ</a> on or before April 15, 2022.</p>
 
 
 
