@@ -44,10 +44,10 @@ export class MoreScicommComponent implements OnInit {
       case 2:
         this.router.navigate(['/News/scicomm/', 'In-Full-Bloom']);
         break;
-        case 3:
-        this.router.navigate(['/News/scicomm', 'coral-propagation']);
+      case 3:
+        this.router.navigate(['/News/charlon', 'coral-propagation']);
         break;
-        case 4:
+      case 4:
         this.router.navigate(['/News/scicomm', 'against-the-current-how-the-giant-clams-of-the-Philippines-escaped-extinction-with-the-help-of-science-and-the-communityIn-Full-Bloom']);
         break;
               

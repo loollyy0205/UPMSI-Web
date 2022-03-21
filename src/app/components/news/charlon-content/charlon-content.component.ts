@@ -2,11 +2,11 @@ import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-scicomm-content',
-  templateUrl: './scicomm-content.component.html',
-  styleUrls: ['./scicomm-content.component.css']
+  selector: 'app-charlon-content',
+  templateUrl: './charlon-content.component.html',
+  styleUrls: ['./charlon-content.component.css']
 })
-export class ScicommContentComponent implements OnInit {
+export class CharlonContentComponent implements OnInit {
   giantclam = [{
     title: 'Against the Current: How the giant clams of the Philippines escaped extinction with the help of science and the community',
     author: 'By. Mia N. Judicpa & Gabrielle A. Abrahan, MSI Contributors',
@@ -104,7 +104,7 @@ habs = [{
     }
 
   
-   if(this.router.url.includes('/News/scicomm/coral-propagation')){
+   if(this.router.url.includes('/News/charlon/coral-propagation')){
       this.myArr = this.charlon;
       this.charlonBool = true;
     }

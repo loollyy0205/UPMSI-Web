@@ -120,6 +120,8 @@ import {AlanBranchComponent } from './components/news/alan-branch/alan-branch.co
 import { MobileNavbComponent } from './components/navb/mobile-navb/mobile-navb.component';
 import { NavbComponent } from './components/navb/navb.component';
 import { EddyContentComponent } from './components/news/eddy-content/eddy-content.component';
+import { CharlonContentComponent } from './components/news/charlon-content/charlon-content.component';
+
 
 
 
@@ -233,6 +235,7 @@ import { EddyContentComponent } from './components/news/eddy-content/eddy-conten
     MobileNavbComponent,
     NavbComponent,
     EddyContentComponent,
+    CharlonContentComponent,
 
   ],
   imports: [

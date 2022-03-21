@@ -56,6 +56,7 @@ import { WebinarContentComponent } from './components/resources/webinar-content/
 import { AlanContentComponent } from './components/news/alan-content/alan-content.component';
 import { MoreAlanComponent } from './components/news/more-alan/more-alan.component';
 import { EddyContentComponent } from './components/news/eddy-content/eddy-content.component';
+import { CharlonContentComponent } from './components/news/charlon-content/charlon-content.component';
 
 
 
@@ -124,6 +125,7 @@ const routes: Routes = [
   {path: 'News/alan/:name', component: AlanContentComponent},
   {path: 'News/alan-headlines', component: MoreAlanComponent},
   {path: 'News/eddy/:name', component: EddyContentComponent},
+  {path: 'News/charlon/:name', component: CharlonContentComponent},
  
 ];
 
