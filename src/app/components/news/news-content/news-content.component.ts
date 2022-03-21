@@ -250,12 +250,12 @@ export class NewsContentComponent implements OnInit {
       this.myArr = this.merf;
       this.merfBool = true;
     }
-   /* if(this.router.url.includes('/News/content/The-Case-For-Marine-Scientific-Research')){
+    if(this.router.url.includes('/News/content/The-Case-For-Marine-Scientific-Research')){
       this.myArr = this.web;
       this.webBool = true;
 
     }
-    **/
+    
 
 
   }
