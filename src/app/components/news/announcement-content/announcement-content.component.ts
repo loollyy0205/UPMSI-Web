@@ -132,6 +132,19 @@ export class AnnouncementContentComponent implements OnInit {
       ]
   }];
 
+   ftf = [{
+    title: 'Gabay sa Pag-aalaga sa Sarili sa Face-to-Face Class Activities.',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1647503935/News/Announcements%20Icons/announce_a31qnb.png',
+    locationContent: ``,
+    paragraph1: '',
+    
+    news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147159/News/Announcements%20Icons/Announcement-01-article_lxmr0x.png", title: "A letter for Dr. Ed Gomez on his first death anniversary", content: `Today, we pause from our seemingly harried life because of the COVID-19 pandemic and remember you with much gratitude for your extraordinary contributions and the rich legacy you leave us behind.`, url: 'a-letter-for-Dr.-Ed-Gomez-on-his-first-death-anniversary'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147128/News/Announcements%20Icons/Announcement-02_lettlk.png", title: "UPMSI Official Statement on DENR Claims", content: `This is to clarify the statement made by Department of Environment and Natural Resources (DENR) Undersecretary Benny Antiporda accusing the University of the Philippines Marine Science Institute (UPMSI) of charging the DENR half a billion pesos in consultation fees and being, in a word, “bayaran.”`, url: 'UPMSI-official-statement-on-DENR-claims'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1647503935/News/Announcements%20Icons/announce_a31qnb.png", title: "The Call for Abstract Submissions for the 3rd Graduate Student Research Conference", content: 'The Call for Abstract Submissions for the 3rd Graduate Student Research Conference is now open.', url: 'ftf'},
+      ]
+  }];
+
 
 
   myArr = [];
@@ -143,6 +156,7 @@ export class AnnouncementContentComponent implements OnInit {
   gulfBool:boolean = false;
   edgBool:boolean = false;
   absBool:boolean = false;
+  ftfBool:boolean = false;
   
 
   constructor(private router:Router) { }
@@ -197,6 +211,10 @@ export class AnnouncementContentComponent implements OnInit {
     if(this.router.url.includes('/News/Announcement/Call-for-Abstract-Submissions')){
       this.myArr = this.abs;
       this.absBool = true;
+      }
+    if(this.router.url.includes('/News/Announcement/ftf')){
+      this.myArr = this.ftf;
+      this.ftfBool = true;
       }
   }
 
