@@ -11,7 +11,7 @@ export class EddyContentComponent implements OnInit {
 
 
 panay = [{
-    thumbnail: 'https://www.youtube.com/embed/p4pWafuvdrY?list=PLy0mCnV4cwyqHCPrcp9ZOaG8o1yOj03G8',
+    thumbnail: 'https://www.youtube.com/embed/p4pWafuvdrY',
     
     locationContent: '',
   }];
