@@ -10,6 +10,7 @@ export class MoreVacanciesComponent implements OnInit {
   vacancies= [
     {image: 'https://res.cloudinary.com/upmsi/image/upload/v1646265290/News/MB-crop_mpdihx.png', title: 'Marine Biologist', date: ''},
     {image: 'https://res.cloudinary.com/upmsi/image/upload/v1646265290/News/CO-crop_buzuqs.png', title: 'Chemical Oceanographer or Marine Chemist'},
+    {image: 'https://res.cloudinary.com/upmsi/image/upload/v1648545015/News/pmtmem_chemoce-poster_rli9xo.png', title: 'Opening: Faculty Positions'},
 
    
     ]
@@ -25,7 +26,10 @@ export class MoreVacanciesComponent implements OnInit {
         break;
       case 1:
         this.router.navigate(['/News/vacancies-&-opportunities/', 'co']);
-        break;  
+        break;
+      case 2:
+        this.router.navigate(['/News/vacancies-&-opportunities/', 'fp']);
+        break;    
      
     }
   }

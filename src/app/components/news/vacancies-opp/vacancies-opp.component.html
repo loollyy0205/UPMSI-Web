@@ -3,8 +3,12 @@
 <div class="container animate__animated animate__fadeIn animate__delay-1s">
   <p class="atlas-bold title">VACANCIES AND OPPORTUNITIES</p>
 
-  <div class="center-box">
-    <div class="box-content">
+  <div class="center-box"  >
+    <div class="box-content" *ngIf="!fpBool">
+      <img [src]="myArr[0].thumbnail" />
+    </div>
+
+        <div class="box-content2"  *ngIf="fpBool">
       <img [src]="myArr[0].thumbnail" />
     </div>
   </div>

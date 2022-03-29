@@ -17,7 +17,14 @@ export class VacanciesOppComponent implements OnInit {
   
   ]
 
+  fp = [
+    {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1648545015/News/pmtmem_chemoce-poster_rli9xo.png'}
+  
+  ]
+
+
   myArr = [];
+   fpBool:boolean = false;
 
   constructor(private router:Router) { }
 
@@ -28,6 +35,10 @@ export class VacanciesOppComponent implements OnInit {
         break;
         case '/News/vacancies-&-opportunities/co':
         this.myArr = this.co;
+        break;
+        case '/News/vacancies-&-opportunities/fp':
+        this.myArr = this.fp;
+        this.fpBool = true;
         break;
       
     }
