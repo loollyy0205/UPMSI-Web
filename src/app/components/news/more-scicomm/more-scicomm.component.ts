@@ -9,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class MoreScicommComponent implements OnInit {
   news=[
 
+   {image: "https://res.cloudinary.com/upmsi/image/upload/v1648101960/News/Features/herbarium/trial-banner_Size_8_lepvij.png",  title: "Inside the Herbarium: A Place Where Past, Present, and Future Meet", content: 'Tucked in the unassuming corners of a library or gallery, the herbarium is usually our first look at the new and the otherworldly.'},
+
       {image: "https://res.cloudinary.com/upmsi/image/upload/v1646622064/News/Features/eddy/273905109_4643775522417298_6822767315235415692_n_uzt0ra.jpg",  title: "Fishing in a Vortex: How ocean currents affect biological productivity", content: ' Dr. Charina Lyn Amedo-Repollo’s paper on surface currents and eddy formation in Panay Strait shed light on how we can...'},
 
      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643598465/News/Features/alan/Banner_Mobile_rsorle.png",  title: "Lights Off: How does light pollution affect a coral’s little inhabitants?", content: ' Good bacteria roam the human skin freely, forming an additional protective layer against pathogens. They make up a part  of the human microbiota...'},
@@ -36,18 +38,21 @@ export class MoreScicommComponent implements OnInit {
   newsContent(i){
     switch(i) {
     case 0:
-        this.router.navigate(['/News/eddy', 'fishing-in-a-vortex']);
+        this.router.navigate(['/News/herbarium', 'herbarium-feature']);
         break;
     case 1:
+        this.router.navigate(['/News/eddy', 'fishing-in-a-vortex']);
+        break;
+    case 2:
         this.router.navigate(['/News/alan', 'lights-off']);
         break;
-      case 2:
+      case 3:
         this.router.navigate(['/News/scicomm/', 'In-Full-Bloom']);
         break;
-      case 3:
+      case 4:
         this.router.navigate(['/News/charlon', 'coral-propagation']);
         break;
-      case 4:
+      case 5:
         this.router.navigate(['/News/scicomm', 'against-the-current-how-the-giant-clams-of-the-Philippines-escaped-extinction-with-the-help-of-science-and-the-communityIn-Full-Bloom']);
         break;
               

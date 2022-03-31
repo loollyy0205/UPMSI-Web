@@ -11,7 +11,7 @@ export class HerbariumContentComponent implements OnInit {
 
 
 herb = [{
-    thumbnail: 'https://www.youtube.com/embed/p4pWafuvdrY',
+    thumbnail: 'https://www.youtube.com/embed/slitTRUgQA0',
     
     locationContent: '',
   }];
