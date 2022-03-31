@@ -62,7 +62,7 @@ section {
 }
 
 .w3-container{
-margin-bottom: -20px;
+margin-bottom: -150px;
 }
 
 .no-parallax {
@@ -781,6 +781,7 @@ margin-right: 30px;
   margin-top: 0vw;
   width: 51.245vw;
   font-size: 1.171vw;
+
 }
 
 /*edited12 */
@@ -1092,6 +1093,8 @@ img{
   .bottom-content{
     width: 100%;
     font-size: 4vw;
+      margin-left :11%;
+      padding-right :22%;
   }
 
   .fb{
@@ -1193,13 +1196,14 @@ img{
   .photo-courtesy3{
     font-size: 3vw;
     margin-top: 7%;
-    padding-right: 6%;
+    padding-right: 21%;
   }
 
   .location-content{
     margin-top: 2.196vw;
     line-height: 1.5;
     margin: 0 10%;
+     margin-right: 11%;
     margin-top: 2vw;
   }
 
@@ -1608,7 +1612,8 @@ img{
 .pmodal {
   width:100%;
   margin-top: 10px;
-  margin-left: 50px;
+  margin-left: 11%;
+  margin-right: 11%;
 }
 
 .pmodal img{
@@ -1620,7 +1625,8 @@ img{
 .pmodal3{
   margin-top: 10px;
   width:300px;
-  margin-left: 20px;
+  margin-left: 9%;
+  margin-right: 11%;
 
 }
 .pmodal3 img{
@@ -1760,6 +1766,10 @@ width:100%;
 
 .w3-container3 {
   margin-left: 60px;
+}
+
+.w3-container{
+margin-bottom: 80px;
 }
 
 main {
