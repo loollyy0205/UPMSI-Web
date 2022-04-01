@@ -1,6 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8"> 
+        <script type="text/javascript" defer src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+         <script type="text/javascript" defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script type="text/javascript" defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
 
+        <body>          
 <div class="container  animate__animated animate__fadeIn animate__delay-1s">
-  <div class="center-content2" id="content-desktop" *ngIf=" herbBool">
+  <div class="center-content2" id="content-desktop" *ngIf="panayBool">
+         <div class="box-content2" id="content-desktop">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1646662124/News/Features/eddy/mar7-final-banner-4_dndkhy.mp4"></video>
+          <!--<img src="https://res.cloudinary.com/upmsi/image/upload/v1643598456/News/Features/alan/Banner_Desktop_iq3wor.png" alt="header" /> -->
+        </div>
+
+       
+
+        </div>
+
+        <div class="center-content2" id="content-mobile" *ngIf="panayBool">
+
+        <div class="box-content7" id="content-mobile">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1646662751/News/Features/eddy/mar7-mobile-banner-1_q1emoh.mp4"></video>
+          <!--<img src="https://res.cloudinary.com/upmsi/image/upload/v1643598465/News/Features/alan/Banner_Mobile_rsorle.png" alt="header" />--> 
+        </div>
+
+      
+        </div>
+
+        <div class="center-content2" id="content-desktop" >
          <div class="box-content2" id="content-desktop">
           <!--<video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/image/upload/v1648101960/News/Features/herbarium/trial-banner_Size_8_lepvij.png"></video>-->
           <img src="https://res.cloudinary.com/upmsi/image/upload/v1648625743/News/Features/herbarium/banner-latest_hfohea.png" alt="header" /> 
@@ -10,196 +40,487 @@
 
         </div>
 
-        <div class="center-content2" id="content-mobile" *ngIf="herbBool">
+        <div class="center-content2" id="content-mobile">
 
         <div class="box-content7" id="content-mobile">
           <!--<video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1646662751/News/Features/eddy/mar7-mobile-banner-1_q1emoh.mp4"></video>--> 
-          <img src="https://res.cloudinary.com/upmsi/image/upload/v1648625743/News/Features/herbarium/banner-latest_hfohea.png" alt="header" />
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1648784384/News/Features/herbarium/mobile-banner_jybzsk.png" alt="header" /> 
         </div>
 
 
       
         </div>
 
-  
+
+  <p class="atlas-bold title" style="font:italic;margin: 0 9%">{{myArr[0].title}}</p>
+  <p class="atlas-light date-name" style="font:italic; margin: 0 9%; margin-top: 5px">{{myArr[0].author}}</p>
+  <p class="atlas-light date" style="color:gray !important; margin-top: 5px">{{myArr[0].date}}</p>
+
  
 
-    <div style="display: grid; place-content: center;">
-
-
+  <div style="display: grid; place-content: center;">
     <div class="bottom-content">
-
-
-
-      <!--<div class="center-content0">
-      <div class="box-contentr">
-      <img id="myImg" src="https://res.cloudinary.com/upmsi/image/upload/v1646621984/News/Features/eddy/P7040240_uzxrco.jpg" alt="Snow" style="width:100%;max-width:700px; max-height: 500px">
-
-        The Modal 
-        <div id="myModal" class="modal">
-        <span class="close" onclick="document.querySelectorAll('myModal').style.display='none'">&times;</span>
-        <img class="modal-content" id="img01">
-          <div id="caption"></div>
-        </div>
+      <p class="atlas-bold location">{{myArr[0].location}}</p>
+      
+      <p class="atlas-light location-content">{{myArr[0].locationContent}}</p>
+      
+<div style= "margin-top: 5vw;">
+        <img class="fb" src="../../../../assets/photos/fblink.png">
+        <img class="twitter" src="../../../../assets/photos/twitter-link.png">
       </div>
-      </div>-->
+       <div class="author">
+          <p class="atlas-light location-content"><strong>By. Mia N. Judicpa & Gabrielle A. Abrahan</strong><br>April 1, 2022</p>
+        </div>
+
       
+      <p class="atlas-light location-content" *ngIf="panayBool">Around four months a year, we experience a respite from our tropical climate when the weather starts to chill. During Christmas, we wear thick clothes as winds from Siberia and China descend upon our mornings and bring with them good — and <em>cold</em> — tidings.</p>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">These winds prevail during the northeast monsoon season, which we know locally as <em>Amihan</em>. It is one of the two seasons our country experiences annually. They visit us from November to late March, and are followed by the winds that blow during the southeast monsoon season, called <em>Habagat</em>, after the transition months of April–May.</p>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">How do these winds interact with our waters and islands? What else do these winds bring?</p>
+
+
       
 
-  
+         <!--<div class="center-content" *ngIf="panayBool">
+         <div class="box-content6">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1643606987/News/Features/alan/collage1_-_Copy_oklziv.png" />
+         </div>
+         <div class="box-content04" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:gray; margin-top: 10px;" *ngIf="panayBool" >Day & Night Cycle</p>
+           <p class="atlas-light photo-courtesy2" style= "color:gray; margin-top: 10px;" *ngIf="panayBool" >Illustration: Martina Salazar
+</p>
+          </div>
+        </div>
+       </div>    --> 
+
+       <p class="atlas-light location-content2" *ngIf="panayBool">Weather in the ocean</p>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">The winds interact with the ocean to generate currents that redistribute heat around the world, thereby regulating and stabilizing climate patterns. Ocean currents may also be driven by the earth’s rotation, the tides, and by differences in water density.</p>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">If you zoom out, you will see large circular ocean currents formed by global wind patterns and forces created by Earth’s rotation called gyres. Five major gyres occupy the earth’s oceans: the North and South Pacific Subtropical Gyres, the North and South Atlantic Subtropical Gyres, and the Indian Ocean Subtropical Gyre. Aside from the larger and more permanent gyres, there are many types of currents:  eddies, whirlpools, deep ocean currents, and jet streams.<sup>1</sup></p>
+
+       
+
+
+
+       <p class="atlas-light location-content" *ngIf="panayBool">Eddies at the back of an island form when stronger winds interact with the rugged terrain of the island or an oceanic flow passes the island. They are vortex-like phenomena that can last for months, and may be as small as a couple of centimeters or as large as hundreds of kilometers across. The swirling motion of eddies causes nutrients normally found in colder, deeper waters to rise to the surface. With enough light for photosynthesis to occur, this process influences the biological productivity of the area.<sup>2-5</sup></p>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">Mesoscale (large-scale, less than 100 km) eddies are frequently observed in the seas around and within the Philippine archipelago. The multitude of embayments and isolated deep seas within a network of interconnecting straits, coupled with the complex bathymetry of the ocean floor and the rugged topography of the Philippines, all contribute to the formation of eddies.</p>
+
+       <!--<div class="center-content" *ngIf="panayBool" >
+         <div class="box-content5" id="content-desktop">
+          <video [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1643598650/News/Features/alan/final-ALAN-diagram-1_ifiwzb.mov"></video>
+         </div>
+         <div class="box-content4b" style="margin-top: .5vw! important;" id="content-desktop">
+          <div class="mob3">
+           <p class="atlas-light photo-courtesy" style= "color:gray;" *ngIf="panayBool">Baquiran and the team dove into the Caniogan Reef of the Bolinao-Anda Reef Complex (Pangasinan, Northwestern Philippines) to collect 45 colonies of A. digitifera. These colonies were allowed to adjust to their new environment for 21 days, then segregated into three tanks, each subjected to a different light treatment every night: cold (bluish) white LED, warm (yellowish) white LED, and ambient light treatment (as the control group).</p>
+           <p class="atlas-light photo-courtesy" style= "color:gray; margin-top: 8px;" *ngIf="panayBool">Graphics: Roy Corvera</p>
+          </div>
+        </div>
+
+        <div class="box-content5" id="content-mobile">
+          <video width="1920" height="1080" [muted]="true" autoplay playsinline loop src="https://res.cloudinary.com/upmsi/video/upload/v1643598623/News/Features/alan/ALAN-diagram-mobile-1_eaqkx6.mov"></video>
+         </div>
+         <div class="box-content4b" style="margin-top: .5vw! important;" id="content-mobile">
+          <div class="mob3">
+           <p class="atlas-light photo-courtesy" style= "color:gray; margin-top: 0px;" *ngIf="panayBool">Baquiran and the team dove into the Caniogan Reef of the Bolinao-Anda Reef Complex (Pangasinan, Northwestern Philippines) to collect 45 colonies of A. digitifera. These colonies were allowed to adjust to their new environment for 21 days, then segregated into three tanks, each subjected to a different light treatment every night: cold (bluish) white LED, warm (yellowish) white LED, and ambient light treatment (as the control group).</p>
+          <p class="atlas-light photo-courtesy" style= "color:gray;" *ngIf="panayBool">Graphics: Roy Corvera</p>
+          </div>
+        </div>
+       </div>-->
+
+        <div class="center-content10" *ngIf="panayBool">
+         <div class="box-content0">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622068/News/Features/eddy/eddies-1_ydpqyv.png" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Many eddies, represented by these swirling patterns, form around the world. They are part of a large current system that transports nutrients and influences biological productivity.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" ></p>
+          </div>
+        </div>
+       </div>
+
+
+
+       
+
+     
+
+
+      
+      <div class="container2">
+        
+
+       <p class="atlas-light location-content2" *ngIf="panayBool">Curiosities in Panay Strait</p>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">Dr. Charina Lyn Amedo-Repollo was born on Panay Island, the westernmost island in the Visayas. She tells us how her work in physical oceanography began right in her hometown:</p>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">“When I [returned to research], a professor from the University of Hawai’i  was looking for students to be trained in handling and operating the high-frequency (HF) radars. There was a big program in collaboration with UP MSI, the Philippine Strait Dynamics Experiment. Since he was looking for a student to train, I was recommended by Dr. [Cesar] Villanoy because he knows I was born and raised in Panay. This helped me a lot in selecting the sites, managing the logistics, installing, operating, and maintaining the HF radars.”</p>
+
+       <div class="center-content0" *ngIf="panayBool">
+         <div class="box-contentuz">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646621984/News/Features/eddy/P7040240_uzxrco.jpg" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >One of the sites for the HF radar setup was located in the municipality of Laua-an, Antique. Dr. Repollo poses with local workers and colleagues from UP MSI, the Autonomous University of Baja California in Mexico, and the Institute of Engineering Sciences of Toulon and the Var in France. Photo taken in 2008.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Photo: Jhobert Repollo</p>
+          </div>
+        </div>
+       </div>
+
+        
+
+        <p class="atlas-light location-content" *ngIf="panayBool">Boasting a productive maritime economy, Panay is bordered by the Iloilo and Guimaras Straits, Panay Gulf, and the Visayan, Sibuyan, and Sulu Seas.<sup>6</sup> The topography of the island is dominated by mountain ranges and hilly areas on either side.</p>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">The Panay Strait is bounded by the coast of Panay Island on the east and the Palawan Island chain on the west. With the surrounding Semirara Sea, Panay shelf, Cuyo shelf, and Cuyo Group of Islands, the Panay Strait is a topographically intricate system consisting of shelves, small low-lying islands, seamounts, a deep basin, and sills forming the shallowest point within the strait.</p>
+
+        <div class="center-content0" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contentp">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622003/News/Features/eddy/Panay_Map_q3e0mv.png" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Panay Island, the westernmost island in central Philippines, is surrounded by many bodies of water that hold a rich marine ecosystem.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" ></p>
+          </div>
+        </div>
+       </div>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">Many oceanographic processes control the water flow here, including tides, sea level variations between the South China Sea and the Pacific Ocean, changing of the monsoon seasons, the El Niño–Southern Oscillation (ENSO), and the episodic occurrence of tropical cyclones.<sup>7-11</sup> </p>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">The many features within and surrounding Panay Strait make it an ideal location for eddies to form.</p>
+
+       <div class="center-content10" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contento">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622064/News/Features/eddy/273905109_4643775522417298_6822767315235415692_n_uzt0ra.jpg" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >The JECA Lambaklad Fishing is a fish trap located in Brgy . Malabor in Tibiao, Antique. Fresh fish are caught every day.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Photo: Discover Antique, Philippines Facebook Page</p>
+          </div>
+        </div>
+       </div>
+
+
+       <p class="atlas-light location-content" *ngIf="panayBool">The publication,<em>Low-frequency surface currents and generation of an island lee eddy in Panay Island, Philippines<sup>12</sup></em>, describes water flow and movement in Panay Strait, identifying prevalent eddies and jet flows. Intensive observations from the cruise and satellite images support the findings that there are regions in Panay Strait that are productive biological hubs.</p>
+
+       <p class="atlas-light location-content2" *ngIf="panayBool">Using remote sensing to map water movements</p>
+
+
+
+       <p class="atlas-light location-content" *ngIf="panayBool">Dr. Repollo and her colleagues used a specialized shore-based remote sensing system with over-the-horizon (OTH) radar technology to monitor ocean surface currents. They were able to detect eddy formations that generate upwelling. Upwelling is an oceanographic process in which currents bring cooler, and usually nutrient-rich, deep water towards the ocean surface. These nutrients “fertilize” surface waters, thus often have high biological productivity and therefore, good fishing grounds.</p>
+
+
+       <p class="atlas-light location-content" *ngIf="panayBool">With HF radars deployed in three points (Pandan, Laua-an and Tobias Fornier) along the coastline of Antique, they characterized the spatial and temporal variability of surface currents. They also used Acoustic Doppler Current Profiler (ADCP) data to describe the three-dimensional circulation in the area.</p>
+
+       <div class="center-content0" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contenti">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622076/News/Features/eddy/P5051125_fbjuey.jpg" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Dr. Repollo, Dr. Laura David, Dr. Cesar Villanoy, Dr. Olivia Cabrera, Dr. Joseph Dominic Palermo, and Ms. Leilani Solera laying down the cable that connects each antenna to the computer setup in Pandan, Antique. Photo taken in 2008.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Photo: Jhobert Repollo</p>
+          </div>
+        </div>
+       </div>
+
+       <p class="atlas-light location-content" *ngIf="panayBool">Phytoplankton blooms are indicators of marine ecosystem health. Correlating with the idea that eddy sites have high biological productivity, chlorophyll (a photosynthetic pigment present in all algal species) levels can be used as a proxy for phytoplankton biomass and indicate upwelling. Satellite ocean color technology is widely used to detect, map, and monitor chlorophyll. In the satellite images, the greener the color, the higher the chlorophyll concentration. </p>
+
+       <p class="atlas-light location-content2" *ngIf="panayBool">Local circulations</p>
+
+
+
+       <p class="atlas-light location-content" *ngIf="panayBool">From the HF Radar data and chlorophyll-a level estimates, Dr. Repollo was able to identify two dominant phenomena in Panay Strait: the seasonal cyclonic Panay Eddy and its intensified eastern flow, the Panay Coastal Jet. She also described how monsoon patterns in the Philippines influence Panay Eddy formation.</p>
+
+       <div class="center-content0" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contentu">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622049/News/Features/eddy/SW_NE_Monsoons_qfpfm7.png" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >The Philippines experiences the northeast monsoon winds from November to March, and the southwest monsoon winds from June to September.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" ></p>
+          </div>
+        </div>
+       </div>
+
+
+       <p class="atlas-light location-content" *ngIf="panayBool">The Philippine archipelago contains many isolated circulations that are unique within the area. These local circulations are partly influenced by the seasonal reversal of the monsoon winds that the country experiences: the southwest monsoon from June to September and the northeast monsoon from November to March. The topographies of the ocean floor and of the surrounding land masses play a significant part as well.</p>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">The formation of Panay Eddy is due to the stronger and relatively stable northeast monsoon winds. As these winds blow across the mountainous islands of Mindoro and Panay, they intensify between islands and weaken at the lee or back of the island. This causes the winds to rotate counterclockwise (cyclonic) and generates upwelling.</p>
+
+       <div class="center-content0" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contenty">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622033/News/Features/eddy/P5291320_yhh07x.jpg" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >The team creating a prototype transmitting antenna in Tobias Fornier, Antique, with the help of Dr. Xavier Flores Vidal, Yannek Meunier, Karlo Primavera, and Jhobert B. Repollo. Photo taken in 2007.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Photo: Dr. Charina Lyn Amedo-Repollo
+</p>
+          </div>
+        </div>
+       </div>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">Upwelling brings cold, nutrient rich water from the depths of the ocean to the surface, which is important for primary productivity (algal growth). This, in turn, supports a richly productive marine ecosystem and is the reason for the abundant fisheries and sightings of large marine mammals in this region.</p>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">The Panay Eddy starts to form in November, peaks in February, and decays by late March. It is 100 km across in size, with an effective depth of about 130 m. Depending on the strength and direction of the prevailing <em>Amihan</em>, the center of the eddy may shift across the strait.</p>
+
+       <div class="center-content0" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contentr">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622011/News/Features/eddy/274466771_4664768140318036_2585100571502993378_n_xrqxpr.jpg" />
+         </div>
+         <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Local fishermen with their catch of the day at Brgy. Ipil in Barbaza, Antique.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Photo: Discover Antique, Philippines Facebook Page</p>
+          </div>
+        </div>
+       </div>
+
+
+
+       <p class="atlas-light location-content2" *ngIf="panayBool">Linking physical oceanography and fisheries </p>
+
+
+
+       <p class="atlas-light location-content" *ngIf="panayBool">If there is one huge difference between terrestrial and marine environments, it is that the latter constantly moves, impacting the supply of nutrients, sometimes enhancing the ocean’s productivity and, ultimately, the food web.</p>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">Dr. Repollo’s background in fisheries helped her establish the significant links between physical processes in the ocean and marine productivity.</p>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">“Actually, there are a lot of processes between that link. It takes time for you to be able to predict [implications of physical phenomena] into fisheries. But there are studies, including ours, that really link these processes [together]. When you observe a similar physical feature, usually, it is also high in biological production. Anywhere you go, upwelling areas will always be productive — they are known to be major fishing grounds.</p>
+
+        <div class="center-content0 row" id="content-desktop" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contente column">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622074/News/Features/eddy/272445343_4618737691587748_4842450152521336010_n_ccquij.jpg" />
+         </div>
+         <div class="box-content01 column" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 230px;" *ngIf="panayBool" >Fishmongers with buckets of skipjack tuna caught using <em>kubkuban</em> or ring nets in a fishing ground 21 kilometers away from the shore of Tibiao, Antique.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Photo: Discover Antique, Philippines Facebook Page</p>
+          </div>
+        </div>
+       </div>
+
+        <div class="center-content0" id="content-mobile" *ngIf="panayBool" style="margin-top: 30px;">
+         <div class="box-contente">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1646622074/News/Features/eddy/272445343_4618737691587748_4842450152521336010_n_ccquij.jpg" />
+         </div>
+         <div class="box-content01" style="margin: 0 14%">
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Fishmongers with buckets of skipjack tuna caught using <em>kubkuban</em> or ring nets in a fishing ground 21 kilometers away from the shore of Tibiao, Antique.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Photo: Discover Antique, Philippines Facebook Page</p>
+          </div>
+        </div>
+       </div>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">“This high productivity area is present not only in Panay but is prevalent in the west side of the country, particularly in the major islands of Luzon, Mindoro, Negros and Mindanao. How can we conserve and manage the resources that we have in that rich marine environment?</p>
+
+        <p class="atlas-light location-content" *ngIf="panayBool">“The information we gathered and the results we published in peer-reviewed international journals need to be shared and conveyed at a level that the general audience, particularly the local government units and concerned agencies, can understand well for them to be able to create informed decisions on their management and conservation plans.”</p>
+
+
+
+      
+       <hr  *ngIf="panayBool" style=" margin-top: 3vw;">
+
+       <p class="atlas-light location-content"  style="font-size: 16px; margin-top: 3vw;  color:gray; " *ngIf="panayBool">Acknowledgments</p>
+
+       <p class="atlas-light location-content" style="font-size: 12px; margin-top: .5vw;  color:gray; " *ngIf="panayBool">
+       Dr. Repollo would like to acknowledge the captain and crew of the R/V Melville and the many U.S. and Philippine students, technicians, volunteers, and scientists who participated, assisted, and helped in the cruises and fieldwork in Antique, Philippines. She would also like to thank the local government units and people of municipalities of Pandan, Tobias Fornier, and Laua-an, Antique, for their full support and assistance. The team is indebted to the landowners, the late Enrique A. Zaldivar of Pandan; Erlinda B. Montero of Laua-an; Maria A. Moscoso, represented by her son Ramon A. Moscoso Jr.; Ernesto P. Near; and Ronelia Tingocia of Tobias Fornier for their kindness and hospitality. <br>
+
+       This research work was funded by the Office of Naval Research (ONR) through the Philippine Strait Dynamics Experiment (PhilEx) program, under Award and Subaward to Dr. Pierre J. Flament of the University of Hawaii and Dr. Cesar Villanoy of the University of the Philippines, respectively.
+
+
+
+        <br><br>Writers: Mia N. Judicpa, Gabrielle A. Abrahan <br>
+        Graphics: Roy C. Corvera<br>
+        Web Developer: Kate C. Reodica
+</p>
+
+       <p class="atlas-light location-content"  style="font-size: 16px; margin-top: 3vw; color:gray;" *ngIf="panayBool">References:</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">1. <em>What is a gyre?</em>. Oceanservice.noaa.gov. Retrieved 28 February 2022, from  <a href="https://oceanservice.noaa.gov/facts/gyre.html"  style="color:gray" target="_blank">https://oceanservice.noaa.gov/facts/gyre.html</a>.</p>
+
+        <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">2. Benitez-Nelson, C. R., Bidigare, R. R., Dickey, T. D., Landry, M. R., Leonard, C. L., Brown, S. L., et al. (2007). Mesoscale eddies drive increased silica export in the subtropical Pacific Ocean. <em>Science</em>, 316, 1017–1021. <a href="https://doi.org/10.1126/science.1136221"  style="color:gray" target="_blank">https://doi.org/10.1126/science.1136221</a>.</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">3. Chen, X., Pan, D., Bai, Y., He, X., Chen, C. T. A., & Hao, Z. (2013a). Episodic phytoplankton bloom events in the Bay of Bengal triggered by multiple forcings. <em>Deep-Sea Research Part I: Oceanographic Research Papers</em>, 73, 17–30.  <a href="https://doi.org/10.1016/j.dsr.2012.11.011"  style="color:gray" target="_blank">https://doi.org/10.1016/j.dsr.2012.11.011</a>.</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool"> 4. Ning, X., Chai, F., Xue, H., Cai, Y., Liu, C., Zhu, G., & Shi, J. (2004). Physical-biological oceanographic coupling influencing phytoplankton and primary production in the South China Sea. <em>Journal of Geophysical Research</em>, 109, C10005. <a href="https://doi.org/10.1029/2004JC002365"  style="color:gray" target="_blank">https://doi.org/10.1029/2004JC002365</a>.</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">5. Yun, M. S., Kim, B. K., Joo, H. T., Yang, E. J., Nishino, S., Chung, K. H., et al. (2015). Regional productivity of phytoplankton in the western Arctic Ocean during early summer in 2010. <em>Deep-Sea Research Part II: Topical Studies in Oceanography</em>, 120, 61–71. <a href="http://dx.doi.org/10.1016/j.dsr2.2014.11.023"  style="color:gray" target="_blank">http://dx.doi.org/10.1016/j.dsr2.2014.11.023</a>.</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">6. Britannica, T. Editors of Encyclopaedia (2018, January 19). Panay. Encyclopedia Britannica. <a href="https://www.britannica.com/place/Panay-island-Philippines"  style="color:gray" target="_blank">https://www.britannica.com/place/Panay-island-Philippines</a>.</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">7. White, W.B., Tourre, Y.M., Barlow, M., Dettinger, M. (2003). A delayed action oscillator shared by biennial, interannual, and decadal signals in the Pacific basin. <em>Journal of Geophysical Research C: Oceans</em> 108, C3. <a href="https://doi.org/10.1029/2002JC001490"  style="color:gray" target="_blank">https://doi.org/10.1029/2002JC001490</a>.</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">8. McClean, J.L., Ivanova, D.P., Sprintall, J., (2005). Remote origins of interannual variability in the Indonesian throughflow region from data and a global parallel ocean program simulation. <em>Journal of Geophysical Research C: Oceans</em>, 110, C10. <a href="https://doi.org/10.1029/2004JC002477"  style="color:gray" target="_blank">https://doi.org/10.1029/2004JC002477</a>.</p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">9. Pullen, J., Doyle, J.D., May, P., Chavanne, C., Flament, P., Arnone, R.A. (2008). Monsoon surges trigger oceanic eddy formation and propagation in the lee of the philippine islands. <em>Geophysical Research Letters</em>, 35 (7). <a href="https://doi.org/10.1029/2007GL033109"  style="color:gray" target="_blank">https://doi.org/10.1029/2007GL033109</a>.</p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">10. Han, W., Moore, A.M., Levin, J., Zhang, B., Arango, H.G., Curchitser, E., Di Lorenzo, E., Gordon, A.L., Lin, J., 2009. Seasonal surface ocean circulation and dynamics in the philippine archipelago region during 2004–2008. <em>Dynamics of Atmospheres and Oceans</em>, 47 (1), 114–137. <a href="http://doi.org/10.1016/j.dynatmoce.2008.10.007"  style="color:gray" target="_blank">http://doi.org/10.1016/j.dynatmoce.2008.10.007</a>.</p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">11. May, P.W., J.D. Doyle, J.D. Pullen, and L.T. David. 2011. Two-way coupled atmosphere-ocean modeling of the PhilEx Intensive Observational Periods. <em>Oceanography</em>, 24 (1), 48–57. <a href="https://doi.org/10.5670/oceanog.2011.03"  style="color:gray" target="_blank">https://doi.org/10.5670/oceanog.2011.03</a>.</p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">12. Amedo-Repollo, C., Flores-Vidal, X., Chavanne, C., Villanoy, C., & Flament, P. (2021). Barotropic and baroclinic tides in Panay Strait, Philippines. <em>  Regional Studies In Marine Science, 41</em>, 101612. <a href="https://doi.org/10.1016/j.rsma.2021.101612"  style="color:gray" target="_blank">https://doi.org/10.1016/j.rsma.2021.101612</a>.</p>
+
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;" *ngIf="panayBool">13. Yun, M., Kim, Y., Jeong, Y., Joo, H., Jo, Y., & Lee, C. et al. (2020). Weak Response of Biological Productivity and Community Structure of Phytoplankton to Mesoscale Eddies in the Oligotrophic Philippine Sea. <em>Journal Of Geophysical Research: Oceans, 125</em>(12). <a href="https://doi.org/10.1029/2020jc016436"  style="color:gray" target="_blank">https://doi.org/10.1029/2020jc016436</a>.</p>
 
        <p class="atlas-light location-content">Many structures perished during World War II, including the Bureau of Science Herbarium.1 It was the first repository of plants in the country, established in 1908 by botanist and taxonomist Dr. Elmer Merrill. The herbarium housed more than a million specimens, some dating back to the 1700s. The fire took down the building and decades’ worth of field collection, preservation, and species identification.</p>
 
 
-      <p class="atlas-light location-content">The herbarium, which was renamed to Philippine National Herbarium during the latter years, recovered with the help of other herbaria in Europe and the United States. Duplicates of the lost specimens were returned, as overseen by biologist Dr. Eduardo Quisumbing. Still, the loss of the largest collection at the time in Southeast Asia is a reminder of how integral herbaria are to the study of plants and related organisms, especially in a country with high biodiversity.</p>
+      <p class="atlas-light location-content">The herbarium, which was renamed to <em>Philippine National Herbarium</em> during the latter years, recovered with the help of other herbaria in Europe and the United States. Duplicates of the lost specimens were returned, as overseen by biologist Dr. Eduardo Quisumbing. Still, the loss of the largest collection at the time in Southeast Asia is a reminder of how integral herbaria are to the study of plants and related organisms, especially in a country with high biodiversity.</p>
 
-       <hr style=" margin-top: 3vw;">
-
-       <p class="atlas-light location-content2">Fast Facts</p>
-
-       <p class="atlas-light location-content">◉ The MSI Herbarium was established as a tribute to National Scientist and Academician Dr. Gregorio T. Velasquez, who is also considered the <em>Father of Philippine Phycology</em>.<br>
-
-       <span class="atlas-light location-content" style="margin-left: 15px;">○ It was put up in the 1970s by Dr. Gavino C. Trono, Jr., the <em>Father of Kappaphycus Farming</em></span>.</p>
-
-  
-      <div class="w3-container">
-  
-
-  <div class="pmodal" id="content-desktop">
-    <img src="https://res.cloudinary.com/upmsi/image/upload/v1648533202/News/Features/herbarium/prof2_qcn01c.jpg" alt="Snow" style="width:100%;max-width:700px;margin-top: 20px; max-height: 500px;cursor:zoom-in"
-  onclick="document.getElementById('modal01').style.display='block'">
-  <div class="box-content01" >
+       <div class="center-content10">
+         <div class="box-content0"  id="content-desktop">
+          <img  src="https://res.cloudinary.com/upmsi/image/upload/v1648795942/News/Features/herbarium/fast-facts_qgzfl5.png" />
+         </div>
+          <div class="box-content0"  id="content-mobile">
+          <img src="https://res.cloudinary.com/upmsi/image/upload/v1648795900/News/Features/herbarium/fast-facts-mobile_he5fef.png" />
+         </div>
+         <!--<div class="box-content01" >
           <div >
-           <!--<p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" >Many eddies, represented by these swirling patterns, form around the world. They are part of a large current system that transports nutrients and influences biological productivity.</p>
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" ></p>-->
-         
-        <div class="column">
-            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px; margin-left: 8px;">A renowned seaweed biodiversity (taxonomy) scientist, National Scientist Gavino C. Trono, Jr. was also among the pioneers of tropical seaweed farming.</p>
-        </div>
-        <div class="column" >
-           <p class="atlas-light location-content atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;margin-left: 8px;" >National Scientist Gregorio T. Velasquez, a specialist in blue-green algae, led  the advancement of phycological studies in the Philippines.
-            </p>   
-        </div>
-
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" >Many eddies, represented by these swirling patterns, form around the world. They are part of a large current system that transports nutrients and influences biological productivity.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" *ngIf="panayBool" ></p>
           </div>
-        </div>
-</div>
+        </div>-->
+       </div>
 
-<div class="pmodal" id="content-mobile">
-    <img src="https://res.cloudinary.com/upmsi/image/upload/v1648533202/News/Features/herbarium/prof2_qcn01c.jpg" alt="Snow" style="width:100%;max-width:620px;margin-top: 20px; max-height: 500px;cursor:zoom-in"
-  onclick="document.getElementById('modal01').style.display='block'">
-  <div class="box-content01" >
-          <div >
-           <!--<p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" >Many eddies, represented by these swirling patterns, form around the world. They are part of a large current system that transports nutrients and influences biological productivity.</p>
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" ></p>-->
-         
-        <div class="column" >
-            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">A renowned seaweed biodiversity (taxonomy) scientist, National Scientist Gavino C. Trono, Jr. was also among the pioneers of tropical seaweed farming.</p>
-        </div>
-        <div class="column">
-           <p class="atlas-light location-content atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" >National Scientist Gregorio T. Velasquez, a specialist in blue-green algae, led  the advancement of phycological studies in the Philippines.
-            </p>   
-        </div>
-
-          </div>
-        </div>
-</div>
-
-  <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-    <span draggable="false" class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-    <div class="w3-modal-content w3-animate-zoom">
-      <img draggable="false" src="https://res.cloudinary.com/upmsi/image/upload/v1648533202/News/Features/herbarium/prof2_qcn01c.jpg" >
-      <div class="modal-content">
-      <div id="caption" id="content-desktop"> 
-        <div class="box-content01" >
-          <div >
-           <!--<p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" >Many eddies, represented by these swirling patterns, form around the world. They are part of a large current system that transports nutrients and influences biological productivity.</p>
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;" ></p>-->
-         
-        <div class="column">
-            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;margin-left:-80px; margin-right: 20px;">A renowned seaweed biodiversity (taxonomy) scientist, National Scientist Gavino C. Trono, Jr. was also among the pioneers of tropical seaweed farming.</p>
-        </div>
-        <div class="column" >
-           <p class="atlas-light location-content atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px; margin-left: 10px;  margin-bottom: 20px;" >National Scientist Gregorio T. Velasquez, a specialist in blue-green algae, led  the advancement of phycological studies in the Philippines.
-            </p>   
-        </div>
-
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<p class="atlas-light location-content">◉ The Herbarium contains 55,000 specimens, with 18 seagrass species and 2000 algal species. Nineteen of these specimens are <em>type specimens.</em>.<br>
-
-       <span class="atlas-light location-content" style="margin-left: 15px;">○ A type specimen is the specimen used by the taxonomist or biologist at the time the species was being described and named.</span></p>
-
-  
-<div class="w3-container">
-  <div class="pmodal" id="content-desktop">
-    <div class="box-contente column">
-    <img src="https://res.cloudinary.com/upmsi/image/upload/v1648700653/News/Features/herbarium/TYPE_Specimen_-_Sargassum_velasquezii_1_kwtycm.jpg"  style="width:100%;max-width:700px; margin-top:30px; max-height: 500px;cursor:zoom-in"
-  onclick="document.getElementById('modal02').style.display='block'">
-  </div>
-  <div class="box-content01 column" style="margin-top: 180px; padding: 10px;" >
-           <p class="atlas-light photo-courtesy3" style= "color:#394e8a; margin-top: 10px;">One of the type specimens deposited at the MSI Herbarium is that of <em>Sargassum velasquezii</em>, which was first described in 1992 and formally named in 1994 by Dr. Gavino C. Trono, Jr. Like the MSI Herbarium, the seaweed was also named after Dr. Gregorio T. Velasquez.</p>
-           <p class="atlas-light photo-courtesy3" style= "color:#394e8a; margin-top: 10px;">Photo: Dr. Wilfred John Santiañez</p>
-        </div>
-    </div>
-  
-
-  <div class="pmodal" id="content-mobile">
-    <img src="https://res.cloudinary.com/upmsi/image/upload/v1648700653/News/Features/herbarium/TYPE_Specimen_-_Sargassum_velasquezii_1_kwtycm.jpg"  style="width:100%;max-width:620px; margin-top:30px; max-height: 700px;cursor:zoom-in"
-  onclick="document.getElementById('modal02').style.display='block'">
-  <div class="box-content01" >
-          <div>
-           <p class="atlas-light photo-courtesy3" style= "color:#394e8a; margin-top: 10px; margin-right: 20px;">One of the type specimens deposited at the MSI Herbarium is that of <em>Sargassum velasquezii</em>, which was first described in 1992 and formally named in 1994 by Dr. Gavino C. Trono, Jr. Like the MSI Herbarium, the seaweed was also named after Dr. Gregorio T. Velasquez.</p>
-           <p class="atlas-light photo-courtesy3" style= "color:#394e8a; margin-top: 10px;">Photo: Dr. Wilfred John Santiañez</p>
-          </div>
-        </div>
-  </div>
-
-  <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
-    <span draggable="false" class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-    <div class="w3-modal-content w3-animate-zoom">
-      <img draggable="false" src="https://res.cloudinary.com/upmsi/image/upload/v1648700653/News/Features/herbarium/TYPE_Specimen_-_Sargassum_velasquezii_1_kwtycm.jpg" id="content-desktop" style="height:1100">
-       <img draggable="false" src="https://res.cloudinary.com/upmsi/image/upload/v1648700653/News/Features/herbarium/TYPE_Specimen_-_Sargassum_velasquezii_1_kwtycm.jpg" style="height:1100px;"id="content-mobile">
-      <div class="modal-content">
-      <div id="caption" id="content-desktop"> 
-        <div class="box-content01" >
-          <div >
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">One of the type specimens deposited at the MSI Herbarium is that of <em>Sargassum velasquezii</em>, which was first described in 1992 and formally named in 1994 by Dr. Gavino C. Trono, Jr. Like the MSI Herbarium, the seaweed was also named after Dr. Gregorio T. Velasquez.</p>
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Photo: Dr. Wilfred John Santiañez</p>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
+     
 
 
   <p class="atlas-light location-content2">The Philippines, a center of biodiversity</p>
 
    <p class="atlas-light location-content">The United Nations Environment Programme identifies the Philippines as one of 18 mega-biodiverse countries. Its grasslands, tropical rainforests, freshwater and estuarine ecosystems, and open water contain two-thirds of the global biodiversity, with 70–80% of the world’s plant and animal species.<sup>2</sup></p>
 
+   
+
    <div class="w3-container3">
-  <div class="pmodal3" style="width: 900px; margin-left:-100px;" id="content-desktop">
-    <img src="https://res.cloudinary.com/upmsi/image/upload/v1648540322/News/Features/herbarium/final-algae_div_Custom_Size_2_qrhjey.png"  style="width:100%;max-width:900px; margin-top:30px; max-height: 450px;cursor:zoom-in"
-  onclick="document.getElementById('modal03').style.display='block'">
+  <div class="pmodal3" style="width: 1200px; margin-left: -250px; " id="content-desktop">
+    <img src="https://res.cloudinary.com/upmsi/image/upload/v1648540324/News/Features/herbarium/CT-map_final_djjgn8.png"  style="width:100%;max-width:1200px; margin-top:30px; max-height: 900px; height: 700px;cursor:zoom-in"
+  onclick="document.getElementById('modal13').style.display='block'">
   <div class="box-content01" >
           <div>
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">The G.T. Velasquez Phycological Herbarium (MSI) has voucher specimens of seaweeds belonging to the phyla <em>Rhodophyta, Chlorophyta, Ochrophyta, and Cyanobacteria.</em></p>
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Graphics: Roy Oliver Corvera</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">On land, the Amazon Forest holds the highest density of floral and faunal species. In water, however, that feat belongs to the Coral Triangle. The area of 6 million km<sup>2</sup>, includes the sea zones of the Philippines, the Solomon Islands, Indonesia, Malaysia, Papua New Guinea, and East Timor.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a;">Graphics: Roy Oliver Corvera</p>
           </div>
         </div>
   </div>
 
   <div class="pmodal3" style="width: 620px;" id="content-mobile">
-    <img src="https://res.cloudinary.com/upmsi/image/upload/v1648540322/News/Features/herbarium/final-algae_div_Custom_Size_2_qrhjey.png"  style="width:100%;max-width:620px; margin-top:30px; max-height: 250px;cursor:zoom-in"
+    <img src="https://res.cloudinary.com/upmsi/image/upload/v1648540324/News/Features/herbarium/CT-map_final_djjgn8.png"  style="width:100%;max-width:620px; margin-top:30px; max-height: 550px;cursor:zoom-in"
+  onclick="document.getElementById('modal13').style.display='block'">
+  <div class="box-content01" >
+          <div>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">On land, the Amazon Forest holds the highest density of floral and faunal species. In water, however, that feat belongs to the Coral Triangle. The area of 6 million km<sup>2</sup>, includes the sea zones of the Philippines, the Solomon Islands, Indonesia, Malaysia, Papua New Guinea, and East Timor.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: px;">Graphics: Roy Oliver Corvera</p>
+          </div>
+        </div>
+  </div>
+
+  <div id="modal13" class="w3-modal" onclick="this.style.display='none'">
+    <span draggable="false" class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content4 w3-animate-zoom">
+      <img draggable="false" src="https://res.cloudinary.com/upmsi/image/upload/v1648540324/News/Features/herbarium/CT-map_final_djjgn8.png" >
+      <div class="modal-content">
+      <!--<div id="caption" id="content-desktop"> 
+        <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">The G.T. Velasquez Phycological Herbarium (MSI) has voucher specimens of seaweeds belonging to the phyla <em>Rhodophyta, Chlorophyta, Ochrophyta, and Cyanobacteria.</em></p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Graphics: Roy Oliver Corvera</p>
+          </div>
+        </div>
+      </div>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="atlas-light location-content">The Philippines is home to 5% of the world’s flora and has the 5th highest number of plant species. Located within the Coral Triangle of the western Pacific Ocean, the marine biodiversity of this archipelago consists of 468 hard corals, 1755 reef fishes, 820 species of algae, and 19 species of seagrass.<sup>3</sup></p>
+
+
+<p class="atlas-light location-content">Threats to this rich biodiversity come in both natural and anthropogenic forms. Specifically, pollution, climate change, unsustainable culture practices and destructive fishing methods, eutrophication from surrounding mariculture sites, and even coastal development are all possible causes of biodiversity loss.<sup>4</sup></p>
+
+<div class="w3-container">
+  <div class="pmodal4" style="width: 900px; margin-left:-100px;" id="content-desktop">
+    <img src="https://res.cloudinary.com/upmsi/image/upload/v1648540329/News/Features/herbarium/DSCN0109_mq2bfs.jpg"  style="width:100%;max-width:900px; margin-top:30px; max-height: 450px;cursor:zoom-in"
+  onclick="document.getElementById('modal04').style.display='block'">
+  <div class="box-content01" >
+          <div>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;"><em>Gamet (Phycocalidia)</em> harvesters perched atop ocean-lapped rocks carefully pick out the seaweed by hand. Called the “Black Gold of the North,” <em>gamet</em> is then sun-dried and pressed into discs. The final product is purplish-blue in color.
+</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a;">Photo: Bernardo Arellano III via <a href="https://www.thehabagatcentral.com/2020/07/nangisit-balitoc-gamet-seaweed.html" target="_blank"  style="color: #384e8a;">The Habagat Central</a></p>
+          </div>
+        </div>
+  </div>
+
+  <div class="pmodal4" style="width: 620px; margin-left:70px;" id="content-mobile">
+    <img src="https://res.cloudinary.com/upmsi/image/upload/v1648540329/News/Features/herbarium/DSCN0109_mq2bfs.jpg"  style="width:100%;max-width:900px; margin-top:30px; max-height: 450px;cursor:zoom-in"
+  onclick="document.getElementById('modal04').style.display='block'">
+  <div class="box-content01" >
+          <div>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;"><em>Gamet (Phycocalidia)</em> harvesters perched atop ocean-lapped rocks carefully pick out the seaweed by hand. Called the “Black Gold of the North,” <em>gamet</em> is then sun-dried and pressed into discs. The final product is purplish-blue in color.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Photo: Bernardo Arellano III via <a href="https://www.thehabagatcentral.com/2020/07/nangisit-balitoc-gamet-seaweed.html" target="_blank"  style="color: #384e8a;">The Habagat Central</a></p>
+          </div>
+        </div>
+  </div>
+
+  <div id="modal04" class="w3-modal" onclick="this.style.display='none'">
+    <span draggable="false" class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+      <img draggable="false" src="https://res.cloudinary.com/upmsi/image/upload/v1648540329/News/Features/herbarium/DSCN0109_mq2bfs.jpg" >
+      <div class="modal-content">
+      <div id="caption" id="content-desktop"> 
+        <div class="box-content01" >
+          <div >
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;"><em>Gamet (Phycocalidia)</em> harvesters perched atop ocean-lapped rocks carefully pick out the seaweed by hand. Called the “Black Gold of the North,” <em>gamet</em> is then sun-dried and pressed into discs. The final product is purplish-blue in color.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Photo: Bernardo Arellano III via <a href="https://www.thehabagatcentral.com/2020/07/nangisit-balitoc-gamet-seaweed.html" target="_blank"  style="color: #384e8a;">The Habagat Central</a></p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="atlas-light location-content">To protect the biodiversity of our macroalgae, scientists and collectors comb sandy shorelines, rocky beaches, and the open water to collect seaweed specimens and keep them in an herbarium. Originally a term coined by French botanist Joseph Pitton de Tournefort to refer to a book about medicinal plants,<sup>5</sup> <em>herbarium</em> now refers to a collection of dried and preserved plant specimens for scientific research.
+</p>
+
+<p class="atlas-light location-content">The Gregorio T. Velasquez Phycological Herbarium (MSI) of the UP Marine Science Institute, of which Dr. Santiañez acts as curator, was designed to house the seaweeds of the Philippines.</p>
+
+ <p class="atlas-light location-content2">Protecting Philippine phycology</p>
+
+   <p class="atlas-light location-content">Seaweeds — or “benthic marine macroalgae,” if you want to sound technical — play multiple roles in the ocean as primary producers, habitat-forming organisms, and nutrient regulators.<sup>6</sup> They are marine plants that photosynthesize and provide food for several fishes. Some species of seaweeds, like the brown seaweed <em>Sargassum</em>, provide shelter to fish and other marine animals by forming large mats that are buoyed by gas-filled cavities called <strong>pneumatocysts</strong>. For instance, the siganids or rabbitfishes (locally known as <em>danggit</em>) settle, breed, and feed in the <em>Sargassum</em> habitats of the productive  Lagonoy Gulf. Siganids are economically important in the Philippines, as they make up around 500,000 kg of the total fisheries production annually.<sup>7</sup> </p>
+
+<p class="atlas-light location-content">Seaweeds are emerging assets in aquaculture. They are food sources, as well as alternative means for fishermen and coastal communities to earn. In Northern Philippines, the <em>gamet (Phycocalidia)</em> harvesters of Ilocos Norte carefully handpick the edible seaweed from sharp, slippery rocks.<sup>8</sup> They sell it as a dried product pressed into a disc structure that the locals call <em>pedazo</em>, with prices reaching PhP 500 per square foot.<sup>9</sup>
+</p>
+
+
+<p class="atlas-light location-content">Protecting seaweeds involves comprehensive research on their diversity, biology, and ecology, among others. By cataloging, archiving, and providing researchers easy access to specimens, herbaria play a big role in this field of research. This is why Dr. Gavino C. Trono, Jr. established the Gregorio T. Velasquez Phycological Herbarium.</p>
+
+
+<p class="atlas-light location-content">With the aid of some seed money and Ms. Corazon Dayrit, the first in-house personnel of the herbarium, Dr. Trono was able to amass quite a number of specimens. The collection comprised donations from Dr. Velasquez and Dr. Miguel D. Fortes, items from herbaria exchanges, materials collected by Dr. Trono and his students, and specimens from different UP MSI expeditions.
+</p>
+
+<div class="w3-container3">
+  <div class="pmodal3" style="width: 1200px; margin-left: -250px; " id="content-desktop">
+    <img src="https://res.cloudinary.com/upmsi/image/upload/v1648540322/News/Features/herbarium/final-algae_div_Custom_Size_2_qrhjey.png"  style="width:100%;max-width:1200px; margin-top:30px; max-height: 900px; height: 550px; cursor:zoom-in"
+  onclick="document.getElementById('modal03').style.display='block'">
+  <div class="box-content01" >
+          <div>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">The G.T. Velasquez Phycological Herbarium (MSI) has voucher specimens of seaweeds belonging to the phyla <em>Rhodophyta, Chlorophyta, Ochrophyta, and Cyanobacteria.</em></p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a;">Graphics: Roy Oliver Corvera</p>
+          </div>
+        </div>
+  </div>
+
+  <div class="pmodal3" style="width: 620px;" id="content-mobile">
+    <img src="https://res.cloudinary.com/upmsi/image/upload/v1648795871/News/Features/herbarium/collection-mobile-ver_ecodgv.png"  style="width:100%;max-width:620px; margin-top:30px; max-height: 1000px;cursor:zoom-in"
   onclick="document.getElementById('modal03').style.display='block'">
   <div class="box-content01" >
           <div>
@@ -227,6 +548,8 @@
   </div>
 </div>
 
+
+
 <p class="atlas-light location-content">Seaweed taxonomist and ecophysiologist Dr. Edna T. Ganzon-Fortes succeeded Ms. Dayrit in 1982, and the herbarium received support from many benefactors during her tenure. Most notably, Dr. Ganzon-Fortes led the initiative to digitize the herbarium collection. She managed the herbarium for 35 years until her retirement in 2017.</p>
 
 <p class="atlas-light location-content2">The G.T. Velasquez Phycological Herbarium (MSI)</p>
@@ -240,7 +563,7 @@
   <div class="box-content01" >
           <div>
            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Exhibit on the diversity of seaweeds in Philippines and highlights of the content of the MSI herbarium.</p>
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Photo: Martina J. Salazar</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a;">Photo: Martina J. Salazar</p>
           </div>
         </div>
   </div>
@@ -281,7 +604,7 @@
   <div class="box-content01" >
           <div>
            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Bulky and hard seaweeds, especially coralline red algae, are stored in boxes and placed inside the drawers of herbarium cabinets to protect their integrity and to prevent them from damaging other pressed collections.</p>
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Photo: Martina J. Salazar</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a;">Photo: Martina J. Salazar</p>
           </div>
         </div>
   </div>
@@ -326,11 +649,11 @@
          
         <div class="column">
             <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px; margin-left: 8px;">Pressed seagrass specimens are kept in cabinets designated to store all voucher specimens of seagrass collected from the Philippines and other countries.</p>
-            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px; margin-left: 8px;">Photo: Martina J. Salazar</p>
+            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-left: 8px;">Photo: Martina J. Salazar</p>
         </div>
         <div class="column" >
            <p class="atlas-light location-content atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;margin-left: 8px;" >Voucher specimens of seaweeds collected from the Philippines and other areas in the world are cataloged before these are stored in alphabetical order inside the cabinets. </p>   
-            <p class="atlas-light location-content atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;margin-left: 8px;" >Photo: Martina J. Salazar</p>   
+            <p class="atlas-light location-content atlas-light photo-courtesy2" style= "color:#394e8a;margin-left: 8px; margin-top: -2px;" >Photo: Martina J. Salazar</p>   
         </div>
         </div>
 
@@ -393,7 +716,7 @@
   <div class="box-content01" >
           <div>
            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Pressed seaweeds ready to be processed as voucher herbarium specimens.</p>
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Photo: Martina J. Salazar</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a;">Photo: Martina J. Salazar</p>
           </div>
         </div>
   </div>
@@ -432,7 +755,7 @@
 <div class="box-content01" >
           <div >
            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Video on seaweed preparation.</p>
-            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Video: <a href="https://www.youtube.com/watch?v=slitTRUgQA0" target="_blank"  style="color: #384e8a;">Natural History Museum</a></p>
+            <p class="atlas-light photo-courtesy2" style= "color:#394e8a;">Video: <a href="https://www.youtube.com/watch?v=slitTRUgQA0" target="_blank"  style="color: #384e8a;">Natural History Museum</a></p>
           </div>
         </div>
     </div>
@@ -448,11 +771,11 @@
          
         <div class="column">
             <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px; margin-left: 8px;">A pressed specimen of the brown seaweed Dictyota.</p>
-            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px; margin-left: 8px;">Photo: Martina J. Salazar</p>
+            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-left: 8px;">Photo: Martina J. Salazar</p>
         </div>
         <div class="column" >
            <p class="atlas-light location-content atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;margin-left: 8px;" >Brittle coralline red seaweed specimens are stored in  boxes to protect their integrity. </p>   
-            <p class="atlas-light location-content atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;margin-left: 8px;" >Photo: Martina J. Salazar</p>   
+            <p class="atlas-light location-content atlas-light photo-courtesy2" style= "color:#394e8a;margin-left: 8px; margin-top: -2px;" >Photo: Martina J. Salazar</p>   
         </div>
         </div>
 
@@ -515,7 +838,7 @@
   <div class="box-content01" >
           <div>
            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">A specimen of the seagrass <em>Halophila</em> ovalis, which is one of the 18 seagrass species deposited and represented at the MSI herbarium.</p>
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Photo: Martina J. Salazar</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a;">Photo: Martina J. Salazar</p>
           </div>
         </div>
   </div>
@@ -556,7 +879,7 @@
   <div class="box-content01" >
           <div>
            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">One function of the MSI Herbarium is to serve as a training facility. Photographed here is a group of students preparing seaweed specimens.</p>
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Photo: Dr. Wilfred John Santiañez</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a;">Photo: Dr. Wilfred John Santiañez</p>
           </div>
         </div>
   </div>
@@ -590,139 +913,133 @@
   </div>
 </div>
 
-
-
-<!--<div class="atlas-light location-content boxed">
-        <div class="text">
-          <p class="head"><strong>Curious about the collections?</strong></p>
-              <p><br>The G.t Velazquez Phycology Herbarium serves many purposes; a gallery fo Philippines seaweeds and seagrasses, a repository for type and voucher specimens, and a tool for scientific pursuits.
-
-
-              <br><br>Interested students and researchers can access the collections by emailing the MSI Herbarium Collections Manager at <u>msiadmin@msi.upd.edu.ph</u> and/or <u>herbarium@msi.upd.edu.ph</u>
-
-               <br><br>Access to and use of the <em>herbarium, its collections, and facilities are all subject to the MSI Collections Access Regulations</em>
-            </p>
-        </div>
-      </div>-->
-
-      
+<div id="content-desktop">
       <main>
           
-          <section class="parallax bg">
-            <p class="location-content3">The fan-shaped and calcified green seaweed Udotea geppiorum is typically found in sandy substrates.<br><br>
+          <section class="parallax bg" >
+            <p class="location-content3"  style="margin-top: 450px;">The fan-shaped and calcified green seaweed Udotea geppiorum is typically found in sandy substrates.<br><br>
 
-            Photo Credit: Wilfred John Santiañez </p>
+             </p>
 
 
            
           </section>
 
-          <section class="parallax bg2">
+          <section class="parallax bg2"  >
             
 
-             <p class="location-content3">The green seaweed <em>Caulerpa lentillifera</em>, locally known as ‘lato’ or ‘ar-arusip’, is an economically important species that is widely consumed as salad in the Philippines. The species is typically harvested from the wild but is also cultivated in several areas in the country such as in Mactan, Cebu.<br><br>
+             <p class="location-content3"  style="margin-top: 450px;">The green seaweed <em>Caulerpa lentillifera</em>, locally known as ‘lato’ or ‘ar-arusip’, is an economically important species that is widely consumed as salad in the Philippines. The species is typically harvested from the wild but is also cultivated in several areas in the country such as in Mactan, Cebu.<br><br>
 
-            Photo Credit: Wilfred John Santiañez </p>
+             </p>
           </section>
 
-          <section class="parallax bg3">
+          <section class="parallax bg3" >
             
 
-             <p class="location-content3"><em>Codium</em> species, locally known as ‘popoklo’, are known for their spongy texture. Popoklo are considered to be food delicacy  and are consumed raw or in salad especially in northern Philippines.<br><br>
+             <p class="location-content3" style="margin-top: 450px;"><em>Codium</em> species, locally known as ‘popoklo’, are known for their spongy texture. Popoklo are considered to be food delicacy  and are consumed raw or in salad especially in northern Philippines.<br><br>
 
-            Photo Credit: Wilfred John Santiañez </p>
+             </p>
           </section>
 
           <section class="parallax bg5">
             
 
-             <p class="location-content3">The red seaweed <em>Halymenia durvillei</em> is common in rocky areas in many tropical reefs including the Philippines. It is known to produce high-value natural products such as carrageenan and pigments r-phycoerythrin and r-phycocyanin. Due to its economic potential a culture technology for the species was recently developed by Dr. Gavino C. Trono Jr. and his team.<br><br>
+             <p class="location-content3"  style="margin-top: 450px;">The red seaweed <em>Halymenia durvillei</em> is common in rocky areas in many tropical reefs including the Philippines. It is known to produce high-value natural products such as carrageenan and pigments r-phycoerythrin and r-phycocyanin. Due to its economic potential a culture technology for the species was recently developed by Dr. Gavino C. Trono Jr. and his team.<br><br>
 
-            Photo Credit: Wilfred John Santiañez </p>
+             </p>
           </section>
 
           <section class="parallax bg4">
             
 
-             <p class="location-content3">Economically important red seaweed Asparagopsis taxiformis, a species that produce bioactives that can significantly reduce the amount of methane belched by cows. The species is currently being developed for mass production as feed additive.<br><br>
+             <p class="location-content3" style="margin-top: 450px;">Economically important red seaweed Asparagopsis taxiformis, a species that produce bioactives that can significantly reduce the amount of methane belched by cows. The species is currently being developed for mass production as feed additive.<br><br>
 
-            Photo Credit: Wilfred John Santiañez </p>
+             </p>
           </section>
 
           <section class="parallax bg6">
             
 
-             <p class="location-content3">A <em>pedazo</em> made from wild-harvested and dried red seaweed <em>Phycocalidia</em>, locally known as gamet. Gamet is an economically important species in the Philippines, with a relatively narrow distribution range in the country – that is, it is only known to occur naturally in the rocky and wave-swept coastal regions of northern Philippines.<br><br>
+             <p class="location-content3"  style="margin-top: 450px;">A <em>pedazo</em> made from wild-harvested and dried red seaweed <em>Phycocalidia</em>, locally known as gamet. Gamet is an economically important species in the Philippines, with a relatively narrow distribution range in the country – that is, it is only known to occur naturally in the rocky and wave-swept coastal regions of northern Philippines.<br><br>
 
-            Photo Credit: Wilfred John Santiañez </p>
+             </p>
           </section>
 
           <section class="parallax bg7">
             
 
-             <p class="location-content3"><em>Gracilaria sullivanii</em>, a Philippine endemic, belongs to a group of seaweeds that are known to produce agar and agarose, both of which are commercially important derivatives with wide applications and use in various industries.<br><br>
+             <p class="location-content3" style="margin-top: 450px;"><em>Gracilaria sullivanii</em>, a Philippine endemic, belongs to a group of seaweeds that are known to produce agar and agarose, both of which are commercially important derivatives with wide applications and use in various industries.<br><br>
 
-            Photo Credit: Wilfred John Santiañez </p>
+             </p>
           </section>
 
           <section class="parallax bg8">
             
 
-             <p class="location-content3">The fan-shaped <em>Padina australis</em> is among the few brown seaweeds known to have calcification (accumulation of calcium salts) on its thallus.<br><br>
+             <p class="location-content3" style="margin-top: 450px;">The fan-shaped <em>Padina australis</em> is among the few brown seaweeds known to have calcification (accumulation of calcium salts) on its thallus.<br><br>
 
-            Photo Credit: Wilfred John Santiañez </p>
+             </p>
           </section>
 
           <section class="parallax bg9">
             
 
-             <p class="location-content3">Brown seaweeds from the genus Lobophora are ecologically important species in tropical reef ecosystems. Recent studies on Lobophora suggested that the diversity of the genus is grossly underestimated, including those in the Philippines.<br><br>
+             <p class="location-content3" style="margin-top: 450px;">Brown seaweeds from the genus Lobophora are ecologically important species in tropical reef ecosystems. Recent studies on Lobophora suggested that the diversity of the genus is grossly underestimated, including those in the Philippines.<br><br>
 
-            Photo Credit: Wilfred John Santiañez </p>
+             </p>
           </section>
 
           <section class="parallax bg10">
             
 
-             <p class="location-content3"><em>Sargassum currimaoense</em> an endemic brown seaweed species that was discovered and described by Dr. Gavino C. Trono, Jr. in 1994.<br><br>
+             <p class="location-content3" style="margin-top: 450px;"><em>Sargassum currimaoense</em> an endemic brown seaweed species that was discovered and described by Dr. Gavino C. Trono, Jr. in 1994.<br><br>
 
-            Photo Credit: Wilfred John Santiañez </p>
+             </p>
           </section>
 
           <section class="parallax bg11">
             
 
-             <p class="location-content3">Locally known as ‘balbalolang’, <em>Hydroclathrus tenuis</em> is a food species  that widely distributed in the Indo-Pacific Ocean. The species is known to occur seasonally, sometimes in forming blooms, on shallow intertidal reefs or seagrass beds.  <br><br>
+             <p class="location-content3" style="margin-top: 450px;">Locally known as ‘balbalolang’, <em>Hydroclathrus tenuis</em> is a food species  that widely distributed in the Indo-Pacific Ocean. The species is known to occur seasonally, sometimes in forming blooms, on shallow intertidal reefs or seagrass beds.  <br><br>
 
-            Photo Credit: Wilfred John Santiañez </p>
+             </p>
           </section>
 
           <section class="parallax bg12">
             
 
-             <p class="location-content3"><em>Scinaia sp.</em><br><br>
+             <p class="location-content3" style="margin-top: 450px;"><em>Scinaia sp.</em><br><br>
 
-            Photo Credit: Wilfred John Santiañez </p>
+             </p>
           </section>
 
           <section class="parallax bg13">
             
 
-             <p class="location-content3"><em>Titanophora weberae</em><br><br>
+             <p class="location-content3" style="margin-top: 450px;"><em>Titanophora weberae</em><br><br>
 
-            Photo Credit: Wilfred John Santiañez </p>
+             </p>
           </section>
 
           <section class="parallax bg14">
             
 
-             <p class="location-content3"><em>Zellera tawallina</em><br><br>
+             <p class="location-content3" style="margin-top: 450px;"><em>Zellera tawallina</em><br><br>
 
-            Photo Credit: Wilfred John Santiañez </p>
+             </p>
           </section>
 
       
       </main>
+<div class="box-content01" >
+          <div>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">These specimens were collected from the Pacific Seaboard of the Philippines during the PacSea expedition.
+</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a;">Photos by: Dr. Wilfred John Santiañez</p>
+          </div>
+        </div>
+    </div>
+      
         
 
         
@@ -745,7 +1062,7 @@
           <div>
            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Dr. Santiañez mounting specimens for seaweed biodiversity and molecular phylogenetic works.
 </p>
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Photo: Eunize Joy Milante</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; ">Photo: Eunize Joy Milante</p>
           </div>
         </div>
   </div>
@@ -794,7 +1111,7 @@
           <div>
            <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Collecting specimens for seaweed biodiversity research in Pag-asa Island, Kalayaan Island Group, Palawan last May 2019.
 </p>
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Photo: Jue Alef Lalas
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a;">Photo: Jue Alef Lalas
 </p>
           </div>
         </div>
@@ -833,7 +1150,7 @@
 
        <hr style=" margin-top: 3vw;">
 
-       <p class="atlas-light location-content">The G.T. Velasquez Phycological Herbarium highlights and showcases the Philippine collection of seaweeds and seagrasses to local and foreign visitors, from scientists to other stakeholders. Herbaria are essential to teaching and training, especially to biodiversity systematics research and ecology conservation. 
+       <p class="atlas-light location-content">The Gregorio T. Velasquez Phycological Herbarium (MSI) highlights and showcases the Philippine collection of seaweeds and seagrasses to local and foreign visitors, from scientists to other stakeholders. Herbaria are essential to teaching and training, especially to biodiversity systematics research and ecology conservation. 
 </p>
 
         <p class="atlas-light location-content">“It’s not just about research. Pwede din kasi siyang ma-consider as national heritage and pride ng country kasi you have documentation na you have all these resources.”</p>
@@ -842,22 +1159,18 @@
 </p>
 
 
- <hr style=" margin-top: 3vw;">
+<div class="atlas-light location-content boxed">
+        <div class="text">
+          <p class="head"><strong>Curious about the collections?</strong></p>
+              <p><br>The G.T. Velasquez Phycological Herbarium serves many purposes: a gallery for Philippine seaweeds and seagrasses, a repository for type and voucher specimens, and a tool for scientific pursuits.
 
- <p class="atlas-light location-content2" style="color: gray">  Curious about the collections?
-</p>
+              <br><br>Interested students and researchers can access the collections by emailing the MSI Herbarium Collections Manager at msiadmin@msi.upd.edu.ph and/or herbarium@msi.upd.edu.ph.
 
-       <p class="atlas-light location-content">The G.T. Velasquez Phycological Herbarium serves many purposes: a gallery for Philippine seaweeds and seagrasses, a repository for type and voucher specimens, and a tool for scientific pursuits.
-</p>
-
-        <p class="atlas-light location-content">Interested students and researchers can access the collections by emailing the MSI Herbarium Collections Manager at msiadmin@msi.upd.edu.ph and/or herbarium@msi.upd.edu.ph.
-</p>
-
-        <p class="atlas-light location-content"><em>Access to and use of the herbarium, its collections, and facilities are all subject to the MSI Collections Access Regulations.
+               <br><br><em>Access to and use of the herbarium, its collections, and facilities are all subject to the MSI Collections Access Regulations.
 </em>
-</p>
+        </div>
+      </div>
 
- <hr style=" margin-top: 3vw;">
 
  <p class="atlas-light location-content2">Acknowledgments
 </p>
@@ -893,23 +1206,20 @@
 
       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">10. Charrier, B., Rolland, E., Gupta, V., & Reddy, C. (2015). Production of genetically and developmentally modified seaweeds: exploiting the potential of artificial selection techniques. Frontiers In Plant Science, 6. https://doi.org/10.3389/fpls.2015.00127</p>
 
+     
+
+  </div>
 
 
-
-
-
- </div>
-</div>
 </div>
 
-
-
-
+</div>
 
 <div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
   <span class="arrow-text" (click)="moreScicomm()">
     <p class="atlas-light"><span class="navi">MORE FEATURES</span> <span class="arrow">&rarr;</span></p>
   </span>
+</div>
 </div>
 
 <div class="container2  animate__animated animate__fadeIn animate__delay-1s">
@@ -918,5 +1228,7 @@
 </div>
 </div>
 
+</body>
+</html>
 
 

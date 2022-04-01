@@ -24,6 +24,7 @@ herb = [{
   myArr = [];
   
   herbBool:boolean = false;
+   panayBool:boolean = false;
 
   
   

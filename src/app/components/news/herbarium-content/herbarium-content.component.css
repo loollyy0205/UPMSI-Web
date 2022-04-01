@@ -41,25 +41,26 @@ perspective: 250px;
 
 
 main {
-  height: 120vh;
+  height: 140vh;
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
   margin-top: 5vw;
-  width: 1400px;
+   width: 1400px;
   margin-left: -340px;
+  background-color: black;
 }
 
 section {
   transform-style: preserve-3d;
   position: relative;
-  height: 190vh;
+  height:320vh;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  margin-top: 50px;
 }
+
 
 .w3-container{
 margin-bottom: -150px;
@@ -85,138 +86,175 @@ section h1 {
 .parallax::after {
   content: " ";
   position: absolute;
-  top: 10px;
+  top: 500px;
   right: 0;
   bottom: 0;
   left: 0;
   transform: translateZ(-1px) scale(1.5);
   background-size: 100%;
-  z-index: -1;
+  z-index: 1;
 }
 
 .bg::after {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/upmsi/image/upload/v1648628767/News/Features/herbarium/T23036_Udotea_geppii_edited_xrmkgr.jpg");
-  background-size: cover;
-  height: 100%;
-  width: 1400px;
+  background-size: 100% 55%;
+  background-repeat: no-repeat;
+   background-position: center; /* Center the image */
+
+height: 100%;
+   width: 1400px;
+  background-attachment: fixed;
 }
 
 .bg2::after {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/upmsi/image/upload/v1648628740/News/Features/herbarium/DSC02396_y9nwiv.jpg");
-  background-size: cover;
-    height: 100%;
-   width: 1400px;
+  background-size: 100% 55%;
+  background-repeat: no-repeat;
+   background-position: center; /* Center the image */
 
+height: 100%;
+   width: 1400px;
+  background-attachment: fixed;
 }
 
 .bg3::after {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/upmsi/image/upload/v1648630519/News/Features/herbarium/DSC02386_um3pok.jpg");
-  background-size: cover;
-    height: 100%;
-   width: 1400px;
+   background-size: 100% 55%;
+  background-repeat: no-repeat;
+   background-position: center; /* Center the image */
 
+height: 100%;
+   width: 1400px;
+  background-attachment: fixed;
 }
 
 .bg4::after {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/upmsi/image/upload/v1648630516/News/Features/herbarium/T23011_Asparagopsis_taxiformis_edited_qwu1wm.jpg");
-  background-size: cover;
-    height: 100%;
-  width: 1400px;
+   background-size: 100% 55%;
+  background-repeat: no-repeat;
+   background-position: center; /* Center the image */
 
+height: 100%;
+   width: 1400px;
+  background-attachment: fixed;
 }
 
 .bg5::after {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/upmsi/image/upload/v1648630538/News/Features/herbarium/T24618_Halymenia_durvillei_specimen_a6w3v4.jpg");
-  background-size: cover;
-    height: 100%;
+   background-size: 100% 55%;
+  background-repeat: no-repeat;
+   background-position: center; /* Center the image */
+height: 100%;
    width: 1400px;
-
+  background-attachment: fixed;
 }
 
 .bg6::after {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/upmsi/image/upload/v1648630510/News/Features/herbarium/T25993_Porphyra_crispata_edited_xljqgc.jpg");
-  background-size: cover;
-    height: 100%;
-  width: 1400px;
-
+  background-size: 100% 55%;
+  background-repeat: no-repeat;
+   background-position: center; /* Center the image */
+height: 100%;
+   width: 1400px;
+  background-attachment: fixed;
 }
 
 .bg7::after {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/upmsi/image/upload/v1648630517/News/Features/herbarium/T23530_Gracilaria_sullivanii_specimen_bupv1d.jpg");
-  background-size: cover;
-    height: 100%;
-   width: 1400px;
+  background-size: 100% 55%;
 
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+height: 100%;
+   width: 1400px;
+  background-attachment: fixed;
 }
 
 .bg8::after {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/upmsi/image/upload/v1648630512/News/Features/herbarium/T24395_Padina_australis_edited_y3bsrs.jpg");
-  background-size: cover;
-    height: 100%;
-   width: 1400px;
+  background-size: 100% 55%;
+  background-repeat: no-repeat;
+   background-position: center; /* Center the image */
 
+height: 100%;
+   width: 1400px;
+  background-attachment: fixed;
 }
 
 .bg9::after {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/upmsi/image/upload/v1648632340/News/Features/herbarium/T24092_Lobophora_variegata_specimen_1_qwvpls.jpg");
   background-size: cover;
-    height: 100%;
-   width: 1400px;
+  background-size: 100% 55%;
+  background-repeat: no-repeat;
+   background-position: center; /* Center the image */
 
+height: 100%;
+   width: 1400px;
+  background-attachment: fixed;
 }
 
 .bg10::after {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/upmsi/image/upload/v1648630512/News/Features/herbarium/T24876_Sargassum_currimaoense_edited_jhqcy8.jpg");
-  background-size: cover;
-    height: 100%;
+  background-size: 100% 55%;
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+height: 100%;
    width: 1400px;
-
+  background-attachment: fixed;
 }
 
 .bg11::after {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/upmsi/image/upload/v1648630518/News/Features/herbarium/DSC02331_niidqk.jpg");
-  background-size: cover;
-    height: 100%;
+   background-size: 100% 55%;
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+height: 100%;
    width: 1400px;
-
+  background-attachment: fixed;
 }
 
 .bg12::after {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/upmsi/image/upload/v1648632798/News/Features/herbarium/unnamed_uxwyop.jpg");
-  background-size: cover;
-    height: 100%;
+     background-size: 100% 55%;
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+height: 100%;
    width: 1400px;
-
+  background-attachment: fixed;
 }
 
 .bg13::after {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/upmsi/image/upload/v1648630517/News/Features/herbarium/T23435_Titanophora_weberae_edited_be6oaq.jpg");
-  background-size: cover;
-    height: 100%;
-  width: 1400px;
-
+   background-size: 100% 55%;
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+height: 100%;
+   width: 1400px;
+  background-attachment: fixed;
 }
 
 .bg14::after {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/upmsi/image/upload/v1648630508/News/Features/herbarium/T25981_Zellera_tawallina_specimen_gmvztg.jpg");
-  background-size: cover;
-    height: 100%;
-  width: 1400px;
-
+     background-size: 100% 55%;
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+height: 100%;
+   width: 1400px;
+  background-attachment: fixed;
 }
 
 
@@ -233,6 +271,7 @@ height: 100%;
 }
 .pmodal3 img{
 height: 100%;
+width: 1200px;
 }
 
 .pmodal4{
@@ -305,6 +344,30 @@ height: 100%;
   height: 670px;
 }
 
+.w3-modal-content2 img{
+  width: 100%;
+  height: 1000px !important;
+}
+
+
+
+.w3-modal-content3 img{
+  width: 100%;
+  height: 650px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.w3-modal-content4 img{
+  width: 85%;
+  height: 750px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .w3-modal-content2 img{
   width: 100%;
@@ -373,13 +436,18 @@ height: 100%;
 #caption {
   margin: auto;
   display: block;
-  width: 80%;
+  width: 100%;
   max-width: 700px;
   text-align: center;
   color: #ccc;
   padding: 10px 0;
   height: 100px;
-  background-color: transparent;
+  background-color:white;
+}
+
+.white{
+  width: 100%;
+  background-color:white;
 }
 
 /* Add Animation */
@@ -493,7 +561,7 @@ height: 100%;
 
 .box-content11-a{
   height: 100%;
-  width: 81.8vw;
+  width: 100.8vw;
   display: flex;
   flex-direction: column;
   max-width: 100%;
@@ -518,11 +586,12 @@ height: 100%;
 
 
 .box-contentyt{
-  height: 40vw;
-  width: 50vw;
+  height: 55vw;
+  width: 66vw;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  margin-left: -80px;
 }
 
 .box-content3{
@@ -550,9 +619,17 @@ height: 100%;
 .box-content01{
   display: flex;
   flex-direction: column;
-
   margin-bottom: 13vw;
+  width:100%;
 }
+
+.box-content02{
+  display: flex;
+  flex-direction: left;
+  margin-bottom: 13vw;
+  width:100%;
+}
+
 
 .box-content4b{
   display: left;
@@ -629,7 +706,7 @@ opacity: 1 !important;
 }
 
 .box-content0 img {
-  height: 31vw;
+  height: 100vw;
 }
 
 .box-contentuz{
@@ -817,7 +894,7 @@ sup {
   height: 2.562vw !important;
   width: 2.562vw !important;
   cursor: pointer;
-  position: absolute;
+  position:relative;
   margin-top: .5vw;
   margin-left: -4.026vw;
 }
@@ -826,9 +903,9 @@ sup {
   height: 2.562vw !important;
   width: 2.562vw !important;
   cursor: pointer;
-  position: absolute;
-  margin-top: 3.5vw;
-  margin-left: -4.026vw;
+  position: relative;
+  margin-top: 6vw;
+  margin-left: -2.5vw;
 }
 
 img{
@@ -1091,14 +1168,14 @@ img{
   }
 
   .bottom-content{
+    margin-top: 6vw;
     width: 100%;
     font-size: 4vw;
-      margin-left :11%;
-      padding-right :22%;
   }
 
   .fb{
     display: none;
+    
   }
 
   .twitter{
@@ -1476,8 +1553,23 @@ img{
   display: flex;
   flex-direction: column;
   overflow: hidden;
-   margin: 0 22%;
+   margin: 0 9%;
+   width: 75vw;
 }
+
+.box-contentyt iframe {
+  height: 29.283vw;
+}
+
+
+/*.box-contentyt{
+  height: 55vw;
+  width: 66vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-left: -80px;
+}**/
 
 .box-content0{
 
@@ -1488,7 +1580,8 @@ img{
 }
 
 .box-content0 img {
-  height: 43vw;
+  height: 250vw;
+  width: 100%
 }
 
 .box-contentuz{
@@ -1625,7 +1718,6 @@ img{
 .pmodal3{
   margin-top: 10px;
   width:300px;
-  margin-left: 9%;
   margin-right: 11%;
 
 }
@@ -1654,6 +1746,20 @@ width:100%;
 .w3-modal-content3 img{
  width:800px;
  height: 360px;
+ display: flex;
+  flex-direction: center;
+}
+
+.w3-modal-content3.1 img{
+ width:800px;
+ height: 1000px;
+ display: flex;
+  flex-direction: center;
+}
+
+.w3-modal-content4 img{
+ width:800px;
+ height: 550px;
  display: flex;
   flex-direction: center;
 }
