@@ -1173,6 +1173,7 @@ img{
     font-size: 4vw;
     margin-right: 12%;
     margin-left: 7%;
+    overflow-x:  hidden;
   }
 
   .fb{
@@ -1469,7 +1470,7 @@ img{
 }
 
 .boxed {
-  background-color: #24333b;
+   background-color: #EFF2ED;
   border-radius: 20px;
   font-size: 3vw;
   margin-top: 3%;
