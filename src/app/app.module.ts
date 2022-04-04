@@ -122,6 +122,7 @@ import { NavbComponent } from './components/navb/navb.component';
 import { EddyContentComponent } from './components/news/eddy-content/eddy-content.component';
 import { CharlonContentComponent } from './components/news/charlon-content/charlon-content.component';
 import { HerbariumContentComponent } from './components/news/herbarium-content/herbarium-content.component';
+import { HerbariumBannerComponent } from './components/news/herbarium-banner/herbarium-banner.component';
 
 
 
@@ -238,6 +239,7 @@ import { HerbariumContentComponent } from './components/news/herbarium-content/h
     EddyContentComponent,
     CharlonContentComponent,
     HerbariumContentComponent,
+    HerbariumBannerComponent,
 
   ],
   imports: [
