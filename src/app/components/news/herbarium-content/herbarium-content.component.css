@@ -1769,7 +1769,7 @@ width:100%;
 }
 
 .w3-modal-content4 img{
- width:800px;
+ width:300px;
  height: 550px;
  display: flex;
   flex-direction: center;
@@ -1892,7 +1892,7 @@ margin-left: -40px;
 }
 
 main {
-  height: 100vh;
+  height: 50vh;
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
@@ -1936,14 +1936,14 @@ section h1 {
   bottom: 0;
   left: 0;
   transform: translateZ(-1px) scale(1.5);
-  background-size: 50%;
+  background-size: 100%;
   z-index: -1;
 }
 
 .location-content3{
   margin-top: 2.196vw;
   line-height: 1.5;
-  
+  padding: 0 12%;
    align-items: center;
   justify-content: center;
 }
