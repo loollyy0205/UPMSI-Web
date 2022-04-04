@@ -16,8 +16,11 @@
 .imagecon img{
   object-fit: cover;
   height: 100%;
-  width: 101%; /*edited */
+  width: 100%; /*edited */
+ 
 }
+
+
 
 .left-content{
   position: absolute;
@@ -27,7 +30,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  color: white;
+  color: black;
 }
 
 .imagecon:nth-child(1){
@@ -61,7 +64,7 @@
   /* width: 583px; */
   position: absolute;
   z-index: 1;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -76,7 +79,7 @@
   top: 0;
   position: absolute;
   z-index: 1;
-  color: white;
+  color: wblack;
   display: flex;
   flex-direction: column;
 }
@@ -146,9 +149,32 @@
   }
 
   .imagecon{
-    height: 60vw;
+    height: 80vw;
     width: 100%;
   }
+
+  .overlay {
+  position: relative;
+  z-index: 0;
+}
+
+.overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),;
+    opacity: .6;
+    /* !!! */
+    z-index: -1;
+}
+
+.atlas-light{
+  color: black;
+  padding: 0 7%;
+}
 
   .capital-words{
     font-size: 5vw;
@@ -178,4 +204,6 @@
     margin-top: 2.5%;
     padding: 2vw 0;
   }
+
+
 }
