@@ -78,6 +78,7 @@ export class HerbariumBannerComponent implements OnInit {
   link1:string;
   link2:string;
   link3:string;
+  link4:string;
   link5:string;
   link6:string;
   link7:string;
@@ -122,7 +123,7 @@ export class HerbariumBannerComponent implements OnInit {
       this.bgImage10 = resData[9].bgImage
       this.bgImage11 = resData[10].bgImage
       this.bgImage12 = resData[11].bgImage
-      tthis.bgImage13 = resData[12].bgImage
+      this.bgImage13 = resData[12].bgImage
       this.bgImage14 = resData[13].bgImage
     })
 
