@@ -2,9 +2,12 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8"> 
+         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <script type="text/javascript" defer src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
          <script type="text/javascript" defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
          <script type="text/javascript" defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
 
@@ -376,7 +379,12 @@
 
       <p class="atlas-light location-content">The herbarium, which was renamed to <em>Philippine National Herbarium</em> during the latter years, recovered with the help of other herbaria in Europe and the United States. Duplicates of the lost specimens were returned, as overseen by biologist Dr. Eduardo Quisumbing. Still, the loss of the largest collection at the time in Southeast Asia is a reminder of how integral herbaria are to the study of plants and related organisms, especially in a country with high biodiversity.</p>
 
-       <div class="center-content10">
+       
+     
+
+  </div>
+
+<div class="center-content10">
          <div class="box-content0"  id="content-desktop">
           <img  src="https://res.cloudinary.com/upmsi/image/upload/v1648795942/News/Features/herbarium/fast-facts_qgzfl5.png" />
          </div>
@@ -401,12 +409,12 @@
    
 
    <div class="w3-container3">
-  <div class="pmodal3" style="width: 1200px; margin-left: -250px; " id="content-desktop">
-    <img src="https://res.cloudinary.com/upmsi/image/upload/v1648540324/News/Features/herbarium/CT-map_final_djjgn8.png"  style="width:100%;max-width:1200px; margin-top:30px; max-height: 900px; height: 700px;cursor:zoom-in"
+  <div class="pmodal3" style="width: 1200px; margin-left: -250px; margin-bottom: -140px;  " id="content-desktop">
+    <img src="https://res.cloudinary.com/upmsi/image/upload/v1648540324/News/Features/herbarium/CT-map_final_djjgn8.png"  style="width:100%;max-width:1200px; margin-top:40px; max-height: 700px; height: 700px;cursor:zoom-in"
   onclick="document.getElementById('modal13').style.display='block'">
   <div class="box-content01" >
           <div>
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">On land, the Amazon Forest holds the highest density of floral and faunal species. In water, however, that feat belongs to the Coral Triangle. The area of 6 million km<sup>2</sup>, includes the sea zones of the Philippines, the Solomon Islands, Indonesia, Malaysia, Papua New Guinea, and East Timor.</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px; ">On land, the Amazon Forest holds the highest density of floral and faunal species. In water, however, that feat belongs to the Coral Triangle. The area of 6 million km<sup>2</sup>, includes the sea zones of the Philippines, the Solomon Islands, Indonesia, Malaysia, Papua New Guinea, and East Timor.</p>
            <p class="atlas-light photo-courtesy2" style= "color:#394e8a;">Graphics: Roy Oliver Corvera</p>
           </div>
         </div>
@@ -508,7 +516,7 @@
 </p>
 
 <div class="w3-container3">
-  <div class="pmodal3" style="width: 1200px; margin-left: -250px; " id="content-desktop">
+  <div class="pmodal3" style="width: 1200px; margin-left: -250px; margin-bottom: -140px;" id="content-desktop">
     <img src="https://res.cloudinary.com/upmsi/image/upload/v1648540322/News/Features/herbarium/final-algae_div_Custom_Size_2_qrhjey.png"  style="width:100%;max-width:1200px; margin-top:30px; max-height: 900px; height: 550px; cursor:zoom-in"
   onclick="document.getElementById('modal03').style.display='block'">
   <div class="box-content01" >
@@ -750,12 +758,13 @@
   </div>
 </div>
 
-<div class="box-contentyt" *ngIf="myArr[0].thumbnail" style="margin-top: 45px;">
+<div class="box-contentyt" *ngIf="myArr[0].thumbnail">
       <iframe [src]="myArr[0].thumbnail | safe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div class="box-content01" >
           <div >
-           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Video on seaweed preparation.</p>
-            <p class="atlas-light photo-courtesy2" style= "color:#394e8a;">Video: <a href="https://www.youtube.com/watch?v=slitTRUgQA0" target="_blank"  style="color: #384e8a;">Natural History Museum</a></p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">Video on seaweed preparation.<br>
+            Video: <a href="https://www.youtube.com/watch?v=slitTRUgQA0" target="_blank"  style="color: #384e8a;">Natural History Museum</a></p>
+      
           </div>
         </div>
     </div>
@@ -1039,8 +1048,134 @@
           </div>
         </div>
     </div>
+
+    <div id="content-mobile">
+      <main>
+          
+          <section class="parallax bg" >
+            <p class="location-content3"  style="margin-top: 450px;">The fan-shaped and calcified green seaweed Udotea geppiorum is typically found in sandy substrates.<br><br>
+
+             </p>
+
+
+           
+          </section>
+
+          <section class="parallax bg2"  >
+            
+
+             <p class="location-content3"  style="margin-top: 450px;">The green seaweed <em>Caulerpa lentillifera</em>, locally known as ‘lato’ or ‘ar-arusip’, is an economically important species that is widely consumed as salad in the Philippines. The species is typically harvested from the wild but is also cultivated in several areas in the country such as in Mactan, Cebu.<br><br>
+
+             </p>
+          </section>
+
+          <section class="parallax bg3" >
+            
+
+             <p class="location-content3" style="margin-top: 450px;"><em>Codium</em> species, locally known as ‘popoklo’, are known for their spongy texture. Popoklo are considered to be food delicacy  and are consumed raw or in salad especially in northern Philippines.<br><br>
+
+             </p>
+          </section>
+
+          <section class="parallax bg5">
+            
+
+             <p class="location-content3"  style="margin-top: 450px;">The red seaweed <em>Halymenia durvillei</em> is common in rocky areas in many tropical reefs including the Philippines. It is known to produce high-value natural products such as carrageenan and pigments r-phycoerythrin and r-phycocyanin. Due to its economic potential a culture technology for the species was recently developed by Dr. Gavino C. Trono Jr. and his team.<br><br>
+
+             </p>
+          </section>
+
+          <section class="parallax bg4">
+            
+
+             <p class="location-content3" style="margin-top: 450px;">Economically important red seaweed Asparagopsis taxiformis, a species that produce bioactives that can significantly reduce the amount of methane belched by cows. The species is currently being developed for mass production as feed additive.<br><br>
+
+             </p>
+          </section>
+
+          <section class="parallax bg6">
+            
+
+             <p class="location-content3"  style="margin-top: 450px;">A <em>pedazo</em> made from wild-harvested and dried red seaweed <em>Phycocalidia</em>, locally known as gamet. Gamet is an economically important species in the Philippines, with a relatively narrow distribution range in the country – that is, it is only known to occur naturally in the rocky and wave-swept coastal regions of northern Philippines.<br><br>
+
+             </p>
+          </section>
+
+          <section class="parallax bg7">
+            
+
+             <p class="location-content3" style="margin-top: 450px;"><em>Gracilaria sullivanii</em>, a Philippine endemic, belongs to a group of seaweeds that are known to produce agar and agarose, both of which are commercially important derivatives with wide applications and use in various industries.<br><br>
+
+             </p>
+          </section>
+
+          <section class="parallax bg8">
+            
+
+             <p class="location-content3" style="margin-top: 450px;">The fan-shaped <em>Padina australis</em> is among the few brown seaweeds known to have calcification (accumulation of calcium salts) on its thallus.<br><br>
+
+             </p>
+          </section>
+
+          <section class="parallax bg9">
+            
+
+             <p class="location-content3" style="margin-top: 450px;">Brown seaweeds from the genus Lobophora are ecologically important species in tropical reef ecosystems. Recent studies on Lobophora suggested that the diversity of the genus is grossly underestimated, including those in the Philippines.<br><br>
+
+             </p>
+          </section>
+
+          <section class="parallax bg10">
+            
+
+             <p class="location-content3" style="margin-top: 450px;"><em>Sargassum currimaoense</em> an endemic brown seaweed species that was discovered and described by Dr. Gavino C. Trono, Jr. in 1994.<br><br>
+
+             </p>
+          </section>
+
+          <section class="parallax bg11">
+            
+
+             <p class="location-content3" style="margin-top: 450px;">Locally known as ‘balbalolang’, <em>Hydroclathrus tenuis</em> is a food species  that widely distributed in the Indo-Pacific Ocean. The species is known to occur seasonally, sometimes in forming blooms, on shallow intertidal reefs or seagrass beds.  <br><br>
+
+             </p>
+          </section>
+
+          <section class="parallax bg12">
+            
+
+             <p class="location-content3" style="margin-top: 450px;"><em>Scinaia sp.</em><br><br>
+
+             </p>
+          </section>
+
+          <section class="parallax bg13">
+            
+
+             <p class="location-content3" style="margin-top: 450px;"><em>Titanophora weberae</em><br><br>
+
+             </p>
+          </section>
+
+          <section class="parallax bg14">
+            
+
+             <p class="location-content3" style="margin-top: 450px;"><em>Zellera tawallina</em><br><br>
+
+             </p>
+          </section>
+
       
-        
+      </main>
+<div class="box-content01" style="margin-left: 200px;">
+          <div>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a; margin-top: 10px;">These specimens were collected from the Pacific Seaboard of the Philippines during the PacSea expedition.
+</p>
+           <p class="atlas-light photo-courtesy2" style= "color:#394e8a;">Photos by: Dr. Wilfred John Santiañez</p>
+          </div>
+        </div>
+    </div>
+
 
         
           <p class="atlas-light location-content2" style="color: gray">Building a better understanding of seaweeds across the Philippines
@@ -1148,8 +1283,6 @@
 </div>
 
 
-       <hr style=" margin-top: 3vw;">
-
        <p class="atlas-light location-content">The Gregorio T. Velasquez Phycological Herbarium (MSI) highlights and showcases the Philippine collection of seaweeds and seagrasses to local and foreign visitors, from scientists to other stakeholders. Herbaria are essential to teaching and training, especially to biodiversity systematics research and ecology conservation. 
 </p>
 
@@ -1183,33 +1316,28 @@
 
       <p class="atlas-light location-content"  style="font-size: 16px; margin-top: 3vw; color:gray;">References:</p>
 
-       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">1. Botany and National Herbarium - National Museum. National Museum of the Philippines. Retrieved 17 February 2022, from https://www.nationalmuseum.gov.ph/our-collections/botany-and-national-herbarium/.</p>
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">1. <em>Botany and National Herbarium</em> - National Museum. National Museum of the Philippines. Retrieved 17 February 2022, from https://www.nationalmuseum.gov.ph/our-collections/botany-and-national-herbarium/.</p>
 
-        <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">2. Philippines - Main Details. Convention on Biological Diversity. Retrieved 17 March 2022, from https://www.cbd.int/countries/profile/?country=ph#:~:text=The%20Philippines%20ranks%20fifth%20in,5%25%20of%20the%20world%27s%20flora.</p>
+        <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">2. <em>Philippines - Main Details</em>. Convention on Biological Diversity. Retrieved 17 March 2022, from https://www.cbd.int/countries/profile/?country=ph#:~:text=The%20Philippines%20ranks%20fifth%20in,5%25%20of%20the%20world%27s%20flora.</p>
 
-       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">3. The Philippine Seas: Biodiversity and Ecological Impacts of Natural and Anthropogenic stressors in Tropical Reef Systems. Frontiers. Retrieved 17 March 2022, from https://www.frontiersin.org/research-topics/16133/the-philippine-seas-biodiversity-and-ecological-impacts-of-natural-and-anthropogenic-stressors-in-tr.</p>
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">3. <em>The Philippine Seas: Biodiversity and Ecological Impacts of Natural and Anthropogenic stressors in Tropical Reef Systems. Frontiers</em>. Retrieved 17 March 2022, from https://www.frontiersin.org/research-topics/16133/the-philippine-seas-biodiversity-and-ecological-impacts-of-natural-and-anthropogenic-stressors-in-tr.</p>
 
-       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;"> 4. The Philippine Seas: Biodiversity and Ecological Impacts of Natural and Anthropogenic stressors in Tropical Reef Systems. Frontiers. Retrieved 14 March 2022, from https://www.frontiersin.org/research-topics/16133/the-philippine-seas-biodiversity-and-ecological-impacts-of-natural-and-anthropogenic-stressors-in-tr.
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;"> 4. <em>The Philippine Seas: Biodiversity and Ecological Impacts of Natural and Anthropogenic stressors in Tropical Reef Systems</em>. Frontiers. Retrieved 14 March 2022, from https://www.frontiersin.org/research-topics/16133/the-philippine-seas-biodiversity-and-ecological-impacts-of-natural-and-anthropogenic-stressors-in-tr.
+</p>
+ 
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">5. What is an <em>herbarium?</em> | <em>Brown University Herbarium</em>. Brown.edu. Retrieved 15 March 2022, from https://www.brown.edu/research/projects/herbarium/about/what-herbarium.</p>
+
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">6. Klinger, T. (2015). The role of seaweeds in the modern ocean. <em>Perspectives In Phycology</em>, 2(1), 31-39. https://doi.org/10.1127/pip/2015/0024
 </p>
 
-       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">5. What is an herbarium? | Brown University Herbarium. Brown.edu. Retrieved 15 March 2022, from https://www.brown.edu/research/projects/herbarium/about/what-herbarium.</p>
-
-       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">6. Klinger, T. (2015). The role of seaweeds in the modern ocean. Perspectives In Phycology, 2(1), 31-39. https://doi.org/10.1127/pip/2015/0024
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">7. Soliman, V., Mendoza, A., & Yamaoka, K. (2008). Seaweed-associated Fishes of Lagonoy Gulf in Bicol, the Philippines ―with Emphasis on Siganids (Teleoptei: Siganidae)―. 黒潮圏科学 = <em>Kuroshio Science</em>, 2(1), 67-72. Retrieved 28 March 2022, from https://core.ac.uk/download/pdf/70354178.pdf.
 </p>
 
-       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">7. WSoliman, V., Mendoza, A., & Yamaoka, K. (2008). Seaweed-associated Fishes of Lagonoy Gulf in Bicol, the Philippines ―with Emphasis on Siganids (Teleoptei: Siganidae)―. 黒潮圏科学 = Kuroshio Science, 2(1), 67-72. Retrieved 28 March 2022, from https://core.ac.uk/download/pdf/70354178.pdf.
-</p>
+       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">8. De Vera, M. (2018).<em>   R&D work on gamet of Ilocos Norte eyed</em>. DOST-PCAARRD. Retrieved 23 March 2022, from http://www.pcaarrd.dost.gov.ph/home/portal/index.php/quick-information-dispatch/3167-r-d-work-on-gamet-of-ilocos-norte-eyed.</p>
 
-       <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">8. De Vera, M. (2018). R&D work on gamet of Ilocos Norte eyed. DOST-PCAARRD. Retrieved 23 March 2022, from http://www.pcaarrd.dost.gov.ph/home/portal/index.php/quick-information-dispatch/3167-r-d-work-on-gamet-of-ilocos-norte-eyed.</p>
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">9. Adriano, L. (2018). <em>‘Black gold’ sustains livelihood of villagers in Ilocos Norte</em>. Philippine News Agency. Retrieved 23 March 2022, from https://www.pna.gov.ph/articles/1020977.</p>
 
-      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">9. Adriano, L. (2018). ‘Black gold’ sustains livelihood of villagers in Ilocos Norte. Philippine News Agency. Retrieved 23 March 2022, from https://www.pna.gov.ph/articles/1020977.</p>
-
-      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">10. Charrier, B., Rolland, E., Gupta, V., & Reddy, C. (2015). Production of genetically and developmentally modified seaweeds: exploiting the potential of artificial selection techniques. Frontiers In Plant Science, 6. https://doi.org/10.3389/fpls.2015.00127</p>
-
-     
-
-  </div>
-
+      <p class="atlas-light location-content" style="font-size: 10px; margin-top: .5vw; color:gray;">10. Charrier, B., Rolland, E., Gupta, V., & Reddy, C. (2015). Production of genetically and developmentally modified seaweeds: exploiting the potential of artificial selection techniques. <em>Frontiers In Plant Science</em>, 6. https://doi.org/10.3389/fpls.2015.00127</p>
 
 </div>
 
