@@ -1882,15 +1882,17 @@ width:100%;
 }
 
 .w3-container3 {
-  margin-left: 60px;
+  margin-left: 0px;
+
 }
 
 .w3-container{
-margin-bottom: 80px;
+margin-bottom: 0px;
+margin-left: -40px;
 }
 
 main {
-  height: 140vh;
+  height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
@@ -1904,7 +1906,7 @@ section {
   align-items: center;
   justify-content: center;
   color: white;
-   height:120vh;
+   height:100vh;
    margin-left: 40px;
 
 }
@@ -1934,7 +1936,7 @@ section h1 {
   bottom: 0;
   left: 0;
   transform: translateZ(-1px) scale(1.5);
-  background-size: 100%;
+  background-size: 50%;
   z-index: -1;
 }
 
@@ -1944,7 +1946,6 @@ section h1 {
   
    align-items: center;
   justify-content: center;
-  padding: 55vw;
 }
 
 .bg::after {
@@ -1954,7 +1955,6 @@ section h1 {
    background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-attachment: fixed;
-     margin-top: -150px !important;
 }
 
 .bg2::after {
