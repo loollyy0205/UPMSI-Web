@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class MoreScicommComponent implements OnInit {
   news=[
 
-   {image: "https://res.cloudinary.com/upmsi/image/upload/v1648101960/News/Features/herbarium/trial-banner_Size_8_lepvij.png",  title: "Inside the Herbarium: A Place Where Past, Present, and Future Meet", content: 'Tucked in the unassuming corners of a library or gallery, the herbarium is usually our first look at the new and the otherworldly.'},
+   {image: "https://res.cloudinary.com/upmsi/image/upload/v1649152181/News/Features/herbarium/photo6224388703149731767_gckurp.jpg",  title: "Inside the Herbarium: A Place Where Past, Present, and Future Meet", content: 'Tucked in the unassuming corners of a library or gallery, the herbarium is usually our first look at the new and the otherworldly.'},
 
       {image: "https://res.cloudinary.com/upmsi/image/upload/v1646622064/News/Features/eddy/273905109_4643775522417298_6822767315235415692_n_uzt0ra.jpg",  title: "Fishing in a Vortex: How ocean currents affect biological productivity", content: ' Dr. Charina Lyn Amedo-Repollo’s paper on surface currents and eddy formation in Panay Strait shed light on how we can...'},
 
