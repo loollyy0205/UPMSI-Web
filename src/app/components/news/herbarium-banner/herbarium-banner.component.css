@@ -172,8 +172,9 @@
 }
 
 .atlas-light{
-  color: black;
+  color: white;
   padding: 0 7%;
+  text-shadow: 3px 3px black;
 }
 
   .capital-words{
