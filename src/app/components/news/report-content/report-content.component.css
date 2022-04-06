@@ -331,9 +331,10 @@ hr {
   }
 
   .pdf{
-  width:630px; 
-  height:600px; 
+  width:530px; 
+  height:500px; 
   margin-right: 10px;
+  margin: 0 7%;
   }
 
 
@@ -433,7 +434,9 @@ hr {
 
   .location-content{
     margin-top: 2.196vw;
-    line-height: 1.5;  }
+    line-height: 1.5; 
+     margin: 0 7%;
+      }
 
    .location-content2{
     margin-top: 2.196vw;
