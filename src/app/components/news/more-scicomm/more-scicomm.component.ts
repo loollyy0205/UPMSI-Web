@@ -9,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class MoreScicommComponent implements OnInit {
   news=[
 
+   {image: "https://res.cloudinary.com/upmsi/image/upload/v1649227408/News/Features/report/Screen_Shot_2022-04-06_at_10.19.34_AM_ibcwd4.png",  title: "The Marine Science Institute: Looking Back on 2019-2021", content: 'Tucked in the unassuming corners of a library or gallery, the herbarium is usually our first look at the new and the otherworldly.'},
+
    {image: "https://res.cloudinary.com/upmsi/image/upload/v1649152181/News/Features/herbarium/photo6224388703149731767_gckurp.jpg",  title: "Inside the Herbarium: A Place Where Past, Present, and Future Meet", content: 'Tucked in the unassuming corners of a library or gallery, the herbarium is usually our first look at the new and the otherworldly.'},
 
       {image: "https://res.cloudinary.com/upmsi/image/upload/v1646622064/News/Features/eddy/273905109_4643775522417298_6822767315235415692_n_uzt0ra.jpg",  title: "Fishing in a Vortex: How ocean currents affect biological productivity", content: ' Dr. Charina Lyn Amedo-Repollo’s paper on surface currents and eddy formation in Panay Strait shed light on how we can...'},
@@ -37,22 +39,25 @@ export class MoreScicommComponent implements OnInit {
 
   newsContent(i){
     switch(i) {
-    case 0:
-        this.router.navigate(['/News/herbarium', 'herbarium-feature']);
+     case 0:
+        this.router.navigate(['/News/report', 'report-expeditions']);
         break;
     case 1:
-        this.router.navigate(['/News/eddy', 'fishing-in-a-vortex']);
+        this.router.navigate(['/News/herbarium', 'herbarium-feature']);
         break;
     case 2:
+        this.router.navigate(['/News/eddy', 'fishing-in-a-vortex']);
+        break;
+    case 3:
         this.router.navigate(['/News/alan', 'lights-off']);
         break;
-      case 3:
+    case 4:
         this.router.navigate(['/News/scicomm/', 'In-Full-Bloom']);
         break;
-      case 4:
+    case 5:
         this.router.navigate(['/News/charlon', 'coral-propagation']);
         break;
-      case 5:
+    case 6:
         this.router.navigate(['/News/scicomm', 'against-the-current-how-the-giant-clams-of-the-Philippines-escaped-extinction-with-the-help-of-science-and-the-communityIn-Full-Bloom']);
         break;
               

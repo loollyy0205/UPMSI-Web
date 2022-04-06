@@ -58,6 +58,7 @@ import { MoreAlanComponent } from './components/news/more-alan/more-alan.compone
 import { EddyContentComponent } from './components/news/eddy-content/eddy-content.component';
 import { CharlonContentComponent } from './components/news/charlon-content/charlon-content.component';
 import { HerbariumContentComponent } from './components/news/herbarium-content/herbarium-content.component';
+import { ReportContentComponent } from './components/news/report-content/report-content.component';
 
 
 
@@ -128,6 +129,7 @@ const routes: Routes = [
   {path: 'News/eddy/:name', component: EddyContentComponent},
   {path: 'News/charlon/:name', component: CharlonContentComponent},
   {path: 'News/herbarium/:name', component: HerbariumContentComponent},
+  {path: 'News/report/:name', component: ReportContentComponent},
  
 ];
 

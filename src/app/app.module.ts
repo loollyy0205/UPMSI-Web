@@ -123,6 +123,8 @@ import { EddyContentComponent } from './components/news/eddy-content/eddy-conten
 import { CharlonContentComponent } from './components/news/charlon-content/charlon-content.component';
 import { HerbariumContentComponent } from './components/news/herbarium-content/herbarium-content.component';
 import { HerbariumBannerComponent } from './components/news/herbarium-banner/herbarium-banner.component';
+import { ReportContentComponent } from './components/news/report-content/report-content.component';
+
 
 
 
@@ -240,6 +242,7 @@ import { HerbariumBannerComponent } from './components/news/herbarium-banner/her
     CharlonContentComponent,
     HerbariumContentComponent,
     HerbariumBannerComponent,
+    ReportContentComponent,
 
   ],
   imports: [
