@@ -69,8 +69,9 @@ export class ReportContentComponent implements OnInit {
 
   }
 
-  moreMsiNews(){
-    this.router.navigate(['/News/news-headlines']);
+ 
+  moreScicomm(){
+    this.router.navigate(['/News/scicomm-headlines']);
   }
 
   nextNews(url:string){

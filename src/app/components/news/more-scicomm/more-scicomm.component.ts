@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class MoreScicommComponent implements OnInit {
   news=[
 
-   {image: "https://res.cloudinary.com/upmsi/image/upload/v1649227408/News/Features/report/Screen_Shot_2022-04-06_at_10.19.34_AM_ibcwd4.png",  title: "The Marine Science Institute: Looking Back on 2019-2021", content: 'Tucked in the unassuming corners of a library or gallery, the herbarium is usually our first look at the new and the otherworldly.'},
+   {image: "https://res.cloudinary.com/upmsi/image/upload/v1649227408/News/Features/report/Screen_Shot_2022-04-06_at_10.19.34_AM_ibcwd4.png",  title: "The Marine Science Institute: Looking Back on 2019-2021", content: ' From all the expeditions to the growing partnerships, the Institute is proud of everything it has achieved in the last 3 years.'},
 
    {image: "https://res.cloudinary.com/upmsi/image/upload/v1649152181/News/Features/herbarium/photo6224388703149731767_gckurp.jpg",  title: "Inside the Herbarium: A Place Where Past, Present, and Future Meet", content: 'Tucked in the unassuming corners of a library or gallery, the herbarium is usually our first look at the new and the otherworldly.'},
 
