@@ -311,7 +311,7 @@ hr {
   }
 
   .bottom-content{
-    margin-top: 6vw;
+    margin-top: 6vw!important;
     width: 100%;
     font-size: 4vw;
     margin: 0 8%;
@@ -332,10 +332,10 @@ hr {
   }
 
   .pdf{
-  width:430px; 
+  width:330px; 
   height:500px; 
   margin-right: 10px;
-  margin: 0 7%;
+  margin: 0 8%;
   }
 
 
@@ -436,7 +436,6 @@ hr {
   .location-content{
     margin-top: 2.196vw;
     line-height: 1.5; 
-     margin: 0 7%;
       }
 
    .location-content2{
