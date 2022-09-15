@@ -196,7 +196,16 @@
   font-size: 1.17vw;
 }
 
-@media (max-width: 576px), (max-width: 768px) {
+#content-desktop {display: block;}
+#content-mobile {display: none ;}
+
+
+@media  (max-width: 768px) {
+ 
+#content-desktop {display: none ;}
+#content-mobile {display: block;}
+
+
   .top-1{
     margin-top: -10vw;
   }
