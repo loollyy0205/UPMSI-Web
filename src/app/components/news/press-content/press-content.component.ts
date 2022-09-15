@@ -24,9 +24,10 @@ export class PressContentComponent implements OnInit {
     courtesy: 'PHOTO COURTESY OF DOST.GOV',
 
      news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+      
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956573/News/press/siringan-anc_anitfe.png", title: "Research station on West PH Sea's Pag-asa island unveiled", content: `UP Marine Science Institute opens research hub on Pag-asa Island`, url: 'island-unveiled'},
       ]
   }];
 
@@ -38,10 +39,10 @@ export class PressContentComponent implements OnInit {
     photoContent: '',
     courtesy: 'The West Philippine Sea (WPS) remains threatened by both',
 
-     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+       news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956573/News/press/siringan-anc_anitfe.png", title: "Research station on West PH Sea's Pag-asa island unveiled", content: `UP Marine Science Institute opens research hub on Pag-asa Island`, url: 'island-unveiled'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -53,10 +54,10 @@ press03 = [{
     photoContent: 'UP Marine Science Institute opens research hub on Pag-asa Island',
     courtesy: 'VIDEO COURTESY OF ANC 24/7',
 
-     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+      news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -68,10 +69,10 @@ press04 = [{
     photoContent: 'UP Marine Science Institute opens research hub on Pag-asa Island',
     courtesy: 'VIDEO COURTESY OF ANC 24/7',
 
-     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+       news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -85,10 +86,10 @@ press04 = [{
     photoContent: '',
     courtesy: 'PHOTO COURTESY OF INQUIRER.NET',
 
-     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+       news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -100,10 +101,10 @@ press04 = [{
     photoContent: '',
     courtesy: 'PHOTO COURTESY OF MANILA NEWS',
 
-     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+       news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -115,10 +116,10 @@ press04 = [{
     photoContent: '',
     courtesy: 'PHOTO COURTESY OF PALAWAN NEWS',
 
-     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+       news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -130,10 +131,10 @@ press04 = [{
     photoContent: '',
     courtesy: 'PHOTO COURTESY OF ESQUIRE MAG',
 
-     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+       news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -146,10 +147,10 @@ press9 = [{
     photoContent: 'UP Marine Science Institute opens research hub on Pag-asa Island',
     courtesy: 'VIDEO COURTESY OF ANC 24/7',
 
-     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "../../../../assets/photos/press-coverage/thumbnail-13.jpg", title: "AHA!: The giant clams of Bolinao, Pangasinan", content: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo."', url: 'AHA!-The-giant-clams-of-Bolinao-Pangasinan'},
+       news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -161,10 +162,10 @@ press9 = [{
     photoContent: 'Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim na bahagi ng mundo | Saksi',
     courtesy: 'VIDEO COURTESY OF GMA News',
 
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639465218/News/press/press_12_fprwjz.png", title: "UP Marine Science Institute opens research hub on Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island', url: 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island'},
+      news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -176,10 +177,10 @@ press9 = [{
     photoContent: '',
     courtesy: 'PHOTO COURTESY OF THE WORLD BANK',
 
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong... | Saksi", content: 'Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim...', url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-     {image: "https://res.cloudinary.com/upmsi/image/upload/v1639465218/News/press/press_12_fprwjz.png", title: "UP Marine Science Institute opens research hub on Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island', url: 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island'},
+      news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -191,10 +192,10 @@ press9 = [{
     photoContent: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of the resources found in Philippine waters and how the country can protect them.`,
     courtesy: 'VIDEO COURTESY OF Rappler',
 
-     news: [
-      {image: "../../../assets/photos/press-coverage/thumbnail-01.jpg", title: "Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong... | Saksi", content: 'Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep, na ikatlong pinakamalalim...', url: 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-     {image: "https://res.cloudinary.com/upmsi/image/upload/v1639465218/News/press/press_12_fprwjz.png", title: "UP Marine Science Institute opens research hub on Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island', url: 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island'},
+       news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -206,10 +207,10 @@ press9 = [{
     photoContent: 'Matapos tumambad ang mga sira-sirang bahura sa West Philippine Sea, nanawagan ang UP Marine Science Institute na dapat protektahan ang ating exclusive economic zone.',
     courtesy: 'VIDEO COURTESY OF GMA News',
 
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639465218/News/press/press_12_fprwjz.png", title: "UP Marine Science Institute opens research hub on Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island', url: 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island'},
+      news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -221,10 +222,10 @@ press9 = [{
     photoContent: 'ON THE SPOT: All Filipino scientific expedition sa Kalayaan Island sa West Philippine Sea',
     courtesy: 'VIDEO COURTESY OF PTV',
 
-    news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639465218/News/press/press_12_fprwjz.png", title: "UP Marine Science Institute opens research hub on Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island', url: 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island'},
+      news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -236,10 +237,10 @@ press9 = [{
     photoContent: 'BT: Paglalakbay ng ilang kawani ng gobyerno at estudyante ng UP-marine science institute papuntang West Philippine Sea, sinimulan na',
     courtesy: 'VIDEO COURTESY OF GMA News',
 
-     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-     {image: "https://res.cloudinary.com/upmsi/image/upload/v1639465218/News/press/press_12_fprwjz.png", title: "UP Marine Science Institute opens research hub on Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island', url: 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island'},
+       news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -251,10 +252,10 @@ press9 = [{
     photoContent: `"Failon Ngayon" explains how human settlement and urbanization contributed to the pollution of the waterways connected to Manila Bay, tackles the challenges in maintaining the sewerage systems in Metro Manila and the government's effort to address human settlement issue that is seen as a significant contributor to water pollution, elaborates the hazards and risks of the proposed reclamation projects in Manila Bay, and shows the opposing viewpoints about the proposed Manila Bay reclamation amid the pending implementation of NEDA's Manila Bay Sustainable Development Master Plan.`,
     courtesy: 'VIDEO COURTESY OF ABS-CBN News',
 
-     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639465218/News/press/press_12_fprwjz.png", title: "UP Marine Science Institute opens research hub on Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island', url: 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island'},
+       news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -266,10 +267,10 @@ press9 = [{
     photoContent: 'Adopt a giant clam program, suportado ng UP-Marine Science Institute',
     courtesy: 'VIDEO COURTESY OF Eagle News',
 
-     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639465218/News/press/press_12_fprwjz.png", title: "UP Marine Science Institute opens research hub on Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island', url: 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island'},
+       news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -281,10 +282,10 @@ press9 = [{
     photoContent: 'Apart from its scenic beaches, the province of Pangasinan is also known as one of the major habitats of giant clams or "taklobo." Take a look at the Bolinao Marine Laboratory, the largest giant clam sea nursery in the country!',
     courtesy: 'VIDEO COURTESY OF GMA Playground',
 
-     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639465218/News/press/press_12_fprwjz.png", title: "UP Marine Science Institute opens research hub on Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island', url: 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island'},
+       news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -296,10 +297,10 @@ press9 = [{
     photoContent: 'How to take care of giant clams. Video by Noy Morcso and Rem Zamora/editing by Noy Morcoso/Interviewed by Gabriel Cardinoza',
     courtesy: 'VIDEO COURTESY OF INQUIRER.net',
 
-     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-     {image: "https://res.cloudinary.com/upmsi/image/upload/v1639465218/News/press/press_12_fprwjz.png", title: "UP Marine Science Institute opens research hub on Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island', url: 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island'},
+       news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 
@@ -315,10 +316,10 @@ press9 = [{
     photoContent5: 'Giant clams are the miracle workers of the coral reefs. And they are endangered. ',
     courtesy: 'VIDEO COURTESY OF Manila Bulletin Online',
 
-     news: [
-      {image: "../../../../assets/photos/press-coverage/thumbnail-06.jpg", title: "Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources", content: `Rappler editor-at-large Marites Vitug speaks to marine scientist Deo Onda on the importance of...`, url: 'Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1639463662/News/press/press_16_liqhvf.jpg", title: "Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. David", content: 'I am a teacher, researcher and science communicator. I make use of remote sensing..', url: 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david'},
-     {image: "https://res.cloudinary.com/upmsi/image/upload/v1639465218/News/press/press_12_fprwjz.png", title: "UP Marine Science Institute opens research hub on Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island', url: 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island'},
+       news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: `A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute...`, url: 'Balik-Scientist-names-6-Seaweed-Genera'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
       ]
   }];
 

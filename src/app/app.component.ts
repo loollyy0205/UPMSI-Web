@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
         window.location.href = location.href.replace('http', 'https');
       }
     }
- 
+    
    
   }
 
