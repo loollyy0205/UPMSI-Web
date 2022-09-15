@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./vacancies-opp.component.css']
 })
 export class VacanciesOppComponent implements OnInit {
+
+   rp = [
+    {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1663238961/News/Announcements%20Icons/mmbl-posting_auylz7.png'}
+  
+  ]
+
   mb = [
     {thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1646265292/News/4e86739b-d420-4056-896d-9cfb64658aaf_anrgvs.png'}
   
@@ -30,13 +36,16 @@ export class VacanciesOppComponent implements OnInit {
 
   ngOnInit(): void {
     switch(this.router.url) {
-      case '/News/vacancies-&-opportunities/mb':
+       case '/News/vacancies-&-opportunities/Research-Personnel&Potential-Student':
+        this.myArr = this.rp;
+        break;
+        case '/News/vacancies-&-opportunities/Marine-Biologist':
         this.myArr = this.mb;
         break;
-        case '/News/vacancies-&-opportunities/co':
+        case '/News/vacancies-&-opportunities/Chemical-Oceanographer':
         this.myArr = this.co;
         break;
-        case '/News/vacancies-&-opportunities/fp':
+        case '/News/vacancies-&-opportunities/Faculty-Positions':
         this.myArr = this.fp;
         this.fpBool = true;
         break;

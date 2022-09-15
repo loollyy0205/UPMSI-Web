@@ -112,6 +112,7 @@
             </div>
             <div (mouseover)="hoverExtension=true" (mouseleave)="hoverExtension=false" class="dropdown-menu">
               <span routerLink="/Extension/trainings">Trainings</span>
+              <span routerLink="/Blue-Beat-Initiative">Blue Beat</span>
               <span routerLink="/Extension/community-outreach">Community Outreach</span>
               <span [routerLink]="['/Extension/gallery']">Gallery</span>
             </div>
@@ -134,9 +135,7 @@
             <button mat-button [routerLink]="['/Contact']" [style.backgroundColor]="contact ? '#fafafa' : ''" [style.color]="contact ? '#5da563' : ''">CONTACT</button>
           </div>
 
-          <div class="home">
-            <button mat-button [routerLink]="['/Blue-Beat-Initiative']" [style.backgroundColor]="contact ? '#fafafa' : ''" [style.color]="contact ? '#5da563' : ''">BLUE BEAT</button>
-          </div>
+          
 
           <div class="off-hover" style="margin-top: -13px;" *ngIf="header_variable">
             <mat-form-field style="width: 90px;" appearance="none">
