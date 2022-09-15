@@ -1,0 +1,1384 @@
+
+
+<html lang="en-US">
+<head>
+
+
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//i0.wp.com' />
+<link rel='dns-prefetch' href='//c0.wp.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="AYEJ &raquo; Feed" href="https://ayej.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="AYEJ &raquo; Comments Feed" href="https://ayej.org/comments/feed/" />
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.woff" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="http://ayej.org/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+<style>
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 0.07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+</style>
+  <link rel='stylesheet' id='wp-block-library-css'  href='https://c0.wp.com/c/6.0.2/wp-includes/css/dist/block-library/style.css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<style id='wp-block-library-theme-inline-css'>
+/**
+ * Colors
+ */
+/**
+ * Breakpoints & Media Queries
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Breakpoint mixins
+ */
+/**
+ * Long content fade mixin
+ *
+ * Creates a fading overlay to signify that the content is longer
+ * than the space allows.
+ */
+/**
+ * Focus styles.
+ */
+/**
+ * Applies editor left position to the selector passed as argument
+ */
+/**
+ * Styles that are reused verbatim in a few places
+ */
+/**
+ * Allows users to opt-out of animations via OS-level preferences.
+ */
+/**
+ * Reset default styles for JavaScript UI based pages.
+ * This is a WP-admin agnostic reset
+ */
+/**
+ * Reset the WP Admin page styles for Gutenberg-like pages.
+ */
+.wp-block-audio figcaption {
+  color: #555;
+  font-size: 13px;
+  text-align: center;
+}
+.is-dark-theme .wp-block-audio figcaption {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.wp-block-code {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Menlo, Consolas, monaco, monospace;
+  padding: 0.8em 1em;
+}
+
+.wp-block-embed figcaption {
+  color: #555;
+  font-size: 13px;
+  text-align: center;
+}
+.is-dark-theme .wp-block-embed figcaption {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.blocks-gallery-caption {
+  color: #555;
+  font-size: 13px;
+  text-align: center;
+}
+.is-dark-theme .blocks-gallery-caption {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.wp-block-image figcaption {
+  color: #555;
+  font-size: 13px;
+  text-align: center;
+}
+.is-dark-theme .wp-block-image figcaption {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.wp-block-pullquote {
+  border-top: 4px solid currentColor;
+  border-bottom: 4px solid currentColor;
+  margin-bottom: 1.75em;
+  color: currentColor;
+}
+.wp-block-pullquote cite,
+.wp-block-pullquote footer, .wp-block-pullquote__citation {
+  color: currentColor;
+  text-transform: uppercase;
+  font-size: 0.8125em;
+  font-style: normal;
+}
+
+.wp-block-quote {
+  border-left: 0.25em solid currentColor;
+  margin: 0 0 1.75em 0;
+  padding-left: 1em;
+}
+.wp-block-quote cite,
+.wp-block-quote footer {
+  color: currentColor;
+  font-size: 0.8125em;
+  position: relative;
+  font-style: normal;
+}
+.wp-block-quote.has-text-align-right {
+  border-left: none;
+  border-right: 0.25em solid currentColor;
+  padding-left: 0;
+  padding-right: 1em;
+}
+.wp-block-quote.has-text-align-center {
+  border: none;
+  padding-left: 0;
+}
+.wp-block-quote.is-style-plain, .wp-block-quote.is-style-large, .wp-block-quote.is-large {
+  border: none;
+}
+
+.wp-block-search .wp-block-search__label {
+  font-weight: bold;
+}
+
+:where(.wp-block-group.has-background) {
+  padding: 1.25em 2.375em;
+}
+
+.wp-block-separator.has-css-opacity {
+  opacity: 0.4;
+}
+
+.wp-block-separator {
+  border: none;
+  border-bottom: 2px solid currentColor;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wp-block-separator.has-alpha-channel-opacity {
+  opacity: initial;
+}
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+  width: 100px;
+}
+.wp-block-separator.has-background:not(.is-style-dots) {
+  border-bottom: none;
+  height: 1px;
+}
+.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
+  height: 2px;
+}
+
+.wp-block-table thead {
+  border-bottom: 3px solid;
+}
+.wp-block-table tfoot {
+  border-top: 3px solid;
+}
+.wp-block-table td,
+.wp-block-table th {
+  padding: 0.5em;
+  border: 1px solid;
+  word-break: normal;
+}
+.wp-block-table figcaption {
+  color: #555;
+  font-size: 13px;
+  text-align: center;
+}
+.is-dark-theme .wp-block-table figcaption {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.wp-block-video figcaption {
+  color: #555;
+  font-size: 13px;
+  text-align: center;
+}
+.is-dark-theme .wp-block-video figcaption {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.wp-block-template-part.has-background {
+  padding: 1.25em 2.375em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+</style>
+<link rel='stylesheet' id='mediaelement-css'  href='https://c0.wp.com/c/6.0.2/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='https://c0.wp.com/c/6.0.2/wp-includes/js/mediaelement/wp-mediaelement.css' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='font-awesome-5-css'  href='http://ayej.org/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css?ver=2.5.4.3' media='all' />
+<link rel='stylesheet' id='uabb-animate-css'  href='http://ayej.org/wp-content/plugins/bb-ultimate-addon/modules/info-list/css/animate.css' media='all' />
+<link rel='stylesheet' id='ultimate-icons-css'  href='https://ayej.org/wp-content/uploads/bb-plugin/icons/ultimate-icons/style.css?ver=2.5.4.3' media='all' />
+<link rel='stylesheet' id='foundation-icons-css'  href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css?ver=2.5.4.3' media='all' />
+<link rel='stylesheet' id='fl-builder-layout-936-css'  href='https://ayej.org/wp-content/uploads/bb-plugin/cache/936-layout.css?ver=b0933002798091fab9e6f72ec4ca1539' media='all' />
+<link rel='stylesheet' id='give-styles-css'  href='http://ayej.org/wp-content/plugins/give/assets/dist/css/give.css?ver=2.22.0' media='all' />
+<link rel='stylesheet' id='give-donation-summary-style-frontend-css'  href='http://ayej.org/wp-content/plugins/give/assets/dist/css/give-donation-summary.css?ver=2.22.0' media='all' />
+<link rel='stylesheet' id='fl-builder-layout-bundle-c3990c72350331cb1e0c469130527a8b-css'  href='https://ayej.org/wp-content/uploads/bb-plugin/cache/c3990c72350331cb1e0c469130527a8b-layout-bundle.css?ver=2.5.4.3-1.4.2' media='all' />
+<link rel='stylesheet' id='jquery-magnificpopup-css'  href='http://ayej.org/wp-content/plugins/bb-plugin/css/jquery.magnificpopup.css?ver=2.5.4.3' media='all' />
+<link rel='stylesheet' id='base-css'  href='http://ayej.org/wp-content/themes/bb-theme/css/base.min.css?ver=1.7.11' media='all' />
+<link rel='stylesheet' id='fl-automator-skin-css'  href='https://ayej.org/wp-content/uploads/bb-theme/skin-62a01d675a46b.css?ver=1.7.11' media='all' />
+<link rel='stylesheet' id='pp-animate-css'  href='http://ayej.org/wp-content/plugins/bbpowerpack/assets/css/animate.min.css?ver=3.5.1' media='all' />
+<link rel='stylesheet' id='microthemer-css'  href='http://ayej.org/wp-content/micro-themes/active-styles.css?mts=429&#038;ver=6.0.2' media='all' />
+<link rel='stylesheet' id='fl-builder-google-fonts-30ec7cfa220c44d96d952e3392828f95-css'  href='//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C700%2C400&#038;ver=6.0.2' media='all' />
+<script src='https://c0.wp.com/c/6.0.2/wp-includes/js/jquery/jquery.js' id='jquery-core-js'></script>
+<script src='https://c0.wp.com/c/6.0.2/wp-includes/js/jquery/jquery-migrate.js' id='jquery-migrate-js'></script>
+<script src='https://c0.wp.com/c/6.0.2/wp-includes/js/dist/vendor/regenerator-runtime.js' id='regenerator-runtime-js'></script>
+<script src='https://c0.wp.com/c/6.0.2/wp-includes/js/dist/vendor/wp-polyfill.js' id='wp-polyfill-js'></script>
+<script src='https://c0.wp.com/c/6.0.2/wp-includes/js/dist/hooks.js' id='wp-hooks-js'></script>
+<script src='https://c0.wp.com/c/6.0.2/wp-includes/js/dist/i18n.js' id='wp-i18n-js'></script>
+<script id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id='give-js-extra'>
+var give_global_vars = {"ajaxurl":"https:\/\/ayej.org\/wp-admin\/admin-ajax.php","checkout_nonce":"dc9fa3e619","currency":"PHP","currency_sign":"\u20b1","currency_pos":"before","thousands_separator":",","decimal_separator":".","no_gateway":"Please select a payment method.","bad_minimum":"The minimum custom donation amount for this form is","bad_maximum":"The maximum custom donation amount for this form is","general_loading":"Loading...","purchase_loading":"Please Wait...","textForOverlayScreen":"<h3>Processing...<\/h3><p>This will only take a second!<\/p>","number_decimals":"2","is_test_mode":"","give_version":"2.22.0","magnific_options":{"main_class":"give-modal","close_on_bg_click":false},"form_translation":{"payment-mode":"Please select payment mode.","give_first":"Please enter your first name.","give_last":"Please enter your last name.","give_email":"Please enter a valid email address.","give_user_login":"Invalid email address or username.","give_user_pass":"Enter a password.","give_user_pass_confirm":"Enter the password confirmation.","give_agree_to_terms":"You must agree to the terms and conditions."},"confirm_email_sent_message":"Please check your email and click on the link to access your complete donation history.","ajax_vars":{"ajaxurl":"https:\/\/ayej.org\/wp-admin\/admin-ajax.php","ajaxNonce":"db45fb906c","loading":"Loading","select_option":"Please select an option","default_gateway":"paypal","permalinks":"1","number_decimals":2},"cookie_hash":"4eca6a8a0b924ecd4f8d3de805020904","session_nonce_cookie_name":"wp-give_session_reset_nonce_4eca6a8a0b924ecd4f8d3de805020904","session_cookie_name":"wp-give_session_4eca6a8a0b924ecd4f8d3de805020904","delete_session_nonce_cookie":"0"};
+var giveApiSettings = {"root":"https:\/\/ayej.org\/wp-json\/give-api\/v2\/","rest_base":"give-api\/v2"};
+</script>
+<script src='http://ayej.org/wp-content/plugins/give/assets/dist/js/give.js?ver=54434f04079f3f89' id='give-js'></script>
+<script src='https://c0.wp.com/c/6.0.2/wp-includes/js/imagesloaded.min.js' id='imagesloaded-js'></script>
+<link rel="https://api.w.org/" href="https://ayej.org/wp-json/" /><link rel="alternate" type="application/json" href="https://ayej.org/wp-json/wp/v2/pages/936" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ayej.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://ayej.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 6.0.2" />
+<link rel='shortlink' href='https://ayej.org/?p=936' />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link href="//db.onlinewebfonts.com/c/0a5fbb91dc4a457f5945dca11d44517d?family=Atlas+Grotesk+Web+Regular" rel="stylesheet" type="text/css"/>
+<link rel="alternate" type="application/json+oembed" href="https://ayej.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fayej.org%2Fislas%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://ayej.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fayej.org%2Fislas%2F&#038;format=xml" />
+    <script>
+      var bb_powerpack = {
+        ajaxurl: 'https://ayej.org/wp-admin/admin-ajax.php'
+      };
+    </script>
+            <style type="text/css" id="cst_font_data">
+          @font-face {font-family: "Atlas Grotesk Web Regular"; src: url("//db.onlinewebfonts.com/t/0a5fbb91dc4a457f5945dca11d44517d.eot"); src: url("//db.onlinewebfonts.com/t/0a5fbb91dc4a457f5945dca11d44517d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0a5fbb91dc4a457f5945dca11d44517d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0a5fbb91dc4a457f5945dca11d44517d.woff") format("woff"), url("//db.onlinewebfonts.com/t/0a5fbb91dc4a457f5945dca11d44517d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0a5fbb91dc4a457f5945dca11d44517d.svg#Atlas Grotesk Web Regular") format("svg"); }     </style>
+        <meta name="generator" content="Give v2.22.0" />
+<style>img#wpstats{display:none}</style>
+  <style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://i0.wp.com/ayej.org/wp-content/uploads/2020/03/cropped-AYEJ-LOGO-w_o-TEXT-VECTOR.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i0.wp.com/ayej.org/wp-content/uploads/2020/03/cropped-AYEJ-LOGO-w_o-TEXT-VECTOR.png?fit=192%2C192&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i0.wp.com/ayej.org/wp-content/uploads/2020/03/cropped-AYEJ-LOGO-w_o-TEXT-VECTOR.png?fit=180%2C180&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i0.wp.com/ayej.org/wp-content/uploads/2020/03/cropped-AYEJ-LOGO-w_o-TEXT-VECTOR.png?fit=270%2C270&#038;ssl=1" />
+    <style id="wp-custom-css">
+      body {font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}   </style>
+    <script data-ad-client="ca-pub-2869354961729028" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script></head>
+<body class="page-template-default page page-id-936 fl-builder mt-936 mt-page-islas fl-theme-builder-header fl-theme-builder-header-islas-menu fl-framework-base fl-preset-default fl-full-width fl-search-active" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 0 0"
+    width="0"
+    height="0"
+    focusable="false"
+    role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+  >
+    <defs>
+      <filter id="wp-duotone-dark-grayscale">
+        <feColorMatrix
+          color-interpolation-filters="sRGB"
+          type="matrix"
+          values="
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+          "
+        />
+        <feComponentTransfer color-interpolation-filters="sRGB" >
+          <feFuncR type="table" tableValues="0 0.49803921568627" />
+          <feFuncG type="table" tableValues="0 0.49803921568627" />
+          <feFuncB type="table" tableValues="0 0.49803921568627" />
+          <feFuncA type="table" tableValues="1 1" />
+        </feComponentTransfer>
+        <feComposite in2="SourceGraphic" operator="in" />
+      </filter>
+    </defs>
+  </svg>
+
+  
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 0 0"
+    width="0"
+    height="0"
+    focusable="false"
+    role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+  >
+    <defs>
+      <filter id="wp-duotone-grayscale">
+        <feColorMatrix
+          color-interpolation-filters="sRGB"
+          type="matrix"
+          values="
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+          "
+        />
+        <feComponentTransfer color-interpolation-filters="sRGB" >
+          <feFuncR type="table" tableValues="0 1" />
+          <feFuncG type="table" tableValues="0 1" />
+          <feFuncB type="table" tableValues="0 1" />
+          <feFuncA type="table" tableValues="1 1" />
+        </feComponentTransfer>
+        <feComposite in2="SourceGraphic" operator="in" />
+      </filter>
+    </defs>
+  </svg>
+
+  
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 0 0"
+    width="0"
+    height="0"
+    focusable="false"
+    role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+  >
+    <defs>
+      <filter id="wp-duotone-purple-yellow">
+        <feColorMatrix
+          color-interpolation-filters="sRGB"
+          type="matrix"
+          values="
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+          "
+        />
+        <feComponentTransfer color-interpolation-filters="sRGB" >
+          <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+          <feFuncG type="table" tableValues="0 1" />
+          <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+          <feFuncA type="table" tableValues="1 1" />
+        </feComponentTransfer>
+        <feComposite in2="SourceGraphic" operator="in" />
+      </filter>
+    </defs>
+  </svg>
+
+  
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 0 0"
+    width="0"
+    height="0"
+    focusable="false"
+    role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+  >
+    <defs>
+      <filter id="wp-duotone-blue-red">
+        <feColorMatrix
+          color-interpolation-filters="sRGB"
+          type="matrix"
+          values="
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+          "
+        />
+        <feComponentTransfer color-interpolation-filters="sRGB" >
+          <feFuncR type="table" tableValues="0 1" />
+          <feFuncG type="table" tableValues="0 0.27843137254902" />
+          <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+          <feFuncA type="table" tableValues="1 1" />
+        </feComponentTransfer>
+        <feComposite in2="SourceGraphic" operator="in" />
+      </filter>
+    </defs>
+  </svg>
+
+  
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 0 0"
+    width="0"
+    height="0"
+    focusable="false"
+    role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+  >
+    <defs>
+      <filter id="wp-duotone-midnight">
+        <feColorMatrix
+          color-interpolation-filters="sRGB"
+          type="matrix"
+          values="
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+          "
+        />
+        <feComponentTransfer color-interpolation-filters="sRGB" >
+          <feFuncR type="table" tableValues="0 0" />
+          <feFuncG type="table" tableValues="0 0.64705882352941" />
+          <feFuncB type="table" tableValues="0 1" />
+          <feFuncA type="table" tableValues="1 1" />
+        </feComponentTransfer>
+        <feComposite in2="SourceGraphic" operator="in" />
+      </filter>
+    </defs>
+  </svg>
+
+  
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 0 0"
+    width="0"
+    height="0"
+    focusable="false"
+    role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+  >
+    <defs>
+      <filter id="wp-duotone-magenta-yellow">
+        <feColorMatrix
+          color-interpolation-filters="sRGB"
+          type="matrix"
+          values="
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+          "
+        />
+        <feComponentTransfer color-interpolation-filters="sRGB" >
+          <feFuncR type="table" tableValues="0.78039215686275 1" />
+          <feFuncG type="table" tableValues="0 0.94901960784314" />
+          <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+          <feFuncA type="table" tableValues="1 1" />
+        </feComponentTransfer>
+        <feComposite in2="SourceGraphic" operator="in" />
+      </filter>
+    </defs>
+  </svg>
+
+  
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 0 0"
+    width="0"
+    height="0"
+    focusable="false"
+    role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+  >
+    <defs>
+      <filter id="wp-duotone-purple-green">
+        <feColorMatrix
+          color-interpolation-filters="sRGB"
+          type="matrix"
+          values="
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+          "
+        />
+        <feComponentTransfer color-interpolation-filters="sRGB" >
+          <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+          <feFuncG type="table" tableValues="0 1" />
+          <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+          <feFuncA type="table" tableValues="1 1" />
+        </feComponentTransfer>
+        <feComposite in2="SourceGraphic" operator="in" />
+      </filter>
+    </defs>
+  </svg>
+
+  
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 0 0"
+    width="0"
+    height="0"
+    focusable="false"
+    role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+  >
+    <defs>
+      <filter id="wp-duotone-blue-orange">
+        <feColorMatrix
+          color-interpolation-filters="sRGB"
+          type="matrix"
+          values="
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+            .299 .587 .114 0 0
+          "
+        />
+        <feComponentTransfer color-interpolation-filters="sRGB" >
+          <feFuncR type="table" tableValues="0.098039215686275 1" />
+          <feFuncG type="table" tableValues="0 0.66274509803922" />
+          <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+          <feFuncA type="table" tableValues="1 1" />
+        </feComponentTransfer>
+        <feComposite in2="SourceGraphic" operator="in" />
+      </filter>
+    </defs>
+  </svg>
+
+  <div class="fl-page">
+
+    <app-nav></app-nav>
+ <div class="uabb-js-breakpoint" style="display: none;"></div>  <div id="fl-main-content" class="fl-page-content" itemprop="mainContentOfPage" role="main">
+
+    
+<div class="fl-content-full container">
+  <div class="row">
+    <div class="fl-content col-md-12">
+      <article class="fl-post post-936 page type-page status-publish hentry" id="fl-post-936" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+
+      <div class="fl-post-content clearfix" itemprop="text">
+    <div class="fl-builder-content fl-builder-content-936 fl-builder-content-primary fl-builder-global-templates-locked" data-post-id="936"><div id="about" class="fl-row fl-row-full-width fl-row-bg-photo fl-node-5ff429c92dab2 fl-row-bg-fixed" data-node="5ff429c92dab2">
+  <div class="fl-row-content-wrap">
+    <div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+            <div class="fl-row-content fl-row-fixed-width fl-node-content">
+    
+<div class="fl-col-group fl-node-5ff429c92e57d" data-node="5ff429c92e57d">
+      <div class="fl-col fl-node-5ff429c92e580 fl-col-has-cols" data-node="5ff429c92e580">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-photo fl-node-5ff429c92e581" data-node="5ff429c92e581">
+  <div class="fl-module-content fl-node-content">
+    <div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+  <div class="fl-photo-content fl-photo-img-png">
+        <img loading="lazy" class="fl-photo-img wp-image-939 size-full" src="https://res.cloudinary.com/upmsi/image/upload/v1663207004/blue%20beat/Custom_Size_2_y0fsgr.png?resize=1772%2C614&#038;ssl=1" alt="Green Beat_ Islas" itemprop="image" height="614" width="1772" title="Green Beat_ Islas" srcset="https://res.cloudinary.com/upmsi/image/upload/v1663207004/blue%20beat/Custom_Size_2_y0fsgr.png?w=1772&amp;ssl=1 1772w, https://res.cloudinary.com/upmsi/image/upload/v1663207004/blue%20beat/Custom_Size_2_y0fsgr.png?resize=300%2C104&amp;ssl=1 300w, https://res.cloudinary.com/upmsi/image/upload/v1663207004/blue%20beat/Custom_Size_2_y0fsgr.png?resize=1024%2C355&amp;ssl=1 1024w, https://res.cloudinary.com/upmsi/image/upload/v1663207004/blue%20beat/Custom_Size_2_y0fsgr.png?resize=768%2C266&amp;ssl=1 768w, https://res.cloudinary.com/upmsi/image/upload/v1663207004/blue%20beat/Custom_Size_2_y0fsgr.png?resize=1536%2C532&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" />
+          </div>
+  </div>
+  </div>
+</div>
+<div class="fl-module fl-module-heading fl-node-5ff429c92e582" data-node="5ff429c92e582">
+  <div class="fl-module-content fl-node-content">
+    <h2 class="fl-heading">
+    <span class="fl-heading-text">A Short Course on Marine Science Communication</span>
+  </h2>
+  </div>
+</div>
+
+<div class="fl-col-group fl-node-5ff429c92e583 fl-col-group-nested" data-node="5ff429c92e583">
+      <div class="fl-col fl-node-5ff429c92e584" data-node="5ff429c92e584">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-rich-text fl-node-5ff429c92e585" data-node="5ff429c92e585">
+  <div class="fl-module-content fl-node-content">
+    <div class="">
+  <p style=" margin-bottom: 20px;"><span style="font-weight: 400;">Ready your pens, laptops, and journalistic skills because it's time to write more stories about scientific breakthroughs and marine and environmental issues! We're looking for 15 early to mid-career journalists from each of the island region of the Philippines who will be trained with the necessary skills and knowledge to pursue the <b><i>blue beat</i></b> and write more stories about the marine environment. </span>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+<div class="fl-module fl-module-rich-text fl-node-5ff429c92e586" data-node="5ff429c92e586">
+  <div class="fl-module-content fl-node-content">
+    <div class="">
+
+       <p style="font-weight:bold; font-size: 18px; margin-bottom: 20px;">ABOUT THE BLUE BEAT INITIATIVE</p>
+
+
+  <p><span style="font-weight: 400; margin-top: 20px;">The Blue Beat Initiative: Short Course on Marine Science Communication is a free five-day in-person media training and capacity-building workshop on science and environmental journalism that will equip early to mid-career journalists with the added expertise, skills, and resources to effectively develop and report stories on science and the marine environment and popularize scientific findings for development.</span></p>
+
+<p><span style="font-weight: 400;">Fifteen (15) journalists from each of the three island regions will undergo an intensive workshop that is designed to enhance skill sets in effective science communication through a specialized training module that endeavors to weave together the science aspects of environmental protection while putting on a premium the power of journalism in the context of the Philippines.</span></p>
+
+<p><span style="font-weight: 400;">The ultimate vision of this project is to increase the conversation on science research and environmental issues, specifically in the marine landscape, by encouraging a more extensive media coverage of interesting discoveries and relevant scientific results, while also discussing important environmental issues.  </span></p>
+
+<p><span style="font-weight: 400;">A highlight component of the project is the production of science reports based on marine research of the UP-MSI and the immersion of the ongoing projects and assigned communities in Bolinao, Pangasinan. The journalistic outputs will be shared to their respective media outlets, as well as on the official AYEJ and UPMSI media platforms.</span></p>
+
+<p><span style="font-weight: 400;">The Blue Beat Initiative is a project of the UP Marine Science Institute under the National Security Council funded project “Upgrading Capacity, Infrastructure, and Assets for Marine Scientific Research in the Philippines (UPGRADE CIA)” and the Association of Young Environmental Journalists (AYEJ). </span></p>
+
+
+
+</div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+<div class="fl-col-group fl-node-5ff429c92e587" data-node="5ff429c92e587" style=" display: flex;
+justify-content: center; align-items: center;">
+      <div class="fl-col fl-node-5ff429c92e588 fl-col-small" data-node="5ff429c92e588">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-photo fl-node-5ff429c92e589" data-node="5ff429c92e589">
+  <div class="fl-module-content fl-node-content">
+    <div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+  <div class="fl-photo-content fl-photo-img-png">
+        <img loading="lazy" class="fl-photo-img wp-image-994 size-full" src="https://res.cloudinary.com/upmsi/image/upload/v1663147422/blue%20beat/MSI_Logo_Hi_Res_rk2m1w.png?resize=996%2C1024&#038;ssl=1" alt="MSI" itemprop="image" height="1024" width="996" title="MSI Logo" srcset="https://res.cloudinary.com/upmsi/image/upload/v1663147422/blue%20beat/MSI_Logo_Hi_Res_rk2m1w.png?w=996&amp;ssl=1 996w, https://res.cloudinary.com/upmsi/image/upload/v1663147422/blue%20beat/MSI_Logo_Hi_Res_rk2m1w.png?resize=292%2C300&amp;ssl=1 292w, https://res.cloudinary.com/upmsi/image/upload/v1663147422/blue%20beat/MSI_Logo_Hi_Res_rk2m1w.png?resize=768%2C790&amp;ssl=1 768w, hhttps://res.cloudinary.com/upmsi/image/upload/v1663147422/blue%20beat/MSI_Logo_Hi_Res_rk2m1w.png?resize=45%2C45&amp;ssl=1 45w" sizes="(max-width: 996px) 100vw, 996px" data-recalc-dims="1" />
+          </div>
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+      <div class="fl-col fl-node-5ff429c92e58a fl-col-small" data-node="5ff429c92e58a">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-photo fl-node-5ff429c92e58b" data-node="5ff429c92e58b">
+  <div class="fl-module-content fl-node-content">
+    <div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+  <div class="fl-photo-content fl-photo-img-png">
+        <img loading="lazy" class="fl-photo-img wp-image-956 size-full" src="https://res.cloudinary.com/upmsi/image/upload/v1663147422/blue%20beat/AYEJ-LOGO-w_-TEXT-VECTOR-1_efakqa.png?resize=200%2C248&#038;ssl=1" alt="AYEJ" itemprop="image" height="248" width="200" title="Holy Name University"  data-recalc-dims="1" />
+          </div>
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+     
+      
+      
+  </div>
+
+
+    </div>
+  </div>
+</div>
+<div id="eligibility" class="fl-row fl-row-full-width fl-row-bg-photo fl-node-5ff3fd8b49705" data-node="5ff3fd8b49705">
+  <div class="fl-row-content-wrap">
+    <div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+            <div class="fl-row-content fl-row-fixed-width fl-node-content">
+    
+<div class="fl-col-group fl-node-5ff3fd8b63da4" data-node="5ff3fd8b63da4">
+      <div class="fl-col fl-node-5ff3fd8b63f35 fl-col-has-cols" data-node="5ff3fd8b63f35">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-heading fl-node-5ff4012f17fad" data-node="5ff4012f17fad">
+  <div class="fl-module-content fl-node-content">
+    <h2 class="fl-heading">
+    <span class="">ELIGIBILITY REQUIREMENTS</span>
+  </h2>
+  </div>
+</div>
+
+<div class="fl-col-group fl-node-5ff401cc7a672 fl-col-group-nested" data-node="5ff401cc7a672">
+      <div class="fl-col fl-node-5ff401cc7a7fb fl-col-small" data-node="5ff401cc7a7fb">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-icon fl-node-5ff404b4234e1" data-node="5ff404b4234e1">
+  <div class="fl-module-content fl-node-content">
+   <div class="fl-icon-wrap">
+  <span class="fl-icon">
+        <i class="fas fa-user-circle" aria-hidden="true"></i>
+          </span>
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+      <div class="fl-col fl-node-5ff401cc7a801" data-node="5ff401cc7a801">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-heading fl-node-5ff404c38e9db" data-node="5ff404c38e9db">
+  <div class="fl-module-content fl-node-content">
+    <h2 class="fl-heading">
+    <span class="fl-heading-text">Applicants must be:</span>
+  </h2>
+  </div>
+</div>
+<div class="fl-module fl-module-info-list fl-node-5ff5456f3c80f" data-node="5ff5456f3c80f">
+  <div class="fl-module-content fl-node-content">
+    
+<div class="uabb-module-content uabb-info-list">
+  <ul class="uabb-info-list-wrapper uabb-info-list-left">
+    <li class="uabb-info-list-item info-list-item-dynamic0"><div class="uabb-info-list-content-wrapper fl-clearfix uabb-info-list-left"><div class="uabb-info-list-icon info-list-icon-dynamic0"><div class="uabb-module-content uabb-imgicon-wrap">        <span class="uabb-icon-wrap">
+      <span class="uabb-icon">
+        <i class="fas fa-dot-circle"></i>
+      </span>
+    </span>
+  
+    </div></div>
+
+    <div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic0"><h3 class="uabb-info-list-title"></h3 ><div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic0"><p><span style="font-weight: 400; font-size: 15px;">between 20-45 years old;</span></p></div></div></div>
+
+
+    <div class="uabb-info-list-connector uabb-info-list-left"></div></li><li class="uabb-info-list-item info-list-item-dynamic1">
+        <div class="uabb-info-list-content-wrapper fl-clearfix uabb-info-list-left">
+          <div class="uabb-info-list-icon info-list-icon-dynamic1"><div class="uabb-module-content uabb-imgicon-wrap">       
+            <span class="uabb-icon-wrap">
+             <span class="uabb-icon">
+               <i class="fas fa-dot-circle"></i>
+             </span>
+            </span>
+  
+          </div>
+    </div>
+
+    <div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic1">
+      <h3 class="uabb-info-list-title"></h3 >
+      <div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic1"><p>
+        <span style="font-weight: 400; font-size: 15px;">early-career to mid-career journalists working in any journalistic medium (online, print, multimedia) </span>
+      </p>
+    </div>
+    </div
+    ></div>
+    <div class="uabb-info-list-connector uabb-info-list-left"></div></li><li class="uabb-info-list-item info-list-item-dynamic2"><div class="uabb-info-list-content-wrapper fl-clearfix uabb-info-list-left"><div class="uabb-info-list-icon info-list-icon-dynamic2"><div class="uabb-module-content uabb-imgicon-wrap">        <span class="uabb-icon-wrap">
+      <span class="uabb-icon">
+        <i class="fas fa-dot-circle"></i>
+      </span>
+    </span>
+  
+    </div></div><div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic2"><h3 class="uabb-info-list-title"></h3 ><div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic2"><p><span style="font-weight: 400; font-size: 15px;">currently residing or working in the Philippines;</span></p></div></div></div><div class="uabb-info-list-connector uabb-info-list-left"></div></li><li class="uabb-info-list-item info-list-item-dynamic3"><div class="uabb-info-list-content-wrapper fl-clearfix uabb-info-list-left"><div class="uabb-info-list-icon info-list-icon-dynamic3"><div class="uabb-module-content uabb-imgicon-wrap">       <span class="uabb-icon-wrap">
+      <span class="uabb-icon">
+        <i class="fas fa-dot-circle"></i>
+      </span>
+    </span>
+  
+    </div></div><div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic3"><h3 class="uabb-info-list-title"></h3 ><div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic3"><p><span style="font-weight: 400; font-size: 15px;">available to fully and actively participate in an in-person 5-day training in the UP MSI Bolinao Marine Laboratory in Bolinao, Pangasinan;</span></p></div></div></div><div class="uabb-info-list-connector uabb-info-list-left"></div></li><li class="uabb-info-list-item info-list-item-dynamic4"><div class="uabb-info-list-content-wrapper fl-clearfix uabb-info-list-left"><div class="uabb-info-list-icon info-list-icon-dynamic4"><div class="uabb-module-content uabb-imgicon-wrap">        <span class="uabb-icon-wrap">
+      <span class="uabb-icon">
+        <i class="fas fa-dot-circle"></i>
+      </span>
+    </span>
+  
+    </div></div><div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic4"><h3 class="uabb-info-list-title"></h3 ><div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic4"><p><span style="font-weight: 400; font-size: 15px;">able to create one (1) article by the end of the training, which should be pitched and published to their own media outlet and the UP MSI and AYEJ websites.</span></p></div></div></div><div class="uabb-info-list-connector uabb-info-list-left"></div></li>
+
+      </ul>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+<div class="fl-col-group fl-node-5ff404680ac1e fl-col-group-nested" data-node="5ff404680ac1e">
+      <div class="fl-col fl-node-5ff404680adbb fl-col-small" data-node="5ff404680adbb">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-icon fl-node-5ff402e1025fa" data-node="5ff402e1025fa">
+  <div class="fl-module-content fl-node-content">
+    <div class="fl-icon-wrap">
+  <span class="fl-icon">
+        <i class="fas fa-search-plus" aria-hidden="true"></i>
+          </span>
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+      <div class="fl-col fl-node-5ff404680adc2" data-node="5ff404680adc2">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-heading fl-node-5ff40594d61b0" data-node="5ff40594d61b0">
+  <div class="fl-module-content fl-node-content">
+    <h2 class="fl-heading">
+    <span class="fl-heading-text">We are looking for someone who:</span>
+  </h2>
+  </div>
+</div>
+<div class="fl-module fl-module-info-list fl-node-5ff545a390170" data-node="5ff545a390170">
+  <div class="fl-module-content fl-node-content">
+    
+<div class="uabb-module-content uabb-info-list">
+  <ul class="uabb-info-list-wrapper uabb-info-list-left">
+    <li class="uabb-info-list-item info-list-item-dynamic0"><div class="uabb-info-list-content-wrapper fl-clearfix uabb-info-list-left"><div class="uabb-info-list-icon info-list-icon-dynamic0"><div class="uabb-module-content uabb-imgicon-wrap">        <span class="uabb-icon-wrap">
+      <span class="uabb-icon">
+        <i class="fas fa-dot-circle"></i>
+      </span>
+    </span>
+  
+    </div></div><div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic0"><h3 class="uabb-info-list-title"></h3 ><div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic0"><p><span style="font-weight: 400; font-size: 15px;">already has a minimum background or knowledge in journalism or writing (whether as a course take-up, with experience in campus journalism, or part of the campus paper, or even simply writing as a hobby or strong interest point);</span></p></div></div></div><div class="uabb-info-list-connector uabb-info-list-left"></div></li><li class="uabb-info-list-item info-list-item-dynamic1"><div class="uabb-info-list-content-wrapper fl-clearfix uabb-info-list-left"><div class="uabb-info-list-icon info-list-icon-dynamic1"><div class="uabb-module-content uabb-imgicon-wrap">       <span class="uabb-icon-wrap">
+      <span class="uabb-icon">
+        <i class="fas fa-dot-circle"></i>
+      </span>
+    </span>
+  
+    </div></div><div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic1"><h3 class="uabb-info-list-title"></h3 ><div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic1"><p><span style="font-weight: 400; font-size: 15px;">is passionate about environmental sustainability and climate action;</span></p></div></div></div><div class="uabb-info-list-connector uabb-info-list-left"></div></li><li class="uabb-info-list-item info-list-item-dynamic2"><div class="uabb-info-list-content-wrapper fl-clearfix uabb-info-list-left"><div class="uabb-info-list-icon info-list-icon-dynamic2"><div class="uabb-module-content uabb-imgicon-wrap">       <span class="uabb-icon-wrap">
+      <span class="uabb-icon">
+        <i class="fas fa-dot-circle"></i>
+      </span>
+    </span>
+  
+    </div></div><div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic2"><h3 class="uabb-info-list-title"></h3 ><div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic2"><p><span style="font-weight: 400; font-size: 15px;">is willing to learn more about how to effectively tell stories on environmental issues and climate change to positively impact the community.</span></p></div></div></div><div class="uabb-info-list-connector uabb-info-list-left"></div></li>  </ul>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+  </div>
+</div>
+  </div>
+
+<!--<div class="fl-col-group fl-node-5ff40598c3685" data-node="5ff40598c3685">
+      <div class="fl-col fl-node-5ff40598c380e" data-node="5ff40598c380e">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-pp-smart-button fl-node-5ff426ce77448" data-node="5ff426ce77448">
+  <div class="fl-module-content fl-node-content">
+    <div class="pp-button-wrap pp-button-width-custom">
+  <a href="https://drive.google.com/file/d/1Rtvf2WgzD0Kx-b8n1LxbejNgUavtYLnP/view?usp=sharing" target="_self" class="pp-button" role="button" aria-label="CHECK OUT THE FULL PROGRAM PRIMER">
+            <span class="pp-button-text">CHECK OUT THE FULL PROGRAM PRIMER</span>
+          </a>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>-->
+
+
+    </div>
+  </div>
+</div>
+<div id="benefit" class="fl-row fl-row-full-width fl-row-bg-photo fl-node-5ff406ad80033 fl-row-bg-fixed" data-node="5ff406ad80033">
+  <div class="fl-row-content-wrap">
+    <div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+            <div class="fl-row-content fl-row-fixed-width fl-node-content">
+    
+<div class="fl-col-group fl-node-5ff406ad8054b" data-node="5ff406ad8054b">
+      <div class="fl-col fl-node-5ff406ad8054e fl-col-has-cols" data-node="5ff406ad8054e">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-heading fl-node-5ff406ad8054f" data-node="5ff406ad8054f">
+  <div class="fl-module-content fl-node-content">
+    <h2 class="fl-heading">
+    <span class="fl-heading-text">WHAT’S IN IT FOR YOU?</span>
+  </h2>
+  </div>
+</div>
+
+<div class="fl-col-group fl-node-5ff4078a7fb9f fl-col-group-nested" data-node="5ff4078a7fb9f">
+      <div class="fl-col fl-node-5ff4078a7fc8f fl-col-small" data-node="5ff4078a7fc8f">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-info-box fl-node-5ff419aceb5a9 fla-animation fla-fade-left" data-node="5ff419aceb5a9" data-animation-delay="0" data-animation-duration="1">
+  <div class="fl-module-content fl-node-content">
+    <div class="uabb-module-content uabb-infobox infobox-left infobox-has-photo infobox-photo-left ">
+  <div class="uabb-infobox-left-right-wrap">
+  <div class="uabb-module-content uabb-imgicon-wrap">   
+          <div class="uabb-image
+     uabb-image-crop-simple   " itemscope itemtype="https://schema.org/ImageObject">
+      <div class="uabb-image-content">
+        <img loading="lazy" width="212" height="210" class="uabb-photo-img wp-image-1009 size-full" src="https://res.cloudinary.com/upmsi/image/upload/v1663048186/blue%20beat/101-1014247_save-money-icon-png-png-download-save-money-removebg-preview_pgrwxx.png?resize=212%2C210&#038;ssl=1" alt="Understand" title="Understand" itemprop="image" srcset="https://res.cloudinary.com/upmsi/image/upload/v1663048186/blue%20beat/101-1014247_save-money-icon-png-png-download-save-money-removebg-preview_pgrwxx.png?w=212&amp;ssl=1 212w, https://res.cloudinary.com/upmsi/image/upload/v1663048186/blue%20beat/101-1014247_save-money-icon-png-png-download-save-money-removebg-preview_pgrwxx.png?resize=150%2C150&amp;ssl=1 150w, https://res.cloudinary.com/upmsi/image/upload/v1663048186/blue%20beat/101-1014247_save-money-icon-png-png-download-save-money-removebg-preview_pgrwxx.png?resize=45%2C45&amp;ssl=1 45w" sizes="(max-width: 212px) 100vw, 212px" data-recalc-dims="1" />
+      </div>
+    </div>
+
+    </div><div class="uabb-infobox-content">
+      <div class='uabb-infobox-title-wrap'><h3 class="uabb-infobox-title"></h3></div>     <div class="uabb-infobox-text-wrap">
+        <div class="uabb-infobox-text uabb-text-editor"style= "font-size: 15px;"><p><span style="font-weight: 400; font-size: 15px;">All-expense paid trip to Bolinao, Pangasinan</span></p>
+</div>      </div>
+            </div>  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+      <div class="fl-col fl-node-5ff4078a7fc92 fl-col-small" data-node="5ff4078a7fc92">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-info-box fl-node-5ff410c4b16d1 fla-animation fla-fade-right" data-node="5ff410c4b16d1" data-animation-delay="0" data-animation-duration="1">
+  <div class="fl-module-content fl-node-content">
+    <div class="uabb-module-content uabb-infobox infobox-left infobox-has-photo infobox-photo-left ">
+  <div class="uabb-infobox-left-right-wrap">
+  <div class="uabb-module-content uabb-imgicon-wrap">   
+          <div class="uabb-image
+     uabb-image-crop-simple   " itemscope itemtype="https://schema.org/ImageObject">
+      <div class="uabb-image-content">
+        <img loading="lazy" width="212" height="210" class="uabb-photo-img wp-image-1010 size-full" src="https://res.cloudinary.com/upmsi/image/upload/v1663047893/blue%20beat/5-59797_journal-icon-png-svg-book-icon-transparent-png-removebg-preview_fkq6cu.png?resize=212%2C210&#038;ssl=1" alt="Analyze" title="Analyze" itemprop="image" srcset="https://res.cloudinary.com/upmsi/image/upload/v1663047893/blue%20beat/5-59797_journal-icon-png-svg-book-icon-transparent-png-removebg-preview_fkq6cu.png?w=212&amp;ssl=1 212w, https://res.cloudinary.com/upmsi/image/upload/v1663047893/blue%20beat/5-59797_journal-icon-png-svg-book-icon-transparent-png-removebg-preview_fkq6cu.png?resize=150%2C150&amp;ssl=1 150w, https://res.cloudinary.com/upmsi/image/upload/v1663047893/blue%20beat/5-59797_journal-icon-png-svg-book-icon-transparent-png-removebg-preview_fkq6cu.png?resize=45%2C45&amp;ssl=1 45w" sizes="(max-width: 212px) 100vw, 212px" data-recalc-dims="1" />
+      </div>
+    </div>
+
+    </div><div class="uabb-infobox-content">
+      <div class='uabb-infobox-title-wrap'><h3 class="uabb-infobox-title"></h3></div>      <div class="uabb-infobox-text-wrap">
+        <div class="uabb-infobox-text uabb-text-editor"style= "font-size: 15px;"><p>Mentorship engagement with Senior Journalists and xxxx with Marine Science Experts 
+</p>
+</div>      </div>
+            </div>  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+<div class="fl-col-group fl-node-5ff40989a3338 fl-col-group-nested" data-node="5ff40989a3338">
+      <div class="fl-col fl-node-5ff40989a344a fl-col-small" data-node="5ff40989a344a">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-info-box fl-node-5ff41396e3ab7 fla-animation fla-fade-in" data-node="5ff41396e3ab7" data-animation-delay="0" data-animation-duration="1">
+  <div class="fl-module-content fl-node-content">
+    <div class="uabb-module-content uabb-infobox infobox-left infobox-has-photo infobox-photo-left ">
+  <div class="uabb-infobox-left-right-wrap">
+  <div class="uabb-module-content uabb-imgicon-wrap">   
+          <div class="uabb-image
+     uabb-image-crop-simple   " itemscope itemtype="https://schema.org/ImageObject">
+      <div class="uabb-image-content">
+        <img loading="lazy" width="212" height="210" class="uabb-photo-img wp-image-1011 size-full" src="https://res.cloudinary.com/upmsi/image/upload/v1663048186/blue%20beat/certificate-icon-11-removebg-preview_bkibpa.png?resize=212%2C210&#038;ssl=1" alt="identify" title="identify" itemprop="image" srcset="https://res.cloudinary.com/upmsi/image/upload/v1663048186/blue%20beat/certificate-icon-11-removebg-preview_bkibpa.png?w=212&amp;ssl=1 212w, https://res.cloudinary.com/upmsi/image/upload/v1663048186/blue%20beat/certificate-icon-11-removebg-preview_bkibpa.png?resize=150%2C150&amp;ssl=1 150w,https://res.cloudinary.com/upmsi/image/upload/v1663048186/blue%20beat/certificate-icon-11-removebg-preview_bkibpa.png?resize=45%2C45&amp;ssl=1 45w" sizes="(max-width: 212px) 100vw, 212px" data-recalc-dims="1" />
+      </div>
+    </div>
+
+    </div><div class="uabb-infobox-content">
+      <div class='uabb-infobox-title-wrap'><h3 class="uabb-infobox-title"></h3></div>     <div class="uabb-infobox-text-wrap">
+        <div class="uabb-infobox-text uabb-text-editor"style= "font-size: 15px;"><p>Training certificate with 40 training hours</p>
+</div>      </div>
+            </div>  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+      <div class="fl-col fl-node-5ff40989a344f fl-col-small" data-node="5ff40989a344f">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-info-box fl-node-5ff4123a9b411 fla-animation fla-fade-right" data-node="5ff4123a9b411" data-animation-delay="0" data-animation-duration="1">
+  <div class="fl-module-content fl-node-content">
+    <div class="uabb-module-content uabb-infobox infobox-left infobox-has-photo infobox-photo-left ">
+  <div class="uabb-infobox-left-right-wrap">
+  <div class="uabb-module-content uabb-imgicon-wrap">   
+          <div class="uabb-image
+     uabb-image-crop-simple   " itemscope itemtype="https://schema.org/ImageObject">
+      <div class="uabb-image-content">
+        <img loading="lazy" width="211" height="211" class="uabb-photo-img wp-image-1012 size-full" src="https://res.cloudinary.com/upmsi/image/upload/v1663048187/blue%20beat/go-pro-icon-black-network-icon-11553448934rrrspcwl7j-removebg-preview_uh5myp.png?resize=211%2C211&#038;ssl=1" alt="demonstrate" title="demonstrate" itemprop="image" srcset="https://res.cloudinary.com/upmsi/image/upload/v1663048187/blue%20beat/go-pro-icon-black-network-icon-11553448934rrrspcwl7j-removebg-preview_uh5myp.png?w=211&amp;ssl=1 211w, https://res.cloudinary.com/upmsi/image/upload/v1663048187/blue%20beat/go-pro-icon-black-network-icon-11553448934rrrspcwl7j-removebg-preview_uh5myp.png?resize=150%2C150&amp;ssl=1 150w, https://res.cloudinary.com/upmsi/image/upload/v1663048187/blue%20beat/go-pro-icon-black-network-icon-11553448934rrrspcwl7j-removebg-preview_uh5myp.png?resize=45%2C45&amp;ssl=1 45w" sizes="(max-width: 211px) 100vw, 211px" data-recalc-dims="1" />
+      </div>
+    </div>
+
+    </div><div class="uabb-infobox-content">
+      <div class='uabb-infobox-title-wrap'><h3 class="uabb-infobox-title"></h3></div>      <div class="uabb-infobox-text-wrap">
+        <div class="uabb-infobox-text uabb-text-editor" style= "font-size: 15px;"><p>Network-building with Marine Science Experts</p>
+</div>      </div>
+            </div>  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+
+
+
+
+<div class="fl-col-group fl-node-5ff40d4ea53f7 fl-col-group-nested" data-node="5ff40d4ea53f7">
+
+    
+
+<div class="fl-col-group fl-node-5ff40d1d7e96d fl-col-group-nested" data-node="5ff40d1d7e96d">
+      <div class="fl-col fl-node-5ff40d1d7eb5f" data-node="5ff40d1d7eb5f">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-heading fl-node-5ff406ad80561" data-node="5ff406ad80561">
+  <div class="fl-module-content fl-node-content">
+    <h2 class="fl-heading">
+    <span class="fl-heading-text">By the end of the training, you will be able to:</span>
+  </h2>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+<div class="fl-col-group fl-node-5ff40d4ea53f7 " data-node="5ff40d4ea53f7">
+      <div class="fl-col fl-node-5ff40d4ea5593" data-node="5ff40d4ea5593"  style="width: 100%;">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-rich-text fl-node-5ff4106ba5e11 " data-node="5ff4106ba5e11" >
+  <div class="fl-module-content fl-node-content">
+    <div class="">
+  <p><i><span style="font-weight: 400;">A. Understand the basic concepts of the marine environment and its current state which will equip you with the proper background and context for your writing;</span></i></p>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+      <div class="fl-col fl-node-5ff40d4ea559a " data-node="5ff40d4ea559a" style="width: 100%;">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-rich-text fl-node-5ff40c45cfb62 ">
+  <div class="fl-module-content fl-node-content">
+    <div class="">
+  <p><span style="font-weight: 400;">B. Analyze the role and significance of reporting about important scientific findings that will be shared by the general public, ushering in a more informed, technologically-conscious, and development-oriented society</span></p>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+      <div class="fl-col fl-node-5ff40d4ea559d" data-node="5ff40d4ea559d" style="width: 100%;">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-rich-text fl-node-5ff41058cd5d4 " data-node="5ff41058cd5d4" >
+  <div class="fl-module-content fl-node-content">
+    <div class="">
+  <p><span style="font-weight: 400;">C. Identify relevant threats to the marine environment, ongoing environmental problems, unsustainable practices, and their impacts on society as needing media attention;</span></p>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+ <div class="fl-col fl-node-5ff40d4ea559a " data-node="5ff40d4ea559a" style="width: 100%;">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-rich-text fl-node-5ff40c45cfb62 ">
+  <div class="fl-module-content fl-node-content">
+    <div class="">
+  <p><span style="font-weight: 400;">D. Apply techniques in effectively reading through published research for the purposes of writing a science story;</span></p>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+ <div class="fl-col fl-node-5ff40d4ea559a " data-node="5ff40d4ea559a" style="width: 100%;">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-rich-text fl-node-5ff40c45cfb62 ">
+  <div class="fl-module-content fl-node-content">
+    <div class="">
+  <p><span style="font-weight: 400;">E. Demonstrate the ability to write about breakthroughs in science and research which further explain the significance of the scientific findings, its impacts and implications in the community, and help raise the people’s level of awareness for environmental concerns;</span></p>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  <div class="fl-col-group fl-node-5ff40d1d7e96d fl-col-group-nested" data-node="5ff40d1d7e96d">
+      <div class="fl-col fl-node-5ff40d1d7eb5f" data-node="5ff40d1d7eb5f">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-heading fl-node-5ff406ad80561" data-node="5ff406ad80561">
+  <div class="fl-module-content fl-node-content">
+    <h2 class="fl-heading">
+    <span class="fl-heading-text">You will also get to:</span>
+  </h2>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+<div class="fl-col-group fl-node-5ff40d4ea53f7 fl-col-group-nested" data-node="5ff40d4ea53f7">
+      <div class="fl-col fl-node-5ff40d4ea5593 fl-col-small" data-node="5ff40d4ea5593">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-rich-text fl-node-5ff4106ba5e11 " data-node="5ff4106ba5e11" >
+  <div class="fl-module-content fl-node-content">
+    <div class="">
+  <p><i><span style="font-weight: 400;">A. Hone your leadership by being part of a network of environmental journalists and science communication who use the power of media and storytelling to further causes in environmental sustainability and climate action;</span></i></p>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+      <div class="fl-col fl-node-5ff40d4ea559a fl-col-small" data-node="5ff40d4ea559a">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-rich-text fl-node-5ff40c45cfb62 ">
+  <div class="fl-module-content fl-node-content">
+    <div class="">
+  <p><span style="font-weight: 400;">B. Have direct access to experts and sources in the field of journalism and marine resources environment whose wisdom and expertise have changed many lives;</span></p>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+      <div class="fl-col fl-node-5ff40d4ea559d fl-col-small" data-node="5ff40d4ea559d">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-rich-text fl-node-5ff41058cd5d4 " data-node="5ff41058cd5d4" >
+  <div class="fl-module-content fl-node-content">
+    <div class="">
+  <p><span style="font-weight: 400;">C. Expand your network to be a member of a larger community of  reporters with access to opportunities, story grants, and other training engagements.</span></p>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+</div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="timeline" class="fl-row fl-row-full-width fl-row-bg-photo fl-node-5ff417ccbd5c8" data-node="5ff417ccbd5c8">
+  <div class="fl-row-content-wrap">
+    <div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+            <div class="fl-row-content fl-row-fixed-width fl-node-content">
+    
+<div class="fl-col-group fl-node-5ff417ccbd950" data-node="5ff417ccbd950">
+      <div class="fl-col fl-node-5ff417ccbd952 fl-col-has-cols" data-node="5ff417ccbd952">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-heading fl-node-5ff417ccbd953" data-node="5ff417ccbd953">
+  <div class="fl-module-content fl-node-content">
+    <h2 class="fl-heading">
+    <span class="fl-heading-text">TIMELINE</span>
+  </h2>
+  </div>
+</div>
+<div class="fl-module fl-module-info-box fl-node-5ff4129d40240 fla-animation fl-slide-in-up" data-node="5ff4129d40240" data-animation-delay="0" data-animation-duration="1">
+  <div class="fl-module-content fl-node-content">
+    <div class="uabb-module-content uabb-infobox infobox-left infobox-has-icon infobox-icon-left ">
+  <div class="uabb-infobox-left-right-wrap">
+  <div class="uabb-module-content uabb-imgicon-wrap">      
+  
+  
+    </div><div class="uabb-infobox-content">
+      <div class='uabb-infobox-title-wrap'><h3 class="uabb-infobox-title">APPLICATION PERIOD (SEPTEMBER 16 - 30, 2022)
+</h3></div>      <div class="uabb-infobox-text-wrap">
+        <div class="uabb-infobox-text uabb-text-editor"><p><span style="font-weight: 400; font-size: 15px;">- Eligible applicants must submit their requirements by filling out the online application form.</span></p>
+</div>      </div>
+            </div>  </div>
+</div>
+  </div>
+</div>
+<div class="fl-module fl-module-info-box fl-node-5ff41a8862d7a fla-animation fl-slide-in-up" data-node="5ff41a8862d7a" data-animation-delay=".90" data-animation-duration="1">
+  <div class="fl-module-content fl-node-content">
+    <div class="uabb-module-content uabb-infobox infobox-left infobox-has-icon infobox-icon-left ">
+  <div class="uabb-infobox-left-right-wrap">
+  <div class="uabb-module-content uabb-imgicon-wrap">      
+  
+    </div><div class="uabb-infobox-content">
+      <div class='uabb-infobox-title-wrap'><h3 class="uabb-infobox-title">ANNOUNCEMENT OF SUCCESSFUL APPLICANTS (OCTOBER 10, 2022)</h3></div>     <div class="uabb-infobox-text-wrap">
+        <div class="uabb-infobox-text uabb-text-editor"><p><span style="font-weight: 400; font-size: 15px;">- Results of the application will be sent out via email.</span></p>
+</div>      </div>
+            </div>  </div>
+</div>
+  </div>
+</div>
+<div class="fl-module fl-module-info-box fl-node-5ff4238860b82 fla-animation fl-slide-in-up" data-node="5ff4238860b82" data-animation-delay=".80" data-animation-duration="1">
+  <div class="fl-module-content fl-node-content">
+    <div class="uabb-module-content uabb-infobox infobox-left infobox-has-icon infobox-icon-left ">
+  <div class="uabb-infobox-left-right-wrap">
+  <div class="uabb-module-content uabb-imgicon-wrap">       
+  
+    </div><div class="uabb-infobox-content">
+      <div class='uabb-infobox-title-wrap'><h3 class="uabb-infobox-title">IN-PERSON TRAINING (DECEMBER 12-17, 2022)</h3></div>     <div class="uabb-infobox-text-wrap">
+        <div class="uabb-infobox-text uabb-text-editor"><p><span style="font-weight: 400; font-size: 15px;">- Five (5) journalists from each of the three island regions will be selected to converge in Bolinao, Pangasinan for this capacity-building training. Participants will be chosen based on their journalist track record and their strong potential in writing and reporting more in-depth
+Science stories.</span></p>
+</div>      </div>
+            </div>  </div>
+</div>
+  </div>
+</div>
+<div class="fl-module fl-module-info-box fl-node-5ff4248cf1031 fla-animation fl-slide-in-up" data-node="5ff4248cf1031" data-animation-delay=".70" data-animation-duration="1">
+  <div class="fl-module-content fl-node-content">
+    <div class="uabb-module-content uabb-infobox infobox-left infobox-has-icon infobox-icon-left ">
+  <div class="uabb-infobox-left-right-wrap">
+  <div class="uabb-module-content uabb-imgicon-wrap">      
+    </div><div class="uabb-infobox-content">
+      <div class='uabb-infobox-title-wrap'><h3 class="uabb-infobox-title">STORY REFINEMENT AND SUBMISSION (DECEMBER 18-31, 2022)</h3></div>      <div class="uabb-infobox-text-wrap">
+        <div class="uabb-infobox-text uabb-text-editor"><p><span style="font-weight: 400; font-size: 15px;">- Completers of the program will be given two weeks to finalize and refine their stories together with their assigned mentors and have their written outputs published in their media platform of choice and the UP MSI website and social media pages </span></p>
+
+</div>      </div>
+            </div>  </div>
+</div>
+  </div>
+</div>
+<div class="fl-module fl-module-info-box fl-node-5ff423c150f60 fla-animation fl-slide-in-up" data-node="5ff423c150f60" data-animation-delay=".60" data-animation-duration="1">
+  <div class="fl-module-content fl-node-content">
+    <div class="uabb-module-content uabb-infobox infobox-left infobox-has-icon infobox-icon-left ">
+  <div class="uabb-infobox-left-right-wrap">
+  <div class="uabb-module-content uabb-imgicon-wrap">       
+  
+    </div><div class="uabb-infobox-content">
+      <div class='uabb-infobox-title-wrap'><h3 class="uabb-infobox-title">ESTABLISHMENT OF AYEJ CHAPTERS IN AREAS (SEPTEMBER 2021)</h3></div>     <div class="uabb-infobox-text-wrap">
+        <div class="uabb-infobox-text uabb-text-editor"><p><span style="font-weight: 400; font-size: 15px;">- Attendees from the advanced workshop and graduates of the training will lead in the formation of the Southern Tagalog Chapter (Palawan, Zambales, Occidental Mindoro), Bohol Chapter, and be installed as new members CDO Chapter of the Association of Young Environmental Journalists (AYEJ) where they can sustain the gains of the training and re-echo their learning back to their local communities through the network.</span></p>
+</div>      </div>
+            </div>  </div>
+</div>
+  </div>
+</div>
+
+<div class="fl-col-group fl-node-5ff417ccbd954 fl-col-group-nested" data-node="5ff417ccbd954">
+      <div class="fl-col fl-node-5ff417ccbd957" data-node="5ff417ccbd957">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-list fl-node-5ff417ccbd95a" data-node="5ff417ccbd95a">
+  <div class="fl-module-content fl-node-content">
+    <div class="fl-list fl-list-regular" role="list"> <div role="listitem" class="fl-list-item fl-list-item-0">
+    <div class="fl-list-item-wrapper">
+          </div>
+  </div>
+  </div>  </div>
+</div>
+  </div>
+</div>
+  </div>
+  </div>
+</div>
+  </div>
+    </div>
+  </div>
+</div>
+<div id="apply" class="fl-row fl-row-full-width fl-row-bg-photo fl-node-5ff3eb5d1266b fl-row-bg-fixed" data-node="5ff3eb5d1266b">
+  <div class="fl-row-content-wrap">
+    <div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+            <div class="fl-row-content fl-row-fixed-width fl-node-content">
+    
+<div class="fl-col-group fl-node-5ff3eb5d1ab93" data-node="5ff3eb5d1ab93">
+      <div class="fl-col fl-node-5ff3eb5d1add7" data-node="5ff3eb5d1add7">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-photo fl-node-5ff3ef1e25d5c" data-node="5ff3ef1e25d5c">
+  <div class="fl-module-content fl-node-content">
+    <div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+  <div class="fl-photo-content fl-photo-img-png">
+        <img loading="lazy" class="fl-photo-img wp-image-939 size-full" src="https://i0.wp.com/ayej.org/wp-content/uploads/2021/01/Green-Beat_-Islas.png?resize=1772%2C614&#038;ssl=1" alt="Green Beat_ Islas" itemprop="image" height="614" width="1772" title="Green Beat_ Islas" srcset="https://i0.wp.com/ayej.org/wp-content/uploads/2021/01/Green-Beat_-Islas.png?w=1772&amp;ssl=1 1772w, https://i0.wp.com/ayej.org/wp-content/uploads/2021/01/Green-Beat_-Islas.png?resize=300%2C104&amp;ssl=1 300w, https://i0.wp.com/ayej.org/wp-content/uploads/2021/01/Green-Beat_-Islas.png?resize=1024%2C355&amp;ssl=1 1024w, https://i0.wp.com/ayej.org/wp-content/uploads/2021/01/Green-Beat_-Islas.png?resize=768%2C266&amp;ssl=1 768w, https://i0.wp.com/ayej.org/wp-content/uploads/2021/01/Green-Beat_-Islas.png?resize=1536%2C532&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" />
+          </div>
+  </div>
+  </div>
+</div>
+<div class="fl-module fl-module-heading fl-node-5ff42923ae4d3" data-node="5ff42923ae4d3">
+  <div class="fl-module-content fl-node-content">
+    <h2 class="fl-heading">
+    <span class="fl-heading-text">A Short Course on Marine Science Communication</span>
+  </h2>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+<div class="fl-col-group fl-node-5ff3fc3f68cbc" data-node="5ff3fc3f68cbc">
+      <div class="fl-col fl-node-5ff3fc3f68e43" data-node="5ff3fc3f68e43">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-pp-smart-button fl-node-5ff5391e41ae2" data-node="5ff5391e41ae2">
+  <div class="fl-module-content fl-node-content">
+    <div class="pp-button-wrap pp-button-width-custom">
+  <a href="" target="_blank" class="pp-button" role="button" rel="noopener" aria-label="Apply Today!">
+            <span class="pp-button-text">Apply Today!</span>
+          </a>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+<div class="fl-col-group fl-node-5ff3ff0b5ec2f" data-node="5ff3ff0b5ec2f">
+      <div class="fl-col fl-node-5ff3ff0b5edd1" data-node="5ff3ff0b5edd1">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-heading fl-node-5ff3f6e459b3e" data-node="5ff3f6e459b3e">
+  <div class="fl-module-content fl-node-content">
+    <h2 class="fl-heading">
+    <span class="fl-heading-text">Applications close on September 30, 2022, 5PM.</span>
+  </h2>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+    </div>
+  </div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-5ff4258d927fa" data-node="5ff4258d927fa">
+  <div class="fl-row-content-wrap">
+    <div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+            <div class="fl-row-content fl-row-fixed-width fl-node-content">
+    
+<div class="fl-col-group fl-node-5ff4258d92e0c" data-node="5ff4258d92e0c" style=" display: flex;
+justify-content: center; align-items: center;">
+      <div class="fl-col fl-node-5ff4258d92e0d fl-col-small" data-node="5ff4258d92e0d">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-photo fl-node-5ff4258d92e0e" data-node="5ff4258d92e0e">
+  <div class="fl-module-content fl-node-content">
+    <div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+  <div class="fl-photo-content fl-photo-img-png">
+        <img loading="lazy" class="fl-photo-img wp-image-955 size-full" src="https://res.cloudinary.com/upmsi/image/upload/v1663147422/blue%20beat/MSI_Logo_Hi_Res_rk2m1w.png?resize=1138%2C1128&#038;ssl=1" alt="MSI" itemprop="image" height="1128" width="1138" title="MSI Logo" srcset="https://res.cloudinary.com/upmsi/image/upload/v1663147422/blue%20beat/MSI_Logo_Hi_Res_rk2m1w.png?w=1138&amp;ssl=1 1138w,https://res.cloudinary.com/upmsi/image/upload/v1663147422/blue%20beat/MSI_Logo_Hi_Res_rk2m1w.png?resize=1024%2C1015&amp;ssl=1 1024w, https://i0.wp.com/ayej.org/wp-content/uploads/2021/01/BIOMS-Logo.png?resize=150%2C150&amp;ssl=1 150w, https://res.cloudinary.com/upmsi/image/upload/v1663147422/blue%20beat/MSI_Logo_Hi_Res_rk2m1w.png?resize=768%2C761&amp;ssl=1 768w,https://res.cloudinary.com/upmsi/image/upload/v1663147422/blue%20beat/MSI_Logo_Hi_Res_rk2m1w.png?resize=45%2C45&amp;ssl=1 45w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" />
+          </div>
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+      <div class="fl-col fl-node-5ff4258d92e0f fl-col-small" data-node="5ff4258d92e0f">
+  <div class="fl-col-content fl-node-content">
+  <div class="fl-module fl-module-photo fl-node-5ff4258d92e10" data-node="5ff4258d92e10">
+  <div class="fl-module-content fl-node-content">
+    <div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+  <div class="fl-photo-content fl-photo-img-png">
+        <img loading="lazy" class="fl-photo-img wp-image-956 size-full" src="https://res.cloudinary.com/upmsi/image/upload/v1663147422/blue%20beat/AYEJ-LOGO-w_-TEXT-VECTOR-1_efakqa.png?resize=200%2C248&#038;ssl=1" alt="AYEJ" itemprop="image" height="248" width="200" title="AYEJ logo"  data-recalc-dims="1" />
+          </div>
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+      
+     
+      
+  </div>
+
+
+    </div>
+  </div>
+</div>
+</div><div class="uabb-js-breakpoint" style="display: none;"></div> </div><!-- .fl-post-content -->
+  
+</article>
+
+<!-- .fl-post -->
+    </div>
+  </div>
+</div>
+
+
+  </div><!-- .fl-page-content -->
+  
+    </div><!-- .fl-page -->
+
+<script src='http://ayej.org/wp-content/plugins/give/assets/dist/js/give-donation-summary.js?ver=2.22.0' id='give-donation-summary-script-frontend-js'></script>
+<script src='http://ayej.org/wp-content/plugins/bb-plugin/js/jquery.ba-throttle-debounce.min.js?ver=2.5.4.3' id='jquery-throttle-js'></script>
+<script src='https://ayej.org/wp-content/uploads/bb-plugin/cache/c03ca9da93deb7b15dec3ca2506efc03-layout-bundle.js?ver=2.5.4.3-1.4.2' id='fl-builder-layout-bundle-c03ca9da93deb7b15dec3ca2506efc03-js'></script>
+<script src='http://ayej.org/wp-content/plugins/bb-plugin/js/jquery.magnificpopup.js?ver=2.5.4.3' id='jquery-magnificpopup-js'></script>
+<script id='fl-automator-js-extra'>
+var themeopts = {"medium_breakpoint":"992","mobile_breakpoint":"768"};
+</script>
+<script src='http://ayej.org/wp-content/themes/bb-theme/js/theme.js?ver=1.7.11' id='fl-automator-js'></script>
+<script src='https://stats.wp.com/e-202237.js' defer></script>
+<script>
+  _stq = window._stq || [];
+  _stq.push([ 'view', {v:'ext',j:'1:11.0',blog:'174423779',post:'936',tz:'8',srv:'ayej.org'} ]);
+  _stq.push([ 'clickTrackerInit', '174423779', '936' ]);
+</script>
+</body>
+</html>

@@ -11,6 +11,7 @@ export class PublicationListComponent implements OnInit {
   panelOpenState3:boolean =false;
   panelOpenState4:boolean =false;
   panelOpenState5:boolean =false;
+  panelOpenState6:boolean =false;
 
   publication2017 = [
     {content: "Abesamis R.A., Saenz-Agudelo P., Berumen M.L., Bode M., Jadloc C.R.L, Solera L.A., Villanoy C.L., Bernardo L.P.C., Alcala A.C., & Russ G.R. (2017). Reef-fish larval dispersal patterns validate no-take marine reserve network connectivity that links human communities. Coral Reefs, 36(3), 791–801."},
@@ -411,6 +412,58 @@ export class PublicationListComponent implements OnInit {
     {content: "Yoshikai, M., T. Nakamura, Y. Tanaka, M. Nakaoka, A. Watanabe, E. Herrera, T. Tshuchiya, T. Miyajima, M.L. San Diego-McGlone, M.D. Fortes, A.C. Blanco, A.M. Tamondong, K. Nadaoka.  2021.  Modeling seagrass bed dynamics under environmental impacts of intensive mariculture activities in Bolinao and Anda, the Philippines.  2020.  Estuarine, Coastal and Shelf Science 250: 107152, Doi.10.1016/j.ecss  2020.107152."},
 
     {content: "Yoshikai, M. Nakamura, T., Tanaka, Y., Nakaoka, M. Watanabe, A. Herrera, E. Tsuchiya, T. Miyajima, T. San Diego-McGlone, M.L., Fortes, M., Blanco, A., Tamondong, A., Nadaoka, K.(2021). Modeling seagrass bed dynamics under environmental impacts of intensive mariculture activities in Bolinao and Anda, the Philippines. Estuarine, Coastal and Shelf Science, 250: 1-14."},
+
+    
+  ]
+
+  publication2022 = [
+
+    {content: "Azminuddin, F., Lee, J. H., Jeon, D., Shin, C. W., Villanoy, C., Lee, S., Min, H. S., & Kim, D. G. (2022). Effect of the intensified sub-thermocline eddy on strengthening the Mindanao undercurrent in 2019. Journal of Geophysical Research: Oceans, 127(2), e2021JC017883. https://doi.org/10.1029/2021JC017883"},
+
+    {content: "Baluyot, J. C., Santos, H. K., Batoctoy, D. C., Torreno, V. P., Ghimire, L. B., Joson, S. E., Obusan, M. C., Yu, E. T., Bela-ong, D. B., Gerona, R. R., & Velarde, M. C. (2022). Diaporthe/Phomopsis longicolla degrades an array of bisphenol analogues with secreted laccase. Microbiological Research, 257, 126973. https://doi.org/10.1016/j.micres.2022.126973"},
+
+
+    {content: "Bauyon, M.M.T., Magtaas, R.A.H., Limlingan, S.J.M., Jagonoy, A.M., Racho, J.M.D., Valdez, J.D.G., Monsada, A.M., Salon, B.J.T., Tabuso, A.J.E., Valerio, J.K.C., Sarmiento, K.J.S., Dumalagan, Jr., E.E., Siringan, F.P., Bautista VII, A.T. (2022). Sea surface temperature reconstruction using 3D x-ray computed tomography in coral cores from Baler, Aurora, Philippines: An initial study. Mindanao Journal of Science and Technology: MJST Special Issue on the Philippine Nuclear Research and Development Conference 2020 20(S1). https://mjst.ustp.edu.ph/index.php/mjst/article/view/1063/211"},
+
+
+    {content: "Gabuyo, M. R. P., & Siringan, F. P. (2022). Utility of low-cost recreational-grade echosounders in imaging and characterizing bubbly coastal submarine groundwater discharge. Journal of Hydrology X, 14, 100118. https://doi.org/10.1016/j.hydroa.2021.100118 "},
+
+
+    {content: "Gabuyo, M. R. P., & Siringan, F. P. (2022). Utility of low-cost recreational-grade echosounders in imaging and characterizing bubbly coastal submarine groundwater discharge. Journal of Hydrology X, 14, 100118. https://doi.org/10.1016/j.hydroa.2021.100118 Jackisch, D., Yeo, B. X., Switzer, A. D., He, S., Cantarero, D. L. M., Siringan, F. P., & Goodkin, N. F. (2022). Precipitation stable isotopic signatures of tropical cyclones in Metropolitan Manila, Philippines, show significant negative isotopic excursions. Natural Hazards and Earth System Sciences, 22(1), pp. 213-226. https://doi.org/10.5194/nhess-22-213-2022"},
+
+
+    {content: "Labiros, D.A., Catalig, A.M.P., Ymbong, R.R.J., Sakuntabhai, A., Lluisma, A.O., Edillo, F.E. (2022). Novel and broadly applicable microsatellite markers in identified chromosomes of the Philippine dengue mosquitoes, Aedes aegypti (diptera: culicidae). Journal of Medical Entomology, 2022;, tjab194. https://doi.org/10.1093/jme/tjab194"},
+
+
+    {content: "Lalas, J. A. A., Lim, R. T. S., Cabasan, J. P., Segumalian, C. S., Luciano, R. M. A., Valino, D. A. M., Jacinto, M. R., Arceo, H. O., Baria-Rodriguez, M. V. (2022). Spatial and short-term temporal patterns of octocoral assemblages in the West Philippine Sea. Frontiers in Marine Science, 8,782977. https://doi.org/10.3389/fmars.2021.782977 "},
+
+
+    {content: "Liverman, D., von Hedemann, N., Nying’uro, P., Rummukainen, M., Stendahl, K., Gay-Antaki, M., Craig, M., Aguilar, L., Bynoe, P., Call, F., Connors, S., David, L., Ferrone, A., Hayward, B., Jayawardena, S., Touray, L.M., Parikh, J., Ppathak, M., Perez, R., Pirani, A., Prakash, A., Textor, C., Tibig, L., Tignor, M., Tugac, C., Vera, C., Wagle, R. (2022). Survey of gender bias in the IPCC. Nature, 602(7895), pp. 30-32. https://media.nature.com/original/magazine-assets/d41586-022-00208-1/d41586-022-00208-1.pdf"},
+
+
+    {content: "Ma, J., Hu, S., Hu, D., Villanoy, C., Wang, Q., Lu, X., & Yuan, X. (2022). Structure and variability of the Kuroshio and Luzon undercurrent observed by a mooring array. Journal of Geophysical Research: Oceans, 127(2), e2021JC017754. https://doi.org/10.1029/2021JC017754 "},
+
+
+    {content: "Malto, Z. B. L., Benico, G. A., Batucan, J. D., Cruz, J. D., Romero, M. L. J., Azanza, R. V., & Salvador-Reyes, L. A.  (2022). Global mass spectrometric analysis reveals chemical diversity of secondary metabolites and 44-methylgambierone production in Philippine gambierdiscus strains. Frontiers in Marine Science.8,767024. https://doi.org/10.3389/fmars.2021.767024" },
+
+
+    {content: "Narvarte, B. C. V., Genovia, T. G. T., Hinaloc, L. A. R., & Roleda, M. Y. (2022). Growth, nitrate uptake kinetics, and biofiltration potential of eucheumatoids with different thallus morphologies. Journal of Phycology.58(1), pp. 12-21. https://doi.org/10.1111/jpy.13229"},
+
+
+    {content: "Posadas, N., Baquiran, J. I. P., Nada, M. A. L., Kelly, M., & Conaco, C. (2022). Microbiome diversity and host immune functions influence survivorship of sponge holobionts under future ocean conditions. The ISME Journal, 16(1), 58-67. https://doi.org/10.1038/s41396-021-01050-5  "},
+
+
+    {content: "Punongbayan, A. T., Wang, Y. D., Villanoy, C. L., & Yñiguez, A. T. (2022). Connections and clustering of paralytic shellfish toxin events among coastal embayments in an archipelago partly mediated by adcavection. Harmful algae, 111, 102147. https://doi.org/10.1016/j.hal.2021.102147"},
+
+    {content: "Ravelo, S. F., Posadas, N., & Conaco, C. (2022). Transcriptome analysis reveals the expressed gene complement and acute thermal stress response of acropora digitifera endosymbionts. Frontiers in Marine Science, 9, 758579. https://doi.org/10.3389/fmars.2022.758579"},
+
+    {content: "Reyes, R., Bauzon, M., Angela, D., Pasaje, N. A., Alfante, R. M., De Lara, P. M., Ordillano, M.,Flores, P. C., Rediang, A., Nota, P. A., Siringan, F., Blanco, A. & Bringas, D. (2022). Quantifying vertical land motion at tide gauge sites using permanent scatterer interferometric synthetic aperture radar and global navigation satellite system solutions. Spatial Information Research, 1-11. https://doi.org/10.1007/s41324-022-00431-y "},
+
+    {content: "Sarmiento, K. J. S., Aurelio, M. A., Flores, P. C. M., Carrillo, A. D. V., Marfito, B. J., Abigania, M. I. T., Daag, A. S., & Siringan, F. P. (2022). Seafloor structures and static stress changes associated with two recent earthquakes in offshore southern Batangas, Philippines. Frontiers in Earth Science, 9, 801670. https://doi.org/10.3389/feart.2021.801670  "},
+
+    {content: "Schmidtchen, L., Roleda, M. Y., Majschak, J. P., & Mayser, M. (2022). Processing technologies for solid and flexible packaging materials from macroalgae. Algal Research, 61,102300. https://doi.org/10.1016/j.algal.2021.102300" },
+
+    {content: "Yñiguez, A. T., Apego, G. C. M., Mendoza, N., Gomez, N. C., & Jacinto, G. S. (2022). Nearshore to offshore trends in plankton assemblage and stable isotopes in reefs of the West Philippine Sea. Frontiers in Marine Science, 8,724504. https://doi.org/10.3389/fmars.2021.724504  "},
 
     
   ]

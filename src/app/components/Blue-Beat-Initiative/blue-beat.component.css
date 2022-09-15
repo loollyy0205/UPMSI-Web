@@ -1,0 +1,332 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 1.17vw;
+}
+
+
+
+
+/* Learn more Button */
+#learn-more{
+  width: 41%;
+  font-size: 1.17vw;
+  padding: 2% 0;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #5da563;
+  color: white;
+}
+
+#learn-more-a{
+  width: 41%;
+  font-size: 1.17vw;
+  padding: 2% 0;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #384e8a;
+  color: white;
+}
+
+/* Learn more Button */
+#learn-more-b{
+  width: 55%;
+  font-size: 1.17vw;
+  padding: 2.5% 0;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #5da563;
+  color: white;
+}
+
+#learn-more-c{
+  width: 55%;
+  font-size: 1.17vw;
+  padding: 2.5% 0;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #384e8a;
+  color: white;
+}
+
+
+/* Education CSS Section */
+.educ-container{
+  height: 45vw;
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629877478/home/Home_-_Academics_at_the_UP_MSI-new_zp7yiv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.educ-title{
+  color: white;
+  font-size: 3vw;
+}
+
+.educ-p{
+  color: white;
+}
+
+.educ-container .educ-content{
+  padding-left: 9%;
+  width: 45%;
+  /* width: 600px; */
+  line-height: 1.5;
+}
+
+
+.banner-margin{
+  margin: 0 9%;
+}
+
+/* Extension CSS Section */
+.extension-container{
+  display: flex;
+  flex-flow: row;
+  margin-top: 5%;
+}
+
+.extension-container .extension-left{
+  height: 100%;
+  width: 45%;
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628146780/home/4-extension-section_ww69ta.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.extension-container .extension-right{
+  height: 100%;
+  width: 55%;
+  background-color: #384e8a;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+
+/* Research CSS Section */
+.research-container{
+  height: 45vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.research-container .research-content{
+  /* padding-top: 8%; */
+  padding-left: 9%;
+  width: 45%;
+  line-height: 1.5;
+}
+
+
+/* Resources CSS Section */
+.resources-container{
+  margin-top: 5%;
+  display: flex;
+  flex-flow: row;
+}
+
+.resources-container .resources-left{
+  height: 100%;
+  width: 55%;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.resources-container .resources-right{
+  height: 100%;
+  width: 45%;
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628666588/home/Homepage_-_Resources_nrdvdo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.resources-content{
+  padding: 13%;
+  line-height: 1.5;
+}
+
+.msiOffice-container{
+  display: flex;
+  flex-flow: row;
+  margin-top: 5%;
+  margin-bottom: 9%;
+}
+
+.msiOffice-container .msiOffice-left{
+  height: 100%;
+  width: 45%;
+  background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1628666960/About/About_-_Administrative_Office_oh9zlo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.msiOffice-container .msiOffice-right{
+  height: 100%;
+  width: 55%;
+  background-color: #5da563;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.msiOffice-content{
+  padding: 13%;
+  line-height: 1.5;
+}
+
+.res-banner{
+  height: 37vw;
+}
+
+.res-banner-content{
+  font-size: 1.17vw;
+}
+
+@media (max-width: 576px), (max-width: 768px) {
+  .top-1{
+    margin-top: -10vw;
+  }
+
+  /* Learn more Button */
+  #learn-more{
+    width: 42vw;
+    font-size: 3.5vw;
+    padding: 2vw 0;
+  }
+
+  #learn-more-a{
+    width: 42vw;
+    font-size: 3.5vw;
+    padding: 2.3vw 0;
+  }
+
+  /* Learn more Button */
+  #learn-more-b{
+    width: 43.5vw;
+    font-size: 3.5vw;
+    padding: 2.2vw 0;
+  }
+
+  #learn-more-c{
+    width: 43.5vw;
+    font-size: 3.5vw;
+    padding: 2.2vw 0;
+  }
+
+  /* Education CSS Section */
+  .educ-container{
+    height: 60vw;
+    background-image: url(https://res.cloudinary.com/upmsi/image/upload/v1629877478/home/Home_-_Academics_at_the_UP_MSI-new_zp7yiv.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .educ-title{
+    color: white;
+    font-size: 5vw;
+    width: 80%;
+    line-height: 1.2;
+  }
+
+  .educ-p{
+    display: none;
+  }
+
+  .educ-container .educ-content{
+    padding-left: 9%;
+    width: 70% !important;
+  }
+
+  .extension-container{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+  }
+
+  .extension-container .extension-left{
+    /* height: 60vw;
+    width: 100%;
+    background-image: url(https://res.cloudinary.com/dqs7gg03v/image/upload/v1624237642/Home/4-extension-section_ah2vps.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    display: none;
+  }
+
+  .extension-container .extension-right{
+    height: 100%;
+    width: 100%;
+    background-color: #384e8a;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .resources-container{
+    margin-top: 5%;
+    display: flex;
+    flex-flow: row;
+    height: 100%;
+  }
+
+  .resources-container .resources-left{
+    height: 100%;
+    width: 100%;
+  }
+
+  .resources-container .resources-right{
+    display: none;
+  }
+
+  .resources-content{
+    padding: 13%;
+    line-height: 1.5;
+  }
+
+  .msiOffice-container{
+    display: flex;
+    flex-flow: row;
+    margin-top: 5%;
+    margin-bottom: 9%;
+    height: 100%;
+  }
+
+  .msiOffice-container .msiOffice-left{
+    display: none;
+  }
+
+  .msiOffice-container .msiOffice-right{
+    height: 100%;
+    width: 100%
+  }
+
+  .msiOffice-content{
+    padding: 13%;
+    line-height: 1.5;
+  }
+
+
+  .res-banner-content{
+    font-size: 4vw;
+    margin-top: 3%;
+  }
+}
+
+

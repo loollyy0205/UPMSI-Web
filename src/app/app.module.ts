@@ -124,6 +124,7 @@ import { CharlonContentComponent } from './components/news/charlon-content/charl
 import { HerbariumContentComponent } from './components/news/herbarium-content/herbarium-content.component';
 import { HerbariumBannerComponent } from './components/news/herbarium-banner/herbarium-banner.component';
 import { ReportContentComponent } from './components/news/report-content/report-content.component';
+import { BlueBeatComponent } from './components/Blue-Beat-Initiative/blue-beat.component';
 
 
 
@@ -243,6 +244,7 @@ import { ReportContentComponent } from './components/news/report-content/report-
     HerbariumContentComponent,
     HerbariumBannerComponent,
     ReportContentComponent,
+    BlueBeatComponent,
 
   ],
   imports: [

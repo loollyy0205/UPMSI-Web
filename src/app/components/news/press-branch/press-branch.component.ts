@@ -18,18 +18,18 @@ export class PressBranchComponent implements OnInit {
   }
 
   newsContent(){
-    this.router.navigate(['/News/press-coverage-headlines/West-PH-Sea']);
+    this.router.navigate(['/News/press-coverage-headlines/Balik-Scientist-names-6-Seaweed-Genera']);
   }
 
   newsContent1(){
-    this.router.navigate(['/News/press-coverage-headlines/island-unveiled']);
+    this.router.navigate(['/News/press-coverage-headlines/UP-experts-set-sail']);
   }
 
   newsContent2(){
-    this.router.navigate(['/News/press-coverage-headlines/Team-of-PH']);
+    this.router.navigate(['/News/press-coverage-headlines/West-PH-Sea']);
   }
 
   newsContent3(){
-    this.router.navigate(['/News/press-coverage-headlines/station-opens']);
+    this.router.navigate(['/News/press-coverage-headlines/island-unveiled']);
   }
 }
