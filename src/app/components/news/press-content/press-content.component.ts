@@ -19,7 +19,7 @@ export class PressContentComponent implements OnInit {
     title: `Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist`,
     date: 'September 7, 2022',
     author: 'DOST.Gov',
-    Pthumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1663125593/News/press/Press-2_vreryt.jpg',
+    Pthumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg',
     photoContent: '',
     courtesy: 'PHOTO COURTESY OF DOST.GOV',
 

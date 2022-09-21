@@ -102,7 +102,7 @@
   flex-direction: right;
   text-align: right;
   margin-right: 3vw;
-  margin-top: 45vw;
+  margin-top: 0vw;
 }
 
 .box-content4{
@@ -201,7 +201,7 @@ opacity: 1 !important;
 }
 
 .bottom-content{
-  margin-top: 23.928vw;
+  margin-top: 3.928vw;
   width: 51.245vw;
   font-size: 1.171vw;
 }
@@ -331,6 +331,7 @@ img{
   display: grid;
   place-content: center;
   margin-top: 3.392vw;
+
 }
 
 .photo-box{

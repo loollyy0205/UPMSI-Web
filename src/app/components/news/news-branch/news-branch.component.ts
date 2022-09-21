@@ -14,17 +14,17 @@ export class NewsBranchComponent implements OnInit {
   }
 
    newsContent(){
-    this.router.navigate(['/News/content', 'The-Case-For-Marine-Scientific-Research']);
+    this.router.navigate(['/News/content', '2022-Golden-Goose-Award']);
   }
 
   newsContent1(){
-    this.router.navigate(['/News/scicomm', 'The-First-Of-Many']);
+    this.router.navigate(['/News/content', 'The-Case-For-Marine-Scientific-Research']);
   }
   newsContent2(){
-    this.router.navigate(['/News/content', 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard']);
+    this.router.navigate(['/News/scicomm', 'The-First-Of-Many']);
   }
   
   newsContent3(){
-    this.router.navigate(['/News/content', 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea']);
+    this.router.navigate(['/News/content', 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard']);
   }
 }
