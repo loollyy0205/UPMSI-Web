@@ -192,7 +192,7 @@ export class NewsContentComponent implements OnInit {
     thumbnail1: 'https://www.youtube.com/watch?v=3nuLG3Q-FT0',
   
     photoContent: '2022 Golden Goose Award: UP MSI Scientist Dr. Lourdes J. Cruz',
-    courtesy: 'PHOTO COURTESY OF Roy Corvera',
+    courtesy: '',
 
     locationContent: '',
     paragraph1: '',
