@@ -15,15 +15,23 @@
 
         </div>
 
-<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line" *ngIf="!merfBool && !webBool">
+        <div class="center-content3" id="content-desktop" *ngIf="ggBool" style="margin-top: 1.5vw;">
+         <div class="box-content2" id="content-desktop">
+           <img  [src]="myArr[0].thumbnail">
+          
+        </div>
+
+        </div>
+
+<hr class=" animate__animated animate__fadeIn animate__delay-1s hr-line" *ngIf="!merfBool && !webBool && !ggBool">
 <div class="container animate__animated animate__fadeIn animate__delay-1s">
   <p class="atlas-bold title">{{myArr[0].title}}</p>
   <p class="atlas-light date">{{myArr[0].date}}</p>
   <p class="atlas-light date-name">{{myArr[0].author}}</p>
   <div class="center-content">
     <div class="box-content" >
-      <img [src]="myArr[0].thumbnail"  *ngIf="!merfBool && !webBool"> <!-- *ngIf="clamsBool && !nastBool && deepestSpotBool && !wpsBool && !narfleetBool"-->
-      <div class="photo-box" *ngIf="!merfBool && !webBool" >
+      <img [src]="myArr[0].thumbnail"  *ngIf="!merfBool && !webBool && !ggBool"> <!-- *ngIf="clamsBool && !nastBool && deepestSpotBool && !wpsBool && !narfleetBool"-->
+      <div class="photo-box" *ngIf="!merfBool && !webBool && !ggBool" >
       <p class="atlas-light photo-content" *ngIf="!clamsBool && nastBool">{{myArr[0].photoContent}}</p>
       <p class="atlas-light photo-content" *ngIf="clamsBool" >Two <em>Tridacna Gigas</em> specimens from the BML nursery: Efforts to grow the giant clam population are gaining momentum. Giant clams are still vulnerable and remain endangered due to poor management, unregulated harvesting, and illegal possession and trade.</p>
       <p class="atlas-light photo-content" *ngIf="clamsBool" >Two <em>Tridacna Gigas</em> specimens from the BML nursery: Efforts to grow the giant clam population are gaining momentum. Giant clams are still vulnerable and remain endangered due to poor management, unregulated harvesting, and illegal possession and trade.</p>

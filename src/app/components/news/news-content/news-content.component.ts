@@ -188,12 +188,9 @@ export class NewsContentComponent implements OnInit {
   gg = [{
     title: 'Conotoxin research wins 2022 Golden Goose Award',
     author: 'By Mia N. Judicpa & Gabrielle A. Abrahan, MSI Contributors',
-    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1663729183/News/News%20Icons/Screen_Shot_2022-09-20_at_1.23.13_PM_lfbbk2.png',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1663816990/News/News%20Icons/1_3_i2eeud.png',
     thumbnail1: 'https://www.youtube.com/watch?v=3nuLG3Q-FT0',
-    thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1630638392/News/Features/pirs/sir-ando_zrd37x.png',
-    thumbnail3: 'https://res.cloudinary.com/upmsi/image/upload/v1630638768/News/Features/pirs/marine-life-in-pagasa_esfbwv.png',
-    thumbnail4: 'https://res.cloudinary.com/upmsi/image/upload/v1630638776/News/Features/pirs/sustainability_l5wob9.png',
-    thumbnail5: 'https://res.cloudinary.com/upmsi/image/upload/v1630742676/News/Features/pirs/kalayaan-lab_2_gdhovk.jpg',
+  
     photoContent: '2022 Golden Goose Award: UP MSI Scientist Dr. Lourdes J. Cruz',
     courtesy: 'PHOTO COURTESY OF Roy Corvera',
 

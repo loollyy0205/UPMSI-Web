@@ -10,7 +10,7 @@ import { Location } from '@angular/common';
 export class MoreNewsComponent implements OnInit {
   news=[
 
-  {image: "https://res.cloudinary.com/upmsi/image/upload/v1663729183/News/News%20Icons/Screen_Shot_2022-09-20_at_1.23.13_PM_lfbbk2.png", subtitle: 'September 21, 2022', title: "Conotoxin research wins 2022 Golden Goose Award", content: 'UP MSI Scientist Dr. Lourdes J. Cruz and fellow conotoxin researchers have been awarded the 2022 Golden Goose Award.'},
+  {image: "https://res.cloudinary.com/upmsi/image/upload/v1663816990/News/News%20Icons/1_3_i2eeud.png", subtitle: 'September 21, 2022', title: "Conotoxin research wins 2022 Golden Goose Award", content: 'UP MSI Scientist Dr. Lourdes J. Cruz and fellow conotoxin researchers have been awarded the 2022 Golden Goose Award.'},
 
    {image: "https://res.cloudinary.com/upmsi/image/upload/v1646965737/News/News%20Icons/webinar/final-banner-3_s9fwux.png", subtitle: 'March 10, 2022', title: "The Case For Marine Scientific Research in the Philippines", content: 'Experts discussed challenges and opportunities in the approval process and framework for marine scientific research (MSR)...'},
 
