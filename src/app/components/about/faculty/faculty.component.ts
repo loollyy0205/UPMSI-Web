@@ -16,7 +16,6 @@ export class FacultyComponent implements OnInit {
   panelOpenState4:boolean =false;
 
   residentProf1 = [
-    {name: 'Porfirio M. Aliño, Ph.D.', label1: 'Research Professor', label2: 'NAST Academician '},
     {name: 'Michael P. Atrigenio, Ph.D.', label1: 'Assistant Professor'},
     {name: 'Patrick C. Cabaitan, Ph.D.', label1: 'Professor'},
     {name: 'Cecilia G. Conaco, Ph.D.', label1: 'Professor'},
