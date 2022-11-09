@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AnnouncementComponent implements OnInit {
   researchOpp=[
+    {image: "https://res.cloudinary.com/upmsi/image/upload/v1667897309/News/Announcements%20Icons/msr_thumbnail-modified_igfknz.png", title: "Dialogue 3: PH MSR Framework and West Philippine Sea", content: 'The UP Marine Science Institute (UP MSI) together with the Foundation for National Interest (FNI) and the Embassy of the United States of America...'},
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1647946483/News/Announcements%20Icons/f2f-thumbnail-modified_pigs31.png", title: "GPS para sa F2F", content: 'Gabay sa pag-aalaga sa sarili sa face-to-face class activities.'},
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1647509486/News/Announcements%20Icons/thumbnail-modified_bz3mwl.png", title: "The Call for Abstract Submissions for the 3rd Graduate Student Research Conference", content: 'The Call for Abstract Submissions for the 3rd Graduate Student Research Conference is now open.'},
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1638436114/News/Announcements%20Icons/EDG_Icon_zo9iey.png", title: "A tribute to EDG", content: 'On his second death anniversary, we honor the man behind the UP Marine Science Institute (UP MSI) by remembering ome of his notable contributions...'},
@@ -26,31 +27,34 @@ export class AnnouncementComponent implements OnInit {
 
   announcementContent(i){
     switch(i) {
-     case 0:
+      case 0:
+        this.router.navigate(['/News/Announcement', 'Marine-Scientific-Research']);
+        break;
+     case 1:
         this.router.navigate(['/News/Announcement', 'ftf']);
         break;
-      case 1:
+      case 2:
         this.router.navigate(['/News/Announcement', 'Call-for-Abstract-Submissions']);
         break;
-      case 2:
+      case 3:
         this.router.navigate(['/News/Announcement', 'A-tribute-to-EDG']);
         break;
-      case 3:
+      case 4:
         this.router.navigate(['/News/Announcement', 'Statement-of-the-UPMSI-on-Lingayen-Gulf-Offshore-Mining']);
         break;
-      case 4:
+      case 5:
         this.router.navigate(['/News/Announcement', 'Statement-of-the-UPMSI-on-coral-restoration-technologies']);
         break;
-      case 5:
+      case 6:
         this.router.navigate(['/News/Announcement', 'a-letter-for-Dr.-Ed-Gomez-on-his-first-death-anniversary']);
         break;
-      case 6:
+      case 7:
         this.router.navigate(['/News/Announcement', 'UPMSI-official-statement-on-DENR-claims']);
         break;
-      case 7:
+      case 8:
         this.router.navigate(['/News/Announcement', 'UPMSI-official-statement-on-the-addition-of-Dolomite-Sand-to-Manila-Bay']);
         break;
-      case 8:
+      case 9:
         this.router.navigate(['/News/Announcement', 'the-UPMSI-is-home-to-two-new-professors-emeriti']);
         break;
     }

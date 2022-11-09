@@ -44,6 +44,18 @@
   height: 50.818vw;
 }
 
+.box-content3{
+  height: 100%;
+  width: 45.745vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vw;
+}
+
+.box-content3 img {
+  height: 58.818vw;
+}
+
 .bottom-content{
   margin-top: .5vw;
   width: 51.245vw;
@@ -270,6 +282,17 @@ sup {
 }
 
 .box-content2 img {
+  height: 70.818vw;
+}
+
+ .box-content3{
+  height:100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-content3 img {
   height: 70.818vw;
 }
 

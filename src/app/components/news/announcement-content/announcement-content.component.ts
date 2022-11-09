@@ -140,8 +140,22 @@ export class AnnouncementContentComponent implements OnInit {
     
     news: [
       {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147159/News/Announcements%20Icons/Announcement-01-article_lxmr0x.png", title: "A letter for Dr. Ed Gomez on his first death anniversary", content: `Today, we pause from our seemingly harried life because of the COVID-19 pandemic and remember you with much gratitude for your extraordinary contributions and the rich legacy you leave us behind.`, url: 'a-letter-for-Dr.-Ed-Gomez-on-his-first-death-anniversary'},
-      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147128/News/Announcements%20Icons/Announcement-02_lettlk.png", title: "UPMSI Official Statement on DENR Claims", content: `This is to clarify the statement made by Department of Environment and Natural Resources (DENR) Undersecretary Benny Antiporda accusing the University of the Philippines Marine Science Institute (UPMSI) of charging the DENR half a billion pesos in consultation fees and being, in a word, “bayaran.”`, url: 'UPMSI-official-statement-on-DENR-claims'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1667897146/News/Announcements%20Icons/msr_thumbnail_dicdtj.png", title: "Dialogue 3: PH MSR Framework and West Philippine Sea (WPS)", content: `Introducing the keynote speaker, moderators, plenary speakers, and experts that will be heading the 3 panel discussions of Track 1.5 Dialogue on Marine Scientific Research (MSR)`, url: 'Marine-Scientific-Research'},
       {image: "https://res.cloudinary.com/upmsi/image/upload/v1647503935/News/Announcements%20Icons/announce_a31qnb.png", title: "The Call for Abstract Submissions for the 3rd Graduate Student Research Conference", content: 'The Call for Abstract Submissions for the 3rd Graduate Student Research Conference is now open.', url: 'ftf'},
+      ]
+  }];
+
+   msr3 = [{
+    title: 'Dialogue 3: PH MSR Framework and West Philippine Sea (WPS)',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1667887941/News/Announcements%20Icons/MSR3_poster1_-_AM_tozfva.png',
+    thumbnail2: 'https://res.cloudinary.com/upmsi/image/upload/v1667887941/News/Announcements%20Icons/MSR3_poster2_-_PM_icqgqq.png',
+    locationContent: ``,
+    paragraph1: '',
+    
+    news: [
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1628147159/News/Announcements%20Icons/Announcement-01-article_lxmr0x.png", title: "A letter for Dr. Ed Gomez on his first death anniversary", content: `Today, we pause from our seemingly harried life because of the COVID-19 pandemic and remember you with much gratitude for your extraordinary contributions and the rich legacy you leave us behind.`, url: 'a-letter-for-Dr.-Ed-Gomez-on-his-first-death-anniversary'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1667889830/News/Announcements%20Icons/ftf2_rufrfy.png", title: "GPS para sa F2F", content: `Gabay sa pag-aalaga sa sarili sa face-to-face class activities.”`, url: 'ftf'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1647503935/News/Announcements%20Icons/announce_a31qnb.png", title: "The Call for Abstract Submissions for the 3rd Graduate Student Research Conference", content: 'The Call for Abstract Submissions for the 3rd Graduate Student Research Conference is now open.', url: 'Call-for-Abstract-Submissions'},
       ]
   }];
 
@@ -157,6 +171,7 @@ export class AnnouncementContentComponent implements OnInit {
   edgBool:boolean = false;
   absBool:boolean = false;
   ftfBool:boolean = false;
+  msr3Bool:boolean = false;
   
 
   constructor(private router:Router) { }
@@ -215,6 +230,10 @@ export class AnnouncementContentComponent implements OnInit {
     if(this.router.url.includes('/News/Announcement/ftf')){
       this.myArr = this.ftf;
       this.ftfBool = true;
+      }
+     if(this.router.url.includes('/News/Announcement/Marine-Scientific-Research')){
+      this.myArr = this.msr3;
+      this.msr3Bool = true;
       }
   }
 
