@@ -10,7 +10,7 @@ import { Location } from '@angular/common';
 export class MoreNewsComponent implements OnInit {
   news=[
 
-    {image: "https://res.cloudinary.com/upmsi/image/upload/v1663818835/News/News%20Icons/thumbnail_1_aes5ms.png", subtitle: 'September 21, 2022', title: " Blue Beat Initiative", content: ' Blue Beat Initiative...'},
+    /*8{image: "https://res.cloudinary.com/upmsi/image/upload/v1663818835/News/News%20Icons/thumbnail_1_aes5ms.png", subtitle: 'September 21, 2022', title: " Blue Beat Initiative", content: ' Blue Beat Initiative...'}, */
 
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1663818835/News/News%20Icons/thumbnail_1_aes5ms.png", subtitle: 'September 21, 2022', title: "Conotoxin research wins 2022 Golden Goose Award", content: 'UP MSI Scientist Dr. Lourdes J. Cruz and fellow conotoxin researchers have been awarded the 2022 Golden Goose Award.'},
 
@@ -46,37 +46,37 @@ export class MoreNewsComponent implements OnInit {
 
   newsContent(i){
     switch(i) {
-     case 0:
+     /**case 0:
         this.router.navigate(['/News/content', 'Blue-Beat-Initiative']);
-        break;
-     case 1:
+        break;*/
+     case 0:
         this.router.navigate(['/News/content', '2022-Golden-Goose-Award']);
         break;
-     case 2:
+     case 1:
         this.router.navigate(['/News/content', 'The-Case-For-Marine-Scientific-Research']);
         break;
-      case 3:
+      case 2:
         this.router.navigate(['/News/scicomm', 'The-First-Of-Many']);
         break;
-      case 4:
+      case 3:
         this.router.navigate(['/News/content', 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard']);
         break;
-      case 5:
+      case 4:
         this.router.navigate(['/News/content', 'A-Revived-Pag-asa-Island-Research-Station-Strengthens-Philippine-Marine-Scientific-Research-in-the-West-Philippine-Sea']);
         break;
-      case 6:
+      case 5:
         this.router.navigate(['/News/content', 'wps-expeditions']);
         break;
-      case 7:
+      case 6:
         this.router.navigate(['/News/content', 'NARFleet-is-on-its-way-to-prowl-Philippine-waters']);
         break;
-       case 8:
+       case 7:
         this.router.navigate(['/News/content', 'all-about-the-giant-clam']);
         break; 
-      case 9:
+      case 8:
         this.router.navigate(['/News/content', 'UPMSI-scientists-receive-accolades-from-NAST']);
         break;
-      case 10:
+      case 9:
         this.router.navigate(['/News/content', 'filipino-scientist-makes-history-by-reaching-the-3rd-deepest-spot-on-earth']);
         break;
     }

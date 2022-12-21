@@ -18,18 +18,18 @@ export class PressBranchComponent implements OnInit {
   }
 
   newsContent(){
-    this.router.navigate(['/News/press-coverage-headlines/Balik-Scientist-names-6-Seaweed-Genera']);
+    this.router.navigate(['/News/press-coverage-headlines/Maarte-sea-cucumber-bring-hope-for-stronger-covid-vax-cancer-treatment']);
   }
 
   newsContent1(){
-    this.router.navigate(['/News/press-coverage-headlines/UP-experts-set-sail-for-3-year-study-seeking-opportunities']);
+    this.router.navigate(['/News/press-coverage-headlines/New-seaweed-genus-named-by-filipino-scientist']);
   }
 
   newsContent2(){
-    this.router.navigate(['/News/press-coverage-headlines/Research-facility-sa-Pag-asa-Island-West-PH-Sea-binuksan-ng-Pinoy-experts']);
+    this.router.navigate(['/News/press-coverage-headlines/UP-scientists-race-to-find-plastic-eating-microbes']);
   }
 
   newsContent3(){
-    this.router.navigate(['/News/press-coverage-headlines/Research-station-on-West-PH-Sea-Pag-asa-island-unveiled']);
+    this.router.navigate(['/News/press-coverage-headlines/Umaasim-ang-Dagat']);
   }
 }

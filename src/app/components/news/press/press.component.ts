@@ -24,7 +24,7 @@ export class PressComponent implements OnInit {
 
     {image: "https://ucarecdn.com/275f7c57-c7ed-45e4-9984-0bc613c6cb2a/Christa.jpg", title: "Meet the Black Sheep of the Seaweed Family", content: 'Who are you? More than our name, we humans roam the earth on a personal mission to define who we are. It may be as simple as finding out our taste in music...'},
 
-    {image: "https://ucarecdn.com/0fdb5b6a-5f01-4008-b23e-9f5e2cc2b9a0/Krixia.jpg", title: "UP scientists race to find plastic-eating microbes", content: 'Inside the country’s first and only plastics research laboratory, a team of scientists from the University of the Philippines Marine Science Institute ...'},
+    {image: "https://ucarecdn.com/0fdb5b6a-5f01-4008-b23e-9f5e2cc2b9a0/Krixia.jpg", title: "UP scientists race to find plastic-eating microbes", content: 'Inside the country’s first and only plastics research laboratory, a team of scientists from the University of the Philippines Marine Science Institute...'},
 
     {image: "https://ucarecdn.com/49f03321-2423-46bf-8f9c-5b6ea3ff3363/Joselito2.png", title: "Umaasim ang dagat", content: 'Bahagi ng suliranin ang agresibong pagpapakain sa bangus, kahit na lumabis ang feeds, na isa sa sanhi ng coastal acidification'},
 
