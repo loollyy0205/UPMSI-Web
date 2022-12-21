@@ -17,6 +17,17 @@ then change the infos of the article 2
 export class PressComponent implements OnInit {
   news=[
 
+
+    {image: "https://ucarecdn.com/b81aaff0-07bf-4ec9-a1a2-651f8185bc9c/Aie.jpeg", title: "Filipino marine scientist discovers technique to raise corals faster", content: 'A Philippine scientist claims to have found a faster way to raise an endangered coral in the open sea and potentially avert its extinction decades from now.'},
+
+    {image: "https://ucarecdn.com/4389b639-b39d-4838-830c-85ca009ad670/Ryan.png", title: "‘Maarte’ sea cucumber bring hope for ‘stronger’ Covid vax, cancer treatment", content: 'Sea cucumbers are typical marine critters found throughout the Philippine seas and exported abroad, but studies show it might help in fighting the Coronavirus...'},
+
+    {image: "https://ucarecdn.com/275f7c57-c7ed-45e4-9984-0bc613c6cb2a/Christa.jpg", title: "Meet the Black Sheep of the Seaweed Family", content: 'Who are you? More than our name, we humans roam the earth on a personal mission to define who we are. It may be as simple as finding out our taste in music...'},
+
+    {image: "https://ucarecdn.com/0fdb5b6a-5f01-4008-b23e-9f5e2cc2b9a0/Krixia.jpg", title: "UP scientists race to find plastic-eating microbes", content: 'Inside the country’s first and only plastics research laboratory, a team of scientists from the University of the Philippines Marine Science Institute ...'},
+
+    {image: "https://ucarecdn.com/49f03321-2423-46bf-8f9c-5b6ea3ff3363/Joselito2.png", title: "Umaasim ang dagat", content: 'Bahagi ng suliranin ang agresibong pagpapakain sa bangus, kahit na lumabis ang feeds, na isa sa sanhi ng coastal acidification'},
+
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1627980994/About/03%20Faculty/19-Wilfred_John_E._Santia%C3%B1ez_Ph.D._fm2i0o.jpg", title: "Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist", content: ' A Balik Scientist, Dr. Wilfred John E. Santiañez of the University of the Philippines-Marine Science Institute (UP-MSI), authored a new brown seaweed genus...'},
 
     {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: "West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: ' AThe West Philippine Sea (WPS) remains threatened by both the...'},
@@ -59,65 +70,79 @@ export class PressComponent implements OnInit {
 
   newsContent(i){
     switch(i) {
-      case 0:
-        this.router.navigate(['/News/press-coverage-headlines', 'Balik-Scientist-names-6-Seaweed-Genera']);
+     case 0:
+        this.router.navigate(['/News/press-coverage-headlines', 'Filipino-marine-scientist-discovers-technique-to-raise-corals-faster']);
         break;
-      case 1:
-        this.router.navigate(['/News/press-coverage-headlines', 'UP-experts-set-sail']);
+    case 1:
+        this.router.navigate(['/News/press-coverage-headlines', 'Maarte-sea-cucumber-bring-hope-for-stronger-covid-vax-cancer-treatment']);
         break;
-      case 2:
-        this.router.navigate(['/News/press-coverage-headlines', 'West-PH-Sea']);
+     case 2:
+        this.router.navigate(['/News/press-coverage-headlines', 'New-seaweed-genus-named-by-filipino-scientist']);
         break;
-      case 3:
-        this.router.navigate(['/News/press-coverage-headlines', 'island-unveiled']);
+     case 3:
+        this.router.navigate(['/News/press-coverage-headlines', 'UP-scientists-race-to-find-plastic-eating-microbes']);
         break;
       case 4:
-        this.router.navigate(['/News/press-coverage-headlines', 'Team-of-PH']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Umaasim-ang-Dagat']);
         break;
       case 5:
-        this.router.navigate(['/News/press-coverage-headlines', 'station-opens']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Balik-Scientist-names-6-Seaweed-Genera']);
         break;
       case 6:
-        this.router.navigate(['/News/press-coverage-headlines', 'Pag-asa-island']);
+        this.router.navigate(['/News/press-coverage-headlines', 'UP-experts-set-sail-for-3-year-study-seeking-opportunities']);
         break;
       case 7:
-        this.router.navigate(['/News/press-coverage-headlines', 'scientific-research']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Research-facility-sa-Pag-asa-Island-West-PH-Sea-binuksan-ng-Pinoy-experts']);
         break;
-
       case 8:
-        this.router.navigate(['/News/press-coverage-headlines', 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Research-station-on-West-PH-Sea-Pag-asa-island-unveiled']);
         break;
       case 9:
-        this.router.navigate(['/News/press-coverage-headlines', 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Team-of-PH-scientists-now-headed-to-Pag-asa-Island']);
         break;
       case 10:
-        this.router.navigate(['/News/press-coverage-headlines', 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Of-science-and-sovereignty:-Research-station-opens-in-Pag-asa-Island']);
         break;
       case 11:
-        this.router.navigate(['/News/press-coverage-headlines', 'Rappler-Talk-Deo-Onda-on-the-value-of-West-PH-Sea-resources-to-filipinos']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Pag-asa-island-sets-up-scientific-research-station']);
         break;
       case 12:
-        this.router.navigate(['/News/press-coverage-headlines', `SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ`]);
+        this.router.navigate(['/News/press-coverage-headlines', 'Pag-asa-Island-sets-up-scientific-research-station']);
         break;
       case 13:
-        this.router.navigate(['/News/press-coverage-headlines', 'ON-THE-SPOT-All-filipino-scientific-expedition-sa-kalayaan-island-sa-West-Philippine-Sea']);
+        this.router.navigate(['/News/press-coverage-headlines', 'UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island']);
         break;
       case 14:
-        this.router.navigate(['/News/press-coverage-headlines', 'BT-Paglalakbay-ng-ilang-kawani-ng-gobyerno-at-estudyante-ng-UP-marine-science-institute']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep']);
         break;
       case 15:
-        this.router.navigate(['/News/press-coverage-headlines', 'Manila-Bay-rehabilitasyon-o-reklamasyon']);
+        this.router.navigate(['/News/press-coverage-headlines', 'meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david']);
         break;
       case 16:
-        this.router.navigate(['/News/press-coverage-headlines', 'adopt-a-giant-clam-program-suportado-ng-UP-Marine-Science-Institute']);
+        this.router.navigate(['/News/press-coverage-headlines', 'Rappler-Talk-Deo-Onda-on-the-value-of-West-PH-Sea-resources-to-filipinos']);
         break;
       case 17:
-        this.router.navigate(['/News/press-coverage-headlines', `AHA!-The-giant-clams-of-Bolinao-Pangasinan`]);
+        this.router.navigate(['/News/press-coverage-headlines', `SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ`]);
         break;
       case 18:
-        this.router.navigate(['/News/press-coverage-headlines', 'how-to-take-care-of-giant-clams']);
+        this.router.navigate(['/News/press-coverage-headlines', 'ON-THE-SPOT-All-filipino-scientific-expedition-sa-kalayaan-island-sa-West-Philippine-Sea']);
         break;
       case 19:
+        this.router.navigate(['/News/press-coverage-headlines', 'BT-Paglalakbay-ng-ilang-kawani-ng-gobyerno-at-estudyante-ng-UP-marine-science-institute']);
+        break;
+      case 20:
+        this.router.navigate(['/News/press-coverage-headlines', 'Manila-Bay-rehabilitasyon-o-reklamasyon']);
+        break;
+      case 21:
+        this.router.navigate(['/News/press-coverage-headlines', 'adopt-a-giant-clam-program-suportado-ng-UP-Marine-Science-Institute']);
+        break;
+      case 22:
+        this.router.navigate(['/News/press-coverage-headlines', `AHA!-The-giant-clams-of-Bolinao-Pangasinan`]);
+        break;
+      case 23:
+        this.router.navigate(['/News/press-coverage-headlines', 'how-to-take-care-of-giant-clams']);
+        break;
+      case 24:
         this.router.navigate(['/News/press-coverage-headlines', 'the-giant-clam-nursery-in-Bolinao-Pangasinan']);
         break;
     }

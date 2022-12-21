@@ -14,17 +14,17 @@ export class NewsBranchComponent implements OnInit {
   }
 
    newsContent(){
-    this.router.navigate(['/News/content', '2022-Golden-Goose-Award']);
+    this.router.navigate(['/News/content', 'Blue-Beat-Initiative']);
   }
 
   newsContent1(){
-    this.router.navigate(['/News/content', 'The-Case-For-Marine-Scientific-Research']);
+    this.router.navigate(['/News/content', '2022-Golden-Goose-Award']);
   }
   newsContent2(){
-    this.router.navigate(['/News/scicomm', 'The-First-Of-Many']);
+    this.router.navigate(['/News/scicomm', 'The-Case-For-Marine-Scientific-Research']);
   }
   
   newsContent3(){
-    this.router.navigate(['/News/content', 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard']);
+    this.router.navigate(['/News/content', 'The-First-Of-Many']);
   }
 }

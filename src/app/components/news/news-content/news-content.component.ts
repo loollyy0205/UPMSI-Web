@@ -208,6 +208,31 @@ export class NewsContentComponent implements OnInit {
       ]
   }];
 
+  bbi = [{
+    title: 'BBI',
+    author: 'By Mia N. Judicpa & Gabrielle A. Abrahan, MSI Contributors',
+    thumbnail: 'https://res.cloudinary.com/upmsi/image/upload/v1663816990/News/News%20Icons/1_3_i2eeud.png',
+    thumbnail1: 'https://www.youtube.com/watch?v=3nuLG3Q-FT0',
+  
+    photoContent: '2022 Golden Goose Award: UP MSI Scientist Dr. Lourdes J. Cruz',
+    courtesy: '',
+
+    locationContent: '',
+    paragraph1: '',
+    paragraph2: ``,
+    paragraph3: ``,
+    paragraph4: '',
+
+     news: [
+     {image: "https://res.cloudinary.com/upmsi/image/upload/v1663816990/News/News%20Icons/1_3_i2eeud.png", title: "Conotoxin research wins 2022 Golden Goose Award", content: '022 Golden Goose Award: UP MSI Scientist Dr. Lourdes J. Cruz', url: '2022-Golden-Goose-Award'},
+
+     {image: "https://res.cloudinary.com/upmsi/image/upload/v1646965737/News/News%20Icons/webinar/final-banner-3_s9fwux.png", title: "The Case For Marine Scientific Research in the Philippines", content: 'Experts discussed challenges and opportunities in the approval process and framework for marine scientific research...', url: 'The-Case-For-Marine-Scientific-Research'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1637799742/News/News%20Icons/merf/banner-final_cni12e.png", title: "UP MSI, MERF host short courses on skills development for Philippine Coast Guard", content: 'Few have been brave enough to venture the depths of the oceans. This year, microbial oceanographer Dr. Deo Florence L. Onda made history as the second human and the first Filipino to reach Emden Deep, the third deepest spot on earth.', url: 'UP-MSI-MERF-host-short-courses-on-skills-development-for-Philippine-Coast-Guard'},
+     
+      
+      ]
+  }];
+
 
 
 
@@ -220,6 +245,7 @@ export class NewsContentComponent implements OnInit {
   merfBool:boolean = false;
   webBool:boolean =  false;
   ggBool:boolean =  false;
+  bbiBool:boolean =  false;
 
   constructor(private router:Router) { }
 
@@ -278,10 +304,13 @@ export class NewsContentComponent implements OnInit {
       this.myArr = this.web;
       this.webBool = true;
     }
-     if(this.router.url.includes('/News/content/2022-Golden-Goose-Award')){
+    if(this.router.url.includes('/News/content/2022-Golden-Goose-Award')){
       this.myArr = this.gg;
       this.ggBool = true;
-
+    }
+    if(this.router.url.includes('/News/content/Blue-Beat-Initiative')){
+      this.myArr = this.bbi;
+      this.bbiBool = true;
     }
     
 

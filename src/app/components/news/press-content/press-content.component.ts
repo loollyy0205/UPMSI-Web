@@ -14,7 +14,92 @@ edited9:  edited all the 3 articles inside the news: [] (1)
 
 export class PressContentComponent implements OnInit {
 
- press01 = [{
+corals = [{
+  
+    title: `Filipino marine scientist discovers technique to raise corals faster`,
+    date: 'December 19, 2022',
+    author: 'Aie Balagtas See | Benar News',
+    Pthumbnail: 'https://ucarecdn.com/b81aaff0-07bf-4ec9-a1a2-651f8185bc9c/Aie.jpeg',
+    photoContent: '',
+    courtesy: 'PHOTO COURTESY OF  COURTESY OF BENAR NEWS',
+
+     news: [
+      
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956573/News/press/siringan-anc_anitfe.png", title: "Research station on West PH Sea's Pag-asa island unveiled", content: `UP Marine Science Institute opens research hub on Pag-asa Island`, url: 'island-unveiled'},
+      ]
+  }];
+
+cucumber = [{
+  
+    title: `‘Maarte’ sea cucumber bring hope for ‘stronger’ Covid vax, cancer treatment`,
+    date: 'December 20, 2022',
+    author: 'Ryan Christopher J. Sorote | Pressone.ph',
+    Pthumbnail: 'https://ucarecdn.com/4389b639-b39d-4838-830c-85ca009ad670/Ryan.png',
+    photoContent: '',
+    courtesy: 'PHOTO COURTESY OF  COURTESY OF PRESSONE.PH',
+
+     news: [
+      
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956573/News/press/siringan-anc_anitfe.png", title: "Research station on West PH Sea's Pag-asa island unveiled", content: `UP Marine Science Institute opens research hub on Pag-asa Island`, url: 'island-unveiled'},
+      ]
+  }];
+
+swfam = [{
+  
+    title: `Meet the Black Sheep of the Seaweed Family`,
+    date: 'December 20, 2022',
+    author: 'Christa I. De La Cruz | Spot.ph',
+    Pthumbnail: 'https://ucarecdn.com/275f7c57-c7ed-45e4-9984-0bc613c6cb2a/Christa.jpg',
+    photoContent: '',
+    courtesy: 'PHOTO COURTESY OF  COURTESY OF DR. WILFRED JOHN E. SANTIANEZ ILLUSTRATOR: WAR ESPEJO',
+
+     news: [
+      
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956573/News/press/siringan-anc_anitfe.png", title: "Research station on West PH Sea's Pag-asa island unveiled", content: `UP Marine Science Institute opens research hub on Pag-asa Island`, url: 'island-unveiled'},
+      ]
+  }];
+
+plastic = [{
+  
+    title: `UP scientists race to find plastic-eating microbes`,
+    date: 'December 18, 2022',
+    author: 'KRIXIA SUBINGSUBING | Inquirer',
+    Pthumbnail: 'https://ucarecdn.com/0fdb5b6a-5f01-4008-b23e-9f5e2cc2b9a0/Krixia.jpg',
+    photoContent: '',
+    courtesy: 'PHOTO COURTESY OF UP Marine Science Institute',
+
+     news: [
+      
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956573/News/press/siringan-anc_anitfe.png", title: "Research station on West PH Sea's Pag-asa island unveiled", content: `UP Marine Science Institute opens research hub on Pag-asa Island`, url: 'island-unveiled'},
+      ]
+  }];
+
+dagat = [{
+  
+    title: `Umaasim ang dagat`,
+    date: 'December 17, 2022',
+    author: 'JOSELITO D. DE LOS REYES | Rappler',
+    Pthumbnail: 'https://ucarecdn.com/49f03321-2423-46bf-8f9c-5b6ea3ff3363/Joselito2.png',
+    photoContent: '',
+    courtesy: 'PHOTO COURTESY OF RAPPLER',
+
+     news: [
+      
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1663125465/News/press/Press-1_mzjfwd.jpg", title: " West Philippine Sea: UP experts set sail for 3-year study seeking opportunities", content: 'The West Philippine Sea (WPS) remains threatened by both...', url: 'UP-experts-set-sail'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956812/News/press/tvpatrol_giksmr.png", title: "Team of PH scientists now headed to Pag-asa Island", content: 'UP Marine Science Institute opens research hub on Pag-asa Island"', url: 'West-PH-Sea'},
+      {image: "https://res.cloudinary.com/upmsi/image/upload/v1643956573/News/press/siringan-anc_anitfe.png", title: "Research station on West PH Sea's Pag-asa island unveiled", content: `UP Marine Science Institute opens research hub on Pag-asa Island`, url: 'island-unveiled'},
+      ]
+  }];
+
+ seaweed = [{
   
     title: `Balik Scientist names 6 Seaweed Genera, holds a record by a Filipino Scientist`,
     date: 'September 7, 2022',
@@ -31,7 +116,7 @@ export class PressContentComponent implements OnInit {
       ]
   }];
 
-   press02 = [{
+   west = [{
     title: `West Philippine Sea: UP experts set sail for 3-year study seeking opportunities`,
     date: 'June 6, 2022',
     author: 'Yahoo! News',
@@ -46,7 +131,7 @@ export class PressContentComponent implements OnInit {
       ]
   }];
 
-press03 = [{
+pagasa7 = [{
     title: `Research facility sa Pag-asa Island, West PH Sea binuksan ng Pinoy experts`,
     date: 'October 25, 2021',
     author: 'TV Patrol',
@@ -61,7 +146,7 @@ press03 = [{
       ]
   }];
 
-press04 = [{
+pagasa6 = [{
     title: `Research station on West PH Sea's Pag-asa island unveiled`,
     date: 'October 25, 2021',
     author: 'ANC 24/7',
@@ -78,7 +163,7 @@ press04 = [{
 
 
 
-  press05 = [{
+  pagasa5 = [{
     title: `Team of PH scientists now headed to Pag-asa Island`,
     date: 'October 4, 2021',
     author: 'Inquirer.net',
@@ -93,7 +178,7 @@ press04 = [{
       ]
   }];
 
-  press6 = [{
+  pagasa4 = [{
     title: `Of science and sovereignty: Research station opens in Pag-asa Island`,
     date: 'October 25, 2021',
     author: 'Manila News',
@@ -108,7 +193,7 @@ press04 = [{
       ]
   }];
 
-  press7 = [{
+  pagasa3 = [{
     title: `Pag-asa Island sets up scientific research station`,
     date: 'October 30, 2021',
     author: 'Palawan News',
@@ -123,7 +208,7 @@ press04 = [{
       ]
   }];
 
-   press8 = [{
+   pagasa2 = [{
     title: `Pag-asa Island sets up scientific research station`,
     date: 'October 30, 2021',
     author: 'Esquire Mag',
@@ -139,7 +224,7 @@ press04 = [{
   }];
 
 
-press9 = [{
+pagasa1 = [{
     title: `UP Marine Science Institute opens research hub on Pag-asa Island`,
     date: 'October 25, 2021',
     author: 'ANC 24/7',
@@ -154,7 +239,7 @@ press9 = [{
       ]
   }];
 
-  press10 = [{
+  emdem = [{
     title: 'Dr. Deo Florence Onda, unang Pinoy na nakarating sa Emden Deep',
     date: 'March 25, 2021',
     author: 'GMA News',
@@ -169,7 +254,7 @@ press9 = [{
       ]
   }];
 
-  press11 = [{
+  laura = [{
     title: 'Meet the Innovator Protecting Our Oceans in the Philippines: Dr. Laura T. meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david',
     date: 'June 3, 2020',
     author: 'The World Bank',
@@ -184,7 +269,7 @@ press9 = [{
       ]
   }];
 
-  press12 = [{
+  sasia = [{
     title: `Southeast Asia Speaks: Marine scientist Deo Onda on protecting West Philippine Sea resources`,
     date: 'June 10, 2021',
     author: 'Rappler',
@@ -199,7 +284,7 @@ press9 = [{
       ]
   }];
 
-  press13 = [{
+  sona = [{
     title: `SONA: UP Marine Science Institute, nanawagan na protektahan ang ating EEZ`,
     date: 'July 2, 2019',
     author: 'GMA News',
@@ -214,7 +299,7 @@ press9 = [{
       ]
   }];
 
-  press14 = [{
+  ots = [{
     title: `ON THE SPOT: All Filipino scientific expedition sa Kalayaan Island sa West Philippine Sea`,
     date: 'May 9, 2019',
     author: 'PTV',
@@ -229,7 +314,7 @@ press9 = [{
       ]
   }];
 
-  press15 = [{
+  bt = [{
     title: `BT: Paglalakbay ng ilang kawani ng gobyerno at estudyante ng UP-marine science institute`,
     date: 'April 22, 2019',
     author: 'GMA News',
@@ -244,7 +329,7 @@ press9 = [{
       ]
   }];
 
-  press16 = [{
+  mbay = [{
     title: `Manila Bay - Rehabilitasyon o Reklamasyon? (Ika-2 Yugto) | Failon Ngayon`,
     date: 'April 14, 2019',
     author: 'ABS-CBN News',
@@ -259,7 +344,7 @@ press9 = [{
       ]
   }];
 
-  press17 = [{
+  adopt = [{
     title: `Adopt a giant clam program, suportado ng UP-Marine Science Institute`,
     date: 'April 22, 2019',
     author: 'Eagle News',
@@ -274,7 +359,7 @@ press9 = [{
       ]
   }];
 
-  press18 = [{
+  aha = [{
     title: `AHA!: The giant clams of Bolinao, Pangasinan`,
     date: 'January 8, 2018',
     author: 'GMA Playground',
@@ -289,7 +374,7 @@ press9 = [{
       ]
   }];
 
-  press19 = [{
+  tcclam = [{
     title: `How to take care of giant clams`,
     date: 'May 5, 2017',
     author: 'INQUIRER.net',
@@ -304,7 +389,7 @@ press9 = [{
       ]
   }];
 
-  press20 = [{
+  giantclam = [{
     title: `The Giant Clam Nursery in Bolinao, Pangasinan`,
     date: 'April 25, 2017',
     author: 'Manila Bulletin Online',
@@ -330,13 +415,21 @@ press9 = [{
   myArr = [];
 
    
-  press01Bool:boolean = false;
-  press02Bool:boolean = false;
-  press03Bool:boolean = false;
-  press04Bool:boolean = false;
-  press05Bool:boolean = false;
-  press6Bool:boolean = false;
-  press9Bool:boolean = false;
+  seaweedBool:boolean = false;
+  westBool:boolean = false;
+  pagasa7Bool:boolean = false;
+  pagasa6Bool:boolean = false;
+  pagasa5Bool:boolean = false;
+  pagasa4Bool:boolean = false;
+  pagasa3Bool:boolean = false;
+  pagasa2Bool:boolean = false;
+  pagasa1Bool:boolean = false;
+  dagatBool:boolean = false;
+  lauraBool:boolean = false;
+  plasticBool:boolean = false;
+  swfamBool:boolean = false;
+  cucumberBool:boolean = false;
+  coralsBool:boolean = false;
 
   constructor(private router:Router) { }
 
@@ -345,148 +438,173 @@ press9 = [{
   /**
     switch(this.router.url) {
       case '/News/press-coverage-headlines/Research-facility':
-        this.myArr = this.press01;
+        this.myArr = this.seaweed;
         break;
       case '/News/press-coverage-headlines/Research-facility':
-        this.myArr = this.press02;
+        this.myArr = this.west;
         break;
       case '/News/press-coverage-headlines/Research-facility':
-        this.myArr = this.press03;
+        this.myArr = this.pagasa7;
         break;
       case '/News/press-coverage-headlines/island-unveiled':
-        this.myArr = this.press04;
+        this.myArr = this.pagasa6;
         break;
       case '/News/press-coverage-headlines/Team-of-PH':
-        this.myArr = this.press05;
-        this.press03Bool = true;
+        this.myArr = this.pagasa5;
+        this.pagasa7Bool = true;
         break;
       case '/News/press-coverage-headlines/station-opens':
-        this.myArr = this.press6;
-        this.press04Bool = true;
+        this.myArr = this.pagasa4;
+        this.pagasa6Bool = true;
         break;
       case '/News/press-coverage-headlines/Pag-asa sland':
-        this.myArr = this.press7;
-        this.press05Bool = true;
+        this.myArr = this.pagasa3;
+        this.pagasa5Bool = true;
         break;
       case '/News/press-coverage-headlines/scientific-research':
-        this.myArr = this.press8;
-        this.press6Bool = true;
+        this.myArr = this.pagasa2;
+        this.pagasa4Bool = true;
         break;
       case '/News/press-coverage-headlines/UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island':
-        this.myArr = this.press9;
+        this.myArr = this.pagasa1;
         break;
       case '/News/press-coverage-headlines/Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep':
-        this.myArr = this.press10;
+        this.myArr = this.emdem;
         break;
       case '/News/press-coverage-headlines/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david':
-        this.myArr = this.press11;
-        this.press9Bool = true;
+        this.myArr = this.laura;
+        this.lauraBool = true;
         break;
       case '/News/press-coverage-headlines/Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources':
-        this.myArr = this.press12;
+        this.myArr = this.sasia;
         break;
       case '/News/press-coverage-headlines/SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ':
-        this.myArr = this.press13;
+        this.myArr = this.sona;
         break;
       case '/News/press-coverage-headlines/ON-THE-SPOT-All-filipino-scientific-expedition-sa-kalayaan-island-sa-West-Philippine-Sea':
-        this.myArr = this.press14;
+        this.myArr = this.ots;
         break;
       case '/News/press-coverage-headlines/BT-Paglalakbay-ng-ilang-kawani-ng-gobyerno-at-estudyante-ng-UP-marine-science-institute':
-        this.myArr = this.press15;
+        this.myArr = this.bt;
         break;
       case '/News/press-coverage-headlines/Manila-Bay-rehabilitasyon-o-reklamasyon':
-        this.myArr = this.press16;
+        this.myArr = this.mbay;
         break;
       case '/News/press-coverage-headlines/adopt-a-giant-clam-program-suportado-ng-UP-Marine-Science-Institute':
-        this.myArr = this.press17;
+        this.myArr = this.adopt;
         break;
       case '/News/press-coverage-headlines/AHA!-The-giant-clams-of-Bolinao-Pangasinan':
-        this.myArr = this.press18;
+        this.myArr = this.aha;
         break;
       case '/News/press-coverage-headlines/how-to-take-care-of-giant-clams':
-        this.myArr = this.press19;
+        this.myArr = this.tcclam;
         break;
       case '/News/press-coverage-headlines/the-giant-clam-nursery-in-Bolinao-Pangasinan':
-        this.myArr = this.press20;
+        this.myArr = this.giantclam;
         break;
 
     }
     */
 
+    if(this.router.url.includes('/News/press-coverage-headlines/Filipino-marine-scientist-discovers-technique-to-raise-corals-faster')){
+      this.myArr = this.corals;
+      this.coralsBool = true;
+      }
+
+    if(this.router.url.includes('/News/press-coverage-headlines/Maarte-sea-cucumber-bring-hope-for-stronger-covid-vax-cancer-treatment')){
+      this.myArr = this.cucumber;
+      this.cucumberBool = true;
+      }
+
+    if(this.router.url.includes('/News/press-coverage-headlines/New-seaweed-genus-named-by-filipino-scientist')){
+      this.myArr = this.swfam;
+      this.swfamBool = true;
+      }
+
+    if(this.router.url.includes('/News/press-coverage-headlines/UP-scientists-race-to-find-plastic-eating-microbes')){
+      this.myArr = this.plastic;
+      this.plasticBool = true;
+      }
+
+    if(this.router.url.includes('/News/press-coverage-headlines/Umaasim-ang-Dagat')){
+      this.myArr = this.dagat;
+      this.dagatBool = true;
+      }
+
     if(this.router.url.includes('/News/press-coverage-headlines/Balik-Scientist-names-6-Seaweed-Genera')){
-      this.myArr = this.press01;
-      this.press01Bool = true;
+      this.myArr = this.seaweed;
+      this.seaweedBool = true;
       }
 
-    if(this.router.url.includes('/News/press-coverage-headlines/UP-experts-set-sail')){
-      this.myArr = this.press02;
-      this.press02Bool = true;
+    if(this.router.url.includes('/News/press-coverage-headlines/UP-experts-set-sail-for-3-year-study-seeking-opportunities')){
+      this.myArr = this.west;
+      this.westBool = true;
       }
 
-    if(this.router.url.includes('/News/press-coverage-headlines/West-PH-Sea')){
-      this.myArr = this.press03;
+    if(this.router.url.includes('/News/press-coverage-headlines/Research-facility-sa-Pag-asa-Island-West-PH-Sea-binuksan-ng-Pinoy-experts')){
+      this.myArr = this.pagasa7;
       }
 
-    if(this.router.url.includes('/News/press-coverage-headlines/island-unveiled')){
-      this.myArr = this.press04;
+    if(this.router.url.includes('/News/press-coverage-headlines/Research-station-on-West-PH-Sea-Pag-asa-island-unveiled')){
+      this.myArr = this.pagasa6;
       }
 
-    if(this.router.url.includes('/News/press-coverage-headlines/Team-of-PH')){
-      this.myArr = this.press05;
-      this.press03Bool = true;
+    if(this.router.url.includes('/News/press-coverage-headlines/Team-of-PH-scientists-now-headed-to-Pag-asa-Island')){
+      this.myArr = this.pagasa5;
+      this.pagasa5Bool = true;
       }
 
-    if(this.router.url.includes('/News/press-coverage-headlines/station-opens')){
-      this.myArr = this.press6;
-      this.press04Bool = true;
+    if(this.router.url.includes('/News/press-coverage-headlines/Of-science-and-sovereignty:-Research-station-opens-in-Pag-asa-Island')){
+      this.myArr = this.pagasa4;
+      this.pagasa4Bool = true;
       }
 
-    if(this.router.url.includes('/News/press-coverage-headlines/Pag-asa-island')){
-      this.myArr = this.press7;
-      this.press05Bool = true;
+    if(this.router.url.includes('/News/press-coverage-headlines/Pag-asa-island-sets-up-scientific-research-station')){
+      this.myArr = this.pagasa3;
+      this.pagasa3Bool = true;
       }
 
-    if(this.router.url.includes('/News/press-coverage-headlines/scientific-research')){
-      this.myArr = this.press8;
-      this.press6Bool = true;
+    if(this.router.url.includes('/News/press-coverage-headlines/Pag-asa-Island-sets-up-scientific-research-station')){
+      this.myArr = this.pagasa2;
+      this.pagasa2Bool = true;
       }
 
      if(this.router.url.includes('/News/press-coverage-headlines/UP-Marine-Science-Institute-opens-research-hub-on-Pag-asa-Island')){
-      this.myArr = this.press9;
+      this.myArr = this.pagasa1;
       }
     if(this.router.url.includes('/News/press-coverage-headlines/Dr.-Deo-Florence-Onda-unang-pinoy-na-nakarating-sa-Emden-Deep')){
-      this.myArr = this.press10;
+      this.myArr = this.emdem;
       }
     if(this.router.url.includes('/News/press-coverage-headlines/meet-the-innovator-protecting-our-oceans-in-the-philippines-dr-laura-david')){
-      this.myArr = this.press11; 
-      this.press9Bool = true;
+      this.myArr = this.laura; 
+      this.lauraBool = true;
       }
     if(this.router.url.includes('/News/press-coverage-headlines/Southeast-Asia-Speaks-Marine-scientist-Deo-Onda-on-protecting-West-Philippine-Sea-resources')){
-      this.myArr = this.press12;
+      this.myArr = this.sasia;
       }
     if(this.router.url.includes('/News/press-coverage-headlines/SONA-UP-Marine-Science-Institute-nanawagan-na-protektahan-ang-ating-EEZ')){
-      this.myArr = this.press13;
+      this.myArr = this.sona;
       }
     if(this.router.url.includes('/News/press-coverage-headlines/ON-THE-SPOT-All-filipino-scientific-expedition-sa-kalayaan-island-sa-West-Philippine-Sea')){
-      this.myArr = this.press14;
+      this.myArr = this.ots;
       }
     if(this.router.url.includes('/News/press-coverage-headlines/BT-Paglalakbay-ng-ilang-kawani-ng-gobyerno-at-estudyante-ng-UP-marine-science-institute')){
-     this.myArr = this.press15;
+     this.myArr = this.bt;
       }
     if(this.router.url.includes('/News/press-coverage-headlines/Manila-Bay-rehabilitasyon-o-reklamasyon')){
-      this.myArr = this.press16;
+      this.myArr = this.mbay;
       }
     if(this.router.url.includes('/News/press-coverage-headlines/adopt-a-giant-clam-program-suportado-ng-UP-Marine-Science-Institute')){
-      this.myArr = this.press17;
+      this.myArr = this.adopt;
       }
       if(this.router.url.includes('/News/press-coverage-headlines/AHA!-The-giant-clams-of-Bolinao-Pangasinan')){
-      this.myArr = this.press18;
+      this.myArr = this.aha;
       }
     if(this.router.url.includes('/News/press-coverage-headlines/how-to-take-care-of-giant-clams')){
-      this.myArr = this.press19;
+      this.myArr = this.tcclam;
       }
     if(this.router.url.includes('/News/press-coverage-headlines/the-giant-clam-nursery-in-Bolinao-Pangasinan')){
-      this.myArr = this.press20;
+      this.myArr = this.giantclam;
       }
   }
 

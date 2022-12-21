@@ -22,14 +22,14 @@ export class PressBranchComponent implements OnInit {
   }
 
   newsContent1(){
-    this.router.navigate(['/News/press-coverage-headlines/UP-experts-set-sail']);
+    this.router.navigate(['/News/press-coverage-headlines/UP-experts-set-sail-for-3-year-study-seeking-opportunities']);
   }
 
   newsContent2(){
-    this.router.navigate(['/News/press-coverage-headlines/West-PH-Sea']);
+    this.router.navigate(['/News/press-coverage-headlines/Research-facility-sa-Pag-asa-Island-West-PH-Sea-binuksan-ng-Pinoy-experts']);
   }
 
   newsContent3(){
-    this.router.navigate(['/News/press-coverage-headlines/island-unveiled']);
+    this.router.navigate(['/News/press-coverage-headlines/Research-station-on-West-PH-Sea-Pag-asa-island-unveiled']);
   }
 }
