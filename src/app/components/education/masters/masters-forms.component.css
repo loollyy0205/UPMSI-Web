@@ -1,0 +1,441 @@
+.container{
+  margin: 0 9%;
+  margin-top: 1.464vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content-header{
+  height: 21.742vw;
+  position: relative;
+  top: 0.732vw; /*edited*/
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: 4em;
+}
+
+.boxed {
+ 
+  background-color: #24333b;
+   border-radius: 20px;
+     font-size: 1.096vw;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header {
+  margin-top: 5.124vw;
+  height: 10.981vw;
+}
+
+.title{
+  font-size: 2.123vw;
+}
+
+.content-p {
+  font-size: 1.171vw;
+  margin-top: 2.123vw;
+  font-family: 'Atlas-light';
+  line-height: 1.4;
+}
+
+.card {
+  height: 17.496vw;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1.318vw;
+}
+
+.card .left {
+  width: 31%;
+  margin: 0.586vw;
+}
+
+.card .right {
+  width: 62.2%;
+  /* border: 1px solid black; */
+  margin-right: 2.928vw;
+  font-size: 1.171vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-content {
+  font-family: 'atlas-light';
+  font-size: 1.171vw;
+  margin-top: 1.098vw;
+  line-height: 1.3;
+}
+
+.box-card { /* editted: removed margin-top;*/
+  height: 55.124vw;
+  margin-right: -3.7%;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner-content{
+  font-size: 1.318vw;
+  margin-top: 0.952vw;
+  width: 50.073vw;
+}
+
+.left-content{
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  width: 36.603vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3.660vw;
+  top: 0;
+  color: white;
+}
+
+.title{
+  font-size: 2.123vw;
+}
+
+mat-expansion-panel{
+  margin-bottom: -1.464vw;
+}
+
+.panel-title{
+  color: white;
+  padding: 1.098vw 0;
+  font-size: 1.025vw;
+}
+
+mat-expansion-panel{
+  border-color: white;
+  background-color: #fafafa;
+}
+
+::ng-deep .specific-class > .mat-expansion-indicator:after {
+  color: white;
+}
+
+.specific-class{
+  border-radius: 3.660vw;
+}
+
+.grad-offering{
+  margin-top: 3.660vw !important;
+  padding: 0 12.445vw; /*edited*/
+}
+
+.core-courses{
+  height: 100%;
+  margin-left: 1.464vw;
+  border-left: 0.220vw solid #5da563;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1.098vw;
+}
+
+.core-content{
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.core-courses div{
+  margin-left: 1.464vw;
+}
+
+.closed-main-head{
+  background-color: #384e8a;
+  border-radius: 3.660vw;
+}
+
+.regular-content{
+  height: 100%;
+  display: flex;
+  font-size: 1.025vw;
+  flex-direction: row;
+}
+
+.left{
+  width: 100%;
+}
+
+.left p{
+  margin-top: 1.464vw;
+}
+
+.right div{
+  margin-top: 0.732vw;
+}
+
+.banner-content{
+  font-size: 1.171vw;
+}
+
+a{
+  color:  #5da563;
+}
+
+a:visited{
+  color: #394e8a;
+}
+
+.arrow{
+  font-size: 2vw;
+  padding-left: .5vw;
+  text-decoration: none !important;
+}
+
+.navi:hover {
+  text-decoration: underline;
+}
+
+.more-vacancies{
+  color: #384e8a;
+  margin-left: 9%;
+  margin-right: 9%;
+  display: flex;
+  height: 8.785vw;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.171vw;
+}
+
+.mobile-banner-content {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container{
+    margin: 0 9%;
+    margin-top: 6%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .content-header{
+    height: 40vw;
+    position: relative;
+    top: 0.732vw; /*edited*/
+  }
+
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .banner-content{
+    display: none;
+  }
+
+  .left-content{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3.660vw;
+    top: 0;
+    color: white;
+  }
+
+  .title{
+    font-size: 5vw;
+  }
+
+  mat-expansion-panel{
+    margin-bottom: -1.464vw;
+  }
+
+  .panel-title{
+    color: white;
+    padding: 3vw 0;
+    font-size: 3vw;
+    line-height: 1.3;
+  }
+
+  mat-expansion-panel{
+    border-color: white;
+    background-color: #fafafa;
+  }
+
+  ::ng-deep .specific-class > .mat-expansion-indicator:after {
+    color: white;
+    border-width: 0 .35vw .35vw 0 !important;
+    height: .9vw;
+    width: .9vw;
+    padding: 0.220vw !important;
+  }
+
+  .mobile-banner-content {
+    display: block;
+    font-size: 4vw;
+    margin-top: 10%;
+  }
+
+  .specific-class{
+    border-radius: 5vw;
+  }
+
+  .grad-offering{
+    margin-top: 5vw !important;
+    padding: 0; /*edited*/
+  }
+
+  .core-courses{
+    height: 100%;
+    margin-left: 1.464vw;
+    border-left: 0.220vw solid #5da563;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1.098vw;
+  }
+
+  .core-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+  }
+
+  .core-courses div{
+    margin-left: 1.464vw;
+  }
+
+  .closed-main-head{
+    background-color: #384e8a;
+    border-radius: 3.660vw;
+  }
+
+  .regular-content{
+    height: 100%;
+    display: flex;
+    font-size: 4vw;
+    flex-direction: row;
+  }
+
+  .left{
+    width: 100%;
+
+  }
+
+  .left p{
+    margin-top: 5%;
+  }
+
+  .right div{
+    margin-top: 0.732vw;
+  }
+
+
+  .arrow{
+    font-size: 7vw;
+    /* margin-top: -2%; */
+  }
+
+  .arrow-text{
+    font-size: 4vw;
+  }
+
+  .more-vacancies{
+    color: #384e8a;
+    margin-left: 9%;
+    margin-right: 9%;
+    display: flex;
+    flex-direction: row;
+    height: 25vw;
+    margin-top: 2%;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  img {
+    height: 52vw;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .header {
+    margin-top: 8%;
+    height: 100%;
+  }
+
+  .title{
+    font-size: 5vw;
+    line-height: 1.3;
+  }
+
+  .content-p {
+    font-size: 4vw;
+    margin-top: 3%;
+    font-family: 'Atlas-light';
+    line-height: 1.4;
+  }
+
+   .card {
+    height: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+
+  }
+
+  .card .left {
+    width: 100%;
+    margin: 0.586vw;
+  }
+
+  .card .right {
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 3.5%;
+    font-size: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-content {
+    font-family: 'atlas-light';
+    font-size: 4vw;
+    margin-top: 1.098vw;
+    line-height: 1.3;
+  }
+
+  .box-card { /* editted: removed margin-top;*/
+    margin-top: 2%;
+    height: 100%;
+    margin-right: 0;
+    overflow: hidden;
+  }
+
+
+}

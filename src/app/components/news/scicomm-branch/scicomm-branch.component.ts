@@ -14,19 +14,19 @@ export class ScicommBranchComponent implements OnInit {
   }
 
   newsContent3(){
-    this.router.navigate(['/News/scicomm', 'In-Full-Bloom']);
+    this.router.navigate(['/News/eddy', 'fishing-in-a-vortex']);
   }
  
   newsContent2(){
-    this.router.navigate(['/News/alan', 'lights-off']);
+    this.router.navigate(['/News/herbarium', 'herbarium-feature']);
   }
 
   newsContent1(){
-    this.router.navigate(['/News/eddy', 'fishing-in-a-vortex']);
+    this.router.navigate(['/News/report', 'report-expeditions']);
   }
 
   newsContent(){
-    this.router.navigate(['/News/report', 'report-expeditions']);
+    this.router.navigate(['/News/sea', 'Sea-cucumber-management']);
   }
   
 } 

@@ -1,5 +1,92 @@
 <app-nav></app-nav>
 <div class="container">
+
+   <p class="atlas-blackReg title" style="color: #384e8a; text-transform: uppercase; margin-top: 10px;">STUDENT SPOTLIGHT</p>
+
+   <p class="atlas-light banner-content1" style="line-height: 1.3;">
+        We would like to congratulate the poster presentation winners at the recent 3rd Graduate Student Research Conference of the UP Diliman College of Science! Out of over 30 poster entries, the judges have scored and selected the top winning poster per thematic area. <br> <br>
+
+        We also want to thank all participants for making the event a success. 
+      </p>
+    <div class="box-card" style="overflow: scroll;">
+    <div class="box-card-content">
+      <div class="card" *ngFor="let item of acadCont1">
+        <div class="left">
+          <img [src]="item.img" />
+        </div>
+        <div class="right">
+          <p class="atlas-bold" style="color: #384e8a;">{{item.title}}</p>
+          <p class="card-content">{{item.content}}</p>
+        </div>
+      </div>
+     </div>
+
+      <div class="box-card-content" >
+      <div class="card" *ngFor="let item of acadCont2">
+        <div class="left">
+          <img [src]="item.img" />
+        </div>
+        <div class="right">
+          <p class="atlas-bold" style="color: #384e8a;">{{item.title}}</p>
+          <p class="card-content" *ngIf="acadCont2">BIODIVERSITY - De Novo Assembly of the Genome of the Shortfin Scad, <em>Decapterus Macrosoma</em> (Perciformes, Carangidae): Constructing a Genomic Resource for Galunggong Biology </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="box-card-content" >
+      <div class="card" *ngFor="let item of acadCont3">
+        <div class="left">
+          <img [src]="item.img" />
+        </div>
+        <div class="right">
+          <p class="atlas-bold" style="color: #384e8a;">{{item.title}}</p>
+          <p class="card-content" *ngIf="acadCont3">HEALTH - Anti-Inflammatory Activity of Monosubstituted Xestoquinone Analogues from the Marine Sponge <em>Neopetrosia compacta</em></p>
+        </div>
+      </div>
+
+    </div>
+
+     <div class="box-card-content" >
+      <div class="card" *ngFor="let item of acadCont4">
+        <div class="left">
+          <img [src]="item.img" />
+        </div>
+        <div class="right">
+          <p class="atlas-bold" style="color: #384e8a;">{{item.title}}</p>
+          <p class="card-content">{{item.content}}</p>
+        </div>
+      </div>
+
+    </div>
+
+     <div class="box-card-content" >
+      <div class="card" *ngFor="let item of acadCont5">
+        <div class="left">
+          <img [src]="item.img" />
+        </div>
+        <div class="right">
+          <p class="atlas-bold" style="color: #384e8a;">{{item.title}}</p>
+          <p class="card-content">{{item.content}}</p>
+        </div>
+      </div>
+
+    </div>
+
+     <div class="box-card-content" >
+      <div class="card" *ngFor="let item of acadCont6">
+        <div class="left">
+          <img [src]="item.img" />
+        </div>
+        <div class="right">
+          <p class="atlas-bold" style="color: #384e8a;">{{item.title}}</p>
+          <p class="card-content">{{item.content}}</p>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  <app-acad-banner></app-acad-banner>
   <div class="content-header">
     <img src="https://res.cloudinary.com/upmsi/image/upload/v1627981419/Academics/acad-sub/01-subpage-academics-banner_mahwma.jpg">
     <div class="left-content">

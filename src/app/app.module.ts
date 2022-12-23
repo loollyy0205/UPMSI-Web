@@ -124,9 +124,14 @@ import { CharlonContentComponent } from './components/news/charlon-content/charl
 import { HerbariumContentComponent } from './components/news/herbarium-content/herbarium-content.component';
 import { HerbariumBannerComponent } from './components/news/herbarium-banner/herbarium-banner.component';
 import { ReportContentComponent } from './components/news/report-content/report-content.component';
+import { MastersFormsComponent } from './components/education/masters/masters-forms.component';
+import { PhdFormsComponent } from './components/education/phd/phd-forms.component';
+import { PmtmemFormsComponent } from './components/education/pmtmem/pmtmem-forms.component';
+import { AcadBannerComponent } from './components/education/acad-banner/acad-banner.component';
+import { MoreSeaComponent } from './components/news/more-sea/more-sea.component';
+import { SeaContentComponent } from './components/news/sea-content/sea-content.component';
+import { SeaBranchComponent } from './components/news/sea-branch/sea-branch.component';
 import { BlueBeatComponent } from './components/Blue-Beat-Initiative/blue-beat.component';
-
-
 
 
 
@@ -244,6 +249,13 @@ import { BlueBeatComponent } from './components/Blue-Beat-Initiative/blue-beat.c
     HerbariumContentComponent,
     HerbariumBannerComponent,
     ReportContentComponent,
+    MastersFormsComponent,
+    PhdFormsComponent,
+    PmtmemFormsComponent,
+    AcadBannerComponent,
+    MoreSeaComponent,
+    SeaContentComponent,
+    SeaBranchComponent,
     BlueBeatComponent,
 
   ],

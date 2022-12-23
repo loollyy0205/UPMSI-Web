@@ -1,0 +1,220 @@
+<app-nav></app-nav>
+<div class="container animate__animated animate__fadeIn animate__delay-1s">
+  <div class="content-header">
+    <img src="https://res.cloudinary.com/upmsi/image/upload/v1650441797/Academics/masters/masters-banner_q5ovlw.png">
+    <div class="left-content">
+      <p class="atlas-blackReg title">MASTER’S PROGRAM</p>
+      <p class="atlas-light banner-content" style="line-height: 1.3;">
+        The program leading to the degree of Master of Science in Marine Science (Marine Biology, Marine Physical Sciences, and Marine Biotechnology) aims to provide: (1) basic understanding of the nature of biological and physical processes in the ocean. 2) rigorous training formulating and carrying out independent research.
+      </p>
+    </div>
+  </div>
+
+  <p class="atlas-light mobile-banner-content" style="line-height: 1.3;">
+    The program leading to the degree of Master of Science in Marine Science (Marine Biology, Marine Physical Sciences, and Marine Biotechnology) aims to provide: (1) basic understanding of the nature of biological and physical processes in the ocean. 2) rigorous training formulating and carrying out independent research.
+  </p>
+
+
+   <div class="header">
+    <p class="atlas-blackReg title" style="color: #384e8a; text-transform: uppercase;">The program</p>
+
+    <p class="content-p">Graduate students must choose a subfield of marine science to specialize in. This will determine what kind of research they will be doing throughout the duration of their stay in the UP MSI. <br><br>
+
+   Three major tracks are offered: <strong>marine biology</strong>, <strong>marine physical sciences</strong>, and <strong>marine biotechnology</strong>. Each specialization has unique set of core courses that lay the foundation of the student’s expertise</p>
+  </div>
+
+<div class="box-card">
+  <div class="box-card-content">
+    <div class="box-card-content">
+      <div class="card" *ngFor="let item of acadCont">
+        <div class="left">
+          <img [src]="item.img" />
+        </div>
+        <div class="right">
+          <p class="atlas-bold" style="color: #384e8a;">{{item.title}}</p>
+          <p class="card-content">{{item.content}}</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+  <mat-accordion>
+    <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState = true"
+        (closed)="panelOpenState = false">
+      <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState ? '#394e8a' : '#5ca361'">
+      <mat-panel-title class="atlas-light panel-title">HOW TO APPLY</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="regular-content">
+        <div class="left">
+          <div>
+
+            <p class="atlas-light" style="line-height: 1.5; color: #384e8a">
+              ADMISSION
+            </p>
+ 
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> A high degree of intellectual capacity and aptitude for research and advanced studies
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> A bachelor’s degree from a recognized institution of higher learning
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> A weighted average of at least 2.25 or its equivalent in the natural sciences and mathematics
+            </p>
+
+             <p class="atlas-light" style="line-height: 1.5; margin-left: 20px; ">
+              <span style="color: #384e8a">○</span> Physics (thermodynamics and motion) units
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; margin-left: 20px; ">
+              <span style="color: #384e8a">○</span> Calculus units
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; margin-left: 20px; ">
+              <span style="color: #384e8a">○</span> Organic chemistry units
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; margin-left: 20px; ">
+              <span style="color: #384e8a">○</span> General biology units
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; margin-left: 20px; ">
+              <span style="color: #384e8a">○</span> Elementary biochemistry is required for applicants in Marine Biotechnology
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; margin-left: 20px; ">
+              <span style="color: #384e8a">○</span> Geology 11 or its equivalent for those interested in Marine Physical Sciences
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; color: #384e8a">
+              APPLICATION REQUIREMENTS
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> A letter of application
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> Curriculum vitae
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> Two (2) duly accomplished application forms
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> The original and duplicate copy of the undergraduate and graduate official transcript of records
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> Duly accomplished recommendation forms from two former professors and/or supervisors.
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; margin-left: 20px; ">
+              <span style="color: #384e8a">○</span> Only 2 if both have doctorate degrees; 3 if only one has a doctorate degree, the other 2 must have master’s degree.
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> Payment of application fees (non-refundable)
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> For foreign applicants, whose native language and medium of instruction are not English, certification of English Proficiency (Test of English as a Foreign Language, TOEFL average score of 500)
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> Satisfaction of additional University requirements such as a health clearance and other special admission requirements that may be imposed by a Graduate Committee.
+            </p>
+             <p class="atlas-light" style="line-height: 1.5;  background-color:#E4E9F5; border-radius: 10px; padding: 10px; ">
+              Completed applications shall be submitted to the Graduate Office of the College of Science. The Institute’s Graduate Committee evaluates applications and endorses acceptance to the Dean.
+            </p>
+
+             <p class="atlas-light" style="line-height: 1.5; color: #384e8a">
+              DEADLINE OF APPLICATION FOR 1ST SEMESTER AY 2022-2023
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+             TBA
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel class="mat-elevation-z0 grad-offering" (opened)="panelOpenState1 = true"
+        (closed)="panelOpenState1 = false">
+      <mat-expansion-panel-header class="specific-class" [style.backgroundColor]="panelOpenState1 ? '#394e8a' : '#5ca361'">
+      <mat-panel-title class="atlas-light panel-title">REQUIREMENTS FOR THE MSc DEGREE</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="regular-content">
+        <div class="left">
+          <div>
+
+           
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> Approved Program of Study
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> At least 24 units of formal graduate courses
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; margin-left: 20px; ">
+              <span style="color: #384e8a">○</span> 12 units of electives in either the biological, physical sciences or biotechnology and have his or her thesis in the corresponding discipline
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> Cumulative Weighted Average Grade (CWAG) of not lower than 2.0 for the duration of the study
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> Graduate seminar course and the yearly presentation/report of research progress requirement.
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> Successful public defense of a Master’s Thesis
+            </p>
+
+
+            <p class="atlas-light" style="line-height: 1.5; ">
+              <span style="color: #384e8a">•</span> At least six (6) unbound thesis copies and CD-ROM copy of the approved Master’s thesis
+            </p>
+
+             <p class="atlas-light" style="line-height: 1.5; color: #384e8a">
+              FORMS
+            </p>
+            <p class="atlas-light" style="line-height: 1.5;">
+              1. <a href="https://science.upd.edu.ph/wp-content/uploads/2021/05/Form-1.1-Application-form-for-admission-to-a-graduate-program.pdf" target="_blank">Form 1.1 Application form for admission to a graduate program</a>
+            </p>
+
+            <p class="atlas-light" style="line-height: 1.5;">
+              2. <a href="https://science.upd.edu.ph/wp-content/uploads/2020/04/Form-1.2-Recommendation-form-in-support-of-application-form.pdf" target="_blank">Form 1.2 Recommendation form in support of application form</a>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </mat-expansion-panel>
+
+  </mat-accordion>
+
+</div>
+
+<div class="more-vacancies animate__animated animate__fadeIn animate__delay-1s">
+  <span class="arrow-text" routerLink="/Academics/pmtmem">
+    <p class="atlas-light"><span class="navi">TO PM-TMEM PROGRAM</span> <span class="arrow">&rarr;</span></p>
+  </span>
+</div>
+
+<div>
+  <app-footer></app-footer>
+</div>

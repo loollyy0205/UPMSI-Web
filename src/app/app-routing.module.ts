@@ -59,8 +59,12 @@ import { EddyContentComponent } from './components/news/eddy-content/eddy-conten
 import { CharlonContentComponent } from './components/news/charlon-content/charlon-content.component';
 import { HerbariumContentComponent } from './components/news/herbarium-content/herbarium-content.component';
 import { ReportContentComponent } from './components/news/report-content/report-content.component';
+import { MastersFormsComponent } from './components/education/masters/masters-forms.component';
+import { PhdFormsComponent } from './components/education/phd/phd-forms.component';
+import { PmtmemFormsComponent } from './components/education/pmtmem/pmtmem-forms.component';
+import { SeaContentComponent } from './components/news/sea-content/sea-content.component';
+import { MoreSeaComponent } from './components/news/more-sea/more-sea.component';
 import { BlueBeatComponent } from './components/Blue-Beat-Initiative/blue-beat.component';
-
 
 
 
@@ -131,7 +135,13 @@ const routes: Routes = [
   {path: 'News/charlon/:name', component: CharlonContentComponent},
   {path: 'News/herbarium/:name', component: HerbariumContentComponent},
   {path: 'News/report/:name', component: ReportContentComponent},
+  {path: 'Academics/masters', component: MastersFormsComponent},
+  {path: 'Academics/phd', component: PhdFormsComponent},
+  {path: 'Academics/pmtmem', component: PmtmemFormsComponent},
+  {path: 'News/sea/:name', component: SeaContentComponent},
+  {path: 'News/sea-headlines', component: MoreSeaComponent},
   {path: 'Blue-Beat-Initiative', component: BlueBeatComponent},
+  
  
 ];
 
