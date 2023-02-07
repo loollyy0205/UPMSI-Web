@@ -132,6 +132,7 @@ import { MoreSeaComponent } from './components/news/more-sea/more-sea.component'
 import { SeaContentComponent } from './components/news/sea-content/sea-content.component';
 import { SeaBranchComponent } from './components/news/sea-branch/sea-branch.component';
 import { BlueBeatComponent } from './components/Blue-Beat-Initiative/blue-beat.component';
+import { BBIVidComponent } from './components/BBI-vid/BBI-vid.component';
 
 
 @NgModule({
@@ -256,7 +257,8 @@ import { BlueBeatComponent } from './components/Blue-Beat-Initiative/blue-beat.c
     SeaContentComponent,
     SeaBranchComponent,
     BlueBeatComponent,
-  
+    BBIVidComponent,
+
   ],
   imports: [
     BrowserModule,

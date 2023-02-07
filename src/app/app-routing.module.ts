@@ -65,7 +65,7 @@ import { PmtmemFormsComponent } from './components/education/pmtmem/pmtmem-forms
 import { SeaContentComponent } from './components/news/sea-content/sea-content.component';
 import { MoreSeaComponent } from './components/news/more-sea/more-sea.component';
 import { BlueBeatComponent } from './components/Blue-Beat-Initiative/blue-beat.component';
-
+import { BBIVidComponent } from './components/BBI-vid/BBI-vid.component';
 
 
 
@@ -142,7 +142,7 @@ const routes: Routes = [
   {path: 'News/sea/:name', component: SeaContentComponent},
   {path: 'News/sea-headlines', component: MoreSeaComponent},
   {path: 'Blue-Beat-Initiative', component: BlueBeatComponent},
- 
+  {path: 'BBI-vid', component: BBIVidComponent},
   
  
 ];
